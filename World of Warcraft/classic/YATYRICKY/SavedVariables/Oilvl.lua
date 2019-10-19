@@ -1,0 +1,30 @@
+
+Oilvl_Settings = {
+	["oilvlsamefaction"] = false,
+	["oilvlframeY"] = -140,
+	["oilvldp"] = 1,
+	["oilvlme2"] = false,
+	["oilvlgears"] = {
+	},
+	["raidmenuid"] = 1,
+	["oilvlcache"] = {
+	},
+	["oilvlme"] = true,
+	["oilvlsummaryshow"] = true,
+	["oilvlframeP"] = "TOPLEFT",
+	["oilvlprintloaded"] = false,
+	["oilvlautoscan"] = true,
+	["oilvlms"] = true,
+	["oilvlalpha"] = 1,
+	["oilvlcachesw"] = true,
+	["oilvlge"] = true,
+	["oilvlminimapicon"] = true,
+	["oilvlcharilvl"] = true,
+	["oilvlbagilvl"] = true,
+	["oilvlscale"] = 0.8,
+	["oilvlframeX"] = 22,
+	["oilvlun"] = true,
+	["oilvlrpdetails"] = true,
+	["oilvlcolormatchitemrarity"] = true,
+	["oilvlaltclickroll"] = true,
+}
