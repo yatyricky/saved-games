@@ -1,0 +1,19 @@
+{
+  "name": "saved-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatyricky/saved-games.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yatyricky/saved-games/issues"
+  },
+  "homepage": "https://github.com/yatyricky/saved-games#readme"
+}
