@@ -6,10 +6,10 @@ TRP3_Register = {
 		["愈心者凯辛-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "0925224130n39bL",
-			["clientVersion"] = "1.6.6.1",
 			["client"] = "Total RP 3",
-			["isTrial"] = 0,
+			["clientVersion"] = "1.6.6.1",
 			["msp"] = false,
+			["isTrial"] = 0,
 		},
 	},
 	["companion"] = {
