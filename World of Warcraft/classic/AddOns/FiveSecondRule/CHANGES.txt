@@ -1,0 +1,10 @@
+tag 135eb3660000d99436e0c2b3211860960f9fa26f Release-1-14
+Author:	Stefan Pedersen <sp@ceptu.com>
+Date:	Sun Oct 13 02:00:09 2019 +0200
+
+commit 2dccc5dcc08645b6eea93c8ebbb2b93280a338cd
+Author: Stefan Pedersen <sp@ceptu.com>
+Date:   Sun Oct 13 01:59:53 2019 +0200
+
+    Tick validation significantly simplified. Running average increased to 10 ticks. Running average and average tick stored between reloads for stability. Release 1.14.
+
