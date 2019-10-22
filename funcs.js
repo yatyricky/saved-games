@@ -3,9 +3,10 @@ const path = require("path");
 
 /**
  * @param {string} str
+ * @returns {any} nullable
  */
 function safeParseObj(str) {
-    var ret = null;
+    let ret = null;
     try {
         ret = JSON.parse(str);
     } catch (error) {
@@ -14,14 +15,18 @@ function safeParseObj(str) {
     return ret;
 }
 
-function deleteFolderRecursiveSync(fpath) {
+/**
+ * Deletes a file or a directory.
+ * @param {fs.PathLike} fpath
+ */
+function deleteItem(fpath) {
     if (fs.existsSync(fpath)) {
         if (fs.statSync(fpath).isDirectory()) {
-            fs.readdirSync(fpath).forEach((file, index) => {
+            fs.readdirSync(fpath).forEach((file) => {
                 const curPath = path.join(fpath, file);
-                if (fs.statSync(curPath).isDirectory()) { // recurse
-                    deleteFolderRecursiveSync(curPath);
-                } else { // delete file
+                if (fs.statSync(curPath).isDirectory()) {
+                    deleteItem(curPath);
+                } else {
                     fs.unlinkSync(curPath);
                 }
             });
@@ -32,95 +37,79 @@ function deleteFolderRecursiveSync(fpath) {
     }
 };
 
-function deleteFolderFilesRecursiveSync(fpath) {
+/**
+ * Deletes all items in directory.
+ * @param {fs.PathLike} fpath
+ */
+function deleteDirectoryItems(fpath) {
     if (fs.existsSync(fpath)) {
         if (fs.statSync(fpath).isDirectory()) {
             fs.readdirSync(fpath).forEach((file) => {
-                const curPath = path.join(fpath, file);
-                if (fs.statSync(curPath).isDirectory()) {
-                    deleteFolderRecursiveSync(curPath);
-                } else { // delete file
-                    fs.unlinkSync(curPath);
-                }
+                deleteItem(path.join(fpath, file));
             });
-        } else {
-            console.log(fpath + " is not a dir");
         }
-    } else {
-        console.log(fpath + " does not exist");
     }
 };
 
-function copyFileSync(source, target) {
-    let targetFile = target;
-    // if target is a directory a new file with the same name will be created
-    if (fs.existsSync(target)) {
-        if (fs.statSync(target).isDirectory()) {
-            targetFile = path.join(target, path.basename(source));
-        }
-    }
-    fs.writeFileSync(targetFile, fs.readFileSync(source));
-};
-
-function copyFileToFolder(source, target) {
+/**
+ * Copies a file or a directory into target directory.
+ * @param {fs.PathLike} source file or directory
+ * @param {fs.PathLike} target directory
+ * @param {{override: boolean, fileExts: string[]}} [options] options
+ */
+function copyItemIntoDirectory(source, target, options) {
+    options = options || { override: true, fileExts: [] };
     if (!fs.existsSync(target)) {
         fs.mkdirSync(target);
     } else if (!fs.statSync(target).isDirectory()) {
-        fs.unlinkSync(target);
+        deleteItem(target);
         fs.mkdirSync(target);
     }
-    let targetFile = path.join(target, path.basename(source));
-    fs.writeFileSync(targetFile, fs.readFileSync(source));
+    const targetPath = path.join(target, path.basename(source));
+    if (fs.statSync(source).isDirectory()) {
+        if (!fs.existsSync(targetPath)) {
+            fs.mkdirSync(targetPath);
+        }
+        fs.readdirSync(source).forEach((file) => {
+            copyItemIntoDirectory(path.join(source, file), targetPath);
+        });
+    } else {
+        if (fs.existsSync(targetPath)) {
+            deleteItem(targetPath);
+        }
+        if (options.fileExts.length > 0) {
+            const fn = path.basename(source);
+            if (options.fileExts.some((ext) => fn.endsWith(ext))) {
+                fs.copyFileSync(source, targetPath);
+            }
+        } else {
+            fs.copyFileSync(source, targetPath);
+        }
+
+    }
 }
 
-function copyFolderRecursiveSync(source, target) {
-    let files = [];
-    // check if folder needs to be created or integrated
-    const targetFolder = path.join(target, path.basename(source));
-    if (!fs.existsSync(targetFolder)) {
-        fs.mkdirSync(targetFolder);
+/**
+ * Copies all items in directory into target directory.
+ * @param {fs.PathLike} source directory
+ * @param {fs.PathLike} target directory
+ * @param {{override: boolean, fileExts: string[]}} [options] options
+ */
+function copyDirectoryItemsIntoDirectory(source, target, options) {
+    options = options || { override: true, fileExts: [] };
+    if (!fs.existsSync(source) || !fs.statSync(source).isDirectory()) {
+        console.log(source + " is not a directory.");
+        return;
     }
-    // copy
-    if (fs.statSync(source).isDirectory()) {
-        files = fs.readdirSync(source);
-        files.forEach((file) => {
-            const curSource = path.join(source, file);
-            if (fs.statSync(curSource).isDirectory()) {
-                copyFolderRecursiveSync(curSource, targetFolder);
-            } else {
-                copyFileSync(curSource, targetFolder);
-            }
-        });
-    }
-};
-
-function copyFolderFilesRecursiveSync(source, target) {
-    let files = [];
-    // check if folder needs to be created or integrated
-    const targetFolder = path.join(target);
-    if (!fs.existsSync(targetFolder)) {
-        fs.mkdirSync(targetFolder);
-    }
-    // copy
-    if (fs.statSync(source).isDirectory()) {
-        files = fs.readdirSync(source);
-        files.forEach((file) => {
-            const curSource = path.join(source, file);
-            if (fs.statSync(curSource).isDirectory()) {
-                copyFolderRecursiveSync(curSource, targetFolder);
-            } else {
-                copyFileSync(curSource, targetFolder);
-            }
-        });
-    }
-};
+    fs.readdirSync(source).forEach((file) => {
+        copyItemIntoDirectory(path.join(source, file), target, options);
+    });
+}
 
 module.exports = {
-    deleteFolderRecursiveSync,
-    deleteFolderFilesRecursiveSync,
-    copyFileSync,
-    copyFileToFolder,
-    copyFolderRecursiveSync,
-    copyFolderFilesRecursiveSync,
     safeParseObj,
+    deleteItem,
+    deleteDirectoryItems,
+    copyItemIntoDirectory,
+    copyDirectoryItemsIntoDirectory,
 };
