@@ -1,7 +1,7 @@
 
 FishingBuddy_Player = {
 	["MinimapData"] = {
-		["minimapPos"] = 225,
+		["minimapPos"] = 171.792593821059,
 		["hide"] = false,
 	},
 	["Settings"] = {
