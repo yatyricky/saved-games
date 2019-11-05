@@ -17,11 +17,9 @@ if (fs.existsSync(fpConfig)) {
             config.wow_root = configOnDisk.wow_root;
             const dpAddOns = path.join(config.wow_root, "_classic_", "Interface", "AddOns");
             const dpAddOnsCloud = path.join(__dirname, "World of Warcraft", "classic", "AddOns");
-            const dpAccLua = path.join(config.wow_root, "_classic_", "WTF", "Account", "YATYRICKY", "SavedVariables");
-            const dpAccLuaCloud = path.join(__dirname, "World of Warcraft", "classic", "YATYRICKY", "SavedVariables");
-            const dpCharLua = path.join(config.wow_root, "_classic_", "WTF", "Account", "YATYRICKY", "木喉要塞", "洛科林丶雷酒", "SavedVariables");
-            const dpCharLuaCloud = path.join(__dirname, "World of Warcraft", "classic", "YATYRICKY", "木喉要塞", "洛科林丶雷酒", "SavedVariables");
-            if (!core.copyFiles(dpAddOnsCloud, dpAddOns) || !core.copyFiles(dpAccLuaCloud, dpAccLua, [".lua"]) || !core.copyFiles(dpCharLuaCloud, dpCharLua, [".lua"])) {
+            const dpAccLua = path.join(config.wow_root, "_classic_", "WTF", "Account", "YATYRICKY");
+            const dpAccLuaCloud = path.join(__dirname, "World of Warcraft", "classic", "YATYRICKY");
+            if (!core.copyFiles(dpAddOnsCloud, dpAddOns) || !core.copyFiles(dpAccLuaCloud, dpAccLua, [".lua"])) {
                 config.wow_root = "";
                 writeConfig = true;
             }

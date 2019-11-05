@@ -71,7 +71,7 @@ function copyItemIntoDirectory(source, target, options) {
             fs.mkdirSync(targetPath);
         }
         fs.readdirSync(source).forEach((file) => {
-            copyItemIntoDirectory(path.join(source, file), targetPath);
+            copyItemIntoDirectory(path.join(source, file), targetPath, options);
         });
     } else {
         if (fs.existsSync(targetPath)) {
