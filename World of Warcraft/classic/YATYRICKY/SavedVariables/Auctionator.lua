@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 0,
+	["_200000"] = 1000,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
+	["STARTING_DISCOUNT"] = 0,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Silverleaf"] = {
