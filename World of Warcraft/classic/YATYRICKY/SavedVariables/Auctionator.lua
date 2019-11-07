@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["STARTING_DISCOUNT"] = 0,
-	["LOG_DE_DATA_X"] = true,
+	["_200000"] = 1000,
+	["_10000"] = 200,
 	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["STARTING_DISCOUNT"] = 0,
 	["_500"] = 5,
-	["_10000"] = 200,
-	["_200000"] = 1000,
+	["LOG_DE_DATA_X"] = true,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Silverleaf"] = {
@@ -40,9 +40,10 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Runecloth", -- [1]
-			"Mageweave Cloth", -- [2]
-			"Silk Cloth", -- [3]
+			"Mageweave bag", -- [1]
+			"Runecloth", -- [2]
+			"Mageweave Cloth", -- [3]
+			"Silk Cloth", -- [4]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -93,9 +94,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Heart of the Wild"] = {
 			["mr"] = 404,
-			["cc"] = 5,
-			["id"] = "10286:0:0:0:0",
 			["L3277"] = 404,
+			["id"] = "10286:0:0:0:0",
+			["cc"] = 5,
 			["H3277"] = 405,
 			["sc"] = 0,
 		},
@@ -115,18 +116,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Incendosaur Scale"] = {
 			["mr"] = 400,
+			["cc"] = 12,
+			["id"] = "18944:0:0:0:0",
 			["sc"] = 0,
 			["H3278"] = 400,
-			["id"] = "18944:0:0:0:0",
-			["cc"] = 12,
 		},
 		["Mageroyal"] = {
 			["mr"] = 54,
-			["cc"] = 7,
-			["id"] = "785:0:0:0:0",
-			["H3278"] = 54,
-			["H3277"] = 300,
 			["sc"] = 0,
+			["H3278"] = 54,
+			["cc"] = 7,
+			["H3277"] = 300,
+			["id"] = "785:0:0:0:0",
 		},
 		["Yellow Power Crystal"] = {
 			["mr"] = 150,
@@ -182,15 +183,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 5,
 			["H3276"] = 3000,
 			["id"] = "7067:0:0:0:0",
-			["H3278"] = 3000,
 			["sc"] = 0,
+			["H3278"] = 3000,
 		},
 		["Iridescent Pearl"] = {
 			["mr"] = 1600,
+			["cc"] = 7,
+			["id"] = "5500:0:0:0:0",
 			["sc"] = 0,
 			["H3278"] = 1600,
-			["id"] = "5500:0:0:0:0",
-			["cc"] = 7,
 		},
 		["Giant Egg"] = {
 			["mr"] = 580,
@@ -208,19 +209,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Khadgar's Whisker"] = {
 			["mr"] = 333,
-			["cc"] = 7,
-			["id"] = "3358:0:0:0:0",
-			["H3278"] = 333,
-			["H3277"] = 551,
 			["sc"] = 0,
+			["H3278"] = 333,
+			["cc"] = 7,
+			["H3277"] = 551,
+			["id"] = "3358:0:0:0:0",
 		},
 		["Swiftthistle"] = {
 			["mr"] = 1443,
-			["cc"] = 7,
-			["id"] = "2452:0:0:0:0",
-			["H3278"] = 1443,
-			["H3277"] = 1433,
 			["sc"] = 0,
+			["H3278"] = 1443,
+			["cc"] = 7,
+			["H3277"] = 1433,
+			["id"] = "2452:0:0:0:0",
+		},
+		["Red Mageweave Bag"] = {
+			["H3279"] = 5625,
+			["cc"] = 1,
+			["id"] = "10051:0:0:0:0",
+			["sc"] = 0,
+			["mr"] = 5625,
+		},
+		["Pattern: Runecloth Gloves"] = {
+			["mr"] = 49997,
+			["cc"] = 9,
+			["H3276"] = 49997,
+			["id"] = "14481:0:0:0:0",
+			["sc"] = 2,
 		},
 		["Un'Goro Soil"] = {
 			["mr"] = 1000,
@@ -250,11 +265,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3277"] = 405,
 			["sc"] = 0,
 		},
-		["Wool Cloth"] = {
-			["mr"] = 65,
+		["Silverleaf"] = {
+			["mr"] = 80,
 			["cc"] = 7,
-			["id"] = "2592:0:0:0:0",
-			["H3277"] = 65,
+			["id"] = "765:0:0:0:0",
+			["H3277"] = 80,
 			["sc"] = 0,
 		},
 		["Nightcrawlers"] = {
@@ -271,25 +286,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3277"] = 10300,
 			["sc"] = 0,
 		},
+		["Blue Power Crystal"] = {
+			["mr"] = 864,
+			["cc"] = 15,
+			["id"] = "11184:0:0:0:0",
+			["H3277"] = 864,
+			["sc"] = 0,
+		},
+		["Mageweave Bag"] = {
+			["H3279"] = 5000,
+			["cc"] = 1,
+			["id"] = "10050:0:0:0:0",
+			["sc"] = 0,
+			["mr"] = 5000,
+		},
 		["Bolt of Runecloth"] = {
 			["mr"] = 4400,
 			["cc"] = 7,
 			["H3276"] = 4400,
 			["id"] = "14048:0:0:0:0",
-			["sc"] = 0,
-		},
-		["Wicked Claw"] = {
-			["mr"] = 690,
-			["sc"] = 0,
-			["H3278"] = 690,
-			["id"] = "8146:0:0:0:0",
-			["cc"] = 7,
-		},
-		["Mageweave Cloth"] = {
-			["mr"] = 430,
-			["cc"] = 7,
-			["H3276"] = 430,
-			["id"] = "4338:0:0:0:0",
 			["sc"] = 0,
 		},
 		["Liferoot"] = {
@@ -306,19 +321,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3277"] = 330,
 			["sc"] = 0,
 		},
-		["Pattern: Runecloth Gloves"] = {
-			["mr"] = 49997,
-			["cc"] = 9,
-			["H3276"] = 49997,
-			["id"] = "14481:0:0:0:0",
-			["sc"] = 2,
+		["Wicked Claw"] = {
+			["mr"] = 690,
+			["cc"] = 7,
+			["id"] = "8146:0:0:0:0",
+			["sc"] = 0,
+			["H3278"] = 690,
 		},
 		["Deeprock Salt"] = {
 			["mr"] = 310,
+			["cc"] = 7,
+			["id"] = "8150:0:0:0:0",
 			["sc"] = 0,
 			["H3278"] = 310,
-			["id"] = "8150:0:0:0:0",
-			["cc"] = 7,
 		},
 		["Red Power Crystal"] = {
 			["mr"] = 30,
@@ -327,18 +342,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3277"] = 30,
 			["sc"] = 0,
 		},
-		["Moonberry Juice"] = {
-			["mr"] = 224,
-			["cc"] = 0,
-			["id"] = "1645:0:0:0:0",
-			["H3277"] = 224,
-			["sc"] = 0,
-		},
 		["Superior Healing Potion"] = {
 			["mr"] = 399,
 			["cc"] = 0,
 			["id"] = "3928:0:0:0:0",
 			["H3277"] = 399,
+			["sc"] = 0,
+		},
+		["Moonberry Juice"] = {
+			["mr"] = 224,
+			["cc"] = 0,
+			["id"] = "1645:0:0:0:0",
+			["H3277"] = 224,
 			["sc"] = 0,
 		},
 		["Tender Wolf Steak"] = {
@@ -355,18 +370,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "14529:0:0:0:0",
 			["sc"] = 0,
 		},
-		["Blue Power Crystal"] = {
-			["mr"] = 864,
-			["cc"] = 15,
-			["id"] = "11184:0:0:0:0",
-			["H3277"] = 864,
+		["Mageweave Cloth"] = {
+			["mr"] = 430,
+			["cc"] = 7,
+			["H3276"] = 430,
+			["id"] = "4338:0:0:0:0",
 			["sc"] = 0,
 		},
-		["Silverleaf"] = {
-			["mr"] = 80,
+		["Wool Cloth"] = {
+			["mr"] = 65,
 			["cc"] = 7,
-			["id"] = "765:0:0:0:0",
-			["H3277"] = 80,
+			["id"] = "2592:0:0:0:0",
+			["H3277"] = 65,
 			["sc"] = 0,
 		},
 		["Small Lustrous Pearl"] = {
@@ -374,8 +389,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 			["H3276"] = 250,
 			["id"] = "5498:0:0:0:0",
-			["H3278"] = 299,
 			["sc"] = 0,
+			["H3278"] = 299,
 		},
 	},
 }
@@ -383,18 +398,18 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Csharp"] = {
 		["firstSeen"] = 1572914538,
-		["guid"] = "Player-4674-011DDBEA",
 		["firstVersion"] = "8.1.0",
+		["guid"] = "Player-4674-011DDBEA",
 	},
 	["洛科林丶雷酒"] = {
 		["firstSeen"] = 1572873467,
-		["firstVersion"] = "8.1.0",
 		["guid"] = "Player-4674-003AFFB8",
+		["firstVersion"] = "8.1.0",
 	},
 	["漫烟特大剑"] = {
 		["firstSeen"] = 1573031273,
-		["firstVersion"] = "8.1.0",
 		["guid"] = "Player-4674-0120BB82",
+		["firstVersion"] = "8.1.0",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
