@@ -1,0 +1,21 @@
+﻿Bugfixes:
+- fix friendsframe
+
+New Features:
+defaultlists:
++ right-click contextmenu to move entries between lists
+
+sync:
++ allow guild sync - option to accept guild broadcasts depending on rank of broadcasting member and option to
+  broadcast lists to guild channel every 30min,1h,2h
+
+distributed tracking:
++ allow selection of which channels to listen on (guild/zone)
++ join zone/guild comm channel after 1minute (to prevent being comm channel on /1 on some computers) (done in 2.87)
+
+pvp:
+- optional chooser on death/win
+
+Other:
+- documentation for all the functions (esp. auto sync, distributed tracking)
+- maybe a mob watchlist for detecting searched mobs
