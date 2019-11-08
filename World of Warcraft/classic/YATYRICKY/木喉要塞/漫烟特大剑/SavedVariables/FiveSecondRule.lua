@@ -9,9 +9,9 @@ FiveSecondRule_Options = {
 	},
 	["tickSizeRunningWindow"] = {
 	},
-	["averageManaTick"] = 0,
 	["barHeight"] = 11,
-	["unlocked"] = false,
+	["averageManaTick"] = 0,
+	["barTop"] = -68,
 	["statusBarBackgroundColor"] = {
 		0, -- [1]
 		0, -- [2]
@@ -34,6 +34,6 @@ FiveSecondRule_Options = {
 	},
 	["showSpark"] = true,
 	["flat"] = false,
-	["barTop"] = -68,
+	["unlocked"] = false,
 	["barWidth"] = 117,
 }

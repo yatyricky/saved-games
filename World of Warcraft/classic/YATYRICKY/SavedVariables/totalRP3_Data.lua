@@ -19,10 +19,10 @@ TRP3_Register = {
 		["维尔维特-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "0926123837MnMUD",
-			["msp"] = false,
-			["clientVersion"] = "1.6.5",
 			["isTrial"] = 0,
 			["client"] = "Total RP 3",
+			["msp"] = false,
+			["clientVersion"] = "1.6.5",
 		},
 		["失忆的提里昂-木喉要塞"] = {
 			["extended"] = 0,
@@ -31,8 +31,8 @@ TRP3_Register = {
 			["msp"] = false,
 			["race"] = "Gnome",
 			["faction"] = "Alliance",
-			["client"] = "Total RP 3",
 			["clientVersion"] = "1.6.5",
+			["client"] = "Total RP 3",
 			["isTrial"] = 0,
 			["gender"] = 2,
 		},
@@ -52,34 +52,34 @@ TRP3_Register = {
 		["芙兰丶斯塔恩-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "[MSP]芙兰丶斯塔恩-木喉要塞",
-			["client"] = "Total RP 3",
 			["clientVersion"] = "1.6.7.1",
-			["isTrial"] = 0,
+			["client"] = "Total RP 3",
 			["msp"] = true,
+			["isTrial"] = 0,
 		},
 		["雪伊-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "[MSP]雪伊-木喉要塞",
-			["client"] = "Total RP 3",
 			["clientVersion"] = "1.6.5",
-			["isTrial"] = 0,
+			["client"] = "Total RP 3",
 			["msp"] = true,
+			["isTrial"] = 0,
 		},
 		["凯琳丶希尔达-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "09251610062HEge",
-			["clientVersion"] = "1.6.5",
 			["client"] = "Total RP 3",
-			["msp"] = false,
+			["clientVersion"] = "1.6.5",
 			["isTrial"] = 0,
+			["msp"] = false,
 		},
 		["黑莉萝-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "[MSP]黑莉萝-木喉要塞",
-			["msp"] = true,
-			["client"] = "Total RP 3",
 			["isTrial"] = 0,
 			["clientVersion"] = "1.6.5",
+			["msp"] = true,
+			["client"] = "Total RP 3",
 		},
 		["忒休斯丶露子-木喉要塞"] = {
 			["extended"] = 0,
@@ -97,66 +97,66 @@ TRP3_Register = {
 		["赫默恩丶鹰眼-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "0903181551sOcgH",
-			["msp"] = false,
-			["client"] = "Total RP 3",
 			["isTrial"] = 0,
 			["clientVersion"] = "1.6.7.1",
+			["msp"] = false,
+			["client"] = "Total RP 3",
 		},
 		["雷蒙丶法沃兹-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "[MSP]雷蒙丶法沃兹-木喉要塞",
-			["isTrial"] = 0,
-			["clientVersion"] = "1.6.5",
 			["msp"] = true,
 			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["clientVersion"] = "1.6.5",
 		},
 		["是不是卅-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "10262308361tpHl",
-			["msp"] = false,
-			["client"] = "Total RP 3",
 			["isTrial"] = 0,
 			["clientVersion"] = "1.6.5",
+			["msp"] = false,
+			["client"] = "Total RP 3",
 		},
 		["烦恼的王-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "1021215141wQGe2",
-			["isTrial"] = 0,
-			["client"] = "Total RP 3",
 			["msp"] = false,
 			["clientVersion"] = "1.6.7.1",
+			["isTrial"] = 0,
+			["client"] = "Total RP 3",
 		},
 		["尼赦尔-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "1005121921QB2OX",
-			["msp"] = false,
-			["client"] = "Total RP 3",
 			["isTrial"] = 0,
 			["clientVersion"] = "1.6.7.1",
+			["msp"] = false,
+			["client"] = "Total RP 3",
 		},
 		["烧得手好开水-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "0925232102EQd2E",
-			["isTrial"] = 0,
-			["clientVersion"] = "1.6.6.1",
 			["msp"] = false,
 			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["clientVersion"] = "1.6.6.1",
 		},
 		["柯雷乔-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "0827092652YSnEv",
-			["client"] = "Total RP 3",
 			["clientVersion"] = "1.6.7.1",
-			["isTrial"] = 0,
+			["client"] = "Total RP 3",
 			["msp"] = false,
+			["isTrial"] = 0,
 		},
 		["艾米丶洛威尔-木喉要塞"] = {
 			["extended"] = 0,
 			["profileID"] = "[MSP]艾米丶洛威尔-木喉要塞",
-			["client"] = "Total RP 3",
 			["clientVersion"] = "1.6.6.1",
-			["isTrial"] = 0,
+			["client"] = "Total RP 3",
 			["msp"] = true,
+			["isTrial"] = 0,
 		},
 		["霜炎伊莎娜-木喉要塞"] = {
 			["extended"] = 0,
@@ -441,32 +441,6 @@ TRP3_Register = {
 			},
 		},
 		["[MSP]艾米丶洛威尔-木喉要塞"] = {
-			["about"] = {
-				["read"] = true,
-				["TE"] = 1,
-				["T1"] = {
-					["TX"] = "黑门xx年，出生于洛丹伦王国安多哈尔，在艾米x岁那年发生了大量农民食用感染的谷物导致身体突变的事故，不愿连累女儿的父母将姐妹托付给撤退的圣骑士洛威尔收留便继续留守安多哈尔。\n\n对于艾米来说，安多哈尔的谷仓、风车、箐箐绿叶永远是不允许自己忘记的故乡，但很快噩耗接连的传来，先是留守在安多哈尔的镇民被转化为不死生物，接着是斯坦索姆被阿尔萨斯王子无差别屠城，随后便传来泰瑞纳斯国王死亡、乌瑟尔战死、白银之手崩溃的消息。洛威尔将艾米与希琳视为养女，姐妹俩跟随养父穿越河流、高山、大桥一路南下到达艾泽拉斯王国，洛威尔请求安妮塔牧师收留养女为徒后告诉艾米与希琳自己要回到白银之手残部势力范围继续抵抗亡灵天灾后便失踪，在成为安妮塔牧师学徒后的第二周便看到艾尔文森林巡逻队的布告：圣骑士洛威尔，身中数刃流血过多死亡，初步判断为体力不支的前提下被数人围攻致死，若有相熟人士请尽快与巡逻队联系，圣光在上！\n\n（未编辑完，待续）",
-				},
-				["BK"] = 1,
-				["v"] = 2,
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-					["1"] = 3,
-					["3"] = 0,
-					["2"] = 0,
-					["5"] = 0,
-					["4"] = 0,
-					["6"] = 0,
-				},
-				["v"] = 8,
-			},
-			["time"] = 1572434605,
-			["link"] = {
-				["艾米丶洛威尔-木喉要塞"] = 1,
-			},
 			["characteristics"] = {
 				["BP"] = "安多哈尔",
 				["RA"] = "人类",
@@ -507,9 +481,6 @@ TRP3_Register = {
 				["HE"] = "170 CM",
 				["WE"] = "正常",
 			},
-			["msp"] = true,
-			["mspver"] = {
-			},
 			["character"] = {
 				["CU"] = "",
 				["CO"] = "",
@@ -517,6 +488,35 @@ TRP3_Register = {
 				["LC"] = "zhCN",
 				["XP"] = 1,
 				["v"] = 11,
+			},
+			["time"] = 1572434605,
+			["link"] = {
+				["艾米丶洛威尔-木喉要塞"] = 1,
+			},
+			["about"] = {
+				["read"] = true,
+				["TE"] = 1,
+				["T1"] = {
+					["TX"] = "黑门xx年，出生于洛丹伦王国安多哈尔，在艾米x岁那年发生了大量农民食用感染的谷物导致身体突变的事故，不愿连累女儿的父母将姐妹托付给撤退的圣骑士洛威尔收留便继续留守安多哈尔。\n\n对于艾米来说，安多哈尔的谷仓、风车、箐箐绿叶永远是不允许自己忘记的故乡，但很快噩耗接连的传来，先是留守在安多哈尔的镇民被转化为不死生物，接着是斯坦索姆被阿尔萨斯王子无差别屠城，随后便传来泰瑞纳斯国王死亡、乌瑟尔战死、白银之手崩溃的消息。洛威尔将艾米与希琳视为养女，姐妹俩跟随养父穿越河流、高山、大桥一路南下到达艾泽拉斯王国，洛威尔请求安妮塔牧师收留养女为徒后告诉艾米与希琳自己要回到白银之手残部势力范围继续抵抗亡灵天灾后便失踪，在成为安妮塔牧师学徒后的第二周便看到艾尔文森林巡逻队的布告：圣骑士洛威尔，身中数刃流血过多死亡，初步判断为体力不支的前提下被数人围攻致死，若有相熟人士请尽快与巡逻队联系，圣光在上！\n\n（未编辑完，待续）",
+				},
+				["BK"] = 1,
+				["v"] = 2,
+			},
+			["msp"] = true,
+			["mspver"] = {
+			},
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+					["1"] = 3,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 8,
 			},
 		},
 		["0914013900ba0FO"] = {
@@ -754,13 +754,6 @@ TRP3_Register = {
 			},
 		},
 		["[MSP]黑莉萝-木喉要塞"] = {
-			["character"] = {
-				["CO"] = "",
-				["RP"] = 2,
-				["CU"] = "",
-				["XP"] = 2,
-				["v"] = 20,
-			},
 			["misc"] = {
 				["PE"] = {
 				},
@@ -774,19 +767,17 @@ TRP3_Register = {
 				},
 				["v"] = 7,
 			},
+			["character"] = {
+				["CO"] = "",
+				["RP"] = 2,
+				["CU"] = "",
+				["XP"] = 2,
+				["v"] = 20,
+			},
 			["time"] = 1572609212,
 			["link"] = {
 				["黑莉萝-木喉要塞"] = 1,
 			},
-			["about"] = {
-				["v"] = 1,
-				["TE"] = 1,
-				["T1"] = {
-				},
-			},
-			["mspver"] = {
-			},
-			["msp"] = true,
 			["characteristics"] = {
 				["CL"] = "法师",
 				["RA"] = "侏儒",
@@ -797,6 +788,15 @@ TRP3_Register = {
 				["FN"] = "黑莉萝",
 				["IC"] = "INV_Misc_Head_Gnome_02",
 				["v"] = 1,
+			},
+			["mspver"] = {
+			},
+			["msp"] = true,
+			["about"] = {
+				["v"] = 1,
+				["TE"] = 1,
+				["T1"] = {
+				},
 			},
 		},
 		["1102101021r3zpq"] = {
@@ -852,11 +852,11 @@ TRP3_Register = {
 			},
 			["zone"] = "Dustwallow Marsh - Theramore Isle",
 			["characteristics"] = {
-				["v"] = 15,
-				["RA"] = "人类",
 				["AG"] = "140",
+				["RA"] = "人类",
+				["v"] = 15,
 				["LN"] = "杜垩登",
-				["RE"] = "暴风城",
+				["EC"] = "淡紫色",
 				["FN"] = "崔斯特",
 				["FT"] = "崔斯特·杜垩登",
 				["RS"] = 1,
@@ -909,7 +909,7 @@ TRP3_Register = {
 				},
 				["TI"] = "遊俠",
 				["HE"] = "162",
-				["EC"] = "淡紫色",
+				["RE"] = "暴风城",
 			},
 		},
 		["1005121921QB2OX"] = {
@@ -1258,6 +1258,13 @@ TRP3_Register = {
 			},
 		},
 		["[MSP]雷蒙丶法沃兹-木喉要塞"] = {
+			["character"] = {
+				["CO"] = "",
+				["RP"] = 1,
+				["CU"] = "每只石腭怪的脚趾都不是完整的.\n很想见见牛头人和巨魔.",
+				["XP"] = 2,
+				["v"] = 90,
+			},
 			["misc"] = {
 				["ST"] = {
 					["1"] = 0,
@@ -1271,17 +1278,19 @@ TRP3_Register = {
 				},
 				["v"] = 7,
 			},
-			["character"] = {
-				["CO"] = "",
-				["RP"] = 1,
-				["CU"] = "每只石腭怪的脚趾都不是完整的.\n很想见见牛头人和巨魔.",
-				["XP"] = 2,
-				["v"] = 90,
-			},
 			["time"] = 1573105232,
 			["link"] = {
 				["雷蒙丶法沃兹-木喉要塞"] = 1,
 			},
+			["about"] = {
+				["v"] = 1,
+				["TE"] = 1,
+				["T1"] = {
+				},
+			},
+			["mspver"] = {
+			},
+			["msp"] = true,
 			["characteristics"] = {
 				["MI"] = {
 				},
@@ -1331,15 +1340,6 @@ TRP3_Register = {
 				["FT"] = "残暴的脚趾撕裂者",
 				["HE"] = "矮",
 				["WE"] = "矮小",
-			},
-			["mspver"] = {
-			},
-			["msp"] = true,
-			["about"] = {
-				["v"] = 1,
-				["TE"] = 1,
-				["T1"] = {
-				},
 			},
 		},
 		["0830185533VVUUD"] = {
@@ -1587,23 +1587,6 @@ TRP3_Register = {
 			},
 		},
 		["[MSP]芙兰丶斯塔恩-木喉要塞"] = {
-			["about"] = {
-				["T1"] = {
-				},
-				["TE"] = 1,
-				["v"] = 1,
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-				},
-				["v"] = 1,
-			},
-			["time"] = 1572924424,
-			["link"] = {
-				["芙兰丶斯塔恩-木喉要塞"] = 1,
-			},
 			["characteristics"] = {
 				["CL"] = "法师",
 				["RA"] = "人类",
@@ -1615,22 +1598,24 @@ TRP3_Register = {
 				["IC"] = "INV_Misc_Head_Human_02",
 				["v"] = 1,
 			},
-			["msp"] = true,
-			["mspver"] = {
-			},
 			["character"] = {
 				["RP"] = 1,
 				["LC"] = "zhCN",
 				["XP"] = 2,
 				["v"] = 1,
 			},
-		},
-		["[MSP]雪伊-木喉要塞"] = {
+			["time"] = 1572924424,
+			["link"] = {
+				["芙兰丶斯塔恩-木喉要塞"] = 1,
+			},
 			["about"] = {
 				["T1"] = {
 				},
 				["TE"] = 1,
 				["v"] = 1,
+			},
+			["msp"] = true,
+			["mspver"] = {
 			},
 			["misc"] = {
 				["PE"] = {
@@ -1639,10 +1624,8 @@ TRP3_Register = {
 				},
 				["v"] = 1,
 			},
-			["time"] = 1572862127,
-			["link"] = {
-				["雪伊-木喉要塞"] = 1,
-			},
+		},
+		["[MSP]雪伊-木喉要塞"] = {
 			["characteristics"] = {
 				["CL"] = "法师",
 				["RA"] = "人类",
@@ -1654,13 +1637,30 @@ TRP3_Register = {
 				["IC"] = "INV_Misc_Head_Human_02",
 				["v"] = 1,
 			},
-			["msp"] = true,
-			["mspver"] = {
-			},
 			["character"] = {
 				["RP"] = 1,
 				["XP"] = 2,
 				["v"] = 3,
+			},
+			["time"] = 1572862127,
+			["link"] = {
+				["雪伊-木喉要塞"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["msp"] = true,
+			["mspver"] = {
+			},
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+				},
+				["v"] = 1,
 			},
 		},
 		["0925232102EQd2E"] = {

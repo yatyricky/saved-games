@@ -6,7 +6,7 @@ FishingBuddy_Player = {
 	},
 	["Settings"] = {
 		["SpecialBobbers"] = -1,
-		["TotalTimeFishing"] = 2385.85999999976,
+		["TotalTimeFishing"] = 2568.62199999975,
 		["WatchCurrentZone"] = true,
 		["CaughtSoFar"] = 1,
 		["WatchElapsedTime"] = true,

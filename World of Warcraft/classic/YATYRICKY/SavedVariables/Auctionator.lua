@@ -12,16 +12,18 @@ AUCTIONATOR_SAVEDVARS = {
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Silverleaf"] = {
-		["is"] = "765:0:0:0:0",
 		["5923768"] = "79:1",
+		["5927739"] = "124:1",
+		["is"] = "765:0:0:0:0",
 	},
 	["Kingsblood"] = {
 		["is"] = "3356:0:0:0:0",
+		["5927739"] = "515:1",
 		["5923856"] = "449:1",
 	},
-	["Elemental Fire"] = {
-		["is"] = "7068:0:0:0:0",
-		["5922565"] = "25000:1",
+	["Liferoot"] = {
+		["is"] = "3357:0:0:0:0",
+		["5927739"] = "159:1",
 	},
 	["Khadgar's Whisker"] = {
 		["is"] = "3358:0:0:0:0",
@@ -29,21 +31,52 @@ AUCTIONATOR_PRICING_HISTORY = {
 	},
 	["Swiftthistle"] = {
 		["5923769"] = "1430:1",
+		["5927740"] = "1415:1",
 		["5925094"] = "1440:1",
 		["is"] = "2452:0:0:0:0",
 	},
+	["Gromsblood"] = {
+		["is"] = "8846:0:0:0:0",
+		["5927740"] = "1795:1",
+	},
+	["Red Power Crystal"] = {
+		["is"] = "11186:0:0:0:0",
+		["5927748"] = "249:2",
+	},
+	["Yellow Power Crystal"] = {
+		["is"] = "11188:0:0:0:0",
+		["5927748"] = "1005:8",
+	},
+	["Briarthorn"] = {
+		["is"] = "2450:0:0:0:0",
+		["5927740"] = "915:1",
+	},
+	["Elemental Fire"] = {
+		["is"] = "7068:0:0:0:0",
+		["5922565"] = "25000:1",
+	},
 	["Mageroyal"] = {
 		["is"] = "785:0:0:0:0",
+		["5927739"] = "74:1",
 		["5923383"] = "299:1",
+	},
+	["Un'Goro Soil"] = {
+		["is"] = "11018:0:0:0:0",
+		["5927752"] = "755:1",
+	},
+	["Fadeleaf"] = {
+		["is"] = "3818:0:0:0:0",
+		["5927739"] = "9900:1",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Mageweave bag", -- [1]
-			"Runecloth", -- [2]
-			"Mageweave Cloth", -- [3]
-			"Silk Cloth", -- [4]
+			"Mithril casing", -- [1]
+			"Mageweave bag", -- [2]
+			"Runecloth", -- [3]
+			"Mageweave Cloth", -- [4]
+			"Silk Cloth", -- [5]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -122,24 +155,28 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 		},
 		["Mageroyal"] = {
-			["mr"] = 54,
+			["mr"] = 75,
 			["sc"] = 0,
+			["H3280"] = 75,
 			["H3278"] = 54,
 			["id"] = "785:0:0:0:0",
 			["H3277"] = 300,
 			["cc"] = 7,
 		},
 		["Yellow Power Crystal"] = {
-			["mr"] = 150,
+			["L3280"] = 1005,
+			["mr"] = 1005,
 			["cc"] = 15,
 			["id"] = "11188:0:0:0:0",
+			["H3280"] = 1010,
 			["H3277"] = 150,
 			["sc"] = 0,
 		},
 		["Kingsblood"] = {
-			["mr"] = 450,
+			["mr"] = 518,
 			["cc"] = 7,
 			["id"] = "3356:0:0:0:0",
+			["H3280"] = 518,
 			["H3277"] = 450,
 			["sc"] = 0,
 		},
@@ -157,6 +194,27 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "14530:0:0:0:0",
 			["sc"] = 0,
 		},
+		["Major Healing Potion"] = {
+			["mr"] = 2600,
+			["sc"] = 0,
+			["H3280"] = 2600,
+			["id"] = "13446:0:0:0:0",
+			["cc"] = 0,
+		},
+		["Morning Glory Dew"] = {
+			["mr"] = 400,
+			["sc"] = 0,
+			["H3280"] = 400,
+			["id"] = "8766:0:0:0:0",
+			["cc"] = 0,
+		},
+		["Morrowgrain"] = {
+			["mr"] = 3849,
+			["sc"] = 0,
+			["H3280"] = 3849,
+			["id"] = "11040:0:0:0:0",
+			["cc"] = 7,
+		},
 		["Pattern: Runecloth Tunic"] = {
 			["mr"] = 10000,
 			["cc"] = 9,
@@ -164,11 +222,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "14470:0:0:0:0",
 			["sc"] = 2,
 		},
+		["Briarthorn"] = {
+			["mr"] = 920,
+			["sc"] = 0,
+			["H3280"] = 920,
+			["id"] = "2450:0:0:0:0",
+			["cc"] = 7,
+		},
+		["Moonberry Juice"] = {
+			["mr"] = 224,
+			["cc"] = 0,
+			["id"] = "1645:0:0:0:0",
+			["H3277"] = 224,
+			["sc"] = 0,
+		},
 		["Elemental Fire"] = {
 			["mr"] = 23000,
 			["cc"] = 5,
 			["H3276"] = 23000,
 			["id"] = "7068:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Wool Cloth"] = {
+			["mr"] = 65,
+			["cc"] = 7,
+			["id"] = "2592:0:0:0:0",
+			["H3277"] = 65,
 			["sc"] = 0,
 		},
 		["Purple Lotus"] = {
@@ -185,6 +264,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "7067:0:0:0:0",
 			["H3278"] = 3000,
 			["sc"] = 0,
+		},
+		["Fadeleaf"] = {
+			["mr"] = 10000,
+			["sc"] = 0,
+			["H3280"] = 10000,
+			["id"] = "3818:0:0:0:0",
+			["cc"] = 7,
 		},
 		["Iridescent Pearl"] = {
 			["mr"] = 1600,
@@ -207,6 +293,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "14047:0:0:0:0",
 			["sc"] = 0,
 		},
+		["Gromsblood"] = {
+			["mr"] = 1800,
+			["sc"] = 0,
+			["H3280"] = 1800,
+			["id"] = "8846:0:0:0:0",
+			["cc"] = 7,
+		},
 		["Khadgar's Whisker"] = {
 			["mr"] = 333,
 			["sc"] = 0,
@@ -216,11 +309,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 		},
 		["Swiftthistle"] = {
-			["mr"] = 1443,
+			["mr"] = 1420,
 			["sc"] = 0,
+			["H3280"] = 1420,
 			["H3278"] = 1443,
 			["id"] = "2452:0:0:0:0",
 			["H3277"] = 1433,
+			["cc"] = 7,
+		},
+		["Mithril Casing"] = {
+			["mr"] = 3489,
+			["sc"] = 1,
+			["H3280"] = 3489,
+			["id"] = "10561:0:0:0:0",
 			["cc"] = 7,
 		},
 		["Red Mageweave Bag"] = {
@@ -230,18 +331,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 5625,
 			["sc"] = 0,
 		},
-		["Wool Cloth"] = {
-			["mr"] = 65,
-			["cc"] = 7,
-			["id"] = "2592:0:0:0:0",
-			["H3277"] = 65,
+		["Earthroot"] = {
+			["mr"] = 35,
 			["sc"] = 0,
+			["H3280"] = 35,
+			["id"] = "2449:0:0:0:0",
+			["cc"] = 7,
 		},
-		["Green Power Crystal"] = {
-			["mr"] = 405,
+		["Blue Power Crystal"] = {
+			["mr"] = 1016,
 			["cc"] = 15,
-			["id"] = "11185:0:0:0:0",
-			["H3277"] = 405,
+			["id"] = "11184:0:0:0:0",
+			["H3280"] = 1016,
+			["H3277"] = 864,
 			["sc"] = 0,
 		},
 		["Pattern: Runecloth Shoulders"] = {
@@ -258,11 +360,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "774:0:0:0:0",
 			["sc"] = 0,
 		},
-		["Blue Power Crystal"] = {
-			["mr"] = 864,
+		["Green Power Crystal"] = {
+			["mr"] = 1025,
 			["cc"] = 15,
-			["id"] = "11184:0:0:0:0",
-			["H3277"] = 864,
+			["id"] = "11185:0:0:0:0",
+			["H3280"] = 1025,
+			["H3277"] = 405,
 			["sc"] = 0,
 		},
 		["Mageweave Cloth"] = {
@@ -279,11 +382,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3277"] = 99,
 			["sc"] = 0,
 		},
-		["Silverleaf"] = {
-			["mr"] = 80,
-			["cc"] = 7,
-			["id"] = "765:0:0:0:0",
-			["H3277"] = 80,
+		["Restorative Potion"] = {
+			["mr"] = 10300,
+			["cc"] = 0,
+			["id"] = "9030:0:0:0:0",
+			["H3277"] = 10300,
 			["sc"] = 0,
 		},
 		["Wicked Claw"] = {
@@ -308,9 +411,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 		},
 		["Liferoot"] = {
-			["mr"] = 92,
+			["mr"] = 160,
 			["cc"] = 7,
 			["id"] = "3357:0:0:0:0",
+			["H3280"] = 160,
 			["H3277"] = 92,
 			["sc"] = 0,
 		},
@@ -335,12 +439,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3278"] = 310,
 			["sc"] = 0,
 		},
-		["Moonberry Juice"] = {
-			["mr"] = 224,
-			["cc"] = 0,
-			["id"] = "1645:0:0:0:0",
-			["H3277"] = 224,
+		["Gorilla Fang"] = {
+			["mr"] = 149,
 			["sc"] = 0,
+			["H3280"] = 149,
+			["id"] = "2799:0:0:0:0",
+			["cc"] = 12,
 		},
 		["Superior Healing Potion"] = {
 			["mr"] = 399,
@@ -350,9 +454,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 		},
 		["Red Power Crystal"] = {
-			["mr"] = 30,
+			["mr"] = 250,
 			["cc"] = 15,
 			["id"] = "11186:0:0:0:0",
+			["H3280"] = 250,
 			["H3277"] = 30,
 			["sc"] = 0,
 		},
@@ -370,17 +475,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "14529:0:0:0:0",
 			["sc"] = 0,
 		},
-		["Restorative Potion"] = {
-			["mr"] = 10300,
-			["cc"] = 0,
-			["id"] = "9030:0:0:0:0",
-			["H3277"] = 10300,
+		["Silverleaf"] = {
+			["mr"] = 125,
+			["cc"] = 7,
+			["id"] = "765:0:0:0:0",
+			["H3280"] = 125,
+			["H3277"] = 80,
 			["sc"] = 0,
 		},
 		["Un'Goro Soil"] = {
-			["mr"] = 1000,
+			["mr"] = 760,
 			["cc"] = 15,
 			["id"] = "11018:0:0:0:0",
+			["H3280"] = 760,
 			["H3277"] = 1000,
 			["sc"] = 0,
 		},
@@ -413,6 +520,30 @@ AUCTIONATOR_TOONS = {
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
+	["briarthorn"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["yellow power crystal"] = {
+		["stacksize"] = 10,
+		["numstacks"] = 0,
+	},
+	["liferoot"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["red power crystal"] = {
+		["stacksize"] = 10,
+		["numstacks"] = 0,
+	},
+	["un'goro soil"] = {
+		["stacksize"] = 2,
+		["numstacks"] = 0,
+	},
+	["gromsblood"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1
 AUCTIONATOR_DB_MAXITEM_AGE = 180
