@@ -1,8 +1,20 @@
-QuestieOptionsNameplate = {...}
+-------------------------
+--Import modules.
+-------------------------
+---@type QuestieOptions
+local QuestieOptions = QuestieLoader:ImportModule("QuestieOptions");
+---@type QuestieOptionsDefaults
+local QuestieOptionsDefaults = QuestieLoader:ImportModule("QuestieOptionsDefaults");
+---@type QuestieOptionsUtils
+local QuestieOptionsUtils = QuestieLoader:ImportModule("QuestieOptionsUtils");
+---@type QuestieNameplate
+local QuestieNameplate = QuestieLoader:ImportModule("QuestieNameplate");
+
+QuestieOptions.tabs.nameplate = {...}
 local optionsDefaults = QuestieOptionsDefaults:Load()
 
 
-function QuestieOptionsNameplate:Initialize()
+function QuestieOptions.tabs.nameplate:Initialize()
     return {
         name = function() return QuestieLocale:GetUIString('NAMEPLATE_TAB'); end,
         type = "group",

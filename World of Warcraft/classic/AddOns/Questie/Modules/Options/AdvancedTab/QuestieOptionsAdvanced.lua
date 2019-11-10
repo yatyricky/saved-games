@@ -1,8 +1,28 @@
-QuestieOptionsAdvanced = {...}
+-------------------------
+--Import modules.
+-------------------------
+---@type QuestieQuest
+local QuestieQuest = QuestieLoader:ImportModule("QuestieQuest");
+---@type QuestieOptions
+local QuestieOptions = QuestieLoader:ImportModule("QuestieOptions");
+---@type QuestieOptionsDefaults
+local QuestieOptionsDefaults = QuestieLoader:ImportModule("QuestieOptionsDefaults");
+---@type QuestieOptionsUtils
+local QuestieOptionsUtils = QuestieLoader:ImportModule("QuestieOptionsUtils");
+---@type QuestieTracker
+local QuestieTracker = QuestieLoader:ImportModule("QuestieTracker");
+---@type QuestieCoords
+local QuestieCoords = QuestieLoader:ImportModule("QuestieCoords");
+---@type QuestieNameplate
+local QuestieNameplate = QuestieLoader:ImportModule("QuestieNameplate");
+---@type QuestieMap
+local QuestieMap = QuestieLoader:ImportModule("QuestieMap");
+
+QuestieOptions.tabs.advanced = {...}
 local optionsDefaults = QuestieOptionsDefaults:Load()
 
 
-function QuestieOptionsAdvanced:Initalize()
+function QuestieOptions.tabs.advanced:Initalize()
     return {
         name = function() return QuestieLocale:GetUIString('ADV_TAB'); end,
         type = "group",
@@ -11,7 +31,40 @@ function QuestieOptionsAdvanced:Initalize()
             map_options = {
                 type = "header",
                 order = 1,
-                name = function() return QuestieLocale:GetUIString('DEV_OPTIONS'); end,
+                name = function() return "Advanced Settings"; end,
+            },
+            enableIconLimit = {
+                type = "toggle",
+                order = 2.1,
+                name = function() return QuestieLocale:GetUIString('ENABLE_ICON_LIMIT'); end,
+                desc = function() return QuestieLocale:GetUIString('ENABLE_ICON_LIMIT_DESC'); end,
+                width = "full",
+                get = function (info) return QuestieOptions:GetGlobalOptionValue(info); end,
+                set = function (info, value)
+                    QuestieOptions:SetGlobalOptionValue(info, value)
+                    QuestieOptionsUtils:Delay(0.5, QuestieQuest.SmoothReset, QuestieLocale:GetUIString('DEBUG_ICON_LIMIT', value))
+                end,
+            },
+            iconLimit = {
+                type = "range",
+                order = 2.2,
+                name = function() return QuestieLocale:GetUIString('ICON_LIMIT'); end,
+                desc = function() return QuestieLocale:GetUIString('ICON_LIMIT_DESC', optionsDefaults.global.iconLimit); end,
+                width = "double",
+                min = 10,
+                max = 500,
+                step = 10,
+                disabled = function() return (not Questie.db.global.enableIconLimit); end,
+                get = function(info) return QuestieOptions:GetGlobalOptionValue(info); end,
+                set = function (info, value)
+                    QuestieOptions:SetGlobalOptionValue(info, value)
+                    QuestieOptionsUtils:Delay(0.5, QuestieQuest.SmoothReset, QuestieLocale:GetUIString('DEBUG_ICON_LIMIT', value))
+                end,
+            },
+            seperatingHeader2 = {
+                type = "header",
+                order = 2.3,
+                name = QuestieLocale:GetUIString('DEV_OPTIONS'),
             },
             debugEnabled = {
                 type = "toggle",
@@ -22,6 +75,7 @@ function QuestieOptionsAdvanced:Initalize()
                 get = function () return Questie.db.global.debugEnabled; end,
                 set = function (info, value)
                     Questie.db.global.debugEnabled = value
+                    QuestieConfigCharacter = {}
                 end,
             },
             debugLevel = {
@@ -42,6 +96,7 @@ function QuestieOptionsAdvanced:Initalize()
             debugEnabledPrint = {
                 type = "toggle",
                 order = 6,
+                disabled = function() return not Questie.db.global.debugEnabled; end,
                 name = function() return QuestieLocale:GetUIString('ENABLE_DEBUG').."-PRINT" end,
                 desc = function() return QuestieLocale:GetUIString('ENABLE_DEBUG_DESC').."-PRINT" end,
                 width = "full",
@@ -53,6 +108,7 @@ function QuestieOptionsAdvanced:Initalize()
             showQuestIDs = {
                 type = "toggle",
                 order = 7,
+                disabled = function() return not Questie.db.global.debugEnabled; end,
                 name = function() return QuestieLocale:GetUIString('ENABLE_TOOLTIPS_QUEST_IDS'); end,
                 desc = function() return QuestieLocale:GetUIString('ENABLE_TOOLTIPS_QUEST_LEVEL_IDS'); end,
                 width = "full",
@@ -74,8 +130,10 @@ function QuestieOptionsAdvanced:Initalize()
                 type = "select",
                 order = 13,
                 values = {
+                    ['auto'] = QuestieLocale:GetUIString('LOCALE_DROP_AUTOMATIC'),
                     ['enUS'] = 'English',
                     ['esES'] = 'Español',
+                    ['esMX'] = 'Español (México)',
                     ['ptBR'] = 'Português',
                     ['frFR'] = 'Français',
                     ['deDE'] = 'Deutsch',
@@ -86,8 +144,21 @@ function QuestieOptionsAdvanced:Initalize()
                 },
                 style = 'dropdown',
                 name = function() return QuestieLocale:GetUIString('LOCALE_DROP'); end,
-                get = function() return QuestieLocale:GetUILocale(); end,
+                get = function()
+                    if not Questie.db.global.questieLocaleDiff then
+                        return 'auto'
+                    else
+                        return QuestieLocale:GetUILocale(); 
+                    end
+                end,
                 set = function(input, lang)
+                    if lang == 'auto' then
+                        local clientLocale = GetLocale()
+                        QuestieLocale:SetUILocale(clientLocale)
+                        Questie.db.global.questieLocale = clientLocale
+                        Questie.db.global.questieLocaleDiff = false
+                        return
+                    end
                     QuestieLocale:SetUILocale(lang);
                     Questie.db.global.questieLocale = lang;
                     Questie.db.global.questieLocaleDiff = true;

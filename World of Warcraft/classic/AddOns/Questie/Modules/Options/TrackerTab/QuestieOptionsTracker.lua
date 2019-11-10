@@ -1,7 +1,17 @@
-QuestieOptionsTracker = {...}
+-------------------------
+--Import modules.
+-------------------------
+---@type QuestieOptions
+local QuestieOptions = QuestieLoader:ImportModule("QuestieOptions");
+---@type QuestieOptionsUtils
+local QuestieOptionsUtils = QuestieLoader:ImportModule("QuestieOptionsUtils");
+---@type QuestieTracker
+local QuestieTracker = QuestieLoader:ImportModule("QuestieTracker");
+
+QuestieOptions.tabs.tracker = {...}
 
 
-function QuestieOptionsTracker:Initialize()
+function QuestieOptions.tabs.tracker:Initialize()
     return {
         name = function() return QuestieLocale:GetUIString('TRACKER_TAB'); end,
         type = "group",
