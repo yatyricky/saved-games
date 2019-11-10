@@ -1,0 +1,8 @@
+## Interface: 11302
+## Version: 1.0.0
+## Title: ClassicTooltipItemLevel
+## Notes: Displays the item level in the tooltip
+## Author: Fenix-LoD
+## SavedVariables: ClassicTooltipItemLevelConfig
+
+ClassicTooltipItemLevel.lua

@@ -8,11 +8,18 @@ FiveSecondRule_Options = {
 		0.8, -- [4]
 	},
 	["tickSizeRunningWindow"] = {
-		60, -- [1]
-		60, -- [2]
-		61, -- [3]
+		71, -- [1]
+		72, -- [2]
+		65.5, -- [3]
+		65.5, -- [4]
+		65.5, -- [5]
+		65, -- [6]
+		65.5, -- [7]
+		65.5, -- [8]
+		65.5, -- [9]
+		393, -- [10]
 	},
-	["averageManaTick"] = 60.3333333333333,
+	["averageManaTick"] = 99.4,
 	["barHeight"] = 11,
 	["unlocked"] = false,
 	["statusBarBackgroundColor"] = {
