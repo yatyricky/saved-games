@@ -8,20 +8,20 @@ FiveSecondRule_Options = {
 		0.8, -- [4]
 	},
 	["tickSizeRunningWindow"] = {
-		62.5, -- [1]
-		62, -- [2]
-		62, -- [3]
-		62.5, -- [4]
-		69, -- [5]
-		62.5, -- [6]
-		62, -- [7]
-		62, -- [8]
-		62.5, -- [9]
-		68, -- [10]
+		69, -- [1]
+		70, -- [2]
+		69, -- [3]
+		69, -- [4]
+		70, -- [5]
+		69, -- [6]
+		70, -- [7]
+		69, -- [8]
+		69, -- [9]
+		69, -- [10]
 	},
-	["averageManaTick"] = 63.5,
 	["barHeight"] = 11,
-	["unlocked"] = false,
+	["averageManaTick"] = 69.3,
+	["barTop"] = -68,
 	["statusBarBackgroundColor"] = {
 		0, -- [1]
 		0, -- [2]
@@ -44,6 +44,6 @@ FiveSecondRule_Options = {
 	},
 	["showSpark"] = true,
 	["flat"] = false,
-	["barTop"] = -68,
+	["unlocked"] = false,
 	["barWidth"] = 117,
 }
