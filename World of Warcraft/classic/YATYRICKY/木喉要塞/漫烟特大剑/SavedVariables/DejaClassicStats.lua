@@ -34,14 +34,14 @@ DejaClassicStatsDBPC = {
 		["DejaClassicStatsShowItemRepairChecked"] = {
 			["ShowItemRepairSetChecked"] = false,
 		},
-		["DejaClassicStatsShowDuraChecked"] = {
-			["ShowDuraSetChecked"] = false,
+		["dejacharacterstatsScrollbarChecked"] = {
+			["ScrollbarSetChecked"] = false,
 		},
-		["dejacharacterstatsExpandButtonChecked"] = {
-			["ExpandButtonSetChecked"] = true,
+		["DejaClassicStatsShowDefaultStats"] = {
+			["ShowDefaultStatsChecked"] = false,
 		},
-		["dejacharacterstatsExpandChecked"] = {
-			["ExpandSetChecked"] = true,
+		["DejaClassicStatsShowHideScrollArtBackground"] = {
+			["ShowHideScrollArtBackgroundChecked"] = false,
 		},
 		["DejaClassicStatsShowAverageRepairChecked"] = {
 			["ShowAverageRepairSetChecked"] = false,
@@ -49,8 +49,9 @@ DejaClassicStatsDBPC = {
 		["dejacharacterstatsExpandButtonAltPlacementChecked"] = {
 			["ExpandButtonAltPlacementSetChecked"] = false,
 		},
-		["DejaClassicStatsAlternateInfoPlacement"] = {
-			["AlternateInfoPlacementChecked"] = false,
+		["DejaClassicStatsSimpleItemColorChecked"] = {
+			["SimpleItemColorChecked"] = false,
+			["DarkerItemColorChecked"] = false,
 		},
 		["DejaClassicStatsShowModelRotation"] = {
 			["ShowModelRotationChecked"] = false,
@@ -58,21 +59,20 @@ DejaClassicStatsDBPC = {
 		["DejaClassicStatsMoveResistances"] = {
 			["MoveResistancesChecked"] = false,
 		},
-		["DejaClassicStatsSimpleItemColorChecked"] = {
-			["SimpleItemColorChecked"] = false,
-			["DarkerItemColorChecked"] = false,
+		["DejaClassicStatsAlternateInfoPlacement"] = {
+			["AlternateInfoPlacementChecked"] = false,
 		},
 		["QCOA_SetSliderValue"] = {
 			["QCOA_SliderValue"] = 0.75,
 		},
-		["DejaClassicStatsShowHideScrollArtBackground"] = {
-			["ShowHideScrollArtBackgroundChecked"] = false,
+		["dejacharacterstatsExpandChecked"] = {
+			["ExpandSetChecked"] = true,
 		},
-		["DejaClassicStatsShowDefaultStats"] = {
-			["ShowDefaultStatsChecked"] = false,
+		["dejacharacterstatsExpandButtonChecked"] = {
+			["ExpandButtonSetChecked"] = true,
 		},
-		["dejacharacterstatsScrollbarChecked"] = {
-			["ScrollbarSetChecked"] = false,
+		["DejaClassicStatsShowDuraChecked"] = {
+			["ShowDuraSetChecked"] = false,
 		},
 	},
 }
