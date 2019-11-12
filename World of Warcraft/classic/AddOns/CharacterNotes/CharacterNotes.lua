@@ -446,6 +446,7 @@ function CharacterNotes:OnInitialize()
 	self.optionsFrame.Notes = ACD:AddToBlizOptions(
 	    displayName, L["Import/Export"], displayName, "export")
 
+	self:RegisterChatCommand("reportnote", "ReportNoteHandler")
 	self:RegisterChatCommand("setnote", "SetNoteHandler")
 	self:RegisterChatCommand("delnote", "DelNoteHandler")
 	self:RegisterChatCommand("delrating", "DelRatingHandler")
@@ -561,6 +562,13 @@ end
 function CharacterNotes:FCF_Close(frame, fallback)
     if frame and self:IsHooked(frame, "AddMessage") then
         self:Unhook(frame, "AddMessage")
+    end
+end
+
+function CharacterNotes:ReportNoteHandler(input)
+	SendChatMessage("公屏刷人记录" ,"SAY");
+	for name, note in pairs(self.db.realm.notes) do
+        SendChatMessage(name .. " reports " .. note, "SAY")
     end
 end
 
