@@ -11,7 +11,7 @@ DejaClassicStatsDBPC = {
 			["ShowHideSpellSetChecked"] = false,
 		},
 		["DejaClassicStatsShowItemLevelChecked"] = {
-			["ShowItemLevelSetChecked"] = true,
+			["ShowItemLevelSetChecked"] = false,
 		},
 		["DejaClassicStatsShowHideDefenseChecked"] = {
 			["ShowHideDefenseSetChecked"] = true,
