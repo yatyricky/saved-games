@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["STARTING_DISCOUNT"] = 0,
-	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 0,
+	["_1000000"] = 2500,
 	["_10000"] = 200,
+	["LOG_DE_DATA_X"] = true,
 	["_200000"] = 1000,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Briarthorn"] = {
@@ -6658,13 +6658,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 99800,
 			["H3283"] = 99800,
 		},
+		["Councillor's Scepter of Healing"] = {
+			["mr"] = 800000,
+			["H3283"] = 800000,
+		},
 		["Pattern: Brightcloth Robe"] = {
 			["mr"] = 47875,
 			["H3283"] = 47875,
-		},
-		["Belt of Valor"] = {
-			["mr"] = 80000,
-			["H3283"] = 80000,
 		},
 		["Bandit Jerkin of the Owl"] = {
 			["mr"] = 1500,
@@ -6750,17 +6750,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 4000,
 			["H3283"] = 4000,
 		},
-		["Accurate Scope"] = {
-			["mr"] = 12100,
-			["H3283"] = 12100,
+		["Massive Battle Axe of the Eagle"] = {
+			["mr"] = 6831,
+			["H3283"] = 6831,
 		},
 		["Arctic Ring of Agility"] = {
 			["mr"] = 24100,
 			["H3283"] = 24100,
 		},
-		["Thorium Ore"] = {
-			["mr"] = 2200,
-			["H3283"] = 2200,
+		["Accurate Scope"] = {
+			["mr"] = 12100,
+			["H3283"] = 12100,
 		},
 		["Plans: Deadly Bronze Poniard"] = {
 			["mr"] = 9441,
@@ -6883,9 +6883,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 11100,
 			["H3283"] = 11100,
 		},
-		["Sergeant's Warhammer of Power"] = {
-			["mr"] = 3500,
-			["H3283"] = 3500,
+		["Aquamarine"] = {
+			["H3283"] = 2002,
+			["cc"] = 7,
+			["id"] = "7909:0:0:0:0",
+			["L3283"] = 1999,
+			["mr"] = 1999,
+			["sc"] = 0,
 		},
 		["Mystic's Woolies"] = {
 			["mr"] = 5000,
@@ -6919,9 +6923,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 250000,
 			["H3283"] = 250000,
 		},
-		["Recipe: Greater Frost Protection Potion"] = {
-			["mr"] = 880000,
-			["H3283"] = 880000,
+		["Sergeant's Warhammer of Power"] = {
+			["mr"] = 3500,
+			["H3283"] = 3500,
 		},
 		["Hulking Chestguard"] = {
 			["mr"] = 8888,
@@ -6971,17 +6975,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 101700,
 			["H3283"] = 101700,
 		},
-		["Warbringer's Armsplints of the Bear"] = {
-			["mr"] = 13058,
-			["H3283"] = 13058,
+		["Pattern: Green Silk Armor"] = {
+			["mr"] = 9900,
+			["H3283"] = 9900,
 		},
 		["Royal Sash of the Owl"] = {
 			["mr"] = 16846,
 			["H3283"] = 16846,
 		},
-		["Willow Pants of the Eagle"] = {
-			["mr"] = 14962,
-			["H3283"] = 14962,
+		["Warbringer's Armsplints of the Bear"] = {
+			["mr"] = 13058,
+			["H3283"] = 13058,
 		},
 		["Gold Ore"] = {
 			["mr"] = 2000,
@@ -8163,22 +8167,22 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3283"] = 400,
 		},
 		["Silk Cloth"] = {
+			["H3283"] = 195,
 			["H3286"] = 198,
-			["mr"] = 198,
 			["cc"] = 7,
 			["sc"] = 0,
 			["id"] = "4306:0:0:0:0",
 			["H3284"] = 337,
 			["L3284"] = 297,
-			["H3283"] = 195,
+			["mr"] = 198,
 		},
 		["Formula: Enchant Weapon - Unholy"] = {
 			["mr"] = 803500,
 			["H3283"] = 803500,
 		},
-		["Pattern: Green Silk Armor"] = {
-			["mr"] = 9900,
-			["H3283"] = 9900,
+		["Willow Pants of the Eagle"] = {
+			["mr"] = 14962,
+			["H3283"] = 14962,
 		},
 		["Elixir of Greater Intellect"] = {
 			["mr"] = 2250,
@@ -8208,13 +8212,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 50000,
 			["H3283"] = 50000,
 		},
-		["Aquamarine"] = {
-			["H3283"] = 2002,
-			["cc"] = 7,
-			["id"] = "7909:0:0:0:0",
-			["L3283"] = 1999,
-			["mr"] = 1999,
-			["sc"] = 0,
+		["Recipe: Greater Frost Protection Potion"] = {
+			["mr"] = 880000,
+			["H3283"] = 880000,
 		},
 		["Edgemaster's Handguards"] = {
 			["mr"] = 1800000,
@@ -8288,9 +8288,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 3563,
 			["H3283"] = 3563,
 		},
-		["Massive Battle Axe of the Eagle"] = {
-			["mr"] = 6831,
-			["H3283"] = 6831,
+		["Thorium Ore"] = {
+			["mr"] = 2200,
+			["H3283"] = 2200,
 		},
 		["Direwing Legguards"] = {
 			["mr"] = 1004173,
@@ -8336,9 +8336,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 4000,
 			["H3283"] = 4000,
 		},
-		["Councillor's Scepter of Healing"] = {
-			["mr"] = 800000,
-			["H3283"] = 800000,
+		["Belt of Valor"] = {
+			["mr"] = 80000,
+			["H3283"] = 80000,
 		},
 		["Formula: Enchant Weapon - Minor Beastslayer"] = {
 			["mr"] = 4900,
@@ -8984,11 +8984,11 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 10,
 		["numstacks"] = 0,
 	},
-	["gromsblood"] = {
+	["liferoot"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["restorative potion"] = {
+	["gromsblood"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
@@ -9000,7 +9000,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 10,
 		["numstacks"] = 0,
 	},
-	["liferoot"] = {
+	["restorative potion"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
