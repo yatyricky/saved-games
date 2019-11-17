@@ -1,0 +1,7 @@
+## Interface: 11302
+## Title: Nef Smart Heal
+## Author: Nef.
+## Version: 1.0.0
+## Notes: One key heal
+
+NefSmartHeal.lua
