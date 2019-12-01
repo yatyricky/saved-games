@@ -10,9 +10,9 @@ FishingBuddy_Player = {
 	},
 	["WasWearing"] = {
 	},
-	["WatcherLocation"] = {
-	},
 	["Outfit"] = {
+	},
+	["WatcherLocation"] = {
 	},
 	["Version"] = 19500,
 }
