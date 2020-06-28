@@ -5,7 +5,7 @@ _detalhes_global = {
 		[6553] = "Gorishi Reaver",
 		[6555] = "Gorishi Tunneler",
 		[6557] = "Primal Ooze",
-		[8503] = "Gibblewilt",
+		[6559] = "Glutinous Ooze",
 		[10040] = "Gorishi Hive Guard",
 		[2520] = "Remote-Controlled Golem <Goblin Engineer>",
 		[6066] = "Earthgrab Totem <Thistleshrub Rootshaper>",
@@ -26,12 +26,13 @@ _detalhes_global = {
 		[12220] = "Constrictor Vine",
 		[14268] = "Lord Condar",
 		[9162] = "Young Diemetradon",
-		[9166] = "Pterrordax",
+		[6124] = "Captain Beld",
 		[12236] = "Lord Vyletongue",
-		[12240] = "Kolk",
+		[5617] = "Wastewander Shadow Mage",
 		[449] = "Defias Knuckleduster",
 		[3581] = "Sewer Beast",
 		[5623] = "Wastewander Assassin",
+		[7158] = "Deadwood Shaman",
 		[13282] = "Noxxion",
 		[515] = "Murloc Raider",
 		[1795] = "Searing Ghoul",
@@ -44,6 +45,7 @@ _detalhes_global = {
 		[97] = "Riverpaw Runt",
 		[646] = "Mr. Smite",
 		[4124] = "猪猪姐姐丑八怪",
+		[1802] = "Hungering Wraith",
 		[4128] = "Hecklefang Stalker",
 		[647] = "Captain Greenskin",
 		[452] = "Riverpaw Bandit",
@@ -56,154 +58,168 @@ _detalhes_global = {
 		[8336] = "风蛇",
 		[1815] = "Diseased Black Bear",
 		[7246] = "Sandfury Shadowhunter",
-		[4693] = "Dread Flyer",
+		[1816] = "Diseased Grizzly",
 		[7769] = "Hazzali Parasite",
 		[4196] = "Silithid Swarm",
-		[10943] = "Decrepit Guardian",
+		[5224] = "Murk Slitherer",
 		[7272] = "Theka the Martyr",
-		[7274] = "Sandfury Executioner",
+		[8400] = "Obsidion",
 		[7787] = "Sandfury Slave",
 		[7789] = "Sandfury Cretin",
 		[1824] = "Plague Lurker",
 		[7795] = "Hydromancer Velratha",
 		[10979] = "Scarlet Hound",
+		[9462] = "Chieftain Bloodmaw",
+		[7156] = "Deadwood Den Watcher",
+		[5615] = "Wastewander Rogue",
+		[1793] = "Rotting Ghoul",
+		[641] = "Goblin Woodcarver",
+		[9166] = "Pterrordax",
 		[1831] = "Scarlet Hunter",
 		[11027] = "Illusory Wraith <Araj the Summoner>",
+		[643] = "Sneed <Sneed's Shredder>",
+		[833] = "Coyote Packleader",
+		[8138] = "Sul'lithuz Broodling",
+		[5843] = "Slave Worker",
+		[448] = "Hogger",
+		[548] = "Murloc Minor Tidecaller",
 		[1835] = "Scarlet Invoker",
 		[8504] = "Dark Iron Sentry",
 		[10041] = "Gorishi Hive Queen",
 		[5286] = "狼",
+		[3717] = "Wrathtail Sorceress",
 		[2649] = "Witherbark Scalper",
-		[7847] = "Caliph Scorpidsting",
+		[2650] = "Witherbark Zealot",
 		[2651] = "Witherbark Hideskinner",
 		[5807] = "豹",
 		[10580] = "Fetid Zombie",
 		[7855] = "Southsea Pirate",
 		[7857] = "Southsea Dock Worker",
+		[7797] = "Ruuzlu",
 		[199] = "Young Fleshripper",
 		[5308] = "再看毒死你啊",
 		[539] = "Pygmy Venom Web Spider",
-		[641] = "Goblin Woodcarver",
-		[639] = "Edwin VanCleef",
-		[1793] = "Rotting Ghoul",
-		[1024] = "Bluegill Murloc",
-		[643] = "Sneed <Sneed's Shredder>",
-		[5615] = "Wastewander Rogue",
-		[1789] = "Skeletal Acolyte",
-		[448] = "Hogger",
+		[2653] = "Witherbark Sadist",
+		[4475] = "Blighted Zombie",
+		[6517] = "Tar Beast",
+		[5839] = "Dark Iron Geologist",
+		[441] = "Black Dragon Whelp",
+		[40] = "Kobold Miner",
+		[1122] = "Frostmane Hideskinner",
+		[5485] = "Thistleshrub Rootshaper",
 		[7883] = "Andre Firebeard",
 		[9622] = "U'cha",
-		[5843] = "Slave Worker",
+		[116] = "Defias Bandit",
 		[13718] = "The Nameless Prophet",
-		[5839] = "Dark Iron Geologist",
+		[880] = "Erlan Drudgemoor",
 		[1083] = "Murloc Shorestriker",
 		[11686] = "Ghostly Raider",
 		[12201] = "Princess Theradras",
 		[5855] = "Magma Elemental",
 		[5857] = "Searing Lava Spider",
 		[1852] = "Araj the Summoner",
-		[12217] = "Corruptor",
+		[5861] = "Twilight Fire Guard",
 		[12221] = "Noxious Slime",
 		[12225] = "Celebras the Cursed",
-		[7400] = "Searing Totem V <火歌>",
+		[9163] = "Diemetradon",
 		[9167] = "Frenzied Pterrordax",
 		[12237] = "Meshlok the Harvester",
-		[1791] = "Slavering Ghoul",
+		[8391] = "Lathoric the Black",
 		[2686] = "Witherbark Broodguard",
-		[13743] = "Corrupt Force of Nature",
-		[2653] = "Witherbark Sadist",
-		[8400] = "Obsidion",
+		[7286] = "Zul'Farrak Zombie",
+		[504] = "Defias Trapper",
+		[478] = "Riverpaw Outrunner",
 		[7416] = "Mana Spring Totem IV <自由的真嗣>",
-		[6552] = "Gorishi Worker",
-		[4475] = "Blighted Zombie",
-		[626] = "Foreman Thistlenettle",
+		[6518] = "Tar Lurker",
+		[623] = "Skeletal Miner",
+		[4693] = "Dread Flyer",
 		[1860] = "塔恩萨克",
 		[4360] = "Mirefin Warrior",
-		[7797] = "Ruuzlu",
+		[657] = "Defias Pirate",
 		[11778] = "Shadowshard Smasher",
-		[441] = "Black Dragon Whelp",
+		[6412] = "Skeleton <Cauldron Lord Razarch>",
 		[11786] = "Ambereye Reaver",
 		[13323] = "Subterranean Diemetradon",
 		[11794] = "Sister of Celebrian",
 		[117] = "Riverpaw Gnoll",
-		[1131] = "Winter Wolf",
-		[822] = "Young Forest Bear",
-		[5485] = "Thistleshrub Rootshaper",
-		[880] = "Erlan Drudgemoor",
-		[2707] = "Shadra",
-		[8391] = "Lathoric the Black",
-		[6518] = "Tar Lurker",
+		[6017] = "Lava Spout Totem <Sandfury Witch Doctor>",
+		[7268] = "Sandfury Guardian",
+		[3808] = "Forsaken Dark Stalker",
+		[7448] = "Chillwind Chimaera",
+		[7450] = "Ragged Owlbeast",
+		[7452] = "Crazed Owlbeast",
+		[7454] = "Berserk Owlbeast",
 		[7456] = "嘎嘎叫",
-		[504] = "Defias Trapper",
-		[9683] = "Lar'korwi Mate",
+		[7458] = "Ice Thistle Yeti",
+		[7460] = "Ice Thistle Patriarch",
 		[2202] = "Greymist Coastrunner",
 		[5420] = "Glasshide Gazer",
 		[5422] = "Scorpid Hunter",
 		[5424] = "Scorpid Dunestalker",
 		[5426] = "Blisterpaw Hyena",
 		[5428] = "Roc",
-		[10996] = "Fallen Hero",
-		[623] = "Skeletal Miner",
+		[94] = "Defias Cutpurse",
+		[2476] = "Large Loch Crocolisk",
 		[1821] = "Carrion Lurker",
-		[1117] = "Rockjaw Bonesnapper",
+		[824] = "Defias Digger",
 		[4416] = "Defias Strip Miner",
 		[4418] = "Defias Wizard",
 		[1109] = "Fleshripper",
-		[1122] = "Frostmane Hideskinner",
-		[1135] = "Wendigo",
+		[1123] = "Frostmane Headhunter",
+		[639] = "Edwin VanCleef",
 		[43] = "Mine Spider",
-		[5224] = "Murk Slitherer",
+		[11793] = "Celebrian Dryad",
 		[5452] = "Hazzali Worker",
-		[6516] = "Un'Goro Thunderer",
+		[9318] = "Incendosaur",
 		[5456] = "Centipaar Stinger",
-		[94] = "Defias Cutpurse",
-		[118] = "Prowler",
-		[2476] = "Large Loch Crocolisk",
 		[1120] = "Frostmane Troll",
-		[1115] = "Rockjaw Skullthumper",
+		[118] = "Prowler",
+		[4417] = "Defias Taskmaster",
+		[822] = "Young Forest Bear",
+		[10916] = "Winterfall Runner",
 		[8876] = "Sandfury Acolyte",
-		[657] = "Defias Pirate",
+		[6556] = "Muculent Ooze",
 		[5472] = "Dunemaul Enforcer",
 		[5474] = "Dunemaul Brute",
-		[6556] = "Muculent Ooze",
-		[6500] = "Tyrant Devilsaur",
 		[2261] = "Syndicate Watchman",
+		[6500] = "Tyrant Devilsaur",
 		[8095] = "Sul'lithuz Sandcrawler",
+		[501] = "Riverpaw Herbalist",
 		[6506] = "Ravasaur Runner",
 		[6508] = "Venomhide Ravasaur",
 		[345] = "Bellygrub",
 		[5490] = "Gnarled Thistleshrub",
-		[473] = "Morgan the Collector",
+		[6514] = "Un'Goro Gorilla",
 		[7027] = "Blackrock Slayer",
 		[4474] = "Rotting Cadaver",
-		[1123] = "Frostmane Headhunter",
+		[6520] = "Scorching Elemental",
 		[946] = "Frostmane Novice",
 		[1124] = "Frostmane Shadowcaster",
-		[824] = "Defias Digger",
-		[6017] = "Lava Spout Totem <Sandfury Witch Doctor>",
+		[7400] = "Searing Totem V <火歌>",
+		[10996] = "Fallen Hero",
 		[474] = "Defias Rogue Wizard",
-		[1822] = "Venom Mist Lurker",
+		[8419] = "Twilight Idolater",
 		[2760] = "Burning Exile",
-		[4417] = "Defias Taskmaster",
-		[116] = "Defias Bandit",
+		[13533] = "Spewed Larva",
+		[7465] = "Magma Totem III <Wenweni>",
 		[1128] = "Young Black Bear",
 		[12046] = "Gor'marok the Ravager",
 		[103] = "Garrick Padfoot",
 		[475] = "Kobold Tunneler",
-		[3808] = "Forsaken Dark Stalker",
+		[1131] = "Winter Wolf",
 		[8996] = "Voidwalker Minion",
-		[14621] = "Overseer Maltorius",
+		[6552] = "Gorishi Worker",
 		[6554] = "Gorishi Stinger",
 		[1132] = "Timber",
 		[1388] = "Vagash",
 		[1133] = "Starving Winter Wolf",
 		[476] = "Kobold Geomancer",
 		[1134] = "Young Wendigo",
-		[471] = "Mother Fang",
+		[8503] = "Gibblewilt",
 		[11076] = "Cauldron Lord Razarch",
-		[1397] = "Frostmane Seer",
+		[525] = "Mangy Wolf",
 		[285] = "Murloc",
-		[501] = "Riverpaw Herbalist",
+		[7457] = "Rogue Ice Thistle",
 		[1137] = "Edan the Howler",
 		[1393] = "Berserk Trogg",
 		[1138] = "Snow Tracker Wolf",
@@ -211,147 +227,147 @@ _detalhes_global = {
 		[7606] = "Oro Eyegouge",
 		[7608] = "Murta Grimgut",
 		[10605] = "Scarlet Medic",
-		[1121] = "Frostmane Snowstrider",
-		[6559] = "Glutinous Ooze",
+		[471] = "Mother Fang",
+		[114] = "Harvest Watcher",
 		[8127] = "Antu'sul",
 		[36] = "Harvest Golem",
-		[525] = "Mangy Wolf",
-		[7465] = "Magma Totem III <Wenweni>",
-		[327] = "Goldtooth",
+		[3225] = "Corrupted Mottled Boar",
+		[2707] = "Shadra",
+		[416] = "匹兹洛兹",
 		[6093] = "Dead-Tooth Jack",
-		[1794] = "Soulless Ghoul",
-		[9164] = "Elder Diemetradon",
+		[881] = "Surena Caledon",
+		[11790] = "Putridus Satyr",
+		[5616] = "Wastewander Thief",
 		[578] = "Murloc Scout",
-		[5650] = "Sandfury Witch Doctor",
+		[7157] = "Deadwood Avenger",
 		[12258] = "Razorlash",
-		[30] = "Forest Spider",
 		[11687] = "Ghostly Marauder",
 		[3825] = "狼 <天真无鞋>",
 		[12206] = "Primordial Behemoth",
-		[416] = "匹兹洛兹",
+		[13743] = "Corrupt Force of Nature",
 		[480] = "Rusty Harvest Golem",
 		[12218] = "Vile Larva",
 		[12222] = "Creeping Sludge",
 		[832] = "Dust Devil",
 		[6123] = "Dark Iron Spy",
-		[5649] = "Sandfury Blood Drinker",
-		[5616] = "Wastewander Thief",
+		[327] = "Goldtooth",
+		[9683] = "Lar'korwi Mate",
 		[12242] = "Maraudos",
 		[481] = "Defias Footpad",
 		[10717] = "Temporal Parasite",
 		[8179] = "Greater Healing Ward <Sandfury Witch Doctor>",
 		[834] = "Coyote",
 		[1922] = "Gray Forest Wolf",
-		[5648] = "Sandfury Shadowcaster",
-		[13533] = "Spewed Larva",
-		[5861] = "Twilight Fire Guard",
-		[9163] = "Diemetradon",
+		[5649] = "Sandfury Blood Drinker",
+		[1024] = "Bluegill Murloc",
 		[580] = "Redridge Drudger",
-		[6412] = "Skeleton <Cauldron Lord Razarch>",
-		[6124] = "Captain Beld",
+		[5648] = "Sandfury Shadowcaster",
+		[1158] = "Cursed Marine",
+		[1161] = "Stonesplinter Trogg",
+		[2428] = "Jailor Marlgen",
 		[11783] = "Theradrim Shardling <Theradrim Guardian>",
 		[5646] = "Sandfury Axe Thrower",
 		[11791] = "Putridus Trickster",
-		[1161] = "Stonesplinter Trogg",
+		[5650] = "Sandfury Witch Doctor",
 		[121] = "Defias Pathstalker",
 		[1162] = "Stonesplinter Scout",
-		[11075] = "Cauldron Lord Bilemaw",
+		[1726] = "Defias Magician",
 		[1163] = "Stonesplinter Skullthumper",
-		[5618] = "Wastewander Bandit",
+		[422] = "Murloc Flesheater",
 		[1164] = "Stonesplinter Bonesnapper",
 		[10801] = "Jabbering Ghoul",
 		[1165] = "Stonesplinter Geomancer",
-		[7247] = "Sandfury Soul Eater",
+		[424] = "Redridge Poacher",
 		[1166] = "Stonesplinter Seer",
 		[712] = "Redridge Thrasher",
 		[1167] = "Stonesplinter Digger",
 		[4654] = "Maraudine Scout",
-		[1181] = "Mo'grosh Shaman",
-		[422] = "Murloc Flesheater",
-		[589] = "Defias Pillager",
-		[1179] = "Mo'grosh Enforcer",
-		[590] = "Defias Looter",
-		[10925] = "Rotting Worm",
-		[1726] = "Defias Magician",
-		[1727] = "Defias Worker",
-		[1172] = "Tunnel Rat Vermin",
-		[424] = "Redridge Poacher",
-		[1173] = "Tunnel Rat Scout",
-		[1189] = "Black Bear Patriarch",
-		[1174] = "Tunnel Rat Geomancer",
-		[7275] = "Shadowpriest Sezz'ziz",
-		[1175] = "Tunnel Rat Digger",
-		[213] = "Starving Dire Wolf",
-		[1176] = "Tunnel Rat Forager",
-		[12219] = "Barbed Lasher",
+		[4688] = "Bonepaw Hyena",
 		[423] = "Redridge Mongrel",
+		[1178] = "Mo'grosh Ogre",
+		[1179] = "Mo'grosh Enforcer",
+		[8877] = "Sandfury Zealot",
+		[3450] = "Defias Companion",
+		[4846] = "Shadowforge Digger",
+		[14271] = "Ribchaser",
+		[1172] = "Tunnel Rat Vermin",
+		[1180] = "Mo'grosh Brute",
+		[1173] = "Tunnel Rat Scout",
+		[5862] = "Twilight Geomancer",
+		[1174] = "Tunnel Rat Geomancer",
+		[5349] = "风蛇",
+		[1175] = "Tunnel Rat Digger",
+		[1181] = "Mo'grosh Shaman",
+		[1176] = "Tunnel Rat Forager",
+		[735] = "Murloc Streamrunner",
+		[13456] = "Noxxion's Spawn <Noxxion>",
 		[122] = "Defias Highwayman",
 		[9376] = "Blazerunner",
-		[2428] = "Jailor Marlgen",
+		[5854] = "Heavy War Golem",
 		[2354] = "Vicious Gray Bear",
 		[7768] = "Witherbark Bloodling",
-		[1180] = "Mo'grosh Brute",
-		[4846] = "Shadowforge Digger",
+		[10925] = "Rotting Worm",
+		[7267] = "Chief Ukorz Sandscalp",
 		[8889] = "Anvilrage Overseer",
-		[14271] = "Ribchaser",
+		[1211] = "Leper Gnome",
 		[1693] = "Loch Crocolisk",
 		[5225] = "Murk Spitter",
-		[1183] = "Mo'grosh Mystic",
+		[7271] = "Witch Doctor Zum'rah",
 		[7273] = "Gahz'rilla",
-		[1184] = "Cliff Lurker",
+		[7275] = "Shadowpriest Sezz'ziz",
 		[7788] = "Sandfury Drudge",
 		[5235] = "Fungal Ooze",
-		[8442] = "Shadowsilk Poacher",
+		[5243] = "Cursed Atal'ai",
 		[1186] = "Elder Black Bear",
 		[7796] = "Nekrum Gutchewer",
-		[5243] = "Cursed Atal'ai",
-		[5862] = "Twilight Geomancer",
-		[1188] = "Grizzled Black Bear",
-		[5349] = "风蛇",
-		[426] = "Redridge Brute",
-		[598] = "Defias Miner",
-		[735] = "Murloc Streamrunner",
-		[5854] = "Heavy War Golem",
-		[599] = "Marisa du'Paige",
-		[5261] = "Enthralled Atal'ai",
-		[1211] = "Leper Gnome",
+		[213] = "Starving Dire Wolf",
 		[2927] = "Vicious Owlbeast",
+		[1188] = "Grizzled Black Bear",
+		[5844] = "Dark Iron Slaver",
+		[1189] = "Black Bear Patriarch",
+		[594] = "Defias Henchman",
+		[5840] = "Dark Iron Steamsmith",
+		[1183] = "Mo'grosh Mystic",
+		[1194] = "Mountain Buzzard",
+		[5261] = "Enthralled Atal'ai",
+		[1207] = "Brawler",
+		[732] = "Murloc Lurker",
 		[1193] = "Loch Frenzy",
 		[123] = "Riverpaw Mongrel",
-		[1194] = "Mountain Buzzard",
+		[598] = "Defias Miner",
 		[1961] = "Mangeclaw",
 		[1195] = "Forest Lurker",
-		[1210] = "Chok'sul",
+		[1206] = "Gnasher",
 		[1196] = "Ice Claw Bear",
-		[5844] = "Dark Iron Slaver",
-		[428] = "Dire Condor",
 		[11077] = "Cauldron Lord Malvinious",
-		[5840] = "Dark Iron Steamsmith",
+		[428] = "Dire Condor",
+		[430] = "Redridge Mystic",
+		[8566] = "Dark Iron Lookout",
 		[3415] = "豹",
 		[1199] = "Juvenile Snow Leopard",
 		[3417] = "Living Flame",
-		[7856] = "Southsea Freebooter",
-		[1202] = "Tunnel Rat Kobold",
+		[1210] = "Chok'sul",
+		[8442] = "Shadowsilk Poacher",
 		[1201] = "Snow",
-		[13141] = "Deeprot Stomper",
+		[7856] = "Southsea Freebooter",
 		[7858] = "Southsea Swashbuckler",
-		[1207] = "Brawler",
-		[732] = "Murloc Lurker",
-		[1206] = "Gnasher",
-		[430] = "Redridge Mystic",
-		[8566] = "Dark Iron Lookout",
+		[599] = "Marisa du'Paige",
+		[13141] = "Deeprot Stomper",
+		[1202] = "Tunnel Rat Kobold",
+		[1197] = "Stonesplinter Shaman",
+		[731] = "豹",
 		[1205] = "Grawmug",
 		[5828] = "我家猪猪的休玛",
 		[38] = "Defias Thug",
 		[46] = "Murloc Forager",
 		[13696] = "Noxxious Scion",
-		[731] = "豹",
+		[426] = "Redridge Brute",
 		[2923] = "Mangy Silvermane",
 		[2924] = "Silvermane Wolf",
 		[3947] = "Goblin Shipbuilder",
 		[124] = "Riverpaw Brute",
 		[5846] = "Dark Iron Taskmaster",
-		[1197] = "Stonesplinter Shaman",
+		[1184] = "Cliff Lurker",
 		[5850] = "Blazing Elemental",
 		[5852] = "Inferno Elemental",
 		[2931] = "愤怒的小鸟",
@@ -362,52 +378,52 @@ _detalhes_global = {
 		[12223] = "Cavern Lurker",
 		[4844] = "Shadowforge Surveyor",
 		[9165] = "Fledgling Pterrordax",
-		[3450] = "Defias Companion",
+		[1727] = "Defias Worker",
 		[9684] = "Lar'korwi",
 		[12243] = "Veng",
-		[594] = "Defias Henchman",
+		[590] = "Defias Looter",
 		[1729] = "Defias Evoker",
-		[7271] = "Witch Doctor Zum'rah",
-		[7267] = "Chief Ukorz Sandscalp",
+		[589] = "Defias Pillager",
+		[12219] = "Barbed Lasher",
 		[1986] = "Webwood Spider",
 		[1731] = "Goblin Craftsman",
-		[8877] = "Sandfury Zealot",
-		[1732] = "Defias Squallshaper",
-		[1178] = "Mo'grosh Ogre",
 		[4692] = "Dread Swoop",
-		[4688] = "Bonepaw Hyena",
-		[13456] = "Noxxion's Spawn <Noxxion>",
+		[1732] = "Defias Squallshaper",
+		[89] = "Infernal <萩风>",
+		[7247] = "Sandfury Soul Eater",
+		[5618] = "Wastewander Bandit",
+		[11075] = "Cauldron Lord Bilemaw",
 		[11784] = "Theradrim Guardian",
 		[11788] = "Rock Worm",
 		[11792] = "Putridus Shadowstalker",
 		[1225] = "Ol' Sooty",
-		[89] = "Infernal <萩风>",
+		[9164] = "Elder Diemetradon",
 		[154] = "Greater Fleshripper",
 		[5401] = "Kazkaz the Unholy",
-		[11790] = "Putridus Satyr",
-		[1158] = "Cursed Marine",
-		[6520] = "Scorching Elemental",
-		[6514] = "Un'Goro Gorilla",
+		[12217] = "Corruptor",
+		[1121] = "Frostmane Snowstrider",
+		[7451] = "Raging Owlbeast",
+		[7453] = "Moontouched Owlbeast",
 		[10806] = "熊",
 		[500] = "Riverpaw Scout",
-		[3225] = "Corrupted Mottled Boar",
-		[114] = "Harvest Watcher",
+		[7459] = "Ice Thistle Matriarch",
+		[1025] = "Bluegill Puddlejumper",
 		[5419] = "Glasshide Basilisk",
 		[5421] = "Glasshide Petrifier",
 		[5423] = "Scorpid Tail Lasher",
 		[5425] = "Starving Blisterpaw",
 		[5427] = "Rabid Blisterpaw",
 		[5429] = "Fire Roc",
-		[2650] = "Witherbark Zealot",
-		[9318] = "Incendosaur",
-		[1816] = "Diseased Grizzly",
-		[8138] = "Sul'lithuz Broodling",
+		[1397] = "Frostmane Seer",
+		[14621] = "Overseer Maltorius",
+		[1115] = "Rockjaw Skullthumper",
+		[1822] = "Venom Mist Lurker",
 		[619] = "Defias Conjurer",
 		[5441] = "Hazzali Wasp",
-		[642] = "Sneed's Shredder",
+		[1117] = "Rockjaw Bonesnapper",
 		[502] = "Benny Blaanco",
-		[881] = "Surena Caledon",
 		[1118] = "Rockjaw Backbreaker",
+		[473] = "Morgan the Collector",
 		[5451] = "Hazzali Swarmer",
 		[5453] = "Hazzali Tunneler",
 		[5455] = "Centipaar Wasp",
@@ -415,9 +431,9 @@ _detalhes_global = {
 		[5459] = "Centipaar Tunneler",
 		[126] = "Murloc Coastrunner",
 		[622] = "Goblin Engineer",
-		[11793] = "Celebrian Dryad",
-		[7268] = "Sandfury Guardian",
-		[7286] = "Zul'Farrak Zombie",
+		[7274] = "Sandfury Executioner",
+		[30] = "Forest Spider",
+		[6516] = "Un'Goro Thunderer",
 		[5471] = "Dunemaul Ogre",
 		[5473] = "Dunemaul Ogre Mage",
 		[5475] = "Dunemaul Warlock",
@@ -429,23 +445,23 @@ _detalhes_global = {
 		[625] = "Undead Dynamiter",
 		[4026] = "Bloodfury Windcaller",
 		[6513] = "Un'Goro Stomper",
-		[40] = "Kobold Miner",
-		[8419] = "Twilight Idolater",
+		[1135] = "Wendigo",
+		[626] = "Foreman Thistlenettle",
 		[6519] = "Tar Lord",
 		[6521] = "Living Blaze",
-		[478] = "Riverpaw Outrunner",
+		[7847] = "Caliph Scorpidsting",
 		[1763] = "Gilnid",
 		[6527] = "Tar Creeper",
 		[442] = "Tarantula",
 		[7042] = "Flamescale Dragonspawn",
-		[6517] = "Tar Beast",
+		[1789] = "Skeletal Acolyte",
 		[9477] = "Cloned Ooze <Primal Ooze>",
-		[833] = "Coyote Packleader",
-		[1025] = "Bluegill Puddlejumper",
-		[5617] = "Wastewander Shadow Mage",
+		[1794] = "Soulless Ghoul",
+		[642] = "Sneed's Shredder",
+		[1791] = "Slavering Ghoul",
 		[95] = "Defias Smuggler",
-		[548] = "Murloc Minor Tidecaller",
-		[3717] = "Wrathtail Sorceress",
+		[10943] = "Decrepit Guardian",
+		[12240] = "Kolk",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -473,7 +489,7 @@ _detalhes_global = {
 		["Sinister Strike"] = 4,
 		["Track Humanoids"] = 3,
 		["Ice Block"] = 8,
-		["Firebolt"] = "阿巴洛兹 <午夜星空>",
+		["Chestnut Mare"] = 8,
 		["Thrash"] = "Putridus Trickster",
 		["Stealth"] = 4,
 		["Restore Mana"] = 9,
@@ -488,16 +504,17 @@ _detalhes_global = {
 		["Lesser Armor"] = 8,
 		["Hex"] = "Sandfury Shadowhunter",
 		["Toxic Volley"] = "Noxxion",
-		["Melt Ore"] = "Goblin Craftsman",
+		["First Aid"] = 4,
 		["Intimidation"] = "狗骑兵 <卡林丶风行者>",
 		["Adrenaline Rush"] = 4,
 		["Charge Stun"] = 1,
 		["Wing Clip"] = 3,
 		["Summon Imp"] = 9,
-		["Axe Toss"] = "Goblin Woodcarver",
-		["Fishliver Oil"] = 3,
+		["Poisoned Harpoon"] = "Captain Greenskin",
+		["Poison"] = "Raven",
 		["Serpent Sting"] = 3,
 		["Piercing Howl"] = 1,
+		["Shadow Vulnerability"] = 5,
 		["Stun"] = 2,
 		["Challenging Shout"] = 1,
 		["Shadow Protection"] = 5,
@@ -516,31 +533,32 @@ _detalhes_global = {
 		["Hamstring"] = 1,
 		["Lesser Heal"] = 5,
 		["Soul Siphon"] = 9,
-		["Heal"] = "Murta Grimgut <洛科林丶雷酒>",
+		["Mind Control"] = 5,
 		["Kick"] = 4,
 		["Smoke Bomb"] = "Lord Vyletongue",
 		["Demon Armor"] = 9,
-		["Holy Light"] = 2,
+		["Magic Absorption"] = 8,
 		["Sonic Burst"] = "Subterranean Diemetradon",
 		["Healing Wave"] = 2,
-		["Blizzard"] = 8,
+		["Plague Cloud"] = "Scarab",
 		["Blood Craze"] = 1,
 		["Lesser Strength"] = 2,
 		["Spiritual Domination"] = 5,
 		["Soulstone Resurrection"] = 9,
 		["Larva Goo"] = "Vile Larva",
-		["Overpower"] = 1,
-		["Smite Demon"] = "Unknown",
+		["Seal of Wisdom"] = 2,
+		["Judgement of Righteousness"] = 2,
 		["Forbearance"] = 2,
+		["Mind Flay"] = 5,
 		["Smite Slam"] = "Mr. Smite",
 		["Minor Healthstone"] = 1,
 		["Conjure Food"] = 8,
 		["Blink"] = 8,
-		["Revenge"] = "Sergeant Bly",
-		["Power Word: Fortitude"] = 5,
+		["Living Flames"] = "Living Flame <Defias Magician>",
+		["Hi-Explosive Bomb"] = 4,
 		["Concussive Shot"] = 3,
-		["Chain Lightning"] = "Antu'sul",
-		["Shackle Undead"] = 5,
+		["Lava Spout Totem"] = "Sandfury Witch Doctor",
+		["Bestial Wrath"] = 3,
 		["Summon Remote-Controlled Golem"] = "Goblin Engineer",
 		["Numbing Pain"] = 3,
 		["Defensive Stance"] = 1,
@@ -555,7 +573,7 @@ _detalhes_global = {
 		["Throw"] = "Maraudos",
 		["Sunder Armor"] = 1,
 		["Intellect"] = 3,
-		["Rapid Fire"] = 3,
+		["Deadly Poison"] = "Thessala Hydra",
 		["Whirlwind"] = 1,
 		["Judgement"] = 2,
 		["Thorn Volley"] = "Barbed Lasher",
@@ -563,7 +581,7 @@ _detalhes_global = {
 		["Summon Noxxion's Spawns"] = "Noxxion",
 		["Fire Shield"] = 1,
 		["Immolation Trap Effect"] = 3,
-		["Dispel Magic"] = 5,
+		["Explosive Trap"] = 3,
 		["Healing Ward"] = "Sandfury Witch Doctor",
 		["Vengeance"] = 2,
 		["Dark Offering"] = "Sandfury Soul Eater",
@@ -593,120 +611,123 @@ _detalhes_global = {
 		["Drain Life"] = 9,
 		["Noxious Catalyst"] = "Corruptor",
 		["Well Fed"] = 5,
-		["Frost Nova"] = 8,
-		["Speed"] = 5,
+		["Counterspell"] = 8,
+		["Vampiric Embrace"] = 5,
 		["Retaliation"] = 1,
 		["Faded"] = "Defias Blackguard",
 		["Warder Despawn"] = "Antu'sul",
-		["Living Flames"] = "Living Flame <Defias Magician>",
+		["Shadowform"] = 5,
+		["Battle Stance"] = 1,
 		["Skinning"] = 3,
+		["Mocking Blow"] = 1,
+		["Rapid Fire"] = 3,
 		["Noggenfogger Elixir"] = 4,
 		["Feed Pet"] = 3,
 		["Pierce Armor"] = "Defias Miner",
-		["Mocking Blow"] = 1,
+		["Frost Nova"] = 8,
 		["Consecration"] = 2,
 		["Berserker Stance"] = "Sandfury Executioner",
-		["Growl"] = "拉普兰德 <罗德岛的博士>",
-		["Fear"] = 9,
-		["Disarm"] = "Sneed <Sneed's Shredder>",
-		["Flash of Light"] = 2,
-		["Soul Bite"] = "Sandfury Soul Eater",
-		["Enrage"] = 11,
-		["Thunder Clap"] = 1,
-		["Shoot"] = 5,
 		["Death Coil"] = 9,
-		["Explosive Trap"] = 3,
+		["Fear"] = 9,
+		["Holy Light"] = 2,
+		["Soul Bite"] = "Sandfury Soul Eater",
+		["Thunder Clap"] = 1,
+		["Blizzard"] = 8,
+		["Shackle Undead"] = 5,
+		["Power Word: Fortitude"] = 5,
+		["Petrify"] = "Sul'lithuz Sandcrawler",
+		["Revenge"] = "Sergeant Bly",
 		["Chilled"] = 8,
-		["Garrote"] = 4,
-		["Uppercut"] = "Noxxion",
-		["Smite Stomp"] = "Mr. Smite",
-		["Magic Absorption"] = 8,
-		["Judgement of Righteousness"] = 2,
-		["Cone of Cold"] = 8,
 		["Molten Metal"] = "Gilnid",
+		["Flash of Light"] = 2,
+		["Smite Stomp"] = "Mr. Smite",
+		["Smite Demon"] = "Unknown",
+		["Hooked Net"] = "Veng",
+		["Cone of Cold"] = 8,
+		["Mind Blast"] = 5,
 		["Taunt"] = 1,
 		["VanCleef's Allies"] = "Edwin VanCleef",
-		["Summon Theradrim Shardling"] = "Theradrim Guardian",
-		["Poison Bolt"] = "Poison Sprite",
 		["Blood Pact"] = 9,
+		["Feign Death"] = 3,
+		["Putrid Breath"] = "Putridus Satyr",
 		["Fevered Plague"] = "Nekrum Gutchewer",
-		["Mind Control"] = 5,
-		["Mind Blast"] = 5,
+		["Heal"] = "Murta Grimgut <洛科林丶雷酒>",
+		["Uppercut"] = "Noxxion",
 		["Unbridled Wrath"] = 1,
 		["Pyroblast"] = 8,
 		["Rupture"] = 4,
-		["Psychic Scream"] = 5,
-		["Feign Death"] = 3,
-		["Goblin Land Mine"] = "Weegli Blastfuse",
-		["Entangling Roots"] = "Constrictor Vine",
-		["Mark of the Chosen Effect"] = 9,
-		["Ice Barrier"] = 8,
 		["Mana Burn"] = "Sandfury Acolyte",
-		["Freeze Solid"] = "Gahz'rilla",
+		["Master of Elements"] = 8,
+		["Goblin Land Mine"] = "Weegli Blastfuse",
+		["Speed"] = 5,
+		["Healing Touch"] = 11,
+		["Ice Barrier"] = 8,
+		["Arcane Shot"] = 3,
+		["Spirit"] = 9,
 		["Clearcasting"] = 8,
 		["Demoralizing Shout"] = 1,
-		["Bestial Wrath"] = 3,
+		["Shadow Bolt Volley"] = "Witch Doctor Zum'rah",
 		["Aspect of the Pack"] = 3,
-		["Healing Touch"] = 11,
+		["Psychic Scream"] = 5,
 		["Falling"] = "Environment (Falling)",
+		["Boulder"] = "Primordial Behemoth",
 		["Shoot Gun"] = 1,
-		["Inner Focus"] = 5,
 		["Aspect of the Monkey"] = 3,
 		["Terrify"] = "Sneed's Shredder",
-		["Shadow Bolt Volley"] = "Witch Doctor Zum'rah",
-		["Cleave"] = "Sandfury Executioner",
+		["Axe Toss"] = "Goblin Woodcarver",
+		["Replenish Mana"] = 8,
 		["Shadow Trance"] = 9,
-		["Boulder"] = "Primordial Behemoth",
+		["Cleave"] = "Sandfury Executioner",
 		["Intimidating Shout"] = 1,
 		["Furious Howl"] = 3,
 		["Shadowbolt"] = 3,
 		["Auto Shot"] = 3,
 		["Frostbolt"] = 8,
-		["Knockdown"] = "Cavern Lurker",
+		["Aspect of the Wild"] = 3,
 		["Judgement of Wisdom"] = 2,
 		["Eviscerate"] = 4,
-		["Crafted Heavy Shot"] = 3,
-		["Wound"] = 4,
-		["Siphon Life"] = 9,
-		["Scorch"] = 8,
-		["Gouge"] = "Putridus Satyr",
-		["!Autoshot"] = 5,
-		["Aspect of the Wild"] = 3,
-		["Desperate Prayer"] = 5,
-		["Pick Pocket"] = 4,
 		["Banish"] = 9,
+		["Wound"] = 4,
 		["Blessing of Protection"] = 2,
-		["Net"] = "Maraudos",
-		["Spotted Frostsaber"] = 3,
+		["Scorch"] = 8,
+		["Pick Pocket"] = 4,
+		["!Autoshot"] = 5,
+		["Dismiss Pet"] = 3,
+		["Desperate Prayer"] = 5,
+		["Siphon Life"] = 9,
+		["Divine Spirit"] = 5,
+		["Greater Heal"] = 5,
+		["Gouge"] = "Putridus Satyr",
+		["Distracting Shot"] = 3,
 		["Retribution Aura"] = 2,
 		["Phase Shift"] = "阿巴洛兹 <午夜星空>",
-		["Weakened Soul"] = 5,
-		["Greater Heal"] = 5,
+		["Net"] = "Maraudos",
+		["Spotted Frostsaber"] = 3,
 		["Power Word: Shield"] = 5,
-		["Distracting Shot"] = 3,
+		["Weakened Soul"] = 5,
 		["Holy Shield"] = 2,
-		["Renew"] = 5,
-		["Eyes of the Beast"] = 3,
+		["Arcane Missile"] = 8,
+		["Bomb"] = "Weegli Blastfuse",
 		["Repentance"] = 2,
-		["Wide Slash"] = "Chief Ukorz Sandscalp",
+		["Renew"] = 5,
 		["Evasion"] = 4,
-		["Seal of Righteousness"] = 2,
+		["Eyes of the Beast"] = 3,
 		["Detect Invisibility"] = 9,
 		["Shadow Ward"] = 9,
-		["Spirit"] = 9,
+		["Firebolt"] = "阿巴洛兹 <午夜星空>",
 		["Riposte"] = 4,
-		["Arcane Missile"] = 8,
+		["Entangling Roots"] = "Constrictor Vine",
 		["Polymorph"] = 8,
-		["Focused Casting"] = 5,
-		["Charge"] = 1,
-		["Plague Cloud"] = "Scarab",
+		["Righteous Fury"] = 2,
+		["Fade"] = 5,
+		["Shoot"] = 5,
 		["Flurry"] = 1,
 		["Dust Field"] = "Princess Theradras",
 		["Multi-Shot"] = "Veng",
-		["Master of Elements"] = 8,
-		["Feral Charge Effect"] = 11,
 		["Divine Protection"] = 2,
-		["Fade"] = 5,
+		["Feral Charge Effect"] = 11,
+		["Focused Casting"] = 5,
+		["Summon Theradrim Shardling"] = "Theradrim Guardian",
 		["Devotion Aura"] = 2,
 		["Volley"] = 3,
 		["Challenging Roar"] = 11,
@@ -715,24 +736,24 @@ _detalhes_global = {
 		["Fire"] = "Environment (Fire)",
 		["Shadow Bolt"] = 9,
 		["Slowing Poison"] = "Celebrian Dryad",
-		["Frost Ward"] = 8,
-		["Poison Shock"] = "Creeping Sludge",
-		["Blessing of Might"] = 2,
 		["Thorns"] = "Deeprot Tangler",
-		["Rain of Fire"] = "Oro Eyegouge",
-		["Swipe"] = 11,
+		["Frost Ward"] = 8,
+		["Blessing of Might"] = 2,
 		["Mongoose Bite"] = 3,
+		["Poison Shock"] = "Creeping Sludge",
+		["Swipe"] = 11,
+		["Rain of Fire"] = "Oro Eyegouge",
 		["Regrowth"] = 11,
 		["Backstab"] = "Raven",
 		["Mind Soothe"] = 5,
-		["Blessing of Wisdom"] = 2,
 		["Trueshot Aura"] = 3,
+		["Conjure Water"] = 8,
+		["Vindication"] = 2,
 		["Inner Fire"] = 5,
-		["Frost Trap"] = 3,
 		["Holy Smite"] = "Murta Grimgut",
 		["Curse of Weakness"] = "Oro Eyegouge",
 		["Faerie Fire (Feral)"] = 11,
-		["Vindication"] = 2,
+		["Frost Trap"] = 3,
 		["Immolation Trap"] = 3,
 		["Power Infusion"] = 5,
 		["Revive Pet"] = 3,
@@ -743,11 +764,11 @@ _detalhes_global = {
 		["Drink"] = 8,
 		["Drain Soul"] = 9,
 		["Keeper's Sting"] = 3,
+		["Blessing of Wisdom"] = 2,
 		["Redoubt"] = 2,
 		["Brown Horse"] = 1,
-		["Corruption"] = 9,
 		["Wrath"] = 11,
-		["Conjure Water"] = 8,
+		["Corruption"] = 9,
 		["Corrupt Forces of Nature"] = "Celebras the Cursed",
 		["Rejuvenation"] = 11,
 		["Cheap Shot"] = 4,
@@ -757,62 +778,62 @@ _detalhes_global = {
 		["Summon Felsteed"] = 9,
 		["Icicle"] = "Gahz'rilla",
 		["Shrink"] = 5,
-		["Righteous Fury"] = 2,
-		["Poisoned Harpoon"] = "Captain Greenskin",
+		["Puncture"] = "Razorlash",
+		["Dispel Magic"] = 5,
 		["Feral Charge"] = 11,
 		["Conjure Mana Citrine"] = 8,
 		["Slice and Dice"] = 4,
-		["Arcane Shot"] = 3,
+		["Arcane Intellect"] = 8,
 		["Dazed"] = 4,
 		["Quick Shots"] = 3,
-		["Chestnut Mare"] = 8,
-		["Puncture"] = "Razorlash",
-		["Arcane Intellect"] = 8,
+		["Aspect of the Hawk"] = 3,
+		["Fire Blast"] = 8,
+		["Abolish Disease"] = 5,
 		["Spirit Tap"] = 5,
 		["Fire Vulnerability"] = 8,
-		["Bomb"] = "Weegli Blastfuse",
-		["Fire Blast"] = 8,
+		["Melt Ore"] = "Goblin Craftsman",
+		["Seal of Righteousness"] = 2,
 		["Healing Potion"] = 4,
 		["Combustion"] = 8,
-		["Abolish Disease"] = 5,
-		["First Aid"] = 4,
-		["Replenish Mana"] = 8,
+		["Wide Slash"] = "Chief Ukorz Sandscalp",
+		["Mark of the Chosen Effect"] = 9,
+		["Poison Bolt"] = "Poison Sprite",
 		["Improved Mend Pet"] = 3,
-		["Divine Spirit"] = 5,
+		["Fishliver Oil"] = 3,
 		["Smite"] = 5,
-		["Fear Ward"] = 5,
+		["Crafted Heavy Shot"] = 3,
 		["Heal Vylestem Vine"] = 8,
-		["Aspect of the Hawk"] = 3,
 		["Demoralizing Roar"] = 11,
+		["Inner Focus"] = 5,
 		["Antu'sul's Minion"] = "Antu'sul",
-		["Poison"] = "Raven",
-		["Dismiss Pet"] = 3,
+		["Overpower"] = 1,
+		["Freeze Solid"] = "Gahz'rilla",
 		["Instant Poison IV"] = 4,
 		["Execute"] = 1,
 		["Rend"] = 1,
 		["Arcane Explosion"] = 8,
-		["Trample"] = "Primordial Behemoth",
+		["Charge"] = 1,
 		["Blade Flurry"] = 4,
 		["Viper Sting"] = 3,
 		["Winter's Chill"] = 8,
-		["Seal of Wisdom"] = 2,
+		["Garrote"] = 4,
 		["Hunter's Mark"] = 3,
 		["Noxious Cloud"] = "Noxious Slime",
-		["Hi-Explosive Bomb"] = 4,
-		["Lava Spout Totem"] = "Sandfury Witch Doctor",
-		["Petrify"] = "Sul'lithuz Sandcrawler",
-		["Battle Stance"] = 1,
-		["Counterspell"] = 8,
+		["Distracting Pain"] = "Sneed's Shredder",
+		["Chain Lightning"] = "Antu'sul",
+		["Knockdown"] = "Cavern Lurker",
+		["Disarm"] = "Sneed <Sneed's Shredder>",
+		["Growl"] = "拉普兰德 <罗德岛的博士>",
 		["Ice Armor"] = 8,
-		["Putrid Breath"] = "Putridus Satyr",
+		["Curse of the Deadwood"] = 1,
 		["Arcane Missiles"] = 8,
-		["Deadly Poison"] = "Thessala Hydra",
+		["Enrage"] = 11,
 		["Bloodlust"] = 5,
-		["Hooked Net"] = "Veng",
+		["Fear Ward"] = 5,
 		["Aspect of the Cheetah"] = 3,
 		["!Melee"] = 2,
 		["Ignite"] = 8,
-		["Distracting Pain"] = "Sneed's Shredder",
+		["Trample"] = "Primordial Behemoth",
 		["Summon Living Flame"] = "Defias Magician",
 		["Linken's Boomerang"] = 3,
 		["Curse of Agony"] = 9,
@@ -1534,8 +1555,8 @@ _detalhes_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -248.420471191406,
-							["x"] = 398.720703125,
+							["y"] = -248.420486450195,
+							["x"] = 517.2392578125,
 							["w"] = 310.000061035156,
 							["h"] = 158.000106811523,
 						},
@@ -1609,9 +1630,6 @@ _detalhes_global = {
 							},
 							["size"] = 6,
 						},
-						["font_size"] = 16,
-						["texture_custom_file"] = "Interface\\",
-						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar_serenity",
 						["models"] = {
 							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
 							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
@@ -1620,21 +1638,24 @@ _detalhes_global = {
 							["lower_alpha"] = 0.1,
 							["upper_enabled"] = false,
 						},
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["texture_custom_file"] = "Interface\\",
+						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar_serenity",
+						["use_spec_icons"] = false,
+						["font_size"] = 16,
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
 						["icon_grayscale"] = false,
-						["use_spec_icons"] = false,
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
 						["textR_bracket"] = "(",
 						["textR_enable_custom_text"] = false,
-						["percent_type"] = 1,
+						["texture"] = "Details Serenity",
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 						},
 						["textL_show_number"] = true,
+						["percent_type"] = 1,
 						["textL_outline_small"] = true,
-						["texture"] = "Details Serenity",
 						["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 						["fixed_texture_background_color"] = {
 							0.619607, -- [1]
@@ -1749,11 +1770,11 @@ _detalhes_global = {
 									0, -- [3]
 									1, -- [4]
 								},
-								["textXMod"] = 6,
 								["textFace"] = "Friz Quadrata TT",
+								["textXMod"] = 6,
 								["textAlign"] = 0,
-								["textStyle"] = 2,
 								["timeType"] = 1,
+								["textStyle"] = 2,
 								["textSize"] = 9,
 								["textYMod"] = 1,
 							},
@@ -1762,7 +1783,7 @@ _detalhes_global = {
 					},
 					["switch_tank_in_combat"] = false,
 					["bg_alpha"] = 0.699999988079071,
-					["__snapH"] = false,
+					["__snapV"] = false,
 					["__locked"] = true,
 					["menu_alpha"] = {
 						["enabled"] = false,
@@ -1771,29 +1792,17 @@ _detalhes_global = {
 						["ignorebars"] = false,
 						["onleave"] = 1,
 					},
+					["__snapH"] = false,
 					["show_statusbar"] = false,
 					["__was_opened"] = true,
-					["backdrop_texture"] = "Details Ground",
 					["strata"] = "LOW",
 					["clickthrough_incombatonly"] = true,
 					["__snap"] = {
 					},
-					["total_bar"] = {
-						["enabled"] = false,
-						["only_in_group"] = true,
-						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
-						["color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-						},
-					},
+					["backdrop_texture"] = "Details Ground",
 					["hide_in_combat_alpha"] = 0,
-					["auto_hide_menu"] = {
-						["left"] = false,
-						["right"] = false,
-					},
 					["clickthrough_rows"] = false,
+					["bars_inverted"] = false,
 					["libwindow"] = {
 						["y"] = 99.2461471557617,
 						["x"] = -86.279296875,
@@ -1808,21 +1817,29 @@ _detalhes_global = {
 							1, -- [3]
 						},
 					},
-					["__snapV"] = false,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
+					["switch_damager_in_combat"] = false,
+					["bars_grow_direction"] = 1,
+					["total_bar"] = {
+						["enabled"] = false,
+						["only_in_group"] = true,
+						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+						["color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
 						},
 					},
 					["bars_sort_direction"] = 1,
 					["menu_icons_size"] = 0.85,
 					["grab_on_top"] = false,
-					["switch_damager_in_combat"] = false,
 					["instance_button_anchor"] = {
 						-27, -- [1]
 						1, -- [2]
 					},
-					["desaturated_menu"] = false,
+					["auto_hide_menu"] = {
+						["left"] = false,
+						["right"] = false,
+					},
 					["auto_current"] = true,
 					["menu_anchor_down"] = {
 						-14, -- [1]
@@ -1857,8 +1874,8 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -248.420471191406,
-							["x"] = 398.720703125,
+							["y"] = -248.420486450195,
+							["x"] = 517.2392578125,
 							["w"] = 310.000061035156,
 							["h"] = 158.000106811523,
 						},
@@ -1869,8 +1886,8 @@ _detalhes_global = {
 							["h"] = 299.999938964844,
 						},
 					},
-					["bars_grow_direction"] = 1,
 					["ignore_mass_showhide"] = false,
+					["desaturated_menu"] = false,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -1891,9 +1908,13 @@ _detalhes_global = {
 						["width"] = 0,
 					},
 					["stretch_button_side"] = 1,
-					["bars_inverted"] = false,
 					["switch_all_roles_after_wipe"] = false,
 					["show_sidebars"] = true,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["skin_custom"] = "",
 				}, -- [1]
 				{
@@ -2052,7 +2073,7 @@ _detalhes_global = {
 					},
 					["switch_tank_in_combat"] = false,
 					["bg_alpha"] = 0.699999988079071,
-					["__snapH"] = false,
+					["__snapV"] = false,
 					["__locked"] = false,
 					["menu_alpha"] = {
 						["enabled"] = false,
@@ -2061,29 +2082,17 @@ _detalhes_global = {
 						["iconstoo"] = true,
 						["onenter"] = 1,
 					},
+					["__snapH"] = false,
 					["hide_in_combat_type"] = 1,
 					["__was_opened"] = false,
-					["clickthrough_window"] = false,
 					["strata"] = "LOW",
 					["clickthrough_incombatonly"] = true,
 					["__snap"] = {
 					},
-					["total_bar"] = {
-						["enabled"] = false,
-						["only_in_group"] = true,
-						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
-						["color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-						},
-					},
+					["clickthrough_window"] = false,
 					["hide_in_combat_alpha"] = 0,
-					["instance_button_anchor"] = {
-						-27, -- [1]
-						1, -- [2]
-					},
 					["switch_healer_in_combat"] = false,
+					["switch_damager_in_combat"] = false,
 					["libwindow"] = {
 						["y"] = 120.298698425293,
 						["x"] = 54.1004333496094,
@@ -2098,16 +2107,25 @@ _detalhes_global = {
 							1, -- [3]
 						},
 					},
+					["menu_anchor_down"] = {
+						-14, -- [1]
+						-3, -- [2]
+						["side"] = 2,
+					},
 					["bars_grow_direction"] = 1,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
+					["total_bar"] = {
+						["enabled"] = false,
+						["only_in_group"] = true,
+						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+						["color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
 						},
 					},
 					["skin_custom"] = "",
 					["plugins_grow_direction"] = 1,
 					["grab_on_top"] = false,
-					["switch_damager_in_combat"] = false,
 					["bg_b"] = 0.0941,
 					["ignore_mass_showhide"] = false,
 					["auto_current"] = true,
@@ -2148,30 +2166,37 @@ _detalhes_global = {
 							},
 							["texture"] = "Details BarBorder 2",
 						},
-						["font_size"] = 16,
+						["models"] = {
+							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
+							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
+							["upper_alpha"] = 0.5,
+							["lower_enabled"] = false,
+							["lower_alpha"] = 0.1,
+							["upper_enabled"] = false,
+						},
 						["height"] = 21,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar_serenity",
 						["texture_custom_file"] = "Interface\\",
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["font_size"] = 16,
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
 						["icon_grayscale"] = false,
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
 						["use_spec_icons"] = true,
-						["textR_bracket"] = "(",
 						["texture_custom"] = "",
-						["percent_type"] = 1,
-						["fixed_texture_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-						},
-						["textL_show_number"] = true,
-						["textL_outline_small"] = true,
 						["fixed_texture_background_color"] = {
 							0.619607, -- [1]
 							0.619607, -- [2]
 							0.619607, -- [3]
 							0.116164, -- [4]
 						},
+						["fixed_texture_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+						},
+						["textL_show_number"] = true,
+						["percent_type"] = 1,
+						["textL_outline_small"] = true,
 						["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 						["texture"] = "Details Serenity",
 						["textR_outline_small"] = true,
@@ -2202,14 +2227,7 @@ _detalhes_global = {
 						},
 						["fast_ps_update"] = false,
 						["textR_separator"] = ",",
-						["models"] = {
-							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
-							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
-							["upper_alpha"] = 0.5,
-							["lower_enabled"] = false,
-							["lower_alpha"] = 0.1,
-							["upper_enabled"] = false,
-						},
+						["textR_bracket"] = "(",
 					},
 					["hide_in_combat"] = false,
 					["posicao"] = {
@@ -2226,11 +2244,13 @@ _detalhes_global = {
 							["h"] = 200,
 						},
 					},
-					["__snapV"] = false,
-					["menu_anchor_down"] = {
-						-14, -- [1]
-						-3, -- [2]
-						["side"] = 2,
+					["instance_button_anchor"] = {
+						-27, -- [1]
+						1, -- [2]
+					},
+					["auto_hide_menu"] = {
+						["left"] = false,
+						["right"] = false,
 					},
 					["wallpaper"] = {
 						["overlay"] = {
@@ -2252,12 +2272,13 @@ _detalhes_global = {
 						["width"] = 0,
 					},
 					["stretch_button_side"] = 1,
-					["auto_hide_menu"] = {
-						["left"] = false,
-						["right"] = false,
-					},
 					["switch_damager"] = false,
 					["show_sidebars"] = true,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["clickthrough_rows"] = false,
 				}, -- [2]
 			},
@@ -2274,13 +2295,11 @@ _detalhes_global = {
 				["bar_texture"] = "Skyline",
 				["skin"] = "ElvUI",
 			},
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
-			["overall_clear_logout"] = false,
+			["minimum_combat_time"] = 5,
 			["chat_tab_embed"] = {
 				["enabled"] = false,
 				["y_offset"] = 0,
@@ -2291,9 +2310,8 @@ _detalhes_global = {
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
@@ -2378,11 +2396,11 @@ _detalhes_global = {
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.25, -- [2]
-					0.75, -- [3]
-					1, -- [4]
+				["WARLOCK"] = {
+					0.7421875, -- [1]
+					0.98828125, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
 				},
 				["DEMONHUNTER"] = {
 					0.73828126, -- [1]
@@ -2402,15 +2420,15 @@ _detalhes_global = {
 					0.5, -- [3]
 					0.75, -- [4]
 				},
-				["WARLOCK"] = {
-					0.7421875, -- [1]
-					0.98828125, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
-				},
 				["UNGROUPPLAYER"] = {
 					0.5, -- [1]
 					0.75, -- [2]
+					0.75, -- [3]
+					1, -- [4]
+				},
+				["ENEMY"] = {
+					0, -- [1]
+					0.25, -- [2]
 					0.75, -- [3]
 					1, -- [4]
 				},
@@ -2418,114 +2436,16 @@ _detalhes_global = {
 			["force_class_icons"] = false,
 			["disable_alldisplays_window"] = false,
 			["numerical_system_symbols"] = "auto",
-			["class_colors"] = {
-				["HUNTER"] = {
-					0.67, -- [1]
-					0.83, -- [2]
-					0.45, -- [3]
-				},
-				["WARRIOR"] = {
-					0.78, -- [1]
-					0.61, -- [2]
-					0.43, -- [3]
-				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
-				},
-				["MAGE"] = {
-					0.41, -- [1]
-					0.8, -- [2]
-					0.94, -- [3]
-				},
-				["ARENA_YELLOW"] = {
-					1, -- [1]
-					1, -- [2]
-					0.25, -- [3]
-				},
-				["UNGROUPPLAYER"] = {
-					0.4, -- [1]
-					0.4, -- [2]
-					0.4, -- [3]
-				},
-				["DRUID"] = {
-					1, -- [1]
-					0.49, -- [2]
-					0.04, -- [3]
-				},
-				["MONK"] = {
-					0, -- [1]
-					1, -- [2]
-					0.59, -- [3]
-				},
-				["DEATHKNIGHT"] = {
-					0.77, -- [1]
-					0.12, -- [2]
-					0.23, -- [3]
-				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
-				},
-				["UNKNOW"] = {
-					0.2, -- [1]
-					0.2, -- [2]
-					0.2, -- [3]
-				},
-				["PRIEST"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				},
-				["ARENA_GREEN"] = {
-					0.4, -- [1]
-					1, -- [2]
-					0.4, -- [3]
-				},
-				["ENEMY"] = {
-					0.94117, -- [1]
-					0, -- [2]
-					0.0196, -- [3]
-					1, -- [4]
-				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
-				["DEMONHUNTER"] = {
-					0.64, -- [1]
-					0.19, -- [2]
-					0.79, -- [3]
-				},
-				["version"] = 1,
-				["NEUTRAL"] = {
-					1, -- [1]
-					1, -- [2]
-					0, -- [3]
-				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
-				},
-				["PET"] = {
-					0.3, -- [1]
-					0.4, -- [2]
-					0.5, -- [3]
-				},
-			},
+			["trash_auto_remove"] = true,
+			["total_abbreviation"] = 2,
+			["segments_amount_to_save"] = 18,
+			["clear_graphic"] = true,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
-			["broadcaster_enabled"] = false,
-			["clear_graphic"] = true,
-			["total_abbreviation"] = 2,
-			["segments_auto_erase"] = 1,
+			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
-			["segments_amount_to_save"] = 18,
+			["broadcaster_enabled"] = false,
 			["minimap"] = {
 				["onclick_what_todo"] = 1,
 				["radius"] = 160,
@@ -2543,8 +2463,203 @@ _detalhes_global = {
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
 			["deny_score_messages"] = false,
-			["animation_speed_triggertravel"] = 5,
-			["trash_auto_remove"] = true,
+			["segments_auto_erase"] = 1,
+			["class_colors"] = {
+				["HUNTER"] = {
+					0.67, -- [1]
+					0.83, -- [2]
+					0.45, -- [3]
+				},
+				["WARRIOR"] = {
+					0.78, -- [1]
+					0.61, -- [2]
+					0.43, -- [3]
+				},
+				["Arena_green"] = {
+					0.4, -- [1]
+					1, -- [2]
+					0.4, -- [3]
+				},
+				["MAGE"] = {
+					0.41, -- [1]
+					0.8, -- [2]
+					0.94, -- [3]
+				},
+				["Unknow"] = {
+					0.2, -- [1]
+					0.2, -- [2]
+					0.2, -- [3]
+				},
+				["Enemy"] = {
+					0.94117, -- [1]
+					0, -- [2]
+					0.0196, -- [3]
+					1, -- [4]
+				},
+				["ARENA_YELLOW"] = {
+					1, -- [1]
+					1, -- [2]
+					0.25, -- [3]
+				},
+				["UNGROUPPLAYER"] = {
+					0.4, -- [1]
+					0.4, -- [2]
+					0.4, -- [3]
+				},
+				["DRUID"] = {
+					1, -- [1]
+					0.49, -- [2]
+					0.04, -- [3]
+				},
+				["ARENA_GREEN"] = {
+					0.4, -- [1]
+					1, -- [2]
+					0.4, -- [3]
+				},
+				["Shaman"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				},
+				["Monk"] = {
+					0, -- [1]
+					1, -- [2]
+					0.59, -- [3]
+				},
+				["Mage"] = {
+					0.41, -- [1]
+					0.8, -- [2]
+					0.94, -- [3]
+				},
+				["Warlock"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
+				["version"] = 1,
+				["DEMONHUNTER"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				},
+				["ENEMY"] = {
+					0.94117, -- [1]
+					0, -- [2]
+					0.0196, -- [3]
+					1, -- [4]
+				},
+				["Paladin"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
+				},
+				["Warrior"] = {
+					0.78, -- [1]
+					0.61, -- [2]
+					0.43, -- [3]
+				},
+				["MONK"] = {
+					0, -- [1]
+					1, -- [2]
+					0.59, -- [3]
+				},
+				["Hunter"] = {
+					0.67, -- [1]
+					0.83, -- [2]
+					0.45, -- [3]
+				},
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
+				},
+				["Rogue"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
+				},
+				["Deathknight"] = {
+					0.77, -- [1]
+					0.12, -- [2]
+					0.23, -- [3]
+				},
+				["Demonhunter"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["UNKNOW"] = {
+					0.2, -- [1]
+					0.2, -- [2]
+					0.2, -- [3]
+				},
+				["Ungroupplayer"] = {
+					0.4, -- [1]
+					0.4, -- [2]
+					0.4, -- [3]
+				},
+				["PET"] = {
+					0.3, -- [1]
+					0.4, -- [2]
+					0.5, -- [3]
+				},
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
+				},
+				["Pet"] = {
+					0.3, -- [1]
+					0.4, -- [2]
+					0.5, -- [3]
+				},
+				["PRIEST"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["Neutral"] = {
+					1, -- [1]
+					1, -- [2]
+					0, -- [3]
+				},
+				["Druid"] = {
+					1, -- [1]
+					0.49, -- [2]
+					0.04, -- [3]
+				},
+				["Version"] = 1,
+				["DEATHKNIGHT"] = {
+					0.77, -- [1]
+					0.12, -- [2]
+					0.23, -- [3]
+				},
+				["Priest"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["NEUTRAL"] = {
+					1, -- [1]
+					1, -- [2]
+					0, -- [3]
+				},
+				["Arena_yellow"] = {
+					1, -- [1]
+					1, -- [2]
+					0.25, -- [3]
+				},
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
+			},
 			["segments_panic_mode"] = false,
 			["standard_skin"] = false,
 			["windows_fade_out"] = {
@@ -2555,10 +2670,13 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["font_sizes"] = {
-				["menus"] = 10,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
-			["minimum_combat_time"] = 5,
+			["overall_clear_logout"] = false,
 			["overall_clear_newboss"] = true,
 			["report_schema"] = 1,
 			["use_scroll"] = false,
@@ -2915,10 +3033,10 @@ _detalhes_global = {
 					0, -- [1]
 					0, -- [2]
 				},
-				["fontshadow"] = false,
-				["menus_bg_texture"] = "Interface\\SPELLBOOK\\Spellbook-Page-1",
-				["border_size"] = 14,
 				["maximize_method"] = 1,
+				["fontshadow"] = false,
+				["border_size"] = 14,
+				["menus_bg_texture"] = "Interface\\SPELLBOOK\\Spellbook-Page-1",
 				["anchor_screen_pos"] = {
 					507.7, -- [1]
 					-350.5, -- [2]
@@ -3085,7 +3203,6 @@ _detalhes_global = {
 						["font_size"] = 13,
 						["height"] = 21,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\BantoBar",
-						["textR_bracket"] = "(",
 						["models"] = {
 							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
 							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
@@ -3094,38 +3211,39 @@ _detalhes_global = {
 							["lower_alpha"] = 0.1,
 							["upper_enabled"] = false,
 						},
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
 						["icon_grayscale"] = false,
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["textR_bracket"] = "(",
 						["use_spec_icons"] = true,
 						["texture_custom"] = "",
-						["fixed_texture_background_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							0.150228589773178, -- [4]
-						},
+						["percent_type"] = 1,
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 						},
 						["textL_show_number"] = true,
-						["percent_type"] = 1,
 						["textL_outline_small"] = true,
+						["fixed_texture_background_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							0.150228589773178, -- [4]
+						},
 						["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 						["texture"] = "BantoBar",
 						["textR_outline_small"] = true,
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
-						["texture_background"] = "Details D'ictum (reverse)",
+						["textL_class_colors"] = false,
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 							1, -- [4]
 						},
+						["texture_background"] = "Details D'ictum (reverse)",
 						["textR_class_colors"] = false,
-						["textL_class_colors"] = false,
 						["alpha"] = 1,
 						["no_icon"] = false,
 						["icon_offset"] = {
@@ -3187,8 +3305,6 @@ _detalhes_global = {
 					},
 					["switch_healer"] = false,
 					["StatusBarSaved"] = {
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textYMod"] = 1,
@@ -3236,7 +3352,9 @@ _detalhes_global = {
 								["textYMod"] = 1,
 							},
 						},
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["left"] = "DETAILS_STATUSBAR_PLUGIN_PATTRIBUTE",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
 					["switch_tank_in_combat"] = false,
 					["version"] = 3,
@@ -3257,7 +3375,16 @@ _detalhes_global = {
 					["menu_icons_size"] = 0.850000023841858,
 					["hide_in_combat_alpha"] = 0,
 					["switch_healer_in_combat"] = false,
-					["bars_inverted"] = false,
+					["total_bar"] = {
+						["enabled"] = false,
+						["only_in_group"] = true,
+						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+						["color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+					},
 					["libwindow"] = {
 						["y"] = 107.261405944824,
 						["x"] = -108.557373046875,
@@ -3272,24 +3399,15 @@ _detalhes_global = {
 							0.333333333333333, -- [3]
 						},
 					},
-					["switch_damager_in_combat"] = false,
+					["bars_inverted"] = false,
 					["row_show_animation"] = {
 						["anim"] = "Fade",
 						["options"] = {
 						},
 					},
-					["total_bar"] = {
-						["enabled"] = false,
-						["only_in_group"] = true,
-						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
-						["color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-						},
-					},
 					["bars_sort_direction"] = 1,
 					["bg_alpha"] = 0.183960914611816,
+					["switch_damager_in_combat"] = false,
 					["grab_on_top"] = false,
 					["instance_button_anchor"] = {
 						-27, -- [1]
@@ -3475,9 +3593,8 @@ _detalhes_global = {
 					},
 					["switch_healer"] = false,
 					["StatusBarSaved"] = {
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textYMod"] = 1,
@@ -3510,11 +3627,11 @@ _detalhes_global = {
 							},
 							["DETAILS_STATUSBAR_PLUGIN_CLOCK"] = {
 								["textYMod"] = 1,
-								["textAlign"] = 0,
-								["textXMod"] = 6,
-								["textStyle"] = 2,
-								["textFace"] = "Accidental Presidency",
 								["timeType"] = 1,
+								["textXMod"] = 6,
+								["textAlign"] = 0,
+								["textFace"] = "Accidental Presidency",
+								["textStyle"] = 2,
 								["textSize"] = 10,
 								["textColor"] = {
 									1, -- [1]
@@ -3524,10 +3641,11 @@ _detalhes_global = {
 								},
 							},
 						},
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 					},
 					["switch_tank_in_combat"] = false,
 					["bg_alpha"] = 0.183960914611816,
-					["__snapV"] = false,
+					["__snapH"] = false,
 					["__locked"] = false,
 					["menu_alpha"] = {
 						["enabled"] = false,
@@ -3536,17 +3654,29 @@ _detalhes_global = {
 						["iconstoo"] = true,
 						["onenter"] = 1,
 					},
-					["__snapH"] = false,
 					["hide_in_combat_type"] = 1,
 					["__was_opened"] = false,
+					["clickthrough_window"] = false,
 					["strata"] = "LOW",
 					["clickthrough_incombatonly"] = true,
 					["__snap"] = {
 					},
-					["clickthrough_window"] = false,
+					["total_bar"] = {
+						["enabled"] = false,
+						["only_in_group"] = true,
+						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+						["color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+					},
 					["hide_in_combat_alpha"] = 0,
+					["instance_button_anchor"] = {
+						-27, -- [1]
+						1, -- [2]
+					},
 					["switch_healer_in_combat"] = false,
-					["switch_damager_in_combat"] = false,
 					["libwindow"] = {
 						["y"] = 132.929885864258,
 						["x"] = -84.064208984375,
@@ -3565,20 +3695,11 @@ _detalhes_global = {
 						16, -- [1]
 						-3, -- [2]
 					},
-					["bars_grow_direction"] = 1,
-					["total_bar"] = {
-						["enabled"] = false,
-						["only_in_group"] = true,
-						["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
-						["color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-						},
-					},
+					["__snapV"] = false,
 					["skin_custom"] = "",
 					["plugins_grow_direction"] = 1,
 					["grab_on_top"] = false,
+					["switch_damager_in_combat"] = false,
 					["bg_b"] = 0.0941176470588235,
 					["ignore_mass_showhide"] = false,
 					["auto_current"] = true,
@@ -3616,9 +3737,6 @@ _detalhes_global = {
 						["height"] = 21,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\BantoBar",
 						["texture_custom_file"] = "Interface\\",
-						["font_size"] = 16,
-						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
-						["icon_grayscale"] = false,
 						["backdrop"] = {
 							["enabled"] = false,
 							["texture"] = "Details BarBorder 2",
@@ -3630,21 +3748,24 @@ _detalhes_global = {
 							},
 							["size"] = 12,
 						},
+						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
+						["icon_grayscale"] = false,
 						["textR_bracket"] = "(",
+						["use_spec_icons"] = true,
 						["texture_custom"] = "",
-						["texture"] = "BantoBar",
+						["percent_type"] = 1,
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 						},
 						["textL_show_number"] = true,
-						["percent_type"] = 1,
 						["textR_show_data"] = {
 							true, -- [1]
 							true, -- [2]
 							false, -- [3]
 						},
+						["texture"] = "BantoBar",
 						["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 						["fixed_texture_background_color"] = {
 							0, -- [1]
@@ -3654,10 +3775,10 @@ _detalhes_global = {
 						},
 						["textR_enable_custom_text"] = false,
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
-						["textL_class_colors"] = false,
-						["alpha"] = 1,
-						["texture_background"] = "Details D'ictum (reverse)",
 						["textR_class_colors"] = false,
+						["alpha"] = 1,
+						["textL_class_colors"] = false,
+						["texture_background"] = "Details D'ictum (reverse)",
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -3680,7 +3801,7 @@ _detalhes_global = {
 						},
 						["fast_ps_update"] = false,
 						["textR_separator"] = "NONE",
-						["use_spec_icons"] = true,
+						["font_size"] = 16,
 					},
 					["hide_in_combat"] = false,
 					["posicao"] = {
@@ -3697,14 +3818,12 @@ _detalhes_global = {
 							["h"] = 200,
 						},
 					},
-					["instance_button_anchor"] = {
-						-27, -- [1]
-						1, -- [2]
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
 					},
-					["auto_hide_menu"] = {
-						["left"] = false,
-						["right"] = false,
-					},
+					["bars_grow_direction"] = 1,
 					["wallpaper"] = {
 						["overlay"] = {
 							1, -- [1]
@@ -3725,13 +3844,12 @@ _detalhes_global = {
 						["width"] = 283.000183105469,
 					},
 					["stretch_button_side"] = 1,
+					["auto_hide_menu"] = {
+						["left"] = false,
+						["right"] = false,
+					},
 					["switch_damager"] = false,
 					["show_sidebars"] = false,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
 					["clickthrough_rows"] = false,
 				}, -- [2]
 			},
@@ -3748,13 +3866,11 @@ _detalhes_global = {
 				["bar_texture"] = "Skyline",
 				["skin"] = "ElvUI",
 			},
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
-			["minimum_combat_time"] = 5,
+			["overall_clear_logout"] = false,
 			["chat_tab_embed"] = {
 				["enabled"] = false,
 				["y_offset"] = 0,
@@ -3765,9 +3881,8 @@ _detalhes_global = {
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
@@ -3852,11 +3967,11 @@ _detalhes_global = {
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["WARLOCK"] = {
-					0.7421875, -- [1]
-					0.98828125, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
+				["ENEMY"] = {
+					0, -- [1]
+					0.25, -- [2]
+					0.75, -- [3]
+					1, -- [4]
 				},
 				["DEMONHUNTER"] = {
 					0.73828126, -- [1]
@@ -3876,15 +3991,15 @@ _detalhes_global = {
 					0.5, -- [3]
 					0.75, -- [4]
 				},
+				["WARLOCK"] = {
+					0.7421875, -- [1]
+					0.98828125, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
+				},
 				["UNGROUPPLAYER"] = {
 					0.5, -- [1]
 					0.75, -- [2]
-					0.75, -- [3]
-					1, -- [4]
-				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.25, -- [2]
 					0.75, -- [3]
 					1, -- [4]
 				},
@@ -3892,34 +4007,6 @@ _detalhes_global = {
 			["force_class_icons"] = false,
 			["disable_alldisplays_window"] = false,
 			["numerical_system_symbols"] = "auto",
-			["trash_auto_remove"] = true,
-			["total_abbreviation"] = 2,
-			["segments_amount_to_save"] = 18,
-			["clear_graphic"] = true,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["animation_speed_triggertravel"] = 5,
-			["options_group_edit"] = true,
-			["broadcaster_enabled"] = false,
-			["minimap"] = {
-				["onclick_what_todo"] = 1,
-				["radius"] = 160,
-				["text_type"] = 1,
-				["minimapPos"] = 221.794378427521,
-				["text_format"] = 3,
-				["hide"] = false,
-			},
-			["instances_amount"] = 5,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["default_bg_color"] = 0.0941,
-			["only_pvp_frags"] = false,
-			["disable_stretch_button"] = false,
-			["deny_score_messages"] = false,
-			["segments_auto_erase"] = 1,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -3966,11 +4053,10 @@ _detalhes_global = {
 					0.12, -- [2]
 					0.23, -- [3]
 				},
-				["ENEMY"] = {
-					0.94117, -- [1]
-					0, -- [2]
-					0.0196, -- [3]
-					1, -- [4]
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
 				},
 				["UNKNOW"] = {
 					0.2, -- [1]
@@ -3982,15 +4068,16 @@ _detalhes_global = {
 					1, -- [2]
 					1, -- [3]
 				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
-				},
 				["ROGUE"] = {
 					1, -- [1]
 					0.96, -- [2]
 					0.41, -- [3]
+				},
+				["ENEMY"] = {
+					0.94117, -- [1]
+					0, -- [2]
+					0.0196, -- [3]
+					1, -- [4]
 				},
 				["WARLOCK"] = {
 					0.58, -- [1]
@@ -4019,6 +4106,34 @@ _detalhes_global = {
 					0.5, -- [3]
 				},
 			},
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["broadcaster_enabled"] = false,
+			["clear_graphic"] = true,
+			["total_abbreviation"] = 2,
+			["segments_auto_erase"] = 1,
+			["options_group_edit"] = true,
+			["segments_amount_to_save"] = 18,
+			["minimap"] = {
+				["onclick_what_todo"] = 1,
+				["radius"] = 160,
+				["text_type"] = 1,
+				["minimapPos"] = 221.794378427521,
+				["text_format"] = 3,
+				["hide"] = false,
+			},
+			["instances_amount"] = 5,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
+			["default_bg_color"] = 0.0941,
+			["only_pvp_frags"] = false,
+			["disable_stretch_button"] = false,
+			["deny_score_messages"] = false,
+			["animation_speed_triggertravel"] = 5,
+			["trash_auto_remove"] = true,
 			["segments_panic_mode"] = false,
 			["standard_skin"] = false,
 			["windows_fade_out"] = {
@@ -4029,10 +4144,13 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["font_sizes"] = {
-				["menus"] = 10,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
-			["overall_clear_logout"] = false,
+			["minimum_combat_time"] = 5,
 			["overall_clear_newboss"] = true,
 			["report_schema"] = 1,
 			["use_scroll"] = false,
@@ -4389,10 +4507,10 @@ _detalhes_global = {
 					0, -- [1]
 					0, -- [2]
 				},
-				["fontshadow"] = false,
-				["menus_bg_texture"] = "Interface\\SPELLBOOK\\Spellbook-Page-1",
-				["border_size"] = 14,
 				["maximize_method"] = 1,
+				["fontshadow"] = false,
+				["border_size"] = 14,
+				["menus_bg_texture"] = "Interface\\SPELLBOOK\\Spellbook-Page-1",
 				["anchor_screen_pos"] = {
 					507.7, -- [1]
 					-350.5, -- [2]
@@ -4591,6 +4709,9 @@ _detalhes_global = {
 					},
 					["switch_healer"] = false,
 					["StatusBarSaved"] = {
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textColor"] = {
@@ -4628,18 +4749,15 @@ _detalhes_global = {
 									1, -- [3]
 									1, -- [4]
 								},
-								["textStyle"] = 2,
-								["textXMod"] = 6,
-								["timeType"] = 1,
-								["textFace"] = "Accidental Presidency",
 								["textAlign"] = 0,
+								["textXMod"] = 6,
+								["textStyle"] = 2,
+								["textFace"] = "Accidental Presidency",
+								["timeType"] = 1,
 								["textSize"] = 10,
 								["textYMod"] = 1,
 							},
 						},
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
 					["instance_button_anchor"] = {
 						-27, -- [1]
@@ -4807,10 +4925,10 @@ _detalhes_global = {
 							false, -- [3]
 						},
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
-						["textR_class_colors"] = false,
-						["alpha"] = 1,
-						["textL_class_colors"] = false,
 						["texture_background"] = "Details D'ictum (reverse)",
+						["alpha"] = 1,
+						["textR_class_colors"] = false,
+						["textL_class_colors"] = false,
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -4853,18 +4971,20 @@ _detalhes_global = {
 			["override_spellids"] = true,
 			["report_schema"] = 1,
 			["overall_clear_newboss"] = true,
-			["overall_clear_logout"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
-			},
 			["minimum_combat_time"] = 5,
+			["font_sizes"] = {
+				["menus"] = 10,
+			},
+			["overall_clear_logout"] = false,
 			["memory_threshold"] = 3,
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
 			["chat_tab_embed"] = {
 				["enabled"] = false,
@@ -4946,11 +5066,11 @@ _detalhes_global = {
 					0.25, -- [3]
 					0.5, -- [4]
 				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.25, -- [2]
-					0.75, -- [3]
-					1, -- [4]
+				["WARLOCK"] = {
+					0.7421875, -- [1]
+					0.98828125, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
 				},
 				["Alliance"] = {
 					0.49609375, -- [1]
@@ -4958,11 +5078,11 @@ _detalhes_global = {
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["WARLOCK"] = {
-					0.7421875, -- [1]
-					0.98828125, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
+				["ENEMY"] = {
+					0, -- [1]
+					0.25, -- [2]
+					0.75, -- [3]
+					1, -- [4]
 				},
 				["DEMONHUNTER"] = {
 					0.73828126, -- [1]
@@ -4998,7 +5118,12 @@ _detalhes_global = {
 			["force_class_icons"] = false,
 			["disable_alldisplays_window"] = false,
 			["standard_skin"] = false,
-			["total_abbreviation"] = 2,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["trash_auto_remove"] = true,
+			["animation_speed_triggertravel"] = 5,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -5099,11 +5224,8 @@ _detalhes_global = {
 				},
 			},
 			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
-			["trash_auto_remove"] = true,
-			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
-			["segments_amount_to_save"] = 18,
+			["broadcaster_enabled"] = false,
 			["minimap"] = {
 				["onclick_what_todo"] = 1,
 				["radius"] = 160,
@@ -5121,10 +5243,8 @@ _detalhes_global = {
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
 			["default_bg_color"] = 0.0941,
-			["broadcaster_enabled"] = false,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
+			["segments_amount_to_save"] = 18,
+			["total_abbreviation"] = 2,
 			["segments_panic_mode"] = false,
 			["numerical_system_symbols"] = "auto",
 			["overall_flag"] = 16,
@@ -5132,11 +5252,9 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
 			["player_details_window"] = {
 				["scale"] = 1,
@@ -5499,10 +5617,10 @@ _detalhes_global = {
 					0, -- [1]
 					0, -- [2]
 				},
-				["fontshadow"] = false,
-				["menus_bg_texture"] = "Interface\\SPELLBOOK\\Spellbook-Page-1",
-				["border_size"] = 14,
 				["maximize_method"] = 1,
+				["fontshadow"] = false,
+				["border_size"] = 14,
+				["menus_bg_texture"] = "Interface\\SPELLBOOK\\Spellbook-Page-1",
 				["anchor_screen_pos"] = {
 					507.7, -- [1]
 					-350.5, -- [2]
@@ -5692,15 +5810,15 @@ _detalhes_global = {
 							0.150228589773178, -- [4]
 						},
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
-						["textR_class_colors"] = false,
+						["texture_background"] = "Details D'ictum (reverse)",
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 							1, -- [4]
 						},
+						["textR_class_colors"] = false,
 						["textL_class_colors"] = false,
-						["texture_background"] = "Details D'ictum (reverse)",
 						["alpha"] = 1,
 						["no_icon"] = false,
 						["icon_offset"] = {
@@ -5771,6 +5889,9 @@ _detalhes_global = {
 					},
 					["switch_healer"] = false,
 					["StatusBarSaved"] = {
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textYMod"] = 1,
@@ -5803,11 +5924,11 @@ _detalhes_global = {
 							},
 							["DETAILS_STATUSBAR_PLUGIN_CLOCK"] = {
 								["textYMod"] = 1,
-								["textStyle"] = 2,
-								["textXMod"] = 6,
-								["timeType"] = 1,
-								["textFace"] = "Accidental Presidency",
 								["textAlign"] = 0,
+								["textXMod"] = 6,
+								["textStyle"] = 2,
+								["textFace"] = "Accidental Presidency",
+								["timeType"] = 1,
 								["textSize"] = 10,
 								["textColor"] = {
 									1, -- [1]
@@ -5817,9 +5938,6 @@ _detalhes_global = {
 								},
 							},
 						},
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
 					["switch_tank_in_combat"] = false,
 					["bg_alpha"] = 0.183960914611816,
@@ -5968,11 +6086,10 @@ _detalhes_global = {
 				["bar_texture"] = "Skyline",
 				["skin"] = "ElvUI",
 			},
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
-			["overall_clear_logout"] = false,
+			["minimum_combat_time"] = 5,
 			["chat_tab_embed"] = {
 				["enabled"] = false,
 				["y_offset"] = 0,
@@ -5983,8 +6100,11 @@ _detalhes_global = {
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
 			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
@@ -6069,11 +6189,11 @@ _detalhes_global = {
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.25, -- [2]
-					0.75, -- [3]
-					1, -- [4]
+				["WARLOCK"] = {
+					0.7421875, -- [1]
+					0.98828125, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
 				},
 				["DEMONHUNTER"] = {
 					0.73828126, -- [1]
@@ -6093,11 +6213,11 @@ _detalhes_global = {
 					0.5, -- [3]
 					0.75, -- [4]
 				},
-				["WARLOCK"] = {
-					0.7421875, -- [1]
-					0.98828125, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
+				["ENEMY"] = {
+					0, -- [1]
+					0.25, -- [2]
+					0.75, -- [3]
+					1, -- [4]
 				},
 				["UNGROUPPLAYER"] = {
 					0.5, -- [1]
@@ -6109,6 +6229,34 @@ _detalhes_global = {
 			["force_class_icons"] = false,
 			["disable_alldisplays_window"] = false,
 			["numerical_system_symbols"] = "auto",
+			["trash_auto_remove"] = true,
+			["total_abbreviation"] = 2,
+			["segments_amount_to_save"] = 18,
+			["clear_graphic"] = true,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["animation_speed_triggertravel"] = 5,
+			["options_group_edit"] = true,
+			["broadcaster_enabled"] = false,
+			["minimap"] = {
+				["onclick_what_todo"] = 1,
+				["radius"] = 160,
+				["text_type"] = 1,
+				["minimapPos"] = 220,
+				["text_format"] = 3,
+				["hide"] = false,
+			},
+			["instances_amount"] = 5,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
+			["default_bg_color"] = 0.0941,
+			["only_pvp_frags"] = false,
+			["disable_stretch_button"] = false,
+			["deny_score_messages"] = false,
+			["segments_auto_erase"] = 1,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -6208,34 +6356,6 @@ _detalhes_global = {
 					0.4, -- [3]
 				},
 			},
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["broadcaster_enabled"] = false,
-			["clear_graphic"] = true,
-			["total_abbreviation"] = 2,
-			["segments_auto_erase"] = 1,
-			["options_group_edit"] = true,
-			["segments_amount_to_save"] = 18,
-			["minimap"] = {
-				["onclick_what_todo"] = 1,
-				["radius"] = 160,
-				["text_type"] = 1,
-				["minimapPos"] = 220,
-				["text_format"] = 3,
-				["hide"] = false,
-			},
-			["instances_amount"] = 5,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["default_bg_color"] = 0.0941,
-			["only_pvp_frags"] = false,
-			["disable_stretch_button"] = false,
-			["deny_score_messages"] = false,
-			["animation_speed_triggertravel"] = 5,
-			["trash_auto_remove"] = true,
 			["segments_panic_mode"] = false,
 			["standard_skin"] = false,
 			["windows_fade_out"] = {
@@ -6246,13 +6366,11 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
-			["minimum_combat_time"] = 5,
+			["overall_clear_logout"] = false,
 			["overall_clear_newboss"] = true,
 			["report_schema"] = 1,
 			["use_scroll"] = false,
@@ -6277,7 +6395,7 @@ _detalhes_global = {
 	["deathlog_healingdone_min"] = 1,
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["realtime_dps_size"] = 12,
+		["damage_taken_shadow"] = true,
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -6293,12 +6411,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["damage_taken_shadow"] = true,
 		["damage_taken_anchor"] = {
 			["y"] = 0,
 			["x"] = 0,
 			["side"] = 7,
 		},
+		["realtime_dps_size"] = 12,
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -6327,6 +6445,7 @@ _detalhes_global = {
 		["Chains of Ice"] = 16,
 		["Living Flames"] = 4,
 	},
+	["always_use_profile"] = false,
 	["run_code"] = {
 		["on_groupchange"] = "\n-- this code runs when the player enter or leave a group",
 		["on_zonechanged"] = "\n-- when the player changes zone, this code will run",
@@ -6335,12 +6454,22 @@ _detalhes_global = {
 		["on_leavecombat"] = "\n-- this code runs when the player leave combat",
 		["on_entercombat"] = "\n-- this code runs when the player enters in combat",
 	},
-	["report_where"] = "SAY",
-	["realm_sync"] = true,
-	["item_level_pool"] = {
-	},
 	["show_totalhitdamage_on_overkill"] = false,
 	["mobs_data_compiled"] = {
+	},
+	["item_level_pool"] = {
+		["Player-4674-02426EB6"] = {
+			["name"] = "运气守护",
+			["time"] = 1593234485,
+			["ilvl"] = 0,
+		},
+	},
+	["realm_sync"] = true,
+	["createauraframe"] = {
+		["y"] = 1.14440917968750e-05,
+		["x"] = 6.1035156250e-05,
+		["point"] = "CENTER",
+		["scale"] = 1,
 	},
 	["global_plugin_database"] = {
 	},
@@ -6372,6 +6501,12 @@ _detalhes_global = {
 		}, -- [5]
 	},
 	["update_warning_timeout"] = 10,
+	["plugin_window_pos"] = {
+		["y"] = 7.95308685302734,
+		["x"] = 29.4739227294922,
+		["point"] = "CENTER",
+		["scale"] = 1,
+	},
 	["mythic_plus"] = {
 		["make_overall_boss_only"] = false,
 		["mythicrun_chart_frame"] = {
@@ -6390,13 +6525,39 @@ _detalhes_global = {
 		["last_mythicrun_chart"] = {
 		},
 	},
-	["plugin_window_pos"] = {
-		["y"] = 7.95308685302734,
-		["x"] = 29.4739227294922,
-		["point"] = "CENTER",
-		["scale"] = 1,
-	},
 	["raid_data"] = {
+	},
+	["tutorial"] = {
+		["unlock_button"] = 1,
+		["main_help_button"] = 138,
+		["FULL_DELETE_WINDOW"] = true,
+		["bookmark_tutorial"] = false,
+		["WINDOW_GROUP_MAKING1"] = true,
+		["DETAILS_INFO_TUTORIAL1"] = true,
+		["alert_frames"] = {
+			false, -- [1]
+			false, -- [2]
+			false, -- [3]
+			false, -- [4]
+			false, -- [5]
+			false, -- [6]
+		},
+		["ATTRIBUTE_SELECT_TUTORIAL1"] = true,
+		["ctrl_click_close_tutorial"] = false,
+		["OVERALLDATA_WARNING1"] = 6,
+		["logons"] = 138,
+		["version_announce"] = 0,
+		["FORGE_TUTORIAL"] = true,
+		["WINDOW_LOCK_UNLOCK1"] = true,
+		["OPTIONS_PANEL_OPENED"] = true,
+		["STREAMER_PLUGIN_FIRSTRUN"] = true,
+	},
+	["always_use_profile_name"] = "",
+	["savedStyles"] = {
+	},
+	["always_use_profile_exception"] = {
+	},
+	["details_auras"] = {
 	},
 	["switchSaved"] = {
 		["slots"] = 24,
@@ -6458,37 +6619,6 @@ _detalhes_global = {
 			{
 			}, -- [24]
 		},
-	},
-	["always_use_profile_name"] = "",
-	["savedStyles"] = {
-	},
-	["always_use_profile_exception"] = {
-	},
-	["details_auras"] = {
-	},
-	["tutorial"] = {
-		["bookmark_tutorial"] = false,
-		["main_help_button"] = 124,
-		["FULL_DELETE_WINDOW"] = true,
-		["WINDOW_GROUP_MAKING1"] = true,
-		["DETAILS_INFO_TUTORIAL1"] = true,
-		["alert_frames"] = {
-			false, -- [1]
-			false, -- [2]
-			false, -- [3]
-			false, -- [4]
-			false, -- [5]
-			false, -- [6]
-		},
-		["ATTRIBUTE_SELECT_TUTORIAL1"] = true,
-		["FORGE_TUTORIAL"] = true,
-		["OVERALLDATA_WARNING1"] = 5,
-		["logons"] = 124,
-		["version_announce"] = 0,
-		["ctrl_click_close_tutorial"] = false,
-		["WINDOW_LOCK_UNLOCK1"] = true,
-		["OPTIONS_PANEL_OPENED"] = true,
-		["unlock_button"] = 1,
 	},
 	["savedTimeCaptures"] = {
 	},
@@ -6582,17 +6712,18 @@ _detalhes_global = {
 		}, -- [6]
 		{
 			["source"] = false,
+			["desc"] = "Show your spells in the window.",
 			["author"] = "Details!",
 			["percent_script"] = "				local value, top, total, combat, instance = ...\n				local dps = _detalhes:ToK (floor (value) / combat:GetCombatTime())\n				local percent = string.format (\"%.1f\", value/total*100)\n				return dps .. \", \" .. percent\n			",
-			["desc"] = "Show your spells in the window.",
-			["tooltip"] = "				--config:\n				--Background RBG and Alpha:\n				local R, G, B, A = 0, 0, 0, 0.75\n				local R, G, B, A = 0.1960, 0.1960, 0.1960, 0.8697\n				\n				--get the parameters passed\n				local spell, combat, instance = ...\n				\n				--get the cooltip object (we dont use the convencional GameTooltip here)\n				local GC = GameCooltip\n				GC:SetOption (\"YSpacingMod\", 2)\n				local role = DetailsFramework.UnitGroupRolesAssigned (\"player\")\n				\n				if (spell.n_dmg) then\n					\n					local spellschool, schooltext = spell.spellschool, \"\"\n					if (spellschool) then\n						local t = _detalhes.spells_school [spellschool]\n						if (t and t.name) then\n							schooltext = t.formated\n						end\n					end\n					\n					local total_hits = spell.counter\n					local combat_time = instance.showing:GetCombatTime()\n					\n					local debuff_uptime_total, cast_string = \"\", \"\"\n					local misc_actor = instance.showing (4, _detalhes.playername)\n					if (misc_actor) then\n						local debuff_uptime = misc_actor.debuff_uptime_spells and misc_actor.debuff_uptime_spells._ActorTable [spell.id] and misc_actor.debuff_uptime_spells._ActorTable [spell.id].uptime\n						if (debuff_uptime) then\n							debuff_uptime_total = floor (debuff_uptime / instance.showing:GetCombatTime() * 100)\n						end\n						\n						local spell_cast = misc_actor.spell_cast and misc_actor.spell_cast [spell.id]\n						\n						if (not spell_cast and misc_actor.spell_cast) then\n							local spellname = GetSpellInfo (spell.id)\n							for casted_spellid, amount in pairs (misc_actor.spell_cast) do\n								local casted_spellname = GetSpellInfo (casted_spellid)\n								if (casted_spellname == spellname) then\n									spell_cast = amount .. \" (|cFFFFFF00?|r)\"\n								end\n							end\n						end\n						if (not spell_cast) then\n							spell_cast = \"(|cFFFFFF00?|r)\"\n						end\n						cast_string = cast_string .. spell_cast\n					end\n					\n					--Cooltip code\n					GC:AddLine (\"Casts:\", cast_string or \"?\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					if (debuff_uptime_total ~= \"\") then\n						GC:AddLine (\"Uptime:\", (debuff_uptime_total or \"?\") .. \"%\")\n						GC:AddStatusBar (100, 1, R, G, B, A)\n						GC:AddIcon (\"\", 1, 1, 1, 16)\n					end\n					\n					GC:AddLine (\"Hits:\", spell.counter)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					local average = spell.total / total_hits\n					GC:AddLine (\"Average:\", _detalhes:ToK (average))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					GC:AddLine (\"E-Dps:\", _detalhes:ToK (spell.total / combat_time))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					GC:AddLine (\"School:\", schooltext)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Normal Hits: \", spell.n_amt .. \" (\" ..floor ( spell.n_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					local n_average = spell.n_dmg / spell.n_amt\n					local T = (combat_time*spell.n_dmg)/spell.total\n					local P = average/n_average*100\n					T = P*T/100\n					\n					GC:AddLine (\"Average / E-Dps: \",  _detalhes:ToK (n_average) .. \" / \" .. format (\"%.1f\",spell.n_dmg / T ))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Critical Hits: \", spell.c_amt .. \" (\" ..floor ( spell.c_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					if (spell.c_amt > 0) then\n						local c_average = spell.c_dmg/spell.c_amt\n						local T = (combat_time*spell.c_dmg)/spell.total\n						local P = average/c_average*100\n						T = P*T/100\n						local crit_dps = spell.c_dmg / T\n						\n						GC:AddLine (\"Average / E-Dps: \",  _detalhes:ToK (c_average) .. \" / \" .. _detalhes:comma_value (crit_dps))\n					else\n						GC:AddLine (\"Average / E-Dps: \",  \"0 / 0\")    \n					end\n					\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					GC:AddLine (\"Multistrike: \", spell.m_amt .. \" (\" ..floor ( spell.m_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					\n					GC:AddLine (\"On Normal / On Critical:\", spell.m_amt - spell.m_crit .. \"  / \" .. spell.m_crit)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n				elseif (spell.n_curado) then\n					\n					local spellschool, schooltext = spell.spellschool, \"\"\n					if (spellschool) then\n						local t = _detalhes.spells_school [spellschool]\n						if (t and t.name) then\n							schooltext = t.formated\n						end\n					end\n					\n					local total_hits = spell.counter\n					local combat_time = instance.showing:GetCombatTime()\n					\n					--Cooltip code\n					GC:AddLine (\"Hits:\", spell.counter)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					local average = spell.total / total_hits\n					GC:AddLine (\"Average:\", _detalhes:ToK (average))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					GC:AddLine (\"E-Hps:\", _detalhes:ToK (spell.total / combat_time))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					GC:AddLine (\"School:\", schooltext)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Normal Hits: \", spell.n_amt .. \" (\" ..floor ( spell.n_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					local n_average = spell.n_curado / spell.n_amt\n					local T = (combat_time*spell.n_curado)/spell.total\n					local P = average/n_average*100\n					T = P*T/100\n					\n					GC:AddLine (\"Average / E-Dps: \",  _detalhes:ToK (n_average) .. \" / \" .. format (\"%.1f\",spell.n_curado / T ))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Critical Hits: \", spell.c_amt .. \" (\" ..floor ( spell.c_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					if (spell.c_amt > 0) then\n						local c_average = spell.c_curado/spell.c_amt\n						local T = (combat_time*spell.c_curado)/spell.total\n						local P = average/c_average*100\n						T = P*T/100\n						local crit_dps = spell.c_curado / T\n						\n						GC:AddLine (\"Average / E-Hps: \",  _detalhes:ToK (c_average) .. \" / \" .. _detalhes:comma_value (crit_dps))\n					else\n						GC:AddLine (\"Average / E-Hps: \",  \"0 / 0\")    \n					end\n					\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Multistrike: \", spell.m_amt .. \" (\" ..floor ( spell.m_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					GC:AddLine (\"On Normal / On Critical:\", spell.m_amt - spell.m_crit .. \"  / \" .. spell.m_crit)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n				end\n\n			",
+			["total_script"] = "local value, top, total, combat, instance = ...\n			local dps = _detalhes:ToK (floor (value) / combat:GetCombatTime())\n			local percent = string.format (\"%.1f\", value/total*100)\n\n			return math.floor (value) .. \" (\" .. dps .. \", \" .. percent .. \"\"",
 			["icon"] = "Interface\\CHATFRAME\\UI-ChatIcon-Battlenet",
-			["name"] = "My Spells",
 			["spellid"] = false,
+			["name"] = "My Spells",
+			["tooltip"] = "				--config:\n				--Background RBG and Alpha:\n				local R, G, B, A = 0, 0, 0, 0.75\n				local R, G, B, A = 0.1960, 0.1960, 0.1960, 0.8697\n				\n				--get the parameters passed\n				local spell, combat, instance = ...\n				\n				--get the cooltip object (we dont use the convencional GameTooltip here)\n				local GC = GameCooltip\n				GC:SetOption (\"YSpacingMod\", 2)\n				local role = DetailsFramework.UnitGroupRolesAssigned (\"player\")\n				\n				if (spell.n_dmg) then\n					\n					local spellschool, schooltext = spell.spellschool, \"\"\n					if (spellschool) then\n						local t = _detalhes.spells_school [spellschool]\n						if (t and t.name) then\n							schooltext = t.formated\n						end\n					end\n					\n					local total_hits = spell.counter\n					local combat_time = instance.showing:GetCombatTime()\n					\n					local debuff_uptime_total, cast_string = \"\", \"\"\n					local misc_actor = instance.showing (4, _detalhes.playername)\n					if (misc_actor) then\n						local debuff_uptime = misc_actor.debuff_uptime_spells and misc_actor.debuff_uptime_spells._ActorTable [spell.id] and misc_actor.debuff_uptime_spells._ActorTable [spell.id].uptime\n						if (debuff_uptime) then\n							debuff_uptime_total = floor (debuff_uptime / instance.showing:GetCombatTime() * 100)\n						end\n						\n						local spell_cast = misc_actor.spell_cast and misc_actor.spell_cast [spell.id]\n						\n						if (not spell_cast and misc_actor.spell_cast) then\n							local spellname = GetSpellInfo (spell.id)\n							for casted_spellid, amount in pairs (misc_actor.spell_cast) do\n								local casted_spellname = GetSpellInfo (casted_spellid)\n								if (casted_spellname == spellname) then\n									spell_cast = amount .. \" (|cFFFFFF00?|r)\"\n								end\n							end\n						end\n						if (not spell_cast) then\n							spell_cast = \"(|cFFFFFF00?|r)\"\n						end\n						cast_string = cast_string .. spell_cast\n					end\n					\n					--Cooltip code\n					GC:AddLine (\"Casts:\", cast_string or \"?\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					if (debuff_uptime_total ~= \"\") then\n						GC:AddLine (\"Uptime:\", (debuff_uptime_total or \"?\") .. \"%\")\n						GC:AddStatusBar (100, 1, R, G, B, A)\n						GC:AddIcon (\"\", 1, 1, 1, 16)\n					end\n					\n					GC:AddLine (\"Hits:\", spell.counter)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					local average = spell.total / total_hits\n					GC:AddLine (\"Average:\", _detalhes:ToK (average))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					GC:AddLine (\"E-Dps:\", _detalhes:ToK (spell.total / combat_time))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					GC:AddLine (\"School:\", schooltext)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Normal Hits: \", spell.n_amt .. \" (\" ..floor ( spell.n_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					local n_average = spell.n_dmg / spell.n_amt\n					local T = (combat_time*spell.n_dmg)/spell.total\n					local P = average/n_average*100\n					T = P*T/100\n					\n					GC:AddLine (\"Average / E-Dps: \",  _detalhes:ToK (n_average) .. \" / \" .. format (\"%.1f\",spell.n_dmg / T ))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Critical Hits: \", spell.c_amt .. \" (\" ..floor ( spell.c_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					if (spell.c_amt > 0) then\n						local c_average = spell.c_dmg/spell.c_amt\n						local T = (combat_time*spell.c_dmg)/spell.total\n						local P = average/c_average*100\n						T = P*T/100\n						local crit_dps = spell.c_dmg / T\n						\n						GC:AddLine (\"Average / E-Dps: \",  _detalhes:ToK (c_average) .. \" / \" .. _detalhes:comma_value (crit_dps))\n					else\n						GC:AddLine (\"Average / E-Dps: \",  \"0 / 0\")    \n					end\n					\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					GC:AddLine (\"Multistrike: \", spell.m_amt .. \" (\" ..floor ( spell.m_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n					\n					GC:AddLine (\"On Normal / On Critical:\", spell.m_amt - spell.m_crit .. \"  / \" .. spell.m_crit)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					GC:AddIcon (\"\", 1, 1, 1, 16)\n					\n				elseif (spell.n_curado) then\n					\n					local spellschool, schooltext = spell.spellschool, \"\"\n					if (spellschool) then\n						local t = _detalhes.spells_school [spellschool]\n						if (t and t.name) then\n							schooltext = t.formated\n						end\n					end\n					\n					local total_hits = spell.counter\n					local combat_time = instance.showing:GetCombatTime()\n					\n					--Cooltip code\n					GC:AddLine (\"Hits:\", spell.counter)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					local average = spell.total / total_hits\n					GC:AddLine (\"Average:\", _detalhes:ToK (average))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					GC:AddLine (\"E-Hps:\", _detalhes:ToK (spell.total / combat_time))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					GC:AddLine (\"School:\", schooltext)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Normal Hits: \", spell.n_amt .. \" (\" ..floor ( spell.n_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					local n_average = spell.n_curado / spell.n_amt\n					local T = (combat_time*spell.n_curado)/spell.total\n					local P = average/n_average*100\n					T = P*T/100\n					\n					GC:AddLine (\"Average / E-Dps: \",  _detalhes:ToK (n_average) .. \" / \" .. format (\"%.1f\",spell.n_curado / T ))\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Critical Hits: \", spell.c_amt .. \" (\" ..floor ( spell.c_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					if (spell.c_amt > 0) then\n						local c_average = spell.c_curado/spell.c_amt\n						local T = (combat_time*spell.c_curado)/spell.total\n						local P = average/c_average*100\n						T = P*T/100\n						local crit_dps = spell.c_curado / T\n						\n						GC:AddLine (\"Average / E-Hps: \",  _detalhes:ToK (c_average) .. \" / \" .. _detalhes:comma_value (crit_dps))\n					else\n						GC:AddLine (\"Average / E-Hps: \",  \"0 / 0\")    \n					end\n					\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					--GC:AddLine (\" \")\n					\n					GC:AddLine (\"Multistrike: \", spell.m_amt .. \" (\" ..floor ( spell.m_amt/total_hits*100) .. \"%)\")\n					GC:AddStatusBar (100, 1, R, G, B, A)\n					\n					GC:AddLine (\"On Normal / On Critical:\", spell.m_amt - spell.m_crit .. \"  / \" .. spell.m_crit)\n					GC:AddStatusBar (100, 1, R, G, B, A)\n				end\n\n			",
 			["target"] = false,
 			["script"] = "				--get the parameters passed\n				local combat, instance_container, instance = ...\n				--declade the values to return\n				local total, top, amount = 0, 0, 0\n\n				local player\n				local pet_attribute\n				\n				local role = DetailsFramework.UnitGroupRolesAssigned (\"player\")\n				local spec = DetailsFramework.GetSpecialization()\n				role = spec and DetailsFramework.GetSpecializationRole (spec) or role\n\n				if (role == \"DAMAGER\") then\n					player = combat (DETAILS_ATTRIBUTE_DAMAGE, _detalhes.playername)\n					pet_attribute = DETAILS_ATTRIBUTE_DAMAGE\n				elseif (role == \"HEALER\") then    \n					player = combat (DETAILS_ATTRIBUTE_HEAL, _detalhes.playername)\n					pet_attribute = DETAILS_ATTRIBUTE_HEAL\n				else\n					player = combat (DETAILS_ATTRIBUTE_DAMAGE, _detalhes.playername)\n					pet_attribute = DETAILS_ATTRIBUTE_DAMAGE\n				end\n\n				--do the loop\n\n				if (player) then\n					local spells = player:GetSpellList()\n					for spellid, spell in pairs (spells) do\n						instance_container:AddValue (spell, spell.total)\n						total = total + spell.total\n						if (top < spell.total) then\n							top = spell.total\n						end\n						amount = amount + 1\n					end\n				    \n					for _, PetName in ipairs (player.pets) do\n						local pet = combat (pet_attribute, PetName)\n						if (pet) then\n							for spellid, spell in pairs (pet:GetSpellList()) do\n								instance_container:AddValue (spell, spell.total, nil, \" (\" .. PetName:gsub ((\" <.*\"), \"\") .. \")\")\n								total = total + spell.total\n								if (top < spell.total) then\n									top = spell.total\n								end\n								amount = amount + 1\n							end\n						end\n					end\n				end\n\n				--return the values\n				return total, top, amount\n			",
 			["attribute"] = false,
-			["script_version"] = 8,
+			["script_version"] = 9,
 		}, -- [7]
 		{
 			["source"] = false,
@@ -6623,20 +6754,6 @@ _detalhes_global = {
 		{
 			["source"] = false,
 			["author"] = "Details!",
-			["desc"] = "Show overall damage done on the fly.",
-			["total_script"] = "				local value, top, total, combat, instance = ...\n\n				--get the time of overall combat\n				local OverallCombatTime = Details:GetCombat (-1):GetCombatTime()\n\n				--get the time of current combat if the player is in combat\n				if (Details.in_combat) then\n				    local CurrentCombatTime = Details:GetCombat (0):GetCombatTime()\n				    OverallCombatTime = OverallCombatTime + CurrentCombatTime\n				end\n\n				--build the string\n				local ToK = Details:GetCurrentToKFunction()\n				local s = ToK (_, value / OverallCombatTime)\n				\n				if (instance.row_info.textR_show_data[3]) then\n				    s = ToK (_, value) .. \" (\" .. s .. \", \"\n				else\n				    s = ToK (_, value) .. \" (\" .. s\n				end\n\n				return s\n			",
-			["icon"] = "Interface\\Buttons\\Spell-Reset",
-			["spellid"] = false,
-			["name"] = "Dynamic Overall Damage",
-			["tooltip"] = "				--get the parameters passed\n				local actor, combat, instance = ...\n				\n				--get the cooltip object (we dont use the convencional GameTooltip here)\n				local GameCooltip = GameCooltip2\n				\n				--Cooltip code\n				--get the overall combat\n				local OverallCombat = Details:GetCombat (-1)\n				--get the current combat\n				local CurrentCombat = Details:GetCombat (0)\n				\n				local AllSpells = {}\n				\n				--overall\n				local player = OverallCombat [1]:GetActor (actor.nome)\n				local playerSpells = player:GetSpellList()\n				for spellID, spellTable in pairs (playerSpells) do\n					local spellName, _, spellIcon = Details.GetSpellInfoC  (spellID)\n					AllSpells [spellName] = spellTable.total\n				end\n				\n				--current\n				local player = CurrentCombat [1]:GetActor (actor.nome)\n				if (player) then\n					local playerSpells = player:GetSpellList()\n					for spellID, spellTable in pairs (playerSpells) do\n						local spellName, _, spellIcon = Details.GetSpellInfoC  (spellID)\n						AllSpells [spellName] = (AllSpells [spellName] or 0) + (spellTable.total or 0)\n					end\n				end\n				\n				local sortedList = {}\n				for spellID, total in pairs (AllSpells) do\n					tinsert (sortedList, {spellID, total})\n				end\n				table.sort (sortedList, Details.Sort2)\n				\n				local format_func = Details:GetCurrentToKFunction()\n				\n				--build the tooltip\n				for i, t in ipairs (sortedList) do\n					local spellID, total = unpack (t)\n					if (total > 1) then\n						local spellName, _, spellIcon = Details.GetSpellInfoC  (spellID)\n						\n						GameCooltip:AddLine (spellName, format_func (_, total))\n						Details:AddTooltipBackgroundStatusbar()\n						GameCooltip:AddIcon (spellIcon, 1, 1, _detalhes.tooltip.line_height, _detalhes.tooltip.line_height)\n					end\n				end\n\n			",
-			["target"] = false,
-			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, top, amount = 0, 0, 0\n\n				--get the overall combat\n				local OverallCombat = Details:GetCombat (-1)\n				--get the current combat\n				local CurrentCombat = Details:GetCombat (0)\n\n				if (not OverallCombat.GetActorList or not CurrentCombat.GetActorList) then\n				    return 0, 0, 0\n				end\n\n				--get the damage actor container for overall\n				local damage_container_overall = OverallCombat:GetActorList ( DETAILS_ATTRIBUTE_DAMAGE )\n				--get the damage actor container for current\n				local damage_container_current = CurrentCombat:GetActorList ( DETAILS_ATTRIBUTE_DAMAGE )\n\n				--do the loop:\n				for _, player in ipairs ( damage_container_overall ) do \n				    --only player in group\n				    if (player:IsGroupPlayer()) then\n					instance_container:AddValue (player, player.total)\n				    end\n				end\n\n				if (Details.in_combat) then\n				    for _, player in ipairs ( damage_container_current ) do \n					--only player in group\n					if (player:IsGroupPlayer()) then\n					    instance_container:AddValue (player, player.total)        \n					end\n				    end\n				end\n\n				total, top =  instance_container:GetTotalAndHighestValue()\n				amount =  instance_container:GetNumActors()\n\n				--return:\n				return total, top, amount\n			",
-			["attribute"] = false,
-			["script_version"] = 5,
-		}, -- [10]
-		{
-			["source"] = false,
-			["author"] = "Details!",
 			["desc"] = "Damage done to shields",
 			["tooltip"] = "				--get the parameters passed\n				local actor, Combat, instance = ...\n\n				--get the cooltip object (we dont use the convencional GameTooltip here)\n				local GameCooltip = GameCooltip\n\n				--Cooltip code\n				--get the actor total damage absorbed\n				local totalAbsorb = actor.totalabsorbed\n				local format_func = Details:GetCurrentToKFunction()\n\n				--get the damage absorbed by all the actor pets\n				for petIndex, petName in ipairs (actor.pets) do\n				    local pet = Combat :GetActor (1, petName)\n				    if (pet) then\n					totalAbsorb = totalAbsorb + pet.totalabsorbed\n				    end\n				end\n\n				GameCooltip:AddLine (actor:Name(), format_func (_, actor.totalabsorbed))\n				Details:AddTooltipBackgroundStatusbar()\n\n				for petIndex, petName in ipairs (actor.pets) do\n				    local pet = Combat :GetActor (1, petName)\n				    if (pet) then\n					totalAbsorb = totalAbsorb + pet.totalabsorbed\n					\n					GameCooltip:AddLine (petName, format_func (_, pet.totalabsorbed))\n					Details:AddTooltipBackgroundStatusbar()        \n					\n				    end\n				end\n			",
 			["icon"] = "Interface\\ICONS\\Spell_Holy_PowerWordShield",
@@ -6646,6 +6763,20 @@ _detalhes_global = {
 			["script"] = "				--get the parameters passed\n				local Combat, CustomContainer, Instance = ...\n				--declade the values to return\n				local total, top, amount = 0, 0, 0\n\n				--do the loop\n				for index, actor in ipairs (Combat:GetActorList(1)) do\n				    if (actor:IsPlayer()) then\n					\n					--get the actor total damage absorbed\n					local totalAbsorb = actor.totalabsorbed\n					\n					--get the damage absorbed by all the actor pets\n					for petIndex, petName in ipairs (actor.pets) do\n					    local pet = Combat :GetActor (1, petName)\n					    if (pet) then\n						totalAbsorb = totalAbsorb + pet.totalabsorbed\n					    end\n					end\n					\n					--add the value to the actor on the custom container\n					CustomContainer:AddValue (actor, totalAbsorb)        \n					\n				    end\n				end\n				--loop end\n\n				--if not managed inside the loop, get the values of total, top and amount\n				total, top = CustomContainer:GetTotalAndHighestValue()\n				amount = CustomContainer:GetNumActors()\n\n				--return the values\n				return total, top, amount\n			",
 			["attribute"] = false,
 			["script_version"] = 2,
+		}, -- [10]
+		{
+			["source"] = false,
+			["author"] = "Details!",
+			["desc"] = "Show overall damage done on the fly.",
+			["total_script"] = "				local value, top, total, combat, instance = ...\n\n				--get the time of overall combat\n				local OverallCombatTime = Details:GetCombat (-1):GetCombatTime()\n				\n				--get the time of current combat if the player is in combat\n				if (Details.in_combat) then\n					local CurrentCombatTime = Details:GetCombat (0):GetCombatTime()\n					OverallCombatTime = OverallCombatTime + CurrentCombatTime\n				end\n				\n				--build the string\n				local ToK = Details:GetCurrentToKFunction()\n				local s = ToK (_, value / OverallCombatTime)\n				\n				if (instance.row_info.textR_show_data[3]) then\n					s = ToK (_, value) .. \" (\" .. s .. \", \"\n				else\n					s = ToK (_, value) .. \" (\" .. s\n				end\n				\n				return s\n			",
+			["icon"] = "Interface\\Buttons\\Spell-Reset",
+			["spellid"] = false,
+			["name"] = "Dynamic Overall Damage",
+			["tooltip"] = "				--get the parameters passed\n				local actor, combat, instance = ...\n				\n				--get the cooltip object (we dont use the convencional GameTooltip here)\n				local GameCooltip = GameCooltip2\n				\n				--Cooltip code\n				--get the overall combat\n				local OverallCombat = Details:GetCombat (-1)\n				--get the current combat\n				local CurrentCombat = Details:GetCombat (0)\n				\n				local AllSpells = {}\n				\n				--overall\n				local player = OverallCombat [1]:GetActor (actor.nome)\n				if (player) then\n					local playerSpells = player:GetSpellList()\n					for spellID, spellTable in pairs (playerSpells) do\n						local spellName, _, spellIcon = Details.GetSpellInfoC  (spellID)\n						AllSpells [spellName] = spellTable.total\n					end\n				end\n				\n				--current\n				local player = CurrentCombat [1]:GetActor (actor.nome)\n				if (player) then\n					local playerSpells = player:GetSpellList()\n					for spellID, spellTable in pairs (playerSpells) do\n						local spellName, _, spellIcon = Details.GetSpellInfoC  (spellID)\n						AllSpells [spellName] = (AllSpells [spellName] or 0) + (spellTable.total or 0)\n					end\n				end\n				\n				local sortedList = {}\n				for spellID, total in pairs (AllSpells) do\n					tinsert (sortedList, {spellID, total})\n				end\n				table.sort (sortedList, Details.Sort2)\n				\n				local format_func = Details:GetCurrentToKFunction()\n				\n				--build the tooltip\n				for i, t in ipairs (sortedList) do\n					local spellID, total = unpack (t)\n					if (total > 1) then\n						local spellName, _, spellIcon = Details.GetSpellInfoC  (spellID)\n						\n						GameCooltip:AddLine (spellName, format_func (_, total))\n						Details:AddTooltipBackgroundStatusbar()\n						GameCooltip:AddIcon (spellIcon, 1, 1, _detalhes.tooltip.line_height, _detalhes.tooltip.line_height)\n					end\n				end\n			",
+			["target"] = false,
+			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, top, amount = 0, 0, 0\n				\n				--get the overall combat\n				local OverallCombat = Details:GetCombat (-1)\n				--get the current combat\n				local CurrentCombat = Details:GetCombat (0)\n				\n				--check if the actor list of overall and current combat is valid\n				if (not OverallCombat.GetActorList or not CurrentCombat.GetActorList) then\n					return 0, 0, 0\n				end\n				\n				--get the damage actor container for overall\n				local damage_container_overall = OverallCombat:GetActorList ( DETAILS_ATTRIBUTE_DAMAGE )\n				--get the damage actor container for current\n				local damage_container_current = CurrentCombat:GetActorList ( DETAILS_ATTRIBUTE_DAMAGE )\n				\n				--check if the results from getactorlist is a table and has more than 1 actor on it\n				if (type (damage_container_overall) ~= \"table\") then\n					return 0, 0, 0\n				end\n				\n				--do the loop:\n				for _, player in ipairs ( damage_container_overall ) do \n					--only player in group\n					if (player and player:IsGroupPlayer()) then\n						instance_container:AddValue (player, player.total)\n					end\n				end\n				\n				--does the player is in combat?\n				--if true need to add the data from the current fight as well\n				if (UnitAffectingCombat(\"player\")) then\n					for _, player in ipairs ( damage_container_current ) do \n						--only player in group\n						if (player and player:IsGroupPlayer()) then\n							instance_container:AddValue (player, player.total)        \n						end\n					end\n				end\n				\n				total, top =  instance_container:GetTotalAndHighestValue()\n				amount =  instance_container:GetNumActors()\n				\n				--return:\n				return total, top, amount\n			",
+			["attribute"] = false,
+			["script_version"] = 6,
 		}, -- [11]
 	},
 	["performance_profiles"] = {
@@ -6738,12 +6869,7 @@ _detalhes_global = {
 		"7 - Saving Profiles.", -- [5]
 		"8 - Saving nicktag cache.", -- [6]
 	},
-	["createauraframe"] = {
-		["y"] = 1.14440917968750e-05,
-		["x"] = 6.1035156250e-05,
-		["point"] = "CENTER",
-		["scale"] = 1,
-	},
+	["report_where"] = "SAY",
 	["lastUpdateWarning"] = 0,
-	["always_use_profile"] = false,
+	["data_sync"] = false,
 }
