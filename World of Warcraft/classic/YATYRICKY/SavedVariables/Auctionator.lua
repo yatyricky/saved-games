@@ -3,87 +3,153 @@ AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["TimeOfLastScan"] = 1593239392,
 	["_2000"] = 100,
-	["_200000"] = 1000,
 	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
+	["LOG_DE_DATA_X"] = true,
 	["STARTING_DISCOUNT"] = 0,
 	["_500"] = 5,
-	["LOG_DE_DATA_X"] = true,
 }
 AUCTIONATOR_PRICING_HISTORY = {
+	["Briarthorn"] = {
+		["is"] = "2450:0:0:0:0",
+		["6279194"] = "1390:1",
+	},
 	["Giant Egg"] = {
 		["is"] = "12207:0:0:0:0",
 		["6273962"] = "1385:7",
 	},
+	["Gromsblood"] = {
+		["is"] = "8846:0:0:0:0",
+		["6279194"] = "17200:1",
+	},
+	["Fadeleaf"] = {
+		["is"] = "3818:0:0:0:0",
+		["6279193"] = "1245:1",
+	},
 	["Wicked Claw"] = {
 		["is"] = "8146:0:0:0:0",
 		["6273961"] = "4000:1",
-	},
-	["Purple Lotus"] = {
-		["is"] = "8831:0:0:0:0",
-		["6273961"] = "3600:2",
 	},
 	["Winterfall Firewater"] = {
 		["6262003"] = "39800:1",
 		["6273966"] = "33800:1",
 		["is"] = "12820:0:0:0:0",
 	},
+	["Gaea's Raiment of Frozen Wrath"] = {
+		["is"] = "14275:0:0:1972:0",
+		["6279197"] = "73000:1",
+	},
+	["Goldthorn"] = {
+		["is"] = "3821:0:0:0:0",
+		["6279194"] = "4400:1",
+	},
+	["Purple Lotus"] = {
+		["is"] = "8831:0:0:0:0",
+		["6273961"] = "3600:2",
+	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Winterfall Firewater", -- [1]
-			"Superior Healing Potion", -- [2]
-			"Pattern: Living Leggings", -- [3]
-			"Pattern: Frostsaber Leggings", -- [4]
-			"Ichor of Undeath", -- [5]
-			"Giant Egg", -- [6]
-			"Enchanted Water", -- [7]
-			"Aquamarine", -- [8]
-			"Purple Lotus", -- [9]
-			"lesser Eternal Essence", -- [10]
-			"large brilliant shard", -- [11]
-			"small brilliant shard", -- [12]
-			"small briliant shard", -- [13]
-			"small radiant shard", -- [14]
-			"small raiant shard", -- [15]
-			"Ironfeather", -- [16]
-			"illusion dust", -- [17]
-			"vision dust", -- [18]
-			"Deadwood Headdress Feather", -- [19]
-			"Wicked Claw", -- [20]
-			"shard", -- [21]
-			"soul dust", -- [22]
-			"Greater Eternal Essence", -- [23]
-			"light leather", -- [24]
-			"Arcanite", -- [25]
-			"lotus", -- [26]
-			"\"runecloth\"", -- [27]
-			"\"wool Cloth\"", -- [28]
-			"\"Mageweave Cloth\"", -- [29]
-			"\"Silk Cloth\"", -- [30]
-			"\"linen cloth\"", -- [31]
-			"greater magic essence", -- [32]
-			"lesser magic essence", -- [33]
-			"dream dust", -- [34]
-			"Strange dust", -- [35]
-			"Morrowgrain", -- [36]
-			"Mithril casing", -- [37]
+			"\"Felcloth\"", -- [1]
+			"\"Linen Cloth\"", -- [2]
+			"\"Mageweave Cloth\"", -- [3]
+			"\"Mooncloth\"", -- [4]
+			"\"Runecloth\"", -- [5]
+			"\"Wool Cloth\"", -- [6]
+			"\"Silk Cloth\"", -- [7]
+			"\"Small Brilliant Shard\"", -- [8]
+			"\"Nexus Crystal\"", -- [9]
+			"\"Soul Dust\"", -- [10]
+			"Frozen wrath", -- [11]
+			"Dream Dust", -- [12]
+			"Morning Glory Dew", -- [13]
+			"Giant Egg", -- [14]
+			"Felcloth", -- [15]
+			"Pattern: Living Leggings", -- [16]
+			"Pattern: Frostsaber Leggings", -- [17]
+			"Ichor of Undeath", -- [18]
+			"Essence of Water", -- [19]
+			"Aquamarine", -- [20]
+			"Briarthorn", -- [21]
+			"Goldthorn", -- [22]
+			"Gromsblood", -- [23]
+			"Heart of the Wild", -- [24]
+			"Fadeleaf", -- [25]
+			"Hurricane", -- [26]
+			"\"Dream Dust\"", -- [27]
+			"\"Greater Astral Essence\"", -- [28]
+			"\"Greater Eternal Essence\"", -- [29]
+			"\"Greater Magic Essence\"", -- [30]
+			"\"Greater Mystic Essence\"", -- [31]
+			"\"Greater Nether Essence\"", -- [32]
+			"\"Illusion Dust\"", -- [33]
+			"\"Large Brilliant Shard\"", -- [34]
+			"\"Large Glimmering Shard\"", -- [35]
+			"\"Large Radiant Shard\"", -- [36]
+			"\"Large Glowing Shard\"", -- [37]
+			"\"Lesser Astral Essence\"", -- [38]
+			"\"Lesser Eternal Essence\"", -- [39]
+			"\"Lesser Magic Essence\"", -- [40]
+			"\"Lesser Mystic Essence\"", -- [41]
+			"\"Lesser Nether Essence\"", -- [42]
+			"Nexus", -- [43]
+			"Nexus Crystal", -- [44]
+			"\"Small Glimmering Shard\"", -- [45]
+			"\"Small Glowing Shard\"", -- [46]
+			"\"Small Radiant Shard\"", -- [47]
+			"\"Vision Dust\"", -- [48]
+			"\"Strange Dust\"", -- [49]
+			"Strange dust", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
 	}, -- [1]
 	{
 		["items"] = {
-			"Greater Cosmic Essence", -- [1]
-			"Infinite Dust", -- [2]
-			"Dream Shard", -- [3]
-			"Abyss Crystal", -- [4]
+			"\"Felcloth\"", -- [1]
+			"\"Linen Cloth\"", -- [2]
+			"\"Mageweave Cloth\"", -- [3]
+			"\"Mooncloth\"", -- [4]
+			"\"Runecloth\"", -- [5]
+			"\"Silk Cloth\"", -- [6]
+			"\"Wool Cloth\"", -- [7]
 		},
-		["name"] = "Sample Shopping List #1",
-		["isSorted"] = false,
+		["name"] = "Cloths",
+		["isSorted"] = true,
 	}, -- [2]
+	{
+		["items"] = {
+			"\"Dream Dust\"", -- [1]
+			"\"Greater Astral Essence\"", -- [2]
+			"\"Greater Eternal Essence\"", -- [3]
+			"\"Greater Magic Essence\"", -- [4]
+			"\"Greater Mystic Essence\"", -- [5]
+			"\"Greater Nether Essence\"", -- [6]
+			"\"Illusion Dust\"", -- [7]
+			"\"Large Brilliant Shard\"", -- [8]
+			"\"Large Glimmering Shard\"", -- [9]
+			"\"Large Glowing Shard\"", -- [10]
+			"\"Large Radiant Shard\"", -- [11]
+			"\"Lesser Astral Essence\"", -- [12]
+			"\"Lesser Eternal Essence\"", -- [13]
+			"\"Lesser Magic Essence\"", -- [14]
+			"\"Lesser Mystic Essence\"", -- [15]
+			"\"Lesser Nether Essence\"", -- [16]
+			"\"Nexus Crystal\"", -- [17]
+			"\"Small Brilliant Shard\"", -- [18]
+			"\"Small Glimmering Shard\"", -- [19]
+			"\"Small Glowing Shard\"", -- [20]
+			"\"Small Radiant Shard\"", -- [21]
+			"\"Soul Dust\"", -- [22]
+			"\"Strange Dust\"", -- [23]
+			"\"Vision Dust\"", -- [24]
+		},
+		["name"] = "Enchanting Mats",
+		["isSorted"] = true,
+	}, -- [3]
 }
 AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
 AUCTIONATOR_PRICE_DATABASE = {
@@ -91,19 +157,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 	["木喉要塞"] = {
 	},
 	["木喉要塞_Alliance"] = {
-		["Pattern: Frostsaber Leggings"] = {
-			["mr"] = 8000,
-			["sc"] = 1,
-			["H3520"] = 8000,
-			["id"] = "15747:0:0:0:0",
+		["Pattern: Runecloth Bag"] = {
+			["mr"] = 36750,
 			["cc"] = 9,
+			["H3521"] = 36750,
+			["id"] = "14468:0:0:0:0",
+			["sc"] = 2,
 		},
-		["Schematic: Delicate Arcanite Converter"] = {
-			["mr"] = 47499,
-			["sc"] = 3,
-			["id"] = "16050:0:0:0:0",
+		["Pattern: Runecloth Headband"] = {
+			["mr"] = 73083,
 			["cc"] = 9,
-			["H3512"] = 47499,
+			["H3521"] = 73083,
+			["id"] = "14498:0:0:0:0",
+			["sc"] = 2,
+		},
+		["Master's Boots of Frozen Wrath"] = {
+			["mr"] = 33090,
+			["cc"] = 4,
+			["id"] = "10247:0:0:1970:0",
+			["sc"] = 1,
+			["H3524"] = 33090,
+		},
+		["Bloodwoven Mask of Frozen Wrath"] = {
+			["mr"] = 103470,
+			["cc"] = 4,
+			["id"] = "14263:0:0:1969:0",
+			["sc"] = 1,
+			["H3524"] = 103470,
 		},
 		["Light Leather"] = {
 			["mr"] = 1400,
@@ -111,6 +191,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "2318:0:0:0:0",
 			["cc"] = 7,
 			["H3512"] = 1400,
+		},
+		["Felcloth Boots"] = {
+			["mr"] = 200000,
+			["cc"] = 4,
+			["H3521"] = 200000,
+			["id"] = "14108:0:0:0:0",
+			["sc"] = 1,
 		},
 		["Enchanted Water"] = {
 			["mr"] = 1900,
@@ -120,19 +207,28 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Large Brilliant Shard"] = {
-			["mr"] = 24000,
-			["sc"] = 0,
-			["id"] = "14344:0:0:0:0",
 			["H3520"] = 24000,
-			["cc"] = 7,
+			["mr"] = 25000,
 			["H3512"] = 24000,
-		},
-		["Superior Healing Potion"] = {
-			["mr"] = 560,
+			["H3521"] = 25200,
+			["id"] = "14344:0:0:0:0",
+			["cc"] = 7,
 			["sc"] = 0,
-			["H3520"] = 560,
-			["id"] = "3928:0:0:0:0",
-			["cc"] = 0,
+			["L3521"] = 25000,
+		},
+		["Runecloth Gloves"] = {
+			["mr"] = 29500,
+			["cc"] = 4,
+			["H3521"] = 29500,
+			["id"] = "13863:0:0:0:0",
+			["sc"] = 1,
+		},
+		["Runecloth Bag"] = {
+			["mr"] = 25000,
+			["cc"] = 1,
+			["H3521"] = 25000,
+			["id"] = "14046:0:0:0:0",
+			["sc"] = 0,
 		},
 		["Freezing Shard"] = {
 			["mr"] = 4954197,
@@ -141,6 +237,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 2,
 			["H3512"] = 4954197,
 		},
+		["Goldthorn"] = {
+			["mr"] = 4536,
+			["cc"] = 7,
+			["id"] = "3821:0:0:0:0",
+			["sc"] = 0,
+			["H3524"] = 4536,
+		},
+		["Lunar Mantle of Frozen Wrath"] = {
+			["mr"] = 359750,
+			["cc"] = 4,
+			["id"] = "14247:0:0:1963:0",
+			["sc"] = 1,
+			["H3524"] = 359750,
+		},
 		["Shardtooth E'ko"] = {
 			["mr"] = 40230,
 			["sc"] = 0,
@@ -148,20 +258,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 12,
 			["H3512"] = 40230,
 		},
-		["Small Radiant Shard"] = {
-			["mr"] = 20000,
-			["sc"] = 0,
-			["id"] = "11177:0:0:0:0",
-			["H3520"] = 20000,
+		["Vision Dust"] = {
+			["mr"] = 780,
 			["cc"] = 7,
-			["H3512"] = 29800,
+			["H3521"] = 780,
+			["id"] = "11137:0:0:0:0",
+			["H3512"] = 2048,
+			["sc"] = 0,
 		},
-		["Formula: Runed Arcanite Rod"] = {
-			["mr"] = 88798,
-			["sc"] = 8,
-			["id"] = "16243:0:0:0:0",
-			["cc"] = 9,
-			["H3512"] = 88798,
+		["Large Glimmering Shard"] = {
+			["mr"] = 10150,
+			["cc"] = 7,
+			["H3521"] = 10150,
+			["id"] = "11084:0:0:0:0",
+			["H3512"] = 2350,
+			["sc"] = 0,
 		},
 		["Arcanite Rod"] = {
 			["mr"] = 4730000,
@@ -170,12 +281,409 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 			["H3512"] = 4730000,
 		},
+		["Aquamarine Ring of Nature Resistance"] = {
+			["mr"] = 500000,
+			["sc"] = 0,
+			["H3520"] = 250000,
+			["cc"] = 4,
+			["id"] = "11974:0:0:1504:0",
+			["H3524"] = 500000,
+		},
+		["Pattern: Felcloth Boots"] = {
+			["mr"] = 11000,
+			["cc"] = 9,
+			["H3521"] = 11000,
+			["id"] = "14492:0:0:0:0",
+			["sc"] = 2,
+		},
+		["Aquamarine Ring of Frost Resistance"] = {
+			["mr"] = 455920,
+			["sc"] = 0,
+			["H3520"] = 155920,
+			["cc"] = 4,
+			["id"] = "11974:0:0:1367:0",
+			["H3524"] = 455920,
+		},
+		["Felcloth Gloves"] = {
+			["mr"] = 5959762,
+			["cc"] = 4,
+			["H3521"] = 6959762,
+			["id"] = "18407:0:0:0:0",
+			["sc"] = 1,
+			["H3524"] = 5959762,
+		},
+		["Gaea's Tunic of Frozen Wrath"] = {
+			["mr"] = 71324,
+			["cc"] = 4,
+			["id"] = "14277:0:0:1973:0",
+			["sc"] = 1,
+			["H3524"] = 71324,
+		},
+		["Small Glowing Shard"] = {
+			["mr"] = 90,
+			["cc"] = 7,
+			["H3521"] = 90,
+			["id"] = "11138:0:0:0:0",
+			["H3512"] = 300,
+			["sc"] = 0,
+		},
+		["Aquamarine"] = {
+			["mr"] = 5049,
+			["sc"] = 0,
+			["H3520"] = 1000,
+			["cc"] = 7,
+			["id"] = "7909:0:0:0:0",
+			["H3524"] = 5049,
+		},
+		["Shimmering Boots of Frozen Wrath"] = {
+			["mr"] = 221143,
+			["cc"] = 4,
+			["id"] = "6562:0:0:1955:0",
+			["sc"] = 1,
+			["H3524"] = 221143,
+		},
+		["Giant Egg"] = {
+			["L3520"] = 1385,
+			["mr"] = 996,
+			["sc"] = 0,
+			["H3520"] = 1392,
+			["cc"] = 7,
+			["id"] = "12207:0:0:0:0",
+			["H3524"] = 996,
+		},
+		["Soul Dust"] = {
+			["mr"] = 8997,
+			["cc"] = 7,
+			["H3521"] = 4299,
+			["id"] = "11083:0:0:0:0",
+			["H3525"] = 8997,
+			["H3512"] = 4890,
+			["sc"] = 0,
+		},
+		["Gromsblood"] = {
+			["mr"] = 17450,
+			["cc"] = 7,
+			["id"] = "8846:0:0:0:0",
+			["sc"] = 0,
+			["H3524"] = 17450,
+		},
+		["Greater Mystic Essence"] = {
+			["mr"] = 200000,
+			["cc"] = 7,
+			["H3521"] = 200000,
+			["id"] = "11135:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Ichor of Undeath"] = {
+			["mr"] = 606,
+			["sc"] = 0,
+			["H3520"] = 400,
+			["cc"] = 5,
+			["id"] = "7972:0:0:0:0",
+			["H3524"] = 606,
+		},
+		["Mooncloth"] = {
+			["mr"] = 278500,
+			["cc"] = 7,
+			["H3521"] = 256000,
+			["id"] = "14342:0:0:0:0",
+			["H3525"] = 278500,
+			["sc"] = 0,
+		},
+		["Small Brilliant Shard"] = {
+			["H3525"] = 30049,
+			["mr"] = 30049,
+			["H3512"] = 20048,
+			["H3521"] = 28000,
+			["H3520"] = 14449,
+			["id"] = "14343:0:0:0:0",
+			["cc"] = 7,
+			["sc"] = 0,
+		},
+		["Royal Headband of Frozen Wrath"] = {
+			["mr"] = 111454,
+			["cc"] = 4,
+			["id"] = "9915:0:0:1969:0",
+			["sc"] = 1,
+			["H3524"] = 111454,
+		},
+		["Recipe: Transmute Arcanite"] = {
+			["mr"] = 78124,
+			["sc"] = 6,
+			["id"] = "12958:0:0:0:0",
+			["cc"] = 9,
+			["H3512"] = 78124,
+		},
+		["Resplendent Boots of Frozen Wrath"] = {
+			["mr"] = 75600,
+			["cc"] = 4,
+			["id"] = "14319:0:0:1969:0",
+			["sc"] = 1,
+			["H3524"] = 75600,
+		},
+		["Mageweave Cloth"] = {
+			["mr"] = 325,
+			["cc"] = 7,
+			["H3521"] = 483,
+			["id"] = "4338:0:0:0:0",
+			["H3525"] = 325,
+			["sc"] = 0,
+			["L3521"] = 452,
+		},
+		["Buccaneer's Orb of Frozen Wrath"] = {
+			["mr"] = 32583,
+			["cc"] = 4,
+			["id"] = "15912:0:0:1955:0",
+			["sc"] = 0,
+			["H3524"] = 32583,
+		},
+		["Master's Robe of Frozen Wrath"] = {
+			["mr"] = 500000,
+			["cc"] = 4,
+			["id"] = "10254:0:0:1979:0",
+			["sc"] = 1,
+			["H3524"] = 500000,
+		},
+		["Blood Shard"] = {
+			["mr"] = 7050,
+			["sc"] = 0,
+			["id"] = "5075:0:0:0:0",
+			["cc"] = 12,
+			["H3512"] = 7050,
+		},
+		["Mooncloth Bag"] = {
+			["mr"] = 318700,
+			["cc"] = 1,
+			["H3521"] = 318700,
+			["id"] = "14155:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Lesser Eternal Essence"] = {
+			["mr"] = 20315,
+			["cc"] = 7,
+			["H3521"] = 20315,
+			["id"] = "16202:0:0:0:0",
+			["H3520"] = 20900,
+			["sc"] = 0,
+		},
+		["Pattern: Felcloth Robe"] = {
+			["mr"] = 19400,
+			["cc"] = 9,
+			["H3521"] = 19400,
+			["id"] = "14506:0:0:0:0",
+			["sc"] = 2,
+		},
+		["Bolt of Linen Cloth"] = {
+			["mr"] = 790,
+			["cc"] = 7,
+			["H3521"] = 790,
+			["id"] = "2996:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Small Glimmering Shard"] = {
+			["mr"] = 300,
+			["cc"] = 7,
+			["H3521"] = 300,
+			["id"] = "10978:0:0:0:0",
+			["H3512"] = 750,
+			["sc"] = 0,
+		},
+		["Eternal Wraps of Frozen Wrath"] = {
+			["mr"] = 500000,
+			["cc"] = 4,
+			["id"] = "14336:0:0:1979:0",
+			["sc"] = 1,
+			["H3524"] = 500000,
+		},
+		["Illusion Dust"] = {
+			["mr"] = 199,
+			["H3512"] = 213,
+			["H3521"] = 199,
+			["H3520"] = 190,
+			["id"] = "16204:0:0:0:0",
+			["cc"] = 7,
+			["sc"] = 0,
+		},
+		["Green Lens of Frozen Wrath"] = {
+			["mr"] = 1000000,
+			["cc"] = 4,
+			["id"] = "10504:0:0:1974:0",
+			["sc"] = 1,
+			["H3524"] = 1000000,
+		},
 		["Golem Shard Leggings"] = {
 			["mr"] = 408054,
 			["sc"] = 4,
 			["id"] = "13074:0:0:0:0",
 			["cc"] = 4,
 			["H3512"] = 408054,
+		},
+		["Greater Astral Essence"] = {
+			["mr"] = 9749,
+			["cc"] = 7,
+			["H3521"] = 9749,
+			["id"] = "11082:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Essence of Water"] = {
+			["mr"] = 89800,
+			["cc"] = 5,
+			["id"] = "7080:0:0:0:0",
+			["sc"] = 0,
+			["H3524"] = 89800,
+		},
+		["Pattern: Frostsaber Leggings"] = {
+			["mr"] = 14030,
+			["sc"] = 1,
+			["H3520"] = 8000,
+			["cc"] = 9,
+			["id"] = "15747:0:0:0:0",
+			["H3524"] = 14030,
+		},
+		["Celestial Pauldrons of Frozen Wrath"] = {
+			["mr"] = 155359,
+			["cc"] = 4,
+			["id"] = "14316:0:0:1970:0",
+			["sc"] = 1,
+			["H3524"] = 155359,
+		},
+		["Pattern: Living Leggings"] = {
+			["mr"] = 15050,
+			["sc"] = 1,
+			["H3520"] = 9999,
+			["cc"] = 9,
+			["id"] = "15752:0:0:0:0",
+			["H3524"] = 15050,
+		},
+		["Elegant Mantle of Frozen Wrath"] = {
+			["mr"] = 250000,
+			["cc"] = 4,
+			["id"] = "10210:0:0:1969:0",
+			["sc"] = 1,
+			["H3524"] = 250000,
+		},
+		["Felcloth Hood"] = {
+			["mr"] = 551100,
+			["cc"] = 4,
+			["H3521"] = 541100,
+			["id"] = "14111:0:0:0:0",
+			["sc"] = 1,
+			["H3524"] = 551100,
+		},
+		["Wool Cloth"] = {
+			["mr"] = 184,
+			["cc"] = 7,
+			["H3521"] = 80,
+			["id"] = "2592:0:0:0:0",
+			["H3525"] = 184,
+			["sc"] = 0,
+		},
+		["Pattern: Mooncloth Shoulders"] = {
+			["mr"] = 140000,
+			["cc"] = 9,
+			["H3521"] = 140000,
+			["id"] = "14507:0:0:0:0",
+			["sc"] = 2,
+		},
+		["Bolt of Runecloth"] = {
+			["mr"] = 7488,
+			["cc"] = 7,
+			["H3521"] = 7488,
+			["id"] = "14048:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Superior Healing Potion"] = {
+			["mr"] = 560,
+			["sc"] = 0,
+			["H3520"] = 560,
+			["id"] = "3928:0:0:0:0",
+			["cc"] = 0,
+		},
+		["Felcloth Bag"] = {
+			["mr"] = 3959799,
+			["cc"] = 1,
+			["H3521"] = 3959799,
+			["id"] = "21341:0:0:0:0",
+			["sc"] = 1,
+			["H3524"] = 3959799,
+		},
+		["Fadeleaf"] = {
+			["mr"] = 1249,
+			["cc"] = 7,
+			["id"] = "3818:0:0:0:0",
+			["sc"] = 0,
+			["H3524"] = 1249,
+		},
+		["Pattern: Felcloth Pants"] = {
+			["mr"] = 99999,
+			["cc"] = 9,
+			["H3521"] = 89999,
+			["id"] = "14483:0:0:0:0",
+			["sc"] = 2,
+			["H3524"] = 99999,
+		},
+		["Briarthorn"] = {
+			["mr"] = 1395,
+			["cc"] = 7,
+			["id"] = "2450:0:0:0:0",
+			["sc"] = 0,
+			["H3524"] = 1395,
+		},
+		["Linen Cloth"] = {
+			["mr"] = 379,
+			["cc"] = 7,
+			["H3521"] = 92,
+			["id"] = "2589:0:0:0:0",
+			["H3525"] = 379,
+			["sc"] = 0,
+		},
+		["Small Radiant Shard"] = {
+			["mr"] = 17500,
+			["H3512"] = 29800,
+			["H3521"] = 17500,
+			["H3520"] = 20000,
+			["id"] = "11177:0:0:0:0",
+			["cc"] = 7,
+			["sc"] = 0,
+		},
+		["Greater Eternal Essence"] = {
+			["mr"] = 56500,
+			["H3512"] = 55000,
+			["H3521"] = 56500,
+			["H3520"] = 60150,
+			["id"] = "16203:0:0:0:0",
+			["cc"] = 7,
+			["sc"] = 0,
+		},
+		["Vital Raiment of Frozen Wrath"] = {
+			["mr"] = 5500,
+			["cc"] = 4,
+			["id"] = "14213:0:0:1965:0",
+			["sc"] = 1,
+			["H3524"] = 5500,
+		},
+		["Formula: Runed Arcanite Rod"] = {
+			["mr"] = 88798,
+			["sc"] = 8,
+			["id"] = "16243:0:0:0:0",
+			["cc"] = 9,
+			["H3512"] = 88798,
+		},
+		["Dream Dust"] = {
+			["mr"] = 3150,
+			["cc"] = 7,
+			["H3521"] = 1952,
+			["id"] = "11176:0:0:0:0",
+			["H3524"] = 3150,
+			["sc"] = 0,
+			["L3521"] = 1945,
+		},
+		["Greater Magic Essence"] = {
+			["mr"] = 1010,
+			["cc"] = 7,
+			["H3521"] = 1010,
+			["id"] = "10939:0:0:0:0",
+			["sc"] = 0,
 		},
 		["Schematic: Arcanite Dragonling"] = {
 			["mr"] = 93500,
@@ -184,77 +692,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 9,
 			["H3512"] = 93500,
 		},
-		["Aquamarine Ring of Arcane Resistance"] = {
-			["mr"] = 155920,
-			["sc"] = 0,
-			["H3520"] = 155920,
-			["id"] = "11974:0:0:1321:0",
+		["Conjurer's Hood of Frozen Wrath"] = {
+			["mr"] = 65300,
 			["cc"] = 4,
-		},
-		["Small Glowing Shard"] = {
-			["mr"] = 300,
-			["sc"] = 0,
-			["id"] = "11138:0:0:0:0",
-			["cc"] = 7,
-			["H3512"] = 300,
-		},
-		["Purple Lotus"] = {
-			["mr"] = 3675,
-			["sc"] = 0,
-			["H3520"] = 3675,
-			["id"] = "8831:0:0:0:0",
-			["cc"] = 7,
-		},
-		["Giant Egg"] = {
-			["L3520"] = 1385,
-			["mr"] = 1385,
-			["sc"] = 0,
-			["H3520"] = 1392,
-			["id"] = "12207:0:0:0:0",
-			["cc"] = 7,
-		},
-		["Soul Dust"] = {
-			["mr"] = 4890,
-			["sc"] = 0,
-			["id"] = "11083:0:0:0:0",
-			["cc"] = 7,
-			["H3512"] = 4890,
-		},
-		["Pattern: Living Leggings"] = {
-			["mr"] = 9999,
+			["id"] = "9849:0:0:1964:0",
 			["sc"] = 1,
-			["H3520"] = 9999,
-			["id"] = "15752:0:0:0:0",
-			["cc"] = 9,
-		},
-		["Aquamarine"] = {
-			["mr"] = 1000,
-			["sc"] = 0,
-			["H3520"] = 1000,
-			["id"] = "7909:0:0:0:0",
-			["cc"] = 7,
-		},
-		["Aquamarine Ring of Frost Resistance"] = {
-			["mr"] = 155920,
-			["sc"] = 0,
-			["H3520"] = 155920,
-			["id"] = "11974:0:0:1367:0",
-			["cc"] = 4,
-		},
-		["Ichor of Undeath"] = {
-			["mr"] = 400,
-			["sc"] = 0,
-			["H3520"] = 400,
-			["id"] = "7972:0:0:0:0",
-			["cc"] = 5,
-		},
-		["Small Brilliant Shard"] = {
-			["mr"] = 14449,
-			["sc"] = 0,
-			["id"] = "14343:0:0:0:0",
-			["H3520"] = 14449,
-			["cc"] = 7,
-			["H3512"] = 20048,
+			["H3524"] = 65300,
 		},
 		["Wicked Claw"] = {
 			["mr"] = 3575,
@@ -264,33 +707,117 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 			["H3512"] = 5898,
 		},
-		["Recipe: Transmute Arcanite"] = {
-			["mr"] = 78124,
-			["sc"] = 6,
-			["id"] = "12958:0:0:0:0",
-			["cc"] = 9,
-			["H3512"] = 78124,
-		},
-		["Pattern: Ironfeather Shoulders"] = {
-			["mr"] = 27901,
-			["sc"] = 1,
-			["id"] = "15735:0:0:0:0",
-			["cc"] = 9,
-			["H3512"] = 27901,
-		},
-		["Large Radiant Shard"] = {
-			["mr"] = 69950,
+		["Aquamarine Ring of Arcane Resistance"] = {
+			["mr"] = 155920,
 			["sc"] = 0,
-			["id"] = "11178:0:0:0:0",
-			["cc"] = 7,
-			["H3512"] = 69950,
-		},
-		["Aquamarine Ring of Nature Resistance"] = {
-			["mr"] = 250000,
-			["sc"] = 0,
-			["H3520"] = 250000,
-			["id"] = "11974:0:0:1504:0",
+			["H3520"] = 155920,
+			["id"] = "11974:0:0:1321:0",
 			["cc"] = 4,
+		},
+		["Strange Dust"] = {
+			["mr"] = 445,
+			["cc"] = 7,
+			["H3521"] = 445,
+			["id"] = "10940:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Felcloth"] = {
+			["mr"] = 52500,
+			["cc"] = 7,
+			["H3521"] = 60000,
+			["id"] = "14256:0:0:0:0",
+			["H3525"] = 52500,
+			["sc"] = 0,
+			["H3524"] = 60000,
+		},
+		["Aquamarine Ring of Shadow Resistance"] = {
+			["mr"] = 259784,
+			["cc"] = 4,
+			["id"] = "11974:0:0:1459:0",
+			["sc"] = 0,
+			["H3524"] = 259784,
+		},
+		["Pattern: Mooncloth Robe"] = {
+			["mr"] = 62400,
+			["cc"] = 9,
+			["H3521"] = 62400,
+			["id"] = "18487:0:0:0:0",
+			["sc"] = 2,
+		},
+		["Greater Nether Essence"] = {
+			["mr"] = 35550,
+			["cc"] = 7,
+			["H3521"] = 35550,
+			["id"] = "11175:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Gaea's Slippers of Frozen Wrath"] = {
+			["mr"] = 359700,
+			["cc"] = 4,
+			["id"] = "14269:0:0:1965:0",
+			["sc"] = 1,
+			["H3524"] = 359700,
+		},
+		["Pattern: Core Felcloth Bag"] = {
+			["mr"] = 5999400,
+			["cc"] = 9,
+			["H3521"] = 3000000,
+			["id"] = "21371:0:0:0:0",
+			["sc"] = 2,
+			["H3524"] = 5999400,
+		},
+		["Silk Cloth"] = {
+			["H3525"] = 438,
+			["mr"] = 438,
+			["cc"] = 7,
+			["H3521"] = 377,
+			["id"] = "4306:0:0:0:0",
+			["H3524"] = 200,
+			["sc"] = 0,
+			["L3521"] = 300,
+		},
+		["Lesser Nether Essence"] = {
+			["mr"] = 12750,
+			["cc"] = 7,
+			["H3521"] = 12750,
+			["id"] = "11174:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Runecloth"] = {
+			["mr"] = 567,
+			["cc"] = 7,
+			["H3521"] = 515,
+			["id"] = "14047:0:0:0:0",
+			["H3525"] = 567,
+			["sc"] = 0,
+		},
+		["Runecloth Belt"] = {
+			["mr"] = 14299,
+			["cc"] = 4,
+			["H3521"] = 14299,
+			["id"] = "13856:0:0:0:0",
+			["sc"] = 1,
+		},
+		["Schematic: Delicate Arcanite Converter"] = {
+			["mr"] = 47499,
+			["sc"] = 3,
+			["id"] = "16050:0:0:0:0",
+			["cc"] = 9,
+			["H3512"] = 47499,
+		},
+		["Pattern: Runecloth Shoulders"] = {
+			["mr"] = 15000,
+			["cc"] = 9,
+			["H3521"] = 15000,
+			["id"] = "14504:0:0:0:0",
+			["sc"] = 2,
+		},
+		["Bolt of Silk Cloth"] = {
+			["mr"] = 2000,
+			["cc"] = 7,
+			["H3521"] = 2000,
+			["id"] = "4305:0:0:0:0",
+			["sc"] = 0,
 		},
 		["Arcanite Bar"] = {
 			["mr"] = 1108895,
@@ -299,12 +826,107 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 			["H3512"] = 1108895,
 		},
-		["Blood Shard"] = {
-			["mr"] = 7050,
+		["Pattern: Mooncloth Bag"] = {
+			["mr"] = 29975,
+			["cc"] = 9,
+			["H3521"] = 29975,
+			["id"] = "14499:0:0:0:0",
+			["sc"] = 2,
+		},
+		["Lesser Mystic Essence"] = {
+			["mr"] = 10025,
+			["cc"] = 7,
+			["H3521"] = 10025,
+			["id"] = "11134:0:0:0:0",
 			["sc"] = 0,
-			["id"] = "5075:0:0:0:0",
-			["cc"] = 12,
-			["H3512"] = 7050,
+		},
+		["Pattern: Felcloth Hood"] = {
+			["mr"] = 29598,
+			["cc"] = 9,
+			["H3521"] = 49599,
+			["id"] = "14496:0:0:0:0",
+			["sc"] = 2,
+			["H3524"] = 29598,
+		},
+		["Core Felcloth Bag"] = {
+			["mr"] = 5210000,
+			["cc"] = 1,
+			["H3521"] = 5479999,
+			["id"] = "21342:0:0:0:0",
+			["sc"] = 1,
+			["H3524"] = 5210000,
+		},
+		["Purple Lotus"] = {
+			["mr"] = 3675,
+			["sc"] = 0,
+			["H3520"] = 3675,
+			["id"] = "8831:0:0:0:0",
+			["cc"] = 7,
+		},
+		["Large Radiant Shard"] = {
+			["mr"] = 68000,
+			["cc"] = 7,
+			["H3521"] = 68000,
+			["id"] = "11178:0:0:0:0",
+			["H3512"] = 69950,
+			["sc"] = 0,
+		},
+		["Pattern: Felcloth Shoulders"] = {
+			["mr"] = 13750,
+			["cc"] = 9,
+			["H3521"] = 21800,
+			["id"] = "14508:0:0:0:0",
+			["sc"] = 2,
+			["H3524"] = 13750,
+		},
+		["Darkmist Wizard Hat of Frozen Wrath"] = {
+			["mr"] = 359714,
+			["cc"] = 4,
+			["id"] = "14246:0:0:1969:0",
+			["sc"] = 1,
+			["H3524"] = 359714,
+		},
+		["Diviner Long Staff of Frozen Wrath"] = {
+			["mr"] = 71200,
+			["cc"] = 2,
+			["id"] = "15274:0:0:1973:0",
+			["sc"] = 10,
+			["H3524"] = 71200,
+		},
+		["Pattern: Ironfeather Shoulders"] = {
+			["mr"] = 27901,
+			["sc"] = 1,
+			["id"] = "15735:0:0:0:0",
+			["cc"] = 9,
+			["H3512"] = 27901,
+		},
+		["Lesser Astral Essence"] = {
+			["mr"] = 4350,
+			["cc"] = 7,
+			["H3521"] = 4350,
+			["id"] = "10998:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Durable Rod of Frozen Wrath"] = {
+			["mr"] = 5000,
+			["cc"] = 4,
+			["id"] = "15935:0:0:1958:0",
+			["sc"] = 0,
+			["H3524"] = 5000,
+		},
+		["Durable Cape of Frozen Wrath"] = {
+			["mr"] = 40000,
+			["cc"] = 4,
+			["id"] = "9822:0:0:1956:0",
+			["sc"] = 1,
+			["H3524"] = 40000,
+		},
+		["Pattern: Runecloth Gloves"] = {
+			["mr"] = 99999,
+			["cc"] = 9,
+			["H3521"] = 99999,
+			["id"] = "14481:0:0:0:0",
+			["sc"] = 2,
 		},
 		["Winterfall Firewater"] = {
 			["mr"] = 34000,
@@ -314,48 +936,48 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 			["H3512"] = 39989,
 		},
-		["Lesser Eternal Essence"] = {
-			["mr"] = 20900,
-			["sc"] = 0,
-			["H3520"] = 20900,
-			["id"] = "16202:0:0:0:0",
-			["cc"] = 7,
+		["Twilight Cowl of Frozen Wrath"] = {
+			["mr"] = 56100,
+			["cc"] = 4,
+			["id"] = "7432:0:0:1965:0",
+			["sc"] = 1,
+			["H3524"] = 56100,
 		},
-		["Illusion Dust"] = {
-			["mr"] = 190,
-			["sc"] = 0,
-			["id"] = "16204:0:0:0:0",
-			["H3520"] = 190,
-			["cc"] = 7,
-			["H3512"] = 213,
+		["Pattern: Runecloth Pants"] = {
+			["mr"] = 59998,
+			["cc"] = 9,
+			["H3521"] = 59998,
+			["id"] = "14491:0:0:0:0",
+			["sc"] = 2,
 		},
-		["Vision Dust"] = {
-			["mr"] = 2048,
-			["sc"] = 0,
-			["id"] = "11137:0:0:0:0",
+		["Lesser Magic Essence"] = {
+			["mr"] = 550,
 			["cc"] = 7,
-			["H3512"] = 2048,
+			["H3521"] = 550,
+			["id"] = "10938:0:0:0:0",
+			["sc"] = 0,
 		},
 		["Large Glowing Shard"] = {
-			["mr"] = 18850,
-			["sc"] = 0,
+			["mr"] = 7850,
+			["cc"] = 7,
+			["H3521"] = 7850,
 			["id"] = "11139:0:0:0:0",
-			["cc"] = 7,
 			["H3512"] = 18850,
-		},
-		["Small Glimmering Shard"] = {
-			["mr"] = 750,
 			["sc"] = 0,
-			["id"] = "10978:0:0:0:0",
-			["cc"] = 7,
-			["H3512"] = 750,
 		},
-		["Large Glimmering Shard"] = {
-			["mr"] = 2350,
+		["Heart of the Wild"] = {
+			["mr"] = 605,
+			["cc"] = 5,
+			["id"] = "10286:0:0:0:0",
 			["sc"] = 0,
-			["id"] = "11084:0:0:0:0",
-			["cc"] = 7,
-			["H3512"] = 2350,
+			["H3524"] = 605,
+		},
+		["Lunar Coronet of Frozen Wrath"] = {
+			["mr"] = 81000,
+			["cc"] = 4,
+			["id"] = "14252:0:0:1968:0",
+			["sc"] = 1,
+			["H3524"] = 81000,
 		},
 		["Ironfeather"] = {
 			["mr"] = 195,
@@ -364,13 +986,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 5,
 			["H3512"] = 195,
 		},
-		["Greater Eternal Essence"] = {
-			["mr"] = 60150,
-			["sc"] = 0,
-			["id"] = "16203:0:0:0:0",
-			["H3520"] = 60150,
-			["cc"] = 7,
-			["H3512"] = 55000,
+		["Pattern: Mooncloth"] = {
+			["mr"] = 79740,
+			["cc"] = 9,
+			["H3521"] = 79740,
+			["id"] = "14526:0:0:0:0",
+			["sc"] = 2,
 		},
 	},
 }
@@ -396,5 +1017,4 @@ AUCTIONATOR_FS_CHUNK = nil
 AUCTIONATOR_DE_DATA = nil
 AUCTIONATOR_DE_DATA_BAK = nil
 ITEM_ID_VERSION = "3.2.6"
-AUCTIONATOR_SHOW_MAILBOX_TIPS = nil
-AUCTIONATOR_SNAPSHOT = nil
+AUCTIONATOR_SHOW_MAILBOX_TIPS = 1
