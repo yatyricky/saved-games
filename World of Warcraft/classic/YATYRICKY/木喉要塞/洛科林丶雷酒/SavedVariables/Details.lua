@@ -8,1566 +8,32 @@ _detalhes_database = {
 			{
 				{
 					["tipo"] = 2,
-					["combatId"] = 155,
+					["combatId"] = 202,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 68168,
-							["totalabsorbed"] = 199.001728,
+							["totalabsorbed"] = 630.002229,
 							["damage_from"] = {
 								["洛科林丶雷酒"] = true,
 							},
 							["targets"] = {
-								["洛科林丶雷酒"] = 279,
+								["洛科林丶雷酒"] = 1136,
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 279.001728,
-							["serial"] = "Creature-0-4526-1-121-6195-00030637DC",
-							["monster"] = true,
-							["total"] = 279.001728,
-							["damage_taken"] = 2681.001728,
-							["on_hold"] = false,
-							["nome"] = "Spitelash Siren",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Renew"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Renew",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Frost Shot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 126,
-										["targets"] = {
-											["洛科林丶雷酒"] = 126,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 126,
-										["n_min"] = 126,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 126,
-										["c_max"] = 0,
-										["id"] = "Frost Shot",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shoot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 80,
-										["targets"] = {
-											["洛科林丶雷酒"] = 153,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 153,
-										["n_min"] = 73,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 153,
-										["c_max"] = 0,
-										["MISS"] = 1,
-										["id"] = "Shoot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["m_amt"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["end_time"] = 1594271501,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1594271498,
+							["last_event"] = 1594558686,
 							["friendlyfire"] = {
 							},
-							["start_time"] = 1594271484,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003598,
-							["damage_from"] = {
-								["Environment (Fire)"] = true,
-								["Spitelash Siren"] = true,
-							},
-							["targets"] = {
-								["Spitelash Siren"] = 2681,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 2681.003598,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 2681.003598,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 628,
-										["targets"] = {
-											["Spitelash Siren"] = 628,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 628,
-										["n_min"] = 628,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 628,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 164,
-										["targets"] = {
-											["Spitelash Siren"] = 492,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 492,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 492,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 130,
-										["targets"] = {
-											["Spitelash Siren"] = 565,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 565,
-										["n_min"] = 84,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 565,
-										["c_max"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 169,
-										["targets"] = {
-											["Spitelash Siren"] = 996,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 996,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 996,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["end_time"] = 1594271501,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1594271501,
-							["damage_taken"] = 304.003598,
-							["start_time"] = 1594271485,
-							["delay"] = 0,
-							["classe"] = "PRIEST",
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 155,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["洛科林丶雷酒"] = 120,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 120.004292,
-							["total_without_pet"] = 739.004292,
-							["total"] = 739.004292,
-							["spec"] = 258,
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 199.004292,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 757,
-							},
-							["totalover_without_pet"] = 0.004292,
-							["healing_taken"] = 739.004292,
-							["fight_component"] = true,
-							["end_time"] = 1594271501,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Vampiric Embrace"] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["洛科林丶雷酒"] = 120,
-										},
-										["n_max"] = 188,
-										["targets"] = {
-											["洛科林丶雷酒"] = 540,
-										},
-										["n_min"] = 0,
-										["counter"] = 10,
-										["overheal"] = 120,
-										["total"] = 540,
-										["c_max"] = 74,
-										["id"] = "Vampiric Embrace",
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 74,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 74,
-										["n_curado"] = 466,
-										["n_amt"] = 9,
-										["m_healed"] = 0,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 199,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 126,
-										["targets"] = {
-											["洛科林丶雷酒"] = 199,
-										},
-										["n_min"] = 73,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 199,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 199,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 199,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 199,
-							},
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["last_event"] = 1594271500,
-							["start_time"] = 1594271485,
-							["totaldenied"] = 0.004292,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 155,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 155,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = -1,
-										["uptime"] = 13,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["activedamt"] = -1,
-										["id"] = "Shadow Word: Pain",
-										["targets"] = {
-										},
-										["actived_at"] = 1594271501,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 3,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Vampiric Embrace"] = {
-										["activedamt"] = -1,
-										["id"] = "Vampiric Embrace",
-										["targets"] = {
-										},
-										["actived_at"] = 1594271501,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Weakened Soul"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 15,
-										["id"] = "Weakened Soul",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 67,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 16,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 31,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Mind Blast"] = 1,
-								["Mind Flay"] = 1,
-								["Power Word: Shield"] = 1,
-								["Shoot"] = 5,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
-							},
-							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594271501,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Spitelash Siren",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Renew"] = 1,
-								["Frost Shot"] = 1,
-								["Shoot"] = 2,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-121-6195-00030637DC",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 155,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1355,
-				["playing_solo"] = true,
-				["totals"] = {
-					2959.867098, -- [1]
-					738.99543, -- [2]
-					{
-						0, -- [1]
-						[0] = -0.0082330000000006,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-					["洛科林丶雷酒"] = {
-						{
-							true, -- [1]
-							"Fire", -- [2]
-							15, -- [3]
-							1594272426.181, -- [4]
-							2838, -- [5]
-							"Environment (Fire)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							"Fire", -- [2]
-							10, -- [3]
-							1594356246.794, -- [4]
-							2838, -- [5]
-							"Environment (Fire)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 3,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:11:42",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Spitelash Siren",
-				["TotalElapsedCombatTime"] = 153502.526,
-				["CombatEndedAt"] = 153502.526,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 739.004292,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 2681.003598,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 153502.526,
-				["combat_id"] = 155,
-				["spells_cast_timeline"] = {
-				},
-				["tempo_start"] = 1594271484,
-				["frags"] = {
-					["Spitelash Siren"] = 1,
-				},
-				["contra"] = "Spitelash Siren",
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					2681, -- [1]
-					739, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 153485.194,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "13:11:24",
-			}, -- [1]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 154,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 714.007592,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 799,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 799.007592,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 799.007592,
-							["serial"] = "Creature-0-4526-1-121-6195-00018637D7",
-							["dps_started"] = false,
-							["end_time"] = 1594271468,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Spitelash Siren",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Renew"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Renew",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Frost Shot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["洛科林丶雷酒"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Frost Shot",
-										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shoot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 89,
-										["targets"] = {
-											["洛科林丶雷酒"] = 799,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 799,
-										["n_min"] = 68,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 799,
-										["c_max"] = 0,
-										["MISS"] = 1,
-										["id"] = "Shoot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 9,
-										["m_amt"] = 0,
-										["n_amt"] = 10,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594271481,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 5052.007592,
-							["start_time"] = 1594271428,
+							["total_without_pet"] = 1136.002229,
 							["delay"] = 0,
 							["monster"] = true,
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005003,
-							["damage_from"] = {
-								["Environment (Falling)"] = true,
-								["Spitelash Siren"] = true,
-							},
-							["targets"] = {
-								["Spitelash Siren"] = 5052,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594271466,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5052.005003,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 5052.005003,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 623,
-										["targets"] = {
-											["Spitelash Siren"] = 1228,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1228,
-										["n_min"] = 605,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1228,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 169,
-										["targets"] = {
-											["Spitelash Siren"] = 1491,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1491,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 1491,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 167,
-										["g_amt"] = 0,
-										["n_max"] = 115,
-										["targets"] = {
-											["Spitelash Siren"] = 643,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 476,
-										["n_min"] = 80,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 643,
-										["c_max"] = 167,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 167,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 174,
-										["targets"] = {
-											["Spitelash Siren"] = 1690,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1690,
-										["n_min"] = 159,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 1690,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 1259.005003,
-							["start_time"] = 1594271431,
-							["delay"] = 0,
-							["end_time"] = 1594271468,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 154,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.002076,
-							["total_without_pet"] = 714.002076,
-							["total"] = 714.002076,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 714,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 714.002076,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 714,
-							},
-							["totalover_without_pet"] = 0.002076,
-							["healing_taken"] = 714.002076,
-							["fight_component"] = true,
-							["end_time"] = 1594271468,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 714,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 89,
-										["targets"] = {
-											["洛科林丶雷酒"] = 714,
-										},
-										["n_min"] = 68,
-										["counter"] = 9,
-										["overheal"] = 0,
-										["total"] = 714,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 714,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 714,
-										["n_amt"] = 9,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594271443,
-							["totaldenied"] = 0.002076,
-							["delay"] = 1594271453,
-							["last_event"] = 1594271463,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 154,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 154,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 32,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 9,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 34,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Weakened Soul"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 15,
-										["id"] = "Weakened Soul",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["dispell"] = 1.002733,
-							["buff_uptime"] = 188,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 40,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 40,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Inner Focus"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = "Inner Focus",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 40,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 3,
-										["uptime"] = 27,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 39,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["dispell_spells"] = {
-								["_ActorTable"] = {
-									["Dispel Magic"] = {
-										["dispell"] = 1,
-										["id"] = "Dispel Magic",
-										["dispell_oque"] = {
-											["Renew"] = 1,
-										},
-										["targets"] = {
-											["Spitelash Siren"] = 1,
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 90,
-							["dispell_oque"] = {
-								["Renew"] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Mind Blast"] = 2,
-								["Power Word: Shield"] = 1,
-								["Inner Focus"] = 1,
-								["Shadow Word: Pain"] = 2,
-								["Mind Flay"] = 3,
-								["Shoot"] = 7,
-								["Dispel Magic"] = 1,
-							},
-							["pets"] = {
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["last_event"] = 1594271468,
-							["serial"] = "Player-4674-003AFFB8",
-							["dispell_targets"] = {
-								["Spitelash Siren"] = 1,
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Spitelash Siren",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Renew"] = 2,
-								["Frost Shot"] = 1,
-								["Shoot"] = 9,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-121-6195-00018637D7",
+							["total"] = 1136.002229,
 							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 154,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 153481.545,
-				["tempo_start"] = 1594271428,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1354,
-				["playing_solo"] = true,
-				["totals"] = {
-					5850.996413, -- [1]
-					713.998028, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 1,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-					["洛科林丶雷酒"] = {
-						{
-							true, -- [1]
-							"Falling", -- [2]
-							460, -- [3]
-							1594271479.935, -- [4]
-							2838, -- [5]
-							"Environment (Falling)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 2,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:11:08",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Spitelash Siren",
-				["TotalElapsedCombatTime"] = 153469.027,
-				["CombatEndedAt"] = 153469.027,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 714.002076,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 5052.005003,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 153469.027,
-				["combat_id"] = 154,
-				["frags"] = {
-					["Spitelash Siren"] = 2,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					5052, -- [1]
-					714, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 1,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 153429.494,
-				["contra"] = "Spitelash Siren",
-				["data_inicio"] = "13:10:29",
-			}, -- [2]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 153,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 492.00357,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 561,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 561.00357,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 561.00357,
-							["serial"] = "Creature-0-4526-1-121-6196-00000637DA",
-							["dps_started"] = false,
-							["end_time"] = 1594271424,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Spitelash Myrmidon",
+							["damage_taken"] = 2310.002229,
+							["nome"] = "Wastewander Assassin",
 							["spells"] = {
 								["_ActorTable"] = {
 									["!Melee"] = {
@@ -1575,96 +41,736 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 69,
+										["n_max"] = 115,
 										["targets"] = {
-											["洛科林丶雷酒"] = 445,
+											["洛科林丶雷酒"] = 1136,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 445,
-										["n_min"] = 53,
+										["n_dmg"] = 1136,
+										["n_min"] = 24,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 445,
+										["counter"] = 28,
+										["c_min"] = 0,
+										["total"] = 1136,
 										["c_max"] = 0,
+										["r_amt"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 1,
 										["m_amt"] = 0,
-										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Strike"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 116,
-										["targets"] = {
-											["洛科林丶雷酒"] = 116,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 116,
-										["n_min"] = 116,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 116,
-										["c_max"] = 0,
-										["id"] = "Strike",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 72,
+										["n_amt"] = 21,
+										["MISS"] = 5,
+										["DODGE"] = 2,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1594271422,
-							["friendlyfire"] = {
-							},
+							["dps_started"] = false,
 							["last_dps"] = 0,
+							["end_time"] = 1594558689,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 3048.00357,
-							["start_time"] = 1594271408,
-							["delay"] = 0,
-							["monster"] = true,
+							["on_hold"] = false,
+							["start_time"] = 1594558659,
+							["serial"] = "Creature-0-4526-1-9-5623-00000AE66A",
+							["fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002066,
+							["totalabsorbed"] = 0.005109,
 							["damage_from"] = {
-								["Spitelash Myrmidon"] = true,
+								["Wastewander Rogue"] = true,
+								["Wastewander Assassin"] = true,
 							},
 							["targets"] = {
-								["Spitelash Myrmidon"] = 3048,
+								["Wastewander Rogue"] = 2102,
+								["Wastewander Assassin"] = 2310,
 							},
 							["pets"] = {
 							},
+							["last_event"] = 1594558687,
+							["spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 169,
+										["targets"] = {
+											["Wastewander Rogue"] = 329,
+											["Wastewander Assassin"] = 1247,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1576,
+										["n_min"] = 154,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 1576,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 169,
+										["targets"] = {
+											["Wastewander Rogue"] = 830,
+											["Wastewander Assassin"] = 477,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1307,
+										["n_min"] = 159,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1307,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									["Shadow Vulnerability"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Wastewander Assassin"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["id"] = "Shadow Vulnerability",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["n_amt"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									["Mind Blast"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 943,
+										["g_amt"] = 0,
+										["n_max"] = 586,
+										["targets"] = {
+											["Wastewander Rogue"] = 943,
+											["Wastewander Assassin"] = 586,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 586,
+										["n_min"] = 586,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1529,
+										["c_max"] = 943,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["c_min"] = 943,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4412.005109,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 4412.005109,
+							["classe"] = "PRIEST",
+							["damage_taken"] = 1400.005109,
+							["nome"] = "洛科林丶雷酒",
+							["spec"] = 258,
+							["grupo"] = true,
+							["end_time"] = 1594558689,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1594558664,
+							["serial"] = "Player-4674-003AFFB8",
 							["friendlyfire"] = {
 							},
-							["last_event"] = 1594271427,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 264.00124,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 264,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1594558668,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 264.00124,
+							["delay"] = 1594558668,
+							["monster"] = true,
+							["total"] = 264.00124,
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 2102.00124,
+							["nome"] = "Wastewander Rogue",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 65,
+										["targets"] = {
+											["洛科林丶雷酒"] = 264,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 264,
+										["n_min"] = 43,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 264,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["last_dps"] = 0,
+							["end_time"] = 1594558689,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1594558680,
+							["serial"] = "Creature-0-4526-1-9-5615-00000AE6D8",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 202,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PRIEST",
+							["totalover"] = 0.006368,
+							["total_without_pet"] = 1019.006368,
+							["total"] = 1019.006368,
+							["spec"] = 258,
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-4674-003AFFB8",
+							["totalabsorb"] = 1019.006368,
+							["last_hps"] = 0,
+							["targets"] = {
+								["洛科林丶雷酒"] = 1019,
+							},
+							["totalover_without_pet"] = 0.006368,
+							["healing_taken"] = 1019.006368,
+							["fight_component"] = true,
+							["end_time"] = 1594558689,
+							["targets_overheal"] = {
+							},
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Shield"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1019,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 115,
+										["targets"] = {
+											["洛科林丶雷酒"] = 1019,
+										},
+										["n_min"] = 10,
+										["counter"] = 20,
+										["overheal"] = 0,
+										["total"] = 1019,
+										["c_max"] = 0,
+										["id"] = "Power Word: Shield",
+										["targets_absorbs"] = {
+											["洛科林丶雷酒"] = 1019,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 20,
+										["n_curado"] = 1019,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1594558687,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006368,
+							["start_time"] = 1594558669,
+							["delay"] = 1594558674,
+							["targets_absorbs"] = {
+								["洛科林丶雷酒"] = 1019,
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 202,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 202,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Vulnerability"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 4,
+										["id"] = "Shadow Vulnerability",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									["Shadow Word: Pain"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									["Mind Flay"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Mind Flay",
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									["Mind Soothe"] = {
+										["activedamt"] = -1,
+										["id"] = "Mind Soothe",
+										["targets"] = {
+										},
+										["actived_at"] = 1594558670,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+									["Weakened Soul"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Weakened Soul",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 109,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Inner Fire"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = "Inner Fire",
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									["Focused Casting"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = "Focused Casting",
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									["Shadowform"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadowform",
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Power Word: Fortitude"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Power Word: Fortitude",
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Shadow Protection"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadow Protection",
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Power Word: Shield"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = "Power Word: Shield",
+										["uptime"] = 22,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 62,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 258,
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Inner Fire"] = 1,
+								["Power Word: Shield"] = 1,
+								["Shadow Word: Pain"] = 2,
+								["Mind Flay"] = 3,
+								["Mind Blast"] = 2,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1594558689,
+							["nome"] = "洛科林丶雷酒",
+							["pets"] = {
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 202,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["tempo_start"] = 1594558659,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					5811.956452, -- [1]
+					1019, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					4412, -- [1]
+					1019, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:58:09",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Wastewander Assassin",
+				["TotalElapsedCombatTime"] = 2513076.923,
+				["CombatEndedAt"] = 2513076.923,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:57:40",
+				["end_time"] = 2513076.923,
+				["combat_id"] = 202,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 4412.005109,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["洛科林丶雷酒"] = 1019.006368,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["Wastewander Rogue"] = 1,
+					["Wastewander Assassin"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["combat_counter"] = 1409,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 2513047.686,
+				["contra"] = "Wastewander Assassin",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 201,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 619.001562,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 724,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 724.001562,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1594558468,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 3348.001562,
+							["nome"] = "Aquementas",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 118,
+										["targets"] = {
+											["洛科林丶雷酒"] = 724,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 724,
+										["n_min"] = 94,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 724,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 724.001562,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1594558465,
+							["on_hold"] = false,
+							["start_time"] = 1594558453,
+							["serial"] = "Creature-0-4526-1-9-9453-00000B07DF",
+							["fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002143,
+							["damage_from"] = {
+								["Aquementas"] = true,
+								["Wastewander Rogue"] = true,
+							},
+							["targets"] = {
+								["Aquementas"] = 3348,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["total"] = 3348.002143,
 							["classe"] = "PRIEST",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 3048.002066,
-							["serial"] = "Player-4674-003AFFB8",
+							["total_without_pet"] = 3348.002143,
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 3048.002066,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
+							["end_time"] = 1594558468,
 							["spells"] = {
 								["_ActorTable"] = {
 									["Mind Blast"] = {
@@ -1672,58 +778,29 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 661,
+										["n_max"] = 630,
 										["targets"] = {
-											["Spitelash Myrmidon"] = 1266,
+											["Aquementas"] = 630,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1266,
-										["n_min"] = 605,
+										["n_dmg"] = 630,
+										["n_min"] = 630,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1266,
+										["counter"] = 1,
+										["total"] = 630,
 										["c_max"] = 0,
 										["id"] = "Mind Blast",
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Spitelash Myrmidon"] = 694,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 694,
-										["n_min"] = 169,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 694,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
+										["n_amt"] = 1,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
 									},
 									["Mind Flay"] = {
 										["c_amt"] = 0,
@@ -1732,1011 +809,391 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 173,
 										["targets"] = {
-											["Spitelash Myrmidon"] = 1014,
+											["Aquementas"] = 1864,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1014,
-										["n_min"] = 165,
+										["n_dmg"] = 1864,
+										["n_min"] = 164,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1014,
+										["counter"] = 11,
+										["total"] = 1864,
 										["c_max"] = 0,
 										["id"] = "Mind Flay",
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
-									["!Autoshot"] = {
+									["Shadow Word: Pain"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 74,
+										["n_max"] = 177,
 										["targets"] = {
-											["Spitelash Myrmidon"] = 74,
+											["Aquementas"] = 854,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 74,
-										["n_min"] = 74,
+										["n_dmg"] = 854,
+										["n_min"] = 159,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 74,
+										["counter"] = 5,
+										["total"] = 854,
 										["c_max"] = 0,
-										["id"] = "!Autoshot",
+										["id"] = "Shadow Word: Pain",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Soothe"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Spitelash Siren"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
 										["spellschool"] = 32,
-										["id"] = "Mind Soothe",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["RESIST"] = 1,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["damage_taken"] = 763.002143,
+							["nome"] = "洛科林丶雷酒",
+							["spec"] = 258,
 							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 561.002066,
-							["start_time"] = 1594271410,
-							["delay"] = 0,
-							["end_time"] = 1594271424,
+							["last_event"] = 1594558467,
+							["on_hold"] = false,
+							["start_time"] = 1594558454,
+							["serial"] = "Player-4674-003AFFB8",
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
-					["combatId"] = 153,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["targets_overheal"] = {
-								["洛科林丶雷酒"] = 381,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 381.004143,
-							["total_without_pet"] = 915.004143,
-							["total"] = 915.004143,
+							["classe"] = "PRIEST",
+							["totalover"] = 0.007997,
+							["total_without_pet"] = 724.007997,
+							["total"] = 724.007997,
 							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 561,
+								["洛科林丶雷酒"] = 724,
 							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
 							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 561.004143,
+							["totalabsorb"] = 724.007997,
 							["last_hps"] = 0,
 							["targets"] = {
-								["洛科林丶雷酒"] = 1008,
+								["洛科林丶雷酒"] = 724,
 							},
-							["totalover_without_pet"] = 0.004143,
-							["healing_taken"] = 915.004143,
+							["totalover_without_pet"] = 0.007997,
+							["healing_taken"] = 724.007997,
 							["fight_component"] = true,
-							["end_time"] = 1594271424,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
+							["end_time"] = 1594558468,
+							["heal_enemy_amt"] = 0,
 							["nome"] = "洛科林丶雷酒",
 							["spells"] = {
 								["_ActorTable"] = {
 									["Power Word: Shield"] = {
 										["c_amt"] = 0,
-										["totalabsorb"] = 561,
+										["totalabsorb"] = 724,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 116,
+										["n_max"] = 118,
 										["targets"] = {
-											["洛科林丶雷酒"] = 561,
+											["洛科林丶雷酒"] = 724,
 										},
-										["n_min"] = 53,
-										["counter"] = 8,
+										["n_min"] = 94,
+										["counter"] = 7,
 										["overheal"] = 0,
-										["total"] = 561,
+										["total"] = 724,
 										["c_max"] = 0,
 										["id"] = "Power Word: Shield",
 										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 561,
+											["洛科林丶雷酒"] = 724,
 										},
 										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 561,
-										["n_amt"] = 8,
+										["m_crit"] = 0,
 										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 7,
+										["n_curado"] = 724,
+										["m_healed"] = 0,
 										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									["Vampiric Embrace"] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["洛科林丶雷酒"] = 381,
-										},
-										["n_max"] = 105,
-										["targets"] = {
-											["洛科林丶雷酒"] = 354,
-										},
-										["n_min"] = 0,
-										["counter"] = 11,
-										["overheal"] = 381,
-										["total"] = 354,
-										["c_max"] = 0,
-										["id"] = "Vampiric Embrace",
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 354,
-										["n_amt"] = 10,
-										["m_healed"] = 0,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
+							["healing_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
 							["tipo"] = 2,
-							["start_time"] = 1594271408,
-							["totaldenied"] = 0.004143,
+							["custom"] = 0,
+							["last_event"] = 1594558466,
+							["totaldenied"] = 0.007997,
+							["start_time"] = 1594558453,
 							["delay"] = 0,
-							["last_event"] = 1594271423,
+							["spec"] = 258,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
-					["combatId"] = 153,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
-					["combatId"] = 153,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
-									["Vampiric Embrace"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 11,
-										["id"] = "Vampiric Embrace",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 12,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									["Weakened Soul"] = {
 										["activedamt"] = -1,
 										["id"] = "Weakened Soul",
 										["targets"] = {
 										},
-										["actived_at"] = 1594271423,
+										["actived_at"] = 1594558464,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									["Mind Flay"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
-										["uptime"] = 6,
-										["id"] = "Mind Flay",
 										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Soothe"] = {
-										["activedamt"] = -1,
-										["id"] = "Mind Soothe",
+										["id"] = "Mind Flay",
+										["uptime"] = 11,
 										["targets"] = {
 										},
-										["actived_at"] = 1594271416,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 4,
 									},
 									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 3,
+										["id"] = "Shadow Vulnerability",
+										["uptime"] = 14,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 13,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+									["Shadow Word: Pain"] = {
+										["activedamt"] = -1,
+										["id"] = "Shadow Word: Pain",
+										["targets"] = {
+										},
+										["actived_at"] = 1594558467,
+										["uptime"] = 0,
 										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 65,
+							["buff_uptime"] = 75,
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Inner Fire"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Inner Fire",
+										["uptime"] = 15,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 16,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									["Shadowform"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadowform",
+										["uptime"] = 15,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 16,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 16,
+										["refreshamt"] = 0,
 										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 1,
+										["uptime"] = 15,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									["Shadow Protection"] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadow Protection",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									["Power Word: Shield"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Power Word: Shield",
+										["uptime"] = 15,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 16,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 42,
+							["debuff_uptime"] = 25,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 258,
 							["grupo"] = true,
 							["spell_cast"] = {
-								["Mind Blast"] = 2,
-								["Vampiric Embrace"] = 1,
-								["Shadow Word: Pain"] = 1,
-								["Mind Flay"] = 2,
-								["Shoot"] = 1,
-							},
-							["debuff_uptime_targets"] = {
+								["Mind Blast"] = 1,
+								["Mind Flay"] = 4,
 							},
 							["tipo"] = 4,
+							["last_event"] = 1594558468,
 							["nome"] = "洛科林丶雷酒",
 							["pets"] = {
 							},
 							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594271424,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Spitelash Myrmidon",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Strike"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-121-6196-00000637DA",
-							["classe"] = "UNKNOW",
-						}, -- [2]
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
-					["combatId"] = 153,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["洛科林丶雷酒"] = true,
 				},
-				["CombatStartedAt"] = 153428.294,
-				["tempo_start"] = 1594271408,
+				["CombatStartedAt"] = 2513046.469,
+				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
-				},
-				["combat_counter"] = 1353,
-				["playing_solo"] = true,
-				["totals"] = {
-					3608.992033, -- [1]
-					915, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:10:25",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Spitelash Myrmidon",
-				["TotalElapsedCombatTime"] = 153425.463,
-				["CombatEndedAt"] = 153425.463,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 915.004143,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3048.002066,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 153425.463,
-				["combat_id"] = 153,
-				["frags"] = {
-					["Spitelash Myrmidon"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
 				},
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3048, -- [1]
-					915, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 153409.349,
-				["contra"] = "Spitelash Myrmidon",
-				["data_inicio"] = "13:10:09",
-			}, -- [3]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 152,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 327.006534,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 384,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 384.006534,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 384.006534,
-							["serial"] = "Creature-0-4526-1-134-7100-0000067861",
-							["dps_started"] = false,
-							["end_time"] = 1594270055,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 69,
-										["targets"] = {
-											["洛科林丶雷酒"] = 384,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 384,
-										["n_min"] = 56,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 384,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594270024,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.006534,
-							["start_time"] = 1594270044,
-							["delay"] = 1594270024,
-							["monster"] = true,
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005622,
-							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
-								["Spitelash Myrmidon"] = true,
-								["Warpwood Shredder"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.005622,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 0.005622,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Psychic Scream"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Warpwood Shredder"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["spellschool"] = 32,
-										["id"] = "Psychic Scream",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["RESIST"] = 1,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["end_time"] = 1594270055,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1594270025,
-							["damage_taken"] = 1093.005622,
-							["start_time"] = 1594270055,
-							["delay"] = 0,
-							["classe"] = "PRIEST",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 575.006714,
-							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 2,
-								["洛科林丶雷酒"] = 641,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 643.006714,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 643.006714,
-							["serial"] = "Creature-0-4526-1-134-7101-00000678AF",
-							["dps_started"] = false,
-							["end_time"] = 1594270055,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Shredder",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 72,
-										["targets"] = {
-											["洛科林丶雷酒"] = 641,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 641,
-										["n_min"] = 56,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 641,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 66,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_amt"] = 1,
-										["r_amt"] = 0,
-									},
-									["Thrash"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Warpwood Shredder"] = 2,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = "Thrash",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594270041,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 2.006714,
-							["start_time"] = 1594270036,
-							["delay"] = 1594270041,
-							["monster"] = true,
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 152,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.001187,
-							["total_without_pet"] = 1022.001187,
-							["total"] = 1022.001187,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 1022,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 1022.001187,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 1022,
-							},
-							["totalover_without_pet"] = 0.001187,
-							["healing_taken"] = 1022.001187,
-							["fight_component"] = true,
-							["end_time"] = 1594270055,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 1022,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 72,
-										["targets"] = {
-											["洛科林丶雷酒"] = 1022,
-										},
-										["n_min"] = 56,
-										["counter"] = 16,
-										["overheal"] = 0,
-										["total"] = 1022,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 1022,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 1022,
-										["n_amt"] = 16,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594270027,
-							["totaldenied"] = 0.001187,
-							["delay"] = 1594270041,
-							["last_event"] = 1594270041,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 152,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 152,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Psychic Scream"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Psychic Scream",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Weakened Soul"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = -1,
-										["uptime"] = 26,
-										["id"] = "Weakened Soul",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 163,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 41,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 41,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 40,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 41,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 34,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Psychic Scream"] = 1,
-								["Power Word: Shield"] = 1,
-								["Inner Fire"] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
-							},
-							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594270055,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Shredder",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Thrash"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7101-00000678AF",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 152,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 153407.746,
-				["tempo_start"] = 1594270014,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1352,
 				["playing_solo"] = true,
 				["totals"] = {
-					1026.987047, -- [1]
-					1022, -- [2]
+					4071.980176, -- [1]
+					724, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
+				["totals_grupo"] = {
+					3348, -- [1]
+					724, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:54:28",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Aquementas",
+				["TotalElapsedCombatTime"] = 19.4189999997616,
+				["CombatEndedAt"] = 2513044.852,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:54:14",
+				["end_time"] = 2512855.946,
+				["combat_id"] = 201,
 				["player_last_events"] = {
 					["洛科林丶雷酒"] = {
 						{
 							true, -- [1]
 							"!Melee", -- [2]
-							68, -- [3]
-							1594271406.953, -- [4]
-							2552, -- [5]
-							"Spitelash Myrmidon", -- [6]
+							39, -- [3]
+							1594558636.925, -- [4]
+							2838, -- [5]
+							"Wastewander Rogue", -- [6]
 							nil, -- [7]
 							1, -- [8]
 							false, -- [9]
@@ -2807,15 +1264,2185 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
+				["tempo_start"] = 1594558453,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Aquementas",
+				["combat_counter"] = 1408,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 3348.002143,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["洛科林丶雷酒"] = 724.007997,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 2512841.728,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Aquementas"] = 1,
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 200,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 343.002355,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 418,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 418.002355,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1594558310,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 2251.002355,
+							["nome"] = "Southsea Freebooter",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Shoot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 76,
+										["targets"] = {
+											["洛科林丶雷酒"] = 418,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 418,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 418,
+										["c_max"] = 0,
+										["id"] = "Shoot",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 418.002355,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1594558308,
+							["on_hold"] = false,
+							["start_time"] = 1594558289,
+							["serial"] = "Creature-0-4526-1-9-7856-00000A8170",
+							["fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006558,
+							["damage_from"] = {
+								["Southsea Pirate"] = true,
+								["Aquementas"] = true,
+								["Southsea Freebooter"] = true,
+							},
+							["targets"] = {
+								["Southsea Pirate"] = 2301,
+								["Southsea Freebooter"] = 2251,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["total"] = 4552.006558,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4552.006558,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1594558310,
+							["spells"] = {
+								["_ActorTable"] = {
+									["Mind Blast"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 969,
+										["g_amt"] = 0,
+										["n_max"] = 626,
+										["targets"] = {
+											["Southsea Pirate"] = 626,
+											["Southsea Freebooter"] = 969,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 626,
+										["n_min"] = 626,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1595,
+										["c_max"] = 969,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["c_min"] = 969,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 169,
+										["targets"] = {
+											["Southsea Pirate"] = 1002,
+											["Southsea Freebooter"] = 477,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1479,
+										["n_min"] = 159,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1479,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 173,
+										["targets"] = {
+											["Southsea Pirate"] = 673,
+											["Southsea Freebooter"] = 805,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1478,
+										["n_min"] = 159,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1478,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 929.006558,
+							["nome"] = "洛科林丶雷酒",
+							["spec"] = 258,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594558308,
+							["on_hold"] = false,
+							["start_time"] = 1594558293,
+							["serial"] = "Player-4674-003AFFB8",
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 401.008199,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 401,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 401.008199,
+							["delay"] = 1594558300,
+							["monster"] = true,
+							["end_time"] = 1594558310,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 2301.008199,
+							["nome"] = "Southsea Pirate",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 97,
+										["targets"] = {
+											["洛科林丶雷酒"] = 306,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 306,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 306,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Strike"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 95,
+										["targets"] = {
+											["洛科林丶雷酒"] = 95,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 95,
+										["n_min"] = 95,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 95,
+										["c_max"] = 0,
+										["id"] = "Strike",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 401.008199,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1594558300,
+							["on_hold"] = false,
+							["start_time"] = 1594558299,
+							["serial"] = "Creature-0-4526-1-9-7855-00000A813C",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 200,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PRIEST",
+							["totalover"] = 0.0062,
+							["total_without_pet"] = 744.0062,
+							["total"] = 744.0062,
+							["targets_absorbs"] = {
+								["洛科林丶雷酒"] = 744,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-4674-003AFFB8",
+							["totalabsorb"] = 744.0062,
+							["last_hps"] = 0,
+							["targets"] = {
+								["洛科林丶雷酒"] = 744,
+							},
+							["totalover_without_pet"] = 0.0062,
+							["healing_taken"] = 744.0062,
+							["fight_component"] = true,
+							["end_time"] = 1594558310,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Shield"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 744,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 97,
+										["targets"] = {
+											["洛科林丶雷酒"] = 744,
+										},
+										["n_min"] = 50,
+										["counter"] = 11,
+										["overheal"] = 0,
+										["total"] = 744,
+										["c_max"] = 0,
+										["id"] = "Power Word: Shield",
+										["targets_absorbs"] = {
+											["洛科林丶雷酒"] = 744,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 11,
+										["n_curado"] = 744,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1594558308,
+							["totaldenied"] = 0.0062,
+							["start_time"] = 1594558290,
+							["delay"] = 0,
+							["spec"] = 258,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 200,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 200,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Vulnerability"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 4,
+										["id"] = "Shadow Vulnerability",
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									["Weakened Soul"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Weakened Soul",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Mind Flay"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Mind Flay",
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									["Mind Soothe"] = {
+										["activedamt"] = -2,
+										["id"] = "Mind Soothe",
+										["targets"] = {
+										},
+										["actived_at"] = 1594558299,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+									["Shadow Word: Pain"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 105,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Inner Fire"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Inner Fire",
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Shadowform"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadowform",
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Power Word: Fortitude"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Power Word: Fortitude",
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Shadow Protection"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadow Protection",
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Power Word: Shield"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Power Word: Shield",
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 61,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 258,
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Mind Blast"] = 2,
+								["Mind Flay"] = 3,
+								["Shadow Word: Pain"] = 2,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1594558310,
+							["nome"] = "洛科林丶雷酒",
+							["pets"] = {
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "Southsea Freebooter",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								["Shoot"] = 5,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-4526-1-9-7856-00000A8170",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Southsea Pirate",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								["Strike"] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-4526-1-9-7855-00000A813C",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 200,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2512838.111,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					5370.996507, -- [1]
+					744, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					4552, -- [1]
+					744, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:51:50",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Southsea Freebooter",
+				["TotalElapsedCombatTime"] = 2512697.877,
+				["CombatEndedAt"] = 2512697.877,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:51:29",
+				["end_time"] = 2512697.877,
+				["combat_id"] = 200,
+				["player_last_events"] = {
+					["洛科林丶雷酒"] = {
+						{
+							true, -- [1]
+							"!Melee", -- [2]
+							110, -- [3]
+							1594558449.536, -- [4]
+							2838, -- [5]
+							"Aquementas", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["tempo_start"] = 1594558289,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Southsea Freebooter",
+				["combat_counter"] = 1407,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 4552.006558,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["洛科林丶雷酒"] = 744.0062,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 2512677.175,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Southsea Pirate"] = 1,
+					["Southsea Freebooter"] = 1,
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 199,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 233.007728,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 284,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 284.007728,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1594558156,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 2139.007728,
+							["nome"] = "Wastewander Rogue",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 51,
+										["targets"] = {
+											["洛科林丶雷酒"] = 284,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 284,
+										["n_min"] = 41,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 284,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 284.007728,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1594558152,
+							["on_hold"] = false,
+							["start_time"] = 1594558142,
+							["serial"] = "Creature-0-4526-1-9-5615-00000AED46",
+							["fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006703,
+							["damage_from"] = {
+								["Wastewander Rogue"] = true,
+								["Scorpid Tail Lasher"] = true,
+								["Southsea Freebooter"] = true,
+							},
+							["targets"] = {
+								["Wastewander Rogue"] = 2139,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 407.006703,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2139.006703,
+							["last_event"] = 1594558155,
+							["dps_started"] = false,
+							["total"] = 2139.006703,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Mind Blast"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 629,
+										["targets"] = {
+											["Wastewander Rogue"] = 629,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 629,
+										["n_min"] = 629,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 629,
+										["c_max"] = 0,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 164,
+										["targets"] = {
+											["Wastewander Rogue"] = 492,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 492,
+										["n_min"] = 164,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 492,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 169,
+										["g_amt"] = 0,
+										["n_max"] = 105,
+										["targets"] = {
+											["Wastewander Rogue"] = 355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 186,
+										["n_min"] = 81,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 355,
+										["c_max"] = 169,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["c_min"] = 169,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 168,
+										["targets"] = {
+											["Wastewander Rogue"] = 663,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 663,
+										["n_min"] = 159,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 663,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1594558156,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1594558146,
+							["serial"] = "Player-4674-003AFFB8",
+							["on_hold"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 199,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 284.005351,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 284,
+							},
+							["total"] = 284.005351,
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["healing_taken"] = 284.005351,
+							["totalover"] = 0.005351,
+							["total_without_pet"] = 284.005351,
+							["totalover_without_pet"] = 0.005351,
+							["totaldenied"] = 0.005351,
+							["fight_component"] = true,
+							["end_time"] = 1594558156,
+							["classe"] = "PRIEST",
+							["heal_enemy_amt"] = 0,
+							["nome"] = "洛科林丶雷酒",
+							["targets_absorbs"] = {
+								["洛科林丶雷酒"] = 284,
+							},
+							["grupo"] = true,
+							["tipo"] = 2,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Shield"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 284,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 51,
+										["targets"] = {
+											["洛科林丶雷酒"] = 284,
+										},
+										["n_min"] = 41,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 284,
+										["c_max"] = 0,
+										["id"] = "Power Word: Shield",
+										["targets_absorbs"] = {
+											["洛科林丶雷酒"] = 284,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 284,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["last_event"] = 1594558152,
+							["on_hold"] = false,
+							["start_time"] = 1594558143,
+							["serial"] = "Player-4674-003AFFB8",
+							["delay"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 199,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 199,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Mind Flay"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Mind Flay",
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Shadow Vulnerability"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = "Shadow Vulnerability",
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 70,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Inner Fire"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Inner Fire",
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Shadowform"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadowform",
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Power Word: Fortitude"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Power Word: Fortitude",
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Shadow Protection"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadow Protection",
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["Power Word: Shield"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Power Word: Shield",
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 27,
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Mind Blast"] = 1,
+								["Mind Flay"] = 1,
+								["Shadow Word: Pain"] = 1,
+								["Shoot"] = 3,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1594558156,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["nome"] = "洛科林丶雷酒",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 199,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2512675.175,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					2422.984765, -- [1]
+					284, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					2139, -- [1]
+					284, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:49:16",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Wastewander Rogue",
+				["TotalElapsedCombatTime"] = 14.6179999997839,
+				["CombatEndedAt"] = 2512596.915,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:49:02",
+				["end_time"] = 2512544.626,
+				["combat_id"] = 199,
+				["player_last_events"] = {
+					["洛科林丶雷酒"] = {
+						{
+							true, -- [1]
+							"!Melee", -- [2]
+							49, -- [3]
+							1594558193.788, -- [4]
+							2838, -- [5]
+							"Scorpid Tail Lasher", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							"Shoot", -- [2]
+							74, -- [3]
+							1594558287.083, -- [4]
+							2838, -- [5]
+							"Southsea Freebooter", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["tempo_start"] = 1594558142,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Wastewander Rogue",
+				["combat_counter"] = 1406,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 2139.006703,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["洛科林丶雷酒"] = 284.005351,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 2512530.458,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Wastewander Rogue"] = 1,
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 198,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004725,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 211,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 211.004725,
+							["delay"] = 1594556547,
+							["monster"] = true,
+							["end_time"] = 1594556557,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.004725,
+							["nome"] = "Felpaw Wolf",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 72,
+										["targets"] = {
+											["洛科林丶雷酒"] = 211,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 211,
+										["n_min"] = 68,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 211,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 211.004725,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1594556547,
+							["on_hold"] = false,
+							["start_time"] = 1594556551,
+							["serial"] = "Creature-0-4526-1-13-8959-00000934A2",
+							["fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002223,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Felpaw Wolf"] = true,
+								["Wastewander Rogue"] = true,
+								["Environment (Fire)"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 612.002223,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002223,
+							["last_event"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.002223,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1594556557,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1594556557,
+							["serial"] = "Player-4674-003AFFB8",
+							["on_hold"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 198,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 198,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 198,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "洛科林丶雷酒",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["last_event"] = 1594556557,
+							["tipo"] = 4,
+							["buff_uptime"] = 30,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadowform"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadowform",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									["White Ram"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "White Ram",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["buff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 198,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2512528.841,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					210.963224, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
 				["frags_need_refresh"] = false,
 				["instance_type"] = "none",
 				["hasSaved"] = true,
-				["data_fim"] = "12:47:35",
+				["data_fim"] = "20:22:37",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 152056.176,
-				["CombatEndedAt"] = 152056.176,
+				["enemy"] = "Felpaw Wolf",
+				["TotalElapsedCombatTime"] = 16.2360000000335,
+				["CombatEndedAt"] = 2512522.757,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:22:22",
+				["end_time"] = 2510944.984,
+				["combat_id"] = 198,
+				["player_last_events"] = {
+					["洛科林丶雷酒"] = {
+						{
+							true, -- [1]
+							"Falling", -- [2]
+							1, -- [3]
+							1594557425.83, -- [4]
+							2288, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							"Fire", -- [2]
+							20, -- [3]
+							1594557477.036, -- [4]
+							2288, -- [5]
+							"Environment (Fire)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							"Falling", -- [2]
+							122, -- [3]
+							1594557708.214, -- [4]
+							2288, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							"Falling", -- [2]
+							49, -- [3]
+							1594557749.835, -- [4]
+							2288, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							"!Melee", -- [2]
+							44, -- [3]
+							1594558118.029, -- [4]
+							2838, -- [5]
+							"Wastewander Rogue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							"Backstab", -- [2]
+							118, -- [3]
+							1594558118.029, -- [4]
+							2838, -- [5]
+							"Wastewander Rogue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							"!Melee", -- [2]
+							47, -- [3]
+							1594558140.432, -- [4]
+							2742, -- [5]
+							"Wastewander Rogue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 8,
+					},
+				},
+				["tempo_start"] = 1594556542,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Felpaw Wolf",
+				["combat_counter"] = 1405,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 0.002223,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 2510930.549,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.008354,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 64,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 64.008354,
+							["serial"] = "Creature-0-4526-1-134-8961-00000A7C53",
+							["monster"] = true,
+							["total"] = 64.008354,
+							["damage_taken"] = 0.008354,
+							["on_hold"] = false,
+							["nome"] = "Felpaw Ravager",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 64,
+										["targets"] = {
+											["洛科林丶雷酒"] = 64,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 64,
+										["n_min"] = 64,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 64,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["end_time"] = 1594537458,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537443,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1594537457,
+							["delay"] = 1594537443,
+							["classe"] = "UNKNOW",
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008582,
+							["damage_from"] = {
+								["Felpaw Ravager"] = true,
+								["Felpaw Scavenger"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008582,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 0.008582,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537458,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 114.008582,
+							["start_time"] = 1594537458,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.006512,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 50,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 50.006512,
+							["delay"] = 1594555979,
+							["monster"] = true,
+							["end_time"] = 1594555994,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.006512,
+							["nome"] = "Felpaw Scavenger",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 50,
+										["targets"] = {
+											["洛科林丶雷酒"] = 50,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 50,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 50,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 50.006512,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1594555979,
+							["on_hold"] = false,
+							["start_time"] = 1594555993,
+							["serial"] = "Creature-0-4526-1-13-8960-00000AEC95",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "洛科林丶雷酒",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "PRIEST",
+							["buff_uptime"] = 60,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Inner Fire",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadowform",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["White Ram"] = {
+										["appliedamt"] = 1,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "White Ram",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["last_event"] = 1594555994,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2510930.449,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1403,
+				["playing_solo"] = true,
+				["totals"] = {
+					114, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:13:14",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Felpaw Ravager",
+				["TotalElapsedCombatTime"] = 14.5690000001341,
+				["CombatEndedAt"] = 2510415.688,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -2831,24 +3458,22 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["洛科林丶雷酒"] = 1022.001187,
 						}, -- [1]
 					},
 					["damage"] = {
 						{
-							["洛科林丶雷酒"] = 0.005622,
+							["洛科林丶雷酒"] = 0.008582,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 152056.176,
-				["combat_id"] = 152,
-				["frags"] = {
-				},
-				["overall_added"] = true,
+				["end_time"] = 2510382.484,
+				["combat_id"] = 197,
 				["spells_cast_timeline"] = {
 				},
-				["TimeData"] = {
+				["tempo_start"] = 1594537443,
+				["frags"] = {
 				},
+				["contra"] = "Felpaw Ravager",
 				["cleu_events"] = {
 					["n"] = 1,
 				},
@@ -2856,7 +3481,7 @@ _detalhes_database = {
 				},
 				["totals_grupo"] = {
 					0, -- [1]
-					1022, -- [2]
+					0, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -2875,38 +3500,717 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 152015.416,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:46:55",
-			}, -- [4]
+				["start_time"] = 2491831.849,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "15:04:04",
+			}, -- [6]
 			{
 				{
 					["tipo"] = 2,
-					["combatId"] = 151,
+					["combatId"] = 197,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00803,
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.008354,
 							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
 							},
 							["targets"] = {
-								["Warpwood Moss Flayer"] = 3160,
+								["洛科林丶雷酒"] = 64,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 64.008354,
+							["serial"] = "Creature-0-4526-1-134-8961-00000A7C53",
+							["monster"] = true,
+							["total"] = 64.008354,
+							["damage_taken"] = 0.008354,
+							["on_hold"] = false,
+							["nome"] = "Felpaw Ravager",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 64,
+										["targets"] = {
+											["洛科林丶雷酒"] = 64,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 64,
+										["n_min"] = 64,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 64,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["end_time"] = 1594537458,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537443,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1594537457,
+							["delay"] = 1594537443,
+							["classe"] = "UNKNOW",
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008582,
+							["damage_from"] = {
+								["Felpaw Ravager"] = true,
+								["Felpaw Scavenger"] = true,
+							},
+							["targets"] = {
 							},
 							["pets"] = {
 							},
 							["friendlyfire"] = {
 							},
-							["last_event"] = 1594269975,
-							["classe"] = "PRIEST",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 3160.00803,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3160.00803,
-							["spec"] = 258,
+							["total_without_pet"] = 0.008582,
 							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 0.008582,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537458,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 114.008582,
+							["start_time"] = 1594537458,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.006512,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 50,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 50.006512,
+							["delay"] = 1594555979,
+							["monster"] = true,
+							["end_time"] = 1594555994,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.006512,
+							["nome"] = "Felpaw Scavenger",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 50,
+										["targets"] = {
+											["洛科林丶雷酒"] = 50,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 50,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 50,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 50.006512,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1594555979,
+							["on_hold"] = false,
+							["start_time"] = 1594555993,
+							["serial"] = "Creature-0-4526-1-13-8960-00000AEC95",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "洛科林丶雷酒",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "PRIEST",
+							["buff_uptime"] = 60,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Inner Fire",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Shadowform",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["White Ram"] = {
+										["appliedamt"] = 1,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "White Ram",
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["last_event"] = 1594555994,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 197,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2510930.449,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1403,
+				["playing_solo"] = true,
+				["totals"] = {
+					114, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:13:14",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Felpaw Ravager",
+				["TotalElapsedCombatTime"] = 14.5690000001341,
+				["CombatEndedAt"] = 2510415.688,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 0.008582,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2510382.484,
+				["combat_id"] = 197,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1594537443,
+				["frags"] = {
+				},
+				["contra"] = "Felpaw Ravager",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491831.849,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "15:04:04",
+			}, -- [7]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 196,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.008705,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 56,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 56.008705,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 56.008705,
+							["serial"] = "Creature-0-4526-1-134-8957-00000AA77E",
+							["dps_started"] = false,
+							["end_time"] = 1594537413,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Angerclaw Grizzly",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["洛科林丶雷酒"] = 56,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 56,
+										["n_min"] = 56,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 56,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1594537398,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008705,
+							["start_time"] = 1594537412,
+							["delay"] = 1594537398,
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008856,
+							["damage_from"] = {
+								["Angerclaw Grizzly"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008856,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 0.008856,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537413,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 56.008856,
+							["start_time"] = 1594537413,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 196,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 196,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 196,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "洛科林丶雷酒",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "PRIEST",
+							["buff_uptime"] = 60,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["White Ram"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "White Ram",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["last_event"] = 1594537413,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 196,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2491830.648,
+				["tempo_start"] = 1594537398,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1402,
+				["playing_solo"] = true,
+				["totals"] = {
+					56, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:03:33",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Angerclaw Grizzly",
+				["TotalElapsedCombatTime"] = 2491801.412,
+				["CombatEndedAt"] = 2491801.412,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 0.008856,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2491801.412,
+				["combat_id"] = 196,
+				["frags"] = {
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491786.893,
+				["contra"] = "Angerclaw Grizzly",
+				["data_inicio"] = "15:03:19",
+			}, -- [8]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 195,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00611,
+							["damage_from"] = {
+								["Felpaw Ravager"] = true,
+								["Angerclaw Grizzly"] = true,
+							},
+							["targets"] = {
+								["Felpaw Ravager"] = 3090,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3090.00611,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 3090.00611,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537376,
 							["nome"] = "洛科林丶雷酒",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2915,16 +4219,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 659,
+										["n_max"] = 590,
 										["targets"] = {
-											["Warpwood Moss Flayer"] = 1254,
+											["Felpaw Ravager"] = 590,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1254,
-										["n_min"] = 595,
+										["n_dmg"] = 590,
+										["n_min"] = 590,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1254,
+										["counter"] = 1,
+										["total"] = 590,
 										["c_max"] = 0,
 										["id"] = "Mind Blast",
 										["r_dmg"] = 0,
@@ -2935,7 +4239,7 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
@@ -2944,18 +4248,76 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 174,
+										["n_max"] = 173,
 										["targets"] = {
-											["Warpwood Moss Flayer"] = 1017,
+											["Felpaw Ravager"] = 1348,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1017,
+										["n_dmg"] = 1348,
 										["n_min"] = 165,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1017,
+										["counter"] = 8,
+										["total"] = 1348,
 										["c_max"] = 0,
 										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 103,
+										["targets"] = {
+											["Felpaw Ravager"] = 103,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 103,
+										["n_min"] = 103,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 103,
+										["c_max"] = 0,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 178,
+										["targets"] = {
+											["Felpaw Ravager"] = 1049,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1049,
+										["n_min"] = 169,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1049,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
 										["a_dmg"] = 0,
@@ -2968,100 +4330,42 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 127,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 207,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 207,
-										["n_min"] = 80,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 207,
-										["c_max"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 682,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 682,
-										["n_min"] = 168,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 682,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 271.00803,
-							["start_time"] = 1594269961,
+							["last_event"] = 1594537374,
+							["damage_taken"] = 254.00611,
+							["start_time"] = 1594537356,
 							["delay"] = 0,
-							["end_time"] = 1594269978,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["totalabsorbed"] = 328.002846,
+							["totalabsorbed"] = 185.006185,
 							["damage_from"] = {
 								["洛科林丶雷酒"] = true,
 							},
 							["targets"] = {
-								["洛科林丶雷酒"] = 271,
+								["洛科林丶雷酒"] = 185,
 							},
 							["pets"] = {
 							},
 							["fight_component"] = true,
-							["total"] = 271.002846,
+							["total"] = 185.006185,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 271.002846,
-							["serial"] = "Creature-0-4526-1-134-7100-00000678AA",
+							["total_without_pet"] = 185.006185,
+							["serial"] = "Creature-0-4526-1-134-8961-00000AA9DB",
 							["dps_started"] = false,
-							["end_time"] = 1594269978,
+							["end_time"] = 1594537376,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
+							["nome"] = "Felpaw Ravager",
 							["spells"] = {
 								["_ActorTable"] = {
 									["!Melee"] = {
@@ -3069,16 +4373,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 73,
+										["n_max"] = 70,
 										["targets"] = {
-											["洛科林丶雷酒"] = 271,
+											["洛科林丶雷酒"] = 185,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 271,
-										["n_min"] = 61,
+										["n_dmg"] = 185,
+										["n_min"] = 56,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 271,
+										["counter"] = 3,
+										["total"] = 185,
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
@@ -3089,88 +4393,81 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 3,
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1594270014,
+							["last_event"] = 1594537363,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 3160.002846,
-							["start_time"] = 1594269966,
-							["delay"] = 0,
+							["damage_taken"] = 3090.006185,
+							["start_time"] = 1594537371,
+							["delay"] = 1594537363,
 							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
-					["combatId"] = 151,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.008715,
-							["total_without_pet"] = 271.008715,
-							["total"] = 271.008715,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 271,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 271.008715,
+							["totalabsorb"] = 185.005297,
 							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 271,
-							},
-							["totalover_without_pet"] = 0.008715,
-							["healing_taken"] = 271.008715,
-							["fight_component"] = true,
-							["end_time"] = 1594269978,
 							["healing_from"] = {
 								["洛科林丶雷酒"] = true,
 							},
-							["nome"] = "洛科林丶雷酒",
+							["targets"] = {
+								["洛科林丶雷酒"] = 185,
+							},
+							["total"] = 185.005297,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005297,
+							["targets_overheal"] = {
+							},
+							["healing_taken"] = 185.005297,
+							["totalover"] = 0.005297,
+							["total_without_pet"] = 185.005297,
+							["iniciar_hps"] = false,
+							["start_time"] = 1594537371,
+							["fight_component"] = true,
+							["end_time"] = 1594537376,
+							["heal_enemy_amt"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									["Power Word: Shield"] = {
 										["c_amt"] = 0,
-										["totalabsorb"] = 271,
+										["totalabsorb"] = 185,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 73,
+										["n_max"] = 70,
 										["targets"] = {
-											["洛科林丶雷酒"] = 271,
+											["洛科林丶雷酒"] = 185,
 										},
-										["n_min"] = 61,
-										["counter"] = 4,
+										["n_min"] = 56,
+										["counter"] = 3,
 										["overheal"] = 0,
-										["total"] = 271,
+										["total"] = 185,
 										["c_max"] = 0,
 										["id"] = "Power Word: Shield",
 										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 271,
+											["洛科林丶雷酒"] = 185,
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
 										["m_crit"] = 0,
 										["m_healed"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 271,
-										["n_amt"] = 4,
+										["n_curado"] = 185,
+										["n_amt"] = 3,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
@@ -3178,27 +4475,33 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["nome"] = "洛科林丶雷酒",
+							["targets_absorbs"] = {
+								["洛科林丶雷酒"] = 185,
+							},
 							["grupo"] = true,
-							["spec"] = 258,
 							["classe"] = "PRIEST",
+							["heal_enemy"] = {
+							},
+							["delay"] = 1594537363,
 							["custom"] = 0,
+							["last_event"] = 1594537363,
+							["on_hold"] = false,
+							["totaldenied"] = 0.005297,
+							["serial"] = "Player-4674-003AFFB8",
 							["tipo"] = 2,
-							["start_time"] = 1594269966,
-							["totaldenied"] = 0.008715,
-							["delay"] = 0,
-							["last_event"] = 1594269974,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
-					["combatId"] = 151,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
-					["combatId"] = 151,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -3209,18 +4512,18 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["activedamt"] = 0,
-										["uptime"] = 14,
+										["uptime"] = 18,
 										["id"] = "Shadow Word: Pain",
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									["Mind Flay"] = {
-										["appliedamt"] = 2,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
 										["activedamt"] = 0,
-										["uptime"] = 6,
+										["uptime"] = 9,
 										["id"] = "Mind Flay",
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -3231,20 +4534,19 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["activedamt"] = 0,
-										["uptime"] = 14,
+										["uptime"] = 18,
 										["id"] = "Shadow Vulnerability",
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Weakened Soul"] = {
-										["activedamt"] = -1,
-										["id"] = "Weakened Soul",
+									["Psychic Scream"] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["actived_at"] = 1594269961,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Psychic Scream",
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -3261,7 +4563,7 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["activedamt"] = 1,
-										["uptime"] = 17,
+										["uptime"] = 20,
 										["id"] = "Inner Fire",
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -3272,19 +4574,8 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["activedamt"] = 1,
-										["uptime"] = 17,
+										["uptime"] = 20,
 										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Inner Focus"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = "Inner Focus",
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -3294,7 +4585,7 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["activedamt"] = 1,
-										["uptime"] = 17,
+										["uptime"] = 20,
 										["id"] = "Power Word: Fortitude",
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -3316,7 +4607,7 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["activedamt"] = 1,
-										["uptime"] = 15,
+										["uptime"] = 8,
 										["id"] = "Power Word: Shield",
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -3326,17 +4617,14 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 34,
+							["debuff_uptime"] = 53,
 							["buff_uptime_targets"] = {
 							},
-							["spec"] = 258,
 							["grupo"] = true,
 							["spell_cast"] = {
-								["Shoot"] = 2,
-								["Inner Focus"] = 1,
-								["Shadow Word: Pain"] = 1,
-								["Mind Flay"] = 2,
-								["Mind Blast"] = 1,
+								["Psychic Scream"] = 1,
+								["Mind Flay"] = 3,
+								["Shoot"] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
@@ -3345,30 +4633,30 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594269978,
+							["last_event"] = 1594537376,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
-					["combatId"] = 151,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["洛科林丶雷酒"] = true,
 				},
-				["CombatStartedAt"] = 152014.233,
-				["tempo_start"] = 1594269961,
+				["CombatStartedAt"] = 2491785.293,
+				["tempo_start"] = 1594537356,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 1351,
+				["combat_counter"] = 1401,
 				["playing_solo"] = true,
 				["totals"] = {
-					3431, -- [1]
-					271, -- [2]
+					3274.992809, -- [1]
+					185, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -3390,16 +4678,93 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
+					["洛科林丶雷酒"] = {
+						{
+							true, -- [1]
+							"!Melee", -- [2]
+							69, -- [3]
+							1594537396.482, -- [4]
+							2838, -- [5]
+							"Angerclaw Grizzly", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
 				["hasSaved"] = true,
-				["data_fim"] = "12:46:19",
+				["data_fim"] = "15:02:56",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151979.483,
-				["CombatEndedAt"] = 151979.483,
+				["enemy"] = "Felpaw Ravager",
+				["TotalElapsedCombatTime"] = 2491764.641,
+				["CombatEndedAt"] = 2491764.641,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -3415,19 +4780,19 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["洛科林丶雷酒"] = 271.008715,
+							["洛科林丶雷酒"] = 185.005297,
 						}, -- [1]
 					},
 					["damage"] = {
 						{
-							["洛科林丶雷酒"] = 3160.00803,
+							["洛科林丶雷酒"] = 3090.00611,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 151979.483,
-				["combat_id"] = 151,
+				["end_time"] = 2491764.641,
+				["combat_id"] = 195,
 				["frags"] = {
-					["Warpwood Moss Flayer"] = 1,
+					["Felpaw Ravager"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
@@ -3440,8 +4805,8 @@ _detalhes_database = {
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					3160, -- [1]
-					271, -- [2]
+					3090, -- [1]
+					185, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -3460,96 +4825,190 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 151962.052,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:46:01",
-			}, -- [5]
+				["start_time"] = 2491744.722,
+				["contra"] = "Felpaw Ravager",
+				["data_inicio"] = "15:02:37",
+			}, -- [9]
 			{
 				{
 					["tipo"] = 2,
-					["combatId"] = 150,
+					["combatId"] = 194,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008927,
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 547.00401,
 							["damage_from"] = {
-								["Warpwood Shredder"] = true,
+								["洛科林丶雷酒"] = true,
 							},
 							["targets"] = {
-								["Warpwood Shredder"] = 3309,
+								["洛科林丶雷酒"] = 762,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 762.00401,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 762.00401,
+							["serial"] = "Creature-0-4526-1-134-8957-00000AA9A7",
+							["dps_started"] = false,
+							["end_time"] = 1594537352,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Angerclaw Grizzly",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Enrage"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Enrage",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["m_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 87,
+										["targets"] = {
+											["洛科林丶雷酒"] = 659,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 659,
+										["n_min"] = 53,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 659,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Low Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 103,
+										["targets"] = {
+											["洛科林丶雷酒"] = 103,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 103,
+										["n_min"] = 103,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 103,
+										["c_max"] = 0,
+										["id"] = "Low Swipe",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["m_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1594537348,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3611.00401,
+							["start_time"] = 1594537327,
+							["delay"] = 0,
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004978,
+							["damage_from"] = {
+								["Angerclaw Grizzly"] = true,
+							},
+							["targets"] = {
+								["Angerclaw Grizzly"] = 3611,
 							},
 							["pets"] = {
 							},
 							["friendlyfire"] = {
 							},
-							["last_event"] = 1594269955,
-							["classe"] = "PRIEST",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 3309.008927,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3309.008927,
-							["spec"] = 258,
+							["total_without_pet"] = 3611.004978,
 							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 3611.004978,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537352,
 							["nome"] = "洛科林丶雷酒",
 							["spells"] = {
 								["_ActorTable"] = {
 									["Mind Blast"] = {
-										["c_amt"] = 0,
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 966,
 										["g_amt"] = 0,
-										["n_max"] = 681,
+										["n_max"] = 589,
 										["targets"] = {
-											["Warpwood Shredder"] = 1276,
+											["Angerclaw Grizzly"] = 1555,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1276,
-										["n_min"] = 595,
+										["n_dmg"] = 589,
+										["n_min"] = 589,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 1276,
-										["c_max"] = 0,
+										["total"] = 1555,
+										["c_max"] = 966,
 										["id"] = "Mind Blast",
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 966,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 174,
-										["targets"] = {
-											["Warpwood Shredder"] = 1347,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1347,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 1347,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
+										["n_amt"] = 1,
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
@@ -3560,7 +5019,7 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Warpwood Shredder"] = 0,
+											["Angerclaw Grizzly"] = 0,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
@@ -3588,1194 +5047,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 177,
-										["targets"] = {
-											["Warpwood Shredder"] = 686,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 686,
-										["n_min"] = 168,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 686,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 466.008927,
-							["start_time"] = 1594269941,
-							["delay"] = 0,
-							["end_time"] = 1594269957,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 466.003134,
-							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 2,
-								["洛科林丶雷酒"] = 466,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 468.003134,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 468.003134,
-							["serial"] = "Creature-0-4526-1-134-7101-00000678BF",
-							["dps_started"] = false,
-							["end_time"] = 1594269957,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Shredder",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Thrash"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Warpwood Shredder"] = 2,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = "Thrash",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Sunder Armor"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Sunder Armor",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 73,
-										["targets"] = {
-											["洛科林丶雷酒"] = 466,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 466,
-										["n_min"] = 59,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 466,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269954,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3311.003134,
-							["start_time"] = 1594269946,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 150,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.005197,
-							["total_without_pet"] = 466.005197,
-							["total"] = 466.005197,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 466,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 466.005197,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 466,
-							},
-							["totalover_without_pet"] = 0.005197,
-							["healing_taken"] = 466.005197,
-							["fight_component"] = true,
-							["end_time"] = 1594269957,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 466,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 73,
-										["targets"] = {
-											["洛科林丶雷酒"] = 466,
-										},
-										["n_min"] = 59,
-										["counter"] = 7,
-										["overheal"] = 0,
-										["total"] = 466,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 466,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 466,
-										["n_amt"] = 7,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594269946,
-							["totaldenied"] = 0.005197,
-							["delay"] = 0,
-							["last_event"] = 1594269955,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 150,
-					["_ActorTable"] = {
-						{
-							["received"] = 1385.007649,
-							["resource"] = 0.007649,
-							["targets"] = {
-								["洛科林丶雷酒"] = 1385,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "PRIEST",
-							["passiveover"] = 0.007649,
-							["fight_component"] = true,
-							["total"] = 1385.007649,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Restore Mana"] = {
-										["total"] = 1385,
-										["id"] = "Restore Mana",
-										["totalover"] = 0,
-										["targets"] = {
-											["洛科林丶雷酒"] = 1385,
-										},
-										["counter"] = 1,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.007649,
-							["last_event"] = 1594269947,
-							["spec"] = 258,
-							["tipo"] = 3,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalover"] = 0.007649,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 150,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 14,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 14,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Weakened Soul"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 11,
-										["id"] = "Weakened Soul",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 63,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 16,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 16,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 16,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 13,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 47,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Mind Blast"] = 1,
-								["Mind Flay"] = 3,
-								["Power Word: Shield"] = 1,
-								["Restore Mana"] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
-							},
-							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594269957,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Shredder",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Thrash"] = 1,
-								["Sunder Armor"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7101-00000678BF",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 150,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151962.052,
-				["tempo_start"] = 1594269941,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1350,
-				["playing_solo"] = true,
-				["totals"] = {
-					3777, -- [1]
-					466, -- [2]
-					{
-						0, -- [1]
-						[0] = 1385,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:45:57",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Shredder",
-				["TotalElapsedCombatTime"] = 151958.085,
-				["CombatEndedAt"] = 151958.085,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 466.005197,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3309.008927,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151958.085,
-				["combat_id"] = 150,
-				["frags"] = {
-					["Warpwood Shredder"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3309, -- [1]
-					466, -- [2]
-					{
-						0, -- [1]
-						[0] = 1385,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151942.319,
-				["contra"] = "Warpwood Shredder",
-				["data_inicio"] = "12:45:42",
-			}, -- [6]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 149,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00895,
-							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
-							},
-							["targets"] = {
-								["Warpwood Moss Flayer"] = 3342,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269923,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3342.00895,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3342.00895,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 660,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1261,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1261,
-										["n_min"] = 601,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1261,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 174,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1014,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1014,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1014,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 111,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 195,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 195,
-										["n_min"] = 84,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 195,
-										["c_max"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
 										["n_max"] = 178,
 										["targets"] = {
-											["Warpwood Moss Flayer"] = 872,
+											["Angerclaw Grizzly"] = 835,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 872,
-										["n_min"] = 169,
+										["n_dmg"] = 835,
+										["n_min"] = 155,
 										["g_dmg"] = 0,
 										["counter"] = 5,
-										["total"] = 872,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 442.00895,
-							["start_time"] = 1594269908,
-							["delay"] = 0,
-							["end_time"] = 1594269925,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 442.005308,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 442,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 442.005308,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 442.005308,
-							["serial"] = "Creature-0-4526-1-134-7100-00008637D8",
-							["dps_started"] = false,
-							["end_time"] = 1594269925,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 123,
-										["targets"] = {
-											["洛科林丶雷酒"] = 442,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 442,
-										["n_min"] = 58,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 442,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269922,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3342.005308,
-							["start_time"] = 1594269912,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 149,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.00189,
-							["total_without_pet"] = 442.00189,
-							["total"] = 442.00189,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 442,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 442.00189,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 442,
-							},
-							["totalover_without_pet"] = 0.00189,
-							["healing_taken"] = 442.00189,
-							["fight_component"] = true,
-							["end_time"] = 1594269925,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 442,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 123,
-										["targets"] = {
-											["洛科林丶雷酒"] = 442,
-										},
-										["n_min"] = 58,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 442,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 442,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 442,
-										["n_amt"] = 6,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594269913,
-							["totaldenied"] = 0.00189,
-							["delay"] = 0,
-							["last_event"] = 1594269923,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 149,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 149,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 15,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 6,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 15,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Weakened Soul"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 12,
-										["id"] = "Weakened Soul",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 81,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Focused Casting"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = "Focused Casting",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 7,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 48,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Mind Blast"] = 1,
-								["Mind Flay"] = 2,
-								["Power Word: Shield"] = 1,
-								["Shoot"] = 2,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
-							},
-							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594269925,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 149,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151942.319,
-				["tempo_start"] = 1594269908,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1349,
-				["playing_solo"] = true,
-				["totals"] = {
-					3784, -- [1]
-					442, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:45:26",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151926.202,
-				["CombatEndedAt"] = 151926.202,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 442.00189,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3342.00895,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151926.202,
-				["combat_id"] = 149,
-				["frags"] = {
-					["Warpwood Moss Flayer"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3342, -- [1]
-					442, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151909.602,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:45:09",
-			}, -- [7]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 148,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004065,
-							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
-							},
-							["targets"] = {
-								["Warpwood Moss Flayer"] = 3287,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269899,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3287.004065,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3287.004065,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 872,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 872,
-										["n_min"] = 169,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 872,
+										["total"] = 835,
 										["c_max"] = 0,
 										["id"] = "Shadow Word: Pain",
 										["r_dmg"] = 0,
@@ -4797,7 +5078,2099 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 173,
 										["targets"] = {
-											["Warpwood Moss Flayer"] = 1014,
+											["Angerclaw Grizzly"] = 1148,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1148,
+										["n_min"] = 160,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 1148,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 73,
+										["targets"] = {
+											["Angerclaw Grizzly"] = 73,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 73,
+										["n_min"] = 73,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 73,
+										["c_max"] = 0,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537350,
+							["damage_taken"] = 762.004978,
+							["start_time"] = 1594537335,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 194,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 547.005122,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 547,
+							},
+							["total"] = 547.005122,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005122,
+							["targets_overheal"] = {
+							},
+							["healing_taken"] = 547.005122,
+							["totalover"] = 0.005122,
+							["total_without_pet"] = 547.005122,
+							["iniciar_hps"] = false,
+							["start_time"] = 1594537335,
+							["fight_component"] = true,
+							["end_time"] = 1594537352,
+							["heal_enemy_amt"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Shield"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 547,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 103,
+										["targets"] = {
+											["洛科林丶雷酒"] = 547,
+										},
+										["n_min"] = 53,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 547,
+										["c_max"] = 0,
+										["id"] = "Power Word: Shield",
+										["targets_absorbs"] = {
+											["洛科林丶雷酒"] = 547,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 547,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["nome"] = "洛科林丶雷酒",
+							["targets_absorbs"] = {
+								["洛科林丶雷酒"] = 547,
+							},
+							["grupo"] = true,
+							["classe"] = "PRIEST",
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537347,
+							["on_hold"] = false,
+							["totaldenied"] = 0.005122,
+							["serial"] = "Player-4674-003AFFB8",
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 194,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 194,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Weakened Soul"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = "Weakened Soul",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mind Flay"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Mind Flay",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 13,
+										["id"] = "Shadow Vulnerability",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Word: Pain"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 18,
+										["id"] = "Shadow Word: Pain",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 91,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 21,
+										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 25,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 25,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Spirit Tap"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = "Spirit Tap",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Shield"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = "Power Word: Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["White Ram"] = {
+										["activedamt"] = 1,
+										["id"] = "White Ram",
+										["targets"] = {
+										},
+										["actived_at"] = 1594537327,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 54,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Inner Fire"] = 1,
+								["Power Word: Shield"] = 1,
+								["Shadow Word: Pain"] = 1,
+								["Mind Flay"] = 3,
+								["Shoot"] = 1,
+								["Mind Blast"] = 2,
+							},
+							["nome"] = "洛科林丶雷酒",
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["last_event"] = 1594537352,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Angerclaw Grizzly",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Enrage"] = 1,
+								["Low Swipe"] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4526-1-134-8957-00000AA9A7",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 194,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2491744.722,
+				["tempo_start"] = 1594537327,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1400,
+				["playing_solo"] = true,
+				["totals"] = {
+					4373, -- [1]
+					547, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:02:33",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Angerclaw Grizzly",
+				["TotalElapsedCombatTime"] = 2491741.154,
+				["CombatEndedAt"] = 2491741.154,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["洛科林丶雷酒"] = 547.005122,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 3611.004978,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2491741.154,
+				["combat_id"] = 194,
+				["frags"] = {
+					["Angerclaw Grizzly"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3611, -- [1]
+					547, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491715.635,
+				["contra"] = "Angerclaw Grizzly",
+				["data_inicio"] = "15:02:07",
+			}, -- [10]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 193,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 227.005046,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 399,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 399.005046,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 399.005046,
+							["serial"] = "Creature-0-4526-1-134-8960-0000089CBC",
+							["dps_started"] = false,
+							["end_time"] = 1594537282,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Felpaw Scavenger",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 63,
+										["targets"] = {
+											["洛科林丶雷酒"] = 399,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 399,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 399,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1594537280,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2709.005046,
+							["start_time"] = 1594537268,
+							["delay"] = 0,
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001754,
+							["damage_from"] = {
+								["Felpaw Scavenger"] = true,
+							},
+							["targets"] = {
+								["Felpaw Scavenger"] = 2709,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2709.001754,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 2709.001754,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537282,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Mind Blast"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 666,
+										["targets"] = {
+											["Felpaw Scavenger"] = 1267,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1267,
+										["n_min"] = 601,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1267,
+										["c_max"] = 0,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 173,
+										["targets"] = {
+											["Felpaw Scavenger"] = 826,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 826,
+										["n_min"] = 160,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 826,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 94,
+										["targets"] = {
+											["Felpaw Scavenger"] = 94,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 94,
+										["n_min"] = 94,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 94,
+										["c_max"] = 0,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 177,
+										["targets"] = {
+											["Felpaw Scavenger"] = 522,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 522,
+										["n_min"] = 168,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 522,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537281,
+							["damage_taken"] = 399.001754,
+							["start_time"] = 1594537268,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 193,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 280.002535,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 280,
+							},
+							["total"] = 280.002535,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.002535,
+							["targets_overheal"] = {
+							},
+							["healing_taken"] = 280.002535,
+							["totalover"] = 0.002535,
+							["total_without_pet"] = 280.002535,
+							["iniciar_hps"] = false,
+							["start_time"] = 1594537268,
+							["fight_component"] = true,
+							["end_time"] = 1594537282,
+							["heal_enemy_amt"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Shield"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 280,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 63,
+										["targets"] = {
+											["洛科林丶雷酒"] = 280,
+										},
+										["n_min"] = 51,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 280,
+										["c_max"] = 0,
+										["id"] = "Power Word: Shield",
+										["targets_absorbs"] = {
+											["洛科林丶雷酒"] = 280,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 280,
+										["n_amt"] = 5,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["nome"] = "洛科林丶雷酒",
+							["targets_absorbs"] = {
+								["洛科林丶雷酒"] = 280,
+							},
+							["grupo"] = true,
+							["classe"] = "PRIEST",
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537276,
+							["on_hold"] = false,
+							["totaldenied"] = 0.002535,
+							["serial"] = "Player-4674-003AFFB8",
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 193,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 193,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Shadow Word: Pain",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mind Flay"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Mind Flay",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 13,
+										["id"] = "Shadow Vulnerability",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 52,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Spirit Tap"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 3,
+										["id"] = "Spirit Tap",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Shield"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = "Power Word: Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 28,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Mind Blast"] = 2,
+								["Mind Flay"] = 2,
+								["Shoot"] = 1,
+								["Shadow Word: Pain"] = 1,
+							},
+							["nome"] = "洛科林丶雷酒",
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["last_event"] = 1594537282,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 193,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2491714.418,
+				["tempo_start"] = 1594537268,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1399,
+				["playing_solo"] = true,
+				["totals"] = {
+					3108, -- [1]
+					280, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:01:23",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Felpaw Scavenger",
+				["TotalElapsedCombatTime"] = 2491671.063,
+				["CombatEndedAt"] = 2491671.063,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["洛科林丶雷酒"] = 280.002535,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 2709.001754,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2491671.063,
+				["combat_id"] = 193,
+				["frags"] = {
+					["Felpaw Scavenger"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2709, -- [1]
+					280, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491656.644,
+				["contra"] = "Felpaw Scavenger",
+				["data_inicio"] = "15:01:08",
+			}, -- [11]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 192,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002,
+							["damage_from"] = {
+								["Felpaw Scavenger"] = true,
+							},
+							["targets"] = {
+								["Felpaw Scavenger"] = 2773,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2773.002,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 2773.002,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537255,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 177,
+										["targets"] = {
+											["Felpaw Scavenger"] = 513,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 513,
+										["n_min"] = 168,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 513,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 173,
+										["targets"] = {
+											["Felpaw Scavenger"] = 665,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 665,
+										["n_min"] = 164,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 665,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Blast"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 990,
+										["g_amt"] = 0,
+										["n_max"] = 605,
+										["targets"] = {
+											["Felpaw Scavenger"] = 1595,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 605,
+										["n_min"] = 605,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1595,
+										["c_max"] = 990,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 990,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537255,
+							["damage_taken"] = 180.002,
+							["start_time"] = 1594537245,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 233.008267,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 180,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 180.008267,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 180.008267,
+							["serial"] = "Creature-0-4526-1-134-8960-00000A811C",
+							["dps_started"] = false,
+							["end_time"] = 1594537255,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Felpaw Scavenger",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 64,
+										["targets"] = {
+											["洛科林丶雷酒"] = 180,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 180,
+										["n_min"] = 53,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 180,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1594537268,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2773.008267,
+							["start_time"] = 1594537249,
+							["delay"] = 0,
+							["monster"] = true,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 192,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 180.001481,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 180,
+							},
+							["total"] = 180.001481,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.001481,
+							["targets_overheal"] = {
+							},
+							["healing_taken"] = 180.001481,
+							["totalover"] = 0.001481,
+							["total_without_pet"] = 180.001481,
+							["iniciar_hps"] = false,
+							["start_time"] = 1594537249,
+							["fight_component"] = true,
+							["end_time"] = 1594537255,
+							["heal_enemy_amt"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Shield"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 180,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 64,
+										["targets"] = {
+											["洛科林丶雷酒"] = 180,
+										},
+										["n_min"] = 53,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 180,
+										["c_max"] = 0,
+										["id"] = "Power Word: Shield",
+										["targets_absorbs"] = {
+											["洛科林丶雷酒"] = 180,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 180,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["nome"] = "洛科林丶雷酒",
+							["targets_absorbs"] = {
+								["洛科林丶雷酒"] = 180,
+							},
+							["grupo"] = true,
+							["classe"] = "PRIEST",
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537253,
+							["on_hold"] = false,
+							["totaldenied"] = 0.001481,
+							["serial"] = "Player-4674-003AFFB8",
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 192,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 192,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Shadow Word: Pain",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mind Flay"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Mind Flay",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = "Shadow Vulnerability",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Weakened Soul"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = "Weakened Soul",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 39,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Inner Focus"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = "Inner Focus",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Spirit Tap"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = "Spirit Tap",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Shield"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = "Power Word: Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 31,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Mind Blast"] = 1,
+								["Power Word: Shield"] = 1,
+								["Inner Focus"] = 1,
+								["Shadow Word: Pain"] = 1,
+								["Mind Flay"] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "洛科林丶雷酒",
+							["pets"] = {
+							},
+							["serial"] = "Player-4674-003AFFB8",
+							["last_event"] = 1594537255,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 192,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2491656.528,
+				["tempo_start"] = 1594537245,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1398,
+				["playing_solo"] = true,
+				["totals"] = {
+					2953, -- [1]
+					180, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:00:56",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Felpaw Scavenger",
+				["TotalElapsedCombatTime"] = 2491644.01,
+				["CombatEndedAt"] = 2491644.01,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["洛科林丶雷酒"] = 180.001481,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 2773.002,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2491644.01,
+				["combat_id"] = 192,
+				["frags"] = {
+					["Felpaw Scavenger"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2773, -- [1]
+					180, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491633.908,
+				["contra"] = "Felpaw Scavenger",
+				["data_inicio"] = "15:00:46",
+			}, -- [12]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00343,
+							["damage_from"] = {
+								["Toxic Horror"] = true,
+							},
+							["targets"] = {
+								["Toxic Horror"] = 3400,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3400.00343,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 3400.00343,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537221,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 177,
+										["targets"] = {
+											["Toxic Horror"] = 1032,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1032,
+										["n_min"] = 168,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1032,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 173,
+										["targets"] = {
+											["Toxic Horror"] = 1518,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1518,
+										["n_min"] = 164,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1518,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 124,
+										["targets"] = {
+											["Toxic Horror"] = 247,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 247,
+										["n_min"] = 123,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 247,
+										["c_max"] = 0,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Blast"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 603,
+										["targets"] = {
+											["Toxic Horror"] = 603,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 603,
+										["n_min"] = 603,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 603,
+										["c_max"] = 0,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537218,
+							["damage_taken"] = 133.00343,
+							["start_time"] = 1594537198,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.003773,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 133,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 133.003773,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 133.003773,
+							["serial"] = "Creature-0-4526-1-134-7132-00000AB3CB",
+							["dps_started"] = false,
+							["end_time"] = 1594537221,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Toxic Horror",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 133,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["洛科林丶雷酒"] = 133,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 133,
+										["c_max"] = 133,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 133,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1594537205,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3400.003773,
+							["start_time"] = 1594537220,
+							["delay"] = 1594537205,
+							["monster"] = true,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = "Shadow Word: Pain",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mind Flay"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Mind Flay",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = "Shadow Vulnerability",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Psychic Scream"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Psychic Scream",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 72,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Spirit Tap"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = "Spirit Tap",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 57,
+							["nome"] = "洛科林丶雷酒",
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Psychic Scream"] = 1,
+								["Mind Flay"] = 3,
+								["Shoot"] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1594537221,
+							["serial"] = "Player-4674-003AFFB8",
+							["pets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2491633.908,
+				["tempo_start"] = 1594537198,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1397,
+				["playing_solo"] = true,
+				["totals"] = {
+					3533, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:00:21",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Toxic Horror",
+				["TotalElapsedCombatTime"] = 2491609.622,
+				["CombatEndedAt"] = 2491609.622,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 3400.00343,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2491609.622,
+				["combat_id"] = 191,
+				["frags"] = {
+					["Toxic Horror"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3400, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491586.953,
+				["contra"] = "Toxic Horror",
+				["data_inicio"] = "14:59:59",
+			}, -- [13]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 190,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002238,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Irontree Stomper"] = 3229,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3229.002238,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 3229.002238,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537183,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 177,
+										["targets"] = {
+											["Irontree Stomper"] = 863,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 863,
+										["n_min"] = 168,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 863,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 173,
+										["targets"] = {
+											["Irontree Stomper"] = 1014,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 1014,
@@ -4824,16 +7197,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 96,
+										["n_max"] = 121,
 										["targets"] = {
-											["Warpwood Moss Flayer"] = 169,
+											["Irontree Stomper"] = 121,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 169,
-										["n_min"] = 73,
+										["n_dmg"] = 121,
+										["n_min"] = 121,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 169,
+										["counter"] = 1,
+										["total"] = 121,
 										["c_max"] = 0,
 										["id"] = "!Autoshot",
 										["r_dmg"] = 0,
@@ -4844,7 +7217,7 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
@@ -4853,16 +7226,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 645,
+										["n_max"] = 648,
 										["targets"] = {
-											["Warpwood Moss Flayer"] = 1232,
+											["Irontree Stomper"] = 1231,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1232,
-										["n_min"] = 587,
+										["n_dmg"] = 1231,
+										["n_min"] = 583,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 1232,
+										["total"] = 1231,
 										["c_max"] = 0,
 										["id"] = "Mind Blast",
 										["r_dmg"] = 0,
@@ -4881,38 +7254,37 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 379.004065,
-							["start_time"] = 1594269883,
+							["last_event"] = 1594537182,
+							["damage_taken"] = 0.002238,
+							["start_time"] = 1594537166,
 							["delay"] = 0,
-							["end_time"] = 1594269900,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["totalabsorbed"] = 379.008438,
+							["totalabsorbed"] = 0.005662,
 							["damage_from"] = {
 								["洛科林丶雷酒"] = true,
 							},
 							["targets"] = {
-								["洛科林丶雷酒"] = 379,
 							},
 							["pets"] = {
 							},
 							["fight_component"] = true,
-							["total"] = 379.008438,
-							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 379.008438,
-							["serial"] = "Creature-0-4526-1-134-7100-0000067895",
-							["dps_started"] = false,
-							["end_time"] = 1594269900,
-							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 0.005662,
+							["serial"] = "Creature-0-4526-1-134-7139-00000AB3FA",
+							["monster"] = true,
+							["total"] = 0.005662,
+							["damage_taken"] = 3229.005662,
 							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
+							["nome"] = "Irontree Stomper",
 							["spells"] = {
 								["_ActorTable"] = {
 									["!Melee"] = {
@@ -4920,136 +7292,62 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 72,
+										["n_max"] = 0,
 										["targets"] = {
-											["洛科林丶雷酒"] = 379,
+											["洛科林丶雷酒"] = 0,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 379,
-										["n_min"] = 56,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 379,
+										["counter"] = 1,
+										["total"] = 0,
 										["c_max"] = 0,
+										["MISS"] = 1,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1594269897,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["end_time"] = 1594537183,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3287.008438,
-							["start_time"] = 1594269887,
+							["last_event"] = 1594537173,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1594537183,
 							["delay"] = 0,
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
-					["combatId"] = 148,
+					["combatId"] = 190,
 					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.008749,
-							["total_without_pet"] = 379.008749,
-							["total"] = 379.008749,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 379,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 379.008749,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 379,
-							},
-							["totalover_without_pet"] = 0.008749,
-							["healing_taken"] = 379.008749,
-							["fight_component"] = true,
-							["end_time"] = 1594269900,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 379,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 72,
-										["targets"] = {
-											["洛科林丶雷酒"] = 379,
-										},
-										["n_min"] = 56,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 379,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 379,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 379,
-										["n_amt"] = 6,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594269887,
-							["totaldenied"] = 0.008749,
-							["delay"] = 0,
-							["last_event"] = 1594269897,
-						}, -- [1]
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
-					["combatId"] = 148,
+					["combatId"] = 190,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
-					["combatId"] = 148,
+					["combatId"] = 190,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -5088,13 +7386,13 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Weakened Soul"] = {
+									["Psychic Scream"] = {
 										["appliedamt"] = 1,
 										["targets"] = {
 										},
 										["activedamt"] = 0,
-										["uptime"] = 15,
-										["id"] = "Weakened Soul",
+										["uptime"] = 8,
+										["id"] = "Psychic Scream",
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -5102,32 +7400,10 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 67,
+							["buff_uptime"] = 52,
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									["Power Word: Fortitude"] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -5150,2126 +7426,6 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 15,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 52,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Mind Blast"] = 1,
-								["Power Word: Shield"] = 1,
-								["Shadow Word: Pain"] = 1,
-								["Mind Flay"] = 2,
-								["Shoot"] = 2,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
-							},
-							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594269900,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 148,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151909.602,
-				["tempo_start"] = 1594269883,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1348,
-				["playing_solo"] = true,
-				["totals"] = {
-					3666, -- [1]
-					379, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:45:01",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151901.587,
-				["CombatEndedAt"] = 151901.587,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 379.008749,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3287.004065,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151901.587,
-				["combat_id"] = 148,
-				["frags"] = {
-					["Warpwood Moss Flayer"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3287, -- [1]
-					379, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151884.587,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:44:44",
-			}, -- [8]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 147,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001026,
-							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 6675,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269837,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6675.001026,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 6675.001026,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 173,
-										["targets"] = {
-											["Warpwood Shredder"] = 2458,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2458,
-										["n_min"] = 154,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 2458,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 169,
-										["targets"] = {
-											["Warpwood Shredder"] = 1310,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1310,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 1310,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 109,
-										["g_amt"] = 0,
-										["n_max"] = 123,
-										["targets"] = {
-											["Warpwood Shredder"] = 751,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 642,
-										["n_min"] = 76,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 751,
-										["c_max"] = 109,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 109,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Blast"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 912,
-										["g_amt"] = 0,
-										["n_max"] = 656,
-										["targets"] = {
-											["Warpwood Shredder"] = 2156,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1244,
-										["n_min"] = 588,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 2156,
-										["c_max"] = 912,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 912,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 1433.001026,
-							["start_time"] = 1594269792,
-							["delay"] = 0,
-							["end_time"] = 1594269840,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 1211.002485,
-							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 4,
-								["洛科林丶雷酒"] = 1433,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 1437.002485,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1437.002485,
-							["serial"] = "Creature-0-4526-1-134-7101-000006798A",
-							["dps_started"] = false,
-							["end_time"] = 1594269840,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Shredder",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Thrash"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Warpwood Shredder"] = 4,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 4,
-										["c_max"] = 0,
-										["id"] = "Thrash",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Sunder Armor"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Sunder Armor",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 82,
-										["targets"] = {
-											["洛科林丶雷酒"] = 1433,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1433,
-										["n_min"] = 58,
-										["g_dmg"] = 0,
-										["counter"] = 21,
-										["total"] = 1433,
-										["c_max"] = 0,
-										["MISS"] = 1,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 20,
-										["a_dmg"] = 79,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269835,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 6679.002485,
-							["start_time"] = 1594269806,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 147,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["洛科林丶雷酒"] = 333,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 333.004146,
-							["total_without_pet"] = 1739.004146,
-							["total"] = 1739.004146,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 1275,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 1275.004146,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 1879,
-							},
-							["totalover_without_pet"] = 0.004146,
-							["healing_taken"] = 1739.004146,
-							["fight_component"] = true,
-							["end_time"] = 1594269840,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 1275,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 82,
-										["targets"] = {
-											["洛科林丶雷酒"] = 1275,
-										},
-										["n_min"] = 58,
-										["counter"] = 18,
-										["overheal"] = 0,
-										["total"] = 1275,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 1275,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 1275,
-										["n_amt"] = 18,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									["Vampiric Embrace"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["洛科林丶雷酒"] = 333,
-										},
-										["n_max"] = 133,
-										["targets"] = {
-											["洛科林丶雷酒"] = 464,
-										},
-										["n_min"] = 0,
-										["counter"] = 12,
-										["overheal"] = 333,
-										["total"] = 464,
-										["c_max"] = 0,
-										["id"] = "Vampiric Embrace",
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 464,
-										["n_amt"] = 12,
-										["m_healed"] = 0,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594269808,
-							["totaldenied"] = 0.004146,
-							["delay"] = 0,
-							["last_event"] = 1594269836,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 147,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 147,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Psychic Scream"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Psychic Scream",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 37,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 41,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 9,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Vampiric Embrace"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 27,
-										["id"] = "Vampiric Embrace",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Weakened Soul"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 26,
-										["id"] = "Weakened Soul",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 201,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Spirit Tap"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 3,
-										["uptime"] = 26,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 48,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 48,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 31,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 48,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 148,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Psychic Scream"] = 1,
-								["Power Word: Shield"] = 2,
-								["Shoot"] = 8,
-								["Shadow Word: Pain"] = 2,
-								["Mind Flay"] = 3,
-								["Mind Blast"] = 2,
-								["Vampiric Embrace"] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
-							},
-							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594269840,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Shredder",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Thrash"] = 2,
-								["Sunder Armor"] = 2,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7101-0000067A0C",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 147,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151884.587,
-				["tempo_start"] = 1594269792,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1347,
-				["playing_solo"] = true,
-				["totals"] = {
-					8112, -- [1]
-					1739, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:44:00",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Shredder",
-				["TotalElapsedCombatTime"] = 151840.979,
-				["CombatEndedAt"] = 151840.979,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 1739.004146,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 6675.001026,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151840.979,
-				["combat_id"] = 147,
-				["frags"] = {
-					["Warpwood Shredder"] = 2,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					6675, -- [1]
-					1739, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151792.941,
-				["contra"] = "Warpwood Shredder",
-				["data_inicio"] = "12:43:12",
-			}, -- [9]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 146,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002528,
-							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 3295,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269784,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3295.002528,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3295.002528,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 649,
-										["targets"] = {
-											["Warpwood Shredder"] = 1240,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1240,
-										["n_min"] = 591,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1240,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 164,
-										["targets"] = {
-											["Warpwood Shredder"] = 492,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 492,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 492,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 128,
-										["targets"] = {
-											["Warpwood Shredder"] = 540,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 540,
-										["n_min"] = 86,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 540,
-										["c_max"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 173,
-										["targets"] = {
-											["Warpwood Shredder"] = 1023,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1023,
-										["n_min"] = 168,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1023,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 248.002528,
-							["start_time"] = 1594269766,
-							["delay"] = 0,
-							["end_time"] = 1594269786,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.002923,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 248,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 248.002923,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 248.002923,
-							["serial"] = "Creature-0-4526-1-134-7101-0000067856",
-							["dps_started"] = false,
-							["end_time"] = 1594269786,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Shredder",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 70,
-										["targets"] = {
-											["洛科林丶雷酒"] = 248,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 248,
-										["n_min"] = 58,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 248,
-										["c_max"] = 0,
-										["MISS"] = 1,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269783,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3295.002923,
-							["start_time"] = 1594269772,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 146,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 146,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 146,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 3,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Spirit Tap"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 6,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Inner Focus"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = "Inner Focus",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 39,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Shoot"] = 5,
-								["Inner Focus"] = 1,
-								["Shadow Word: Pain"] = 1,
-								["Mind Flay"] = 1,
-								["Mind Blast"] = 1,
-							},
-							["buff_uptime"] = 68,
-							["last_event"] = 1594269786,
-							["nome"] = "洛科林丶雷酒",
-							["tipo"] = 4,
-							["serial"] = "Player-4674-003AFFB8",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 146,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151792.941,
-				["tempo_start"] = 1594269766,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1346,
-				["playing_solo"] = true,
-				["totals"] = {
-					3543, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:43:07",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Shredder",
-				["TotalElapsedCombatTime"] = 151787.281,
-				["CombatEndedAt"] = 151787.281,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3295.002528,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151787.281,
-				["combat_id"] = 146,
-				["frags"] = {
-					["Warpwood Shredder"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3295, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151767.48,
-				["contra"] = "Warpwood Shredder",
-				["data_inicio"] = "12:42:47",
-			}, -- [10]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 145,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008009,
-							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
-							},
-							["targets"] = {
-								["Warpwood Moss Flayer"] = 3155,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269756,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3155.008009,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3155.008009,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 173,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 857,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 857,
-										["n_min"] = 169,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 857,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 164,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 492,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 492,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 492,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 128,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 537,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 537,
-										["n_min"] = 98,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 537,
-										["c_max"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 657,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1269,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1269,
-										["n_min"] = 612,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1269,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 301.008009,
-							["start_time"] = 1594269738,
-							["delay"] = 0,
-							["end_time"] = 1594269756,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.001428,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 301,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 301.001428,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 301.001428,
-							["serial"] = "Creature-0-4526-1-134-7100-00000679B3",
-							["dps_started"] = false,
-							["end_time"] = 1594269756,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 123,
-										["g_amt"] = 0,
-										["n_max"] = 62,
-										["targets"] = {
-											["洛科林丶雷酒"] = 301,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 178,
-										["n_min"] = 57,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 301,
-										["c_max"] = 123,
-										["MISS"] = 1,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 123,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									["Entangling Roots"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["洛科林丶雷酒"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Entangling Roots",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["RESIST"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269755,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3155.001428,
-							["start_time"] = 1594269744,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 145,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 145,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 145,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 3,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 18,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 18,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 18,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 39,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Mind Blast"] = 1,
-								["Mind Flay"] = 1,
-								["Shoot"] = 5,
-							},
-							["buff_uptime"] = 54,
-							["last_event"] = 1594269756,
-							["nome"] = "洛科林丶雷酒",
-							["tipo"] = 4,
-							["serial"] = "Player-4674-003AFFB8",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Moss Flayer",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Entangling Roots"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7100-00000679B3",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 145,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151767.48,
-				["tempo_start"] = 1594269738,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1345,
-				["playing_solo"] = true,
-				["totals"] = {
-					3456, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:42:37",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151757.781,
-				["CombatEndedAt"] = 151757.781,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3155.008009,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151757.781,
-				["combat_id"] = 145,
-				["frags"] = {
-					["Warpwood Moss Flayer"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3155, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151739.632,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:42:19",
-			}, -- [11]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 144,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001639,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Warpwood Moss Flayer"] = 3106,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269721,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3106.001639,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3106.001639,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 862,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 862,
-										["n_min"] = 169,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 862,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 169,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 999,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 999,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 999,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 657,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1245,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1245,
-										["n_min"] = 588,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1245,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001639,
-							["start_time"] = 1594269705,
-							["delay"] = 0,
-							["end_time"] = 1594269722,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.006493,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006493,
-							["serial"] = "Creature-0-4526-1-134-7100-000006939B",
-							["monster"] = true,
-							["total"] = 0.006493,
-							["damage_taken"] = 3106.006493,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["end_time"] = 1594269722,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1594269722,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 144,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 144,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 144,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 16,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 6,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 16,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Psychic Scream"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Psychic Scream",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 2,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									["Shadowform"] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -7281,13 +7437,13 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Power Word: Fortitude"] = {
+									["Inner Fire"] = {
 										["appliedamt"] = 1,
 										["targets"] = {
 										},
 										["activedamt"] = 1,
 										["uptime"] = 17,
-										["id"] = "Power Word: Fortitude",
+										["id"] = "Inner Fire",
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -7295,501 +7451,47 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime"] = 46,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
+							["debuff_uptime"] = 45,
+							["nome"] = "洛科林丶雷酒",
 							["grupo"] = true,
 							["spell_cast"] = {
-								["Psychic Scream"] = 1,
+								["Mind Blast"] = 1,
 								["Shadow Word: Pain"] = 1,
 								["Mind Flay"] = 2,
 								["Shoot"] = 1,
-								["Mind Blast"] = 1,
+								["Psychic Scream"] = 1,
 							},
-							["buff_uptime"] = 53,
-							["last_event"] = 1594269722,
-							["nome"] = "洛科林丶雷酒",
-							["tipo"] = 4,
-							["serial"] = "Player-4674-003AFFB8",
 							["debuff_uptime_targets"] = {
 							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 144,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151739.632,
-				["tempo_start"] = 1594269705,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1344,
-				["playing_solo"] = true,
-				["totals"] = {
-					3106, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:42:03",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151723.498,
-				["CombatEndedAt"] = 151723.498,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3106.001639,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151723.498,
-				["combat_id"] = 144,
-				["frags"] = {
-					["Warpwood Moss Flayer"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3106, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151706.465,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:41:46",
-			}, -- [12]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 143,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005807,
-							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
-							},
-							["targets"] = {
-								["Warpwood Moss Flayer"] = 3343,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269690,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3343.005807,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3343.005807,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1038,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1038,
-										["n_min"] = 168,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1038,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 173,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1026,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1026,
-										["n_min"] = 169,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1026,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 686,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1279,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1279,
-										["n_min"] = 593,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1279,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 72.005807,
-							["start_time"] = 1594269672,
-							["delay"] = 0,
-							["end_time"] = 1594269693,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.002006,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 72,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 72.002006,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 72.002006,
-							["serial"] = "Creature-0-4526-1-134-7100-00000679DD",
-							["dps_started"] = false,
-							["end_time"] = 1594269693,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 72,
-										["targets"] = {
-											["洛科林丶雷酒"] = 72,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 72,
-										["n_min"] = 72,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 72,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269690,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3343.002006,
-							["start_time"] = 1594269690,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 143,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 143,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 143,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 6,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Psychic Scream"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Psychic Scream",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 50,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Psychic Scream"] = 1,
-								["Mind Flay"] = 3,
-								["Mind Blast"] = 1,
-							},
-							["buff_uptime"] = 65,
-							["last_event"] = 1594269693,
-							["nome"] = "洛科林丶雷酒",
-							["tipo"] = 4,
+							["last_event"] = 1594537183,
 							["serial"] = "Player-4674-003AFFB8",
-							["debuff_uptime_targets"] = {
+							["pets"] = {
 							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
-					["combatId"] = 143,
+					["combatId"] = 190,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["洛科林丶雷酒"] = true,
 				},
-				["CombatStartedAt"] = 151706.465,
-				["tempo_start"] = 1594269672,
+				["CombatStartedAt"] = 2491586.953,
+				["tempo_start"] = 1594537166,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 1343,
+				["combat_counter"] = 1396,
 				["playing_solo"] = true,
 				["totals"] = {
-					3415, -- [1]
+					3229, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -7816,12 +7518,12 @@ _detalhes_database = {
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
 				["hasSaved"] = true,
-				["data_fim"] = "12:41:34",
+				["data_fim"] = "14:59:44",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151694.398,
-				["CombatEndedAt"] = 151694.398,
+				["enemy"] = "Irontree Stomper",
+				["TotalElapsedCombatTime"] = 2491572.018,
+				["CombatEndedAt"] = 2491572.018,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -7841,14 +7543,14 @@ _detalhes_database = {
 					},
 					["damage"] = {
 						{
-							["洛科林丶雷酒"] = 3343.005807,
+							["洛科林丶雷酒"] = 3229.002238,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 151694.398,
-				["combat_id"] = 143,
+				["end_time"] = 2491572.018,
+				["combat_id"] = 190,
 				["frags"] = {
-					["Warpwood Moss Flayer"] = 1,
+					["Irontree Stomper"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
@@ -7861,7 +7563,7 @@ _detalhes_database = {
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					3343, -- [1]
+					3229, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -7881,1107 +7583,37 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 151673.35,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:41:13",
-			}, -- [13]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 142,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003158,
-							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 3315,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269631,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3315.003158,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3315.003158,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 584,
-										["targets"] = {
-											["Warpwood Shredder"] = 584,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 584,
-										["n_min"] = 584,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 584,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 173,
-										["targets"] = {
-											["Warpwood Shredder"] = 1691,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1691,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 1691,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Warpwood Shredder"] = 1040,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1040,
-										["n_min"] = 169,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1040,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 57.003158,
-							["start_time"] = 1594269612,
-							["delay"] = 0,
-							["end_time"] = 1594269632,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.002693,
-							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 2,
-								["洛科林丶雷酒"] = 57,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 59.002693,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 59.002693,
-							["serial"] = "Creature-0-4526-1-134-7101-0000067A65",
-							["dps_started"] = false,
-							["end_time"] = 1594269632,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Shredder",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 57,
-										["targets"] = {
-											["洛科林丶雷酒"] = 57,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 57,
-										["n_min"] = 57,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 57,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Thrash"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Warpwood Shredder"] = 2,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = "Thrash",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269626,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3317.002693,
-							["start_time"] = 1594269617,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 142,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 142,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 142,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 19,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 4,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 10,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 19,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Psychic Scream"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Psychic Scream",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 5,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 56,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Psychic Scream"] = 1,
-								["Mind Flay"] = 4,
-							},
-							["buff_uptime"] = 65,
-							["last_event"] = 1594269632,
-							["nome"] = "洛科林丶雷酒",
-							["tipo"] = 4,
-							["serial"] = "Player-4674-003AFFB8",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Shredder",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Thrash"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7101-0000067A65",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 142,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151673.35,
-				["tempo_start"] = 1594269612,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1342,
-				["playing_solo"] = true,
-				["totals"] = {
-					3374, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:40:32",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Shredder",
-				["TotalElapsedCombatTime"] = 151633.016,
-				["CombatEndedAt"] = 151633.016,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3315.003158,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151633.016,
-				["combat_id"] = 142,
-				["frags"] = {
-					["Warpwood Shredder"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3315, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151613.25,
-				["contra"] = "Warpwood Shredder",
-				["data_inicio"] = "12:40:13",
+				["start_time"] = 2491555.032,
+				["contra"] = "Irontree Stomper",
+				["data_inicio"] = "14:59:27",
 			}, -- [14]
 			{
 				{
 					["tipo"] = 2,
-					["combatId"] = 141,
+					["combatId"] = 189,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004227,
+							["totalabsorbed"] = 0.001864,
 							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
+								["Irontree Stomper"] = true,
 							},
 							["targets"] = {
-								["Warpwood Moss Flayer"] = 3095,
+								["Irontree Stomper"] = 3171,
 							},
 							["pets"] = {
 							},
 							["friendlyfire"] = {
 							},
-							["last_event"] = 1594269601,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3095.004227,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["total"] = 3095.004227,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 607,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 607,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 607,
-										["n_min"] = 607,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 607,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 169,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1476,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1476,
-										["n_min"] = 159,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 1476,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["spellschool"] = 32,
-										["id"] = "Shadow Vulnerability",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["RESIST"] = 1,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 173,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1012,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1012,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1012,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 130.004227,
-							["start_time"] = 1594269582,
-							["delay"] = 0,
-							["end_time"] = 1594269602,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.001894,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 130,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 130.001894,
-							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 130.001894,
-							["serial"] = "Creature-0-4526-1-134-7100-0000067A89",
-							["dps_started"] = false,
-							["end_time"] = 1594269602,
-							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3171.001864,
 							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 130,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["洛科林丶雷酒"] = 130,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 130,
-										["c_max"] = 130,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 130,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Entangling Roots"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Entangling Roots",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269587,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3095.001894,
-							["start_time"] = 1594269601,
-							["delay"] = 1594269587,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 141,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 141,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 141,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 9,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 19,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Psychic Scream"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Psychic Scream",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["dispell"] = 1.004371,
-							["buff_uptime"] = 70,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Focused Casting"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = "Focused Casting",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 3,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["dispell_spells"] = {
-								["_ActorTable"] = {
-									["Dispel Magic"] = {
-										["dispell"] = 1,
-										["id"] = "Dispel Magic",
-										["dispell_oque"] = {
-											["Entangling Roots"] = 1,
-										},
-										["targets"] = {
-											["洛科林丶雷酒"] = 1,
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 54,
-							["dispell_oque"] = {
-								["Entangling Roots"] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Shadow Word: Pain"] = 1,
-								["Mind Flay"] = 3,
-								["Psychic Scream"] = 1,
-							},
-							["pets"] = {
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["last_event"] = 1594269602,
-							["serial"] = "Player-4674-003AFFB8",
-							["dispell_targets"] = {
-								["洛科林丶雷酒"] = 1,
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Moss Flayer",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Entangling Roots"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7100-0000067A89",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 141,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151613.25,
-				["tempo_start"] = 1594269582,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1341,
-				["playing_solo"] = true,
-				["totals"] = {
-					3225, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 1,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:40:03",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151603.568,
-				["CombatEndedAt"] = 151603.568,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 3095.004227,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151603.568,
-				["combat_id"] = 141,
-				["frags"] = {
-					["Warpwood Moss Flayer"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3095, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 1,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151583.769,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:39:43",
-			}, -- [15]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 140,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004346,
-							["damage_from"] = {
-								["Warpwood Moss Flayer"] = true,
-							},
-							["targets"] = {
-								["Warpwood Moss Flayer"] = 6514,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1594269569,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6514.004346,
-							["serial"] = "Player-4674-003AFFB8",
 							["dps_started"] = false,
-							["total"] = 6514.004346,
-							["spec"] = 258,
-							["on_hold"] = false,
+							["total"] = 3171.001864,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537123,
 							["nome"] = "洛科林丶雷酒",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8990,652 +7622,13 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 173,
+										["n_max"] = 174,
 										["targets"] = {
-											["Warpwood Moss Flayer"] = 2206,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2206,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 2206,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 169,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 2481,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2481,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 2481,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["spellschool"] = 32,
-										["id"] = "Shadow Vulnerability",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["RESIST"] = 1,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 642,
-										["targets"] = {
-											["Warpwood Moss Flayer"] = 1827,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1827,
-										["n_min"] = 590,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1827,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 368.004346,
-							["start_time"] = 1594269532,
-							["delay"] = 0,
-							["end_time"] = 1594269570,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 368.005306,
-							["damage_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["targets"] = {
-								["洛科林丶雷酒"] = 368,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["total"] = 368.005306,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 368.005306,
-							["serial"] = "Creature-0-4526-1-134-7100-0000067A11",
-							["dps_started"] = false,
-							["end_time"] = 1594269570,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Warpwood Moss Flayer",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 71,
-										["targets"] = {
-											["洛科林丶雷酒"] = 368,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 368,
-										["n_min"] = 54,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 368,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["Entangling Roots"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["洛科林丶雷酒"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Entangling Roots",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["RESIST"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1594269568,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 6514.005306,
-							["start_time"] = 1594269556,
-							["delay"] = 0,
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 140,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.002667,
-							["total_without_pet"] = 368.002667,
-							["total"] = 368.002667,
-							["targets_absorbs"] = {
-								["洛科林丶雷酒"] = 368,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 368.002667,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 368,
-							},
-							["totalover_without_pet"] = 0.002667,
-							["healing_taken"] = 368.002667,
-							["fight_component"] = true,
-							["end_time"] = 1594269570,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Power Word: Shield"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 368,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 71,
-										["targets"] = {
-											["洛科林丶雷酒"] = 368,
-										},
-										["n_min"] = 54,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 368,
-										["c_max"] = 0,
-										["id"] = "Power Word: Shield",
-										["targets_absorbs"] = {
-											["洛科林丶雷酒"] = 368,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 368,
-										["n_amt"] = 6,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594269556,
-							["totaldenied"] = 0.002667,
-							["delay"] = 0,
-							["last_event"] = 1594269569,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 140,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 140,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Psychic Scream"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 8,
-										["id"] = "Psychic Scream",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 37,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 6,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 36,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 5,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 15,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Weakened Soul"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 15,
-										["id"] = "Weakened Soul",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 146,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Inner Fire"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 38,
-										["id"] = "Inner Fire",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 38,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Inner Focus"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = "Inner Focus",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 38,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Spirit Tap"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 14,
-										["id"] = "Spirit Tap",
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Shield"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Power Word: Shield",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 111,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Psychic Scream"] = 1,
-								["Power Word: Shield"] = 1,
-								["Inner Focus"] = 1,
-								["Shadow Word: Pain"] = 2,
-								["Mind Flay"] = 5,
-								["Mind Blast"] = 2,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
-							},
-							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594269570,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Moss Flayer",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Entangling Roots"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7100-0000867A11",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 140,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["洛科林丶雷酒"] = true,
-				},
-				["CombatStartedAt"] = 151583.769,
-				["tempo_start"] = 1594269532,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 1340,
-				["playing_solo"] = true,
-				["totals"] = {
-					6882, -- [1]
-					368, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "12:39:31",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Warpwood Moss Flayer",
-				["TotalElapsedCombatTime"] = 151571.704,
-				["CombatEndedAt"] = 151571.704,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["洛科林丶雷酒"] = 368.002667,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 6514.004346,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 151571.704,
-				["combat_id"] = 140,
-				["frags"] = {
-					["Warpwood Moss Flayer"] = 2,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					6514, -- [1]
-					368, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 151533.786,
-				["contra"] = "Warpwood Moss Flayer",
-				["data_inicio"] = "12:38:53",
-			}, -- [16]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 139,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001648,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Warpwood Shredder"] = 3309,
-							},
-							["pets"] = {
-							},
-							["total"] = 3309.001648,
-							["last_event"] = 1594269493,
-							["classe"] = "PRIEST",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3309.001648,
-							["serial"] = "Player-4674-003AFFB8",
-							["dps_started"] = false,
-							["end_time"] = 1594269494,
-							["spec"] = 258,
-							["on_hold"] = false,
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Warpwood Shredder"] = 1034,
+											["Irontree Stomper"] = 1034,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 1034,
-										["n_min"] = 164,
+										["n_min"] = 169,
 										["g_dmg"] = 0,
 										["counter"] = 6,
 										["total"] = 1034,
@@ -9658,16 +7651,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 174,
+										["n_max"] = 169,
 										["targets"] = {
-											["Warpwood Shredder"] = 1692,
+											["Irontree Stomper"] = 1002,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1692,
-										["n_min"] = 164,
+										["n_dmg"] = 1002,
+										["n_min"] = 165,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 1692,
+										["counter"] = 6,
+										["total"] = 1002,
 										["c_max"] = 0,
 										["id"] = "Mind Flay",
 										["r_dmg"] = 0,
@@ -9678,7 +7671,36 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 6,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 275,
+										["g_amt"] = 0,
+										["n_max"] = 101,
+										["targets"] = {
+											["Irontree Stomper"] = 545,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 270,
+										["n_min"] = 70,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 545,
+										["c_max"] = 138,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 137,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
@@ -9687,16 +7709,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 583,
+										["n_max"] = 590,
 										["targets"] = {
-											["Warpwood Shredder"] = 583,
+											["Irontree Stomper"] = 590,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 583,
-										["n_min"] = 583,
+										["n_dmg"] = 590,
+										["n_min"] = 590,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 583,
+										["total"] = 590,
 										["c_max"] = 0,
 										["id"] = "Mind Blast",
 										["r_dmg"] = 0,
@@ -9715,59 +7737,596 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537121,
+							["damage_taken"] = 453.001864,
+							["start_time"] = 1594537101,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.008872,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 453,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 453.008872,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 453.008872,
+							["serial"] = "Creature-0-4526-1-134-7139-00000AB46D",
+							["dps_started"] = false,
+							["end_time"] = 1594537123,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Irontree Stomper",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 140,
+										["g_amt"] = 0,
+										["n_max"] = 68,
+										["targets"] = {
+											["洛科林丶雷酒"] = 453,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 313,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 453,
+										["c_max"] = 140,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 140,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1594537121,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.001648,
-							["start_time"] = 1594269474,
+							["damage_taken"] = 3171.008872,
+							["start_time"] = 1594537107,
 							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [1]
+							["monster"] = true,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 189,
+					["_ActorTable"] = {
 						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.004671,
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = "Shadow Word: Pain",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mind Flay"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Mind Flay",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = "Shadow Vulnerability",
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Psychic Scream"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Psychic Scream",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 68,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 22,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Spirit Tap"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = "Spirit Tap",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 22,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 22,
+										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 49,
+							["nome"] = "洛科林丶雷酒",
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Psychic Scream"] = 1,
+								["Mind Flay"] = 2,
+								["Shoot"] = 5,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1594537123,
+							["serial"] = "Player-4674-003AFFB8",
+							["pets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2491555.032,
+				["tempo_start"] = 1594537101,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1395,
+				["playing_solo"] = true,
+				["totals"] = {
+					3624, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "14:58:43",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Irontree Stomper",
+				["TotalElapsedCombatTime"] = 2491511.394,
+				["CombatEndedAt"] = 2491511.394,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 3171.001864,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2491511.394,
+				["combat_id"] = 189,
+				["frags"] = {
+					["Irontree Stomper"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3171, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491489.524,
+				["contra"] = "Irontree Stomper",
+				["data_inicio"] = "14:58:21",
+			}, -- [15]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 188,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007432,
 							["damage_from"] = {
-								["Warpwood Shredder"] = true,
-								["洛科林丶雷酒"] = true,
+								["Angerclaw Mauler"] = true,
 							},
 							["targets"] = {
-								["Warpwood Shredder"] = 2,
+								["Angerclaw Mauler"] = 3238,
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 2.004671,
-							["serial"] = "Creature-0-4526-1-134-7101-0000067A4B",
-							["monster"] = true,
-							["end_time"] = 1594269494,
-							["dps_started"] = false,
+							["total_without_pet"] = 3238.007432,
 							["on_hold"] = false,
-							["nome"] = "Warpwood Shredder",
+							["dps_started"] = false,
+							["total"] = 3238.007432,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537066,
+							["nome"] = "洛科林丶雷酒",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Thrash"] = {
+									["Mind Blast"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 2,
+										["n_max"] = 625,
 										["targets"] = {
-											["Warpwood Shredder"] = 2,
+											["Angerclaw Mauler"] = 1228,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 2,
-										["n_min"] = 2,
+										["n_dmg"] = 1228,
+										["n_min"] = 603,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1228,
+										["c_max"] = 0,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Angerclaw Mauler"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 2,
+										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = "Thrash",
+										["spellschool"] = 32,
+										["id"] = "Shadow Vulnerability",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["RESIST"] = 1,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 173,
+										["targets"] = {
+											["Angerclaw Mauler"] = 847,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 847,
+										["n_min"] = 164,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 847,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 169,
+										["targets"] = {
+											["Angerclaw Mauler"] = 987,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 987,
+										["n_min"] = 160,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 987,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 105,
+										["targets"] = {
+											["Angerclaw Mauler"] = 176,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 176,
+										["n_min"] = 71,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 176,
+										["c_max"] = 0,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537064,
+							["damage_taken"] = 621.007432,
+							["start_time"] = 1594537049,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.002899,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 621,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 621.002899,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 621.002899,
+							["serial"] = "Creature-0-4526-1-134-8958-000009A40D",
+							["dps_started"] = false,
+							["end_time"] = 1594537066,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Angerclaw Mauler",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 315,
+										["g_amt"] = 0,
+										["n_max"] = 83,
+										["targets"] = {
+											["洛科林丶雷酒"] = 621,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 306,
+										["n_min"] = 63,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 621,
+										["c_max"] = 184,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 131,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Enrage"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Enrage",
 										["r_dmg"] = 0,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
@@ -9775,120 +8334,558 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 0,
 										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1594269489,
+							["last_event"] = 1594537063,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 3311.004671,
-							["start_time"] = 1594269489,
+							["damage_taken"] = 3238.002899,
+							["start_time"] = 1594537055,
 							["delay"] = 0,
-							["total"] = 2.004671,
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
-					["combatId"] = 139,
+					["combatId"] = 188,
 					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["洛科林丶雷酒"] = 357,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 357.008348,
-							["total_without_pet"] = 462.008348,
-							["total"] = 462.008348,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4674-003AFFB8",
-							["totalabsorb"] = 0.008348,
-							["last_hps"] = 0,
-							["targets"] = {
-								["洛科林丶雷酒"] = 506,
-							},
-							["totalover_without_pet"] = 0.008348,
-							["healing_taken"] = 462.008348,
-							["fight_component"] = true,
-							["end_time"] = 1594269494,
-							["healing_from"] = {
-								["洛科林丶雷酒"] = true,
-							},
-							["nome"] = "洛科林丶雷酒",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Vampiric Embrace"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["洛科林丶雷酒"] = 357,
-										},
-										["n_max"] = 52,
-										["targets"] = {
-											["洛科林丶雷酒"] = 462,
-										},
-										["n_min"] = 0,
-										["counter"] = 16,
-										["overheal"] = 357,
-										["total"] = 462,
-										["c_max"] = 0,
-										["id"] = "Vampiric Embrace",
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 462,
-										["n_amt"] = 16,
-										["m_healed"] = 0,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["spec"] = 258,
-							["classe"] = "PRIEST",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["start_time"] = 1594269477,
-							["totaldenied"] = 0.008348,
-							["delay"] = 0,
-							["last_event"] = 1594269493,
-						}, -- [1]
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
-					["combatId"] = 139,
+					["combatId"] = 188,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
-					["combatId"] = 139,
+					["combatId"] = 188,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = "Shadow Word: Pain",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mind Flay"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Mind Flay",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = "Shadow Vulnerability",
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 87,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Inner Fire"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = "Well Fed",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Focused Casting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = "Focused Casting",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Spirit Tap"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 8,
+										["id"] = "Spirit Tap",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 36,
+							["nome"] = "洛科林丶雷酒",
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Shadow Word: Pain"] = 1,
+								["Mind Flay"] = 2,
+								["Shoot"] = 2,
+								["Mind Blast"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1594537066,
+							["serial"] = "Player-4674-003AFFB8",
+							["pets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Angerclaw Mauler",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Enrage"] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4526-1-134-8958-000009A40D",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 188,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["洛科林丶雷酒"] = true,
+				},
+				["CombatStartedAt"] = 2491489.524,
+				["tempo_start"] = 1594537049,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1394,
+				["playing_solo"] = true,
+				["totals"] = {
+					3859, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "14:57:46",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Angerclaw Mauler",
+				["TotalElapsedCombatTime"] = 2491454.32,
+				["CombatEndedAt"] = 2491454.32,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 3238.007432,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2491454.32,
+				["combat_id"] = 188,
+				["frags"] = {
+					["Angerclaw Mauler"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3238, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2491437.752,
+				["contra"] = "Angerclaw Mauler",
+				["data_inicio"] = "14:57:30",
+			}, -- [16]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 187,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005267,
+							["damage_from"] = {
+								["Felpaw Scavenger"] = true,
+							},
+							["targets"] = {
+								["Felpaw Scavenger"] = 2820,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2820.005267,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 2820.005267,
+							["serial"] = "Player-4674-003AFFB8",
+							["end_time"] = 1594537042,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Mind Blast"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 604,
+										["targets"] = {
+											["Felpaw Scavenger"] = 604,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 604,
+										["n_min"] = 604,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 604,
+										["c_max"] = 0,
+										["id"] = "Mind Blast",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Mind Flay"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 173,
+										["targets"] = {
+											["Felpaw Scavenger"] = 1352,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1352,
+										["n_min"] = 165,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1352,
+										["c_max"] = 0,
+										["id"] = "Mind Flay",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Shadow Word: Pain"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 178,
+										["targets"] = {
+											["Felpaw Scavenger"] = 864,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 864,
+										["n_min"] = 169,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 864,
+										["c_max"] = 0,
+										["id"] = "Shadow Word: Pain",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1594537041,
+							["damage_taken"] = 55.005267,
+							["start_time"] = 1594537023,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005193,
+							["damage_from"] = {
+								["洛科林丶雷酒"] = true,
+							},
+							["targets"] = {
+								["洛科林丶雷酒"] = 55,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["total"] = 55.005193,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 55.005193,
+							["serial"] = "Creature-0-4526-1-134-8960-00000A725E",
+							["dps_started"] = false,
+							["end_time"] = 1594537042,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Felpaw Scavenger",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 55,
+										["targets"] = {
+											["洛科林丶雷酒"] = 55,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 55,
+										["n_min"] = 55,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 55,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1594537028,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2820.005193,
+							["start_time"] = 1594537041,
+							["delay"] = 1594537028,
+							["monster"] = true,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 187,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 187,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 187,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Shadow Word: Pain"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 17,
+										["id"] = "Shadow Word: Pain",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mind Flay"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Mind Flay",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadow Vulnerability"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 18,
+										["id"] = "Shadow Vulnerability",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
 									["Psychic Scream"] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -9900,54 +8897,10 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Vampiric Embrace"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 17,
-										["id"] = "Vampiric Embrace",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Word: Pain"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 19,
-										["id"] = "Shadow Word: Pain",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mind Flay"] = {
-										["appliedamt"] = 4,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 10,
-										["id"] = "Mind Flay",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Shadow Vulnerability"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 19,
-										["id"] = "Shadow Vulnerability",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 61,
+							["buff_uptime"] = 77,
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -9956,8 +8909,41 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["activedamt"] = 1,
-										["uptime"] = 20,
+										["uptime"] = 19,
 										["id"] = "Inner Fire",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = "Well Fed",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Shadowform"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = "Shadowform",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = "Power Word: Fortitude",
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -9973,89 +8959,49 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Shadowform"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Shadowform",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Power Word: Fortitude"] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = "Power Word: Fortitude",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 								},
 								["tipo"] = 9,
 							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 73,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 258,
+							["debuff_uptime"] = 52,
+							["nome"] = "洛科林丶雷酒",
 							["grupo"] = true,
 							["spell_cast"] = {
 								["Shadow Word: Pain"] = 1,
-								["Mind Flay"] = 4,
-								["Vampiric Embrace"] = 1,
+								["Mind Flay"] = 3,
 								["Psychic Scream"] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["nome"] = "洛科林丶雷酒",
-							["pets"] = {
+							["buff_uptime_targets"] = {
 							},
+							["last_event"] = 1594537042,
 							["serial"] = "Player-4674-003AFFB8",
-							["last_event"] = 1594269494,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Warpwood Shredder",
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Thrash"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4526-1-134-7101-0000067A4B",
-							["classe"] = "UNKNOW",
-						}, -- [2]
+						}, -- [1]
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
-					["combatId"] = 139,
+					["combatId"] = 187,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["洛科林丶雷酒"] = true,
 				},
-				["CombatStartedAt"] = 151533.786,
-				["tempo_start"] = 1594269474,
+				["CombatStartedAt"] = 2491437.752,
+				["tempo_start"] = 1594537023,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 1339,
+				["combat_counter"] = 1393,
 				["playing_solo"] = true,
 				["totals"] = {
-					3311, -- [1]
-					462, -- [2]
+					2875, -- [1]
+					0, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -10081,12 +9027,12 @@ _detalhes_database = {
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
 				["hasSaved"] = true,
-				["data_fim"] = "12:38:14",
+				["data_fim"] = "14:57:22",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Warpwood Shredder",
-				["TotalElapsedCombatTime"] = 151495.037,
-				["CombatEndedAt"] = 151495.037,
+				["enemy"] = "Felpaw Scavenger",
+				["TotalElapsedCombatTime"] = 2491430.517,
+				["CombatEndedAt"] = 2491430.517,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -10102,19 +9048,18 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["洛科林丶雷酒"] = 462.008348,
 						}, -- [1]
 					},
 					["damage"] = {
 						{
-							["洛科林丶雷酒"] = 3309.001648,
+							["洛科林丶雷酒"] = 2820.005267,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 151495.037,
-				["combat_id"] = 139,
+				["end_time"] = 2491430.517,
+				["combat_id"] = 187,
 				["frags"] = {
-					["Warpwood Shredder"] = 1,
+					["Felpaw Scavenger"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
@@ -10127,8 +9072,8 @@ _detalhes_database = {
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					3309, -- [1]
-					462, -- [2]
+					2820, -- [1]
+					0, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -10147,452 +9092,266 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 151475.257,
-				["contra"] = "Warpwood Shredder",
-				["data_inicio"] = "12:37:55",
+				["start_time"] = 2491411.915,
+				["contra"] = "Felpaw Scavenger",
+				["data_inicio"] = "14:57:04",
 			}, -- [17]
 			{
 				{
 					["tipo"] = 2,
-					["combatId"] = 138,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001639,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Irontree Stomper"] = 1434,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PRIEST",
-							["last_event"] = 1594100472,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1434.001639,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 1434.001639,
-							["spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 173,
-										["targets"] = {
-											["Irontree Stomper"] = 341,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 341,
-										["n_min"] = 168,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 341,
-										["c_max"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									["Mind Flay"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 164,
-										["targets"] = {
-											["Irontree Stomper"] = 492,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 492,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 492,
-										["c_max"] = 0,
-										["id"] = "Mind Flay",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									["Mind Blast"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 601,
-										["targets"] = {
-											["Irontree Stomper"] = 601,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 601,
-										["n_min"] = 601,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 601,
-										["c_max"] = 0,
-										["id"] = "Mind Blast",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 0.001639,
-							["nome"] = "洛科林丶雷酒",
-							["spec"] = 258,
-							["grupo"] = true,
-							["end_time"] = 1594100473,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1594100466,
-							["serial"] = "Player-4674-003AFFB8",
-							["on_hold"] = false,
-						}, -- [1]
-						{
 							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.004215,
+							["totalabsorbed"] = 0.004963,
 							["damage_from"] = {
-								["Arei"] = true,
-								["洛科林丶雷酒"] = true,
 							},
 							["targets"] = {
-								["Arei"] = 66,
+								["洛科林丶雷酒"] = 109,
 							},
 							["pets"] = {
 							},
+							["fight_component"] = true,
+							["total"] = 109.004963,
 							["classe"] = "UNKNOW",
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 66.004215,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 66.004215,
-							["monster"] = true,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Irontree Stomper",
+							["total_without_pet"] = 109.004963,
+							["serial"] = "Creature-0-4526-1-134-9879-00000AB1D1",
+							["dps_started"] = false,
+							["end_time"] = 1594537003,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Entropic Horror",
 							["spells"] = {
 								["_ActorTable"] = {
-									["War Stomp"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "War Stomp",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
-									},
 									["!Melee"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 66,
+										["n_max"] = 109,
 										["targets"] = {
-											["Arei"] = 66,
+											["洛科林丶雷酒"] = 109,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 66,
-										["n_min"] = 66,
+										["n_dmg"] = 109,
+										["n_min"] = 109,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 66,
+										["counter"] = 1,
+										["total"] = 109,
 										["c_max"] = 0,
-										["r_amt"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
+										["spellschool"] = 1,
 										["a_dmg"] = 0,
-										["c_min"] = 0,
 										["m_crit"] = 0,
-										["PARRY"] = 1,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["spellschool"] = 1,
 										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1594100470,
+							["last_event"] = 1594536988,
+							["friendlyfire"] = {
+							},
 							["last_dps"] = 0,
-							["end_time"] = 1594100473,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 1917.004215,
-							["start_time"] = 1594100470,
-							["serial"] = "Creature-0-4892-1-187-7139-0000840AC6",
+							["damage_taken"] = 0.004963,
+							["start_time"] = 1594537002,
+							["delay"] = 1594536988,
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006422,
+							["damage_from"] = {
+								["Entropic Horror"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006422,
+							["serial"] = "Player-4674-003AFFB8",
 							["dps_started"] = false,
+							["total"] = 0.006422,
+							["spec"] = 258,
+							["on_hold"] = false,
+							["nome"] = "洛科林丶雷酒",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1594537003,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 109.006422,
+							["start_time"] = 1594537003,
+							["delay"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
-					["combatId"] = 138,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
-					["combatId"] = 138,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
-					["combatId"] = 138,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Shadow Word: Pain"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Shadow Word: Pain",
-										["uptime"] = 6,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Mind Flay"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Mind Flay",
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									["Shadow Vulnerability"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 3,
-										["id"] = "Shadow Vulnerability",
-										["uptime"] = 6,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
+							["buff_uptime_targets"] = {
 							},
+							["spec"] = 258,
+							["grupo"] = true,
+							["buff_uptime"] = 75,
+							["nome"] = "洛科林丶雷酒",
 							["pets"] = {
 							},
-							["classe"] = "PRIEST",
+							["tipo"] = 4,
+							["last_event"] = 1594537003,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Inner Fire"] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 15,
 										["id"] = "Inner Fire",
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Power Word: Fortitude"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = "Power Word: Fortitude",
-										["uptime"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "Well Fed",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									["Shadowform"] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 15,
 										["id"] = "Shadowform",
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Spirit Tap"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = "Spirit Tap",
-										["uptime"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Power Word: Fortitude"] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "Power Word: Fortitude",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["White Ram"] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = "White Ram",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime"] = 16,
-							["nome"] = "洛科林丶雷酒",
-							["spec"] = 258,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Mind Flay"] = 2,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1594100473,
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 28,
 							["serial"] = "Player-4674-003AFFB8",
-							["tipo"] = 4,
+							["classe"] = "PRIEST",
 						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Irontree Stomper",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								["War Stomp"] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-4892-1-187-7139-0000840AC6",
-							["fight_component"] = true,
-						}, -- [2]
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
-					["combatId"] = 138,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["洛科林丶雷酒"] = true,
 				},
-				["CombatStartedAt"] = 151475.257,
-				["tempo_start"] = 1594100466,
+				["CombatStartedAt"] = 2491411.915,
+				["tempo_start"] = 1594536988,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1392,
 				["playing_solo"] = true,
 				["totals"] = {
-					1499.992275, -- [1]
+					109, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					1434, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
-				["frags_need_refresh"] = true,
+				["frags_need_refresh"] = false,
 				["instance_type"] = "none",
 				["hasSaved"] = true,
-				["data_fim"] = "13:41:13",
+				["data_fim"] = "14:56:44",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Irontree Stomper",
-				["TotalElapsedCombatTime"] = 332800.122,
-				["CombatEndedAt"] = 332800.122,
+				["enemy"] = "Entropic Horror",
+				["TotalElapsedCombatTime"] = 2491392.129,
+				["CombatEndedAt"] = 2491392.129,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -10602,10 +9361,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["洛科林丶雷酒"] = 1434.001639,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -10613,27 +9369,50 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["洛科林丶雷酒"] = 0.006422,
+						}, -- [1]
 					},
 				},
-				["end_time"] = 332800.122,
-				["combat_id"] = 138,
-				["data_inicio"] = "13:41:06",
-				["overall_added"] = true,
+				["end_time"] = 2491392.129,
+				["combat_id"] = 186,
 				["frags"] = {
-					["Irontree Stomper"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["combat_counter"] = 1337,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["CombatSkillCache"] = {
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 				},
-				["start_time"] = 332793.223,
-				["contra"] = "Irontree Stomper",
-				["spells_cast_timeline"] = {
-				},
+				["start_time"] = 2491377.161,
+				["contra"] = "Entropic Horror",
+				["data_inicio"] = "14:56:29",
 			}, -- [18]
 		},
 	},
@@ -10645,7 +9424,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1594447029,
+		["nextreset"] = 1595826111,
 		["last_version"] = 11,
 	},
 	["last_instance_id"] = 349,
@@ -10726,6 +9505,7 @@ _detalhes_database = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -1.525878906250e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -10737,11 +9517,10 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
 			["x"] = 3.05175781250e-05,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -1.525878906250e-05,
 			["use_spark"] = true,
+			["font_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
@@ -10757,7 +9536,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "10",
+	["last_day"] = "12",
 	["cached_talents"] = {
 		["Player-4674-003AFFB8"] = {
 			{
@@ -11184,7 +9963,7 @@ _detalhes_database = {
 				1, -- [7]
 			}, -- [47]
 		},
-		["Player-4674-00BFE472"] = {
+		["Player-4674-01767658"] = {
 			{
 				136006, -- [1]
 				0, -- [2]
@@ -11615,9 +10394,9 @@ _detalhes_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 102,
+		["logons"] = 108,
 	},
-	["combat_id"] = 155,
+	["combat_id"] = 202,
 	["savedStyles"] = {
 	},
 	["local_instances_config"] = {
@@ -11702,7 +10481,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.766597,
+					["totalabsorbed"] = 1.011459,
 					["damage_from"] = {
 						["Jadefire Rogue"] = true,
 						["Spitelash Siren"] = true,
@@ -11720,58 +10499,79 @@ _detalhes_database = {
 						["Jadefire Felsworn"] = true,
 						["Warpwood Shredder"] = true,
 						["Irontree Wanderer"] = true,
+						["Pygmy Tide Crawler"] = true,
 						["Entropic Horror"] = true,
+						["Angerclaw Grizzly"] = true,
 						["Felpaw Wolf"] = true,
 						["Xavaric"] = true,
 						["Jaedenar Cultist"] = true,
 						["Angerclaw Mauler"] = true,
+						["Aquementas"] = true,
 						["Irontree Stomper"] = true,
 						["Jaedenar Hound"] = true,
 						["Deadwood Warrior"] = true,
+						["Wastewander Assassin"] = true,
+						["Withered Protector"] = true,
 						["Entropic Beast"] = true,
 						["Alshirr Banebreath"] = true,
 						["Jadefire Trickster"] = true,
 						["Angerclaw Bear"] = true,
-						["洛科林丶雷酒"] = true,
-						["Warpwood Moss Flayer"] = true,
-						["Cursed Ooze"] = true,
-						["Deadwood Pathfinder"] = true,
-						["Withered Protector"] = true,
 						["Jaedenar Cultist <洛科林丶雷酒>"] = true,
 						["Felpaw Ravager"] = true,
+						["洛科林丶雷酒"] = true,
 						["Deadwood Gardener"] = true,
 						["Felpaw Scavenger"] = true,
+						["Cursed Ooze"] = true,
+						["Deadwood Pathfinder"] = true,
+						["Warpwood Moss Flayer"] = true,
+						["Terrowulf Fleshripper"] = true,
+						["Wastewander Rogue"] = true,
+						["Southsea Pirate"] = true,
+						["Southsea Freebooter"] = true,
 						["Infernal Sentry"] = true,
 					},
 					["targets"] = {
-						["Xavaric"] = 8241,
+						["Jadefire Rogue"] = 30640,
 						["Spitelash Siren"] = 7733,
 						["Xavathras"] = 3407,
-						["Jaedenar Cultist"] = 9924,
 						["Jadefire Betrayer"] = 43877,
-						["Jaedenar Guardian"] = 23193,
-						["Jaedenar Hound"] = 12172,
+						["Jaedenar Guardian"] = 29557,
 						["Jadefire Satyr"] = 8864,
-						["Jaedenar Adept"] = 11767,
-						["Alshirr Banebreath"] = 3463,
-						["Deadwood Warrior"] = 16192,
-						["Jadefire Hellcaller"] = 25419,
+						["Jaedenar Adept"] = 11994,
 						["Jadefire Shadowstalker"] = 23534,
-						["Withered Protector"] = 3272,
-						["Jadefire Trickster"] = 30536,
+						["Jadefire Hellcaller"] = 25419,
 						["Spitelash Myrmidon"] = 3048,
-						["Irontree Stomper"] = 22391,
-						["Toxic Horror"] = 27517,
-						["洛科林丶雷酒"] = 50,
-						["Jadefire Felsworn"] = 41475,
-						["Entropic Beast"] = 6312,
-						["Deadwood Pathfinder"] = 16608,
-						["Warpwood Shredder"] = 19903,
-						["Jadefire Rogue"] = 30640,
-						["Irontree Wanderer"] = 5248,
+						["Toxic Horror"] = 30917,
 						["Warpwood Moss Flayer"] = 29002,
+						["Jadefire Felsworn"] = 41475,
+						["Warpwood Shredder"] = 19903,
+						["Irontree Wanderer"] = 5248,
+						["Pygmy Tide Crawler"] = 318,
 						["Entropic Horror"] = 6813,
+						["Angerclaw Grizzly"] = 3611,
+						["Felpaw Wolf"] = 2619,
+						["Xavaric"] = 8241,
+						["Jaedenar Cultist"] = 10839,
+						["Angerclaw Mauler"] = 19839,
+						["Aquementas"] = 3348,
+						["Irontree Stomper"] = 28791,
+						["Jaedenar Hound"] = 15184,
+						["Deadwood Warrior"] = 16192,
+						["Entropic Beast"] = 6312,
+						["Alshirr Banebreath"] = 3463,
+						["Jadefire Trickster"] = 30536,
+						["Angerclaw Bear"] = 24316,
+						["Wastewander Assassin"] = 2310,
+						["洛科林丶雷酒"] = 50,
+						["Felpaw Scavenger"] = 36319,
+						["Withered Protector"] = 3272,
 						["Deadwood Gardener"] = 9854,
+						["Deadwood Pathfinder"] = 16608,
+						["Terrowulf Fleshripper"] = 955,
+						["Felpaw Ravager"] = 3090,
+						["Wastewander Rogue"] = 4241,
+						["Southsea Freebooter"] = 2251,
+						["Southsea Pirate"] = 2301,
 						["Infernal Sentry"] = 7138,
 					},
 					["pets"] = {
@@ -11780,61 +10580,96 @@ _detalhes_database = {
 						"Jaedenar Adept <洛科林丶雷酒>", -- [3]
 						"Deadwood Gardener <洛科林丶雷酒>", -- [4]
 					},
-					["total"] = 457593.766597,
+					["end_time"] = 1593949562,
+					["classe"] = "PRIEST",
+					["friendlyfire_total"] = 2002,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 554879.011459,
+					["last_dps"] = 118.712399203726,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["total"] = 583430.011459,
+					["friendlyfire"] = {
+						["洛科林丶雷酒"] = {
+							["spells"] = {
+								["Demonic Rune"] = 2002,
+							},
+							["total"] = 2002,
+						},
+					},
+					["fight_component"] = true,
+					["nome"] = "洛科林丶雷酒",
+					["spec"] = 258,
+					["grupo"] = true,
+					["tipo"] = 1,
+					["colocacao"] = 1,
 					["spells"] = {
 						["_ActorTable"] = {
 							["Mind Blast"] = {
-								["c_amt"] = 17,
+								["c_amt"] = 23,
 								["b_amt"] = 0,
-								["c_dmg"] = 15652,
+								["c_dmg"] = 21450,
 								["g_amt"] = 0,
 								["n_max"] = 686,
 								["targets"] = {
-									["Xavaric"] = 2475,
+									["Jadefire Rogue"] = 12127,
 									["Spitelash Siren"] = 1856,
 									["Xavathras"] = 1910,
-									["Jaedenar Cultist"] = 2363,
 									["Jadefire Betrayer"] = 15577,
 									["Jaedenar Guardian"] = 5790,
-									["Jaedenar Hound"] = 3059,
 									["Jadefire Satyr"] = 2774,
 									["Jaedenar Adept"] = 5206,
-									["Deadwood Warrior"] = 4984,
-									["Deadwood Gardener"] = 5562,
 									["Jadefire Shadowstalker"] = 8979,
-									["Withered Protector"] = 630,
 									["Jadefire Hellcaller"] = 9270,
 									["Spitelash Myrmidon"] = 1266,
-									["Irontree Stomper"] = 7734,
-									["Toxic Horror"] = 10343,
+									["Toxic Horror"] = 10946,
 									["Warpwood Moss Flayer"] = 9974,
 									["Jadefire Felsworn"] = 16501,
-									["Jadefire Rogue"] = 12127,
 									["Warpwood Shredder"] = 5839,
-									["Deadwood Pathfinder"] = 3772,
-									["Jadefire Trickster"] = 8913,
 									["Irontree Wanderer"] = 1930,
-									["Entropic Beast"] = 2554,
+									["Wastewander Rogue"] = 1572,
 									["Entropic Horror"] = 2503,
+									["Angerclaw Grizzly"] = 1555,
+									["Felpaw Wolf"] = 584,
+									["Xavaric"] = 2475,
+									["Jaedenar Cultist"] = 2958,
+									["Angerclaw Mauler"] = 5837,
+									["Aquementas"] = 630,
+									["Irontree Stomper"] = 9555,
+									["Jaedenar Hound"] = 3059,
+									["Deadwood Warrior"] = 4984,
+									["Entropic Beast"] = 2554,
+									["Withered Protector"] = 630,
+									["Jadefire Trickster"] = 8913,
+									["Angerclaw Bear"] = 6414,
+									["Wastewander Assassin"] = 586,
 									["Alshirr Banebreath"] = 1875,
+									["Deadwood Gardener"] = 5562,
+									["Deadwood Pathfinder"] = 3772,
+									["Terrowulf Fleshripper"] = 590,
+									["Felpaw Scavenger"] = 11418,
+									["Felpaw Ravager"] = 590,
+									["Southsea Freebooter"] = 969,
+									["Southsea Pirate"] = 626,
 									["Infernal Sentry"] = 2956,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 143070,
+								["n_dmg"] = 171662,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 249,
-								["total"] = 158722,
+								["counter"] = 302,
+								["total"] = 193112,
 								["c_max"] = 1008,
 								["id"] = "Mind Blast",
 								["r_dmg"] = 1291,
 								["r_amt"] = 3,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 232,
+								["n_amt"] = 279,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -11861,242 +10696,13 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["RESIST"] = 1,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
-							},
-							["Shadow Vulnerability"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Xavaric"] = 0,
-									["Warpwood Shredder"] = 0,
-									["Toxic Horror"] = 0,
-									["Jadefire Betrayer"] = 0,
-									["Warpwood Moss Flayer"] = 0,
-									["Infernal Sentry"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 8,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = "Shadow Vulnerability",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["RESIST"] = 8,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							["!Autoshot"] = {
-								["c_amt"] = 32,
-								["b_amt"] = 0,
-								["c_dmg"] = 4625,
-								["g_amt"] = 0,
-								["n_max"] = 130,
-								["targets"] = {
-									["Jadefire Rogue"] = 2132,
-									["Spitelash Siren"] = 1208,
-									["Xavathras"] = 154,
-									["Jaedenar Cultist"] = 532,
-									["Jadefire Betrayer"] = 2976,
-									["Jaedenar Guardian"] = 2961,
-									["Jaedenar Hound"] = 601,
-									["Jadefire Satyr"] = 1384,
-									["Jaedenar Adept"] = 436,
-									["Deadwood Warrior"] = 2998,
-									["Deadwood Gardener"] = 129,
-									["Jadefire Shadowstalker"] = 3168,
-									["Withered Protector"] = 95,
-									["Jadefire Hellcaller"] = 4198,
-									["Spitelash Myrmidon"] = 74,
-									["Irontree Stomper"] = 5902,
-									["Toxic Horror"] = 2097,
-									["Warpwood Moss Flayer"] = 1108,
-									["Jadefire Felsworn"] = 5359,
-									["Xavaric"] = 1152,
-									["Warpwood Shredder"] = 1291,
-									["Deadwood Pathfinder"] = 2526,
-									["Jadefire Trickster"] = 2219,
-									["Irontree Wanderer"] = 326,
-									["Entropic Beast"] = 202,
-									["Entropic Horror"] = 222,
-									["Alshirr Banebreath"] = 276,
-									["Infernal Sentry"] = 214,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 41315,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 467,
-								["total"] = 45940,
-								["c_max"] = 193,
-								["id"] = "!Autoshot",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["RESIST"] = 5,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 430,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							["Shadow Word: Pain"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 178,
-								["targets"] = {
-									["Xavaric"] = 2321,
-									["Spitelash Siren"] = 2686,
-									["Xavathras"] = 848,
-									["Jaedenar Cultist"] = 1113,
-									["Jadefire Betrayer"] = 13118,
-									["Jaedenar Guardian"] = 6862,
-									["Jaedenar Hound"] = 1011,
-									["Jadefire Satyr"] = 3734,
-									["Jaedenar Adept"] = 1852,
-									["Deadwood Warrior"] = 5744,
-									["Deadwood Gardener"] = 1682,
-									["Jadefire Shadowstalker"] = 7058,
-									["Withered Protector"] = 1026,
-									["Jadefire Hellcaller"] = 7331,
-									["Spitelash Myrmidon"] = 694,
-									["Irontree Stomper"] = 3553,
-									["Toxic Horror"] = 9605,
-									["Warpwood Moss Flayer"] = 8401,
-									["Jadefire Felsworn"] = 10859,
-									["Jadefire Rogue"] = 7488,
-									["Warpwood Shredder"] = 6241,
-									["Deadwood Pathfinder"] = 7952,
-									["Jadefire Trickster"] = 9808,
-									["Irontree Wanderer"] = 1510,
-									["Entropic Beast"] = 1543,
-									["Entropic Horror"] = 1720,
-									["Alshirr Banebreath"] = 1312,
-									["Infernal Sentry"] = 2444,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 129516,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 780,
-								["total"] = 129516,
-								["c_max"] = 0,
-								["id"] = "Shadow Word: Pain",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["RESIST"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 778,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							["Mind Flay"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 174,
-								["targets"] = {
-									["Xavaric"] = 2293,
-									["Spitelash Siren"] = 1983,
-									["Xavathras"] = 495,
-									["Jaedenar Cultist"] = 960,
-									["Jadefire Betrayer"] = 12206,
-									["Jaedenar Guardian"] = 2137,
-									["Jaedenar Hound"] = 1464,
-									["Jadefire Satyr"] = 972,
-									["Jaedenar Adept"] = 2147,
-									["Deadwood Gardener"] = 2481,
-									["Jadefire Shadowstalker"] = 4329,
-									["Withered Protector"] = 1521,
-									["Jadefire Hellcaller"] = 4620,
-									["Spitelash Myrmidon"] = 1014,
-									["Deadwood Warrior"] = 2466,
-									["Toxic Horror"] = 5472,
-									["Warpwood Moss Flayer"] = 9519,
-									["Jadefire Felsworn"] = 8756,
-									["Entropic Beast"] = 2013,
-									["Deadwood Pathfinder"] = 1795,
-									["Warpwood Shredder"] = 6532,
-									["Jadefire Rogue"] = 8893,
-									["Irontree Wanderer"] = 1482,
-									["Jadefire Trickster"] = 9596,
-									["Entropic Horror"] = 2368,
-									["Irontree Stomper"] = 5202,
-									["Infernal Sentry"] = 1524,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 104240,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 632,
-								["total"] = 104240,
-								["c_max"] = 0,
-								["id"] = "Mind Flay",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["RESIST"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 629,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							["Mind Soothe"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Spitelash Siren"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = "Mind Soothe",
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
 							},
 							["!Melee"] = {
 								["c_amt"] = 0,
@@ -12120,45 +10726,286 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
+							},
+							["!Autoshot"] = {
+								["c_amt"] = 38,
+								["b_amt"] = 0,
+								["c_dmg"] = 5554,
+								["g_amt"] = 0,
+								["n_max"] = 130,
+								["targets"] = {
+									["Jadefire Rogue"] = 2132,
+									["Spitelash Siren"] = 1208,
+									["Xavathras"] = 154,
+									["Jadefire Betrayer"] = 2976,
+									["Jaedenar Guardian"] = 2961,
+									["Jadefire Satyr"] = 1384,
+									["Jaedenar Adept"] = 663,
+									["Jadefire Shadowstalker"] = 3168,
+									["Jadefire Hellcaller"] = 4198,
+									["Spitelash Myrmidon"] = 74,
+									["Toxic Horror"] = 2344,
+									["Warpwood Moss Flayer"] = 1108,
+									["Jadefire Felsworn"] = 5359,
+									["Warpwood Shredder"] = 1291,
+									["Irontree Wanderer"] = 326,
+									["Wastewander Rogue"] = 355,
+									["Entropic Horror"] = 222,
+									["Angerclaw Grizzly"] = 73,
+									["Felpaw Wolf"] = 179,
+									["Xavaric"] = 1152,
+									["Jaedenar Cultist"] = 532,
+									["Angerclaw Mauler"] = 373,
+									["Irontree Stomper"] = 6568,
+									["Jaedenar Hound"] = 601,
+									["Deadwood Warrior"] = 2998,
+									["Entropic Beast"] = 202,
+									["Withered Protector"] = 95,
+									["Jadefire Trickster"] = 2219,
+									["Angerclaw Bear"] = 3432,
+									["Deadwood Pathfinder"] = 2526,
+									["Felpaw Ravager"] = 103,
+									["Alshirr Banebreath"] = 276,
+									["Deadwood Gardener"] = 129,
+									["Terrowulf Fleshripper"] = 365,
+									["Felpaw Scavenger"] = 1198,
+									["Infernal Sentry"] = 214,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 47604,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 536,
+								["total"] = 53158,
+								["c_max"] = 193,
+								["id"] = "!Autoshot",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["RESIST"] = 5,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 493,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Shadow Word: Pain"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 178,
+								["targets"] = {
+									["Jadefire Rogue"] = 7488,
+									["Spitelash Siren"] = 2686,
+									["Xavathras"] = 848,
+									["Jadefire Betrayer"] = 13118,
+									["Jaedenar Guardian"] = 6862,
+									["Jadefire Satyr"] = 3734,
+									["Jaedenar Adept"] = 1852,
+									["Jadefire Shadowstalker"] = 7058,
+									["Jadefire Hellcaller"] = 7331,
+									["Spitelash Myrmidon"] = 694,
+									["Toxic Horror"] = 10637,
+									["Warpwood Moss Flayer"] = 8401,
+									["Jadefire Felsworn"] = 10859,
+									["Warpwood Shredder"] = 6241,
+									["Irontree Wanderer"] = 1510,
+									["Pygmy Tide Crawler"] = 318,
+									["Entropic Horror"] = 1720,
+									["Angerclaw Grizzly"] = 835,
+									["Felpaw Wolf"] = 860,
+									["Xavaric"] = 2321,
+									["Jaedenar Cultist"] = 1113,
+									["Angerclaw Mauler"] = 5871,
+									["Aquementas"] = 854,
+									["Irontree Stomper"] = 5450,
+									["Jaedenar Hound"] = 1011,
+									["Deadwood Warrior"] = 5744,
+									["Entropic Beast"] = 1543,
+									["Withered Protector"] = 1026,
+									["Jadefire Trickster"] = 9808,
+									["Angerclaw Bear"] = 7684,
+									["Wastewander Assassin"] = 1247,
+									["Alshirr Banebreath"] = 1312,
+									["Deadwood Gardener"] = 1682,
+									["Deadwood Pathfinder"] = 7952,
+									["Felpaw Scavenger"] = 9410,
+									["Felpaw Ravager"] = 1049,
+									["Wastewander Rogue"] = 992,
+									["Southsea Freebooter"] = 805,
+									["Southsea Pirate"] = 673,
+									["Infernal Sentry"] = 2444,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 163043,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 977,
+								["total"] = 163043,
+								["c_max"] = 0,
+								["id"] = "Shadow Word: Pain",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["RESIST"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 975,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Mind Flay"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 174,
+								["targets"] = {
+									["Jadefire Rogue"] = 8893,
+									["Spitelash Siren"] = 1983,
+									["Xavathras"] = 495,
+									["Jadefire Betrayer"] = 12206,
+									["Jaedenar Guardian"] = 2137,
+									["Felpaw Scavenger"] = 14293,
+									["Jaedenar Adept"] = 2147,
+									["Jadefire Shadowstalker"] = 4329,
+									["Jadefire Hellcaller"] = 4620,
+									["Spitelash Myrmidon"] = 1014,
+									["Toxic Horror"] = 6990,
+									["Warpwood Moss Flayer"] = 9519,
+									["Jadefire Felsworn"] = 8756,
+									["Warpwood Shredder"] = 6532,
+									["Irontree Wanderer"] = 1482,
+									["Wastewander Rogue"] = 1322,
+									["Entropic Horror"] = 2368,
+									["Angerclaw Grizzly"] = 1148,
+									["Felpaw Wolf"] = 996,
+									["Xavaric"] = 2293,
+									["Jaedenar Cultist"] = 1280,
+									["Angerclaw Mauler"] = 7758,
+									["Aquementas"] = 1864,
+									["Irontree Stomper"] = 7218,
+									["Jaedenar Hound"] = 1464,
+									["Deadwood Warrior"] = 2466,
+									["Entropic Beast"] = 2013,
+									["Withered Protector"] = 1521,
+									["Jadefire Trickster"] = 9596,
+									["Angerclaw Bear"] = 6786,
+									["Wastewander Assassin"] = 477,
+									["Deadwood Pathfinder"] = 1795,
+									["Jadefire Satyr"] = 972,
+									["Deadwood Gardener"] = 2481,
+									["Felpaw Ravager"] = 1348,
+									["Southsea Freebooter"] = 477,
+									["Southsea Pirate"] = 1002,
+									["Infernal Sentry"] = 1524,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 145565,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 881,
+								["total"] = 145565,
+								["c_max"] = 0,
+								["id"] = "Mind Flay",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["RESIST"] = 5,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 876,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Mind Soothe"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Spitelash Siren"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Mind Soothe",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Shadow Vulnerability"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Xavaric"] = 0,
+									["Angerclaw Bear"] = 0,
+									["Toxic Horror"] = 0,
+									["Warpwood Moss Flayer"] = 0,
+									["Warpwood Shredder"] = 0,
+									["Wastewander Assassin"] = 0,
+									["Jadefire Betrayer"] = 0,
+									["Angerclaw Mauler"] = 0,
+									["Angerclaw Grizzly"] = 0,
+									["Infernal Sentry"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Shadow Vulnerability",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["RESIST"] = 12,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "PRIEST",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 438418.766597,
-					["damage_taken"] = 115538.766597,
-					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1593949562,
-					["friendlyfire_total"] = 2002,
-					["last_dps"] = 114.760539842588,
-					["nome"] = "洛科林丶雷酒",
-					["spec"] = 258,
-					["grupo"] = true,
-					["fight_component"] = true,
-					["tipo"] = 1,
 					["custom"] = 0,
-					["colocacao"] = 1,
 					["last_event"] = 0,
 					["on_hold"] = false,
-					["start_time"] = 1593946361,
+					["start_time"] = 1593945597,
 					["serial"] = "Player-4674-003AFFB8",
-					["friendlyfire"] = {
-						["洛科林丶雷酒"] = {
-							["spells"] = {
-								["Demonic Rune"] = 2002,
-							},
-							["total"] = 2002,
-						},
-					},
+					["damage_taken"] = 130396.011459,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
@@ -12175,15 +11022,15 @@ _detalhes_database = {
 					["pets"] = {
 						"豹 <Maga>", -- [1]
 					},
-					["classe"] = "HUNTER",
-					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
+					["tipo"] = 1,
+					["classe"] = "HUNTER",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 9107.030779,
 					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 13623.030779,
+					["end_time"] = 1593951203,
 					["on_hold"] = false,
 					["damage_taken"] = 1652.030779,
 					["nome"] = "Maga",
@@ -12209,8 +11056,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
@@ -12238,8 +11085,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
@@ -12266,8 +11113,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -12327,8 +11174,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
@@ -12355,8 +11202,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -12385,8 +11232,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
@@ -12413,8 +11260,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -12426,14 +11273,14 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["colocacao"] = 2,
-					["last_dps"] = 3.41653772540808,
+					["last_dps"] = 2.77192231533832,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
 					["start_time"] = 1593951061,
 					["serial"] = "Player-4674-0249E3A8",
-					["end_time"] = 1593951203,
+					["total"] = 13623.030779,
 				}, -- [2]
 				{
 					["flag_original"] = 68168,
@@ -12490,10 +11337,10 @@ _detalhes_database = {
 								["id"] = "Cripple",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 19,
 								["b_dmg"] = 0,
 								["RESIST"] = 6,
@@ -12520,10 +11367,10 @@ _detalhes_database = {
 								["id"] = "Jadefire",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 10,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 22,
 								["b_dmg"] = 0,
 								["RESIST"] = 6,
@@ -12556,8 +11403,8 @@ _detalhes_database = {
 								["a_dmg"] = 60,
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 1,
 								["n_amt"] = 45,
@@ -12587,10 +11434,10 @@ _detalhes_database = {
 								["id"] = "Shadow Bolt",
 								["r_dmg"] = 4059,
 								["r_amt"] = 28,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 76,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 103,
 								["b_dmg"] = 0,
 								["RESIST"] = 29,
@@ -12626,15 +11473,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
 					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 16248.060837,
 					["delay"] = 0,
-					["fight_component"] = true,
-					["end_time"] = 1593950643,
+					["monster"] = true,
+					["total"] = 16248.060837,
 					["friendlyfire_total"] = 0,
 					["friendlyfire"] = {
 					},
@@ -12664,10 +11511,10 @@ _detalhes_database = {
 								["id"] = "Fireball",
 								["r_dmg"] = 260,
 								["r_amt"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 49,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 54,
 								["b_dmg"] = 0,
 								["RESIST"] = 5,
@@ -12695,8 +11542,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 7,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -12724,11 +11571,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Jadefire"] = {
@@ -12750,8 +11597,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 7,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -12769,8 +11616,450 @@ _detalhes_database = {
 					["damage_taken"] = 29113.060837,
 					["start_time"] = 1593950470,
 					["serial"] = "Creature-0-4892-1-187-7111-000001C11D",
-					["total"] = 16248.060837,
+					["end_time"] = 1593950643,
 				}, -- [4]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 4536.065089,
+					["damage_from"] = {
+						["Jaedenar Cultist <洛科林丶雷酒>"] = true,
+						["发爷"] = true,
+						["Jaedenar Cultist"] = true,
+						["蒋三董"] = true,
+						["洛科林丶雷酒"] = true,
+						["Jaedenar Adept <洛科林丶雷酒>"] = true,
+					},
+					["targets"] = {
+						["Jaedenar Cultist <洛科林丶雷酒>"] = 2899,
+						["洛科林丶雷酒"] = 6471,
+						["蒋三董"] = 313,
+						["Jaedenar Adept <洛科林丶雷酒>"] = 2119,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 11802.065089,
+					["serial"] = "Creature-0-4892-1-187-7113-000001D45F",
+					["fight_component"] = true,
+					["end_time"] = 1593955643,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 32816.065089,
+					["nome"] = "Jaedenar Guardian",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Shield Bash"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 1,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 23,
+								["targets"] = {
+									["Jaedenar Cultist <洛科林丶雷酒>"] = 45,
+									["Jaedenar Cultist"] = 0,
+									["Jaedenar Adept"] = 0,
+									["蒋三董"] = 19,
+									["洛科林丶雷酒"] = 300,
+									["Jaedenar Adept <洛科林丶雷酒>"] = 69,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 433,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 26,
+								["total"] = 433,
+								["c_max"] = 0,
+								["id"] = "Shield Bash",
+								["r_dmg"] = 0,
+								["MISS"] = 3,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 26,
+								["b_dmg"] = 19,
+								["n_amt"] = 23,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["!Melee"] = {
+								["c_amt"] = 2,
+								["b_amt"] = 2,
+								["c_dmg"] = 264,
+								["g_amt"] = 0,
+								["n_max"] = 127,
+								["targets"] = {
+									["Jaedenar Cultist <洛科林丶雷酒>"] = 2854,
+									["Jaedenar Adept"] = 0,
+									["Jaedenar Cultist"] = 0,
+									["蒋三董"] = 294,
+									["洛科林丶雷酒"] = 6171,
+									["Jaedenar Adept <洛科林丶雷酒>"] = 2050,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11105,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 188,
+								["a_amt"] = 2,
+								["total"] = 11369,
+								["c_max"] = 145,
+								["DODGE"] = 8,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["b_dmg"] = 147,
+								["a_dmg"] = 112,
+								["m_crit"] = 0,
+								["PARRY"] = 3,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 169,
+								["MISS"] = 6,
+								["r_amt"] = 0,
+							},
+							["Improved Blocking"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Improved Blocking",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 16,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 11802.065089,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1593955289,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [5]
+				{
+					["flag_original"] = 4369,
+					["totalabsorbed"] = 0.029572,
+					["damage_from"] = {
+						["Jaedenar Guardian"] = true,
+						["Jaedenar Adept"] = true,
+						["Jaedenar Cultist"] = true,
+					},
+					["targets"] = {
+						["Jaedenar Guardian"] = 7203,
+						["洛科林丶雷酒"] = 50,
+						["Jaedenar Adept"] = 2126,
+						["Jaedenar Cultist"] = 2358,
+					},
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 11737.029572,
+					["damage_taken"] = 6875.029572,
+					["fight_component"] = true,
+					["end_time"] = 1593955965,
+					["serial"] = "Creature-0-4892-1-187-7112-000001D326",
+					["on_hold"] = false,
+					["nome"] = "Jaedenar Cultist <洛科林丶雷酒>",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Shadow Word: Pain"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 75,
+								["targets"] = {
+									["Jaedenar Guardian"] = 1971,
+									["Jaedenar Adept"] = 438,
+									["Jaedenar Cultist"] = 375,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2784,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 38,
+								["total"] = 2784,
+								["c_max"] = 0,
+								["id"] = "Shadow Word: Pain",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 38,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 1,
+								["c_dmg"] = 0,
+								["g_amt"] = 2,
+								["n_max"] = 50,
+								["targets"] = {
+									["Jaedenar Guardian"] = 74,
+									["洛科林丶雷酒"] = 50,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 62,
+								["n_min"] = 0,
+								["g_dmg"] = 62,
+								["counter"] = 5,
+								["total"] = 124,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 12,
+								["n_amt"] = 2,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["Shadow Bolt"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 373,
+								["targets"] = {
+									["Jaedenar Guardian"] = 5158,
+									["Jaedenar Adept"] = 1688,
+									["Jaedenar Cultist"] = 1983,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8829,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 27,
+								["total"] = 8829,
+								["c_max"] = 0,
+								["id"] = "Shadow Bolt",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 27,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["friendlyfire"] = {
+					},
+					["total"] = 11737.029572,
+					["dps_started"] = false,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1593955824,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+				}, -- [6]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 647.061763,
+					["damage_from"] = {
+						["Jaedenar Adept <洛科林丶雷酒>"] = true,
+						["Jaedenar Cultist <洛科林丶雷酒>"] = true,
+						["洛科林丶雷酒"] = true,
+						["Jaedenar Cultist"] = true,
+					},
+					["targets"] = {
+						["Jaedenar Guardian"] = 150,
+						["Jaedenar Cultist <洛科林丶雷酒>"] = 1342,
+						["Jaedenar Cultist"] = 152,
+						["洛科林丶雷酒"] = 5295,
+						["Jaedenar Adept"] = 299,
+						["Jaedenar Adept <洛科林丶雷酒>"] = 2295,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["on_hold"] = false,
+					["classe"] = "MAGE",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 9533.061763,
+					["serial"] = "Creature-0-4892-1-187-7112-000001D2BE",
+					["monster"] = true,
+					["end_time"] = 1593955965,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 10991.061763,
+					["nome"] = "Jaedenar Cultist",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Shadow Word: Pain"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 77,
+								["targets"] = {
+									["Jaedenar Guardian"] = 150,
+									["Jaedenar Cultist <洛科林丶雷酒>"] = 150,
+									["Jaedenar Cultist"] = 152,
+									["Jaedenar Adept"] = 299,
+									["Jaedenar Adept <洛科林丶雷酒>"] = 148,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 899,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 899,
+								["c_max"] = 0,
+								["id"] = "Shadow Word: Pain",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 12,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 50,
+								["targets"] = {
+									["洛科林丶雷酒"] = 98,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 98,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 98,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["Curse of Weakness"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Curse of Weakness",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 5,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["Shadow Bolt"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 374,
+								["targets"] = {
+									["洛科林丶雷酒"] = 5197,
+									["Jaedenar Cultist <洛科林丶雷酒>"] = 1192,
+									["Jaedenar Adept <洛科林丶雷酒>"] = 2147,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8536,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 31,
+								["total"] = 8536,
+								["c_max"] = 0,
+								["id"] = "Shadow Bolt",
+								["r_dmg"] = 330,
+								["a_dmg"] = 351,
+								["a_amt"] = 1,
+								["m_crit"] = 0,
+								["RESIST"] = 3,
+								["c_min"] = 0,
+								["successful_casted"] = 28,
+								["b_dmg"] = 0,
+								["n_amt"] = 28,
+								["m_amt"] = 0,
+								["r_amt"] = 2,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 9533.061763,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1593955824,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [7]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 3177.068656,
@@ -12837,8 +12126,8 @@ _detalhes_database = {
 								["a_dmg"] = 83,
 								["b_dmg"] = 44,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 1,
 								["n_amt"] = 127,
@@ -12864,10 +12153,10 @@ _detalhes_database = {
 								["id"] = "Jadefire",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 17,
 								["b_dmg"] = 0,
 								["RESIST"] = 4,
@@ -12893,8 +12182,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -12920,10 +12209,10 @@ _detalhes_database = {
 								["id"] = "Curse of Tongues",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 13,
 								["b_dmg"] = 0,
 								["RESIST"] = 2,
@@ -12949,10 +12238,10 @@ _detalhes_database = {
 								["id"] = "Curse of Weakness",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 7,
 								["b_dmg"] = 0,
 								["RESIST"] = 2,
@@ -12971,771 +12260,33 @@ _detalhes_database = {
 					["start_time"] = 1593949976,
 					["serial"] = "Creature-0-4892-1-187-7107-000001C028",
 					["fight_component"] = true,
-				}, -- [5]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 4536.055427,
-					["damage_from"] = {
-						["Jaedenar Cultist <洛科林丶雷酒>"] = true,
-						["发爷"] = true,
-						["Jaedenar Cultist"] = true,
-						["蒋三董"] = true,
-						["洛科林丶雷酒"] = true,
-						["Jaedenar Adept <洛科林丶雷酒>"] = true,
-					},
-					["targets"] = {
-						["Jaedenar Cultist <洛科林丶雷酒>"] = 1656,
-						["洛科林丶雷酒"] = 6471,
-						["蒋三董"] = 313,
-						["Jaedenar Adept <洛科林丶雷酒>"] = 538,
-					},
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 8978.055427,
-					["serial"] = "Creature-0-4892-1-187-7113-000001D45F",
-					["fight_component"] = true,
-					["total"] = 8978.055427,
-					["classe"] = "UNKNOW",
-					["friendlyfire"] = {
-					},
-					["nome"] = "Jaedenar Guardian",
-					["spells"] = {
-						["_ActorTable"] = {
-							["Shield Bash"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 23,
-								["targets"] = {
-									["Jaedenar Cultist <洛科林丶雷酒>"] = 3,
-									["Jaedenar Cultist"] = 0,
-									["蒋三董"] = 19,
-									["洛科林丶雷酒"] = 300,
-									["Jaedenar Adept <洛科林丶雷酒>"] = 23,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 345,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 21,
-								["total"] = 345,
-								["c_max"] = 0,
-								["id"] = "Shield Bash",
-								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 21,
-								["b_dmg"] = 0,
-								["n_amt"] = 19,
-								["a_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							["!Melee"] = {
-								["c_amt"] = 1,
-								["b_amt"] = 1,
-								["c_dmg"] = 119,
-								["g_amt"] = 0,
-								["n_max"] = 127,
-								["targets"] = {
-									["Jaedenar Cultist <洛科林丶雷酒>"] = 1653,
-									["Jaedenar Adept"] = 0,
-									["Jaedenar Cultist"] = 0,
-									["蒋三董"] = 294,
-									["洛科林丶雷酒"] = 6171,
-									["Jaedenar Adept <洛科林丶雷酒>"] = 515,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 8514,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 147,
-								["a_amt"] = 2,
-								["r_amt"] = 0,
-								["c_max"] = 119,
-								["DODGE"] = 6,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["b_dmg"] = 80,
-								["a_dmg"] = 112,
-								["m_crit"] = 0,
-								["PARRY"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["c_min"] = 0,
-								["n_amt"] = 134,
-								["MISS"] = 5,
-								["total"] = 8633,
-							},
-							["Improved Blocking"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = "Improved Blocking",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 13,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["last_event"] = 0,
-					["end_time"] = 1593955643,
-					["monster"] = true,
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1593955376,
-					["delay"] = 0,
-					["damage_taken"] = 26452.055427,
-				}, -- [6]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 2950.051738,
-					["damage_from"] = {
-						["有一个姐姐"] = true,
-						["洛科林丶雷酒"] = true,
-						["Maga"] = true,
-						["豹 <Maga>"] = true,
-					},
-					["targets"] = {
-						["有一个姐姐"] = 1109,
-						["豹 <Maga>"] = 660,
-						["洛科林丶雷酒"] = 7113,
-					},
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 8882.051738,
-					["delay"] = 0,
-					["monster"] = true,
-					["total"] = 8882.051738,
-					["classe"] = "UNKNOW",
-					["last_dps"] = 0,
-					["nome"] = "Jadefire Shadowstalker",
-					["spells"] = {
-						["_ActorTable"] = {
-							["Slowing Poison"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["洛科林丶雷酒"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = "Slowing Poison",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["a_amt"] = 0,
-								["m_crit"] = 0,
-								["RESIST"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							["!Melee"] = {
-								["c_amt"] = 3,
-								["b_amt"] = 0,
-								["c_dmg"] = 528,
-								["g_amt"] = 0,
-								["n_max"] = 143,
-								["targets"] = {
-									["有一个姐姐"] = 1109,
-									["豹 <Maga>"] = 160,
-									["豹"] = 0,
-									["洛科林丶雷酒"] = 7113,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 7854,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 120,
-								["total"] = 8382,
-								["c_max"] = 185,
-								["r_amt"] = 0,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["a_dmg"] = 87,
-								["b_dmg"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 1,
-								["n_amt"] = 106,
-								["MISS"] = 9,
-								["DODGE"] = 2,
-							},
-							["Jadefire"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 50,
-								["targets"] = {
-									["豹"] = 0,
-									["豹 <Maga>"] = 500,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 500,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 11,
-								["total"] = 500,
-								["c_max"] = 0,
-								["id"] = "Jadefire",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["n_amt"] = 10,
-								["m_amt"] = 0,
-								["successful_casted"] = 13,
-								["b_dmg"] = 0,
-								["RESIST"] = 1,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["tipo"] = 1,
-					["end_time"] = 1593951312,
-					["damage_taken"] = 34883.051738,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
-					["start_time"] = 1593951082,
-					["serial"] = "Creature-0-4892-1-187-7110-000001B925",
-					["fight_component"] = true,
-				}, -- [7]
-				{
-					["flag_original"] = 4369,
-					["totalabsorbed"] = 0.02446,
-					["damage_from"] = {
-						["Jaedenar Guardian"] = true,
-						["Jaedenar Adept"] = true,
-						["Jaedenar Cultist"] = true,
-					},
-					["targets"] = {
-						["Jaedenar Guardian"] = 4161,
-						["洛科林丶雷酒"] = 50,
-						["Jaedenar Adept"] = 2126,
-						["Jaedenar Cultist"] = 2358,
-					},
-					["pets"] = {
-					},
-					["last_event"] = 0,
-					["classe"] = "PET",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 8695.02446,
-					["on_hold"] = false,
-					["fight_component"] = true,
-					["end_time"] = 1593955965,
-					["serial"] = "Creature-0-4892-1-187-7112-000001D326",
-					["friendlyfire"] = {
-					},
-					["nome"] = "Jaedenar Cultist <洛科林丶雷酒>",
-					["spells"] = {
-						["_ActorTable"] = {
-							["Shadow Word: Pain"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 75,
-								["targets"] = {
-									["Jaedenar Guardian"] = 1168,
-									["Jaedenar Adept"] = 438,
-									["Jaedenar Cultist"] = 375,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1981,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 27,
-								["total"] = 1981,
-								["c_max"] = 0,
-								["id"] = "Shadow Word: Pain",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 27,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							["!Melee"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 1,
-								["c_dmg"] = 0,
-								["g_amt"] = 2,
-								["n_max"] = 50,
-								["targets"] = {
-									["Jaedenar Guardian"] = 74,
-									["洛科林丶雷酒"] = 50,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 62,
-								["n_min"] = 0,
-								["g_dmg"] = 62,
-								["counter"] = 5,
-								["total"] = 124,
-								["c_max"] = 0,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["PARRY"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 12,
-								["n_amt"] = 2,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							["Shadow Bolt"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 373,
-								["targets"] = {
-									["Jaedenar Guardian"] = 2919,
-									["Jaedenar Adept"] = 1688,
-									["Jaedenar Cultist"] = 1983,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 6590,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 20,
-								["total"] = 6590,
-								["c_max"] = 0,
-								["id"] = "Shadow Bolt",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 20,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["last_dps"] = 0,
-					["total"] = 8695.02446,
-					["dps_started"] = false,
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 5632.02446,
-					["start_time"] = 1593955864,
-					["delay"] = 0,
-					["friendlyfire_total"] = 0,
 				}, -- [8]
 				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 374.047521,
-					["damage_from"] = {
-						["Jaedenar Adept <洛科林丶雷酒>"] = true,
-						["Jaedenar Cultist <洛科林丶雷酒>"] = true,
-						["洛科林丶雷酒"] = true,
-						["Jaedenar Cultist"] = true,
-					},
-					["targets"] = {
-						["Jaedenar Guardian"] = 150,
-						["Jaedenar Cultist <洛科林丶雷酒>"] = 1342,
-						["Jaedenar Cultist"] = 152,
-						["洛科林丶雷酒"] = 4068,
-						["Jaedenar Adept"] = 299,
-						["Jaedenar Adept <洛科林丶雷酒>"] = 2295,
-					},
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 8306.047521,
-					["serial"] = "Creature-0-4892-1-187-7112-000001D2BE",
-					["monster"] = true,
-					["total"] = 8306.047521,
-					["classe"] = "MAGE",
-					["friendlyfire"] = {
-					},
-					["nome"] = "Jaedenar Cultist",
-					["spells"] = {
-						["_ActorTable"] = {
-							["Shadow Word: Pain"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 77,
-								["targets"] = {
-									["Jaedenar Guardian"] = 150,
-									["Jaedenar Cultist <洛科林丶雷酒>"] = 150,
-									["Jaedenar Cultist"] = 152,
-									["Jaedenar Adept"] = 299,
-									["Jaedenar Adept <洛科林丶雷酒>"] = 148,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 899,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 12,
-								["total"] = 899,
-								["c_max"] = 0,
-								["id"] = "Shadow Word: Pain",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 12,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							["!Melee"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 50,
-								["targets"] = {
-									["洛科林丶雷酒"] = 98,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 98,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 98,
-								["c_max"] = 0,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							["Curse of Weakness"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = "Curse of Weakness",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 4,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							["Shadow Bolt"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 374,
-								["targets"] = {
-									["洛科林丶雷酒"] = 3970,
-									["Jaedenar Cultist <洛科林丶雷酒>"] = 1192,
-									["Jaedenar Adept <洛科林丶雷酒>"] = 2147,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 7309,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 26,
-								["total"] = 7309,
-								["c_max"] = 0,
-								["id"] = "Shadow Bolt",
-								["r_dmg"] = 330,
-								["a_dmg"] = 351,
-								["a_amt"] = 1,
-								["m_crit"] = 0,
-								["RESIST"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 24,
-								["b_dmg"] = 0,
-								["n_amt"] = 24,
-								["c_min"] = 0,
-								["r_amt"] = 2,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["last_event"] = 0,
-					["end_time"] = 1593955965,
-					["fight_component"] = true,
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1593955834,
-					["delay"] = 0,
-					["damage_taken"] = 10076.047521,
-				}, -- [9]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 3374.081306,
-					["damage_from"] = {
-						["萌新不会玩"] = true,
-						["洛科林丶雷酒"] = true,
-						["佐尔米尔"] = true,
-					},
-					["targets"] = {
-						["萌新不会玩"] = 908,
-						["洛科林丶雷酒"] = 7314,
-						["巴弗格"] = 80,
-					},
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["damage_taken"] = 48877.081306,
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 8302.081306,
-					["delay"] = 0,
-					["monster"] = true,
-					["total"] = 8302.081306,
-					["classe"] = "UNKNOW",
-					["on_hold"] = false,
-					["nome"] = "Jadefire Betrayer",
-					["spells"] = {
-						["_ActorTable"] = {
-							["Cleave"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 139,
-								["targets"] = {
-									["萌新不会玩"] = 353,
-									["洛科林丶雷酒"] = 1419,
-									["巴弗格"] = 80,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1852,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 18,
-								["total"] = 1852,
-								["c_max"] = 0,
-								["id"] = "Cleave",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 16,
-								["b_dmg"] = 0,
-								["n_amt"] = 18,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							["Rend"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 29,
-								["targets"] = {
-									["萌新不会玩"] = 58,
-									["洛科林丶雷酒"] = 674,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 732,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 29,
-								["total"] = 732,
-								["c_max"] = 0,
-								["id"] = "Rend",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 8,
-								["b_dmg"] = 0,
-								["n_amt"] = 29,
-								["a_amt"] = 1,
-								["a_dmg"] = 28,
-							},
-							["!Melee"] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 508,
-								["g_amt"] = 0,
-								["n_max"] = 126,
-								["targets"] = {
-									["萌新不会玩"] = 497,
-									["洛科林丶雷酒"] = 5221,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 5210,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 83,
-								["total"] = 5718,
-								["c_max"] = 135,
-								["MISS"] = 4,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["a_amt"] = 3,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 73,
-								["a_dmg"] = 203,
-								["DODGE"] = 2,
-							},
-							["Jadefire"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = "Jadefire",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 15,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["tipo"] = 1,
-					["fight_component"] = true,
-					["friendlyfire"] = {
-					},
-					["custom"] = 0,
-					["last_event"] = 0,
-					["last_dps"] = 0,
-					["start_time"] = 1593950410,
-					["serial"] = "Creature-0-4892-1-187-7108-000001C14C",
-					["end_time"] = 1593950643,
-				}, -- [10]
-				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 1275.078119,
+					["totalabsorbed"] = 1275.090979,
 					["damage_from"] = {
 						["洛科林丶雷酒"] = true,
 						["Jaedenar Cultist <洛科林丶雷酒>"] = true,
 						["Jaedenar Cultist"] = true,
 					},
 					["targets"] = {
-						["洛科林丶雷酒"] = 5035,
+						["洛科林丶雷酒"] = 5974,
 						["Maga"] = 322,
 						["Jaedenar Cultist <洛科林丶雷酒>"] = 2634,
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 7991.078119,
+					["total_without_pet"] = 8930.090979,
 					["serial"] = "Creature-0-4892-1-187-7115-000001D498",
 					["monster"] = true,
-					["total"] = 7991.078119,
-					["classe"] = "UNKNOW",
-					["friendlyfire"] = {
-					},
+					["end_time"] = 1593955643,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 12293.090979,
 					["nome"] = "Jaedenar Adept",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -13747,28 +12298,28 @@ _detalhes_database = {
 								["n_max"] = 367,
 								["targets"] = {
 									["Jaedenar Cultist <洛科林丶雷酒>"] = 1903,
-									["洛科林丶雷酒"] = 4287,
+									["洛科林丶雷酒"] = 5226,
 									["Maga"] = 322,
 									["Jaedenar Cultist"] = 0,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 6512,
+								["n_dmg"] = 7451,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 24,
-								["total"] = 6512,
+								["counter"] = 29,
+								["total"] = 7451,
 								["c_max"] = 0,
 								["id"] = "Fireball",
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["a_amt"] = 0,
 								["m_crit"] = 0,
-								["RESIST"] = 4,
-								["m_amt"] = 0,
-								["successful_casted"] = 23,
-								["b_dmg"] = 0,
-								["n_amt"] = 20,
+								["RESIST"] = 6,
 								["c_min"] = 0,
+								["successful_casted"] = 28,
+								["b_dmg"] = 0,
+								["n_amt"] = 23,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["!Melee"] = {
@@ -13824,50 +12375,347 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["m_crit"] = 0,
 								["RESIST"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["last_event"] = 0,
-					["end_time"] = 1593955643,
-					["fight_component"] = true,
+					["total"] = 8930.090979,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1593955533,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1593955505,
 					["delay"] = 0,
-					["damage_taken"] = 12066.078119,
+					["dps_started"] = false,
+				}, -- [9]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 2950.051738,
+					["damage_from"] = {
+						["有一个姐姐"] = true,
+						["洛科林丶雷酒"] = true,
+						["Maga"] = true,
+						["豹 <Maga>"] = true,
+					},
+					["targets"] = {
+						["有一个姐姐"] = 1109,
+						["豹 <Maga>"] = 660,
+						["洛科林丶雷酒"] = 7113,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 8882.051738,
+					["delay"] = 0,
+					["monster"] = true,
+					["total"] = 8882.051738,
+					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["nome"] = "Jadefire Shadowstalker",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Slowing Poison"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["洛科林丶雷酒"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Slowing Poison",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["RESIST"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["!Melee"] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 528,
+								["g_amt"] = 0,
+								["n_max"] = 143,
+								["targets"] = {
+									["有一个姐姐"] = 1109,
+									["豹 <Maga>"] = 160,
+									["豹"] = 0,
+									["洛科林丶雷酒"] = 7113,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7854,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 120,
+								["total"] = 8382,
+								["c_max"] = 185,
+								["r_amt"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["a_dmg"] = 87,
+								["b_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 1,
+								["n_amt"] = 106,
+								["MISS"] = 9,
+								["DODGE"] = 2,
+							},
+							["Jadefire"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 50,
+								["targets"] = {
+									["豹"] = 0,
+									["豹 <Maga>"] = 500,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 500,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 500,
+								["c_max"] = 0,
+								["id"] = "Jadefire",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["n_amt"] = 10,
+								["c_min"] = 0,
+								["successful_casted"] = 13,
+								["b_dmg"] = 0,
+								["RESIST"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["end_time"] = 1593951312,
+					["damage_taken"] = 34883.051738,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1593951082,
+					["serial"] = "Creature-0-4892-1-187-7110-000001B925",
+					["fight_component"] = true,
+				}, -- [10]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 3374.081306,
+					["damage_from"] = {
+						["萌新不会玩"] = true,
+						["洛科林丶雷酒"] = true,
+						["佐尔米尔"] = true,
+					},
+					["targets"] = {
+						["萌新不会玩"] = 908,
+						["洛科林丶雷酒"] = 7314,
+						["巴弗格"] = 80,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["damage_taken"] = 48877.081306,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 8302.081306,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1593950643,
+					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["nome"] = "Jadefire Betrayer",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Cleave"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 139,
+								["targets"] = {
+									["萌新不会玩"] = 353,
+									["洛科林丶雷酒"] = 1419,
+									["巴弗格"] = 80,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1852,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 1852,
+								["c_max"] = 0,
+								["id"] = "Cleave",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 16,
+								["b_dmg"] = 0,
+								["n_amt"] = 18,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Rend"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 29,
+								["targets"] = {
+									["萌新不会玩"] = 58,
+									["洛科林丶雷酒"] = 674,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 732,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 29,
+								["total"] = 732,
+								["c_max"] = 0,
+								["id"] = "Rend",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 8,
+								["b_dmg"] = 0,
+								["n_amt"] = 29,
+								["a_amt"] = 1,
+								["a_dmg"] = 28,
+							},
+							["!Melee"] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 508,
+								["g_amt"] = 0,
+								["n_max"] = 126,
+								["targets"] = {
+									["萌新不会玩"] = 497,
+									["洛科林丶雷酒"] = 5221,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5210,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 83,
+								["total"] = 5718,
+								["c_max"] = 135,
+								["MISS"] = 4,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_amt"] = 3,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 73,
+								["a_dmg"] = 203,
+								["DODGE"] = 2,
+							},
+							["Jadefire"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Jadefire",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 15,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1593950410,
+					["serial"] = "Creature-0-4892-1-187-7108-000001C14C",
+					["total"] = 8302.081306,
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 1713.057649,
+					["totalabsorbed"] = 1713.061422,
 					["damage_from"] = {
 						["Arei"] = true,
 						["洛科林丶雷酒"] = true,
 					},
 					["targets"] = {
 						["凌天"] = 91,
-						["洛科林丶雷酒"] = 6832,
+						["洛科林丶雷酒"] = 6965,
 						["Arei"] = 1015,
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
+					["monster"] = true,
 					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 7938.057649,
+					["total_without_pet"] = 8071.061422,
 					["delay"] = 0,
-					["monster"] = true,
-					["total"] = 7938.057649,
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["end_time"] = 1593949562,
+					["friendlyfire_total"] = 0,
 					["friendlyfire"] = {
 					},
 					["nome"] = "Toxic Horror",
@@ -13894,10 +12742,10 @@ _detalhes_database = {
 								["id"] = "Localized Toxin",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["n_amt"] = 34,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 13,
 								["b_dmg"] = 0,
 								["RESIST"] = 3,
@@ -13905,22 +12753,22 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 							},
 							["!Melee"] = {
-								["c_amt"] = 1,
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 122,
+								["c_dmg"] = 255,
 								["g_amt"] = 0,
 								["n_max"] = 94,
 								["targets"] = {
 									["Arei"] = 181,
-									["洛科林丶雷酒"] = 5377,
+									["洛科林丶雷酒"] = 5510,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 5436,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 81,
-								["total"] = 5558,
-								["c_max"] = 122,
+								["counter"] = 82,
+								["total"] = 5691,
+								["c_max"] = 133,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
@@ -13968,12 +12816,12 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["tipo"] = 1,
-					["last_dps"] = 0,
-					["end_time"] = 1593949562,
+					["total"] = 8071.061422,
+					["damage_taken"] = 33187.061422,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 29787.057649,
-					["start_time"] = 1593949392,
+					["last_dps"] = 0,
+					["start_time"] = 1593949391,
 					["serial"] = "Creature-0-4892-1-187-7132-000001B656",
 					["dps_started"] = false,
 				}, -- [12]
@@ -13990,17 +12838,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 16608.038107,
+					["monster"] = true,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 7935.038107,
 					["serial"] = "Creature-0-4892-1-187-7155-0000040088",
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 7935.038107,
 					["classe"] = "UNKNOW",
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Deadwood Pathfinder",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -14057,11 +12905,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["!Melee"] = {
@@ -14088,11 +12936,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 2,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 18,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -14103,11 +12951,11 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 16608.038107,
 					["start_time"] = 1594098716,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
@@ -14191,8 +13039,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 8,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -14216,17 +13064,17 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 86,
-								["total"] = 5427,
 								["r_amt"] = 0,
+								["total"] = 5427,
 								["c_max"] = 137,
 								["DODGE"] = 2,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
 								["b_dmg"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_dmg"] = 0,
 								["n_amt"] = 77,
@@ -14253,8 +13101,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -14349,7 +13197,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 65,
 								["DODGE"] = 1,
-								["r_amt"] = 0,
+								["total"] = 3796,
 								["c_max"] = 115,
 								["a_amt"] = 2,
 								["id"] = "!Melee",
@@ -14358,12 +13206,12 @@ _detalhes_database = {
 								["a_dmg"] = 140,
 								["m_crit"] = 0,
 								["PARRY"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
 								["n_amt"] = 57,
 								["MISS"] = 3,
-								["total"] = 3796,
+								["r_amt"] = 0,
 							},
 							["Curse of the Deadwood"] = {
 								["c_amt"] = 0,
@@ -14387,11 +13235,11 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["m_crit"] = 0,
 								["RESIST"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -14514,14 +13362,14 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["a_amt"] = 0,
 								["counter"] = 95,
-								["r_amt"] = 0,
 								["total"] = 3591,
+								["r_amt"] = 0,
 								["c_max"] = 117,
 								["b_dmg"] = 3,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 4,
 								["BLOCK"] = 1,
@@ -14545,6 +13393,109 @@ _detalhes_database = {
 					["serial"] = "Pet-0-4892-1-187-2850-0200C1AC3E",
 					["on_hold"] = false,
 				}, -- [16]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 447.06563,
+					["damage_from"] = {
+						["Arei"] = true,
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["Arei"] = 2232,
+						["洛科林丶雷酒"] = 2181,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 4413.06563,
+					["delay"] = 0,
+					["monster"] = true,
+					["end_time"] = 1594099925,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 38524.06563,
+					["nome"] = "Irontree Stomper",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 1,
+								["b_amt"] = 4,
+								["c_dmg"] = 140,
+								["g_amt"] = 0,
+								["n_max"] = 73,
+								["targets"] = {
+									["Arei"] = 2232,
+									["洛科林丶雷酒"] = 2181,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4273,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 100,
+								["total"] = 4413,
+								["r_amt"] = 0,
+								["c_max"] = 140,
+								["MISS"] = 7,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["b_dmg"] = 83,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 15,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 73,
+								["a_amt"] = 0,
+								["DODGE"] = 4,
+							},
+							["War Stomp"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Arei"] = 0,
+									["洛科林丶雷酒"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "War Stomp",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 8,
+								["b_dmg"] = 0,
+								["RESIST"] = 3,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["total"] = 4413.06563,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1594099738,
+					["serial"] = "Creature-0-4892-1-187-7139-0000040806",
+					["dps_started"] = false,
+				}, -- [17]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 1161.014755,
@@ -14621,11 +13572,11 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["m_crit"] = 0,
 								["RESIST"] = 3,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -14641,94 +13592,112 @@ _detalhes_database = {
 					["start_time"] = 1594099557,
 					["delay"] = 0,
 					["dps_started"] = false,
-				}, -- [17]
+				}, -- [18]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 447.051096,
+					["totalabsorbed"] = 3408.086345,
 					["damage_from"] = {
-						["Arei"] = true,
 						["洛科林丶雷酒"] = true,
 					},
 					["targets"] = {
-						["Arei"] = 2232,
-						["洛科林丶雷酒"] = 1728,
+						["洛科林丶雷酒"] = 4191,
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 3960.051096,
+					["total_without_pet"] = 4191.086345,
 					["delay"] = 0,
 					["fight_component"] = true,
-					["total"] = 3960.051096,
-					["friendlyfire"] = {
-					},
-					["damage_taken"] = 32124.051096,
-					["nome"] = "Irontree Stomper",
+					["total"] = 4191.086345,
+					["classe"] = "UNKNOW",
+					["damage_taken"] = 36319.086345,
+					["nome"] = "Felpaw Scavenger",
 					["spells"] = {
 						["_ActorTable"] = {
-							["!Melee"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 4,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 73,
-								["targets"] = {
-									["Arei"] = 2232,
-									["洛科林丶雷酒"] = 1728,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3960,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 93,
-								["r_amt"] = 0,
-								["total"] = 3960,
-								["c_max"] = 0,
-								["MISS"] = 6,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["b_dmg"] = 83,
-								["m_amt"] = 0,
-								["m_crit"] = 0,
-								["PARRY"] = 15,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_dmg"] = 0,
-								["n_amt"] = 68,
-								["a_amt"] = 0,
-								["DODGE"] = 4,
-							},
-							["War Stomp"] = {
+							["Tendon Rip"] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Arei"] = 0,
-									["洛科林丶雷酒"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 3,
+								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = "War Stomp",
+								["id"] = "Tendon Rip",
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["m_amt"] = 0,
 								["m_crit"] = 0,
-								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 8,
+								["successful_casted"] = 2,
 								["b_dmg"] = 0,
-								["RESIST"] = 3,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 85,
+								["targets"] = {
+									["洛科林丶雷酒"] = 4191,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4191,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 69,
+								["total"] = 4191,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 67,
+								["a_dmg"] = 0,
+								["MISS"] = 2,
+							},
+							["Infected Wound"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Infected Wound",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -14736,15 +13705,123 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["tipo"] = 1,
-					["classe"] = "UNKNOW",
-					["end_time"] = 1594099925,
+					["end_time"] = 1593949829,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
-					["start_time"] = 1594099754,
-					["serial"] = "Creature-0-4892-1-187-7139-0000040806",
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1593949681,
+					["serial"] = "Creature-0-4892-1-187-8960-0000019935",
+					["monster"] = true,
+				}, -- [19]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 1339.020646,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+						["Jaedenar Guardian <洛科林丶雷酒>"] = true,
+						["Jaedenar Adept <洛科林丶雷酒>"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 2175,
+						["Jaedenar Guardian <洛科林丶雷酒>"] = 557,
+						["Jaedenar Adept <洛科林丶雷酒>"] = 1099,
+					},
+					["pets"] = {
+					},
 					["dps_started"] = false,
-				}, -- [18]
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 3831.020646,
+					["serial"] = "Creature-0-4892-1-187-7125-000001D493",
+					["fight_component"] = true,
+					["end_time"] = 1593955677,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Jaedenar Hound",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 3,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 115,
+								["targets"] = {
+									["Jaedenar Guardian"] = 0,
+									["Jaedenar Adept"] = 0,
+									["洛科林丶雷酒"] = 1232,
+									["Jaedenar Guardian <洛科林丶雷酒>"] = 557,
+									["Jaedenar Adept <洛科林丶雷酒>"] = 1099,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2888,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 49,
+								["a_amt"] = 0,
+								["total"] = 2888,
+								["c_max"] = 0,
+								["MISS"] = 3,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["b_dmg"] = 160,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 43,
+								["DODGE"] = 1,
+								["r_amt"] = 0,
+							},
+							["Mana Burn"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 285,
+								["targets"] = {
+									["洛科林丶雷酒"] = 943,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 943,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 943,
+								["c_max"] = 0,
+								["id"] = "Mana Burn",
+								["r_dmg"] = 658,
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["RESIST"] = 3,
+								["c_min"] = 0,
+								["successful_casted"] = 7,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["m_amt"] = 0,
+								["r_amt"] = 3,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 3831.020646,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 15184.020646,
+					["start_time"] = 1593955554,
+					["delay"] = 0,
+					["monster"] = true,
+				}, -- [20]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 2566.015518,
@@ -14794,9 +13871,9 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 4,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
 								["n_amt"] = 60,
 								["a_dmg"] = 237,
 								["r_amt"] = 0,
@@ -14821,11 +13898,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 7,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -14840,114 +13917,7 @@ _detalhes_database = {
 					["start_time"] = 1593953863,
 					["delay"] = 0,
 					["monster"] = true,
-				}, -- [19]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 1054.013545,
-					["damage_from"] = {
-						["洛科林丶雷酒"] = true,
-						["Jaedenar Guardian <洛科林丶雷酒>"] = true,
-						["Jaedenar Adept <洛科林丶雷酒>"] = true,
-					},
-					["targets"] = {
-						["洛科林丶雷酒"] = 1890,
-						["Jaedenar Guardian <洛科林丶雷酒>"] = 557,
-						["Jaedenar Adept <洛科林丶雷酒>"] = 726,
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 3173.013545,
-					["serial"] = "Creature-0-4892-1-187-7125-000001D493",
-					["dps_started"] = false,
-					["total"] = 3173.013545,
-					["friendlyfire"] = {
-					},
-					["on_hold"] = false,
-					["nome"] = "Jaedenar Hound",
-					["spells"] = {
-						["_ActorTable"] = {
-							["!Melee"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 3,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 115,
-								["targets"] = {
-									["Jaedenar Guardian"] = 0,
-									["Jaedenar Adept"] = 0,
-									["洛科林丶雷酒"] = 1232,
-									["Jaedenar Guardian <洛科林丶雷酒>"] = 557,
-									["Jaedenar Adept <洛科林丶雷酒>"] = 726,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2515,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 43,
-								["a_amt"] = 0,
-								["r_amt"] = 0,
-								["c_max"] = 0,
-								["MISS"] = 3,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["b_dmg"] = 160,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["PARRY"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["c_min"] = 0,
-								["n_amt"] = 38,
-								["DODGE"] = 1,
-								["total"] = 2515,
-							},
-							["Mana Burn"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 227,
-								["targets"] = {
-									["洛科林丶雷酒"] = 658,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 658,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 6,
-								["total"] = 658,
-								["c_max"] = 0,
-								["id"] = "Mana Burn",
-								["r_dmg"] = 658,
-								["a_dmg"] = 0,
-								["a_amt"] = 0,
-								["m_crit"] = 0,
-								["RESIST"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 6,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["c_min"] = 0,
-								["r_amt"] = 3,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["last_event"] = 0,
-					["end_time"] = 1593955677,
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 12172.013545,
-					["start_time"] = 1593955566,
-					["delay"] = 0,
-					["monster"] = true,
-				}, -- [20]
+				}, -- [21]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 2252.02766,
@@ -14997,11 +13967,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 6,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							["Sunder Armor"] = {
@@ -15024,11 +13994,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							["!Melee"] = {
@@ -15072,7 +14042,7 @@ _detalhes_database = {
 					["start_time"] = 1594269393,
 					["delay"] = 0,
 					["monster"] = true,
-				}, -- [21]
+				}, -- [22]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 1787.047246,
@@ -15150,11 +14120,11 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["m_crit"] = 0,
 								["RESIST"] = 2,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -15169,28 +14139,28 @@ _detalhes_database = {
 					["start_time"] = 1594269489,
 					["delay"] = 0,
 					["monster"] = true,
-				}, -- [22]
+				}, -- [23]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 1729.01417,
+					["totalabsorbed"] = 1729.019133,
 					["damage_from"] = {
 						["洛科林丶雷酒"] = true,
 					},
 					["targets"] = {
-						["洛科林丶雷酒"] = 2115,
+						["洛科林丶雷酒"] = 2224,
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 6813.01417,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["damage_taken"] = 6813.019133,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 2115.01417,
+					["total_without_pet"] = 2224.019133,
 					["serial"] = "Creature-0-4892-1-187-9879-000001DA32",
-					["monster"] = true,
-					["end_time"] = 1593956969,
-					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 2224.019133,
+					["classe"] = "UNKNOW",
 					["on_hold"] = false,
 					["nome"] = "Entropic Horror",
 					["spells"] = {
@@ -15202,25 +14172,25 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 216,
 								["targets"] = {
-									["洛科林丶雷酒"] = 1707,
+									["洛科林丶雷酒"] = 1816,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 1707,
+								["n_dmg"] = 1816,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 15,
-								["total"] = 1707,
+								["counter"] = 16,
+								["total"] = 1816,
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
 								["a_dmg"] = 116,
 								["m_crit"] = 0,
 								["a_amt"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 15,
-								["c_min"] = 0,
+								["n_amt"] = 16,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Fire Shield"] = {
@@ -15244,27 +14214,247 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 10,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["last_event"] = 0,
-					["total"] = 2115.01417,
+					["end_time"] = 1593956969,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1593956936,
+					["delay"] = 0,
+					["fight_component"] = true,
+				}, -- [24]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 756.043039,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 1805,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1805.043039,
+					["serial"] = "Creature-0-4892-1-187-8958-00000350C6",
+					["fight_component"] = true,
+					["total"] = 1805.043039,
+					["classe"] = "UNKNOW",
+					["damage_taken"] = 19839.043039,
+					["nome"] = "Angerclaw Mauler",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Enrage"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Enrage",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["!Melee"] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 315,
+								["g_amt"] = 0,
+								["n_max"] = 113,
+								["targets"] = {
+									["洛科林丶雷酒"] = 1705,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1390,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 25,
+								["total"] = 1705,
+								["c_max"] = 184,
+								["MISS"] = 4,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["DODGE"] = 1,
+								["b_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 18,
+								["a_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							["Maul"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 100,
+								["targets"] = {
+									["洛科林丶雷酒"] = 100,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 100,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 100,
+								["c_max"] = 0,
+								["id"] = "Maul",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["end_time"] = 1594098366,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1594098320,
+					["delay"] = 0,
+					["monster"] = true,
+				}, -- [25]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.05202,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 1380,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 24316.05202,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1380.05202,
+					["serial"] = "Creature-0-4892-1-187-8956-0000016E37",
+					["fight_component"] = true,
+					["total"] = 1380.05202,
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["nome"] = "Angerclaw Bear",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 89,
+								["targets"] = {
+									["洛科林丶雷酒"] = 1380,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1380,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 24,
+								["total"] = 1380,
+								["c_max"] = 0,
+								["a_dmg"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 19,
+								["MISS"] = 4,
+								["DODGE"] = 1,
+							},
+							["Enrage"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Enrage",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 8,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["end_time"] = 1593954531,
 					["custom"] = 0,
 					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1593956937,
+					["start_time"] = 1593954493,
 					["delay"] = 0,
-					["fight_component"] = true,
-				}, -- [23]
+					["monster"] = true,
+				}, -- [26]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 1320.01152,
@@ -15332,7 +14522,76 @@ _detalhes_database = {
 					["start_time"] = 1593956853,
 					["delay"] = 0,
 					["fight_component"] = true,
-				}, -- [24]
+				}, -- [27]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 630.006093,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 1136,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1136.006093,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1594558689,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 2310.006093,
+					["nome"] = "Wastewander Assassin",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 115,
+								["targets"] = {
+									["洛科林丶雷酒"] = 1136,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1136,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 28,
+								["total"] = 1136,
+								["c_max"] = 0,
+								["c_min"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_dmg"] = 72,
+								["m_crit"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 1,
+								["n_amt"] = 21,
+								["DODGE"] = 2,
+								["MISS"] = 5,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 1136.006093,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1594558656,
+					["serial"] = "Creature-0-4526-1-9-5623-00000AE66A",
+					["dps_started"] = false,
+				}, -- [28]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 913.010433,
@@ -15378,11 +14637,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							["Frost Shot"] = {
@@ -15456,7 +14715,7 @@ _detalhes_database = {
 					["start_time"] = 1594271408,
 					["delay"] = 0,
 					["fight_component"] = true,
-				}, -- [25]
+				}, -- [29]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 630.023127,
@@ -15525,7 +14784,130 @@ _detalhes_database = {
 					["start_time"] = 1593950278,
 					["serial"] = "Creature-0-4892-1-187-10648-000001C04C",
 					["dps_started"] = false,
-				}, -- [26]
+				}, -- [30]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 547.01612,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 818,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 3611.01612,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 818.01612,
+					["serial"] = "Creature-0-4526-1-134-8957-00000AA9A7",
+					["monster"] = true,
+					["end_time"] = 1594537353,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Angerclaw Grizzly",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Enrage"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Enrage",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 87,
+								["targets"] = {
+									["洛科林丶雷酒"] = 715,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 715,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 13,
+								["total"] = 715,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["MISS"] = 2,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["Low Swipe"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 103,
+								["targets"] = {
+									["洛科林丶雷酒"] = 103,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 103,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 103,
+								["c_max"] = 0,
+								["id"] = "Low Swipe",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 818.01612,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1594537324,
+					["delay"] = 0,
+					["fight_component"] = true,
+				}, -- [31]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 427.009368,
@@ -15571,11 +14953,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Rend"] = {
@@ -15599,11 +14981,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["!Melee"] = {
@@ -15648,7 +15030,7 @@ _detalhes_database = {
 					["start_time"] = 1593954903,
 					["delay"] = 0,
 					["fight_component"] = true,
-				}, -- [27]
+				}, -- [32]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 609.013097,
@@ -15716,7 +15098,141 @@ _detalhes_database = {
 					["start_time"] = 1593954322,
 					["delay"] = 0,
 					["fight_component"] = true,
-				}, -- [28]
+				}, -- [33]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 619.00438,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 724,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 724.00438,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1594558468,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 3348.00438,
+					["nome"] = "Aquementas",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 118,
+								["targets"] = {
+									["洛科林丶雷酒"] = 724,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 724,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 724,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 7,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 724.00438,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1594558450,
+					["serial"] = "Creature-0-4526-1-9-9453-00000B07DF",
+					["dps_started"] = false,
+				}, -- [34]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.029508,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 642,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 642.029508,
+					["serial"] = "Creature-0-4892-1-187-8959-00007DC9F3",
+					["dps_started"] = false,
+					["total"] = 642.029508,
+					["classe"] = "UNKNOW",
+					["damage_taken"] = 2619.029508,
+					["nome"] = "Felpaw Wolf",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 72,
+								["targets"] = {
+									["洛科林丶雷酒"] = 642,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 642,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 642,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 10,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1593954503,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1593954476,
+					["delay"] = 0,
+					["fight_component"] = true,
+				}, -- [35]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 359.007051,
@@ -15783,7 +15299,7 @@ _detalhes_database = {
 					["start_time"] = 1593951041,
 					["serial"] = "Creature-0-4892-1-187-7086-000001B2AB",
 					["dps_started"] = false,
-				}, -- [29]
+				}, -- [36]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 452.004084,
@@ -15852,7 +15368,7 @@ _detalhes_database = {
 					["start_time"] = 1594099994,
 					["serial"] = "Creature-0-4892-1-187-7149-0000040561",
 					["monster"] = true,
-				}, -- [30]
+				}, -- [37]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 492.005018,
@@ -15899,11 +15415,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							["Strike"] = {
@@ -15927,11 +15443,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -15947,7 +15463,74 @@ _detalhes_database = {
 					["start_time"] = 1594271406,
 					["delay"] = 0,
 					["fight_component"] = true,
-				}, -- [31]
+				}, -- [38]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 497.016203,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 548,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 4241.016203,
+					["dps_started"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 548.016203,
+					["delay"] = 0,
+					["monster"] = true,
+					["total"] = 548.016203,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["nome"] = "Wastewander Rogue",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 65,
+								["targets"] = {
+									["洛科林丶雷酒"] = 548,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 548,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 548,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["classe"] = "UNKNOW",
+					["end_time"] = 1594558156,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1594558130,
+					["serial"] = "Creature-0-4526-1-9-5615-00000AED46",
+					["fight_component"] = true,
+				}, -- [39]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 377.011574,
@@ -15994,8 +15577,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
@@ -16015,30 +15598,194 @@ _detalhes_database = {
 					["start_time"] = 1594100276,
 					["serial"] = "Creature-0-4892-1-187-7138-00000409C1",
 					["monster"] = true,
-				}, -- [32]
+				}, -- [40]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.016973,
+					["totalabsorbed"] = 343.010423,
 					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
 					},
 					["targets"] = {
-						["洛科林丶雷酒"] = 375,
+						["洛科林丶雷酒"] = 418,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 418.010423,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1594558310,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 2251.010423,
+					["nome"] = "Southsea Freebooter",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Shoot"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 76,
+								["targets"] = {
+									["洛科林丶雷酒"] = 418,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 418,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 418,
+								["c_max"] = 0,
+								["id"] = "Shoot",
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 5,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 418.010423,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1594558286,
+					["serial"] = "Creature-0-4526-1-9-7856-00000A8170",
+					["dps_started"] = false,
+				}, -- [41]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 401.014423,
+					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["洛科林丶雷酒"] = 401,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 401.014423,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1594558310,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 2301.014423,
+					["nome"] = "Southsea Pirate",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 97,
+								["targets"] = {
+									["洛科林丶雷酒"] = 306,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 306,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 306,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Strike"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 95,
+								["targets"] = {
+									["洛科林丶雷酒"] = 95,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 95,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 95,
+								["c_max"] = 0,
+								["id"] = "Strike",
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 401.014423,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1594558296,
+					["serial"] = "Creature-0-4526-1-9-7855-00000A813C",
+					["dps_started"] = false,
+				}, -- [42]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 185.024034,
+					["damage_from"] = {
+						["Felpaw Ravager"] = true,
+						["洛科林丶雷酒"] = true,
+					},
+					["targets"] = {
+						["Felpaw Ravager"] = 2,
+						["洛科林丶雷酒"] = 381,
 					},
 					["pets"] = {
 					},
 					["fight_component"] = true,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 375.016973,
-					["serial"] = "Creature-0-4892-1-187-8959-00007DC9F3",
+					["total_without_pet"] = 383.024034,
+					["serial"] = "Creature-0-4892-1-187-8961-000003F1CA",
 					["monster"] = true,
-					["total"] = 375.016973,
+					["total"] = 383.024034,
 					["classe"] = "UNKNOW",
-					["on_hold"] = false,
-					["nome"] = "Felpaw Wolf",
+					["damage_taken"] = 3092.024034,
+					["nome"] = "Felpaw Ravager",
 					["spells"] = {
 						["_ActorTable"] = {
 							["!Melee"] = {
@@ -16048,106 +15795,69 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 70,
 								["targets"] = {
-									["洛科林丶雷酒"] = 375,
+									["洛科林丶雷酒"] = 381,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 375,
+								["n_dmg"] = 381,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 6,
-								["total"] = 375,
+								["total"] = 381,
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
-						},
-						["tipo"] = 2,
-					},
-					["last_event"] = 0,
-					["end_time"] = 1593954503,
-					["damage_taken"] = 0.016973,
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1593954483,
-					["delay"] = 0,
-					["dps_started"] = false,
-				}, -- [33]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.017586,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["洛科林丶雷酒"] = 368,
-					},
-					["pets"] = {
-					},
-					["monster"] = true,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 368.017586,
-					["delay"] = 0,
-					["fight_component"] = true,
-					["total"] = 368.017586,
-					["friendlyfire"] = {
-					},
-					["damage_taken"] = 0.017586,
-					["nome"] = "Felpaw Scavenger",
-					["spells"] = {
-						["_ActorTable"] = {
-							["!Melee"] = {
+							["Thrash"] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 67,
+								["n_max"] = 2,
 								["targets"] = {
-									["洛科林丶雷酒"] = 368,
+									["Felpaw Ravager"] = 2,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 368,
+								["n_dmg"] = 2,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 6,
-								["total"] = 368,
+								["counter"] = 1,
+								["total"] = 2,
 								["c_max"] = 0,
-								["id"] = "!Melee",
+								["id"] = "Thrash",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 6,
-								["a_amt"] = 0,
 								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["classe"] = "UNKNOW",
-					["end_time"] = 1593949829,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
-					["start_time"] = 1593949813,
-					["serial"] = "Creature-0-4892-1-187-8960-0000019935",
+					["end_time"] = 1594096916,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1594096892,
+					["delay"] = 0,
 					["dps_started"] = false,
-				}, -- [34]
+				}, -- [43]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.026304,
@@ -16159,17 +15869,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 9854.026304,
+					["monster"] = true,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 212.026304,
 					["serial"] = "Creature-0-4892-1-187-7154-0000040059",
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 212.026304,
 					["classe"] = "UNKNOW",
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Deadwood Gardener",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16210,36 +15920,34 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 9854.026304,
 					["start_time"] = 1594098799,
 					["delay"] = 0,
-					["on_hold"] = false,
-				}, -- [35]
+					["friendlyfire"] = {
+					},
+				}, -- [44]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.009495,
+					["totalabsorbed"] = 0.014531,
 					["damage_from"] = {
-						["Felpaw Ravager"] = true,
 					},
 					["targets"] = {
-						["Felpaw Ravager"] = 2,
-						["洛科林丶雷酒"] = 132,
+						["洛科林丶雷酒"] = 187,
 					},
 					["pets"] = {
 					},
 					["monster"] = true,
-					["last_dps"] = 0,
-					["classe"] = "UNKNOW",
+					["damage_taken"] = 0.014531,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 134.009495,
-					["serial"] = "Creature-0-4892-1-187-8961-000003F1CA",
-					["fight_component"] = true,
-					["end_time"] = 1594096916,
-					["friendlyfire_total"] = 0,
-					["damage_taken"] = 2.009495,
-					["nome"] = "Felpaw Ravager",
+					["total_without_pet"] = 187.014531,
+					["serial"] = "Creature-0-4892-1-187-7092-000001D1A9",
+					["dps_started"] = false,
+					["total"] = 187.014531,
+					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["nome"] = "Tainted Ooze",
 					["spells"] = {
 						["_ActorTable"] = {
 							["!Melee"] = {
@@ -16249,69 +15957,41 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 67,
 								["targets"] = {
-									["洛科林丶雷酒"] = 132,
+									["洛科林丶雷酒"] = 187,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 132,
+								["n_dmg"] = 187,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 132,
+								["counter"] = 3,
+								["total"] = 187,
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							["Thrash"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 2,
-								["targets"] = {
-									["Felpaw Ravager"] = 2,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 2,
-								["c_max"] = 0,
-								["id"] = "Thrash",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["n_amt"] = 3,
 								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["last_event"] = 0,
-					["total"] = 134.009495,
-					["friendlyfire"] = {
-					},
+					["end_time"] = 1593955614,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
-					["start_time"] = 1594096898,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1593955609,
 					["delay"] = 0,
-					["dps_started"] = false,
-				}, -- [36]
+					["fight_component"] = true,
+				}, -- [45]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.012516,
@@ -16356,8 +16036,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -16377,29 +16057,30 @@ _detalhes_database = {
 					["start_time"] = 1594011501,
 					["serial"] = "Creature-0-4892-1-40-6519-000002A3FF",
 					["fight_component"] = true,
-				}, -- [37]
+				}, -- [46]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.014038,
+					["totalabsorbed"] = 0.009556,
 					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
 					},
 					["targets"] = {
-						["洛科林丶雷酒"] = 67,
+						["洛科林丶雷酒"] = 106,
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
-					["last_dps"] = 0,
+					["fight_component"] = true,
+					["on_hold"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 67.014038,
-					["serial"] = "Creature-0-4892-1-187-8958-00000350C6",
-					["fight_component"] = true,
-					["end_time"] = 1594098366,
+					["total_without_pet"] = 106.009556,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1594532990,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 0.014038,
-					["nome"] = "Angerclaw Mauler",
+					["last_dps"] = 0,
+					["nome"] = "Terrowulf Fleshripper",
 					["spells"] = {
 						["_ActorTable"] = {
 							["!Melee"] = {
@@ -16407,65 +16088,65 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 67,
+								["n_max"] = 36,
 								["targets"] = {
-									["洛科林丶雷酒"] = 67,
+									["洛科林丶雷酒"] = 106,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 67,
+								["n_dmg"] = 106,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 67,
+								["counter"] = 3,
+								["total"] = 106,
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["n_amt"] = 3,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["total"] = 67.014038,
+					["tipo"] = 1,
 					["friendlyfire"] = {
 					},
+					["total"] = 106.009556,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["on_hold"] = false,
-					["start_time"] = 1594098362,
-					["delay"] = 0,
-					["dps_started"] = false,
-				}, -- [38]
+					["last_event"] = 0,
+					["damage_taken"] = 955.009556,
+					["start_time"] = 1594532980,
+					["serial"] = "Creature-0-4526-1-108-3789-0000071155",
+					["monster"] = true,
+				}, -- [47]
 				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.009346,
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.003947,
 					["damage_from"] = {
+						["洛科林丶雷酒"] = true,
 					},
 					["targets"] = {
-						["洛科林丶雷酒"] = 65,
+						["洛科林丶雷酒"] = 30,
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.009346,
+					["tipo"] = 1,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 65.009346,
-					["serial"] = "Creature-0-4892-1-187-7092-000001D1A9",
-					["monster"] = true,
-					["end_time"] = 1593955614,
+					["total_without_pet"] = 30.003947,
 					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1594532321,
+					["delay"] = 0,
 					["on_hold"] = false,
-					["nome"] = "Tainted Ooze",
+					["nome"] = "Pygmy Tide Crawler",
 					["spells"] = {
 						["_ActorTable"] = {
 							["!Melee"] = {
@@ -16473,109 +16154,43 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 65,
+								["n_max"] = 10,
 								["targets"] = {
-									["洛科林丶雷酒"] = 65,
+									["洛科林丶雷酒"] = 30,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 65,
+								["n_dmg"] = 30,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 65,
+								["counter"] = 3,
+								["total"] = 30,
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["n_amt"] = 3,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["total"] = 65.009346,
+					["last_dps"] = 0,
+					["total"] = 30.003947,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1593955610,
-					["delay"] = 0,
-					["fight_component"] = true,
-				}, -- [39]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.011457,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["洛科林丶雷酒"] = 49,
-					},
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.011457,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 49.011457,
-					["serial"] = "Creature-0-4892-1-187-8956-0000016E37",
-					["monster"] = true,
-					["end_time"] = 1593954531,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["nome"] = "Angerclaw Bear",
-					["spells"] = {
-						["_ActorTable"] = {
-							["!Melee"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 49,
-								["targets"] = {
-									["洛科林丶雷酒"] = 49,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 49,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 49,
-								["c_max"] = 0,
-								["id"] = "!Melee",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-						},
-						["tipo"] = 2,
-					},
 					["last_event"] = 0,
-					["total"] = 49.011457,
-					["friendlyfire"] = {
-					},
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1593954527,
-					["delay"] = 0,
+					["damage_taken"] = 318.003947,
+					["start_time"] = 1594532311,
+					["serial"] = "Creature-0-4526-1-107-2231-000009A5E7",
 					["fight_component"] = true,
-				}, -- [40]
+				}, -- [48]
 			},
 		}, -- [1]
 		{
@@ -16590,10 +16205,10 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 6704.494729,
-					["total_without_pet"] = 89205.494729,
-					["total"] = 89205.494729,
+					["classe"] = "PRIEST",
+					["totalover"] = 6704.613688,
+					["total_without_pet"] = 97399.613688,
+					["total"] = 97399.613688,
 					["targets_absorbs"] = {
 						["洛科林丶雷酒"] = 0,
 					},
@@ -16601,19 +16216,17 @@ _detalhes_database = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-4674-003AFFB8",
-					["totalabsorb"] = 52799.494729,
+					["totalabsorb"] = 60993.613688,
 					["last_hps"] = 0,
 					["targets"] = {
 						["洛科林丶雷酒"] = 0,
 						["豹 <Maga>"] = 0,
 					},
-					["totalover_without_pet"] = 0.494729,
-					["healing_taken"] = 86450.494729,
+					["totalover_without_pet"] = 0.613688,
+					["healing_taken"] = 94644.613688,
 					["fight_component"] = true,
 					["end_time"] = 1593949673,
-					["healing_from"] = {
-						["洛科林丶雷酒"] = true,
-					},
+					["heal_enemy_amt"] = 0,
 					["nome"] = "洛科林丶雷酒",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16639,40 +16252,40 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 7,
 								["n_curado"] = 10177,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							["Power Word: Shield"] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 52799,
+								["totalabsorb"] = 60993,
 								["targets_overheal"] = {
 								},
 								["n_max"] = 752,
 								["targets"] = {
-									["洛科林丶雷酒"] = 52799,
+									["洛科林丶雷酒"] = 60993,
 								},
 								["n_min"] = 0,
-								["counter"] = 648,
+								["counter"] = 769,
 								["overheal"] = 0,
-								["total"] = 52799,
+								["total"] = 60993,
 								["c_max"] = 0,
 								["id"] = "Power Word: Shield",
 								["targets_absorbs"] = {
-									["洛科林丶雷酒"] = 52799,
+									["洛科林丶雷酒"] = 60993,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
-								["n_amt"] = 648,
-								["n_curado"] = 52799,
 								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 769,
+								["n_curado"] = 60993,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							["Vampiric Embrace"] = {
@@ -16695,26 +16308,28 @@ _detalhes_database = {
 								},
 								["c_curado"] = 1325,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 458,
 								["n_curado"] = 24904,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["classe"] = "PRIEST",
-					["tipo"] = 2,
+					["healing_from"] = {
+						["洛科林丶雷酒"] = true,
+					},
+					["spec"] = 258,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["totaldenied"] = 0.494729,
-					["start_time"] = 1593948062,
+					["totaldenied"] = 0.613688,
+					["start_time"] = 1593947808,
 					["delay"] = 0,
-					["spec"] = 258,
+					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 1300,
@@ -16762,12 +16377,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 2,
 								["n_curado"] = 206,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
@@ -16793,7 +16408,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["totalover"] = 0.006469,
 					["total_without_pet"] = 0.006469,
 					["total"] = 0.006469,
@@ -16825,7 +16440,7 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1593951309,
 					["delay"] = 0,
 					["tipo"] = 2,
@@ -16837,7 +16452,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 6960.054924,
-					["resource"] = 0.08489,
+					["resource"] = 0.107837,
 					["targets"] = {
 						["洛科林丶雷酒"] = 0,
 					},
@@ -16893,9 +16508,9 @@ _detalhes_database = {
 							["Psychic Scream"] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 50,
+								["appliedamt"] = 66,
 								["id"] = "Psychic Scream",
-								["uptime"] = 292,
+								["uptime"] = 412,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -16903,23 +16518,24 @@ _detalhes_database = {
 							["Mind Control"] = {
 								["refreshamt"] = 0,
 								["appliedamt"] = 1,
-								["activedamt"] = -9,
+								["activedamt"] = -11,
 								["uptime"] = 25,
 								["id"] = "Mind Control",
-								["actived_at"] = 14345891973,
+								["actived_at"] = 17534965178,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							["Shadow Vulnerability"] = {
 								["counter"] = 0,
-								["activedamt"] = -13,
-								["appliedamt"] = 159,
+								["refreshamt"] = 538,
+								["activedamt"] = -15,
+								["uptime"] = 2857,
 								["id"] = "Shadow Vulnerability",
-								["uptime"] = 2258,
+								["appliedamt"] = 199,
 								["targets"] = {
 								},
-								["refreshamt"] = 408,
+								["actived_at"] = 1594532320,
 							},
 							["Vampiric Embrace"] = {
 								["counter"] = 0,
@@ -16932,49 +16548,49 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 1,
 							},
-							["Shadow Word: Pain"] = {
+							["Weakened Soul"] = {
+								["actived_at"] = 9566267305,
 								["counter"] = 0,
-								["refreshamt"] = 0,
-								["activedamt"] = -12,
-								["uptime"] = 2073,
-								["id"] = "Shadow Word: Pain",
-								["appliedamt"] = 145,
+								["activedamt"] = 42,
+								["appliedamt"] = 96,
+								["id"] = "Weakened Soul",
+								["uptime"] = 1264,
 								["targets"] = {
 								},
-								["actived_at"] = 12752816282,
+								["refreshamt"] = 0,
 							},
 							["Mind Flay"] = {
 								["counter"] = 0,
 								["refreshamt"] = 0,
 								["activedamt"] = -3,
-								["uptime"] = 644,
+								["uptime"] = 898,
 								["id"] = "Mind Flay",
-								["appliedamt"] = 223,
+								["appliedamt"] = 310,
 								["targets"] = {
 								},
 								["actived_at"] = 1594099907,
 							},
 							["Mind Soothe"] = {
 								["refreshamt"] = 0,
-								["appliedamt"] = 1,
-								["activedamt"] = -6,
-								["uptime"] = 3,
+								["appliedamt"] = 2,
+								["activedamt"] = -10,
+								["uptime"] = 18,
 								["id"] = "Mind Soothe",
-								["actived_at"] = 11158152407,
+								["actived_at"] = 15941805900,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							["Weakened Soul"] = {
-								["actived_at"] = 4782638933,
+							["Shadow Word: Pain"] = {
 								["counter"] = 0,
-								["activedamt"] = 37,
-								["appliedamt"] = 83,
-								["id"] = "Weakened Soul",
-								["uptime"] = 1100,
+								["refreshamt"] = 0,
+								["activedamt"] = -14,
+								["uptime"] = 2655,
+								["id"] = "Shadow Word: Pain",
+								["appliedamt"] = 183,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["actived_at"] = 15941907069,
 							},
 						},
 						["tipo"] = 9,
@@ -17010,28 +16626,28 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 7094,
+					["debuff_uptime"] = 8828,
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							["Spirit Tap"] = {
 								["counter"] = 0,
-								["activedamt"] = 191,
-								["appliedamt"] = 191,
+								["activedamt"] = 245,
+								["appliedamt"] = 245,
 								["id"] = "Spirit Tap",
-								["uptime"] = 915,
+								["uptime"] = 1128,
 								["targets"] = {
 								},
-								["refreshamt"] = 12,
+								["refreshamt"] = 14,
 							},
 							["Focused Casting"] = {
 								["counter"] = 0,
-								["activedamt"] = 19,
-								["appliedamt"] = 19,
+								["activedamt"] = 22,
+								["appliedamt"] = 22,
 								["id"] = "Focused Casting",
-								["uptime"] = 108,
+								["uptime"] = 131,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["refreshamt"] = 1,
 							},
 							["Drink"] = {
 								["refreshamt"] = 0,
@@ -17046,10 +16662,10 @@ _detalhes_database = {
 							},
 							["Inner Focus"] = {
 								["counter"] = 0,
-								["activedamt"] = 24,
-								["appliedamt"] = 24,
+								["activedamt"] = 29,
+								["appliedamt"] = 29,
 								["id"] = "Inner Focus",
-								["uptime"] = 48,
+								["uptime"] = 57,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -17077,43 +16693,44 @@ _detalhes_database = {
 							},
 							["Inner Fire"] = {
 								["counter"] = 0,
-								["activedamt"] = 160,
-								["appliedamt"] = 160,
+								["activedamt"] = 205,
+								["appliedamt"] = 205,
 								["id"] = "Inner Fire",
-								["uptime"] = 3581,
+								["uptime"] = 4426,
 								["targets"] = {
 								},
 								["refreshamt"] = 2,
 							},
+							["Shadowform"] = {
+								["counter"] = 0,
+								["activedamt"] = 203,
+								["appliedamt"] = 203,
+								["id"] = "Shadowform",
+								["uptime"] = 4690,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							["Well Fed"] = {
+								["actived_at"] = 3187911667,
+								["counter"] = 0,
+								["activedamt"] = 99,
+								["appliedamt"] = 99,
+								["id"] = "Well Fed",
+								["uptime"] = 2541,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
 							["Power Word: Shield"] = {
 								["counter"] = 0,
-								["activedamt"] = 102,
-								["appliedamt"] = 102,
+								["activedamt"] = 125,
+								["appliedamt"] = 125,
 								["id"] = "Power Word: Shield",
-								["uptime"] = 1376,
+								["uptime"] = 1677,
 								["targets"] = {
 								},
 								["refreshamt"] = 6,
-							},
-							["Mind Control"] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 10,
-								["appliedamt"] = 10,
-								["id"] = "Mind Control",
-								["uptime"] = 285,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Shadowform"] = {
-								["counter"] = 0,
-								["activedamt"] = 156,
-								["appliedamt"] = 156,
-								["id"] = "Shadowform",
-								["uptime"] = 3761,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
 							},
 							["Speed"] = {
 								["refreshamt"] = 0,
@@ -17127,31 +16744,30 @@ _detalhes_database = {
 							},
 							["Power Word: Fortitude"] = {
 								["counter"] = 0,
-								["activedamt"] = 154,
-								["appliedamt"] = 154,
+								["activedamt"] = 200,
+								["appliedamt"] = 200,
 								["id"] = "Power Word: Fortitude",
-								["uptime"] = 3925,
+								["uptime"] = 4839,
 								["targets"] = {
 								},
 								["refreshamt"] = 1,
 							},
-							["Well Fed"] = {
-								["actived_at"] = 3187911667,
-								["counter"] = 0,
-								["activedamt"] = 79,
-								["appliedamt"] = 79,
-								["id"] = "Well Fed",
-								["uptime"] = 2112,
+							["Mind Control"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 12,
+								["appliedamt"] = 12,
+								["id"] = "Mind Control",
+								["uptime"] = 372,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							["Shadow Protection"] = {
 								["counter"] = 0,
-								["activedamt"] = 76,
-								["appliedamt"] = 76,
+								["activedamt"] = 80,
+								["appliedamt"] = 80,
 								["id"] = "Shadow Protection",
-								["uptime"] = 2033,
+								["uptime"] = 2086,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -17159,54 +16775,54 @@ _detalhes_database = {
 							["White Ram"] = {
 								["counter"] = 0,
 								["refreshamt"] = 0,
-								["activedamt"] = 13,
-								["uptime"] = 183,
+								["activedamt"] = 20,
+								["uptime"] = 272,
 								["id"] = "White Ram",
-								["appliedamt"] = 13,
+								["appliedamt"] = 20,
 								["targets"] = {
 								},
-								["actived_at"] = 3187962520,
+								["actived_at"] = 6377036285,
 							},
 						},
 						["tipo"] = 9,
 					},
-					["debuff_uptime_targets"] = {
-					},
+					["nome"] = "洛科林丶雷酒",
 					["spec"] = 258,
 					["grupo"] = true,
 					["spell_cast"] = {
-						["Inner Focus"] = 24,
-						["Shadow Word: Pain"] = 131,
+						["Inner Focus"] = 29,
+						["Shadow Word: Pain"] = 156,
 						["Stoneform"] = 1,
-						["Mind Soothe"] = 1,
-						["Mind Blast"] = 184,
+						["Mind Soothe"] = 2,
+						["Mind Blast"] = 206,
 						["Shadowform"] = 3,
 						["Speed"] = 1,
 						["Shadow Protection"] = 4,
-						["Inner Fire"] = 17,
+						["Inner Fire"] = 21,
 						["Greater Heal"] = 7,
 						["Vampiric Embrace"] = 48,
 						["Demonic Rune"] = 1,
-						["Mind Flay"] = 226,
-						["Psychic Scream"] = 42,
+						["Mind Flay"] = 315,
+						["Psychic Scream"] = 58,
 						["Mind Control"] = 1,
-						["Power Word: Shield"] = 83,
+						["Power Word: Shield"] = 95,
 						["Power Word: Fortitude"] = 2,
 						["Dispel Magic"] = 2,
 						["Restore Mana"] = 8,
-						["Shoot"] = 439,
+						["Shoot"] = 508,
 					},
-					["buff_uptime"] = 18351,
+					["buff_uptime"] = 22243,
 					["dispell_oque"] = {
 						["Cripple"] = 1,
 						["Renew"] = 1,
 					},
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["buff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Player-4674-003AFFB8",
-					["nome"] = "洛科林丶雷酒",
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [1]
 				{
 					["monster"] = true,
@@ -17332,7 +16948,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 119,
+					["pets"] = {
+						"豹 <Maga>", -- [1]
+					},
 					["classe"] = "HUNTER",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -17380,8 +16998,8 @@ _detalhes_database = {
 						["Auto Shot"] = 32,
 						["Mend Pet"] = 1,
 						["Intimidation"] = 1,
-						["Aimed Shot"] = 4,
 						["Hunter's Mark"] = 1,
+						["Aimed Shot"] = 4,
 						["Wing Clip"] = 1,
 						["Multi-Shot"] = 3,
 						["Arcane Shot"] = 2,
@@ -17392,9 +17010,7 @@ _detalhes_database = {
 					["nome"] = "Maga",
 					["last_event"] = 0,
 					["serial"] = "Player-4674-0249E3A8",
-					["pets"] = {
-						"豹 <Maga>", -- [1]
-					},
+					["buff_uptime"] = 119,
 				}, -- [7]
 				{
 					["fight_component"] = true,
@@ -17481,22 +17097,22 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["tipo"] = 4,
 					["fight_component"] = true,
-					["nome"] = "Jaedenar Guardian",
+					["interrupt"] = 5.02034,
 					["interrupt_targets"] = {
 						["洛科林丶雷酒"] = 2,
-						["Jaedenar Cultist"] = 1,
+						["Jaedenar Cultist"] = 2,
 						["Jaedenar Adept"] = 1,
 					},
 					["monster"] = true,
-					["interrupt"] = 4.013969,
-					["spell_cast"] = {
-						["Shield Bash"] = 21,
-						["Improved Blocking"] = 13,
-					},
-					["last_event"] = 0,
+					["nome"] = "Jaedenar Guardian",
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						["Shield Bash"] = 26,
+						["Improved Blocking"] = 16,
+					},
+					["last_event"] = 0,
 					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							["Shield Bash"] = {
@@ -17504,14 +17120,14 @@ _detalhes_database = {
 								["interrompeu_oque"] = {
 									["Fireball"] = 1,
 									["Mind Flay"] = 2,
-									["Shadow Bolt"] = 1,
+									["Shadow Bolt"] = 2,
 								},
 								["targets"] = {
 									["洛科林丶雷酒"] = 2,
-									["Jaedenar Cultist"] = 1,
+									["Jaedenar Cultist"] = 2,
 									["Jaedenar Adept"] = 1,
 								},
-								["counter"] = 4,
+								["counter"] = 5,
 							},
 						},
 						["tipo"] = 9,
@@ -17520,7 +17136,7 @@ _detalhes_database = {
 					["interrompeu_oque"] = {
 						["Fireball"] = 1,
 						["Mind Flay"] = 2,
-						["Shadow Bolt"] = 1,
+						["Shadow Bolt"] = 2,
 					},
 				}, -- [13]
 				{
@@ -17530,7 +17146,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["spell_cast"] = {
-						["Fireball"] = 27,
+						["Fireball"] = 32,
 						["Fire Blast"] = 6,
 					},
 					["monster"] = true,
@@ -17546,7 +17162,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["spell_cast"] = {
-						["Mana Burn"] = 6,
+						["Mana Burn"] = 7,
 					},
 					["flag_original"] = 68168,
 					["last_event"] = 0,
@@ -17559,9 +17175,9 @@ _detalhes_database = {
 					["nome"] = "Jaedenar Cultist <洛科林丶雷酒>",
 					["classe"] = "PET",
 					["spell_cast"] = {
-						["Shadow Word: Pain"] = 3,
+						["Shadow Word: Pain"] = 4,
 						["Curse of Weakness"] = 1,
-						["Shadow Bolt"] = 19,
+						["Shadow Bolt"] = 26,
 					},
 					["fight_component"] = true,
 					["last_event"] = 0,
@@ -17578,8 +17194,8 @@ _detalhes_database = {
 					},
 					["spell_cast"] = {
 						["Shadow Word: Pain"] = 2,
-						["Curse of Weakness"] = 4,
-						["Shadow Bolt"] = 24,
+						["Curse of Weakness"] = 5,
+						["Shadow Bolt"] = 28,
 					},
 					["flag_original"] = 68168,
 					["last_event"] = 0,
@@ -17712,6 +17328,99 @@ _detalhes_database = {
 					["serial"] = "Creature-0-4526-1-121-6195-00018637D7",
 					["classe"] = "UNKNOW",
 				}, -- [25]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Angerclaw Bear",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4526-1-134-8956-00000A60AE",
+					["spell_cast"] = {
+						["Enrage"] = 8,
+					},
+				}, -- [26]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Felpaw Scavenger",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4526-1-134-8960-00000AA267",
+					["spell_cast"] = {
+						["Tendon Rip"] = 2,
+						["Infected Wound"] = 1,
+					},
+				}, -- [27]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Angerclaw Mauler",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						["Enrage"] = 6,
+						["Maul"] = 1,
+					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4526-1-134-8958-000009B741",
+					["classe"] = "UNKNOW",
+				}, -- [28]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Angerclaw Grizzly",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						["Enrage"] = 1,
+						["Low Swipe"] = 1,
+					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4526-1-134-8957-00000AA9A7",
+					["classe"] = "UNKNOW",
+				}, -- [29]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Southsea Freebooter",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 2632,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4526-1-9-7856-00000A8170",
+					["spell_cast"] = {
+						["Shoot"] = 5,
+					},
+				}, -- [30]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Southsea Pirate",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4526-1-9-7855-00000A813C",
+					["spell_cast"] = {
+						["Strike"] = 1,
+					},
+				}, -- [31]
 			},
 		}, -- [4]
 		{
@@ -17728,190 +17437,190 @@ _detalhes_database = {
 		},
 		["segments_added"] = {
 			{
-				["elapsed"] = 17.3319999999949,
+				["elapsed"] = 29.2369999997318,
 				["type"] = 0,
-				["name"] = "Spitelash Siren",
-				["clock"] = "13:11:24",
+				["name"] = "Wastewander Assassin",
+				["clock"] = "20:57:40",
 			}, -- [1]
 			{
-				["elapsed"] = 39.5329999999958,
+				["elapsed"] = 14.2179999998771,
 				["type"] = 0,
-				["name"] = "Spitelash Siren",
-				["clock"] = "13:10:29",
+				["name"] = "Aquementas",
+				["clock"] = "20:54:14",
 			}, -- [2]
 			{
-				["elapsed"] = 16.1139999999723,
+				["elapsed"] = 20.7019999995828,
 				["type"] = 0,
-				["name"] = "Spitelash Myrmidon",
-				["clock"] = "13:10:09",
+				["name"] = "Southsea Freebooter",
+				["clock"] = "20:51:29",
 			}, -- [3]
 			{
-				["elapsed"] = 40.7600000000093,
+				["elapsed"] = 14.1680000000633,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:46:55",
+				["name"] = "Wastewander Rogue",
+				["clock"] = "20:49:02",
 			}, -- [4]
 			{
-				["elapsed"] = 17.4310000000114,
+				["elapsed"] = 14.4350000000559,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:46:01",
+				["name"] = "Felpaw Wolf",
+				["clock"] = "20:22:22",
 			}, -- [5]
 			{
-				["elapsed"] = 15.7659999999742,
+				["elapsed"] = 14.9850000003353,
 				["type"] = 0,
-				["name"] = "Warpwood Shredder",
-				["clock"] = "12:45:42",
+				["name"] = "Felpaw Ravager",
+				["clock"] = "15:04:04",
 			}, -- [6]
 			{
-				["elapsed"] = 16.5999999999767,
+				["elapsed"] = 14.5189999998547,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:45:09",
+				["name"] = "Angerclaw Grizzly",
+				["clock"] = "15:03:19",
 			}, -- [7]
 			{
-				["elapsed"] = 17,
+				["elapsed"] = 19.9189999997616,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:44:44",
+				["name"] = "Felpaw Ravager",
+				["clock"] = "15:02:37",
 			}, -- [8]
 			{
-				["elapsed"] = 48.0380000000005,
+				["elapsed"] = 25.5189999998547,
 				["type"] = 0,
-				["name"] = "Warpwood Shredder",
-				["clock"] = "12:43:12",
+				["name"] = "Angerclaw Grizzly",
+				["clock"] = "15:02:07",
 			}, -- [9]
 			{
-				["elapsed"] = 19.8010000000068,
+				["elapsed"] = 14.4190000002272,
 				["type"] = 0,
-				["name"] = "Warpwood Shredder",
-				["clock"] = "12:42:47",
+				["name"] = "Felpaw Scavenger",
+				["clock"] = "15:01:08",
 			}, -- [10]
 			{
-				["elapsed"] = 18.1490000000049,
+				["elapsed"] = 10.102000000421,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:42:19",
+				["name"] = "Felpaw Scavenger",
+				["clock"] = "15:00:46",
 			}, -- [11]
 			{
-				["elapsed"] = 17.0329999999958,
+				["elapsed"] = 22.6689999997616,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:41:46",
+				["name"] = "Toxic Horror",
+				["clock"] = "14:59:59",
 			}, -- [12]
 			{
-				["elapsed"] = 21.0480000000098,
+				["elapsed"] = 16.9860000000335,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:41:13",
+				["name"] = "Irontree Stomper",
+				["clock"] = "14:59:27",
 			}, -- [13]
 			{
-				["elapsed"] = 19.7660000000033,
+				["elapsed"] = 21.8699999996461,
 				["type"] = 0,
-				["name"] = "Warpwood Shredder",
-				["clock"] = "12:40:13",
+				["name"] = "Irontree Stomper",
+				["clock"] = "14:58:21",
 			}, -- [14]
 			{
-				["elapsed"] = 19.7989999999991,
+				["elapsed"] = 16.5679999999702,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:39:43",
+				["name"] = "Angerclaw Mauler",
+				["clock"] = "14:57:30",
 			}, -- [15]
 			{
-				["elapsed"] = 37.9180000000051,
+				["elapsed"] = 18.6019999999553,
 				["type"] = 0,
-				["name"] = "Warpwood Moss Flayer",
-				["clock"] = "12:38:53",
+				["name"] = "Felpaw Scavenger",
+				["clock"] = "14:57:04",
 			}, -- [16]
 			{
-				["elapsed"] = 19.7799999999988,
+				["elapsed"] = 14.9680000003427,
 				["type"] = 0,
-				["name"] = "Warpwood Shredder",
-				["clock"] = "12:37:55",
+				["name"] = "Entropic Horror",
+				["clock"] = "14:56:29",
 			}, -- [17]
 			{
-				["elapsed"] = 6.89900000003399,
+				["elapsed"] = 19.8190000001341,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:41:06",
+				["name"] = "Felpaw Scavenger",
+				["clock"] = "14:55:22",
 			}, -- [18]
 			{
-				["elapsed"] = 22.6170000000275,
+				["elapsed"] = 23.4699999997392,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:40:40",
+				["name"] = "Angerclaw Mauler",
+				["clock"] = "14:54:30",
 			}, -- [19]
 			{
-				["elapsed"] = 14.4150000000373,
+				["elapsed"] = 19.8190000001341,
 				["type"] = 0,
-				["name"] = "Irontree Wanderer",
-				["clock"] = "13:40:24",
+				["name"] = "Angerclaw Mauler",
+				["clock"] = "14:54:01",
 			}, -- [20]
 			{
-				["elapsed"] = 11.3650000000489,
+				["elapsed"] = 18.2350000003353,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:39:35",
+				["name"] = "Angerclaw Mauler",
+				["clock"] = "14:53:36",
 			}, -- [21]
 			{
-				["elapsed"] = 10.0499999999884,
+				["elapsed"] = 14.9680000003427,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:39:06",
+				["name"] = "Angerclaw Mauler",
+				["clock"] = "14:53:17",
 			}, -- [22]
 			{
-				["elapsed"] = 9.79999999998836,
+				["elapsed"] = 21.8189999996685,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:38:44",
+				["name"] = "Angerclaw Mauler",
+				["clock"] = "14:52:52",
 			}, -- [23]
 			{
-				["elapsed"] = 12.3649999999907,
+				["elapsed"] = 28.2030000002123,
 				["type"] = 0,
-				["name"] = "Irontree Wanderer",
-				["clock"] = "13:38:08",
+				["name"] = "Tainted Ooze",
+				["clock"] = "14:51:50",
 			}, -- [24]
 			{
-				["elapsed"] = 28.2829999999958,
+				["elapsed"] = 4.06699999980629,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:36:51",
+				["name"] = "Jaedenar Adept",
+				["clock"] = "14:50:53",
 			}, -- [25]
 			{
-				["elapsed"] = 29.5999999999767,
+				["elapsed"] = 53.473000000231,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:36:12",
+				["name"] = "Jaedenar Guardian",
+				["clock"] = "14:49:57",
 			}, -- [26]
 			{
-				["elapsed"] = 23.3489999999874,
+				["elapsed"] = 40.5709999999963,
 				["type"] = 0,
-				["name"] = "Toxic Horror",
-				["clock"] = "13:35:36",
+				["name"] = "Jaedenar Guardian",
+				["clock"] = "14:48:41",
 			}, -- [27]
 			{
-				["elapsed"] = 48.8830000000307,
+				["elapsed"] = 50.7390000000596,
 				["type"] = 0,
-				["name"] = "Toxic Horror",
-				["clock"] = "13:34:19",
+				["name"] = "Jaedenar Cultist",
+				["clock"] = "14:47:19",
 			}, -- [28]
 			{
-				["elapsed"] = 19.86599999998,
+				["elapsed"] = 13.8519999999553,
 				["type"] = 0,
-				["name"] = "Withered Protector",
-				["clock"] = "13:33:17",
+				["name"] = "Felpaw Scavenger",
+				["clock"] = "14:45:49",
 			}, -- [29]
 			{
-				["elapsed"] = 13.4329999999609,
+				["elapsed"] = 13.4010000000708,
 				["type"] = 0,
-				["name"] = "Irontree Stomper",
-				["clock"] = "13:32:46",
+				["name"] = "Felpaw Scavenger",
+				["clock"] = "14:45:33",
 			}, -- [30]
 		},
 		["combat_counter"] = 1193,
 		["totals"] = {
-			640668.782793, -- [1]
-			89411.486628, -- [2]
+			787601.301288, -- [1]
+			97605.605587, -- [2]
 			{
 				0, -- [1]
 				[0] = 6960.039173,
@@ -17924,7 +17633,7 @@ _detalhes_database = {
 				["ress"] = 0,
 				["dead"] = 0,
 				["cc_break"] = 0,
-				["interrupt"] = 4.013969,
+				["interrupt"] = 5.02034,
 				["debuff_uptime"] = 0,
 				["dispell"] = 2.010661,
 				["cooldowns_defensive"] = 0,
@@ -17940,12 +17649,12 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = "19:45:47",
-		["end_time"] = 153502.526,
+		["end_time"] = 2513076.923,
 		["cleu_timeline"] = {
 		},
 		["totals_grupo"] = {
-			470539.780875, -- [1]
-			89411.492313, -- [2]
+			596376.025737, -- [1]
+			97605.611272, -- [2]
 			{
 				0, -- [1]
 				[0] = 6960.04925,
@@ -17982,20 +17691,20 @@ _detalhes_database = {
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
-		["data_fim"] = "13:11:42",
+		["data_fim"] = "20:58:09",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
 		["frags"] = {
 		},
-		["start_time"] = 149515.147,
+		["start_time"] = 2508162.272,
 		["TimeData"] = {
 		},
 		["cleu_events"] = {
 			["n"] = 1,
 		},
 	},
-	["combat_counter"] = 1357,
+	["combat_counter"] = 1410,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -18017,5 +17726,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-4674-003AFFB8"] = 258,
 	},
 }
