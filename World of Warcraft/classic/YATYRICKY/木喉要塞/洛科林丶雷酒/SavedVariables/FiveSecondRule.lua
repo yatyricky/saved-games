@@ -7,20 +7,9 @@ FiveSecondRule_Options = {
 		0.35, -- [3]
 		0.8, -- [4]
 	},
-	["tickSizeRunningWindow"] = {
-		60, -- [1]
-		59, -- [2]
-		60, -- [3]
-		59, -- [4]
-		60, -- [5]
-		59, -- [6]
-		59, -- [7]
-		59, -- [8]
-		59, -- [9]
-		60, -- [10]
-	},
+	["barWidth"] = 117,
+	["unlocked"] = false,
 	["barHeight"] = 11,
-	["averageManaTick"] = 59.4,
 	["barTop"] = -68,
 	["statusBarBackgroundColor"] = {
 		0, -- [1]
@@ -28,13 +17,8 @@ FiveSecondRule_Options = {
 		0, -- [3]
 		0.55, -- [4]
 	},
-	["barLeft"] = 90,
-	["manaTicksColor"] = {
-		0.95, -- [1]
-		0.95, -- [2]
-		0.95, -- [3]
-		1, -- [4]
-	},
+	["flat"] = false,
+	["showSpark"] = true,
 	["showText"] = true,
 	["statusBarColor"] = {
 		0, -- [1]
@@ -42,8 +26,24 @@ FiveSecondRule_Options = {
 		1, -- [3]
 		0.95, -- [4]
 	},
-	["showSpark"] = true,
-	["flat"] = false,
-	["unlocked"] = false,
-	["barWidth"] = 117,
+	["manaTicksColor"] = {
+		0.95, -- [1]
+		0.95, -- [2]
+		0.95, -- [3]
+		1, -- [4]
+	},
+	["barLeft"] = 90,
+	["averageManaTick"] = 55.45,
+	["tickSizeRunningWindow"] = {
+		50.5, -- [1]
+		50.5, -- [2]
+		50.5, -- [3]
+		50.5, -- [4]
+		50.5, -- [5]
+		50.5, -- [6]
+		50.5, -- [7]
+		50.5, -- [8]
+		50.5, -- [9]
+		100, -- [10]
+	},
 }
