@@ -19,7 +19,7 @@ console.log(DirD2RSaveLocal);
 
 let DiskOptions = {
     override: true,
-    fileExts: [".d2s", ".d2x", ".dup"],
+    fileExts: [".d2s", ".d2i", ".d2x", ".dup"],
     directories: false,
 }
 
