@@ -21,6 +21,7 @@ let DiskOptions = {
     override: true,
     fileExts: [".d2s", ".d2i", ".d2x", ".dup"],
     directories: false,
+    checkMTime: true,
 }
 
 async function main() {

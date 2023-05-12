@@ -87,38 +87,46 @@ function copyItemIntoDirectory(source, target, options) {
         override: false,
         fileExts: [],
         directories: true,
+        checkMTime: false,
         ...options,
     }
     checkDir(target)
 
     const targetPath = path.join(target, path.basename(source));
-    if (fs.statSync(source).isDirectory()) {
+    let sourceStat = fs.statSync(source)
+    if (sourceStat.isDirectory()) {
         if (!opts.directories) {
             return
         }
+
         checkDir(targetPath)
         fs.readdirSync(source).forEach((file) => {
             copyItemIntoDirectory(path.join(source, file), targetPath, opts);
         });
     } else {
+        if (opts.fileExts.length > 0 && opts.fileExts.indexOf(path.parse(targetPath).ext.toLowerCase()) < 0) {
+            return
+        }
+
         if (fs.existsSync(targetPath)) {
-            if (fs.statSync(targetPath).isDirectory()) {
+            let targetStat = fs.statSync(targetPath)
+            if (targetStat.isDirectory()) {
                 throw new Error(`Target is already a directory: ${targetPath}`)
             }
+
+            if (opts.checkMTime && targetStat.mtimeMs > sourceStat.mtimeMs) {
+                console.log(`[WARN] ${targetPath} is newer than ${source}, skip...`)
+                return
+            }
+
             if (opts.override) {
                 deleteItem(targetPath);
             } else {
                 return
             }
         }
-        if (opts.fileExts.length > 0) {
-            let ext = path.parse(targetPath).ext.toLowerCase()
-            if (opts.fileExts.indexOf(ext) >= 0) {
-                fs.copyFileSync(source, targetPath);
-            }
-        } else {
-            fs.copyFileSync(source, targetPath);
-        }
+
+        fs.copyFileSync(source, targetPath);
     }
 }
 
