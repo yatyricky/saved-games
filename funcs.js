@@ -3,7 +3,7 @@ const path = require("path");
 
 /**
  * @param {string} str
- * @returns {any} nullable
+ * @returns {any?}
  */
 function safeParseObj(str) {
     let ret = null;
