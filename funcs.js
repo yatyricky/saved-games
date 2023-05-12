@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const child_process = require("child_process")
 
 /**
  * @param {string} str
@@ -23,12 +24,7 @@ function deleteItem(fpath) {
     if (fs.existsSync(fpath)) {
         if (fs.statSync(fpath).isDirectory()) {
             fs.readdirSync(fpath).forEach((file) => {
-                const curPath = path.join(fpath, file);
-                if (fs.statSync(curPath).isDirectory()) {
-                    deleteItem(curPath);
-                } else {
-                    fs.unlinkSync(curPath);
-                }
+                deleteItem(path.join(fpath, file))
             });
             fs.rmdirSync(fpath);
         } else {
@@ -51,6 +47,35 @@ function deleteDirectoryItems(fpath) {
     }
 };
 
+function checkDir(dp) {
+    if (fs.existsSync(dp)) {
+        if (fs.statSync(dp).isDirectory()) {
+            return
+        } else {
+            throw new Error(`CheckDir: Path is already a file: ${dp}`)
+        }
+    }
+
+    let stack = []
+    let flag
+    do {
+        stack.push(dp)
+        dp = path.dirname(dp)
+        if (fs.existsSync(dp)) {
+            if (fs.statSync(dp).isFile()) {
+                throw new Error(`CheckDir: Path is already a file: ${dp}`)
+            }
+            flag = false
+        } else {
+            flag = true
+        }
+    } while (flag);
+
+    while (stack.length > 0) {
+        fs.mkdirSync(stack.pop())
+    }
+}
+
 /**
  * Copies a file or a directory into target directory.
  * @param {fs.PathLike} source file or directory
@@ -58,34 +83,35 @@ function deleteDirectoryItems(fpath) {
  * @param {{override: boolean, fileExts: string[]}} [options] options
  */
 function copyItemIntoDirectory(source, target, options) {
-    options = options || { override: true, fileExts: [] };
-    if (!fs.existsSync(target)) {
-        fs.mkdirSync(target);
-    } else if (!fs.statSync(target).isDirectory()) {
-        deleteItem(target);
-        fs.mkdirSync(target);
+    let opts = {
+        override: false,
+        fileExts: [],
+        ...options,
     }
+    checkDir(target)
+
     const targetPath = path.join(target, path.basename(source));
     if (fs.statSync(source).isDirectory()) {
-        if (!fs.existsSync(targetPath)) {
-            fs.mkdirSync(targetPath);
-        }
+        checkDir(targetPath)
         fs.readdirSync(source).forEach((file) => {
-            copyItemIntoDirectory(path.join(source, file), targetPath, options);
+            copyItemIntoDirectory(path.join(source, file), targetPath, opts);
         });
     } else {
         if (fs.existsSync(targetPath)) {
-            deleteItem(targetPath);
+            if (opts.override) {
+                deleteItem(targetPath);
+            } else {
+                return
+            }
         }
-        if (options.fileExts.length > 0) {
-            const fn = path.basename(source);
-            if (options.fileExts.some((ext) => fn.endsWith(ext))) {
+        if (opts.fileExts.length > 0) {
+            let ext = path.parse(targetPath).ext
+            if (opts.fileExts.indexOf(ext) > 0) {
                 fs.copyFileSync(source, targetPath);
             }
         } else {
             fs.copyFileSync(source, targetPath);
         }
-
     }
 }
 
@@ -96,14 +122,31 @@ function copyItemIntoDirectory(source, target, options) {
  * @param {{override: boolean, fileExts: string[]}} [options] options
  */
 function copyDirectoryItemsIntoDirectory(source, target, options) {
-    options = options || { override: true, fileExts: [] };
+    let opts = {
+        override: false,
+        fileExts: [],
+        ...options,
+    }
     if (!fs.existsSync(source) || !fs.statSync(source).isDirectory()) {
         console.log(source + " is not a directory.");
         return;
     }
     fs.readdirSync(source).forEach((file) => {
-        copyItemIntoDirectory(path.join(source, file), target, options);
+        copyItemIntoDirectory(path.join(source, file), target, opts);
     });
+}
+
+async function shell(command, options) {
+    console.log(`shell: ${command}`)
+    return new Promise((resolve, reject) => {
+        child_process.exec(command, options, (error, stdout, stderr) => {
+            if (error !== null) {
+                reject(error.code, stderr)
+            } else {
+                resolve(stdout)
+            }
+        })
+    })
 }
 
 module.exports = {
@@ -112,4 +155,6 @@ module.exports = {
     deleteDirectoryItems,
     copyItemIntoDirectory,
     copyDirectoryItemsIntoDirectory,
+    checkDir,
+    shell,
 };

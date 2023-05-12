@@ -19,7 +19,7 @@ if (fs.existsSync(fpConfig)) {
             const dpAddOnsCloud = path.join(__dirname, "World of Warcraft", "classic", "AddOns");
             const dpAccLua = path.join(config.wow_root, "_classic_", "WTF", "Account", "YATYRICKY");
             const dpAccLuaCloud = path.join(__dirname, "World of Warcraft", "classic", "YATYRICKY");
-            if (!core.copyFiles(dpAddOnsCloud, dpAddOns) || !core.copyFiles(dpAccLuaCloud, dpAccLua, [".lua"])) {
+            if (!core.copyFilesClean(dpAddOnsCloud, dpAddOns) || !core.copyFilesClean(dpAccLuaCloud, dpAccLua, [".lua"])) {
                 config.wow_root = "";
                 writeConfig = true;
             }
