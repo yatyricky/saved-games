@@ -8,9 +8,13 @@ let DirD2R = path.join(home, "Games/Diablo II Resurrected")
 let DirD2RSaveCloud = path.resolve("Diablo_II")
 let DirD2RSaveLocal = path.join(home, "Saved Games/Diablo II Resurrected")
 
+console.log(DirD2RSaveCloud);
+console.log(DirD2RSaveLocal);
+
 let DiskOptions = {
     override: true,
     fileExts: [".d2s", ".d2x", ".dup"],
+    directories: false,
 }
 
 async function main() {
@@ -29,8 +33,9 @@ async function main() {
     funcs.copyDirectoryItemsIntoDirectory(DirD2RSaveLocal, DirD2RSaveCloud, DiskOptions)
 
     console.log("Upload data")
+    let changedFiles = await funcs.shell("git diff --name-only")
     await funcs.shell("git add -A");
-    await funcs.shell("git commit -am \"auto commit\"");
+    await funcs.shell(`git commit -am "auto commit ${changedFiles.split("\n").filter(e => e.trim().length > 0).join(", ")}"`);
     await funcs.shell("git push");
 }
 

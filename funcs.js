@@ -86,18 +86,25 @@ function copyItemIntoDirectory(source, target, options) {
     let opts = {
         override: false,
         fileExts: [],
+        directories: true,
         ...options,
     }
     checkDir(target)
 
     const targetPath = path.join(target, path.basename(source));
     if (fs.statSync(source).isDirectory()) {
+        if (!opts.directories) {
+            return
+        }
         checkDir(targetPath)
         fs.readdirSync(source).forEach((file) => {
             copyItemIntoDirectory(path.join(source, file), targetPath, opts);
         });
     } else {
         if (fs.existsSync(targetPath)) {
+            if (fs.statSync(targetPath).isDirectory()) {
+                throw new Error(`Target is already a directory: ${targetPath}`)
+            }
             if (opts.override) {
                 deleteItem(targetPath);
             } else {
@@ -105,7 +112,7 @@ function copyItemIntoDirectory(source, target, options) {
             }
         }
         if (opts.fileExts.length > 0) {
-            let ext = path.parse(targetPath).ext
+            let ext = path.parse(targetPath).ext.toLowerCase()
             if (opts.fileExts.indexOf(ext) > 0) {
                 fs.copyFileSync(source, targetPath);
             }
@@ -122,17 +129,12 @@ function copyItemIntoDirectory(source, target, options) {
  * @param {{override: boolean, fileExts: string[]}} [options] options
  */
 function copyDirectoryItemsIntoDirectory(source, target, options) {
-    let opts = {
-        override: false,
-        fileExts: [],
-        ...options,
-    }
     if (!fs.existsSync(source) || !fs.statSync(source).isDirectory()) {
         console.log(source + " is not a directory.");
         return;
     }
     fs.readdirSync(source).forEach((file) => {
-        copyItemIntoDirectory(path.join(source, file), target, opts);
+        copyItemIntoDirectory(path.join(source, file), target, options);
     });
 }
 
