@@ -113,7 +113,7 @@ function copyItemIntoDirectory(source, target, options) {
         }
         if (opts.fileExts.length > 0) {
             let ext = path.parse(targetPath).ext.toLowerCase()
-            if (opts.fileExts.indexOf(ext) > 0) {
+            if (opts.fileExts.indexOf(ext) >= 0) {
                 fs.copyFileSync(source, targetPath);
             }
         } else {
