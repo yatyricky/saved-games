@@ -25,13 +25,16 @@ async function RunGame(options) {
     console.log("Copy from local to cloud")
     funcs.copyDirectoryItemsIntoDirectory(localSaveDir, cloudSaveDir, options.rules)
 
-    console.log("Upload data")
     let changedFiles = await funcs.shell("git status --porcelain")
     let changedFilesList = changedFiles.split("\n").filter(e => e.trim().length > 0)
     if (changedFilesList.length > 0) {
+        console.log("Uploading data")
         await funcs.shell("git add -A")
         await funcs.shell(`git commit --allow-empty -m "auto commit ${changedFilesList.join(", ")}"`)
         await funcs.shell("git push")
+        console.log("Uploaded data")
+    } else {
+        console.log("Nothing to upload")
     }
 }
 
