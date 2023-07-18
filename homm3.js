@@ -8,7 +8,7 @@ RunGame({
     rules: {
         override: true,
         fileExts: [".gm1", ".cgm"],
-        directories: false,
+        copyDirectories: false,
         checkMTime: true,
     }
 }).catch(reason => {

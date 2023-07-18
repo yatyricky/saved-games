@@ -86,7 +86,7 @@ function copyItemIntoDirectory(source, target, options) {
     let opts = {
         override: false,
         fileExts: [],
-        directories: true,
+        copyDirectories: true,
         checkMTime: false,
         ...options,
     }
@@ -95,7 +95,7 @@ function copyItemIntoDirectory(source, target, options) {
     const targetPath = path.join(target, path.basename(source));
     let sourceStat = fs.statSync(source)
     if (sourceStat.isDirectory()) {
-        if (!opts.directories) {
+        if (!opts.copyDirectories) {
             return
         }
 
