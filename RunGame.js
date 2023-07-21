@@ -30,7 +30,7 @@ async function RunGame(options) {
     if (changedFilesList.length > 0) {
         console.log("Uploading data")
         await funcs.shell("git add -A")
-        await funcs.shell(`git commit --allow-empty -m "auto commit ${changedFilesList.join(", ")}"`)
+        await funcs.shell(`git commit --allow-empty -m "auto commit"`)
         await funcs.shell("git push")
         console.log("Uploaded data")
     } else {
