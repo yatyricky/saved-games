@@ -2,13 +2,13 @@ const RunGame = require("./RunGame")
 
 RunGame({
     installationDir: "Games/turtle-wow",
-    cloudSaveDir: "Turtle_WoW",
+    cloudSaveDir: "World_of_Warcraft/turtle",
     localSaveDir: "Games/turtle-wow",
     executable: "WoW.exe",
     rules: {
         override: true,
         checkMTime: true,
-        fileExts: ["Interface/AddOns", "WTF/Account"]
+        patterns: ["^(Interface\\/AddOns|WTF\\/Account).*(?<!\\.bak)$"]
     }
 }).catch(reason => {
     console.log(reason)

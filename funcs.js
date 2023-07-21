@@ -77,34 +77,55 @@ function checkDir(dp) {
 }
 
 /**
+ * 
+ * @param {string} fullPath 
+ * @param {string} prefix 
+ */
+function trimPath(fullPath, prefix) {
+    let fullPathSanitized = fullPath.replace(/\\/g, "/")
+    let prefixSanitized = prefix.replace(/\\/g, "/")
+    if (!prefixSanitized.endsWith("/")) {
+        prefixSanitized += "/"
+    }
+    if (fullPathSanitized.startsWith(prefixSanitized)) {
+        return fullPathSanitized.replace(prefixSanitized, "")
+    } else {
+        throw new Error(`${fullPath} does not start with ${prefix}`)
+    }
+}
+
+/**
  * Copies a file or a directory into target directory.
  * @param {fs.PathLike} source file or directory
  * @param {fs.PathLike} target directory
- * @param {{override: boolean, fileExts: string[]}} [options] options
+ * @param {{override: boolean, patterns: string[]}} [options] options
  */
-function copyItemIntoDirectory(source, target, options) {
+function copyItemIntoDirectoryRecursive(source, target, options) {
     let opts = {
         override: false,
-        fileExts: [],
-        copyDirectories: true,
         checkMTime: false,
+        patterns: [],
         ...options,
     }
-    checkDir(target)
 
     const targetPath = path.join(target, path.basename(source));
     let sourceStat = fs.statSync(source)
     if (sourceStat.isDirectory()) {
-        if (!opts.copyDirectories) {
-            return
-        }
-
-        checkDir(targetPath)
         fs.readdirSync(source).forEach((file) => {
-            copyItemIntoDirectory(path.join(source, file), targetPath, opts);
+            copyItemIntoDirectoryRecursive(path.join(source, file), targetPath, opts);
         });
     } else {
-        if (opts.fileExts.length > 0 && opts.fileExts.indexOf(path.parse(targetPath).ext.toLowerCase()) < 0) {
+        let flag = false
+        for (const pattern of options.patterns) {
+            let regex = new RegExp(pattern, "g")
+            let checkSource = trimPath(source, options._sourceDir)
+            flag = flag || regex.test(checkSource)
+            if (flag) {
+                break
+            }
+        }
+
+        if (!flag) {
             return
         }
 
@@ -126,21 +147,42 @@ function copyItemIntoDirectory(source, target, options) {
             }
         }
 
+        checkDir(target)
         fs.copyFileSync(source, targetPath);
     }
+}
+
+/**
+ * Copies a file or a directory into target directory.
+ * @param {fs.PathLike} source file or directory
+ * @param {fs.PathLike} target directory
+ * @param {{override: boolean, patterns: string[]}} [options] options
+ */
+function copyItemIntoDirectory(source, target, options) {
+    if (options._sourceDir === undefined) {
+        options._sourceDir = path.dirname(source)
+    }
+
+    if (options._targetDir === undefined) {
+        options._targetDir = target
+    }
+
+    copyItemIntoDirectoryRecursive(source, target, options)
 }
 
 /**
  * Copies all items in directory into target directory.
  * @param {fs.PathLike} source directory
  * @param {fs.PathLike} target directory
- * @param {{override: boolean, fileExts: string[]}} [options] options
+ * @param {{override: boolean, patterns: string[]}} [options] options
  */
 function copyDirectoryItemsIntoDirectory(source, target, options) {
     if (!fs.existsSync(source) || !fs.statSync(source).isDirectory()) {
         console.log(source + " is not a directory.");
         return;
     }
+    options._sourceDir = source
+    options._targetDir = target
     fs.readdirSync(source).forEach((file) => {
         copyItemIntoDirectory(path.join(source, file), target, options);
     });

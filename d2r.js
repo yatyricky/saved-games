@@ -10,9 +10,8 @@ const options = {
     executable: "D2R.exe -mod lootfilter -txt",
     rules: {
         override: true,
-        fileExts: [".d2s", ".d2i", ".d2x", ".dup"],
-        copyDirectories: false,
         checkMTime: true,
+        patterns: ["^[^\\n\\r\\/]*\\.(d2s|d2i|d2x|dup)$"],
     }
 }
 

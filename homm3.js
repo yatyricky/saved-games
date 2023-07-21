@@ -7,9 +7,8 @@ RunGame({
     executable: "HD_Launcher.exe",
     rules: {
         override: true,
-        fileExts: [".gm1", ".cgm"],
-        copyDirectories: false,
         checkMTime: true,
+        patterns: ["^[^\\n\\r\\/]*\\.(gm1|cgm)$"],
     }
 }).catch(reason => {
     console.log(reason)
