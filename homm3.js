@@ -8,7 +8,7 @@ RunGame({
     rules: {
         override: true,
         checkMTime: true,
-        patterns: ["^[^\\n\\r\\/]*\\.(gm1|cgm)$"],
+        patterns: ["^[^\\n\\r\\/]*\\.(gm1|GM1|cgm|CGM)$"],
     }
 }).catch(reason => {
     console.log(reason)
