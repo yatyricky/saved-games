@@ -1,0 +1,3 @@
+MACRO 16777217 "bnc" Ability_Druid_ChallangingRoar
+/cast bear form
+END
