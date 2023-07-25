@@ -1,3 +1,5 @@
 MACRO 1 "target" Ability_BackStab
-/tar Agal
+/cleartarget
+/target Hogger
+/stopmacro [noexists][dead]
 END
