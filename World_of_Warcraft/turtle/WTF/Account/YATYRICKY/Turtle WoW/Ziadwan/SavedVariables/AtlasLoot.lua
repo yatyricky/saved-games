@@ -9,20 +9,20 @@ AtlasLootCharDB = {
 	["SafeLinks"] = true,
 	["SearchResult"] = {
 	},
-	["PartialMatching"] = true,
-	["MinimapButtonRadius"] = 78,
-	["WishList"] = {
-	},
-	["LootlinkTT"] = false,
-	["HidePanel"] = false,
-	["ItemSpam"] = true,
 	["EquipCompare"] = false,
+	["MinimapButtonRadius"] = 78,
+	["ItemSpam"] = true,
+	["LastBoss"] = "RFCTaragaman",
+	["HidePanel"] = false,
+	["FirstTime"] = true,
+	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "103",
 	["MinimapButtonPosition"] = 305,
-	["FirstTime"] = true,
+	["WishList"] = {
+	},
 	["MinimapButton"] = true,
-	["LastBoss"] = "RFCTaragaman",
+	["LootlinkTT"] = false,
 }
