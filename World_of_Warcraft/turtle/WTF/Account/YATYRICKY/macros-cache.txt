@@ -1,3 +1,4 @@
 MACRO 1 "target" Ability_BackStab
-/target moonstalker
+/target Hogger
+/cast Moonfire
 END
