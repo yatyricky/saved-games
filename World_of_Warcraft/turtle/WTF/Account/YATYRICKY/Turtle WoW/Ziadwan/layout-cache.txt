@@ -29,7 +29,7 @@ FrameLevel: 1
 X: 384
 Y: -174
 Frame: ShopFrame
-FrameLevel: 15
+FrameLevel: 14
 X: 409
 Y: -197
 Frame: GuildBankFrame
