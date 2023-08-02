@@ -9,13 +9,13 @@ AtlasLootCharDB = {
 	["SafeLinks"] = true,
 	["SearchResult"] = {
 	},
-	["EquipCompare"] = false,
+	["PartialMatching"] = true,
 	["MinimapButtonRadius"] = 78,
 	["ItemSpam"] = true,
-	["LastBoss"] = "RFCTaragaman",
+	["LootlinkTT"] = false,
 	["HidePanel"] = false,
 	["FirstTime"] = true,
-	["PartialMatching"] = true,
+	["EquipCompare"] = false,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
@@ -24,5 +24,5 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["MinimapButton"] = true,
-	["LootlinkTT"] = false,
+	["LastBoss"] = "RFCTaragaman",
 }
