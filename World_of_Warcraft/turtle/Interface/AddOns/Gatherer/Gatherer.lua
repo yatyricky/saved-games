@@ -1899,6 +1899,7 @@ function Gatherer_AddGatherHere(gather, gatherType, gatherIcon, gatherEventType)
     return;
   end
   local gatherContinent, gatherZone = Gatherer_GetCurrentZone();
+  -- if gatherContinent == nil then print("Gatherer_GetCurrentZone returns nil") end
   if (gatherContinent == 0) then
     -- Gatherer_Print("Gatherer: Cannot record item, invalid continent/zone.");
     return;
