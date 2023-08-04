@@ -1,3 +1,6 @@
 MACRO 16777217 "bnc" Ability_Druid_ChallangingRoar
 /cast bear form
 END
+MACRO 16777218 "cat" Ability_Druid_CatFormAttack
+/cast [stance:1]bear form;[stance:2]aquatic form;cat form
+END

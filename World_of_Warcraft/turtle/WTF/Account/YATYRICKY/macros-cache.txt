@@ -2,5 +2,6 @@ MACRO 2 "chik" Ability_CheapShot
 /chicken
 END
 MACRO 1 "target" Ability_BackStab
-/target Baros
+/target Old
+/cast moonfire
 END
