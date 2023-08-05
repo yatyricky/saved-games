@@ -5,3 +5,6 @@ MACRO 1 "target" Ability_BackStab
 /target Old
 /cast moonfire
 END
+MACRO 3 "yell" Ability_BullRush
+/s (en)hc team up *pst* (zh)HC pantu renwu zu
+END
