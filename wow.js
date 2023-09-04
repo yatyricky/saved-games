@@ -1,5 +1,15 @@
 const RunGame = require("./RunGame")
 
+let command = process.argv.slice(2)[0]
+
+let stage = -1
+
+if (command === "pull") {
+    stage = 1
+} else if (command === "push") {
+    stage = 2
+}
+
 RunGame({
     installationDir: "Games/World of Warcraft/_retail_",
     cloudSaveDir: "World_of_Warcraft/retail",
@@ -9,7 +19,8 @@ RunGame({
         override: true,
         checkMTime: true,
         patterns: ["^(Interface\\/AddOns|WTF\\/Account).*(?<!\\.bak)$"]
-    }
+    },
+    stage: stage,
 }).catch(reason => {
     console.log(reason)
 })

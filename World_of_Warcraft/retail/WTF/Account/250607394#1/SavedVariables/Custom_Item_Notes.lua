@@ -30,6 +30,9 @@ CIN_Save = {
 	["45079"] = {
 		"safe to delete after loch modan quest complete", -- [1]
 	},
+	["71617"] = {
+		"upgrade fireland items to heroic. drop in heroic only.", -- [1]
+	},
 	["162580"] = {
 		"BFA quest", -- [1]
 	},
@@ -42,14 +45,14 @@ CIN_Save = {
 	["162581"] = {
 		"BFA quest", -- [1]
 	},
-	["203914"] = {
-		"DF. Secrets of a lost empire. Trade old mog and stuff.", -- [1]
+	["162584"] = {
+		"BFA quest", -- [1]
 	},
 	["71141"] = {
 		"Time cavern. Firelands quest item", -- [1]
 	},
-	["162584"] = {
-		"BFA quest", -- [1]
+	["203914"] = {
+		"DF. Secrets of a lost empire. Trade old mog and stuff.", -- [1]
 	},
 	["21229"] = {
 		"TAQ rep", -- [1]
