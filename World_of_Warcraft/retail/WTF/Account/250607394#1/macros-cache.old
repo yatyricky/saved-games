@@ -1,0 +1,22 @@
+VER 3 0000000000000003 "ms" "132226"
+/script print(string.format("Current speed: %d%%", GetUnitSpeed("player") / 7 * 100))
+END
+VER 3 0000000000000004 "pathfinder" "134333"
+/way 49 35 The_Golden_Plains
+/way 44 45 Thunderhorn_Water_Well
+/way 32 48 BaelDun_Digsite
+/way 60 21 Red_Rocks
+/way 52 11 Windfury_Ridge
+/way 42 14 Wildmane_Water_Well
+/way 36 29 Thunder_Bluff
+END
+VER 3 0000000000000002 "quest" "135977"
+/script print(C_QuestLog.IsQuestFlaggedCompleted(26736))
+END
+VER 3 0000000000000005 "reset" "132096"
+/script ResetInstances();
+END
+VER 3 0000000000000001 "target" "132090"
+/target time
+/cleartarget [dead]
+END

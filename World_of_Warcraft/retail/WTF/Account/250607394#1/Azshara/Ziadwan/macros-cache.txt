@@ -1,0 +1,36 @@
+VER 3 0100000000000001 "bc" "134400"
+#showtooltip
+/cast [stance:1]Cat Form;Bear Form
+END
+VER 3 0100000000000003 "cancel" "134400"
+#showtooltip
+/cast [stance:1]bear form;[stance:2]cat form;cat form
+END
+VER 3 0100000000000005 "love" "134400"
+/showtooltip
+/love
+/cast moonfire
+END
+VER 3 0100000000000002 "mnt" "134400"
+#showtooltip
+/cast [combat]rebirth;renewed proto-drake
+END
+VER 3 0100000000000004 "ninja" "136096"
+#showtooltip
+/target jaguero stalker
+/cleartarget [dead]
+/cast moonfire
+END
+VER 3 0100000000000007 "regrowth" "134400"
+#showtooltip Regrowth
+/console autounshift 0
+/cast [@mouseover,@player] Regrowth
+/console autounshift 1
+END
+VER 3 0100000000000006 "spam" "134400"
+#showtooltip
+/cleartarget
+/targetenemy [noexists][dead]
+/stopmacro [noexists]
+/cast Moonfire
+END
