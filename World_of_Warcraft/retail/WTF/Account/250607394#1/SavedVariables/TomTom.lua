@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Default",
+		["Lynndaw - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -30,9 +31,12 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
+		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
+		},
+		["Lynndaw - Azshara"] = {
 		},
 	},
 }
