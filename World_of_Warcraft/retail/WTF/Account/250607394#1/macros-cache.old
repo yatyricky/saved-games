@@ -11,7 +11,7 @@ VER 3 0000000000000004 "pathfinder" "134333"
 /way 36 29 Thunder_Bluff
 END
 VER 3 0000000000000002 "quest" "135977"
-/script print(C_QuestLog.IsQuestFlaggedCompleted(26736))
+/script print(C_QuestLog.IsQuestFlaggedCompleted(13506))
 END
 VER 3 0000000000000005 "reset" "132096"
 /script ResetInstances();
