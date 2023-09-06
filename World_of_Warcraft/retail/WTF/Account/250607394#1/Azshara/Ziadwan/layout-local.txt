@@ -1,1 +1,8 @@
 Version: 1
+Frame: DeathRecapFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -307
+Y: 214
+W: 380
+H: 326
