@@ -34,3 +34,10 @@ VER 3 0100000000000006 "spam" "134400"
 /stopmacro [noexists]
 /cast Moonfire
 END
+VER 3 0100000000000008 "spams" "134400"
+#showtooltip
+/cleartarget
+/targetenemy [noexists][dead]
+/stopmacro [noexists]
+/cast sunfire
+END
