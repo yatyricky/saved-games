@@ -12,6 +12,9 @@ CIN_Save = {
 	["81055"] = {
 		"DMF WHEE! +10% rep & exp", -- [1]
 	},
+	["45798"] = {
+		"WLK ULD. No longer needed. Keep as a trophy.", -- [1]
+	},
 	["71634"] = {
 		"Azure Span /way #2024 16.57, 38.31", -- [1]
 	},
@@ -69,8 +72,14 @@ CIN_Save = {
 		"Thousand Needles", -- [1]
 		"Safe to delete.  way 77.32 74.29 Entrance to Razzeric to get a replacement", -- [2]
 	},
-	["204193"] = {
-		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
+	["21232"] = {
+		"Vanilla TAQ weapon quest. Needs 3 elementium ingots", -- [1]
+	},
+	["20931"] = {
+		"Vanilla T2.5 pants for Paladin, Hunter, Shaman, Warlock, Druid", -- [1]
+	},
+	["162581"] = {
+		"BFA quest", -- [1]
 	},
 	["204195"] = {
 		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
@@ -78,20 +87,20 @@ CIN_Save = {
 	["162580"] = {
 		"BFA quest", -- [1]
 	},
-	["162581"] = {
-		"BFA quest", -- [1]
+	["204193"] = {
+		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
 	},
 	["20930"] = {
 		"VANILLA. TAQ T2.5 Helmet for Paladin, Hunter, Rogue, Shaman, Druid", -- [1]
-	},
-	["71141"] = {
-		"Time cavern. Firelands quest item", -- [1]
 	},
 	["20933"] = {
 		"Vanilla TAQ T2.5 Armor for Priest, Mage, Warlock, Druid", -- [1]
 	},
 	["190456"] = {
 		"DF currency for recepies", -- [1]
+	},
+	["71141"] = {
+		"Time cavern. Firelands quest item", -- [1]
 	},
 	["162584"] = {
 		"BFA quest", -- [1]
