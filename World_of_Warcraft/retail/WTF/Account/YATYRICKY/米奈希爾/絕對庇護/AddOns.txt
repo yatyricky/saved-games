@@ -1,0 +1,12 @@
+Auctionator: disabled
+KayrCovenantMissions: disabled
+Decliner: disabled
+Details: disabled
+Details_EncounterDetails: disabled
+Details_RaidCheck: disabled
+Details_DataStorage: disabled
+Details_Streamer: disabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
+RareScanner: disabled
+TomTom: disabled

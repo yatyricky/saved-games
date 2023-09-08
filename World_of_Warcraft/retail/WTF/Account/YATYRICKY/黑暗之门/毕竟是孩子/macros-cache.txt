@@ -1,0 +1,30 @@
+VER 3 0100000000000002 "冰枪术" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast 冰枪术
+END
+VER 3 0100000000000006 "冰箱" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast 寒冰屏障
+END
+VER 3 0100000000000001 "反制" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [target=mouseover,harm]法术反制;法术反制
+END
+VER 3 0100000000000003 "弹幕" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast 奥术弹幕
+END
+VER 3 0100000000000004 "炎爆" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast 炎爆术
+END
+VER 3 0100000000000005 "炼狱" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast 炼狱冲击
+END

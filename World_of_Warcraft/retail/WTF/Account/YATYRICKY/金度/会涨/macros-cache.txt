@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "爆发" "SPELL_SHADOW_UNHOLYFRENZY"
+/use 天谴之石
+/施放 狂暴之怒
+/施放 鲁莽
+END

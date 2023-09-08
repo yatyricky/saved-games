@@ -1,0 +1,53 @@
+VER 3 0100000000000006 "Burst" "ABILITY_PALADIN_SHEATHOFLIGHT"
+/use Potion of Mogu Power
+/cast Avenging Wrath
+/use Kafa Press
+END
+VER 3 0100000000000007 "Bust2" "INV_SWORD_136"
+/cast Avenging Wrath
+/use Kafa Press
+END
+VER 3 0100000000000003 "Cancel Divine" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
+/cancelaura Divine Shield
+/cancelaura Hand of Protection
+END
+VER 3 0100000000000005 "Counter" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Rebuke
+END
+VER 3 0100000000000012 "holy" "135024"
+/equipset holy
+END
+VER 3 010000000000000F "holy" "133642"
+/run SetLootSpecialization(65)
+END
+VER 3 010000000000000E "Judgement" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Judgment
+END
+VER 3 0100000000000004 "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [noflyable]Crimson Deathcharger;[flyable]Vitreous Stone Drake;
+END
+VER 3 010000000000000D "Nearest" "INV_MISC_QUESTIONMARK"
+/targetnearest
+END
+VER 3 0100000000000010 "prot" "133641"
+/run SetLootSpecialization(66)
+END
+VER 3 0100000000000013 "ret" "135029"
+/equipset retribution
+END
+VER 3 0100000000000011 "ret" "133643"
+/run SetLootSpecialization(70)
+END
+VER 3 0100000000000008 "Self Sentence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player]Execution Sentence
+END
+VER 3 0100000000000002 "Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [help,nodead][@player]Holy Shock;
+END

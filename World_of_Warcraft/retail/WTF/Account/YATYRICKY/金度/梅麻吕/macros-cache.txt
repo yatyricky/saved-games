@@ -1,0 +1,48 @@
+VER 3 0100000000000037 "auto" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/console set targetnearestdistance 40
+/cleartarget [noexists]
+/targetenemy [target=target, noexists]
+/cast moonfire
+END
+VER 3 0100000000000031 "cancel shift" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0]Cat Form(Shapeshift);[stance:1]Bear Form(Shapeshift);[stance:2]Cat Form(Shapeshift);[stance:3]Travel Form(Shapeshift);
+END
+VER 3 010000000000001F "cat n bear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:1]cat form;[stance:2]bear form;bear form
+END
+VER 3 0100000000000033 "G" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [combat]Rebirth;Revive
+END
+VER 3 0100000000000036 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/console autounshift 0
+/cast [@mouseover,exists]Regrowth;Regrowth
+/console autounshift 1
+END
+VER 3 010000000000003C "Ironfur" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:1]Ironfur;[nostance:1]Bear Form;
+END
+VER 3 0100000000000038 "LootFeral" "133655"
+/script SetLootSpecialization(103);
+END
+VER 3 0100000000000039 "LootResto" "133653"
+/script SetLootSpecialization(105);
+END
+VER 3 010000000000003E "s-cf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player]concentrated flame
+END
+VER 3 010000000000003D "Self Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player]Innervate
+END
+VER 3 0100000000000030 "swipe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Swipe
+END

@@ -1,0 +1,3 @@
+VER 3 0100000000000001 "destroy" "Ability_Iyyokuk_Calculate"
+/run for i=0,4 do for j=1,GetContainerNumSlots(i)do n=(GetContainerItemLink(i,j)or"") if(not n:find("炉石") and not n:find("重垃圾箱")) then PickupContainerItem(i,j) DeleteCursorItem()end end end
+END

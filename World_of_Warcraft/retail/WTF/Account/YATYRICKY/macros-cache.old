@@ -1,0 +1,47 @@
+VER 3 000000000000000B "kiss" "Ability_Creature_Poison_01"
+/kiss
+END
+VER 3 0000000000000001 "love" "Ability_Creature_Cursed_03"
+/love
+/cast 月火术
+END
+VER 3 0000000000000007 "pity" "Ability_Creature_Cursed_05"
+/focus
+END
+VER 3 0000000000000005 "Reloadui" "Ability_Creature_Cursed_04"
+/console reloadui
+END
+VER 3 000000000000000E "Reset" "Ability_Mage_NetherWindPresence"
+/script ResetInstances();
+END
+VER 3 0000000000000024 "Shutup!" "136164"
+/script hooksecurefunc("TalkingHeadFrame_PlayCurrent", function() TalkingHeadFrame:Show() end)
+END
+VER 3 0000000000000023 "sit" "136072"
+/sit
+END
+VER 3 0000000000000009 "Target" "Ability_BackStab"
+/cleartarget
+/target crucible soulseeker
+END
+VER 3 0000000000000010 "剑盾" "INV_MISC_QUESTIONMARK"
+#showtooltip 4 15
+/equipslot [noequipped:off-hand]16 4 15
+/equipslot [noequipped:off-hand]17 4 16
+/equipslot [equipped:off-hand]16 4 15
+END
+VER 3 0000000000000015 "双手" "INV_MISC_QUESTIONMARK"
+#showtooltip 4 15
+/equipslot 16 4 15
+END
+VER 3 0000000000000012 "双挥" "INV_MISC_QUESTIONMARK"
+#showtooltip 4 15
+/equipslot 16 4 15
+/equipslot 17 4 16
+END
+VER 3 0000000000000013 "嘲讽" "SPELL_NATURE_REINCARNATION"
+/大笑
+END
+VER 3 0000000000000016 "尾行" "SPELL_SHADOW_CHARM"
+/follow
+END
