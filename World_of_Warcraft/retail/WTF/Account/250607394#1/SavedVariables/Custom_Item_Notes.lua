@@ -78,8 +78,8 @@ CIN_Save = {
 	["20931"] = {
 		"Vanilla T2.5 pants for Paladin, Hunter, Shaman, Warlock, Druid", -- [1]
 	},
-	["204193"] = {
-		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
+	["162581"] = {
+		"BFA quest", -- [1]
 	},
 	["204195"] = {
 		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
@@ -87,8 +87,8 @@ CIN_Save = {
 	["162580"] = {
 		"BFA quest", -- [1]
 	},
-	["162581"] = {
-		"BFA quest", -- [1]
+	["204193"] = {
+		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
 	},
 	["20930"] = {
 		"VANILLA. TAQ T2.5 Helmet for Paladin, Hunter, Rogue, Shaman, Druid", -- [1]
@@ -96,11 +96,11 @@ CIN_Save = {
 	["20933"] = {
 		"Vanilla TAQ T2.5 Armor for Priest, Mage, Warlock, Druid", -- [1]
 	},
-	["71141"] = {
-		"Time cavern. Firelands quest item", -- [1]
-	},
 	["190456"] = {
 		"DF currency for recepies", -- [1]
+	},
+	["71141"] = {
+		"Time cavern. Firelands quest item", -- [1]
 	},
 	["162584"] = {
 		"BFA quest", -- [1]
