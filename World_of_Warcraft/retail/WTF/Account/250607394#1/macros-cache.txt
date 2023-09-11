@@ -13,6 +13,9 @@ END
 VER 3 0000000000000002 "quest" "135977"
 /script print(C_QuestLog.IsQuestFlaggedCompleted(13506))
 END
+VER 3 0000000000000006 "reloadui" "132180"
+/console reloadui
+END
 VER 3 0000000000000005 "reset" "132096"
 /script ResetInstances();
 END

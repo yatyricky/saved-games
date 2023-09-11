@@ -17,6 +17,6 @@ VER 3 0000000000000005 "reset" "132096"
 /script ResetInstances();
 END
 VER 3 0000000000000001 "target" "132090"
-/target Don Carlos
+/target Time-Lost
 /cleartarget [dead]
 END
