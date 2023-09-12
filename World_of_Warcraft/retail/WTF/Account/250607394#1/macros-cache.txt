@@ -1,3 +1,6 @@
+VER 3 0000000000000007 "mark vanilla" "135834"
+/cin Vanilla
+END
 VER 3 0000000000000003 "ms" "132226"
 /script print(string.format("Current speed: %d%%", GetUnitSpeed("player") / 7 * 100))
 END
