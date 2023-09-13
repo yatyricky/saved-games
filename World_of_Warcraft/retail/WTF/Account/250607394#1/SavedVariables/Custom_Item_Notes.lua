@@ -246,15 +246,14 @@ CIN_Save = {
 	["20520"] = {
 		"Vanilla", -- [1]
 	},
-	["20865"] = {
-		"Vanilla", -- [1]
-	},
 	["6310"] = {
 		"Vanilla", -- [1]
 	},
-	["5470"] = {
+	["20865"] = {
 		"Vanilla", -- [1]
-		"Cooking", -- [2]
+	},
+	["20424"] = {
+		"Vanilla", -- [1]
 	},
 	["4603"] = {
 		"Vanilla", -- [1]
@@ -274,12 +273,10 @@ CIN_Save = {
 	["20872"] = {
 		"Vanilla", -- [1]
 	},
-	["1288"] = {
-		"Vanilla", -- [1]
-		"Alchemy", -- [2]
-		"trash", -- [3]
-	},
 	["1475"] = {
+		"Vanilla", -- [1]
+	},
+	["4304"] = {
 		"Vanilla", -- [1]
 	},
 	["8172"] = {
@@ -294,8 +291,10 @@ CIN_Save = {
 	["12207"] = {
 		"Vanilla", -- [1]
 	},
-	["4304"] = {
+	["1288"] = {
 		"Vanilla", -- [1]
+		"Alchemy", -- [2]
+		"trash", -- [3]
 	},
 	["7077"] = {
 		"Vanilla", -- [1]
@@ -312,8 +311,8 @@ CIN_Save = {
 	["17010"] = {
 		"Vanilla", -- [1]
 	},
-	["8154"] = {
-		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
+	["7972"] = {
+		"Vanilla", -- [1]
 	},
 	["20864"] = {
 		"Vanilla", -- [1]
@@ -321,10 +320,10 @@ CIN_Save = {
 	["12811"] = {
 		"Vanilla", -- [1]
 	},
-	["7972"] = {
-		"Vanilla", -- [1]
+	["8154"] = {
+		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
 	},
-	["2842"] = {
+	["2592"] = {
 		"Vanilla", -- [1]
 	},
 	["204193"] = {
@@ -333,20 +332,20 @@ CIN_Save = {
 	["8153"] = {
 		"Vanilla", -- [1]
 	},
-	["2592"] = {
+	["12810"] = {
 		"Vanilla", -- [1]
 	},
 	["2449"] = {
 		"Vanilla", -- [1]
 	},
-	["6358"] = {
-		"Vanilla", -- [1]
+	["71141"] = {
+		"Time cavern. Firelands quest item", -- [1]
 	},
 	["202018"] = {
 		"Hand these in at /way #2024 66.93, 12.77 Sonova Snowden", -- [1]
 		"The Azure Span", -- [2]
 	},
-	["769"] = {
+	["10286"] = {
 		"Vanilla", -- [1]
 	},
 	["17011"] = {
@@ -417,8 +416,8 @@ CIN_Save = {
 		"Hand these in at /way #2024 66.93, 12.77 Sonova Snowden", -- [1]
 		"The Azure Span", -- [2]
 	},
-	["20861"] = {
-		"Vanilla", -- [1]
+	["45079"] = {
+		"safe to delete after loch modan quest complete", -- [1]
 	},
 	["35562"] = {
 		"Vanilla", -- [1]
@@ -456,8 +455,8 @@ CIN_Save = {
 	["14256"] = {
 		"Vanilla", -- [1]
 	},
-	["45079"] = {
-		"safe to delete after loch modan quest complete", -- [1]
+	["20861"] = {
+		"Vanilla", -- [1]
 	},
 	["5637"] = {
 		"Vanilla", -- [1]
@@ -487,11 +486,11 @@ CIN_Save = {
 	["12184"] = {
 		"Vanilla", -- [1]
 	},
-	["10286"] = {
+	["769"] = {
 		"Vanilla", -- [1]
 	},
-	["71141"] = {
-		"Time cavern. Firelands quest item", -- [1]
+	["6358"] = {
+		"Vanilla", -- [1]
 	},
 	["20881"] = {
 		"Vanilla", -- [1]
@@ -499,7 +498,7 @@ CIN_Save = {
 	["3712"] = {
 		"Vanilla", -- [1]
 	},
-	["12810"] = {
+	["2842"] = {
 		"Vanilla", -- [1]
 	},
 	["6291"] = {
@@ -529,8 +528,9 @@ CIN_Save = {
 	["20930"] = {
 		"VANILLA. TAQ T2.5 Helmet for Paladin, Hunter, Rogue, Shaman, Druid", -- [1]
 	},
-	["20424"] = {
+	["5470"] = {
 		"Vanilla", -- [1]
+		"Cooking", -- [2]
 	},
 	["20862"] = {
 		"Vanilla", -- [1]
