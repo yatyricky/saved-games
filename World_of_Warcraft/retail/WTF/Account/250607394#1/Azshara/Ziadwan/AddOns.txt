@@ -1,3 +1,4 @@
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 TomTom: enabled
+TradeSkillMaster: enabled
