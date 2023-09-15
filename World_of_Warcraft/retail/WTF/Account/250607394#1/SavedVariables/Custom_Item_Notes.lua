@@ -188,12 +188,16 @@ CIN_Save = {
 	["5503"] = {
 		"Vanilla", -- [1]
 	},
+	["33865"] = {
+		"TBC,CTM", -- [1]
+		"Zulaman", -- [2]
+	},
 	["192615"] = {
 		"DF", -- [1]
 		"used in a five day turn-in quest chain to get the mount Lizi's Reins.", -- [2]
 		"Renown 9 with Maruuk Centaur", -- [3]
 	},
-	["20879"] = {
+	["765"] = {
 		"Vanilla", -- [1]
 	},
 	["4234"] = {
@@ -205,16 +209,16 @@ CIN_Save = {
 	["12205"] = {
 		"Vanilla", -- [1]
 	},
-	["12804"] = {
+	["7069"] = {
 		"Vanilla", -- [1]
 	},
 	["13760"] = {
 		"Vanilla", -- [1]
 	},
-	["12662"] = {
+	["7080"] = {
 		"Vanilla", -- [1]
 	},
-	["20862"] = {
+	["6310"] = {
 		"Vanilla", -- [1]
 	},
 	["6361"] = {
@@ -235,13 +239,13 @@ CIN_Save = {
 	["3404"] = {
 		"Vanilla", -- [1]
 	},
-	["7081"] = {
-		"Vanilla", -- [1]
+	["162580"] = {
+		"BFA quest", -- [1]
 	},
 	["7974"] = {
 		"Vanilla", -- [1]
 	},
-	["2673"] = {
+	["20424"] = {
 		"Vanilla", -- [1]
 	},
 	["19943"] = {
@@ -271,18 +275,18 @@ CIN_Save = {
 	["20520"] = {
 		"Vanilla", -- [1]
 	},
-	["7079"] = {
+	["67229"] = {
 		"Vanilla", -- [1]
 	},
-	["4603"] = {
+	["20872"] = {
 		"Vanilla", -- [1]
 	},
 	["5470"] = {
 		"Vanilla", -- [1]
 		"Cooking", -- [2]
 	},
-	["13759"] = {
-		"Vanilla", -- [1]
+	["21232"] = {
+		"Vanilla TAQ weapon quest. Needs 3 elementium ingots", -- [1]
 	},
 	["6522"] = {
 		"Vanilla", -- [1]
@@ -290,19 +294,19 @@ CIN_Save = {
 	["207002"] = {
 		"DF", -- [1]
 	},
-	["2325"] = {
+	["7079"] = {
 		"Vanilla", -- [1]
 	},
 	["20865"] = {
 		"Vanilla", -- [1]
 	},
-	["20872"] = {
+	["4603"] = {
 		"Vanilla", -- [1]
 	},
-	["7077"] = {
+	["17010"] = {
 		"Vanilla", -- [1]
 	},
-	["7078"] = {
+	["4304"] = {
 		"Vanilla", -- [1]
 	},
 	["8172"] = {
@@ -322,25 +326,26 @@ CIN_Save = {
 		"Alchemy", -- [2]
 		"trash", -- [3]
 	},
-	["6291"] = {
+	["2842"] = {
 		"Vanilla", -- [1]
 	},
 	["818"] = {
 		"Vanilla", -- [1]
 	},
-	["3712"] = {
+	["20864"] = {
 		"Vanilla", -- [1]
 	},
 	["2449"] = {
 		"Vanilla", -- [1]
 	},
-	["2592"] = {
+	["202018"] = {
+		"Hand these in at /way #2024 66.93, 12.77 Sonova Snowden", -- [1]
+		"The Azure Span", -- [2]
+	},
+	["7972"] = {
 		"Vanilla", -- [1]
 	},
-	["17203"] = {
-		"Vanilla", -- [1]
-	},
-	["12184"] = {
+	["20860"] = {
 		"Vanilla", -- [1]
 	},
 	["12811"] = {
@@ -349,8 +354,8 @@ CIN_Save = {
 	["8154"] = {
 		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
 	},
-	["71141"] = {
-		"Time cavern. Firelands quest item", -- [1]
+	["6889"] = {
+		"Vanilla", -- [1]
 	},
 	["204193"] = {
 		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
@@ -358,20 +363,20 @@ CIN_Save = {
 	["8153"] = {
 		"Vanilla", -- [1]
 	},
-	["12810"] = {
+	["2592"] = {
 		"Vanilla", -- [1]
 	},
-	["10286"] = {
+	["2596"] = {
 		"Vanilla", -- [1]
 	},
-	["6358"] = {
-		"Vanilla", -- [1]
+	["71141"] = {
+		"Time cavern. Firelands quest item", -- [1]
 	},
 	["18945"] = {
 		"Vanilla", -- [1]
 		"Turn in at Master Smith Burninate at Searing Gorge", -- [2]
 	},
-	["769"] = {
+	["10286"] = {
 		"Vanilla", -- [1]
 	},
 	["17011"] = {
@@ -380,11 +385,12 @@ CIN_Save = {
 	["20863"] = {
 		"Vanilla", -- [1]
 	},
-	["3173"] = {
+	["12803"] = {
 		"Vanilla", -- [1]
 	},
-	["162571"] = {
-		"BFA quest", -- [1]
+	["199219"] = {
+		"DF", -- [1]
+		"Buy Chip @ Waking Shores /way #2022 26.4 55.4 Chip", -- [2]
 	},
 	["20873"] = {
 		"Vanilla", -- [1]
@@ -395,11 +401,11 @@ CIN_Save = {
 	["7971"] = {
 		"Vanilla", -- [1]
 	},
-	["128860"] = {
-		"LEG", -- [1]
-	},
 	["20870"] = {
 		"Vanilla", -- [1]
+	},
+	["128860"] = {
+		"LEG", -- [1]
 	},
 	["81055"] = {
 		"DMF WHEE! +10% rep & exp", -- [1]
@@ -410,10 +416,11 @@ CIN_Save = {
 	["18562"] = {
 		"Vanilla", -- [1]
 	},
-	["4402"] = {
+	["8150"] = {
 		"Vanilla", -- [1]
+		"LW, Cook, Engineer", -- [2]
 	},
-	["2318"] = {
+	["2672"] = {
 		"Vanilla", -- [1]
 	},
 	["20933"] = {
@@ -425,7 +432,7 @@ CIN_Save = {
 	["2675"] = {
 		"Vanilla", -- [1]
 	},
-	["13755"] = {
+	["2886"] = {
 		"Vanilla", -- [1]
 	},
 	["2924"] = {
@@ -434,8 +441,9 @@ CIN_Save = {
 	["12206"] = {
 		"Vanilla", -- [1]
 	},
-	["15407"] = {
+	["5637"] = {
 		"Vanilla", -- [1]
+		"LW, Smith, Jewel, Alchemy, Enchant", -- [2]
 	},
 	["202017"] = {
 		"Hand these in at /way #2024 66.93, 12.77 Sonova Snowden", -- [1]
@@ -459,11 +467,11 @@ CIN_Save = {
 	["45079"] = {
 		"safe to delete after loch modan quest complete", -- [1]
 	},
-	["207030"] = {
-		"DF. Thaldraszus /way #2025 51.0 56.6 Shi Everbreeze", -- [1]
-	},
 	["20890"] = {
 		"Vanilla RAQ weapon for Priest, Mage, Warlock, Druid", -- [1]
+	},
+	["207030"] = {
+		"DF. Thaldraszus /way #2025 51.0 56.6 Shi Everbreeze", -- [1]
 	},
 	["20858"] = {
 		"Vanilla", -- [1]
@@ -471,22 +479,20 @@ CIN_Save = {
 	["3857"] = {
 		"Vanilla", -- [1]
 	},
-	["5637"] = {
+	["15407"] = {
 		"Vanilla", -- [1]
-		"LW, Smith, Jewel, Alchemy, Enchant", -- [2]
 	},
-	["2886"] = {
+	["13755"] = {
 		"Vanilla", -- [1]
 	},
 	["14256"] = {
 		"Vanilla", -- [1]
 	},
-	["2672"] = {
+	["2318"] = {
 		"Vanilla", -- [1]
 	},
-	["8150"] = {
+	["4402"] = {
 		"Vanilla", -- [1]
-		"LW, Cook, Engineer", -- [2]
 	},
 	["8165"] = {
 		"Vanilla", -- [1]
@@ -497,58 +503,56 @@ CIN_Save = {
 	["21237"] = {
 		"Vanilla TAQ weapon quest. Needs 3 Elementium Ingots.", -- [1]
 	},
-	["199219"] = {
-		"DF", -- [1]
-		"Buy Chip @ Waking Shores /way #2022 26.4 55.4 Chip", -- [2]
+	["162571"] = {
+		"BFA quest", -- [1]
 	},
-	["12803"] = {
+	["3173"] = {
 		"Vanilla", -- [1]
 	},
-	["2596"] = {
+	["769"] = {
 		"Vanilla", -- [1]
 	},
-	["6889"] = {
+	["6358"] = {
 		"Vanilla", -- [1]
 	},
-	["20860"] = {
+	["12184"] = {
 		"Vanilla", -- [1]
 	},
-	["7972"] = {
+	["12810"] = {
 		"Vanilla", -- [1]
 	},
-	["202018"] = {
-		"Hand these in at /way #2024 66.93, 12.77 Sonova Snowden", -- [1]
-		"The Azure Span", -- [2]
+	["17203"] = {
+		"Vanilla", -- [1]
 	},
 	["20881"] = {
 		"Vanilla", -- [1]
 	},
-	["20864"] = {
+	["3712"] = {
 		"Vanilla", -- [1]
 	},
-	["2842"] = {
+	["6291"] = {
 		"Vanilla", -- [1]
 	},
-	["4304"] = {
+	["7078"] = {
 		"Vanilla", -- [1]
 	},
-	["17010"] = {
+	["7077"] = {
 		"Vanilla", -- [1]
 	},
-	["21232"] = {
-		"Vanilla TAQ weapon quest. Needs 3 elementium ingots", -- [1]
+	["13759"] = {
+		"Vanilla", -- [1]
 	},
 	["20931"] = {
 		"Vanilla T2.5 pants for Paladin, Hunter, Shaman, Warlock, Druid", -- [1]
 	},
-	["67229"] = {
+	["2325"] = {
 		"Vanilla", -- [1]
 	},
-	["20424"] = {
+	["2673"] = {
 		"Vanilla", -- [1]
 	},
-	["162580"] = {
-		"BFA quest", -- [1]
+	["7081"] = {
+		"Vanilla", -- [1]
 	},
 	["12202"] = {
 		"Vanilla", -- [1]
@@ -556,19 +560,19 @@ CIN_Save = {
 	["20930"] = {
 		"VANILLA. TAQ T2.5 Helmet for Paladin, Hunter, Rogue, Shaman, Druid", -- [1]
 	},
-	["6310"] = {
+	["20862"] = {
 		"Vanilla", -- [1]
 	},
-	["7080"] = {
+	["12662"] = {
 		"Vanilla", -- [1]
 	},
-	["7069"] = {
+	["12804"] = {
 		"Vanilla", -- [1]
 	},
 	["162584"] = {
 		"BFA quest", -- [1]
 	},
-	["765"] = {
+	["20879"] = {
 		"Vanilla", -- [1]
 	},
 	["199906"] = {
