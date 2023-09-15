@@ -35,39 +35,6 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
-			[2023] = {
-				["2023:469700000:728400000:17 Mirror of the Sky (Near the top of the mountain)"] = {
-					2023, -- [1]
-					0.4697, -- [2]
-					0.7284, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "17 Mirror of the Sky (Near the top of the mountain)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "17 Mirror of the Sky (Near the top of the mountain)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["Lynndaw - Azshara"] = {
 		},
