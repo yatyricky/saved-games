@@ -18,7 +18,7 @@ RunGame({
     rules: {
         override: true,
         checkMTime: true,
-        patterns: ["^(Interface\\/AddOns|WTF\\/Account).*(?<!\\.bak)(?<!SavedVariables\\/TradeSkillMaster\\.lua)$"]
+        patterns: ["^(Interface\\/AddOns|WTF\\/Account).*(?<!\\.bak)(?<!SavedVariables\\/TradeSkillMaster\\.lua)(?<!TradeSkillMaster_AppHelper\\/AppData\\.lua)$"]
     },
     stage: stage,
 }).catch(reason => {
