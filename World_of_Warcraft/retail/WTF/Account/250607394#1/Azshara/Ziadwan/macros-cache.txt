@@ -13,7 +13,7 @@ VER 3 0100000000000005 "love" "134400"
 END
 VER 3 0100000000000002 "mnt" "134400"
 #showtooltip
-/cast [combat]rebirth;renewed proto-drake
+/cast [combat]rebirth;highland drake
 END
 VER 3 0100000000000004 "ninja" "136096"
 #showtooltip
