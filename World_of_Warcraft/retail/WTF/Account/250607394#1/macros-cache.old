@@ -26,3 +26,9 @@ VER 3 0000000000000001 "target" "132090"
 /target Forest Frog
 /cleartarget [dead]
 END
+VER 3 0000000000000008 "targetmark" "132130"
+/cleartarget
+/targetexact Cult Adherent
+/stopmacro [noexists]
+/run SetRaidTarget("target",5)
+END
