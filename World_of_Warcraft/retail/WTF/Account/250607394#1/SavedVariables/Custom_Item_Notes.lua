@@ -244,8 +244,9 @@ CIN_Save = {
 	["7974"] = {
 		"Vanilla", -- [1]
 	},
-	["20424"] = {
+	["5470"] = {
 		"Vanilla", -- [1]
+		"Cooking", -- [2]
 	},
 	["19943"] = {
 		"Vanilla", -- [1]
@@ -280,11 +281,10 @@ CIN_Save = {
 	["21232"] = {
 		"Vanilla TAQ weapon quest. Needs 3 elementium ingots", -- [1]
 	},
-	["5470"] = {
+	["20424"] = {
 		"Vanilla", -- [1]
-		"Cooking", -- [2]
 	},
-	["67229"] = {
+	["20865"] = {
 		"Vanilla", -- [1]
 	},
 	["6522"] = {
@@ -296,17 +296,19 @@ CIN_Save = {
 	["2325"] = {
 		"Vanilla", -- [1]
 	},
-	["20865"] = {
+	["67229"] = {
 		"Vanilla", -- [1]
 	},
-	["20872"] = {
+	["4603"] = {
 		"Vanilla", -- [1]
 	},
 	["2842"] = {
 		"Vanilla", -- [1]
 	},
-	["4304"] = {
+	["1288"] = {
 		"Vanilla", -- [1]
+		"Alchemy", -- [2]
+		"trash", -- [3]
 	},
 	["8172"] = {
 		"Vanilla", -- [1]
@@ -320,10 +322,8 @@ CIN_Save = {
 	["12207"] = {
 		"Vanilla", -- [1]
 	},
-	["1288"] = {
+	["4304"] = {
 		"Vanilla", -- [1]
-		"Alchemy", -- [2]
-		"trash", -- [3]
 	},
 	["20864"] = {
 		"Vanilla", -- [1]
@@ -344,14 +344,14 @@ CIN_Save = {
 	["20860"] = {
 		"Vanilla", -- [1]
 	},
-	["7972"] = {
-		"Vanilla", -- [1]
+	["8154"] = {
+		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
 	},
 	["12811"] = {
 		"Vanilla", -- [1]
 	},
-	["8154"] = {
-		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
+	["7972"] = {
+		"Vanilla", -- [1]
 	},
 	["2596"] = {
 		"Vanilla", -- [1]
@@ -362,28 +362,28 @@ CIN_Save = {
 	["8153"] = {
 		"Vanilla", -- [1]
 	},
-	["2592"] = {
+	["12810"] = {
 		"Vanilla", -- [1]
 	},
-	["33865"] = {
-		"TBC,CTM", -- [1]
-		"Zulaman", -- [2]
+	["20863"] = {
+		"Vanilla", -- [1]
 	},
-	["71141"] = {
-		"Time cavern. Firelands quest item", -- [1]
+	["6358"] = {
+		"Vanilla", -- [1]
 	},
 	["18945"] = {
 		"Vanilla", -- [1]
 		"Turn in at Master Smith Burninate at Searing Gorge", -- [2]
 	},
-	["10286"] = {
+	["769"] = {
 		"Vanilla", -- [1]
 	},
 	["17011"] = {
 		"Vanilla", -- [1]
 	},
-	["20863"] = {
-		"Vanilla", -- [1]
+	["33865"] = {
+		"TBC,CTM", -- [1]
+		"Zulaman", -- [2]
 	},
 	["199219"] = {
 		"DF", -- [1]
@@ -506,13 +506,13 @@ CIN_Save = {
 	["162571"] = {
 		"BFA quest", -- [1]
 	},
-	["769"] = {
+	["10286"] = {
 		"Vanilla", -- [1]
 	},
-	["6358"] = {
-		"Vanilla", -- [1]
+	["71141"] = {
+		"Time cavern. Firelands quest item", -- [1]
 	},
-	["12810"] = {
+	["2592"] = {
 		"Vanilla", -- [1]
 	},
 	["12184"] = {
@@ -536,7 +536,7 @@ CIN_Save = {
 	["7078"] = {
 		"Vanilla", -- [1]
 	},
-	["4603"] = {
+	["20872"] = {
 		"Vanilla", -- [1]
 	},
 	["13759"] = {
