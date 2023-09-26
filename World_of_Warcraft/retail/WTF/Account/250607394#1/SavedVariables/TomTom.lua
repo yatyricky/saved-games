@@ -2,9 +2,9 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Lynndaw - Azshara"] = "Default",
-		["Ziadwan - Azshara"] = "Default",
-		["Lizman - Azshara"] = "Default",
 		["Zephyrbreeze - Azshara"] = "Default",
+		["Lizman - Azshara"] = "Default",
+		["Ziadwan - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -33,18 +33,18 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
-		["Lizman - Azshara"] = "Lizman - Azshara",
 		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
+		["Lizman - Azshara"] = "Lizman - Azshara",
+		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
 	},
 	["profiles"] = {
 		["Lynndaw - Azshara"] = {
 		},
-		["Ziadwan - Azshara"] = {
+		["Zephyrbreeze - Azshara"] = {
 		},
 		["Lizman - Azshara"] = {
 		},
-		["Zephyrbreeze - Azshara"] = {
+		["Ziadwan - Azshara"] = {
 		},
 	},
 }

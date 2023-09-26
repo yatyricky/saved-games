@@ -8,8 +8,8 @@ SellJunkDB = {
 	},
 	["profileKeys"] = {
 		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
-		["Lizman - Azshara"] = "Lizman - Azshara",
 		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
+		["Lizman - Azshara"] = "Lizman - Azshara",
+		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
 	},
 }
