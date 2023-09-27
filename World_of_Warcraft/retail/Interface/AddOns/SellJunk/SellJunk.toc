@@ -1,12 +1,12 @@
-## Interface: 100105
-## Title: SellJunk |cff00aa00DF v3.0.28|r
+## Interface: 100107
+## Title: SellJunk |cff00aa00DF v3.0.29|r
 ## Notes: Sells all junk in your inventory at once.
 ## Notes-zhTW: 一次販售掉你背包內的垃圾物品。
 ## Notes-zhCN: 一次贩卖掉你背包内的垃圾物品。
 ## Author: CrazyBenny of Stormrage-EU, FanUpdate by ImJayc2 and TravisSpomer and Shyde
 ## X-Email: cbenneh AT gmail DOT com
-## LastUpdate: 19.07.2023
-## Version: 3.0.28 DF FanUpdate by ImJayc2/Shyde
+## LastUpdate: 05.09.2023
+## Version: 3.0.29 DF FanUpdate by ImJayc2/Shyde
 ## IconTexture: Interface\Icons\Inv_misc_coin_01
 
 ## X-Credits: Xonpathos for previous version of SellJunk

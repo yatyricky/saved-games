@@ -1,3 +1,7 @@
+3.0.29 DF FanUpdate by Shyde
+  - Update TOC for patch 100107 / Addon tested for 10.1.7
+  - Date: 05.09.2023
+
 3.0.28 DF FanUpdate by Shyde
   - Added setting to ignore soulbound and sell/destroy items marked as BoE
   - Date: 19.07.2023
