@@ -5,11 +5,17 @@ SellJunkDB = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
 		},
+		["Gamwillsaveu - Azshara"] = {
+			["auto"] = true,
+		},
 	},
 	["profileKeys"] = {
-		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
-		["Lizman - Azshara"] = "Lizman - Azshara",
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
+		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+		["Lizman - Azshara"] = "Lizman - Azshara",
+		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
+		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
+		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
+		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 	},
 }
