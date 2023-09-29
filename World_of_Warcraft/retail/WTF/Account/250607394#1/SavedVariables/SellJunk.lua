@@ -14,8 +14,8 @@ SellJunkDB = {
 		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
 		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
-		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
-		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
 		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
+		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 	},
 }
