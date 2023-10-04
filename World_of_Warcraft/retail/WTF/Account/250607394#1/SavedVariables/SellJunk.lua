@@ -7,6 +7,7 @@ SellJunkDB = {
 		},
 		["Gamwillsaveu - Azshara"] = {
 			["auto"] = true,
+			["ignoreSoulbound"] = true,
 		},
 	},
 	["profileKeys"] = {
