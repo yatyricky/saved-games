@@ -10,3 +10,5 @@ Details_TinyThreat: disabled
 Details_Vanguard: disabled
 RareScanner: disabled
 TomTom: disabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
