@@ -108,7 +108,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -124,8 +125,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 			},
 			["hasQuickButton"] = true,
@@ -153,11 +153,11 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = true,
-				["schoolNameHighlighting"] = true,
 				["unitBraces"] = true,
 				["braces"] = false,
+				["schoolNameHighlighting"] = true,
 				["unitIcons"] = true,
+				["hideBuffs"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
@@ -354,7 +354,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -370,8 +371,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 			},
 			["hasQuickButton"] = true,
@@ -399,11 +399,11 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = true,
-				["schoolNameHighlighting"] = true,
 				["unitBraces"] = true,
 				["braces"] = false,
+				["schoolNameHighlighting"] = true,
 				["unitIcons"] = true,
+				["hideBuffs"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
@@ -479,14 +479,14 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_DURABILITY_DAMAGE_ALL"] = true,
 						["ENCHANT_REMOVED"] = true,
 						["SPELL_AURA_REMOVED"] = true,
-						["ENCHANT_APPLIED"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
 						["SPELL_DURABILITY_DAMAGE"] = true,
 						["SPELL_CAST_FAILED"] = true,
-						["SPELL_AURA_REMOVED_DOSE"] = true,
-						["SPELL_PERIODIC_LEECH"] = true,
+						["ENCHANT_APPLIED"] = true,
+						["SPELL_DISPEL_FAILED"] = true,
 						["SPELL_AURA_APPLIED_DOSE"] = true,
 						["SPELL_AURA_REFRESH"] = true,
-						["SPELL_DISPEL_FAILED"] = true,
+						["SPELL_PERIODIC_LEECH"] = true,
 						["SWING_DAMAGE"] = true,
 						["SPELL_AURA_BROKEN_SPELL"] = true,
 						["SPELL_CREATE"] = true,

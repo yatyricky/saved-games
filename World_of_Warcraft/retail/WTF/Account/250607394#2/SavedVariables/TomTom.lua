@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Igottwohorns - Thunderlord"] = "Default",
+		["Wysjj - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -30,9 +31,12 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
+		["Wysjj - Azshara"] = "Wysjj - Azshara",
 	},
 	["profiles"] = {
 		["Igottwohorns - Thunderlord"] = {
+		},
+		["Wysjj - Azshara"] = {
 		},
 	},
 }
