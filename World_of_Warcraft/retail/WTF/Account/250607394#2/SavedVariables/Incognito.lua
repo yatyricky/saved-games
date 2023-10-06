@@ -6,6 +6,7 @@ IncognitoDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["name"] = "DZ",
 		},
 	},
 }
