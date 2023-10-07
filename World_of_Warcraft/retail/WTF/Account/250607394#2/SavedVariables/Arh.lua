@@ -62,7 +62,7 @@ Arh_Config = {
 		["ShowOnBattlefieldMinimap"] = true,
 	},
 	["Minimap"] = {
-		["minimapPos"] = 235.2641552536981,
+		["minimapPos"] = 183.698761329219,
 		["hide"] = false,
 	},
 }

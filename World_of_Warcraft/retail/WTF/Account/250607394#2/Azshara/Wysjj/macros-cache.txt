@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "selfdc" "134400"
+#showtooltip
+/cast [@player]Death coil
+END
