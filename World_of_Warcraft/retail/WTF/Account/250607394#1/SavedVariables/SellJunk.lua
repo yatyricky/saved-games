@@ -9,6 +9,10 @@ SellJunkDB = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
 		},
+		["Lizman - Azshara"] = {
+			["auto"] = true,
+			["ignoreSoulbound"] = true,
+		},
 	},
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
