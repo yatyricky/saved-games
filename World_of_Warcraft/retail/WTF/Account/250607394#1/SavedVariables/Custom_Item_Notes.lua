@@ -280,14 +280,14 @@ CIN_Save = {
 	["13759"] = {
 		"Vanilla", -- [1]
 	},
+	["20424"] = {
+		"Vanilla", -- [1]
+	},
 	["5470"] = {
 		"Vanilla", -- [1]
 		"Cooking", -- [2]
 	},
-	["20424"] = {
-		"Vanilla", -- [1]
-	},
-	["4603"] = {
+	["20872"] = {
 		"Vanilla", -- [1]
 	},
 	["6522"] = {
@@ -296,13 +296,13 @@ CIN_Save = {
 	["207002"] = {
 		"DF", -- [1]
 	},
-	["7079"] = {
+	["2325"] = {
 		"Vanilla", -- [1]
 	},
-	["67229"] = {
+	["20865"] = {
 		"Vanilla", -- [1]
 	},
-	["20872"] = {
+	["4603"] = {
 		"Vanilla", -- [1]
 	},
 	["6291"] = {
@@ -323,8 +323,8 @@ CIN_Save = {
 	["12207"] = {
 		"Vanilla", -- [1]
 	},
-	["4304"] = {
-		"Vanilla", -- [1]
+	["5471"] = {
+		"Vanilla. Cooking", -- [1]
 	},
 	["1288"] = {
 		"Vanilla", -- [1]
@@ -346,17 +346,17 @@ CIN_Save = {
 	["3173"] = {
 		"Vanilla", -- [1]
 	},
-	["12810"] = {
+	["2592"] = {
 		"Vanilla", -- [1]
 	},
 	["12811"] = {
 		"Vanilla", -- [1]
 	},
-	["7972"] = {
-		"Vanilla", -- [1]
+	["8154"] = {
+		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
 	},
-	["6358"] = {
-		"Vanilla", -- [1]
+	["71141"] = {
+		"Time cavern. Firelands quest item", -- [1]
 	},
 	["204193"] = {
 		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
@@ -364,14 +364,14 @@ CIN_Save = {
 	["8153"] = {
 		"Vanilla", -- [1]
 	},
-	["2592"] = {
+	["12810"] = {
 		"Vanilla", -- [1]
 	},
 	["162571"] = {
 		"BFA quest", -- [1]
 	},
-	["71141"] = {
-		"Time cavern. Firelands quest item", -- [1]
+	["6358"] = {
+		"Vanilla", -- [1]
 	},
 	["18945"] = {
 		"Vanilla", -- [1]
@@ -383,9 +383,8 @@ CIN_Save = {
 	["17011"] = {
 		"Vanilla", -- [1]
 	},
-	["33865"] = {
-		"TBC,CTM", -- [1]
-		"Zulaman", -- [2]
+	["20863"] = {
+		"Vanilla", -- [1]
 	},
 	["769"] = {
 		"Vanilla", -- [1]
@@ -402,11 +401,11 @@ CIN_Save = {
 	["7971"] = {
 		"Vanilla", -- [1]
 	},
-	["20870"] = {
-		"Vanilla", -- [1]
-	},
 	["128860"] = {
 		"LEG", -- [1]
+	},
+	["20870"] = {
+		"Vanilla", -- [1]
 	},
 	["81055"] = {
 		"DMF WHEE! +10% rep & exp", -- [1]
@@ -508,11 +507,12 @@ CIN_Save = {
 		"DF", -- [1]
 		"Buy Chip @ Waking Shores /way #2022 26.4 55.4 Chip", -- [2]
 	},
-	["20863"] = {
-		"Vanilla", -- [1]
+	["33865"] = {
+		"TBC,CTM", -- [1]
+		"Zulaman", -- [2]
 	},
-	["8154"] = {
-		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
+	["7972"] = {
+		"Vanilla", -- [1]
 	},
 	["2596"] = {
 		"Vanilla", -- [1]
@@ -533,13 +533,13 @@ CIN_Save = {
 	["20864"] = {
 		"Vanilla", -- [1]
 	},
-	["5471"] = {
-		"Vanilla. Cooking", -- [1]
-	},
-	["20865"] = {
+	["4304"] = {
 		"Vanilla", -- [1]
 	},
-	["2325"] = {
+	["67229"] = {
+		"Vanilla", -- [1]
+	},
+	["7079"] = {
 		"Vanilla", -- [1]
 	},
 	["21232"] = {

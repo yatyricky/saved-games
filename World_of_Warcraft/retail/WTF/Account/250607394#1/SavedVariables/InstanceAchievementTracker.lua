@@ -6434,6 +6434,70 @@ AchievementTrackerDebug = {
 	"9/10/2023 10:3 [DEBUG] Resetting PlayerRank", -- [6414]
 	"9/10/2023 10:3 [DEBUG] InfoFrame was not active", -- [6415]
 	"9/10/2023 10:3 [DEBUG] 6", -- [6416]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [6417]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [6418]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [6419]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [6420]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [6421]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [6422]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [6423]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [6424]
+	"10/10/2023 5:18 [DEBUG] Showing Minimap Icon", -- [6425]
+	"10/10/2023 6:53 [DEBUG] ---IAT Runtime---", -- [6426]
+	"10/10/2023 6:53 [DEBUG] Version: 4.25.0", -- [6427]
+	"10/10/2023 6:53 [DEBUG] Attempting to load from local NPC Cache", -- [6428]
+	"10/10/2023 6:53 [DEBUG] Generating NPC Cache...", -- [6429]
+	"10/10/2023 6:53 [DEBUG] Only Tracking Missing Achievements Enabled", -- [6430]
+	"10/10/2023 6:53 [DEBUG] true", -- [6431]
+	"10/10/2023 6:53 [DEBUG] Enabling Addon", -- [6432]
+	"10/10/2023 6:53 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [6433]
+	"10/10/2023 6:55 [DEBUG] Showing Minimap Icon", -- [6434]
+	"10/10/2023 6:56 [DEBUG] ---IAT Runtime---", -- [6435]
+	"10/10/2023 6:56 [DEBUG] Version: 4.25.0", -- [6436]
+	"10/10/2023 6:56 [DEBUG] Attempting to load from local NPC Cache", -- [6437]
+	"10/10/2023 6:56 [DEBUG] Generating NPC Cache...", -- [6438]
+	"10/10/2023 6:56 [DEBUG] Only Tracking Missing Achievements Enabled", -- [6439]
+	"10/10/2023 6:56 [DEBUG] true", -- [6440]
+	"10/10/2023 6:56 [DEBUG] Enabling Addon", -- [6441]
+	"10/10/2023 6:56 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [6442]
+	"10/10/2023 6:56 [DEBUG] Showing Minimap Icon", -- [6443]
+	"10/10/2023 6:57 [DEBUG] ---IAT Runtime---", -- [6444]
+	"10/10/2023 6:57 [DEBUG] Version: 4.25.0", -- [6445]
+	"10/10/2023 6:57 [DEBUG] Attempting to load from local NPC Cache", -- [6446]
+	"10/10/2023 6:57 [DEBUG] Generating NPC Cache...", -- [6447]
+	"10/10/2023 6:57 [DEBUG] Only Tracking Missing Achievements Enabled", -- [6448]
+	"10/10/2023 6:57 [DEBUG] true", -- [6449]
+	"10/10/2023 6:57 [DEBUG] Enabling Addon", -- [6450]
+	"10/10/2023 6:57 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [6451]
+	"10/10/2023 6:58 [DEBUG] Showing Minimap Icon", -- [6452]
+	"10/10/2023 6:58 [DEBUG] ---IAT Runtime---", -- [6453]
+	"10/10/2023 6:58 [DEBUG] Version: 4.25.0", -- [6454]
+	"10/10/2023 6:58 [DEBUG] Attempting to load from local NPC Cache", -- [6455]
+	"10/10/2023 6:58 [DEBUG] Generating NPC Cache...", -- [6456]
+	"10/10/2023 6:58 [DEBUG] Only Tracking Missing Achievements Enabled", -- [6457]
+	"10/10/2023 6:58 [DEBUG] true", -- [6458]
+	"10/10/2023 6:58 [DEBUG] Enabling Addon", -- [6459]
+	"10/10/2023 6:58 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [6460]
+	"10/10/2023 7:3 [DEBUG] Showing Minimap Icon", -- [6461]
+	"10/10/2023 7:42 [DEBUG] ---IAT Runtime---", -- [6462]
+	"10/10/2023 7:42 [DEBUG] Version: 4.25.0", -- [6463]
+	"10/10/2023 7:42 [DEBUG] Attempting to load from local NPC Cache", -- [6464]
+	"10/10/2023 7:42 [DEBUG] Generating NPC Cache...", -- [6465]
+	"10/10/2023 7:42 [DEBUG] Only Tracking Missing Achievements Enabled", -- [6466]
+	"10/10/2023 7:42 [DEBUG] true", -- [6467]
+	"10/10/2023 7:42 [DEBUG] Enabling Addon", -- [6468]
+	"10/10/2023 7:42 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [6469]
+	"10/10/2023 7:43 [DEBUG] Showing Minimap Icon", -- [6470]
+	"10/10/2023 7:52 [DEBUG] Player has entered instance", -- [6471]
+	"10/10/2023 7:52 [DEBUG] 1460", -- [6472]
+	"10/10/2023 7:52 [DEBUG] Offical Instance Name: 1460 _1460", -- [6473]
+	"10/10/2023 7:52 [DEBUG] DifficultyID: 12", -- [6474]
+	"10/10/2023 7:52 [DEBUG] Achievements cannot be earned for the following difficulty 12", -- [6475]
+	"10/10/2023 7:52 [DEBUG] Player has entered instance", -- [6476]
+	"10/10/2023 7:52 [DEBUG] 1460", -- [6477]
+	"10/10/2023 7:52 [DEBUG] Offical Instance Name: 1460 _1460", -- [6478]
+	"10/10/2023 7:52 [DEBUG] DifficultyID: 12", -- [6479]
+	"10/10/2023 7:52 [DEBUG] Achievements cannot be earned for the following difficulty 12", -- [6480]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -6835,15 +6899,15 @@ AchievementTrackerNPCCache = {
 	[52442] = "Florawing Hive Queen",
 	[39984] = "Malignant Trogg",
 	[169594] = "Filled Anima Container",
-	[91349] = "Mannoroth",
 	[32919] = "Storm Lasher",
+	[91349] = "Mannoroth",
 	[108996] = "Specter of Vengeance",
 	[185128] = "Memorial Pylon",
-	[61442] = "Kuai the Brute",
-	[153415] = "Sha of Violence",
-	[178095] = "Eye of the Jailer",
-	[70250] = "Frozen Head",
 	[53258] = "Lord Rhyolith",
+	[153415] = "Sha of Violence",
+	[135129] = "Projection of Yogg-Saron",
+	[70250] = "Frozen Head",
+	[61442] = "Kuai the Brute",
 	[135513] = "Ancient Tome",
 	[177584] = "Burning Gibbet",
 	[71529] = "Thok the Bloodthirsty",
@@ -6881,12 +6945,12 @@ AchievementTrackerNPCCache = {
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
 	[166644] = "Artificer Xy'mox",
-	[78948] = "Tectus",
 	[56897] = "Raigonn",
+	[78948] = "Tectus",
 	[72436] = "Immerseus",
 	[34826] = "Mistress of Pain",
-	[71979] = "Kor'kron Warbringer",
-	[49864] = "Twilight Fiend",
+	[180658] = "Focusing Prism",
+	[99664] = "Restless Soul",
 	[53494] = "Baleroc",
 	[61213] = "Krik'thik Conscript",
 	[155595] = "Sacred Gear",
@@ -6899,18 +6963,18 @@ AchievementTrackerNPCCache = {
 	[175474] = "Belligerent Waiter",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[205340] = "Expired Experiment",
 	[111941] = "Hodir",
-	[52422] = "Kaulema the Mover",
+	[205340] = "Expired Experiment",
 	[50376] = "Angered Earth",
+	[52422] = "Kaulema the Mover",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
-	[172093] = "Hearty Haunch",
-	[33241] = "Freya",
+	[33113] = "Flame Leviathan",
+	[205341] = "Stack of Scrolls",
 	[68336] = "Garrosh Hellscream",
 	[138718] = "Sharkbait's Empty Dish",
-	[205341] = "Stack of Scrolls",
+	[33241] = "Freya",
 	[138719] = "Serve Sharkbait's Meal",
 	[67569] = "Elder Adler",
 	[90018] = "Hellfire Cannon",
@@ -6923,12 +6987,12 @@ AchievementTrackerNPCCache = {
 	[69086] = "Flaming Head",
 	[117072] = "Mordrethal",
 	[164934] = "Manastorm",
-	[93145] = "Soul of the Crone",
+	[23574] = "Akil'zon",
 	[74475] = "Magmolatus",
-	[126712] = "Training Dummy",
+	[76585] = "Ragewing the Untamed",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
-	[23574] = "Akil'zon",
+	[93145] = "Soul of the Crone",
 	[39987] = "Evolved Twilight Zealot",
 	[116802] = "Rodent of Usual Size",
 	[108682] = "Amber Drake",
@@ -6946,10 +7010,10 @@ AchievementTrackerNPCCache = {
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[170851] = "Volatile Plague Bomb",
-	[141792] = "Liz Vilepot",
+	[36535] = "Corrupted Soul Fragment",
 	[115844] = "Goroth",
-	[71983] = "Farseer Wolf Rider",
-	[78121] = "Gorian Warmage",
+	[105742] = "Turbax",
+	[141792] = "Liz Vilepot",
 	[173768] = "Fiery Brazier",
 	[32273] = "Infinite Corruptor",
 	[181546] = "Prototype of Renewal",
@@ -6958,41 +7022,41 @@ AchievementTrackerNPCCache = {
 	[165066] = "Huntsman Altimor",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
-	[172995] = "Hydra Seed",
-	[36855] = "Lady Deathwhisper",
-	[129208] = "Dread Captain Lockwood",
 	[174018] = "Volatile Plague Bomb",
-	[100436] = "Illysanna Ravencrest",
-	[71984] = "Siege Engineer",
+	[36855] = "Lady Deathwhisper",
 	[61567] = "Vizier Jin'bak",
-	[52392] = "Gurubashi Master Chef",
+	[172995] = "Hydra Seed",
+	[104528] = "High Botanist Tel'arn",
+	[71984] = "Siege Engineer",
+	[129208] = "Dread Captain Lockwood",
+	[105743] = "Whipsnap",
 	[33343] = "XS-013 Scrapbot",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
 	[136683] = "Trade Prince Gallywix",
 	[95833] = "Hyrja",
 	[156884] = "Essence of Vita",
-	[72496] = "Overseer Thathung",
 	[69427] = "Dark Animus",
+	[72496] = "Overseer Thathung",
 	[29305] = "Moorabi",
 	[164557] = "Shard of Halkias",
 	[86928] = "Empowered Construct",
 	[205989] = "Forgotten Specimen Tank",
 	[64061] = "Mogu'shan Warden",
 	[119938] = "Reanimated Templar",
-	[111882] = "Sparky",
 	[28514] = "Nalorakk",
-	[146016] = "Leeroy Jenkins",
+	[111882] = "Sparky",
+	[52936] = "Druid of the Flame",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
 	[27654] = "Drakos the Interrogator",
-	[56165] = "Crystal Conductor",
 	[179392] = "Kin'tessa",
+	[56165] = "Crystal Conductor",
 	[99031] = "Artifact",
 	[86250] = "Kyrak",
 	[105744] = "Blaze",
 	[26628] = "Drakkari Scytheclaw",
-	[52936] = "Druid of the Flame",
+	[146016] = "Leeroy Jenkins",
 	[55334] = "Void of the Unmaking",
 	[59458] = "Hopling",
 	[110732] = "Creature of Madness",
@@ -7002,14 +7066,14 @@ AchievementTrackerNPCCache = {
 	[38135] = "Deformed Fanatic",
 	[63091] = "Jade Quilen",
 	[73265] = "Corrupted Amalgamation",
-	[105743] = "Whipsnap",
-	[104528] = "High Botanist Tel'arn",
+	[52392] = "Gurubashi Master Chef",
+	[100436] = "Illysanna Ravencrest",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
 	[71603] = "Sha Puddle",
-	[105742] = "Turbax",
-	[36535] = "Corrupted Soul Fragment",
+	[78121] = "Gorian Warmage",
+	[71983] = "Farseer Wolf Rider",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
 	[164363] = "Undying Stonefiend",
@@ -7018,15 +7082,15 @@ AchievementTrackerNPCCache = {
 	[173769] = "Smoldering Brazier",
 	[165737] = "Sinstone Statue",
 	[33136] = "Guardian of Yogg-Saron",
-	[76585] = "Ragewing the Untamed",
+	[126712] = "Training Dummy",
 	[164450] = "Dealer Xy'exa",
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[81834] = "Priceless Paraphernalia",
-	[68599] = "Ferra Pearl",
 	[173770] = "Blazing Brazier",
-	[33113] = "Flame Leviathan",
+	[68599] = "Ferra Pearl",
+	[81834] = "Priceless Paraphernalia",
+	[172093] = "Hearty Haunch",
 	[50284] = "Twilight Zealot",
 	[67779] = "Mature Saurok Egg",
 	[55308] = "Warlord Zon'ozz",
@@ -7035,9 +7099,9 @@ AchievementTrackerNPCCache = {
 	[33768] = "Rubble",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
-	[99664] = "Restless Soul",
+	[49864] = "Twilight Fiend",
 	[59779] = "Thunderpaw Guardian",
-	[180658] = "Focusing Prism",
+	[71979] = "Kor'kron Warbringer",
 	[162102] = "Grand Proctor Beryllia",
 	[44530] = "Naz'jar Honor Guard",
 	[139737] = "Lord Stormsong",
@@ -7057,7 +7121,7 @@ AchievementTrackerNPCCache = {
 	[105301] = "Expedient Elemental",
 	[64479] = "Gatecrusher",
 	[62465] = "Captain Ook",
-	[135129] = "Projection of Yogg-Saron",
+	[178095] = "Eye of the Jailer",
 	[160859] = "Haunting Memory",
 	[38009] = "Reanimated Fanatic",
 	[114895] = "Nightbane",

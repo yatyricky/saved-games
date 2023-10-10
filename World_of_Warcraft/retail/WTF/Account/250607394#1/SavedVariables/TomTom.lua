@@ -4,10 +4,11 @@ TomTomDB = {
 		["Ziadwan - Azshara"] = "Default",
 		["Gamwillsaveu - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",
-		["Zephyrbreeze - Azshara"] = "Default",
 		["Bblilmao - Azshara"] = "Default",
+		["Zephyrbreeze - Azshara"] = "Default",
 		["Lynndaw - Azshara"] = "Default",
 		["Dahoontar - Azshara"] = "Default",
+		["Linqpad - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -38,10 +39,11 @@ TomTomWaypointsM = {
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
 		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
-		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
 		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
+		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
 		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
 		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+		["Linqpad - Azshara"] = "Linqpad - Azshara",
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
@@ -50,13 +52,15 @@ TomTomWaypointsM = {
 		},
 		["Lizman - Azshara"] = {
 		},
-		["Zephyrbreeze - Azshara"] = {
-		},
 		["Bblilmao - Azshara"] = {
+		},
+		["Zephyrbreeze - Azshara"] = {
 		},
 		["Lynndaw - Azshara"] = {
 		},
 		["Dahoontar - Azshara"] = {
+		},
+		["Linqpad - Azshara"] = {
 		},
 	},
 }
