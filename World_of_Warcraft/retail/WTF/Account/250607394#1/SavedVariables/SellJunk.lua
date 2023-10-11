@@ -13,6 +13,10 @@ SellJunkDB = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
 		},
+		["Linqpad - Azshara"] = {
+			["auto"] = true,
+			["ignoreSoulbound"] = true,
+		},
 	},
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
