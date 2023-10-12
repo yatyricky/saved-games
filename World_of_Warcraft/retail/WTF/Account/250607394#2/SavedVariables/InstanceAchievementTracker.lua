@@ -3,19 +3,19 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 248.621761750654,
 	["toggleSoundFailed"] = false,
 	["showMinimap"] = true,
-	["onlyTrackMissingAchievements"] = false,
+	["toggleSound"] = false,
 	["displayInfoFrame"] = true,
 	["enableAutomaticCombatLogging"] = false,
 	["greyOutCompletedAchievements"] = false,
 	["announceTrackedAchievements"] = false,
 	["announceToRaidWarning"] = true,
-	["trackAchievementsAutomatically"] = false,
-	["hideCompletedAchievements"] = false,
+	["trackAchievementsAutomatically"] = true,
+	["trackCharacterAchievements"] = false,
 	["changeMinimapIcon"] = false,
 	["enableAddon"] = true,
-	["trackCharacterAchievements"] = false,
+	["hideCompletedAchievements"] = false,
 	["trackAchievementsInBlizzardUI"] = false,
-	["toggleSound"] = false,
+	["onlyTrackMissingAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -2433,6 +2433,1187 @@ AchievementTrackerDebug = {
 	"9/10/2023 6:42 [DEBUG] InfoFrame was not active", -- [2413]
 	"9/10/2023 6:42 [DEBUG] 6", -- [2414]
 	"9/10/2023 6:42 [DEBUG] Hiding Tracking UI", -- [2415]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [2416]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [2417]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [2418]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [2419]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [2420]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2421]
+	"12/10/2023 6:28 [DEBUG] Showing Minimap Icon", -- [2422]
+	"12/10/2023 6:31 [DEBUG] Player has entered instance", -- [2423]
+	"12/10/2023 6:31 [DEBUG] 720", -- [2424]
+	"12/10/2023 6:31 [DEBUG] Offical Instance Name: 720 _720", -- [2425]
+	"12/10/2023 6:31 [DEBUG] Expansion: 4", -- [2426]
+	"12/10/2023 6:31 [DEBUG] Instance Type: Raids", -- [2427]
+	"12/10/2023 6:31 [DEBUG] Instance: 720", -- [2428]
+	"12/10/2023 6:31 [DEBUG] DifficultyID: 15", -- [2429]
+	"12/10/2023 6:31 [DEBUG] Expansion: 4", -- [2430]
+	"12/10/2023 6:31 [DEBUG] Instance Type: Raids", -- [2431]
+	"12/10/2023 6:31 [DEBUG] Instance: 720", -- [2432]
+	"12/10/2023 6:31 [DEBUG] Asking user whether they want to track this instance", -- [2433]
+	"12/10/2023 6:31 [DEBUG] Creating Tracking UI", -- [2434]
+	"12/10/2023 6:31 [DEBUG] InfoFrame Setup Complete", -- [2435]
+	"12/10/2023 6:31 [DEBUG] Expansion: 4", -- [2436]
+	"12/10/2023 6:31 |cff00ccffIAT: |cffffffffStarting achievement scan for Firelands (This may freeze your game for a few seconds!)", -- [2437]
+	"12/10/2023 6:31 [DEBUG] Group Size set to: 2", -- [2438]
+	"12/10/2023 6:31 [DEBUG] Combatlog does not need to be enabled", -- [2439]
+	"12/10/2023 6:31 [DEBUG] Starting Initial Setup If Needed...", -- [2440]
+	"12/10/2023 6:31 [DEBUG] Starting Initial Setup For Instance", -- [2441]
+	"12/10/2023 6:31 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Wysjj", -- [2442]
+	"12/10/2023 6:31 [DEBUG] Achievement Scanning Finished but some players still need scanning. Waiting 20 seconds then trying again (1/2)", -- [2443]
+	"12/10/2023 6:31 [DEBUG] Group Size set to: 2", -- [2444]
+	"12/10/2023 6:31 [DEBUG] Calling Detect Boss 2: 53732", -- [2445]
+	"12/10/2023 6:31 [DEBUG] Found the following boss ID: 53732", -- [2446]
+	"12/10/2023 6:31 [DEBUG] Calling Detect Boss 2: 53619", -- [2447]
+	"12/10/2023 6:31 [DEBUG] Found the following boss ID: 53619", -- [2448]
+	"12/10/2023 6:31 [DEBUG] Group Size set to: 2", -- [2449]
+	"12/10/2023 6:31 [DEBUG] Group Size set to: 2", -- [2450]
+	"12/10/2023 6:32 [DEBUG] Group Size set to: 2", -- [2451]
+	"12/10/2023 6:32 [DEBUG] Group Size set to: 2", -- [2452]
+	"12/10/2023 6:32 [DEBUG] Group Size set to: 2", -- [2453]
+	"12/10/2023 6:32 [DEBUG] Calling Detect Boss 2: 53128", -- [2454]
+	"12/10/2023 6:32 [DEBUG] Found the following boss ID: 53128", -- [2455]
+	"12/10/2023 6:32 [DEBUG] Group Size set to: 2", -- [2456]
+	"12/10/2023 6:33 [DEBUG] Group Size set to: 2", -- [2457]
+	"12/10/2023 6:33 [DEBUG] Group Roster Update", -- [2458]
+	"12/10/2023 6:33 [DEBUG] Achievement Scanning Enabled", -- [2459]
+	"12/10/2023 6:33 [DEBUG] Scan in progress. Asking for rescan", -- [2460]
+	"12/10/2023 6:33 [DEBUG] Group Size set to: 2", -- [2461]
+	"12/10/2023 6:33 [DEBUG] Setting rank to: 0", -- [2462]
+	"12/10/2023 6:33 [DEBUG] Clearing Instance Variables", -- [2463]
+	"12/10/2023 6:33 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [2464]
+	"12/10/2023 6:33 [DEBUG] Cleaning up instance events for _720", -- [2465]
+	"12/10/2023 6:33 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [2466]
+	"12/10/2023 6:33 [DEBUG] Clearing Instance Variables if exists", -- [2467]
+	"12/10/2023 6:33 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2468]
+	"12/10/2023 6:33 [DEBUG] Clearing Instance Variables if exists", -- [2469]
+	"12/10/2023 6:33 [DEBUG] Clearing Instance Variables", -- [2470]
+	"12/10/2023 6:33 [DEBUG] Resetting Global Variables", -- [2471]
+	"12/10/2023 6:33 [DEBUG] InfoFrame does not need to be reset", -- [2472]
+	"12/10/2023 6:33 [DEBUG] Resetting PlayerRank", -- [2473]
+	"12/10/2023 6:33 [DEBUG] InfoFrame was not active", -- [2474]
+	"12/10/2023 6:33 [DEBUG] 6", -- [2475]
+	"12/10/2023 6:33 [DEBUG] Hiding Tracking UI", -- [2476]
+	"12/10/2023 6:33 [DEBUG] Player is not in an instance. Cancelling scan", -- [2477]
+	"12/10/2023 6:34 [DEBUG] Hiding Tracking UI", -- [2478]
+	"12/10/2023 6:34 [DEBUG] Player has entered instance", -- [2479]
+	"12/10/2023 6:34 [DEBUG] 720", -- [2480]
+	"12/10/2023 6:34 [DEBUG] Offical Instance Name: 720 _720", -- [2481]
+	"12/10/2023 6:34 [DEBUG] Expansion: 4", -- [2482]
+	"12/10/2023 6:34 [DEBUG] Instance Type: Raids", -- [2483]
+	"12/10/2023 6:34 [DEBUG] Instance: 720", -- [2484]
+	"12/10/2023 6:34 [DEBUG] DifficultyID: 15", -- [2485]
+	"12/10/2023 6:34 [DEBUG] Expansion: 4", -- [2486]
+	"12/10/2023 6:34 [DEBUG] Instance Type: Raids", -- [2487]
+	"12/10/2023 6:34 [DEBUG] Instance: 720", -- [2488]
+	"12/10/2023 6:34 [DEBUG] Asking user whether they want to track this instance", -- [2489]
+	"12/10/2023 6:34 [DEBUG] Displaying Tracking UI since it was already created", -- [2490]
+	"12/10/2023 6:34 [DEBUG] Expansion: 4", -- [2491]
+	"12/10/2023 6:34 |cff00ccffIAT: |cffffffffStarting achievement scan for Firelands (This may freeze your game for a few seconds!)", -- [2492]
+	"12/10/2023 6:34 [DEBUG] Group Size set to: 2", -- [2493]
+	"12/10/2023 6:34 [DEBUG] Combatlog does not need to be enabled", -- [2494]
+	"12/10/2023 6:34 [DEBUG] Starting Initial Setup If Needed...", -- [2495]
+	"12/10/2023 6:34 [DEBUG] Starting Initial Setup For Instance", -- [2496]
+	"12/10/2023 6:34 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Ziadwan", -- [2497]
+	"12/10/2023 6:34 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Wysjj", -- [2498]
+	"12/10/2023 6:34 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (2/2)", -- [2499]
+	"12/10/2023 6:34 |cff00ccffIAT: |cffffffffIncomplete achievements for this instance |cffffff00|Hachievement:5855:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Ragnar-O's]|h|r|cffffff00|Hachievement:5799:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Only the Penitent...]|h|r", -- [2500]
+	"12/10/2023 6:35 [DEBUG] Calling Detect Boss 2: 53732", -- [2501]
+	"12/10/2023 6:35 [DEBUG] Found the following boss ID: 53732", -- [2502]
+	"12/10/2023 6:36 [DEBUG] Calling Detect Boss 2: 53619", -- [2503]
+	"12/10/2023 6:36 [DEBUG] Found the following boss ID: 53619", -- [2504]
+	"12/10/2023 6:40 [DEBUG] Calling Detect Boss 2: 53128", -- [2505]
+	"12/10/2023 6:40 [DEBUG] Found the following boss ID: 53128", -- [2506]
+	"12/10/2023 6:41 [DEBUG] Group Roster Update", -- [2507]
+	"12/10/2023 6:41 [DEBUG] Achievement Scanning Enabled", -- [2508]
+	"12/10/2023 6:41 [DEBUG] Starting Scan", -- [2509]
+	"12/10/2023 6:41 [DEBUG] Group Size set to: 2", -- [2510]
+	"12/10/2023 6:41 [DEBUG] Achievement Scanning Finished (2/2)", -- [2511]
+	"12/10/2023 6:41 [DEBUG] Group Size set to: 2", -- [2512]
+	"12/10/2023 6:41 [DEBUG] Setting rank to: 0", -- [2513]
+	"12/10/2023 6:41 [DEBUG] Clearing Instance Variables", -- [2514]
+	"12/10/2023 6:41 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [2515]
+	"12/10/2023 6:41 [DEBUG] Cleaning up instance events for _720", -- [2516]
+	"12/10/2023 6:41 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [2517]
+	"12/10/2023 6:41 [DEBUG] Clearing Instance Variables if exists", -- [2518]
+	"12/10/2023 6:41 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2519]
+	"12/10/2023 6:41 [DEBUG] Clearing Instance Variables if exists", -- [2520]
+	"12/10/2023 6:41 [DEBUG] Clearing Instance Variables", -- [2521]
+	"12/10/2023 6:41 [DEBUG] Resetting Global Variables", -- [2522]
+	"12/10/2023 6:41 [DEBUG] InfoFrame does not need to be reset", -- [2523]
+	"12/10/2023 6:41 [DEBUG] Resetting PlayerRank", -- [2524]
+	"12/10/2023 6:41 [DEBUG] InfoFrame was not active", -- [2525]
+	"12/10/2023 6:41 [DEBUG] 6", -- [2526]
+	"12/10/2023 6:41 [DEBUG] Hiding Tracking UI", -- [2527]
+	"12/10/2023 6:41 [DEBUG] Hiding Tracking UI", -- [2528]
+	"12/10/2023 6:41 [DEBUG] Player has entered instance", -- [2529]
+	"12/10/2023 6:41 [DEBUG] 720", -- [2530]
+	"12/10/2023 6:41 [DEBUG] Offical Instance Name: 720 _720", -- [2531]
+	"12/10/2023 6:41 [DEBUG] Expansion: 4", -- [2532]
+	"12/10/2023 6:41 [DEBUG] Instance Type: Raids", -- [2533]
+	"12/10/2023 6:41 [DEBUG] Instance: 720", -- [2534]
+	"12/10/2023 6:41 [DEBUG] DifficultyID: 15", -- [2535]
+	"12/10/2023 6:41 [DEBUG] Expansion: 4", -- [2536]
+	"12/10/2023 6:41 [DEBUG] Instance Type: Raids", -- [2537]
+	"12/10/2023 6:41 [DEBUG] Instance: 720", -- [2538]
+	"12/10/2023 6:41 [DEBUG] Asking user whether they want to track this instance", -- [2539]
+	"12/10/2023 6:41 [DEBUG] Displaying Tracking UI since it was already created", -- [2540]
+	"12/10/2023 6:41 [DEBUG] Expansion: 4", -- [2541]
+	"12/10/2023 6:41 |cff00ccffIAT: |cffffffffStarting achievement scan for Firelands (This may freeze your game for a few seconds!)", -- [2542]
+	"12/10/2023 6:41 [DEBUG] Group Size set to: 2", -- [2543]
+	"12/10/2023 6:41 [DEBUG] Combatlog does not need to be enabled", -- [2544]
+	"12/10/2023 6:41 [DEBUG] Starting Initial Setup If Needed...", -- [2545]
+	"12/10/2023 6:41 [DEBUG] Starting Initial Setup For Instance", -- [2546]
+	"12/10/2023 6:41 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Ziadwan", -- [2547]
+	"12/10/2023 6:41 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Wysjj", -- [2548]
+	"12/10/2023 6:41 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (2/2)", -- [2549]
+	"12/10/2023 6:41 |cff00ccffIAT: |cffffffffIncomplete achievements for this instance |cffffff00|Hachievement:5855:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Ragnar-O's]|h|r|cffffff00|Hachievement:5799:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Only the Penitent...]|h|r", -- [2550]
+	"12/10/2023 6:41 [DEBUG] Calling Detect Boss 2: 53732", -- [2551]
+	"12/10/2023 6:41 [DEBUG] Found the following boss ID: 53732", -- [2552]
+	"12/10/2023 6:41 [DEBUG] Calling Detect Boss 2: 53619", -- [2553]
+	"12/10/2023 6:41 [DEBUG] Found the following boss ID: 53619", -- [2554]
+	"12/10/2023 6:41 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:5799:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Only the Penitent...]|h|r Players who need Achievement: Ziadwan, Wysjj, ", -- [2555]
+	"12/10/2023 6:43 [DEBUG] Setting Master Addon 8", -- [2556]
+	"12/10/2023 6:43 [DEBUG] ------------NEW REQUEST------------", -- [2557]
+	"12/10/2023 6:43 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [2558]
+	"12/10/2023 6:43 [DEBUG] AddonID: 16814 : 43867", -- [2559]
+	"12/10/2023 6:43 [DEBUG] Master Addon: true : true", -- [2560]
+	"12/10/2023 6:43 [DEBUG] Player Rank: 2 : 0", -- [2561]
+	"12/10/2023 6:43 [DEBUG] Major Version: 4 : 4", -- [2562]
+	"12/10/2023 6:43 [DEBUG] Minor Version: 25 : 25", -- [2563]
+	"12/10/2023 6:43 [DEBUG] Only Track Missing Achievements: false : false", -- [2564]
+	"12/10/2023 6:43 [DEBUG] Instance ID: 720 : 720", -- [2565]
+	"12/10/2023 6:43 [DEBUG] I am in an instance", -- [2566]
+	"12/10/2023 6:43 [DEBUG] Make it to tracking", -- [2567]
+	"12/10/2023 6:43 [DEBUG] 4: Ziadwan-Azshara has better requirements. Not setting this addon to master", -- [2568]
+	"12/10/2023 6:43 [DEBUG] Blocking additional requests till end of fight since another addon has better requirements", -- [2569]
+	"12/10/2023 6:43 [DEBUG] Ziadwan Has told me to demote myself", -- [2570]
+	"12/10/2023 6:43 [DEBUG] Demoting Myself...", -- [2571]
+	"12/10/2023 6:43 [DEBUG] Demotion was legimate. No need to promote myself", -- [2572]
+	"12/10/2023 6:43 [DEBUG] Another addon is currently in charge of outputting messages for this fight", -- [2573]
+	"12/10/2023 6:43 |cff00ccffIAT: |cffffffffZiadwan is outputting messages for this fight", -- [2574]
+	"12/10/2023 6:43 [DEBUG] Entered Combat", -- [2575]
+	"12/10/2023 6:43 [DEBUG] Clearing Instance Variables if exists", -- [2576]
+	"12/10/2023 6:43 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2577]
+	"12/10/2023 6:43 [DEBUG] Clearing Instance Variables if exists", -- [2578]
+	"12/10/2023 6:43 [DEBUG] Clearing Instance Variables", -- [2579]
+	"12/10/2023 6:43 [DEBUG] Resetting Global Variables", -- [2580]
+	"12/10/2023 6:43 [DEBUG] InfoFrame does not need to be reset", -- [2581]
+	"12/10/2023 6:43 [DEBUG] Left Combat", -- [2582]
+	"12/10/2023 6:43 [DEBUG] Calling Detect Boss 3: 52571", -- [2583]
+	"12/10/2023 6:43 [DEBUG] Found the following boss ID: 52571", -- [2584]
+	"12/10/2023 6:43 [DEBUG] ---Encounter Started---", -- [2585]
+	"12/10/2023 6:43 [DEBUG] Encounter ID: 1185", -- [2586]
+	"12/10/2023 6:43 [DEBUG] Detected boss using ENCOUNTER ID", -- [2587]
+	"12/10/2023 6:43 [DEBUG] Found the following encounter ID: 1185", -- [2588]
+	"12/10/2023 6:43 [DEBUG] (E) Adding the following encounter ID: boss6", -- [2589]
+	"12/10/2023 6:43 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 5799", -- [2590]
+	"12/10/2023 6:43 [DEBUG] ---Encounter Ended---", -- [2591]
+	"12/10/2023 6:43 [DEBUG] Locking Detection for 3 seconds", -- [2592]
+	"12/10/2023 6:43 [DEBUG] Length of array: 1", -- [2593]
+	"12/10/2023 6:43 [DEBUG] Achievement: 5799", -- [2594]
+	"12/10/2023 6:43 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:5799:Player-77-0F304793:1:10:12:23:4294967295:4294967295:4294967295:4294967295|h[Only the Penitent...]|h|r", -- [2595]
+	"12/10/2023 6:43 [DEBUG] Setting Master Addon 8", -- [2596]
+	"12/10/2023 6:43 [DEBUG] ------------NEW REQUEST------------", -- [2597]
+	"12/10/2023 6:43 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [2598]
+	"12/10/2023 6:43 [DEBUG] AddonID: 16814 : 43867", -- [2599]
+	"12/10/2023 6:43 [DEBUG] Master Addon: true : true", -- [2600]
+	"12/10/2023 6:43 [DEBUG] Player Rank: 2 : 0", -- [2601]
+	"12/10/2023 6:43 [DEBUG] Major Version: 4 : 4", -- [2602]
+	"12/10/2023 6:43 [DEBUG] Minor Version: 25 : 25", -- [2603]
+	"12/10/2023 6:43 [DEBUG] Only Track Missing Achievements: false : false", -- [2604]
+	"12/10/2023 6:43 [DEBUG] Instance ID: 720 : 720", -- [2605]
+	"12/10/2023 6:43 [DEBUG] I am in an instance", -- [2606]
+	"12/10/2023 6:43 [DEBUG] Make it to tracking", -- [2607]
+	"12/10/2023 6:43 [DEBUG] 4: Ziadwan-Azshara has better requirements. Not setting this addon to master", -- [2608]
+	"12/10/2023 6:43 [DEBUG] Blocking additional requests till end of fight since another addon has better requirements", -- [2609]
+	"12/10/2023 6:43 [DEBUG] Ziadwan Has told me to demote myself", -- [2610]
+	"12/10/2023 6:43 [DEBUG] Demoting Myself...", -- [2611]
+	"12/10/2023 6:43 [DEBUG] Demotion was legimate. No need to promote myself", -- [2612]
+	"12/10/2023 6:43 [DEBUG] Another addon is currently in charge of outputting messages for this fight", -- [2613]
+	"12/10/2023 6:43 |cff00ccffIAT: |cffffffffZiadwan is outputting messages for this fight", -- [2614]
+	"12/10/2023 6:43 [DEBUG] Detection unlocked", -- [2615]
+	"12/10/2023 6:44 [DEBUG] Entered Combat", -- [2616]
+	"12/10/2023 6:45 [DEBUG] Clearing Instance Variables if exists", -- [2617]
+	"12/10/2023 6:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2618]
+	"12/10/2023 6:45 [DEBUG] Clearing Instance Variables if exists", -- [2619]
+	"12/10/2023 6:45 [DEBUG] Clearing Instance Variables", -- [2620]
+	"12/10/2023 6:45 [DEBUG] Resetting Global Variables", -- [2621]
+	"12/10/2023 6:45 [DEBUG] InfoFrame does not need to be reset", -- [2622]
+	"12/10/2023 6:45 [DEBUG] Left Combat", -- [2623]
+	"12/10/2023 6:48 [DEBUG] Group Roster Update", -- [2624]
+	"12/10/2023 6:48 [DEBUG] Achievement Scanning Enabled", -- [2625]
+	"12/10/2023 6:48 [DEBUG] Starting Scan", -- [2626]
+	"12/10/2023 6:48 [DEBUG] Group Size set to: 2", -- [2627]
+	"12/10/2023 6:48 [DEBUG] Achievement Scanning Finished (2/2)", -- [2628]
+	"12/10/2023 6:48 [DEBUG] Group Size set to: 2", -- [2629]
+	"12/10/2023 6:48 [DEBUG] Setting rank to: 0", -- [2630]
+	"12/10/2023 6:49 [DEBUG] Calling Detect Boss 2: 53617", -- [2631]
+	"12/10/2023 6:49 [DEBUG] Found the following boss ID: 53617", -- [2632]
+	"12/10/2023 6:49 [DEBUG] Calling Detect Boss 2: 53545", -- [2633]
+	"12/10/2023 6:49 [DEBUG] Found the following boss ID: 53545", -- [2634]
+	"12/10/2023 6:49 [DEBUG] Entered Combat", -- [2635]
+	"12/10/2023 6:49 [DEBUG] Clearing Instance Variables if exists", -- [2636]
+	"12/10/2023 6:49 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2637]
+	"12/10/2023 6:49 [DEBUG] Clearing Instance Variables if exists", -- [2638]
+	"12/10/2023 6:49 [DEBUG] Clearing Instance Variables", -- [2639]
+	"12/10/2023 6:49 [DEBUG] Resetting Global Variables", -- [2640]
+	"12/10/2023 6:49 [DEBUG] InfoFrame does not need to be reset", -- [2641]
+	"12/10/2023 6:49 [DEBUG] Left Combat", -- [2642]
+	"12/10/2023 6:49 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:5855:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Ragnar-O's]|h|r Players who need Achievement: Ziadwan, Wysjj, ", -- [2643]
+	"12/10/2023 6:50 [DEBUG] Calling Detect Boss 3: 52409", -- [2644]
+	"12/10/2023 6:50 [DEBUG] Found the following boss ID: 52409", -- [2645]
+	"12/10/2023 6:50 [DEBUG] Adding the following boss: boss7", -- [2646]
+	"12/10/2023 6:50 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 5855", -- [2647]
+	"12/10/2023 6:50 [DEBUG] ---Encounter Started---", -- [2648]
+	"12/10/2023 6:50 [DEBUG] Encounter ID: 1203", -- [2649]
+	"12/10/2023 6:50 [DEBUG] Detected boss using ENCOUNTER ID", -- [2650]
+	"12/10/2023 6:50 [DEBUG] Found the following encounter ID: 1203", -- [2651]
+	"12/10/2023 6:50 [DEBUG] Entered Combat", -- [2652]
+	"12/10/2023 6:50 [DEBUG] Length of array: 1", -- [2653]
+	"12/10/2023 6:50 [DEBUG] Achievement: 5855", -- [2654]
+	"12/10/2023 6:50 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:5855:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Ragnar-O's]|h|r", -- [2655]
+	"12/10/2023 6:50 [DEBUG] Setting Master Addon 8", -- [2656]
+	"12/10/2023 6:50 [DEBUG] ------------NEW REQUEST------------", -- [2657]
+	"12/10/2023 6:50 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [2658]
+	"12/10/2023 6:50 [DEBUG] AddonID: 16814 : 43867", -- [2659]
+	"12/10/2023 6:50 [DEBUG] Master Addon: true : true", -- [2660]
+	"12/10/2023 6:50 [DEBUG] Player Rank: 2 : 0", -- [2661]
+	"12/10/2023 6:50 [DEBUG] Major Version: 4 : 4", -- [2662]
+	"12/10/2023 6:50 [DEBUG] Minor Version: 25 : 25", -- [2663]
+	"12/10/2023 6:50 [DEBUG] Only Track Missing Achievements: false : false", -- [2664]
+	"12/10/2023 6:50 [DEBUG] Instance ID: 720 : 720", -- [2665]
+	"12/10/2023 6:50 [DEBUG] I am in an instance", -- [2666]
+	"12/10/2023 6:50 [DEBUG] Make it to tracking", -- [2667]
+	"12/10/2023 6:50 [DEBUG] 4: Ziadwan-Azshara has better requirements. Not setting this addon to master", -- [2668]
+	"12/10/2023 6:50 [DEBUG] Blocking additional requests till end of fight since another addon has better requirements", -- [2669]
+	"12/10/2023 6:50 [DEBUG] Ziadwan Has told me to demote myself", -- [2670]
+	"12/10/2023 6:50 [DEBUG] Demoting Myself...", -- [2671]
+	"12/10/2023 6:50 [DEBUG] Demotion was legimate. No need to promote myself", -- [2672]
+	"12/10/2023 6:50 [DEBUG] Another addon is currently in charge of outputting messages for this fight", -- [2673]
+	"12/10/2023 6:50 |cff00ccffIAT: |cffffffffZiadwan is outputting messages for this fight", -- [2674]
+	"12/10/2023 6:50 [DEBUG] ---Encounter Ended---", -- [2675]
+	"12/10/2023 6:50 [DEBUG] Locking Detection for 3 seconds", -- [2676]
+	"12/10/2023 6:50 [DEBUG] Detection unlocked", -- [2677]
+	"12/10/2023 6:50 [DEBUG] Clearing Instance Variables if exists", -- [2678]
+	"12/10/2023 6:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2679]
+	"12/10/2023 6:50 [DEBUG] Clearing Instance Variables if exists", -- [2680]
+	"12/10/2023 6:50 [DEBUG] Clearing Instance Variables", -- [2681]
+	"12/10/2023 6:50 [DEBUG] Resetting Global Variables", -- [2682]
+	"12/10/2023 6:50 [DEBUG] InfoFrame does not need to be reset", -- [2683]
+	"12/10/2023 6:50 [DEBUG] Left Combat", -- [2684]
+	"12/10/2023 6:51 [DEBUG] Calling Detect Boss 3: 52409", -- [2685]
+	"12/10/2023 6:51 [DEBUG] Found the following boss ID: 52409", -- [2686]
+	"12/10/2023 6:51 [DEBUG] Adding the following boss: boss7", -- [2687]
+	"12/10/2023 6:51 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 5855", -- [2688]
+	"12/10/2023 6:51 [DEBUG] ---Encounter Started---", -- [2689]
+	"12/10/2023 6:51 [DEBUG] Encounter ID: 1203", -- [2690]
+	"12/10/2023 6:51 [DEBUG] Detected boss using ENCOUNTER ID", -- [2691]
+	"12/10/2023 6:51 [DEBUG] Found the following encounter ID: 1203", -- [2692]
+	"12/10/2023 6:51 [DEBUG] Entered Combat", -- [2693]
+	"12/10/2023 6:51 [DEBUG] Length of array: 1", -- [2694]
+	"12/10/2023 6:51 [DEBUG] Achievement: 5855", -- [2695]
+	"12/10/2023 6:51 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:5855:Player-77-0F304793:0:0:0:-1:0:0:0:0|h[Ragnar-O's]|h|r", -- [2696]
+	"12/10/2023 6:51 [DEBUG] Setting Master Addon 8", -- [2697]
+	"12/10/2023 6:51 [DEBUG] ------------NEW REQUEST------------", -- [2698]
+	"12/10/2023 6:51 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [2699]
+	"12/10/2023 6:51 [DEBUG] AddonID: 16814 : 43867", -- [2700]
+	"12/10/2023 6:51 [DEBUG] Master Addon: true : true", -- [2701]
+	"12/10/2023 6:51 [DEBUG] Player Rank: 2 : 0", -- [2702]
+	"12/10/2023 6:51 [DEBUG] Major Version: 4 : 4", -- [2703]
+	"12/10/2023 6:51 [DEBUG] Minor Version: 25 : 25", -- [2704]
+	"12/10/2023 6:51 [DEBUG] Only Track Missing Achievements: false : false", -- [2705]
+	"12/10/2023 6:51 [DEBUG] Instance ID: 720 : 720", -- [2706]
+	"12/10/2023 6:51 [DEBUG] I am in an instance", -- [2707]
+	"12/10/2023 6:51 [DEBUG] Make it to tracking", -- [2708]
+	"12/10/2023 6:51 [DEBUG] 4: Ziadwan-Azshara has better requirements. Not setting this addon to master", -- [2709]
+	"12/10/2023 6:51 [DEBUG] Blocking additional requests till end of fight since another addon has better requirements", -- [2710]
+	"12/10/2023 6:51 [DEBUG] Ziadwan Has told me to demote myself", -- [2711]
+	"12/10/2023 6:51 [DEBUG] Demoting Myself...", -- [2712]
+	"12/10/2023 6:51 [DEBUG] Demotion was legimate. No need to promote myself", -- [2713]
+	"12/10/2023 6:51 [DEBUG] Another addon is currently in charge of outputting messages for this fight", -- [2714]
+	"12/10/2023 6:51 |cff00ccffIAT: |cffffffffZiadwan is outputting messages for this fight", -- [2715]
+	"12/10/2023 6:56 [DEBUG] ---Encounter Ended---", -- [2716]
+	"12/10/2023 6:56 [DEBUG] Locking Detection for 3 seconds", -- [2717]
+	"12/10/2023 6:56 [DEBUG] Clearing Instance Variables if exists", -- [2718]
+	"12/10/2023 6:56 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2719]
+	"12/10/2023 6:56 [DEBUG] Clearing Instance Variables if exists", -- [2720]
+	"12/10/2023 6:56 [DEBUG] Clearing Instance Variables", -- [2721]
+	"12/10/2023 6:56 [DEBUG] Resetting Global Variables", -- [2722]
+	"12/10/2023 6:56 [DEBUG] InfoFrame does not need to be reset", -- [2723]
+	"12/10/2023 6:56 [DEBUG] Left Combat", -- [2724]
+	"12/10/2023 6:56 [DEBUG] Detection unlocked", -- [2725]
+	"12/10/2023 6:57 [DEBUG] Calling Detect Boss 2: 53128", -- [2726]
+	"12/10/2023 6:57 [DEBUG] Found the following boss ID: 53128", -- [2727]
+	"12/10/2023 7:0 [DEBUG] Group Roster Update", -- [2728]
+	"12/10/2023 7:0 [DEBUG] Achievement Scanning Enabled", -- [2729]
+	"12/10/2023 7:0 [DEBUG] Starting Scan", -- [2730]
+	"12/10/2023 7:0 [DEBUG] Group Size set to: 2", -- [2731]
+	"12/10/2023 7:0 [DEBUG] Achievement Scanning Finished (2/2)", -- [2732]
+	"12/10/2023 7:0 [DEBUG] Group Size set to: 2", -- [2733]
+	"12/10/2023 7:0 [DEBUG] Setting rank to: 0", -- [2734]
+	"12/10/2023 7:0 [DEBUG] Group Roster Update", -- [2735]
+	"12/10/2023 7:0 [DEBUG] Achievement Scanning Enabled", -- [2736]
+	"12/10/2023 7:0 [DEBUG] Starting Scan", -- [2737]
+	"12/10/2023 7:0 [DEBUG] Group Size set to: 2", -- [2738]
+	"12/10/2023 7:0 [DEBUG] Achievement Scanning Finished (2/2)", -- [2739]
+	"12/10/2023 7:0 [DEBUG] Group Size set to: 2", -- [2740]
+	"12/10/2023 7:0 [DEBUG] Setting rank to: 0", -- [2741]
+	"12/10/2023 7:0 [DEBUG] Calling Detect Boss 3: 143622", -- [2742]
+	"12/10/2023 7:0 [DEBUG] Found the following boss ID: 143622", -- [2743]
+	"12/10/2023 7:0 [DEBUG] Calling Detect Boss 2: 61836", -- [2744]
+	"12/10/2023 7:0 [DEBUG] Found the following boss ID: 61836", -- [2745]
+	"12/10/2023 7:0 [DEBUG] Clearing Instance Variables", -- [2746]
+	"12/10/2023 7:0 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [2747]
+	"12/10/2023 7:0 [DEBUG] Cleaning up instance events for _720", -- [2748]
+	"12/10/2023 7:0 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [2749]
+	"12/10/2023 7:0 [DEBUG] Clearing Instance Variables if exists", -- [2750]
+	"12/10/2023 7:0 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2751]
+	"12/10/2023 7:0 [DEBUG] Clearing Instance Variables if exists", -- [2752]
+	"12/10/2023 7:0 [DEBUG] Clearing Instance Variables", -- [2753]
+	"12/10/2023 7:0 [DEBUG] Resetting Global Variables", -- [2754]
+	"12/10/2023 7:0 [DEBUG] InfoFrame does not need to be reset", -- [2755]
+	"12/10/2023 7:0 [DEBUG] Resetting PlayerRank", -- [2756]
+	"12/10/2023 7:0 [DEBUG] InfoFrame was not active", -- [2757]
+	"12/10/2023 7:0 [DEBUG] 6", -- [2758]
+	"12/10/2023 7:0 [DEBUG] Hiding Tracking UI", -- [2759]
+	"12/10/2023 7:13 [DEBUG] Hiding Tracking UI", -- [2760]
+	"12/10/2023 7:13 [DEBUG] Hiding Tracking UI", -- [2761]
+	"12/10/2023 7:14 [DEBUG] Hiding Tracking UI", -- [2762]
+	"12/10/2023 7:15 [DEBUG] Hiding Tracking UI", -- [2763]
+	"12/10/2023 7:15 [DEBUG] Hiding Tracking UI", -- [2764]
+	"12/10/2023 7:15 [DEBUG] Hiding Tracking UI", -- [2765]
+	"12/10/2023 7:16 [DEBUG] Hiding Tracking UI", -- [2766]
+	"12/10/2023 7:16 [DEBUG] Player has entered instance", -- [2767]
+	"12/10/2023 7:16 [DEBUG] 631", -- [2768]
+	"12/10/2023 7:16 [DEBUG] Offical Instance Name: 631 _631", -- [2769]
+	"12/10/2023 7:16 [DEBUG] Detected Legacy 25 man raid", -- [2770]
+	"12/10/2023 7:16 [DEBUG] New Instance Name: 631-25", -- [2771]
+	"12/10/2023 7:16 [DEBUG] Expansion: 3", -- [2772]
+	"12/10/2023 7:16 [DEBUG] Instance Type: Raids", -- [2773]
+	"12/10/2023 7:16 [DEBUG] Instance: 631-25", -- [2774]
+	"12/10/2023 7:16 [DEBUG] DifficultyID: 6", -- [2775]
+	"12/10/2023 7:16 [DEBUG] Expansion: 3", -- [2776]
+	"12/10/2023 7:16 [DEBUG] Instance Type: Raids", -- [2777]
+	"12/10/2023 7:16 [DEBUG] Instance: 631-25", -- [2778]
+	"12/10/2023 7:16 [DEBUG] Asking user whether they want to track this instance", -- [2779]
+	"12/10/2023 7:16 [DEBUG] Displaying Tracking UI since it was already created", -- [2780]
+	"12/10/2023 7:16 |cff00ccffIAT: |cffffffffStarting achievement scan for Icecrown Citadel (This may freeze your game for a few seconds!)", -- [2781]
+	"12/10/2023 7:16 [DEBUG] Group Size set to: 1", -- [2782]
+	"12/10/2023 7:16 [DEBUG] Combatlog does not need to be enabled", -- [2783]
+	"12/10/2023 7:16 [DEBUG] Starting Initial Setup If Needed...", -- [2784]
+	"12/10/2023 7:16 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:773: attempt to call method 'InitialSetup' (a nil value).", -- [2785]
+	"12/10/2023 7:16 [DEBUG] Setting Master Addon 1", -- [2786]
+	"12/10/2023 7:16 |cff00ccffIAT: |cffffffffAchievement Tracking Enabled for Icecrown Citadel", -- [2787]
+	"12/10/2023 7:16 [DEBUG] Expansion: 3", -- [2788]
+	"12/10/2023 7:16 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Wysjj", -- [2789]
+	"12/10/2023 7:16 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (1/1)", -- [2790]
+	"12/10/2023 7:16 |cff00ccffIAT: |cffffffffYou have completed all achievements for this instance", -- [2791]
+	"12/10/2023 7:16 [DEBUG] Calling Detect Boss 2: 37011", -- [2792]
+	"12/10/2023 7:16 [DEBUG] Found the following boss ID: 37011", -- [2793]
+	"12/10/2023 7:16 [DEBUG] Calling Detect Boss 3: 37928", -- [2794]
+	"12/10/2023 7:16 [DEBUG] Found the following boss ID: 37928", -- [2795]
+	"12/10/2023 7:16 [DEBUG] Calling Detect Boss 3: 37996", -- [2796]
+	"12/10/2023 7:16 [DEBUG] Found the following boss ID: 37996", -- [2797]
+	"12/10/2023 7:16 [DEBUG] Calling Detect Boss 2: 37965", -- [2798]
+	"12/10/2023 7:16 [DEBUG] Found the following boss ID: 37965", -- [2799]
+	"12/10/2023 7:16 [DEBUG] Entered Combat", -- [2800]
+	"12/10/2023 7:17 [DEBUG] Calling Detect Boss 2: 36725", -- [2801]
+	"12/10/2023 7:17 [DEBUG] Found the following boss ID: 36725", -- [2802]
+	"12/10/2023 7:17 [DEBUG] Calling Detect Boss 3: 37012", -- [2803]
+	"12/10/2023 7:17 [DEBUG] Found the following boss ID: 37012", -- [2804]
+	"12/10/2023 7:17 [DEBUG] Calling Detect Boss 2: 36724", -- [2805]
+	"12/10/2023 7:17 [DEBUG] Found the following boss ID: 36724", -- [2806]
+	"12/10/2023 7:17 [DEBUG] Calling Detect Boss 3: 26125", -- [2807]
+	"12/10/2023 7:17 [DEBUG] Found the following boss ID: 26125", -- [2808]
+	"12/10/2023 7:17 [DEBUG] Calling Detect Boss 3: 37007", -- [2809]
+	"12/10/2023 7:17 [DEBUG] Found the following boss ID: 37007", -- [2810]
+	"12/10/2023 7:17 [DEBUG] Calling Detect Boss 3: 38028", -- [2811]
+	"12/10/2023 7:17 [DEBUG] Found the following boss ID: 38028", -- [2812]
+	"12/10/2023 7:18 [DEBUG] Calling Detect Boss 3: 14881", -- [2813]
+	"12/10/2023 7:18 [DEBUG] Found the following boss ID: 14881", -- [2814]
+	"12/10/2023 7:18 [DEBUG] Calling Detect Boss 2: 37967", -- [2815]
+	"12/10/2023 7:18 [DEBUG] Found the following boss ID: 37967", -- [2816]
+	"12/10/2023 7:19 [DEBUG] Clearing Instance Variables if exists", -- [2817]
+	"12/10/2023 7:19 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2818]
+	"12/10/2023 7:19 [DEBUG] Clearing Instance Variables if exists", -- [2819]
+	"12/10/2023 7:19 [DEBUG] Clearing Instance Variables", -- [2820]
+	"12/10/2023 7:19 [DEBUG] Resetting Global Variables", -- [2821]
+	"12/10/2023 7:19 [DEBUG] InfoFrame does not need to be reset", -- [2822]
+	"12/10/2023 7:19 [DEBUG] Left Combat", -- [2823]
+	"12/10/2023 7:19 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4610:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Boned (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [2824]
+	"12/10/2023 7:19 [DEBUG] Calling Detect Boss 3: 36612", -- [2825]
+	"12/10/2023 7:19 [DEBUG] Found the following boss ID: 36612", -- [2826]
+	"12/10/2023 7:19 [DEBUG] Adding the following boss: boss1", -- [2827]
+	"12/10/2023 7:19 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4610", -- [2828]
+	"12/10/2023 7:19 [DEBUG] Entered Combat", -- [2829]
+	"12/10/2023 7:19 [DEBUG] ---Encounter Started---", -- [2830]
+	"12/10/2023 7:19 [DEBUG] Encounter ID: 1101", -- [2831]
+	"12/10/2023 7:19 [DEBUG] Detected boss using ENCOUNTER ID", -- [2832]
+	"12/10/2023 7:19 [DEBUG] Found the following encounter ID: 1101", -- [2833]
+	"12/10/2023 7:19 [DEBUG] Length of array: 1", -- [2834]
+	"12/10/2023 7:19 [DEBUG] Achievement: 4610", -- [2835]
+	"12/10/2023 7:19 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:4610:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Boned (25 player)]|h|r", -- [2836]
+	"12/10/2023 7:19 [DEBUG] Setting Master Addon 8", -- [2837]
+	"12/10/2023 7:19 [DEBUG] This addon is in charge of outputting messages", -- [2838]
+	"12/10/2023 7:20 [IAT] Wysjj has been Impaled", -- [2839]
+	"12/10/2023 7:21 [DEBUG] Group Roster Update", -- [2840]
+	"12/10/2023 7:21 [DEBUG] Achievement Scanning Enabled", -- [2841]
+	"12/10/2023 7:21 [DEBUG] Starting Scan", -- [2842]
+	"12/10/2023 7:21 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2843]
+	"12/10/2023 7:21 [DEBUG] Achievement Scanning Finished (1/1)", -- [2844]
+	"12/10/2023 7:21 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2845]
+	"12/10/2023 7:21 [DEBUG] Setting rank to: 2", -- [2846]
+	"12/10/2023 7:21 [DEBUG] CHAT_MSG_SYSTEM: Ziadwan joins the party.", -- [2847]
+	"12/10/2023 7:21 [DEBUG] Achievement Scanning Enabled 2", -- [2848]
+	"12/10/2023 7:21 [DEBUG] Starting Scan", -- [2849]
+	"12/10/2023 7:21 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2850]
+	"12/10/2023 7:21 [DEBUG] Achievement Scanning Finished (1/1)", -- [2851]
+	"12/10/2023 7:21 [DEBUG] Group Roster Update", -- [2852]
+	"12/10/2023 7:21 [DEBUG] Achievement Scanning Enabled", -- [2853]
+	"12/10/2023 7:21 [DEBUG] Starting Scan", -- [2854]
+	"12/10/2023 7:21 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2855]
+	"12/10/2023 7:21 [DEBUG] Achievement Scanning Finished (1/1)", -- [2856]
+	"12/10/2023 7:21 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2857]
+	"12/10/2023 7:21 [DEBUG] Setting rank to: 2", -- [2858]
+	"12/10/2023 7:22 [DEBUG] Group Roster Update", -- [2859]
+	"12/10/2023 7:22 [DEBUG] Achievement Scanning Enabled", -- [2860]
+	"12/10/2023 7:22 [DEBUG] Starting Scan", -- [2861]
+	"12/10/2023 7:22 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2862]
+	"12/10/2023 7:22 [DEBUG] Achievement Scanning Finished (1/1)", -- [2863]
+	"12/10/2023 7:22 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2864]
+	"12/10/2023 7:22 [DEBUG] Setting rank to: 2", -- [2865]
+	"12/10/2023 7:22 [DEBUG] Group Roster Update", -- [2866]
+	"12/10/2023 7:22 [DEBUG] Achievement Scanning Enabled", -- [2867]
+	"12/10/2023 7:22 [DEBUG] Starting Scan", -- [2868]
+	"12/10/2023 7:22 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2869]
+	"12/10/2023 7:22 [DEBUG] Achievement Scanning Finished (1/1)", -- [2870]
+	"12/10/2023 7:22 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2871]
+	"12/10/2023 7:22 [DEBUG] Setting rank to: 2", -- [2872]
+	"12/10/2023 7:23 [DEBUG] Not clearing global variables since encounter is still in progress", -- [2873]
+	"12/10/2023 7:23 [DEBUG] Group Roster Update", -- [2874]
+	"12/10/2023 7:23 [DEBUG] Achievement Scanning Enabled", -- [2875]
+	"12/10/2023 7:23 [DEBUG] Starting Scan", -- [2876]
+	"12/10/2023 7:23 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2877]
+	"12/10/2023 7:23 [DEBUG] Achievement Scanning Finished (1/1)", -- [2878]
+	"12/10/2023 7:23 [DEBUG] Cannot update group size while fighting boss. Waiting till end of combat", -- [2879]
+	"12/10/2023 7:23 [DEBUG] Setting rank to: 2", -- [2880]
+	"12/10/2023 7:23 [DEBUG] ---Encounter Ended---", -- [2881]
+	"12/10/2023 7:23 [DEBUG] Locking Detection for 3 seconds", -- [2882]
+	"12/10/2023 7:23 [DEBUG] Group Size set to: 2", -- [2883]
+	"12/10/2023 7:23 [DEBUG] Clearing Instance Variables if exists", -- [2884]
+	"12/10/2023 7:23 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2885]
+	"12/10/2023 7:23 [DEBUG] Clearing Instance Variables if exists", -- [2886]
+	"12/10/2023 7:23 [DEBUG] Clearing Instance Variables", -- [2887]
+	"12/10/2023 7:23 [DEBUG] Resetting Global Variables", -- [2888]
+	"12/10/2023 7:23 [DEBUG] InfoFrame does not need to be reset", -- [2889]
+	"12/10/2023 7:23 [DEBUG] Left Combat", -- [2890]
+	"12/10/2023 7:23 [DEBUG] Detection unlocked", -- [2891]
+	"12/10/2023 7:23 [DEBUG] Group Roster Update", -- [2892]
+	"12/10/2023 7:23 [DEBUG] Achievement Scanning Enabled", -- [2893]
+	"12/10/2023 7:23 [DEBUG] Starting Scan", -- [2894]
+	"12/10/2023 7:23 [DEBUG] Group Size set to: 2", -- [2895]
+	"12/10/2023 7:23 [DEBUG] Group Size set to: 2", -- [2896]
+	"12/10/2023 7:23 [DEBUG] Setting rank to: 2", -- [2897]
+	"12/10/2023 7:23 [DEBUG] Group Size set to: 2", -- [2898]
+	"12/10/2023 7:23 [DEBUG] Group Roster Update", -- [2899]
+	"12/10/2023 7:23 [DEBUG] Achievement Scanning Enabled", -- [2900]
+	"12/10/2023 7:23 [DEBUG] Scan in progress. Asking for rescan", -- [2901]
+	"12/10/2023 7:23 [DEBUG] Group Size set to: 2", -- [2902]
+	"12/10/2023 7:23 [DEBUG] Setting rank to: 2", -- [2903]
+	"12/10/2023 7:23 [DEBUG] Group Size set to: 2", -- [2904]
+	"12/10/2023 7:23 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Ziadwan", -- [2905]
+	"12/10/2023 7:23 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (2/2)", -- [2906]
+	"12/10/2023 7:24 [DEBUG] Entered Combat", -- [2907]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables if exists", -- [2908]
+	"12/10/2023 7:24 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2909]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables if exists", -- [2910]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables", -- [2911]
+	"12/10/2023 7:24 [DEBUG] Resetting Global Variables", -- [2912]
+	"12/10/2023 7:24 [DEBUG] InfoFrame does not need to be reset", -- [2913]
+	"12/10/2023 7:24 [DEBUG] Left Combat", -- [2914]
+	"12/10/2023 7:24 [DEBUG] Entered Combat", -- [2915]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables if exists", -- [2916]
+	"12/10/2023 7:24 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2917]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables if exists", -- [2918]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables", -- [2919]
+	"12/10/2023 7:24 [DEBUG] Resetting Global Variables", -- [2920]
+	"12/10/2023 7:24 [DEBUG] InfoFrame does not need to be reset", -- [2921]
+	"12/10/2023 7:24 [DEBUG] Left Combat", -- [2922]
+	"12/10/2023 7:24 [DEBUG] Calling Detect Boss 3: 36612", -- [2923]
+	"12/10/2023 7:24 [DEBUG] Found the following boss ID: 36612", -- [2924]
+	"12/10/2023 7:24 [DEBUG] Adding the following boss: boss1", -- [2925]
+	"12/10/2023 7:24 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4610", -- [2926]
+	"12/10/2023 7:24 [DEBUG] ---Encounter Started---", -- [2927]
+	"12/10/2023 7:24 [DEBUG] Encounter ID: 1101", -- [2928]
+	"12/10/2023 7:24 [DEBUG] Detected boss using ENCOUNTER ID", -- [2929]
+	"12/10/2023 7:24 [DEBUG] Found the following encounter ID: 1101", -- [2930]
+	"12/10/2023 7:24 [DEBUG] Entered Combat", -- [2931]
+	"12/10/2023 7:24 [DEBUG] Length of array: 1", -- [2932]
+	"12/10/2023 7:24 [DEBUG] Achievement: 4610", -- [2933]
+	"12/10/2023 7:24 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:4610:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Boned (25 player)]|h|r", -- [2934]
+	"12/10/2023 7:24 [DEBUG] Setting Master Addon 8", -- [2935]
+	"12/10/2023 7:24 [DEBUG] ------------NEW REQUEST------------", -- [2936]
+	"12/10/2023 7:24 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [2937]
+	"12/10/2023 7:24 [DEBUG] AddonID: 74902 : 71531", -- [2938]
+	"12/10/2023 7:24 [DEBUG] Master Addon: true : true", -- [2939]
+	"12/10/2023 7:24 [DEBUG] Player Rank: 0 : 2", -- [2940]
+	"12/10/2023 7:24 [DEBUG] Major Version: 4 : 4", -- [2941]
+	"12/10/2023 7:24 [DEBUG] Minor Version: 25 : 25", -- [2942]
+	"12/10/2023 7:24 [DEBUG] Only Track Missing Achievements: true : false", -- [2943]
+	"12/10/2023 7:24 [DEBUG] Instance ID: 631-25 : 631-25", -- [2944]
+	"12/10/2023 7:24 [DEBUG] I am in an instance", -- [2945]
+	"12/10/2023 7:24 [DEBUG] Make it to tracking", -- [2946]
+	"12/10/2023 7:24 [DEBUG] 0.1: Ziadwan-Azshara is supressing achievements so demote", -- [2947]
+	"12/10/2023 7:24 [DEBUG] Asking Ziadwan-Azshara to demote themselves", -- [2948]
+	"12/10/2023 7:24 [DEBUG] ---Encounter Ended---", -- [2949]
+	"12/10/2023 7:24 [DEBUG] Locking Detection for 3 seconds", -- [2950]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables if exists", -- [2951]
+	"12/10/2023 7:24 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2952]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables if exists", -- [2953]
+	"12/10/2023 7:24 [DEBUG] Clearing Instance Variables", -- [2954]
+	"12/10/2023 7:24 [DEBUG] Resetting Global Variables", -- [2955]
+	"12/10/2023 7:24 [DEBUG] InfoFrame does not need to be reset", -- [2956]
+	"12/10/2023 7:24 [DEBUG] Left Combat", -- [2957]
+	"12/10/2023 7:25 [DEBUG] Another addon is currently in charge of outputting messages for this fight", -- [2958]
+	"12/10/2023 7:25 |cff00ccffIAT: |cffffffffZiadwan is outputting messages for this fight", -- [2959]
+	"12/10/2023 7:25 [DEBUG] Detection unlocked", -- [2960]
+	"12/10/2023 7:25 [DEBUG] Calling Detect Boss 3: 36811", -- [2961]
+	"12/10/2023 7:25 [DEBUG] Found the following boss ID: 36811", -- [2962]
+	"12/10/2023 7:25 [DEBUG] Calling Detect Boss 2: 36807", -- [2963]
+	"12/10/2023 7:25 [DEBUG] Found the following boss ID: 36807", -- [2964]
+	"12/10/2023 7:25 [DEBUG] Calling Detect Boss 3: 36805", -- [2965]
+	"12/10/2023 7:25 [DEBUG] Found the following boss ID: 36805", -- [2966]
+	"12/10/2023 7:25 [DEBUG] Calling Detect Boss 3: 36808", -- [2967]
+	"12/10/2023 7:25 [DEBUG] Found the following boss ID: 36808", -- [2968]
+	"12/10/2023 7:25 [DEBUG] Calling Detect Boss 3: 36855", -- [2969]
+	"12/10/2023 7:25 [DEBUG] Found the following boss ID: 36855", -- [2970]
+	"12/10/2023 7:25 [DEBUG] Adding the following boss: boss2", -- [2971]
+	"12/10/2023 7:25 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4611", -- [2972]
+	"12/10/2023 7:25 [DEBUG] ---Encounter Started---", -- [2973]
+	"12/10/2023 7:25 [DEBUG] Encounter ID: 1100", -- [2974]
+	"12/10/2023 7:25 [DEBUG] Detected boss using ENCOUNTER ID", -- [2975]
+	"12/10/2023 7:25 [DEBUG] Found the following encounter ID: 1100", -- [2976]
+	"12/10/2023 7:25 [DEBUG] ---Encounter Ended---", -- [2977]
+	"12/10/2023 7:25 [DEBUG] Locking Detection for 3 seconds", -- [2978]
+	"12/10/2023 7:25 [DEBUG] Entered Combat", -- [2979]
+	"12/10/2023 7:25 [DEBUG] Length of array: 1", -- [2980]
+	"12/10/2023 7:25 [DEBUG] Achievement: 4611", -- [2981]
+	"12/10/2023 7:25 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:4611:Player-77-0F304793:1:9:20:23:0:0:0:0|h[Full House (25 player)]|h|r", -- [2982]
+	"12/10/2023 7:25 [DEBUG] Setting Master Addon 8", -- [2983]
+	"12/10/2023 7:25 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4611:Player-77-0F304793:1:9:20:23:0:0:0:0|h[Full House (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [2984]
+	"12/10/2023 7:25 [DEBUG] This addon is in charge of outputting messages", -- [2985]
+	"12/10/2023 7:25 |cff00ccffIAT: |cffffffffWysjj is outputting messages for this fight", -- [2986]
+	"12/10/2023 7:26 [DEBUG] Detection unlocked", -- [2987]
+	"12/10/2023 7:26 [DEBUG] Clearing Instance Variables if exists", -- [2988]
+	"12/10/2023 7:26 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [2989]
+	"12/10/2023 7:26 [DEBUG] Clearing Instance Variables if exists", -- [2990]
+	"12/10/2023 7:26 [DEBUG] Clearing Instance Variables", -- [2991]
+	"12/10/2023 7:26 [DEBUG] Resetting Global Variables", -- [2992]
+	"12/10/2023 7:26 [DEBUG] InfoFrame does not need to be reset", -- [2993]
+	"12/10/2023 7:26 [DEBUG] Left Combat", -- [2994]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37033", -- [2995]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37033", -- [2996]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37016", -- [2997]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37016", -- [2998]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37035", -- [2999]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37035", -- [3000]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37148", -- [3001]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37148", -- [3002]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37230", -- [3003]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37230", -- [3004]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37545", -- [3005]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37545", -- [3006]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37028", -- [3007]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37028", -- [3008]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37029", -- [3009]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37029", -- [3010]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37017", -- [3011]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37017", -- [3012]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37032", -- [3013]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37032", -- [3014]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37544", -- [3015]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37544", -- [3016]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37027", -- [3017]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37027", -- [3018]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37546", -- [3019]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37546", -- [3020]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 3: 37031", -- [3021]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37031", -- [3022]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37030", -- [3023]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37030", -- [3024]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37026", -- [3025]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37026", -- [3026]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37034", -- [3027]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37034", -- [3028]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 36998", -- [3029]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 36998", -- [3030]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37004", -- [3031]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37004", -- [3032]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37003", -- [3033]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37003", -- [3034]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37149", -- [3035]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37149", -- [3036]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37146", -- [3037]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37146", -- [3038]
+	"12/10/2023 7:26 [DEBUG] Calling Detect Boss 2: 37144", -- [3039]
+	"12/10/2023 7:26 [DEBUG] Found the following boss ID: 37144", -- [3040]
+	"12/10/2023 7:27 [DEBUG] Entered Combat", -- [3041]
+	"12/10/2023 7:27 [DEBUG] Calling Detect Boss 3: 2110", -- [3042]
+	"12/10/2023 7:27 [DEBUG] Found the following boss ID: 2110", -- [3043]
+	"12/10/2023 7:27 [DEBUG] Clearing Instance Variables if exists", -- [3044]
+	"12/10/2023 7:27 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3045]
+	"12/10/2023 7:27 [DEBUG] Clearing Instance Variables if exists", -- [3046]
+	"12/10/2023 7:27 [DEBUG] Clearing Instance Variables", -- [3047]
+	"12/10/2023 7:27 [DEBUG] Resetting Global Variables", -- [3048]
+	"12/10/2023 7:27 [DEBUG] InfoFrame does not need to be reset", -- [3049]
+	"12/10/2023 7:27 [DEBUG] Left Combat", -- [3050]
+	"12/10/2023 7:28 [DEBUG] ---Encounter Started---", -- [3051]
+	"12/10/2023 7:28 [DEBUG] Encounter ID: 1099", -- [3052]
+	"12/10/2023 7:28 [DEBUG] Detected boss using ENCOUNTER ID", -- [3053]
+	"12/10/2023 7:28 [DEBUG] Found the following encounter ID: 1099", -- [3054]
+	"12/10/2023 7:28 [DEBUG] (E) Adding the following encounter ID: boss3", -- [3055]
+	"12/10/2023 7:28 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 4612", -- [3056]
+	"12/10/2023 7:28 |cff00ccffIAT: |cffffffffIAT cannot track any achievements for this encounter", -- [3057]
+	"12/10/2023 7:28 [DEBUG] Setting Master Addon 8", -- [3058]
+	"12/10/2023 7:28 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3059]
+	"12/10/2023 7:28 [DEBUG] Entered Combat", -- [3060]
+	"12/10/2023 7:28 [DEBUG] Length of array: 1", -- [3061]
+	"12/10/2023 7:28 [DEBUG] Achievement: 4612", -- [3062]
+	"12/10/2023 7:28 [DEBUG] This addon is in charge of outputting messages", -- [3063]
+	"12/10/2023 7:28 [IAT] IAT cannot track any achievements for this encounter", -- [3064]
+	"12/10/2023 7:28 |cff00ccffIAT: |cffffffffWysjj is outputting messages for this fight", -- [3065]
+	"12/10/2023 7:29 [DEBUG] ---Encounter Ended---", -- [3066]
+	"12/10/2023 7:29 [DEBUG] Locking Detection for 3 seconds", -- [3067]
+	"12/10/2023 7:29 [DEBUG] Detection unlocked", -- [3068]
+	"12/10/2023 7:29 [DEBUG] Clearing Instance Variables if exists", -- [3069]
+	"12/10/2023 7:29 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3070]
+	"12/10/2023 7:29 [DEBUG] Clearing Instance Variables if exists", -- [3071]
+	"12/10/2023 7:29 [DEBUG] Clearing Instance Variables", -- [3072]
+	"12/10/2023 7:29 [DEBUG] Resetting Global Variables", -- [3073]
+	"12/10/2023 7:29 [DEBUG] InfoFrame does not need to be reset", -- [3074]
+	"12/10/2023 7:29 [DEBUG] Left Combat", -- [3075]
+	"12/10/2023 7:30 [DEBUG] Calling Detect Boss 3: 37813", -- [3076]
+	"12/10/2023 7:30 [DEBUG] Found the following boss ID: 37813", -- [3077]
+	"12/10/2023 7:30 [DEBUG] Adding the following boss: boss4", -- [3078]
+	"12/10/2023 7:30 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4613", -- [3079]
+	"12/10/2023 7:30 [DEBUG] ---Encounter Started---", -- [3080]
+	"12/10/2023 7:30 [DEBUG] Encounter ID: 1096", -- [3081]
+	"12/10/2023 7:30 [DEBUG] Detected boss using ENCOUNTER ID", -- [3082]
+	"12/10/2023 7:30 [DEBUG] Found the following encounter ID: 1096", -- [3083]
+	"12/10/2023 7:30 [DEBUG] Entered Combat", -- [3084]
+	"12/10/2023 7:30 [DEBUG] Length of array: 1", -- [3085]
+	"12/10/2023 7:30 [DEBUG] Achievement: 4613", -- [3086]
+	"12/10/2023 7:30 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:4613:Player-77-0F304793:1:10:7:23:0:0:0:0|h[I've Gone and Made a Mess (25 player)]|h|r", -- [3087]
+	"12/10/2023 7:30 [DEBUG] Setting Master Addon 8", -- [3088]
+	"12/10/2023 7:30 [DEBUG] ------------NEW REQUEST------------", -- [3089]
+	"12/10/2023 7:30 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [3090]
+	"12/10/2023 7:30 [DEBUG] AddonID: 74902 : 71531", -- [3091]
+	"12/10/2023 7:30 [DEBUG] Master Addon: true : true", -- [3092]
+	"12/10/2023 7:30 [DEBUG] Player Rank: 0 : 2", -- [3093]
+	"12/10/2023 7:30 [DEBUG] Major Version: 4 : 4", -- [3094]
+	"12/10/2023 7:30 [DEBUG] Minor Version: 25 : 25", -- [3095]
+	"12/10/2023 7:30 [DEBUG] Only Track Missing Achievements: true : false", -- [3096]
+	"12/10/2023 7:30 [DEBUG] Instance ID: 631-25 : 631-25", -- [3097]
+	"12/10/2023 7:30 [DEBUG] I am in an instance", -- [3098]
+	"12/10/2023 7:30 [DEBUG] Make it to tracking", -- [3099]
+	"12/10/2023 7:30 [DEBUG] 0.1: Ziadwan-Azshara is supressing achievements so demote", -- [3100]
+	"12/10/2023 7:30 [DEBUG] Asking Ziadwan-Azshara to demote themselves", -- [3101]
+	"12/10/2023 7:30 [DEBUG] ---Encounter Ended---", -- [3102]
+	"12/10/2023 7:30 [DEBUG] Locking Detection for 3 seconds", -- [3103]
+	"12/10/2023 7:30 [DEBUG] This addon is in charge of outputting messages", -- [3104]
+	"12/10/2023 7:30 |cff00ccffIAT: |cffffffffWysjj is outputting messages for this fight", -- [3105]
+	"12/10/2023 7:30 [DEBUG] Detection unlocked", -- [3106]
+	"12/10/2023 7:30 [DEBUG] Clearing Instance Variables if exists", -- [3107]
+	"12/10/2023 7:30 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3108]
+	"12/10/2023 7:30 [DEBUG] Clearing Instance Variables if exists", -- [3109]
+	"12/10/2023 7:30 [DEBUG] Clearing Instance Variables", -- [3110]
+	"12/10/2023 7:30 [DEBUG] Resetting Global Variables", -- [3111]
+	"12/10/2023 7:30 [DEBUG] InfoFrame does not need to be reset", -- [3112]
+	"12/10/2023 7:30 [DEBUG] Left Combat", -- [3113]
+	"12/10/2023 7:31 [DEBUG] Calling Detect Boss 2: 37744", -- [3114]
+	"12/10/2023 7:31 [DEBUG] Found the following boss ID: 37744", -- [3115]
+	"12/10/2023 7:31 [DEBUG] Calling Detect Boss 2: 36789", -- [3116]
+	"12/10/2023 7:31 [DEBUG] Found the following boss ID: 36789", -- [3117]
+	"12/10/2023 7:31 [DEBUG] Adding the following boss: boss8", -- [3118]
+	"12/10/2023 7:31 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3119]
+	"12/10/2023 7:31 [DEBUG] Calling Detect Boss 3: 36789", -- [3120]
+	"12/10/2023 7:31 [DEBUG] Found the following boss ID: 36789", -- [3121]
+	"12/10/2023 7:31 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3122]
+	"12/10/2023 7:31 [DEBUG] Entered Combat", -- [3123]
+	"12/10/2023 7:31 [DEBUG] Clearing Instance Variables if exists", -- [3124]
+	"12/10/2023 7:31 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3125]
+	"12/10/2023 7:31 [DEBUG] Clearing Instance Variables if exists", -- [3126]
+	"12/10/2023 7:31 [DEBUG] Clearing Instance Variables", -- [3127]
+	"12/10/2023 7:31 [DEBUG] Resetting Global Variables", -- [3128]
+	"12/10/2023 7:31 [DEBUG] InfoFrame does not need to be reset", -- [3129]
+	"12/10/2023 7:31 [DEBUG] Left Combat", -- [3130]
+	"12/10/2023 7:31 [DEBUG] Calling Detect Boss 2: 37126", -- [3131]
+	"12/10/2023 7:31 [DEBUG] Found the following boss ID: 37126", -- [3132]
+	"12/10/2023 7:32 [DEBUG] Calling Detect Boss 3: 37038", -- [3133]
+	"12/10/2023 7:32 [DEBUG] Found the following boss ID: 37038", -- [3134]
+	"12/10/2023 7:32 [DEBUG] Entered Combat", -- [3135]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables if exists", -- [3136]
+	"12/10/2023 7:32 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3137]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables if exists", -- [3138]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables", -- [3139]
+	"12/10/2023 7:32 [DEBUG] Resetting Global Variables", -- [3140]
+	"12/10/2023 7:32 [DEBUG] InfoFrame does not need to be reset", -- [3141]
+	"12/10/2023 7:32 [DEBUG] Left Combat", -- [3142]
+	"12/10/2023 7:32 [DEBUG] Calling Detect Boss 3: 36880", -- [3143]
+	"12/10/2023 7:32 [DEBUG] Found the following boss ID: 36880", -- [3144]
+	"12/10/2023 7:32 [DEBUG] Calling Detect Boss 3: 37023", -- [3145]
+	"12/10/2023 7:32 [DEBUG] Found the following boss ID: 37023", -- [3146]
+	"12/10/2023 7:32 [DEBUG] Calling Detect Boss 3: 37217", -- [3147]
+	"12/10/2023 7:32 [DEBUG] Found the following boss ID: 37217", -- [3148]
+	"12/10/2023 7:32 [DEBUG] Entered Combat", -- [3149]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables if exists", -- [3150]
+	"12/10/2023 7:32 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3151]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables if exists", -- [3152]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables", -- [3153]
+	"12/10/2023 7:32 [DEBUG] Resetting Global Variables", -- [3154]
+	"12/10/2023 7:32 [DEBUG] InfoFrame does not need to be reset", -- [3155]
+	"12/10/2023 7:32 [DEBUG] Left Combat", -- [3156]
+	"12/10/2023 7:32 [DEBUG] Calling Detect Boss 3: 36627", -- [3157]
+	"12/10/2023 7:32 [DEBUG] Found the following boss ID: 36627", -- [3158]
+	"12/10/2023 7:32 [DEBUG] Adding the following boss: boss6", -- [3159]
+	"12/10/2023 7:32 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4614", -- [3160]
+	"12/10/2023 7:32 [DEBUG] ---Encounter Started---", -- [3161]
+	"12/10/2023 7:32 [DEBUG] Encounter ID: 1104", -- [3162]
+	"12/10/2023 7:32 [DEBUG] Detected boss using ENCOUNTER ID", -- [3163]
+	"12/10/2023 7:32 [DEBUG] Found the following encounter ID: 1104", -- [3164]
+	"12/10/2023 7:32 [DEBUG] Entered Combat", -- [3165]
+	"12/10/2023 7:32 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4614:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Dances with Oozes (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [3166]
+	"12/10/2023 7:32 [DEBUG] ---Encounter Ended---", -- [3167]
+	"12/10/2023 7:32 [DEBUG] Locking Detection for 3 seconds", -- [3168]
+	"12/10/2023 7:32 [DEBUG] Length of array: 1", -- [3169]
+	"12/10/2023 7:32 [DEBUG] Achievement: 4614", -- [3170]
+	"12/10/2023 7:32 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:4614:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Dances with Oozes (25 player)]|h|r", -- [3171]
+	"12/10/2023 7:32 [DEBUG] Setting Master Addon 8", -- [3172]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables if exists", -- [3173]
+	"12/10/2023 7:32 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3174]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables if exists", -- [3175]
+	"12/10/2023 7:32 [DEBUG] Clearing Instance Variables", -- [3176]
+	"12/10/2023 7:32 [DEBUG] Resetting Global Variables", -- [3177]
+	"12/10/2023 7:32 [DEBUG] InfoFrame does not need to be reset", -- [3178]
+	"12/10/2023 7:32 [DEBUG] Left Combat", -- [3179]
+	"12/10/2023 7:32 [DEBUG] ------------NEW REQUEST------------", -- [3180]
+	"12/10/2023 7:32 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [3181]
+	"12/10/2023 7:32 [DEBUG] AddonID: 74902 : 71531", -- [3182]
+	"12/10/2023 7:32 [DEBUG] Master Addon: true : false", -- [3183]
+	"12/10/2023 7:32 [DEBUG] Player Rank: 0 : 2", -- [3184]
+	"12/10/2023 7:32 [DEBUG] Major Version: 4 : 4", -- [3185]
+	"12/10/2023 7:32 [DEBUG] Minor Version: 25 : 25", -- [3186]
+	"12/10/2023 7:32 [DEBUG] Only Track Missing Achievements: true : false", -- [3187]
+	"12/10/2023 7:32 [DEBUG] Instance ID: 631-25 : 631-25", -- [3188]
+	"12/10/2023 7:32 [DEBUG] I am in an instance", -- [3189]
+	"12/10/2023 7:32 [DEBUG] Make it to tracking", -- [3190]
+	"12/10/2023 7:32 [DEBUG] 0.1: Ziadwan-Azshara is supressing achievements so demote", -- [3191]
+	"12/10/2023 7:32 [DEBUG] Asking Ziadwan-Azshara to demote themselves", -- [3192]
+	"12/10/2023 7:32 [DEBUG] This addon is in charge of outputting messages", -- [3193]
+	"12/10/2023 7:32 |cff00ccffIAT: |cffffffffWysjj is outputting messages for this fight", -- [3194]
+	"12/10/2023 7:32 [DEBUG] Detection unlocked", -- [3195]
+	"12/10/2023 7:33 [DEBUG] Calling Detect Boss 3: 37025", -- [3196]
+	"12/10/2023 7:33 [DEBUG] Found the following boss ID: 37025", -- [3197]
+	"12/10/2023 7:33 [DEBUG] Entered Combat", -- [3198]
+	"12/10/2023 7:33 [DEBUG] Clearing Instance Variables if exists", -- [3199]
+	"12/10/2023 7:33 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3200]
+	"12/10/2023 7:33 [DEBUG] Clearing Instance Variables if exists", -- [3201]
+	"12/10/2023 7:33 [DEBUG] Clearing Instance Variables", -- [3202]
+	"12/10/2023 7:33 [DEBUG] Resetting Global Variables", -- [3203]
+	"12/10/2023 7:33 [DEBUG] InfoFrame does not need to be reset", -- [3204]
+	"12/10/2023 7:33 [DEBUG] Left Combat", -- [3205]
+	"12/10/2023 7:33 [DEBUG] Calling Detect Boss 3: 36626", -- [3206]
+	"12/10/2023 7:33 [DEBUG] Found the following boss ID: 36626", -- [3207]
+	"12/10/2023 7:33 [DEBUG] Adding the following boss: boss5", -- [3208]
+	"12/10/2023 7:33 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4615", -- [3209]
+	"12/10/2023 7:33 [DEBUG] ---Encounter Started---", -- [3210]
+	"12/10/2023 7:33 [DEBUG] Encounter ID: 1097", -- [3211]
+	"12/10/2023 7:33 [DEBUG] Detected boss using ENCOUNTER ID", -- [3212]
+	"12/10/2023 7:33 [DEBUG] Found the following encounter ID: 1097", -- [3213]
+	"12/10/2023 7:33 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4615:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Flu Shot Shortage (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [3214]
+	"12/10/2023 7:33 [DEBUG] Length of array: 1", -- [3215]
+	"12/10/2023 7:33 [DEBUG] Achievement: 4615", -- [3216]
+	"12/10/2023 7:33 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:4615:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Flu Shot Shortage (25 player)]|h|r", -- [3217]
+	"12/10/2023 7:33 [DEBUG] Setting Master Addon 8", -- [3218]
+	"12/10/2023 7:33 [DEBUG] ------------NEW REQUEST------------", -- [3219]
+	"12/10/2023 7:33 [DEBUG] Recieved Info From: Ziadwan-Azshara", -- [3220]
+	"12/10/2023 7:33 [DEBUG] AddonID: 74902 : 71531", -- [3221]
+	"12/10/2023 7:33 [DEBUG] Master Addon: true : true", -- [3222]
+	"12/10/2023 7:33 [DEBUG] Player Rank: 0 : 2", -- [3223]
+	"12/10/2023 7:33 [DEBUG] Major Version: 4 : 4", -- [3224]
+	"12/10/2023 7:33 [DEBUG] Minor Version: 25 : 25", -- [3225]
+	"12/10/2023 7:33 [DEBUG] Only Track Missing Achievements: true : false", -- [3226]
+	"12/10/2023 7:33 [DEBUG] Instance ID: 631-25 : 631-25", -- [3227]
+	"12/10/2023 7:33 [DEBUG] I am in an instance", -- [3228]
+	"12/10/2023 7:33 [DEBUG] Make it to tracking", -- [3229]
+	"12/10/2023 7:33 [DEBUG] 0.1: Ziadwan-Azshara is supressing achievements so demote", -- [3230]
+	"12/10/2023 7:33 [DEBUG] Asking Ziadwan-Azshara to demote themselves", -- [3231]
+	"12/10/2023 7:33 [DEBUG] Entered Combat", -- [3232]
+	"12/10/2023 7:33 [DEBUG] ---Encounter Ended---", -- [3233]
+	"12/10/2023 7:33 [DEBUG] Locking Detection for 3 seconds", -- [3234]
+	"12/10/2023 7:33 [DEBUG] Clearing Instance Variables if exists", -- [3235]
+	"12/10/2023 7:33 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3236]
+	"12/10/2023 7:33 [DEBUG] Clearing Instance Variables if exists", -- [3237]
+	"12/10/2023 7:33 [DEBUG] Clearing Instance Variables", -- [3238]
+	"12/10/2023 7:33 [DEBUG] Resetting Global Variables", -- [3239]
+	"12/10/2023 7:33 [DEBUG] InfoFrame does not need to be reset", -- [3240]
+	"12/10/2023 7:33 [DEBUG] Left Combat", -- [3241]
+	"12/10/2023 7:33 [DEBUG] Another addon is currently in charge of outputting messages for this fight", -- [3242]
+	"12/10/2023 7:33 |cff00ccffIAT: |cffffffffZiadwan is outputting messages for this fight", -- [3243]
+	"12/10/2023 7:33 [DEBUG] Detection unlocked", -- [3244]
+	"12/10/2023 7:35 [DEBUG] Calling Detect Boss 2: 36789", -- [3245]
+	"12/10/2023 7:35 [DEBUG] Found the following boss ID: 36789", -- [3246]
+	"12/10/2023 7:35 [DEBUG] Adding the following boss: boss8", -- [3247]
+	"12/10/2023 7:35 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3248]
+	"12/10/2023 7:35 [DEBUG] Calling Detect Boss 3: 36789", -- [3249]
+	"12/10/2023 7:35 [DEBUG] Found the following boss ID: 36789", -- [3250]
+	"12/10/2023 7:35 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3251]
+	"12/10/2023 7:37 [DEBUG] Group Roster Update", -- [3252]
+	"12/10/2023 7:37 [DEBUG] Achievement Scanning Enabled", -- [3253]
+	"12/10/2023 7:37 [DEBUG] Starting Scan", -- [3254]
+	"12/10/2023 7:37 [DEBUG] Group Size set to: 2", -- [3255]
+	"12/10/2023 7:37 [DEBUG] Achievement Scanning Finished (2/2)", -- [3256]
+	"12/10/2023 7:37 [DEBUG] Group Size set to: 2", -- [3257]
+	"12/10/2023 7:37 [DEBUG] Setting rank to: 2", -- [3258]
+	"12/10/2023 7:37 [DEBUG] Clearing Instance Variables", -- [3259]
+	"12/10/2023 7:37 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [3260]
+	"12/10/2023 7:37 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [3261]
+	"12/10/2023 7:37 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [3262]
+	"12/10/2023 7:37 [DEBUG] Clearing Instance Variables if exists", -- [3263]
+	"12/10/2023 7:37 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3264]
+	"12/10/2023 7:37 [DEBUG] Clearing Instance Variables if exists", -- [3265]
+	"12/10/2023 7:37 [DEBUG] Clearing Instance Variables", -- [3266]
+	"12/10/2023 7:37 [DEBUG] Resetting Global Variables", -- [3267]
+	"12/10/2023 7:37 [DEBUG] InfoFrame does not need to be reset", -- [3268]
+	"12/10/2023 7:37 [DEBUG] Resetting PlayerRank", -- [3269]
+	"12/10/2023 7:37 [DEBUG] InfoFrame was not active", -- [3270]
+	"12/10/2023 7:37 [DEBUG] 6", -- [3271]
+	"12/10/2023 7:37 [DEBUG] Hiding Tracking UI", -- [3272]
+	"12/10/2023 7:38 [DEBUG] Hiding Tracking UI", -- [3273]
+	"12/10/2023 7:40 [DEBUG] Hiding Tracking UI", -- [3274]
+	"12/10/2023 7:41 [DEBUG] Hiding Tracking UI", -- [3275]
+	"12/10/2023 7:42 [DEBUG] Hiding Tracking UI", -- [3276]
+	"12/10/2023 7:42 [DEBUG] Player has entered instance", -- [3277]
+	"12/10/2023 7:42 [DEBUG] 631", -- [3278]
+	"12/10/2023 7:42 [DEBUG] Offical Instance Name: 631 _631", -- [3279]
+	"12/10/2023 7:42 [DEBUG] Detected Legacy 25 man raid", -- [3280]
+	"12/10/2023 7:42 [DEBUG] New Instance Name: 631-25", -- [3281]
+	"12/10/2023 7:42 [DEBUG] Expansion: 3", -- [3282]
+	"12/10/2023 7:42 [DEBUG] Instance Type: Raids", -- [3283]
+	"12/10/2023 7:42 [DEBUG] Instance: 631-25", -- [3284]
+	"12/10/2023 7:42 [DEBUG] DifficultyID: 6", -- [3285]
+	"12/10/2023 7:42 [DEBUG] Expansion: 3", -- [3286]
+	"12/10/2023 7:42 [DEBUG] Instance Type: Raids", -- [3287]
+	"12/10/2023 7:42 [DEBUG] Instance: 631-25", -- [3288]
+	"12/10/2023 7:42 [DEBUG] Asking user whether they want to track this instance", -- [3289]
+	"12/10/2023 7:42 [DEBUG] Displaying Tracking UI since it was already created", -- [3290]
+	"12/10/2023 7:42 |cff00ccffIAT: |cffffffffStarting achievement scan for Icecrown Citadel (This may freeze your game for a few seconds!)", -- [3291]
+	"12/10/2023 7:42 [DEBUG] Group Size set to: 2", -- [3292]
+	"12/10/2023 7:42 [DEBUG] Combatlog does not need to be enabled", -- [3293]
+	"12/10/2023 7:42 [DEBUG] Starting Initial Setup If Needed...", -- [3294]
+	"12/10/2023 7:42 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:773: attempt to call method 'InitialSetup' (a nil value).", -- [3295]
+	"12/10/2023 7:42 [DEBUG] Expansion: 3", -- [3296]
+	"12/10/2023 7:42 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Wysjj", -- [3297]
+	"12/10/2023 7:42 [DEBUG] Achievement Scanning Finished but some players still need scanning. Waiting 20 seconds then trying again (1/2)", -- [3298]
+	"12/10/2023 7:42 [DEBUG] Group Size set to: 2", -- [3299]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37148", -- [3300]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37148", -- [3301]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 3: 37544", -- [3302]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37544", -- [3303]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 3: 37546", -- [3304]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37546", -- [3305]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37028", -- [3306]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37028", -- [3307]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37029", -- [3308]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37029", -- [3309]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37545", -- [3310]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37545", -- [3311]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 3: 36998", -- [3312]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 36998", -- [3313]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 3: 37027", -- [3314]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37027", -- [3315]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37031", -- [3316]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37031", -- [3317]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37004", -- [3318]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37004", -- [3319]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37035", -- [3320]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37035", -- [3321]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 3: 37034", -- [3322]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37034", -- [3323]
+	"12/10/2023 7:42 [DEBUG] Calling Detect Boss 2: 37149", -- [3324]
+	"12/10/2023 7:42 [DEBUG] Found the following boss ID: 37149", -- [3325]
+	"12/10/2023 7:42 [DEBUG] Group Size set to: 2", -- [3326]
+	"12/10/2023 7:42 [DEBUG] Group Size set to: 2", -- [3327]
+	"12/10/2023 7:42 [DEBUG] Group Size set to: 2", -- [3328]
+	"12/10/2023 7:43 [DEBUG] Group Size set to: 2", -- [3329]
+	"12/10/2023 7:43 [DEBUG] Group Size set to: 2", -- [3330]
+	"12/10/2023 7:43 [DEBUG] Group Size set to: 2", -- [3331]
+	"12/10/2023 7:43 [DEBUG] Calling Detect Boss 2: 37144", -- [3332]
+	"12/10/2023 7:43 [DEBUG] Found the following boss ID: 37144", -- [3333]
+	"12/10/2023 7:43 [DEBUG] Group Size set to: 2", -- [3334]
+	"12/10/2023 7:43 [DEBUG] Group Size set to: 2", -- [3335]
+	"12/10/2023 7:43 [DEBUG] Calling Detect Boss 2: 36789", -- [3336]
+	"12/10/2023 7:43 [DEBUG] Found the following boss ID: 36789", -- [3337]
+	"12/10/2023 7:43 [DEBUG] Adding the following boss: boss8", -- [3338]
+	"12/10/2023 7:43 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3339]
+	"12/10/2023 7:43 [DEBUG] Calling Detect Boss 3: 36789", -- [3340]
+	"12/10/2023 7:43 [DEBUG] Found the following boss ID: 36789", -- [3341]
+	"12/10/2023 7:43 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3342]
+	"12/10/2023 7:44 [DEBUG] Group Size set to: 2", -- [3343]
+	"12/10/2023 7:44 [DEBUG] Group Size set to: 2", -- [3344]
+	"12/10/2023 7:44 [DEBUG] Entered Combat", -- [3345]
+	"12/10/2023 7:44 [DEBUG] Group Size set to: 2", -- [3346]
+	"12/10/2023 7:44 [DEBUG] Group Size set to: 2", -- [3347]
+	"12/10/2023 7:44 [DEBUG] Clearing Instance Variables if exists", -- [3348]
+	"12/10/2023 7:44 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3349]
+	"12/10/2023 7:44 [DEBUG] Clearing Instance Variables if exists", -- [3350]
+	"12/10/2023 7:44 [DEBUG] Clearing Instance Variables", -- [3351]
+	"12/10/2023 7:44 [DEBUG] Resetting Global Variables", -- [3352]
+	"12/10/2023 7:44 [DEBUG] InfoFrame does not need to be reset", -- [3353]
+	"12/10/2023 7:44 [DEBUG] Left Combat", -- [3354]
+	"12/10/2023 7:44 [DEBUG] Calling Detect Boss 2: 37126", -- [3355]
+	"12/10/2023 7:44 [DEBUG] Found the following boss ID: 37126", -- [3356]
+	"12/10/2023 7:44 [DEBUG] Calling Detect Boss 2: 37744", -- [3357]
+	"12/10/2023 7:44 [DEBUG] Found the following boss ID: 37744", -- [3358]
+	"12/10/2023 7:44 [DEBUG] Calling Detect Boss 2: 37127", -- [3359]
+	"12/10/2023 7:44 [DEBUG] Found the following boss ID: 37127", -- [3360]
+	"12/10/2023 7:44 [DEBUG] Calling Detect Boss 2: 38125", -- [3361]
+	"12/10/2023 7:44 [DEBUG] Found the following boss ID: 38125", -- [3362]
+	"12/10/2023 7:44 [DEBUG] Group Size set to: 2", -- [3363]
+	"12/10/2023 7:44 [DEBUG] Calling Detect Boss 2: 37868", -- [3364]
+	"12/10/2023 7:44 [DEBUG] Found the following boss ID: 37868", -- [3365]
+	"12/10/2023 7:44 [DEBUG] Calling Detect Boss 3: 36789", -- [3366]
+	"12/10/2023 7:44 [DEBUG] Found the following boss ID: 36789", -- [3367]
+	"12/10/2023 7:44 [DEBUG] Adding the following boss: boss8", -- [3368]
+	"12/10/2023 7:44 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3369]
+	"12/10/2023 7:44 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3370]
+	"12/10/2023 7:45 [DEBUG] Entered Combat", -- [3371]
+	"12/10/2023 7:45 [DEBUG] Group Size set to: 2", -- [3372]
+	"12/10/2023 7:45 [DEBUG] Group Size set to: 2", -- [3373]
+	"12/10/2023 7:45 [DEBUG] Group Size set to: 2", -- [3374]
+	"12/10/2023 7:45 [DEBUG] Group Size set to: 2", -- [3375]
+	"12/10/2023 7:45 [DEBUG] Group Size set to: 2", -- [3376]
+	"12/10/2023 7:45 [DEBUG] Clearing Instance Variables if exists", -- [3377]
+	"12/10/2023 7:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3378]
+	"12/10/2023 7:45 [DEBUG] Clearing Instance Variables if exists", -- [3379]
+	"12/10/2023 7:45 [DEBUG] Clearing Instance Variables", -- [3380]
+	"12/10/2023 7:45 [DEBUG] Resetting Global Variables", -- [3381]
+	"12/10/2023 7:45 [DEBUG] InfoFrame does not need to be reset", -- [3382]
+	"12/10/2023 7:45 [DEBUG] Left Combat", -- [3383]
+	"12/10/2023 7:45 [DEBUG] Calling Detect Boss 3: 37122", -- [3384]
+	"12/10/2023 7:45 [DEBUG] Found the following boss ID: 37122", -- [3385]
+	"12/10/2023 7:45 [DEBUG] Entered Combat", -- [3386]
+	"12/10/2023 7:45 [DEBUG] Calling Detect Boss 3: 36789", -- [3387]
+	"12/10/2023 7:45 [DEBUG] Found the following boss ID: 36789", -- [3388]
+	"12/10/2023 7:45 [DEBUG] Adding the following boss: boss8", -- [3389]
+	"12/10/2023 7:45 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3390]
+	"12/10/2023 7:45 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3391]
+	"12/10/2023 7:46 [DEBUG] Group Size set to: 2", -- [3392]
+	"12/10/2023 7:46 [DEBUG] Group Size set to: 2", -- [3393]
+	"12/10/2023 7:46 [DEBUG] Clearing Instance Variables if exists", -- [3394]
+	"12/10/2023 7:46 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3395]
+	"12/10/2023 7:46 [DEBUG] Clearing Instance Variables if exists", -- [3396]
+	"12/10/2023 7:46 [DEBUG] Clearing Instance Variables", -- [3397]
+	"12/10/2023 7:46 [DEBUG] Resetting Global Variables", -- [3398]
+	"12/10/2023 7:46 [DEBUG] InfoFrame does not need to be reset", -- [3399]
+	"12/10/2023 7:46 [DEBUG] Left Combat", -- [3400]
+	"12/10/2023 7:46 [DEBUG] Calling Detect Boss 3: 37124", -- [3401]
+	"12/10/2023 7:46 [DEBUG] Found the following boss ID: 37124", -- [3402]
+	"12/10/2023 7:46 [DEBUG] Calling Detect Boss 3: 38154", -- [3403]
+	"12/10/2023 7:46 [DEBUG] Found the following boss ID: 38154", -- [3404]
+	"12/10/2023 7:46 [DEBUG] Calling Detect Boss 2: 37134", -- [3405]
+	"12/10/2023 7:46 [DEBUG] Found the following boss ID: 37134", -- [3406]
+	"12/10/2023 7:46 [DEBUG] Calling Detect Boss 3: 37133", -- [3407]
+	"12/10/2023 7:46 [DEBUG] Found the following boss ID: 37133", -- [3408]
+	"12/10/2023 7:46 [DEBUG] Entered Combat", -- [3409]
+	"12/10/2023 7:46 [DEBUG] Calling Detect Boss 3: 37132", -- [3410]
+	"12/10/2023 7:46 [DEBUG] Found the following boss ID: 37132", -- [3411]
+	"12/10/2023 7:46 [DEBUG] Group Size set to: 2", -- [3412]
+	"12/10/2023 7:46 [DEBUG] Calling Detect Boss 3: 36789", -- [3413]
+	"12/10/2023 7:46 [DEBUG] Found the following boss ID: 36789", -- [3414]
+	"12/10/2023 7:46 [DEBUG] Adding the following boss: boss8", -- [3415]
+	"12/10/2023 7:46 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3416]
+	"12/10/2023 7:46 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3417]
+	"12/10/2023 7:46 [DEBUG] Group Size set to: 2", -- [3418]
+	"12/10/2023 7:46 [DEBUG] Group Size set to: 2", -- [3419]
+	"12/10/2023 7:46 [DEBUG] Clearing Instance Variables if exists", -- [3420]
+	"12/10/2023 7:46 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3421]
+	"12/10/2023 7:46 [DEBUG] Clearing Instance Variables if exists", -- [3422]
+	"12/10/2023 7:46 [DEBUG] Clearing Instance Variables", -- [3423]
+	"12/10/2023 7:46 [DEBUG] Resetting Global Variables", -- [3424]
+	"12/10/2023 7:46 [DEBUG] InfoFrame does not need to be reset", -- [3425]
+	"12/10/2023 7:46 [DEBUG] Left Combat", -- [3426]
+	"12/10/2023 7:47 [DEBUG] Group Size set to: 2", -- [3427]
+	"12/10/2023 7:47 [DEBUG] Group Roster Update", -- [3428]
+	"12/10/2023 7:47 [DEBUG] Achievement Scanning Enabled", -- [3429]
+	"12/10/2023 7:47 [DEBUG] Scan in progress. Asking for rescan", -- [3430]
+	"12/10/2023 7:47 [DEBUG] Group Size set to: 2", -- [3431]
+	"12/10/2023 7:47 [DEBUG] Setting rank to: 2", -- [3432]
+	"12/10/2023 7:47 [DEBUG] Calling Detect Boss 3: 36789", -- [3433]
+	"12/10/2023 7:47 [DEBUG] Found the following boss ID: 36789", -- [3434]
+	"12/10/2023 7:47 [DEBUG] Adding the following boss: boss8", -- [3435]
+	"12/10/2023 7:47 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3436]
+	"12/10/2023 7:47 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3437]
+	"12/10/2023 7:47 [DEBUG] Group Size set to: 2", -- [3438]
+	"12/10/2023 7:47 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Ziadwan", -- [3439]
+	"12/10/2023 7:47 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (2/2)", -- [3440]
+	"12/10/2023 7:47 |cff00ccffIAT: |cffffffffYou have completed all achievements for this instance", -- [3441]
+	"12/10/2023 7:47 [DEBUG] Entered Combat", -- [3442]
+	"12/10/2023 7:48 [DEBUG] Clearing Instance Variables if exists", -- [3443]
+	"12/10/2023 7:48 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3444]
+	"12/10/2023 7:48 [DEBUG] Clearing Instance Variables if exists", -- [3445]
+	"12/10/2023 7:48 [DEBUG] Clearing Instance Variables", -- [3446]
+	"12/10/2023 7:48 [DEBUG] Resetting Global Variables", -- [3447]
+	"12/10/2023 7:48 [DEBUG] InfoFrame does not need to be reset", -- [3448]
+	"12/10/2023 7:48 [DEBUG] Left Combat", -- [3449]
+	"12/10/2023 7:48 [DEBUG] Calling Detect Boss 3: 36789", -- [3450]
+	"12/10/2023 7:48 [DEBUG] Found the following boss ID: 36789", -- [3451]
+	"12/10/2023 7:48 [DEBUG] Adding the following boss: boss8", -- [3452]
+	"12/10/2023 7:48 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3453]
+	"12/10/2023 7:48 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3454]
+	"12/10/2023 7:48 [DEBUG] Entered Combat", -- [3455]
+	"12/10/2023 7:49 [DEBUG] Clearing Instance Variables if exists", -- [3456]
+	"12/10/2023 7:49 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3457]
+	"12/10/2023 7:49 [DEBUG] Clearing Instance Variables if exists", -- [3458]
+	"12/10/2023 7:49 [DEBUG] Clearing Instance Variables", -- [3459]
+	"12/10/2023 7:49 [DEBUG] Resetting Global Variables", -- [3460]
+	"12/10/2023 7:49 [DEBUG] InfoFrame does not need to be reset", -- [3461]
+	"12/10/2023 7:49 [DEBUG] Left Combat", -- [3462]
+	"12/10/2023 7:49 [DEBUG] Calling Detect Boss 3: 37571", -- [3463]
+	"12/10/2023 7:49 [DEBUG] Found the following boss ID: 37571", -- [3464]
+	"12/10/2023 7:49 [DEBUG] Calling Detect Boss 3: 37666", -- [3465]
+	"12/10/2023 7:49 [DEBUG] Found the following boss ID: 37666", -- [3466]
+	"12/10/2023 7:49 [DEBUG] Calling Detect Boss 2: 37595", -- [3467]
+	"12/10/2023 7:49 [DEBUG] Found the following boss ID: 37595", -- [3468]
+	"12/10/2023 7:49 [DEBUG] Calling Detect Boss 3: 37662", -- [3469]
+	"12/10/2023 7:49 [DEBUG] Found the following boss ID: 37662", -- [3470]
+	"12/10/2023 7:49 [DEBUG] Calling Detect Boss 3: 37665", -- [3471]
+	"12/10/2023 7:49 [DEBUG] Found the following boss ID: 37665", -- [3472]
+	"12/10/2023 7:49 [DEBUG] Entered Combat", -- [3473]
+	"12/10/2023 7:49 [DEBUG] Calling Detect Boss 2: 37901", -- [3474]
+	"12/10/2023 7:49 [DEBUG] Found the following boss ID: 37901", -- [3475]
+	"12/10/2023 7:50 [DEBUG] Clearing Instance Variables if exists", -- [3476]
+	"12/10/2023 7:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3477]
+	"12/10/2023 7:50 [DEBUG] Clearing Instance Variables if exists", -- [3478]
+	"12/10/2023 7:50 [DEBUG] Clearing Instance Variables", -- [3479]
+	"12/10/2023 7:50 [DEBUG] Resetting Global Variables", -- [3480]
+	"12/10/2023 7:50 [DEBUG] InfoFrame does not need to be reset", -- [3481]
+	"12/10/2023 7:50 [DEBUG] Left Combat", -- [3482]
+	"12/10/2023 7:50 [DEBUG] Calling Detect Boss 2: 36789", -- [3483]
+	"12/10/2023 7:50 [DEBUG] Found the following boss ID: 36789", -- [3484]
+	"12/10/2023 7:50 [DEBUG] Adding the following boss: boss8", -- [3485]
+	"12/10/2023 7:50 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3486]
+	"12/10/2023 7:50 [DEBUG] Calling Detect Boss 3: 36789", -- [3487]
+	"12/10/2023 7:50 [DEBUG] Found the following boss ID: 36789", -- [3488]
+	"12/10/2023 7:50 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3489]
+	"12/10/2023 7:55 [DEBUG] Group Roster Update", -- [3490]
+	"12/10/2023 7:55 [DEBUG] Achievement Scanning Enabled", -- [3491]
+	"12/10/2023 7:55 [DEBUG] Starting Scan", -- [3492]
+	"12/10/2023 7:55 [DEBUG] Group Size set to: 2", -- [3493]
+	"12/10/2023 7:55 [DEBUG] Achievement Scanning Finished (2/2)", -- [3494]
+	"12/10/2023 7:55 [DEBUG] Group Size set to: 2", -- [3495]
+	"12/10/2023 7:55 [DEBUG] Setting rank to: 2", -- [3496]
+	"12/10/2023 7:56 [DEBUG] Entered Combat", -- [3497]
+	"12/10/2023 7:56 [DEBUG] Clearing Instance Variables if exists", -- [3498]
+	"12/10/2023 7:56 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3499]
+	"12/10/2023 7:56 [DEBUG] Clearing Instance Variables if exists", -- [3500]
+	"12/10/2023 7:56 [DEBUG] Clearing Instance Variables", -- [3501]
+	"12/10/2023 7:56 [DEBUG] Resetting Global Variables", -- [3502]
+	"12/10/2023 7:56 [DEBUG] InfoFrame does not need to be reset", -- [3503]
+	"12/10/2023 7:56 [DEBUG] Left Combat", -- [3504]
+	"12/10/2023 7:56 [DEBUG] Entered Combat", -- [3505]
+	"12/10/2023 7:56 [DEBUG] Calling Detect Boss 2: 38879", -- [3506]
+	"12/10/2023 7:56 [DEBUG] Found the following boss ID: 38879", -- [3507]
+	"12/10/2023 7:56 [DEBUG] Calling Detect Boss 3: 37782", -- [3508]
+	"12/10/2023 7:56 [DEBUG] Found the following boss ID: 37782", -- [3509]
+	"12/10/2023 7:57 [DEBUG] Clearing Instance Variables if exists", -- [3510]
+	"12/10/2023 7:57 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3511]
+	"12/10/2023 7:57 [DEBUG] Clearing Instance Variables if exists", -- [3512]
+	"12/10/2023 7:57 [DEBUG] Clearing Instance Variables", -- [3513]
+	"12/10/2023 7:57 [DEBUG] Resetting Global Variables", -- [3514]
+	"12/10/2023 7:57 [DEBUG] InfoFrame does not need to be reset", -- [3515]
+	"12/10/2023 7:57 [DEBUG] Left Combat", -- [3516]
+	"12/10/2023 7:58 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4616:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Nausea, Heartburn, Indigestion... (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [3517]
+	"12/10/2023 7:58 [DEBUG] Calling Detect Boss 3: 36678", -- [3518]
+	"12/10/2023 7:58 [DEBUG] Found the following boss ID: 36678", -- [3519]
+	"12/10/2023 7:58 [DEBUG] Adding the following boss: boss7", -- [3520]
+	"12/10/2023 7:58 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4616", -- [3521]
+	"12/10/2023 7:58 [DEBUG] ---Encounter Started---", -- [3522]
+	"12/10/2023 7:58 [DEBUG] Encounter ID: 1102", -- [3523]
+	"12/10/2023 7:58 [DEBUG] Detected boss using ENCOUNTER ID", -- [3524]
+	"12/10/2023 7:58 [DEBUG] Found the following encounter ID: 1102", -- [3525]
+	"12/10/2023 7:58 [DEBUG] Entered Combat", -- [3526]
+	"12/10/2023 7:58 [DEBUG] Length of array: 1", -- [3527]
+	"12/10/2023 7:58 [DEBUG] Achievement: 4616", -- [3528]
+	"12/10/2023 7:58 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:4616:Player-77-0F304793:1:10:7:23:0:0:0:0|h[Nausea, Heartburn, Indigestion... (25 player)]|h|r", -- [3529]
+	"12/10/2023 7:58 [DEBUG] Setting Master Addon 8", -- [3530]
+	"12/10/2023 7:58 [DEBUG] This addon is in charge of outputting messages", -- [3531]
+	"12/10/2023 7:58 |cff00ccffIAT: |cffffffffWysjj is outputting messages for this fight", -- [3532]
+	"12/10/2023 8:3 [DEBUG] ---Encounter Ended---", -- [3533]
+	"12/10/2023 8:3 [DEBUG] Locking Detection for 3 seconds", -- [3534]
+	"12/10/2023 8:3 [DEBUG] Clearing Instance Variables if exists", -- [3535]
+	"12/10/2023 8:3 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3536]
+	"12/10/2023 8:3 [DEBUG] Clearing Instance Variables if exists", -- [3537]
+	"12/10/2023 8:3 [DEBUG] Clearing Instance Variables", -- [3538]
+	"12/10/2023 8:3 [DEBUG] Resetting Global Variables", -- [3539]
+	"12/10/2023 8:3 [DEBUG] InfoFrame does not need to be reset", -- [3540]
+	"12/10/2023 8:3 [DEBUG] Left Combat", -- [3541]
+	"12/10/2023 8:3 [DEBUG] Detection unlocked", -- [3542]
+	"12/10/2023 8:4 [DEBUG] Calling Detect Boss 2: 36789", -- [3543]
+	"12/10/2023 8:4 [DEBUG] Found the following boss ID: 36789", -- [3544]
+	"12/10/2023 8:4 [DEBUG] Adding the following boss: boss8", -- [3545]
+	"12/10/2023 8:4 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3546]
+	"12/10/2023 8:4 [DEBUG] Calling Detect Boss 3: 36789", -- [3547]
+	"12/10/2023 8:4 [DEBUG] Found the following boss ID: 36789", -- [3548]
+	"12/10/2023 8:4 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3549]
+	"12/10/2023 8:4 [DEBUG] Entered Combat", -- [3550]
+	"12/10/2023 8:4 [DEBUG] Clearing Instance Variables if exists", -- [3551]
+	"12/10/2023 8:4 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3552]
+	"12/10/2023 8:4 [DEBUG] Clearing Instance Variables if exists", -- [3553]
+	"12/10/2023 8:4 [DEBUG] Clearing Instance Variables", -- [3554]
+	"12/10/2023 8:4 [DEBUG] Resetting Global Variables", -- [3555]
+	"12/10/2023 8:4 [DEBUG] InfoFrame does not need to be reset", -- [3556]
+	"12/10/2023 8:4 [DEBUG] Left Combat", -- [3557]
+	"12/10/2023 8:5 [DEBUG] Calling Detect Boss 3: 36789", -- [3558]
+	"12/10/2023 8:5 [DEBUG] Found the following boss ID: 36789", -- [3559]
+	"12/10/2023 8:5 [DEBUG] Adding the following boss: boss8", -- [3560]
+	"12/10/2023 8:5 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4619", -- [3561]
+	"12/10/2023 8:5 [DEBUG] Automatic Blizzard Tracking set to: true", -- [3562]
+	"12/10/2023 8:7 [DEBUG] ---Encounter Started---", -- [3563]
+	"12/10/2023 8:7 [DEBUG] Encounter ID: 1095", -- [3564]
+	"12/10/2023 8:7 [DEBUG] Detected boss using ENCOUNTER ID", -- [3565]
+	"12/10/2023 8:7 [DEBUG] Found the following encounter ID: 1095", -- [3566]
+	"12/10/2023 8:7 [DEBUG] (E) Adding the following encounter ID: boss10", -- [3567]
+	"12/10/2023 8:7 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 4617", -- [3568]
+	"12/10/2023 8:7 |cff00ccffIAT: |cffffffffIAT cannot track any achievements for this encounter", -- [3569]
+	"12/10/2023 8:7 [DEBUG] Setting Master Addon 8", -- [3570]
+	"12/10/2023 8:7 [DEBUG] Length of array: 1", -- [3571]
+	"12/10/2023 8:7 [DEBUG] Achievement: 4617", -- [3572]
+	"12/10/2023 8:7 [DEBUG] ---Encounter Ended---", -- [3573]
+	"12/10/2023 8:7 [DEBUG] Locking Detection for 3 seconds", -- [3574]
+	"12/10/2023 8:7 [DEBUG] Entered Combat", -- [3575]
+	"12/10/2023 8:7 [DEBUG] This addon is in charge of outputting messages", -- [3576]
+	"12/10/2023 8:7 [IAT] IAT cannot track any achievements for this encounter", -- [3577]
+	"12/10/2023 8:7 |cff00ccffIAT: |cffffffffWysjj is outputting messages for this fight", -- [3578]
+	"12/10/2023 8:7 [DEBUG] Detection unlocked", -- [3579]
+	"12/10/2023 8:7 [DEBUG] Clearing Instance Variables if exists", -- [3580]
+	"12/10/2023 8:7 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [3581]
+	"12/10/2023 8:7 [DEBUG] Clearing Instance Variables if exists", -- [3582]
+	"12/10/2023 8:7 [DEBUG] Clearing Instance Variables", -- [3583]
+	"12/10/2023 8:7 [DEBUG] Resetting Global Variables", -- [3584]
+	"12/10/2023 8:7 [DEBUG] InfoFrame does not need to be reset", -- [3585]
+	"12/10/2023 8:7 [DEBUG] Left Combat", -- [3586]
+	"12/10/2023 8:7 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4617:Player-77-0F304793:1:10:7:23:0:0:0:0|h[The Orb Whisperer (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [3587]
+	"12/10/2023 8:8 [DEBUG] Calling Detect Boss 2: 38285", -- [3588]
+	"12/10/2023 8:8 [DEBUG] Found the following boss ID: 38285", -- [3589]
+	"12/10/2023 8:16 [DEBUG] Group Roster Update", -- [3590]
+	"12/10/2023 8:16 [DEBUG] Achievement Scanning Enabled", -- [3591]
+	"12/10/2023 8:16 [DEBUG] Starting Scan", -- [3592]
+	"12/10/2023 8:16 [DEBUG] Group Size set to: 2", -- [3593]
+	"12/10/2023 8:16 [DEBUG] Achievement Scanning Finished (2/2)", -- [3594]
+	"12/10/2023 8:16 [DEBUG] Group Size set to: 2", -- [3595]
+	"12/10/2023 8:16 [DEBUG] Setting rank to: 2", -- [3596]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -2753,47 +3934,47 @@ AchievementTrackerNPCCache = {
 	[152253] = "The Tarragrue",
 	[137036] = "Awoken Void",
 	[59930] = "Empowered Zombie",
-	[52405] = "Mor'Lek the Dismantler",
-	[201934] = "Shadowflame Amalgamation",
+	[127503] = "Overseer Korgus",
+	[131853] = "Huntmaster Grath",
 	[43658] = "Frenzied Crocolisk",
 	[67879] = "Commander Tel'vrak",
-	[111864] = "Sticky",
+	[107699] = "Spellblade Aluriel",
 	[33524] = "Saronite Animus",
 	[98761] = "Soul Fragment",
 	[82457] = "Ner'zhul",
-	[149995] = "High Priestess Azil",
-	[189893] = "Infused Whelp",
-	[74570] = "Ruination",
+	[145903] = "Darkforged Crusader",
+	[108600] = "Sister of the Moon",
+	[196845] = "Frozen Behemoth",
 	[45992] = "Valiona",
 	[131667] = "Soulbound Goliath",
 	[60913] = "Energy Charge",
 	[60410] = "Elegon",
-	[53695] = "Rageface",
+	[143045] = "Coastal Scuttler",
 	[59080] = "Darkmaster Gandling",
 	[82074] = "Pristine True Iron Ore",
 	[156987] = "General Kaal",
-	[102950] = "Reaves",
+	[155144] = "Abyssal Commander Sivara",
 	[52418] = "Lost Offspring of Gahz'ranka",
 	[164532] = "Hakkar the Soulflayer",
 	[197396] = "Strange Chicken",
 	[152512] = "Stormwraith",
 	[78430] = "Cordana Felsong",
-	[51405] = "Angered Earth",
-	[88334] = "Croman",
-	[181579] = "Lihuvim",
+	[161375] = "Promising Specimen",
+	[184915] = "Halondrus",
+	[32927] = "Runemaster Molgeim",
 	[175616] = "Zo'phex",
 	[165556] = "Fleeting Manifestation",
 	[154431] = "Khaz'goroth",
-	[178783] = "Moriaz the Red",
-	[98696] = "Illysanna Ravencrest",
-	[185427] = "Unstable Progenitor Relic",
-	[162933] = "Thought Harvester",
+	[155056] = "Robo-Waste",
+	[155760] = "Tank Buster MK2",
+	[144246] = "K.U.-J.0.",
+	[64017] = "Derpa Derpa",
 	[68904] = "Suen",
 	[113971] = "Maiden of Virtue",
 	[59100] = "Expired Test Subject",
 	[78736] = "Warlord Zaela",
 	[185423] = "Reaving Automa: Neo",
-	[64556] = "Captain Ook",
+	[45993] = "Theralion",
 	[95886] = "Ash'Golm",
 	[102088] = "Murkwater Myrmidon",
 	[198038] = "Primal Avatar",
@@ -2803,307 +3984,307 @@ AchievementTrackerNPCCache = {
 	[74787] = "Slave Watcher Crushto",
 	[40634] = "Naz'jar Tempest Witch",
 	[154817] = "King Mechagon",
-	[138705] = "Gourmet Parrot Chow",
 	[68905] = "Lu'lin",
+	[138705] = "Gourmet Parrot Chow",
 	[77153] = "Iron Star",
-	[59822] = "Auntie Stormstout",
-	[53501] = "Living Meteor",
-	[150081] = "Wise Mari",
+	[104217] = "Talixae Flamewreath",
+	[156575] = "Dark Inquisitor Xanesh",
+	[166246] = "Buttons",
 	[101823] = "Mushroom Merchant",
 	[83775] = "Ogron Laborer",
 	[43404] = "Maloriak",
-	[158190] = "Medivh",
+	[88938] = "Ragnaros",
 	[52675] = "Beth'tilac",
 	[185439] = "Tainted Progenitor Relic",
-	[200912] = "Neldris",
-	[56839] = "Anduin Wrynn",
+	[72889] = "Superheated Crawler Mine",
+	[96223] = "Gamon",
 	[69820] = "Son of Animus",
 	[114895] = "Nightbane",
-	[171474] = "Finger Food",
+	[102169] = "Black Bile",
 	[67883] = "Rosey Axlerod",
-	[61431] = "Glintrok Scout",
-	[160271] = "Forbidden Manifestation",
+	[56843] = "Lorewalker Stonestep",
+	[58605] = "Scarlet Judicator",
 	[61709] = "Spawn of Anger",
-	[169594] = "Filled Anima Container",
+	[181546] = "Prototype of Renewal",
 	[61243] = "Gekkan",
 	[95888] = "Cordana Felsong",
 	[33686] = "Lore Keeper of Norgannon",
-	[114462] = "The Curator",
-	[132609] = "The Hivemind",
+	[69181] = "Saurid",
+	[67231] = "Trial of the King",
 	[73638] = "Tears of the Vale",
-	[43468] = "Lady Naz'jar",
+	[123503] = "Torment of Norgannon",
 	[39984] = "Malignant Trogg",
 	[120564] = "Titanic Anomaly",
-	[34035] = "Feral Defender",
+	[29023] = "Jan'alai",
 	[32919] = "Storm Lasher",
-	[185128] = "Memorial Pylon",
 	[153415] = "Sha of Violence",
-	[135129] = "Projection of Yogg-Saron",
 	[108996] = "Specter of Vengeance",
-	[178095] = "Eye of the Jailer",
+	[53258] = "Lord Rhyolith",
+	[185128] = "Memorial Pylon",
+	[135129] = "Projection of Yogg-Saron",
 	[70250] = "Frozen Head",
-	[61442] = "Kuai the Brute",
+	[62465] = "Captain Ook",
 	[135513] = "Ancient Tome",
 	[177584] = "Burning Gibbet",
 	[71529] = "Thok the Bloodthirsty",
 	[41440] = "Aberration",
 	[185129] = "Memorial Pylon",
-	[169554] = "Disused Anima Container",
+	[105301] = "Expedient Elemental",
 	[90199] = "Gorefiend",
-	[91938] = "Haunting Soul",
+	[141805] = "Threshanator 3000",
 	[115902] = "Razorjaw Waverunner",
-	[52442] = "Florawing Hive Queen",
-	[39665] = "Rom'ogg Bonecrusher",
+	[77814] = "Teron'gor",
 	[138967] = "Zul",
+	[39665] = "Rom'ogg Bonecrusher",
 	[185130] = "Memorial Pylon",
 	[56637] = "Ook-Ook",
 	[70251] = "Venomous Head",
 	[105097] = "Glow Bug",
-	[164501] = "Mistcaller",
+	[91349] = "Mannoroth",
 	[71466] = "Iron Juggernaut",
-	[110758] = "High Inquisitor Whitemane",
+	[33343] = "XS-013 Scrapbot",
 	[33768] = "Rubble",
 	[185131] = "Memorial Pylon",
-	[166266] = "Spare Parts",
-	[33202] = "Ancient Water Spirit",
-	[52438] = "Mortaxx",
+	[162102] = "Grand Proctor Beryllia",
+	[33552] = "Yogg-Saron",
+	[53494] = "Baleroc",
 	[52414] = "Tor-Tun",
 	[165512] = "Cocoon of Lakali",
 	[99663] = "Frustrated Soul",
 	[87451] = "Fleshrender Nok'gar",
-	[147430] = "Virmen",
-	[72490] = "Overseer Mojka",
+	[102423] = "Mug of Mead",
+	[139737] = "Lord Stormsong",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
-	[104341] = "Torment",
-	[94996] = "Fragment of the Crone",
+	[44530] = "Naz'jar Honor Guard",
+	[72490] = "Overseer Mojka",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
-	[166644] = "Artificer Xy'mox",
+	[33134] = "Sara",
+	[180658] = "Focusing Prism",
 	[78948] = "Tectus",
-	[56897] = "Raigonn",
-	[72436] = "Immerseus",
-	[129440] = "Harlan Sweete",
+	[59779] = "Thunderpaw Guardian",
+	[49864] = "Twilight Fiend",
 	[71979] = "Kor'kron Warbringer",
 	[99664] = "Restless Soul",
 	[34826] = "Mistress of Pain",
-	[61213] = "Krik'thik Conscript",
 	[155595] = "Sacred Gear",
-	[67966] = "Whirl Turtle",
+	[61213] = "Krik'thik Conscript",
+	[118924] = "Engine of Souls",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
-	[52440] = "Gub",
-	[154741] = "Squirt Bot",
+	[123531] = "Manifestation of Taeshalach",
+	[55308] = "Warlord Zon'ozz",
 	[135903] = "Manifestation of the Deep",
-	[55312] = "Yor'sahj the Unsleeping",
+	[67779] = "Mature Saurok Egg",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[52422] = "Kaulema the Mover",
-	[205340] = "Expired Experiment",
-	[33113] = "Flame Leviathan",
+	[111941] = "Hodir",
 	[50376] = "Angered Earth",
+	[205341] = "Stack of Scrolls",
+	[52422] = "Kaulema the Mover",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
-	[172093] = "Hearty Haunch",
-	[175474] = "Belligerent Waiter",
+	[33113] = "Flame Leviathan",
+	[173770] = "Blazing Brazier",
 	[68336] = "Garrosh Hellscream",
 	[138718] = "Sharkbait's Empty Dish",
 	[33241] = "Freya",
-	[138719] = "Serve Sharkbait's Meal",
+	[150995] = "Mimiron",
 	[67569] = "Elder Adler",
-	[90018] = "Hellfire Cannon",
+	[81834] = "Priceless Paraphernalia",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
-	[103758] = "Star Augur Etraeus",
-	[150995] = "Mimiron",
 	[205342] = "Neverburning Ebon Candle",
+	[138719] = "Serve Sharkbait's Meal",
+	[103758] = "Star Augur Etraeus",
 	[69086] = "Flaming Head",
 	[165737] = "Sinstone Statue",
-	[117072] = "Mordrethal",
+	[33136] = "Guardian of Yogg-Saron",
 	[164934] = "Manastorm",
-	[93145] = "Soul of the Crone",
+	[76585] = "Ragewing the Untamed",
 	[74475] = "Magmolatus",
 	[126712] = "Training Dummy",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
-	[23574] = "Akil'zon",
+	[93145] = "Soul of the Crone",
 	[39987] = "Evolved Twilight Zealot",
 	[116802] = "Rodent of Usual Size",
 	[108682] = "Amber Drake",
-	[172386] = "Anima Conduit",
-	[162317] = "Gorechop",
-	[197298] = "Nascent Proto-Dragon",
-	[164450] = "Dealer Xy'exa",
+	[122135] = "Shatug",
+	[171456] = "Shattered Devastator",
+	[173769] = "Smoldering Brazier",
+	[165408] = "Halkias",
 	[164218] = "Lord Chamberlain",
 	[172992] = "Overgrown Hydra",
 	[94808] = "Hellfire Guardian",
-	[164363] = "Undying Stonefiend",
+	[55419] = "Captain Varo'then",
 	[175422] = "Coalesced Anima",
 	[172094] = "Dissectible Dessert",
 	[153172] = "Stolen Scrapbot",
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[170851] = "Volatile Plague Bomb",
-	[36535] = "Corrupted Soul Fragment",
+	[71983] = "Farseer Wolf Rider",
 	[115844] = "Goroth",
-	[105742] = "Turbax",
-	[141792] = "Liz Vilepot",
-	[173768] = "Fiery Brazier",
+	[78121] = "Gorian Warmage",
+	[36535] = "Corrupted Soul Fragment",
+	[71603] = "Sha Puddle",
 	[164967] = "Doctor Ickus",
 	[63091] = "Jade Quilen",
 	[122366] = "Varimathras",
-	[80551] = "Shard of Tectus",
 	[165066] = "Huntsman Altimor",
+	[80551] = "Shard of Tectus",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
-	[105743] = "Whipsnap",
+	[172995] = "Hydra Seed",
 	[36855] = "Lady Deathwhisper",
-	[129208] = "Dread Captain Lockwood",
+	[104528] = "High Botanist Tel'arn",
 	[174018] = "Volatile Plague Bomb",
 	[100436] = "Illysanna Ravencrest",
-	[71984] = "Siege Engineer",
-	[61567] = "Vizier Jin'bak",
 	[52392] = "Gurubashi Master Chef",
-	[53694] = "Riplimb",
-	[173767] = "Embered Brazier",
-	[205352] = "Nutraal",
-	[136683] = "Trade Prince Gallywix",
+	[129208] = "Dread Captain Lockwood",
+	[105743] = "Whipsnap",
+	[157161] = "Sand Vortex",
+	[38135] = "Deformed Fanatic",
+	[142949] = "Theramore Citizen",
+	[154074] = "Void Orb",
 	[95833] = "Hyrja",
 	[156884] = "Essence of Vita",
-	[32273] = "Infinite Corruptor",
+	[72496] = "Overseer Thathung",
 	[69427] = "Dark Animus",
 	[86928] = "Empowered Construct",
 	[164557] = "Shard of Halkias",
-	[119938] = "Reanimated Templar",
-	[111882] = "Sparky",
-	[64061] = "Mogu'shan Warden",
 	[205989] = "Forgotten Specimen Tank",
 	[105744] = "Blaze",
-	[28514] = "Nalorakk",
+	[64061] = "Mogu'shan Warden",
+	[119938] = "Reanimated Templar",
+	[52936] = "Druid of the Flame",
+	[111882] = "Sparky",
 	[146016] = "Leeroy Jenkins",
 	[86918] = "Uncharged Construct",
 	[115143] = "Snaplasher",
-	[86250] = "Kyrak",
-	[56165] = "Crystal Conductor",
-	[179392] = "Kin'tessa",
-	[99031] = "Artifact",
-	[27654] = "Drakos the Interrogator",
 	[29305] = "Moorabi",
+	[27654] = "Drakos the Interrogator",
+	[56165] = "Crystal Conductor",
+	[99031] = "Artifact",
+	[179392] = "Kin'tessa",
+	[86250] = "Kyrak",
 	[26628] = "Drakkari Scytheclaw",
-	[52936] = "Druid of the Flame",
+	[28514] = "Nalorakk",
 	[55334] = "Void of the Unmaking",
 	[59458] = "Hopling",
 	[110732] = "Creature of Madness",
-	[72496] = "Overseer Thathung",
-	[154074] = "Void Orb",
-	[142949] = "Theramore Citizen",
-	[38135] = "Deformed Fanatic",
-	[157161] = "Sand Vortex",
+	[32273] = "Infinite Corruptor",
+	[136683] = "Trade Prince Gallywix",
+	[205352] = "Nutraal",
+	[173767] = "Embered Brazier",
+	[53694] = "Riplimb",
 	[73265] = "Corrupted Amalgamation",
-	[104528] = "High Botanist Tel'arn",
-	[172995] = "Hydra Seed",
+	[61567] = "Vizier Jin'bak",
+	[71984] = "Siege Engineer",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
-	[71603] = "Sha Puddle",
-	[78121] = "Gorian Warmage",
-	[71983] = "Farseer Wolf Rider",
+	[173768] = "Fiery Brazier",
+	[141792] = "Liz Vilepot",
+	[105742] = "Turbax",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
-	[55419] = "Captain Varo'then",
+	[164363] = "Undying Stonefiend",
 	[141800] = "Brutik Blackanvil",
-	[165408] = "Halkias",
-	[173769] = "Smoldering Brazier",
-	[171456] = "Shattered Devastator",
-	[122135] = "Shatug",
-	[76585] = "Ragewing the Untamed",
-	[33136] = "Guardian of Yogg-Saron",
+	[164450] = "Dealer Xy'exa",
+	[197298] = "Nascent Proto-Dragon",
+	[162317] = "Gorechop",
+	[172386] = "Anima Conduit",
+	[23574] = "Akil'zon",
+	[117072] = "Mordrethal",
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[81834] = "Priceless Paraphernalia",
+	[90018] = "Hellfire Cannon",
 	[68599] = "Ferra Pearl",
-	[173770] = "Blazing Brazier",
-	[205341] = "Stack of Scrolls",
+	[175474] = "Belligerent Waiter",
+	[172093] = "Hearty Haunch",
 	[50284] = "Twilight Zealot",
-	[111941] = "Hodir",
-	[67779] = "Mature Saurok Egg",
-	[55308] = "Warlord Zon'ozz",
-	[123531] = "Manifestation of Taeshalach",
-	[118924] = "Engine of Souls",
+	[205340] = "Expired Experiment",
+	[55312] = "Yor'sahj the Unsleeping",
+	[154741] = "Squirt Bot",
+	[52440] = "Gub",
+	[67966] = "Whirl Turtle",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
-	[49864] = "Twilight Fiend",
-	[59779] = "Thunderpaw Guardian",
-	[180658] = "Focusing Prism",
-	[33134] = "Sara",
-	[44530] = "Naz'jar Honor Guard",
-	[139737] = "Lord Stormsong",
-	[102423] = "Mug of Mead",
+	[129440] = "Harlan Sweete",
+	[72436] = "Immerseus",
+	[56897] = "Raigonn",
+	[166644] = "Artificer Xy'mox",
+	[104341] = "Torment",
+	[94996] = "Fragment of the Crone",
+	[147430] = "Virmen",
 	[202800] = "Specimen Tank",
 	[131318] = "Elder Leaxa",
-	[53494] = "Baleroc",
-	[33552] = "Yogg-Saron",
-	[162102] = "Grand Proctor Beryllia",
+	[52438] = "Mortaxx",
+	[33202] = "Ancient Water Spirit",
+	[166266] = "Spare Parts",
 	[76209] = "Essence of Shadow",
-	[33343] = "XS-013 Scrapbot",
-	[91349] = "Mannoroth",
+	[110758] = "High Inquisitor Whitemane",
+	[164501] = "Mistcaller",
 	[101976] = "Millificent Manastorm",
 	[80557] = "Mote of Tectus",
-	[77814] = "Teron'gor",
-	[141805] = "Threshanator 3000",
-	[105301] = "Expedient Elemental",
+	[52442] = "Florawing Hive Queen",
+	[91938] = "Haunting Soul",
+	[169554] = "Disused Anima Container",
 	[64479] = "Gatecrusher",
-	[62465] = "Captain Ook",
-	[53258] = "Lord Rhyolith",
+	[61442] = "Kuai the Brute",
+	[178095] = "Eye of the Jailer",
 	[160859] = "Haunting Memory",
 	[38009] = "Reanimated Fanatic",
-	[29023] = "Jan'alai",
+	[34035] = "Feral Defender",
 	[145898] = "Anointed Disciple",
-	[123503] = "Torment of Norgannon",
-	[67231] = "Trial of the King",
-	[69181] = "Saurid",
-	[181546] = "Prototype of Renewal",
+	[43468] = "Lady Naz'jar",
+	[132609] = "The Hivemind",
+	[114462] = "The Curator",
+	[169594] = "Filled Anima Container",
 	[33118] = "Ignis the Furnace Master",
-	[58605] = "Scarlet Judicator",
-	[56843] = "Lorewalker Stonestep",
-	[102169] = "Black Bile",
+	[160271] = "Forbidden Manifestation",
+	[61431] = "Glintrok Scout",
+	[171474] = "Finger Food",
 	[178763] = "Buttons",
 	[148201] = "Crawler Mine",
-	[96223] = "Gamon",
-	[72889] = "Superheated Crawler Mine",
+	[56839] = "Anduin Wrynn",
+	[200912] = "Neldris",
 	[151654] = "Deuce Mecha-Buffer",
-	[88938] = "Ragnaros",
+	[158190] = "Medivh",
 	[137588] = "Gasping Flounder",
 	[124164] = "Torment of Golganneth",
-	[166246] = "Buttons",
-	[156575] = "Dark Inquisitor Xanesh",
-	[104217] = "Talixae Flamewreath",
+	[150081] = "Wise Mari",
+	[53501] = "Living Meteor",
+	[59822] = "Auntie Stormstout",
 	[99868] = "Fenryr",
 	[45906] = "Camel",
-	[45993] = "Theralion",
+	[64556] = "Captain Ook",
 	[65407] = "Shado-Pan Novice",
 	[138740] = "Musashitake",
 	[127809] = "Reorigination Module",
-	[64017] = "Derpa Derpa",
-	[144246] = "K.U.-J.0.",
-	[155760] = "Tank Buster MK2",
-	[155056] = "Robo-Waste",
+	[162933] = "Thought Harvester",
+	[185427] = "Unstable Progenitor Relic",
+	[98696] = "Illysanna Ravencrest",
+	[178783] = "Moriaz the Red",
 	[38010] = "Reanimated Adherent",
-	[32927] = "Runemaster Molgeim",
-	[184915] = "Halondrus",
-	[161375] = "Promising Specimen",
-	[155144] = "Abyssal Commander Sivara",
+	[181579] = "Lihuvim",
+	[88334] = "Croman",
+	[51405] = "Angered Earth",
+	[102950] = "Reaves",
 	[61699] = "Sik'thik Amberwing",
-	[143045] = "Coastal Scuttler",
+	[53695] = "Rageface",
 	[171094] = "Grisly Curio",
-	[196845] = "Frozen Behemoth",
-	[108600] = "Sister of the Moon",
-	[145903] = "Darkforged Crusader",
-	[107699] = "Spellblade Aluriel",
-	[131853] = "Huntmaster Grath",
-	[127503] = "Overseer Korgus",
+	[74570] = "Ruination",
+	[189893] = "Infused Whelp",
+	[149995] = "High Priestess Azil",
+	[111864] = "Sticky",
+	[201934] = "Shadowflame Amalgamation",
+	[52405] = "Mor'Lek the Dismantler",
 }
 AchievementTrackerNPCCacheClassic = {
 }
