@@ -3,19 +3,19 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 173.5237884193487,
 	["toggleSoundFailed"] = false,
 	["showMinimap"] = true,
-	["onlyTrackMissingAchievements"] = true,
+	["toggleSound"] = false,
 	["displayInfoFrame"] = true,
 	["enableAutomaticCombatLogging"] = false,
 	["greyOutCompletedAchievements"] = false,
 	["announceTrackedAchievements"] = false,
 	["announceToRaidWarning"] = true,
 	["trackAchievementsAutomatically"] = false,
-	["hideCompletedAchievements"] = true,
+	["trackCharacterAchievements"] = false,
 	["changeMinimapIcon"] = false,
 	["enableAddon"] = true,
-	["trackCharacterAchievements"] = false,
+	["hideCompletedAchievements"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["toggleSound"] = false,
+	["onlyTrackMissingAchievements"] = true,
 }
 AchievementTrackerDebug = {
 	"20/9/2023 23:38 [DEBUG] ---IAT Runtime---", -- [1]
@@ -8264,6 +8264,250 @@ AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [8244]
 	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [8245]
 	"14/10/2023 0:45 [DEBUG] Showing Minimap Icon", -- [8246]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [8247]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [8248]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [8249]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [8250]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [8251]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [8252]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [8253]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [8254]
+	"15/10/2023 0:52 [DEBUG] Showing Minimap Icon", -- [8255]
+	"15/10/2023 2:17 [DEBUG] Player has entered instance", -- [8256]
+	"15/10/2023 2:17 [DEBUG] 603", -- [8257]
+	"15/10/2023 2:17 [DEBUG] Offical Instance Name: 603 _603", -- [8258]
+	"15/10/2023 2:17 [DEBUG] Expansion: 3", -- [8259]
+	"15/10/2023 2:17 [DEBUG] Instance Type: Raids", -- [8260]
+	"15/10/2023 2:17 [DEBUG] Instance: 603", -- [8261]
+	"15/10/2023 2:17 [DEBUG] DifficultyID: 14", -- [8262]
+	"15/10/2023 2:17 [DEBUG] Expansion: 3", -- [8263]
+	"15/10/2023 2:17 [DEBUG] Instance Type: Raids", -- [8264]
+	"15/10/2023 2:17 [DEBUG] Instance: 603", -- [8265]
+	"15/10/2023 2:17 [DEBUG] Asking user whether they want to track this instance", -- [8266]
+	"15/10/2023 2:17 [DEBUG] Creating Tracking UI", -- [8267]
+	"15/10/2023 2:17 [DEBUG] InfoFrame Setup Complete", -- [8268]
+	"15/10/2023 2:17 [DEBUG] Expansion: 3", -- [8269]
+	"15/10/2023 2:17 |cff00ccffIAT: |cffffffffStarting achievement scan for Ulduar (This may freeze your game for a few seconds!)", -- [8270]
+	"15/10/2023 2:17 [DEBUG] Group Size set to: 2", -- [8271]
+	"15/10/2023 2:17 [DEBUG] Combatlog does not need to be enabled", -- [8272]
+	"15/10/2023 2:17 [DEBUG] Starting Initial Setup If Needed...", -- [8273]
+	"15/10/2023 2:17 [DEBUG] Starting Initial Setup For Instance", -- [8274]
+	"15/10/2023 2:17 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Linqpad", -- [8275]
+	"15/10/2023 2:17 [DEBUG] Achievement Scanning Finished but some players still need scanning. Waiting 20 seconds then trying again (1/2)", -- [8276]
+	"15/10/2023 2:17 [DEBUG] Group Size set to: 2", -- [8277]
+	"15/10/2023 2:17 [DEBUG] Group Roster Update", -- [8278]
+	"15/10/2023 2:17 [DEBUG] Achievement Scanning Enabled", -- [8279]
+	"15/10/2023 2:17 [DEBUG] Scan in progress. Asking for rescan", -- [8280]
+	"15/10/2023 2:17 [DEBUG] Group Size set to: 2", -- [8281]
+	"15/10/2023 2:17 [DEBUG] Setting rank to: 2", -- [8282]
+	"15/10/2023 2:18 [DEBUG] Group Size set to: 2", -- [8283]
+	"15/10/2023 2:18 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Wysjj", -- [8284]
+	"15/10/2023 2:18 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (2/2)", -- [8285]
+	"15/10/2023 2:18 |cff00ccffIAT: |cffffffffIncomplete achievements for this instance |cffffff00|Hachievement:12312:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Dwarfageddon]|h|r|cffffff00|Hachievement:12323:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Shattered]|h|r|cffffff00|Hachievement:12342:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Nine Lives]|h|r|cffffff00|Hachievement:12314:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Three Car Garage]|h|r|cffffff00|Hachievement:12327:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Nerf Scrapbots]|h|r|cffffff00|Hachievement:12340:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Rubble and Roll]|h|r|cffffff00|Hachievement:12400:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Supermassive]|h|r|cffffff00|Hachievement:12315:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Take Out Those Turrets]|h|r|cffffff00|Hachievement:12350:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Who Needs Bloodlust?]|h|r|cffffff00|Hachievement:12346:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Staying Buffed All Winter]|h|r|cffffff00|Hachievement:12335:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[But I'm On Your Side]|h|r", -- [8286]
+	"15/10/2023 2:19 [DEBUG] Calling Detect Boss 2: 33236", -- [8287]
+	"15/10/2023 2:19 [DEBUG] Found the following boss ID: 33236", -- [8288]
+	"15/10/2023 2:19 [DEBUG] Entered Combat", -- [8289]
+	"15/10/2023 2:19 [DEBUG] Calling Detect Boss 3: 33060", -- [8290]
+	"15/10/2023 2:19 [DEBUG] Found the following boss ID: 33060", -- [8291]
+	"15/10/2023 2:19 [DEBUG] Calling Detect Boss 2: 34234", -- [8292]
+	"15/10/2023 2:19 [DEBUG] Found the following boss ID: 34234", -- [8293]
+	"15/10/2023 2:19 [DEBUG] Calling Detect Boss 3: 33572", -- [8294]
+	"15/10/2023 2:19 [DEBUG] Found the following boss ID: 33572", -- [8295]
+	"15/10/2023 2:19 [DEBUG] Adding the following boss: boss1", -- [8296]
+	"15/10/2023 2:19 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 12312", -- [8297]
+	"15/10/2023 2:19 [DEBUG] Showing InfoFrame", -- [8298]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8299]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8300]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8301]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8302]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8303]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8304]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8305]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8306]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8307]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8308]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8309]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8310]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8311]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8312]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8313]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8314]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8315]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8316]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8317]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8318]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8319]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8320]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8321]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8322]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8323]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8324]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8325]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8326]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8327]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8328]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8329]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8330]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8331]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8332]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8333]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8334]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8335]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8336]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8337]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8338]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8339]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8340]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8341]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8342]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8343]
+	"15/10/2023 2:19 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8344]
+	"15/10/2023 2:19 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8345]
+	"15/10/2023 2:19 [DEBUG] Deleted mob from table", -- [8346]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8347]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8348]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8349]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8350]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8351]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8352]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8353]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8354]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8355]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8356]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8357]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8358]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8359]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8360]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8361]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8362]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8363]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8364]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8365]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8366]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8367]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8368]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8369]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8370]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8371]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8372]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8373]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8374]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8375]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8376]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8377]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8378]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8379]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8380]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8381]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8382]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8383]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8384]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8385]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8386]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8387]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8388]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8389]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8390]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8391]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8392]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8393]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8394]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8395]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8396]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8397]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8398]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8399]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8400]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8401]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8402]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8403]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8404]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8405]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8406]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8407]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8408]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8409]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8410]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8411]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8412]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8413]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8414]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8415]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8416]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8417]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8418]
+	"15/10/2023 2:20 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8419]
+	"15/10/2023 2:20 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8420]
+	"15/10/2023 2:20 [DEBUG] Deleted mob from table", -- [8421]
+	"15/10/2023 2:21 [DEBUG] Detected killed mob by UNIT_DIED event", -- [8422]
+	"15/10/2023 2:21 [DEBUG] Detected mob but cannot count yet as required number of mobs have not spawned yet", -- [8423]
+	"15/10/2023 2:21 [DEBUG] Deleted mob from table", -- [8424]
+	"15/10/2023 2:21 [DEBUG] ---Encounter Started---", -- [8425]
+	"15/10/2023 2:21 [DEBUG] Encounter ID: 1132", -- [8426]
+	"15/10/2023 2:21 [DEBUG] Detected boss using ENCOUNTER ID", -- [8427]
+	"15/10/2023 2:21 [DEBUG] Found the following encounter ID: 1132", -- [8428]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following encounter ID: boss8", -- [8429]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 12319", -- [8430]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following encounter ID: boss3", -- [8431]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 12314", -- [8432]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following encounter ID: boss4", -- [8433]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 12315", -- [8434]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following encounter ID: boss7", -- [8435]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 12318", -- [8436]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following encounter ID: boss9", -- [8437]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 12320", -- [8438]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following encounter ID: boss5", -- [8439]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 12316", -- [8440]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following encounter ID: boss6", -- [8441]
+	"15/10/2023 2:21 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 12317", -- [8442]
+	"15/10/2023 2:21 [DEBUG] Automatic Blizzard Tracking set to: true", -- [8443]
+	"15/10/2023 2:21 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:12319:Player-77-0F3128C1:1:9:3:23:0:0:0:0|h[Nuked from Orbit]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [8444]
+	"15/10/2023 2:21 [DEBUG] Length of array: 7", -- [8445]
+	"15/10/2023 2:21 [DEBUG] Achievement: 12319", -- [8446]
+	"15/10/2023 2:21 [DEBUG] Achievement: 12314", -- [8447]
+	"15/10/2023 2:21 [DEBUG] Achievement: 12315", -- [8448]
+	"15/10/2023 2:21 |cff00ccffIAT: |cffffffffTracking: |cffffff00|Hachievement:12315:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Take Out Those Turrets]|h|r", -- [8449]
+	"15/10/2023 2:21 [DEBUG] Setting Master Addon 8", -- [8450]
+	"15/10/2023 2:21 [DEBUG] Achievement: 12318", -- [8451]
+	"15/10/2023 2:21 [DEBUG] Achievement: 12320", -- [8452]
+	"15/10/2023 2:21 [DEBUG] Achievement: 12316", -- [8453]
+	"15/10/2023 2:21 [DEBUG] User supressing addon tracking", -- [8454]
+	"15/10/2023 2:21 [DEBUG] Achievement: 12317", -- [8455]
+	"15/10/2023 2:21 [DEBUG] ------------NEW REQUEST------------", -- [8456]
+	"15/10/2023 2:21 [DEBUG] Recieved Info From: Wysjj-Azshara", -- [8457]
+	"15/10/2023 2:21 [DEBUG] AddonID: 53457 : 72920", -- [8458]
+	"15/10/2023 2:21 [DEBUG] Master Addon: true : true", -- [8459]
+	"15/10/2023 2:21 [DEBUG] Player Rank: 0 : 2", -- [8460]
+	"15/10/2023 2:21 [DEBUG] Major Version: 4 : 4", -- [8461]
+	"15/10/2023 2:21 [DEBUG] Minor Version: 25 : 25", -- [8462]
+	"15/10/2023 2:21 [DEBUG] Only Track Missing Achievements: false : true", -- [8463]
+	"15/10/2023 2:21 [DEBUG] Instance ID: 603 : 603", -- [8464]
+	"15/10/2023 2:21 [DEBUG] I am in an instance", -- [8465]
+	"15/10/2023 2:21 [DEBUG] Make it to tracking", -- [8466]
+	"15/10/2023 2:21 [DEBUG] 0.2: This addon is supressing messages so demote", -- [8467]
+	"15/10/2023 2:21 [DEBUG] Blocking additional requests till end of fight since another addon has better requirements", -- [8468]
+	"15/10/2023 2:21 [DEBUG] Another addon is currently in charge of outputting messages for this fight", -- [8469]
+	"15/10/2023 2:21 [DEBUG] ---Encounter Ended---", -- [8470]
+	"15/10/2023 2:21 [DEBUG] Locking Detection for 3 seconds", -- [8471]
+	"15/10/2023 2:21 [DEBUG] Clearing Instance Variables if exists", -- [8472]
+	"15/10/2023 2:21 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [8473]
+	"15/10/2023 2:21 [DEBUG] Clearing Instance Variables if exists", -- [8474]
+	"15/10/2023 2:21 [DEBUG] Clearing Instance Variables", -- [8475]
+	"15/10/2023 2:21 [DEBUG] Resetting Global Variables", -- [8476]
+	"15/10/2023 2:21 [DEBUG] Resetting InfoFrame", -- [8477]
+	"15/10/2023 2:21 [DEBUG] Left Combat", -- [8478]
+	"15/10/2023 2:21 [DEBUG] Detection unlocked", -- [8479]
+	"15/10/2023 2:21 [DEBUG] Calling Detect Boss 3: 33109", -- [8480]
+	"15/10/2023 2:21 [DEBUG] Found the following boss ID: 33109", -- [8481]
+	"15/10/2023 2:21 [DEBUG] Calling Detect Boss 2: 34164", -- [8482]
+	"15/10/2023 2:21 [DEBUG] Found the following boss ID: 34164", -- [8483]
+	"15/10/2023 2:21 [DEBUG] Calling Detect Boss 2: 33572", -- [8484]
+	"15/10/2023 2:21 [DEBUG] Found the following boss ID: 33572", -- [8485]
+	"15/10/2023 2:21 [DEBUG] Adding the following boss: boss1", -- [8486]
+	"15/10/2023 2:21 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 12312", -- [8487]
+	"15/10/2023 2:21 [DEBUG] Calling Detect Boss 3: 33062", -- [8488]
+	"15/10/2023 2:21 [DEBUG] Found the following boss ID: 33062", -- [8489]
+	"15/10/2023 2:21 [DEBUG] Showing InfoFrame", -- [8490]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -8584,47 +8828,47 @@ AchievementTrackerNPCCache = {
 	[152253] = "The Tarragrue",
 	[137036] = "Awoken Void",
 	[59930] = "Empowered Zombie",
-	[52405] = "Mor'Lek the Dismantler",
-	[201934] = "Shadowflame Amalgamation",
+	[131853] = "Huntmaster Grath",
+	[127503] = "Overseer Korgus",
 	[43658] = "Frenzied Crocolisk",
 	[67879] = "Commander Tel'vrak",
-	[111864] = "Sticky",
+	[107699] = "Spellblade Aluriel",
 	[33524] = "Saronite Animus",
 	[98761] = "Soul Fragment",
 	[82457] = "Ner'zhul",
-	[149995] = "High Priestess Azil",
-	[143045] = "Coastal Scuttler",
-	[74570] = "Ruination",
+	[145903] = "Darkforged Crusader",
+	[108600] = "Sister of the Moon",
+	[196845] = "Frozen Behemoth",
 	[45992] = "Valiona",
 	[131667] = "Soulbound Goliath",
 	[184915] = "Halondrus",
 	[60410] = "Elegon",
-	[178783] = "Moriaz the Red",
+	[60913] = "Energy Charge",
 	[88334] = "Croman",
 	[82074] = "Pristine True Iron Ore",
 	[156987] = "General Kaal",
-	[102950] = "Reaves",
+	[155144] = "Abyssal Commander Sivara",
 	[52418] = "Lost Offspring of Gahz'ranka",
 	[164532] = "Hakkar the Soulflayer",
 	[197396] = "Strange Chicken",
 	[152512] = "Stormwraith",
 	[78430] = "Cordana Felsong",
-	[51405] = "Angered Earth",
-	[175616] = "Zo'phex",
-	[181579] = "Lihuvim",
+	[161375] = "Promising Specimen",
+	[59080] = "Darkmaster Gandling",
+	[32927] = "Runemaster Molgeim",
 	[185427] = "Unstable Progenitor Relic",
 	[165556] = "Fleeting Manifestation",
 	[154431] = "Khaz'goroth",
-	[144246] = "K.U.-J.0.",
-	[64017] = "Derpa Derpa",
-	[162933] = "Thought Harvester",
-	[104217] = "Talixae Flamewreath",
+	[155056] = "Robo-Waste",
+	[185423] = "Reaving Automa: Neo",
+	[155760] = "Tank Buster MK2",
+	[98696] = "Illysanna Ravencrest",
 	[68904] = "Suen",
 	[189893] = "Infused Whelp",
 	[59100] = "Expired Test Subject",
 	[78736] = "Warlord Zaela",
 	[166246] = "Buttons",
-	[40634] = "Naz'jar Tempest Witch",
+	[113971] = "Maiden of Virtue",
 	[95886] = "Ash'Golm",
 	[102088] = "Murkwater Myrmidon",
 	[198038] = "Primal Avatar",
@@ -8634,307 +8878,307 @@ AchievementTrackerNPCCache = {
 	[74787] = "Slave Watcher Crushto",
 	[180690] = "Vazzaren the Seeker",
 	[154817] = "King Mechagon",
-	[68905] = "Lu'lin",
 	[138705] = "Gourmet Parrot Chow",
+	[68905] = "Lu'lin",
 	[77153] = "Iron Star",
-	[88938] = "Ragnaros",
-	[150081] = "Wise Mari",
-	[56843] = "Lorewalker Stonestep",
+	[156575] = "Dark Inquisitor Xanesh",
+	[64556] = "Captain Ook",
+	[157475] = "Synthesis Growth",
 	[53694] = "Riplimb",
 	[101823] = "Mushroom Merchant",
 	[43404] = "Maloriak",
-	[160271] = "Forbidden Manifestation",
+	[53501] = "Living Meteor",
 	[52675] = "Beth'tilac",
 	[72889] = "Superheated Crawler Mine",
-	[158190] = "Medivh",
-	[56839] = "Anduin Wrynn",
+	[59822] = "Auntie Stormstout",
+	[96223] = "Gamon",
 	[185439] = "Tainted Progenitor Relic",
 	[83775] = "Ogron Laborer",
-	[171474] = "Finger Food",
+	[102169] = "Black Bile",
 	[67883] = "Rosey Axlerod",
-	[69820] = "Son of Animus",
-	[53695] = "Rageface",
+	[58605] = "Scarlet Judicator",
+	[61431] = "Glintrok Scout",
 	[132609] = "The Hivemind",
-	[200912] = "Neldris",
+	[69181] = "Saurid",
 	[61243] = "Gekkan",
 	[95888] = "Cordana Felsong",
 	[33686] = "Lore Keeper of Norgannon",
-	[29023] = "Jan'alai",
-	[56637] = "Ook-Ook",
+	[67231] = "Trial of the King",
+	[67966] = "Whirl Turtle",
 	[73638] = "Tears of the Vale",
-	[52442] = "Florawing Hive Queen",
+	[61709] = "Spawn of Anger",
 	[39984] = "Malignant Trogg",
 	[169594] = "Filled Anima Container",
+	[114895] = "Nightbane",
 	[91349] = "Mannoroth",
-	[32919] = "Storm Lasher",
-	[185128] = "Memorial Pylon",
 	[153415] = "Sha of Violence",
-	[61442] = "Kuai the Brute",
 	[108996] = "Specter of Vengeance",
+	[135129] = "Projection of Yogg-Saron",
+	[185128] = "Memorial Pylon",
 	[178095] = "Eye of the Jailer",
 	[70250] = "Frozen Head",
-	[53258] = "Lord Rhyolith",
+	[62465] = "Captain Ook",
 	[135513] = "Ancient Tome",
 	[177584] = "Burning Gibbet",
 	[71529] = "Thok the Bloodthirsty",
 	[41440] = "Aberration",
 	[185129] = "Memorial Pylon",
-	[169554] = "Disused Anima Container",
+	[105301] = "Expedient Elemental",
 	[90199] = "Gorefiend",
-	[91938] = "Haunting Soul",
+	[141805] = "Threshanator 3000",
 	[115902] = "Razorjaw Waverunner",
-	[34035] = "Feral Defender",
-	[39665] = "Rom'ogg Bonecrusher",
+	[114462] = "The Curator",
 	[138967] = "Zul",
+	[39665] = "Rom'ogg Bonecrusher",
 	[185130] = "Memorial Pylon",
 	[43468] = "Lady Naz'jar",
 	[70251] = "Venomous Head",
 	[105097] = "Glow Bug",
-	[164501] = "Mistcaller",
+	[45993] = "Theralion",
 	[71466] = "Iron Juggernaut",
-	[120564] = "Titanic Anomaly",
+	[166266] = "Spare Parts",
 	[52414] = "Tor-Tun",
 	[185131] = "Memorial Pylon",
-	[165512] = "Cocoon of Lakali",
-	[77814] = "Teron'gor",
-	[33552] = "Yogg-Saron",
+	[52438] = "Mortaxx",
+	[33134] = "Sara",
+	[123503] = "Torment of Norgannon",
 	[33202] = "Ancient Water Spirit",
 	[110758] = "High Inquisitor Whitemane",
 	[99663] = "Frustrated Soul",
 	[87451] = "Fleshrender Nok'gar",
-	[147430] = "Virmen",
-	[139737] = "Lord Stormsong",
+	[102423] = "Mug of Mead",
+	[94996] = "Fragment of the Crone",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
-	[104341] = "Torment",
-	[72490] = "Overseer Mojka",
+	[44530] = "Naz'jar Honor Guard",
+	[139737] = "Lord Stormsong",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
-	[166644] = "Artificer Xy'mox",
+	[162102] = "Grand Proctor Beryllia",
+	[180658] = "Focusing Prism",
 	[78948] = "Tectus",
-	[56897] = "Raigonn",
-	[72436] = "Immerseus",
-	[34826] = "Mistress of Pain",
+	[59779] = "Thunderpaw Guardian",
+	[99664] = "Restless Soul",
 	[71979] = "Kor'kron Warbringer",
 	[49864] = "Twilight Fiend",
 	[53494] = "Baleroc",
-	[61213] = "Krik'thik Conscript",
 	[155595] = "Sacred Gear",
-	[52440] = "Gub",
+	[61213] = "Krik'thik Conscript",
+	[33768] = "Rubble",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
-	[55312] = "Yor'sahj the Unsleeping",
-	[154741] = "Squirt Bot",
+	[118924] = "Engine of Souls",
+	[123531] = "Manifestation of Taeshalach",
 	[135903] = "Manifestation of the Deep",
-	[175474] = "Belligerent Waiter",
+	[55308] = "Warlord Zon'ozz",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[205340] = "Expired Experiment",
-	[111941] = "Hodir",
+	[67779] = "Mature Saurok Egg",
 	[52422] = "Kaulema the Mover",
-	[50376] = "Angered Earth",
+	[33113] = "Flame Leviathan",
+	[205340] = "Expired Experiment",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
 	[172093] = "Hearty Haunch",
-	[33241] = "Freya",
+	[173770] = "Blazing Brazier",
 	[68336] = "Garrosh Hellscream",
 	[138718] = "Sharkbait's Empty Dish",
-	[205341] = "Stack of Scrolls",
-	[138719] = "Serve Sharkbait's Meal",
+	[33241] = "Freya",
+	[150995] = "Mimiron",
 	[67569] = "Elder Adler",
-	[90018] = "Hellfire Cannon",
+	[81834] = "Priceless Paraphernalia",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
-	[103758] = "Star Augur Etraeus",
-	[150995] = "Mimiron",
 	[205342] = "Neverburning Ebon Candle",
+	[138719] = "Serve Sharkbait's Meal",
+	[103758] = "Star Augur Etraeus",
 	[172386] = "Anima Conduit",
 	[69086] = "Flaming Head",
-	[117072] = "Mordrethal",
+	[164450] = "Dealer Xy'exa",
 	[164934] = "Manastorm",
-	[93145] = "Soul of the Crone",
+	[76585] = "Ragewing the Untamed",
 	[74475] = "Magmolatus",
 	[126712] = "Training Dummy",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
-	[23574] = "Akil'zon",
+	[93145] = "Soul of the Crone",
 	[39987] = "Evolved Twilight Zealot",
 	[116802] = "Rodent of Usual Size",
 	[108682] = "Amber Drake",
-	[171456] = "Shattered Devastator",
-	[122135] = "Shatug",
-	[197298] = "Nascent Proto-Dragon",
-	[165408] = "Halkias",
+	[33136] = "Guardian of Yogg-Saron",
+	[165737] = "Sinstone Statue",
+	[173769] = "Smoldering Brazier",
+	[55419] = "Captain Varo'then",
 	[164218] = "Lord Chamberlain",
 	[172992] = "Overgrown Hydra",
 	[94808] = "Hellfire Guardian",
-	[172094] = "Dissectible Dessert",
+	[164363] = "Undying Stonefiend",
 	[175422] = "Coalesced Anima",
 	[162317] = "Gorechop",
 	[153172] = "Stolen Scrapbot",
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[170851] = "Volatile Plague Bomb",
-	[36535] = "Corrupted Soul Fragment",
+	[71983] = "Farseer Wolf Rider",
 	[115844] = "Goroth",
-	[105742] = "Turbax",
-	[141792] = "Liz Vilepot",
-	[173768] = "Fiery Brazier",
+	[78121] = "Gorian Warmage",
+	[36535] = "Corrupted Soul Fragment",
+	[71603] = "Sha Puddle",
 	[32273] = "Infinite Corruptor",
 	[181546] = "Prototype of Renewal",
 	[122366] = "Varimathras",
-	[80551] = "Shard of Tectus",
 	[165066] = "Huntsman Altimor",
+	[80551] = "Shard of Tectus",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
-	[172995] = "Hydra Seed",
+	[104528] = "High Botanist Tel'arn",
 	[36855] = "Lady Deathwhisper",
-	[129208] = "Dread Captain Lockwood",
-	[174018] = "Volatile Plague Bomb",
+	[105743] = "Whipsnap",
+	[172995] = "Hydra Seed",
 	[100436] = "Illysanna Ravencrest",
-	[71984] = "Siege Engineer",
-	[61567] = "Vizier Jin'bak",
 	[52392] = "Gurubashi Master Chef",
-	[33343] = "XS-013 Scrapbot",
-	[173767] = "Embered Brazier",
-	[205352] = "Nutraal",
-	[136683] = "Trade Prince Gallywix",
+	[129208] = "Dread Captain Lockwood",
+	[71984] = "Siege Engineer",
+	[63091] = "Jade Quilen",
+	[38135] = "Deformed Fanatic",
+	[142949] = "Theramore Citizen",
+	[154074] = "Void Orb",
 	[95833] = "Hyrja",
 	[156884] = "Essence of Vita",
+	[86918] = "Uncharged Construct",
 	[72496] = "Overseer Thathung",
-	[69427] = "Dark Animus",
 	[29305] = "Moorabi",
 	[164557] = "Shard of Halkias",
 	[86928] = "Empowered Construct",
-	[205989] = "Forgotten Specimen Tank",
-	[64061] = "Mogu'shan Warden",
 	[119938] = "Reanimated Templar",
+	[64061] = "Mogu'shan Warden",
+	[205989] = "Forgotten Specimen Tank",
+	[52936] = "Druid of the Flame",
 	[111882] = "Sparky",
-	[28514] = "Nalorakk",
 	[146016] = "Leeroy Jenkins",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
-	[27654] = "Drakos the Interrogator",
-	[56165] = "Crystal Conductor",
-	[179392] = "Kin'tessa",
-	[99031] = "Artifact",
-	[86250] = "Kyrak",
 	[105744] = "Blaze",
+	[86250] = "Kyrak",
+	[56165] = "Crystal Conductor",
+	[99031] = "Artifact",
+	[179392] = "Kin'tessa",
+	[27654] = "Drakos the Interrogator",
 	[26628] = "Drakkari Scytheclaw",
-	[52936] = "Druid of the Flame",
+	[28514] = "Nalorakk",
 	[55334] = "Void of the Unmaking",
 	[59458] = "Hopling",
 	[110732] = "Creature of Madness",
-	[86918] = "Uncharged Construct",
-	[154074] = "Void Orb",
-	[142949] = "Theramore Citizen",
-	[38135] = "Deformed Fanatic",
-	[63091] = "Jade Quilen",
+	[69427] = "Dark Animus",
+	[136683] = "Trade Prince Gallywix",
+	[205352] = "Nutraal",
+	[173767] = "Embered Brazier",
+	[33343] = "XS-013 Scrapbot",
 	[73265] = "Corrupted Amalgamation",
-	[105743] = "Whipsnap",
-	[104528] = "High Botanist Tel'arn",
+	[61567] = "Vizier Jin'bak",
+	[174018] = "Volatile Plague Bomb",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
-	[71603] = "Sha Puddle",
-	[78121] = "Gorian Warmage",
-	[71983] = "Farseer Wolf Rider",
+	[173768] = "Fiery Brazier",
+	[141792] = "Liz Vilepot",
+	[105742] = "Turbax",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
-	[164363] = "Undying Stonefiend",
+	[172094] = "Dissectible Dessert",
 	[141800] = "Brutik Blackanvil",
-	[55419] = "Captain Varo'then",
-	[173769] = "Smoldering Brazier",
-	[165737] = "Sinstone Statue",
-	[33136] = "Guardian of Yogg-Saron",
-	[76585] = "Ragewing the Untamed",
-	[164450] = "Dealer Xy'exa",
+	[165408] = "Halkias",
+	[197298] = "Nascent Proto-Dragon",
+	[122135] = "Shatug",
+	[171456] = "Shattered Devastator",
+	[23574] = "Akil'zon",
+	[117072] = "Mordrethal",
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[81834] = "Priceless Paraphernalia",
+	[90018] = "Hellfire Cannon",
 	[68599] = "Ferra Pearl",
-	[173770] = "Blazing Brazier",
-	[33113] = "Flame Leviathan",
+	[205341] = "Stack of Scrolls",
+	[50376] = "Angered Earth",
 	[50284] = "Twilight Zealot",
-	[67779] = "Mature Saurok Egg",
-	[55308] = "Warlord Zon'ozz",
-	[123531] = "Manifestation of Taeshalach",
-	[118924] = "Engine of Souls",
-	[33768] = "Rubble",
+	[111941] = "Hodir",
+	[175474] = "Belligerent Waiter",
+	[154741] = "Squirt Bot",
+	[55312] = "Yor'sahj the Unsleeping",
+	[52440] = "Gub",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
-	[99664] = "Restless Soul",
-	[59779] = "Thunderpaw Guardian",
-	[180658] = "Focusing Prism",
-	[162102] = "Grand Proctor Beryllia",
-	[44530] = "Naz'jar Honor Guard",
-	[94996] = "Fragment of the Crone",
-	[102423] = "Mug of Mead",
+	[34826] = "Mistress of Pain",
+	[72436] = "Immerseus",
+	[56897] = "Raigonn",
+	[166644] = "Artificer Xy'mox",
+	[104341] = "Torment",
+	[72490] = "Overseer Mojka",
+	[147430] = "Virmen",
 	[202800] = "Specimen Tank",
 	[131318] = "Elder Leaxa",
-	[123503] = "Torment of Norgannon",
-	[33134] = "Sara",
-	[52438] = "Mortaxx",
+	[33552] = "Yogg-Saron",
+	[77814] = "Teron'gor",
+	[165512] = "Cocoon of Lakali",
 	[76209] = "Essence of Shadow",
-	[166266] = "Spare Parts",
-	[45993] = "Theralion",
+	[120564] = "Titanic Anomaly",
+	[164501] = "Mistcaller",
 	[101976] = "Millificent Manastorm",
 	[80557] = "Mote of Tectus",
-	[114462] = "The Curator",
-	[141805] = "Threshanator 3000",
-	[105301] = "Expedient Elemental",
+	[34035] = "Feral Defender",
+	[91938] = "Haunting Soul",
+	[169554] = "Disused Anima Container",
 	[64479] = "Gatecrusher",
-	[62465] = "Captain Ook",
-	[135129] = "Projection of Yogg-Saron",
+	[61442] = "Kuai the Brute",
+	[53258] = "Lord Rhyolith",
 	[160859] = "Haunting Memory",
 	[38009] = "Reanimated Fanatic",
-	[114895] = "Nightbane",
+	[32919] = "Storm Lasher",
 	[145898] = "Anointed Disciple",
-	[61709] = "Spawn of Anger",
-	[67966] = "Whirl Turtle",
-	[67231] = "Trial of the King",
-	[69181] = "Saurid",
+	[52442] = "Florawing Hive Queen",
+	[56637] = "Ook-Ook",
+	[29023] = "Jan'alai",
+	[200912] = "Neldris",
 	[33118] = "Ignis the Furnace Master",
-	[61431] = "Glintrok Scout",
-	[58605] = "Scarlet Judicator",
-	[102169] = "Black Bile",
+	[53695] = "Rageface",
+	[69820] = "Son of Animus",
+	[171474] = "Finger Food",
 	[178763] = "Buttons",
 	[148201] = "Crawler Mine",
-	[96223] = "Gamon",
-	[59822] = "Auntie Stormstout",
+	[56839] = "Anduin Wrynn",
+	[158190] = "Medivh",
 	[151654] = "Deuce Mecha-Buffer",
-	[53501] = "Living Meteor",
+	[160271] = "Forbidden Manifestation",
 	[137588] = "Gasping Flounder",
 	[124164] = "Torment of Golganneth",
-	[157475] = "Synthesis Growth",
-	[64556] = "Captain Ook",
-	[156575] = "Dark Inquisitor Xanesh",
+	[56843] = "Lorewalker Stonestep",
+	[150081] = "Wise Mari",
+	[88938] = "Ragnaros",
 	[99868] = "Fenryr",
 	[45906] = "Camel",
-	[113971] = "Maiden of Virtue",
+	[40634] = "Naz'jar Tempest Witch",
 	[65407] = "Shado-Pan Novice",
 	[138740] = "Musashitake",
 	[127809] = "Reorigination Module",
-	[98696] = "Illysanna Ravencrest",
-	[155760] = "Tank Buster MK2",
-	[185423] = "Reaving Automa: Neo",
-	[155056] = "Robo-Waste",
+	[104217] = "Talixae Flamewreath",
+	[162933] = "Thought Harvester",
+	[64017] = "Derpa Derpa",
+	[144246] = "K.U.-J.0.",
 	[38010] = "Reanimated Adherent",
-	[32927] = "Runemaster Molgeim",
-	[59080] = "Darkmaster Gandling",
-	[161375] = "Promising Specimen",
-	[155144] = "Abyssal Commander Sivara",
+	[181579] = "Lihuvim",
+	[175616] = "Zo'phex",
+	[51405] = "Angered Earth",
+	[102950] = "Reaves",
 	[61699] = "Sik'thik Amberwing",
-	[60913] = "Energy Charge",
+	[178783] = "Moriaz the Red",
 	[171094] = "Grisly Curio",
-	[196845] = "Frozen Behemoth",
-	[108600] = "Sister of the Moon",
-	[145903] = "Darkforged Crusader",
-	[107699] = "Spellblade Aluriel",
-	[127503] = "Overseer Korgus",
-	[131853] = "Huntmaster Grath",
+	[74570] = "Ruination",
+	[143045] = "Coastal Scuttler",
+	[149995] = "High Priestess Azil",
+	[111864] = "Sticky",
+	[201934] = "Shadowflame Amalgamation",
+	[52405] = "Mor'Lek the Dismantler",
 }
 AchievementTrackerNPCCacheClassic = {
 }
