@@ -1,8 +1,1 @@
 Version: 1
-Frame: AchievementTrackerInfoFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -406
-Y: -191
-W: 200
-H: 300
