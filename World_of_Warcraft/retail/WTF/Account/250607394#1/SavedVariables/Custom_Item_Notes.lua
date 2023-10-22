@@ -57,6 +57,9 @@ CIN_Save = {
 	["4306"] = {
 		"Vanilla", -- [1]
 	},
+	["37582"] = {
+		"Hallow's End. Trash", -- [1]
+	},
 	["2450"] = {
 	},
 	["774"] = {
@@ -176,14 +179,25 @@ CIN_Save = {
 	["162581"] = {
 		"BFA quest", -- [1]
 	},
+	["32905"] = {
+		"TBC", -- [1]
+		"trash", -- [2]
+	},
 	["16202"] = {
 		"Vanilla", -- [1]
 	},
 	["190456"] = {
 		"DF currency for recepies", -- [1]
 	},
+	["32902"] = {
+		"TBC", -- [1]
+		"trash", -- [2]
+	},
 	["21229"] = {
 		"TAQ rep", -- [1]
+	},
+	["2842"] = {
+		"Vanilla", -- [1]
 	},
 	["5503"] = {
 		"Vanilla", -- [1]
@@ -241,8 +255,8 @@ CIN_Save = {
 	["17010"] = {
 		"Vanilla", -- [1]
 	},
-	["2842"] = {
-		"Vanilla", -- [1]
+	["37604"] = {
+		"Hollow's End. When acquired the achievement. It becomes trash.", -- [1]
 	},
 	["7974"] = {
 		"Vanilla", -- [1]
@@ -280,14 +294,13 @@ CIN_Save = {
 	["21232"] = {
 		"Vanilla TAQ weapon quest. Needs 3 elementium ingots", -- [1]
 	},
-	["2325"] = {
+	["7079"] = {
 		"Vanilla", -- [1]
 	},
-	["5470"] = {
+	["20424"] = {
 		"Vanilla", -- [1]
-		"Cooking", -- [2]
 	},
-	["20865"] = {
+	["67229"] = {
 		"Vanilla", -- [1]
 	},
 	["6522"] = {
@@ -296,17 +309,17 @@ CIN_Save = {
 	["207002"] = {
 		"DF", -- [1]
 	},
-	["7079"] = {
+	["2325"] = {
 		"Vanilla", -- [1]
 	},
-	["67229"] = {
+	["20865"] = {
 		"Vanilla", -- [1]
 	},
-	["4603"] = {
+	["20872"] = {
 		"Vanilla", -- [1]
 	},
-	["5471"] = {
-		"Vanilla. Cooking", -- [1]
+	["4304"] = {
+		"Vanilla", -- [1]
 	},
 	["20864"] = {
 		"Vanilla", -- [1]
@@ -323,8 +336,8 @@ CIN_Save = {
 	["12207"] = {
 		"Vanilla", -- [1]
 	},
-	["4304"] = {
-		"Vanilla", -- [1]
+	["5471"] = {
+		"Vanilla. Cooking", -- [1]
 	},
 	["1288"] = {
 		"Vanilla", -- [1]
@@ -347,17 +360,18 @@ CIN_Save = {
 	["2596"] = {
 		"Vanilla", -- [1]
 	},
-	["8154"] = {
-		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
+	["7972"] = {
+		"Vanilla", -- [1]
 	},
 	["12811"] = {
 		"Vanilla", -- [1]
 	},
-	["7972"] = {
-		"Vanilla", -- [1]
+	["8154"] = {
+		"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread", -- [1]
 	},
-	["20863"] = {
-		"Vanilla", -- [1]
+	["33865"] = {
+		"TBC,CTM", -- [1]
+		"Zulaman", -- [2]
 	},
 	["204193"] = {
 		"DF. Upgrade NPC is at Zaralak Cavern or Loamm", -- [1]
@@ -365,15 +379,15 @@ CIN_Save = {
 	["8153"] = {
 		"Vanilla", -- [1]
 	},
-	["12810"] = {
+	["2592"] = {
 		"Vanilla", -- [1]
 	},
 	["199219"] = {
 		"DF", -- [1]
 		"Buy Chip @ Waking Shores /way #2022 26.4 55.4 Chip", -- [2]
 	},
-	["6358"] = {
-		"Vanilla", -- [1]
+	["71141"] = {
+		"Time cavern. Firelands quest item", -- [1]
 	},
 	["18945"] = {
 		"Vanilla", -- [1]
@@ -385,9 +399,8 @@ CIN_Save = {
 	["17011"] = {
 		"Vanilla", -- [1]
 	},
-	["33865"] = {
-		"TBC,CTM", -- [1]
-		"Zulaman", -- [2]
+	["20863"] = {
+		"Vanilla", -- [1]
 	},
 	["769"] = {
 		"Vanilla", -- [1]
@@ -407,8 +420,8 @@ CIN_Save = {
 	["18562"] = {
 		"Vanilla", -- [1]
 	},
-	["20870"] = {
-		"Vanilla", -- [1]
+	["128860"] = {
+		"LEG", -- [1]
 	},
 	["81055"] = {
 		"DMF WHEE! +10% rep & exp", -- [1]
@@ -494,8 +507,8 @@ CIN_Save = {
 	["4402"] = {
 		"Vanilla", -- [1]
 	},
-	["128860"] = {
-		"LEG", -- [1]
+	["20870"] = {
+		"Vanilla", -- [1]
 	},
 	["8165"] = {
 		"Vanilla", -- [1]
@@ -509,10 +522,10 @@ CIN_Save = {
 	["162571"] = {
 		"BFA quest", -- [1]
 	},
-	["71141"] = {
-		"Time cavern. Firelands quest item", -- [1]
+	["6358"] = {
+		"Vanilla", -- [1]
 	},
-	["2592"] = {
+	["12810"] = {
 		"Vanilla", -- [1]
 	},
 	["3173"] = {
@@ -536,11 +549,12 @@ CIN_Save = {
 	["6291"] = {
 		"Vanilla", -- [1]
 	},
-	["20872"] = {
+	["4603"] = {
 		"Vanilla", -- [1]
 	},
-	["20424"] = {
+	["5470"] = {
 		"Vanilla", -- [1]
+		"Cooking", -- [2]
 	},
 	["13759"] = {
 		"Vanilla", -- [1]
