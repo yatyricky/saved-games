@@ -14,7 +14,7 @@ VER 3 0000000000000004 "pathfinder" "134333"
 /way 36 29 Thunder_Bluff
 END
 VER 3 0000000000000002 "quest" "135977"
-/script print(C_QuestLog.IsQuestFlaggedCompleted(47189))
+/script print(C_QuestLog.IsQuestFlaggedCompleted(16411))
 END
 VER 3 0000000000000006 "reloadui" "132180"
 /console reloadui
@@ -23,6 +23,6 @@ VER 3 0000000000000005 "reset" "132096"
 /script ResetInstances();
 END
 VER 3 0000000000000001 "target" "132090"
-/target swoop
+/target earendel
 /cleartarget [dead]
 END
