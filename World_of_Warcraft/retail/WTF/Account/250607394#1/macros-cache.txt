@@ -5,13 +5,11 @@ VER 3 0000000000000003 "ms" "132226"
 /script print(string.format("Current speed: %d%%", GetUnitSpeed("player") / 7 * 100))
 END
 VER 3 0000000000000004 "pathfinder" "134333"
-/way 49 35 The_Golden_Plains
-/way 44 45 Thunderhorn_Water_Well
-/way 32 48 BaelDun_Digsite
-/way 60 21 Red_Rocks
-/way 52 11 Windfury_Ridge
-/way 42 14 Wildmane_Water_Well
-/way 36 29 Thunder_Bluff
+/way #2022 76.21, 35.41 Wingrest Embassy
+/way #2022 76.07, 54.75 Skytop Observatory
+/way #2022 58.03, 67.31 Ruby Lifeshrine
+/way #2022 65.22, 57.93 Life Vault Ruins
+/way #2022 81.35, 31.96 Wild Coast (alliance)
 END
 VER 3 0000000000000002 "quest" "135977"
 /script print(C_QuestLog.IsQuestFlaggedCompleted(16411))
