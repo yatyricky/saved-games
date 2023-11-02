@@ -3,6 +3,7 @@ IncognitoDB = {
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Default",
 		["Zephyrbreeze - Azshara"] = "Default",
+		["Wnsmoldering - Azshara"] = "Default",
 		["Linqpad - Azshara"] = "Default",
 		["Gamwillsaveu - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",

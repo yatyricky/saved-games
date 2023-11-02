@@ -21,6 +21,7 @@ RunGame({
         patterns: ["^(Interface\\/AddOns|WTF\\/Account).*(?<!\\.bak)(?<!SavedVariables\\/TradeSkillMaster\\.lua)(?<!TradeSkillMaster_AppHelper\\/AppData\\.lua)$"]
     },
     stage: stage,
+    game: "wow",
 }).catch(reason => {
     console.log(reason)
 })

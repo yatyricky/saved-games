@@ -1,9 +1,16 @@
 const os = require("os")
 const path = require("path")
 const funcs = require("./funcs")
+const fs = require("fs")
 
 async function RunGame(options) {
-    const homeDir = os.homedir()
+    let homeDir
+    if (options.game !== undefined) {
+        homeDir = JSON.parse(fs.readFileSync("local-config.json"))[options.game].home
+    } else {
+        homeDir = os.homedir()
+    }
+
     const installationDir = path.join(homeDir, options.installationDir)
     const cloudSaveDir = path.resolve(options.cloudSaveDir)
     const localSaveDir = path.join(homeDir, options.localSaveDir)

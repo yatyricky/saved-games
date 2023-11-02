@@ -3,6 +3,7 @@ TomTomDB = {
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Default",
 		["Zephyrbreeze - Azshara"] = "Default",
+		["Wnsmoldering - Azshara"] = "Default",
 		["Linqpad - Azshara"] = "Default",
 		["Bblilmao - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",
@@ -39,6 +40,7 @@ TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
 		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
+		["Wnsmoldering - Azshara"] = "Wnsmoldering - Azshara",
 		["Linqpad - Azshara"] = "Linqpad - Azshara",
 		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
@@ -51,6 +53,8 @@ TomTomWaypointsM = {
 		["Ziadwan - Azshara"] = {
 		},
 		["Zephyrbreeze - Azshara"] = {
+		},
+		["Wnsmoldering - Azshara"] = {
 		},
 		["Linqpad - Azshara"] = {
 		},

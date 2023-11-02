@@ -7,7 +7,7 @@ AchievementTrackerOptions = {
 	["enableAddon"] = true,
 	["InfoFramex"] = -425.8345947265625,
 	["onlyTrackMissingAchievements"] = true,
-	["minimapPos"] = 173.5237884193487,
+	["minimapPos"] = 175.1911547254768,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
 	["announceTrackedAchievements"] = false,
@@ -19802,6 +19802,42 @@ AchievementTrackerDebug = {
 	"2/11/2023 8:59 [DEBUG] InfoFrame does not need to be reset", -- [19778]
 	"2/11/2023 8:59 [DEBUG] Resetting PlayerRank", -- [19779]
 	"2/11/2023 8:59 [DEBUG] InfoFrame was not active", -- [19780]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [19781]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [19782]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [19783]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [19784]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [19785]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [19786]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [19787]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19788]
+	"2/11/2023 10:0 [DEBUG] Showing Minimap Icon", -- [19789]
+	"2/11/2023 10:0 [DEBUG] ---IAT Runtime---", -- [19790]
+	"2/11/2023 10:0 [DEBUG] Version: 4.25.0", -- [19791]
+	"2/11/2023 10:0 [DEBUG] Attempting to load from local NPC Cache", -- [19792]
+	"2/11/2023 10:0 [DEBUG] Generating NPC Cache...", -- [19793]
+	"2/11/2023 10:0 [DEBUG] Only Tracking Missing Achievements Enabled", -- [19794]
+	"2/11/2023 10:0 [DEBUG] true", -- [19795]
+	"2/11/2023 10:0 [DEBUG] Enabling Addon", -- [19796]
+	"2/11/2023 10:0 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19797]
+	"2/11/2023 10:1 [DEBUG] Showing Minimap Icon", -- [19798]
+	"2/11/2023 10:3 [DEBUG] ---IAT Runtime---", -- [19799]
+	"2/11/2023 10:3 [DEBUG] Version: 4.25.0", -- [19800]
+	"2/11/2023 10:3 [DEBUG] Attempting to load from local NPC Cache", -- [19801]
+	"2/11/2023 10:3 [DEBUG] Generating NPC Cache...", -- [19802]
+	"2/11/2023 10:3 [DEBUG] Only Tracking Missing Achievements Enabled", -- [19803]
+	"2/11/2023 10:3 [DEBUG] true", -- [19804]
+	"2/11/2023 10:3 [DEBUG] Enabling Addon", -- [19805]
+	"2/11/2023 10:3 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19806]
+	"2/11/2023 10:3 [DEBUG] Showing Minimap Icon", -- [19807]
+	"2/11/2023 10:3 [DEBUG] ---IAT Runtime---", -- [19808]
+	"2/11/2023 10:3 [DEBUG] Version: 4.25.0", -- [19809]
+	"2/11/2023 10:3 [DEBUG] Attempting to load from local NPC Cache", -- [19810]
+	"2/11/2023 10:3 [DEBUG] Generating NPC Cache...", -- [19811]
+	"2/11/2023 10:3 [DEBUG] Only Tracking Missing Achievements Enabled", -- [19812]
+	"2/11/2023 10:3 [DEBUG] true", -- [19813]
+	"2/11/2023 10:3 [DEBUG] Enabling Addon", -- [19814]
+	"2/11/2023 10:3 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19815]
+	"2/11/2023 10:4 [DEBUG] Showing Minimap Icon", -- [19816]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -20205,10 +20241,10 @@ AchievementTrackerNPCCache = {
 	[169594] = "Filled Anima Container",
 	[114895] = "Nightbane",
 	[32919] = "Storm Lasher",
-	[185128] = "Memorial Pylon",
 	[153415] = "Sha of Violence",
-	[178095] = "Eye of the Jailer",
 	[108996] = "Specter of Vengeance",
+	[178095] = "Eye of the Jailer",
+	[185128] = "Memorial Pylon",
 	[135129] = "Projection of Yogg-Saron",
 	[70250] = "Frozen Head",
 	[62465] = "Captain Ook",
@@ -20241,11 +20277,11 @@ AchievementTrackerNPCCache = {
 	[99663] = "Frustrated Soul",
 	[87451] = "Fleshrender Nok'gar",
 	[102423] = "Mug of Mead",
-	[139737] = "Lord Stormsong",
+	[94996] = "Fragment of the Crone",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
 	[44530] = "Naz'jar Honor Guard",
-	[72490] = "Overseer Mojka",
+	[139737] = "Lord Stormsong",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
 	[162102] = "Grand Proctor Beryllia",
@@ -20314,10 +20350,10 @@ AchievementTrackerNPCCache = {
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[170851] = "Volatile Plague Bomb",
-	[141792] = "Liz Vilepot",
-	[115844] = "Goroth",
-	[71983] = "Farseer Wolf Rider",
 	[78121] = "Gorian Warmage",
+	[115844] = "Goroth",
+	[36535] = "Corrupted Soul Fragment",
+	[105742] = "Turbax",
 	[71603] = "Sha Puddle",
 	[32273] = "Infinite Corruptor",
 	[181546] = "Prototype of Renewal",
@@ -20376,8 +20412,8 @@ AchievementTrackerNPCCache = {
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
 	[173768] = "Fiery Brazier",
-	[105742] = "Turbax",
-	[36535] = "Corrupted Soul Fragment",
+	[71983] = "Farseer Wolf Rider",
+	[141792] = "Liz Vilepot",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
 	[172094] = "Dissectible Dessert",
@@ -20408,7 +20444,7 @@ AchievementTrackerNPCCache = {
 	[78948] = "Tectus",
 	[166644] = "Artificer Xy'mox",
 	[104341] = "Torment",
-	[94996] = "Fragment of the Crone",
+	[72490] = "Overseer Mojka",
 	[147430] = "Virmen",
 	[202800] = "Specimen Tank",
 	[131318] = "Elder Leaxa",

@@ -21,6 +21,7 @@ SellJunkDB = {
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
 		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
+		["Wnsmoldering - Azshara"] = "Wnsmoldering - Azshara",
 		["Linqpad - Azshara"] = "Linqpad - Azshara",
 		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
