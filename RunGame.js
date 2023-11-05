@@ -5,7 +5,7 @@ const fs = require("fs")
 
 async function RunGame(options) {
     let homeDir
-    if (options.game !== undefined) {
+    if (options.game !== undefined && fs.existsSync("local-config.json")) {
         homeDir = JSON.parse(fs.readFileSync("local-config.json"))[options.game].home
     } else {
         homeDir = os.homedir()
