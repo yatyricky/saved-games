@@ -4,10 +4,7 @@ GatherMate2DB = {
 		["data_version"] = 6,
 	},
 	["profileKeys"] = {
-		["Ziadwan - Azshara"] = "Default",
-		["Gamwillsaveu - Azshara"] = "Default",
-		["Lizman - Azshara"] = "Default",
-		["Linqpad - Azshara"] = "Default",
+		["Wysjj - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

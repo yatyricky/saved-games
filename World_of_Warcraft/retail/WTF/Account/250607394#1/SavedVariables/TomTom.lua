@@ -7,10 +7,10 @@ TomTomDB = {
 		["Linqpad - Azshara"] = "Default",
 		["Bblilmao - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",
-		["Gamwillsaveu - Azshara"] = "Default",
+		["Dahoontar - Azshara"] = "Default",
 		["Vladojin - Azshara"] = "Default",
 		["Lynndaw - Azshara"] = "Default",
-		["Dahoontar - Azshara"] = "Default",
+		["Gamwillsaveu - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -44,13 +44,120 @@ TomTomWaypointsM = {
 		["Linqpad - Azshara"] = "Linqpad - Azshara",
 		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
-		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 		["Vladojin - Azshara"] = "Vladojin - Azshara",
 		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
+			[2022] = {
+				["2022:652200000:579300000:Life Vault Ruins"] = {
+					2022, -- [1]
+					0.6522, -- [2]
+					0.5793, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Life Vault Ruins",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["world"] = true,
+				},
+				["2022:813500000:319600000:Wild Coast (alliance)"] = {
+					2022, -- [1]
+					0.8134999999999999, -- [2]
+					0.3196, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Wild Coast (alliance)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["world"] = true,
+				},
+				["2022:580300000:673100000:Ruby Lifeshrine"] = {
+					2022, -- [1]
+					0.5803, -- [2]
+					0.6731, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Ruby Lifeshrine",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["world"] = true,
+				},
+				["2022:762100000:354100000:Wingrest Embassy"] = {
+					2022, -- [1]
+					0.7620999999999999, -- [2]
+					0.3541, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Wingrest Embassy",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["world"] = true,
+				},
+				["2022:760700000:547500000:Skytop Observatory"] = {
+					2022, -- [1]
+					0.7606999999999999, -- [2]
+					0.5475, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Skytop Observatory",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 		["Zephyrbreeze - Azshara"] = {
 		},
@@ -62,13 +169,13 @@ TomTomWaypointsM = {
 		},
 		["Lizman - Azshara"] = {
 		},
-		["Gamwillsaveu - Azshara"] = {
+		["Dahoontar - Azshara"] = {
 		},
 		["Vladojin - Azshara"] = {
 		},
 		["Lynndaw - Azshara"] = {
 		},
-		["Dahoontar - Azshara"] = {
+		["Gamwillsaveu - Azshara"] = {
 		},
 	},
 }
