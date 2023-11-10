@@ -59,7 +59,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Life Vault Ruins",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Life Vault Ruins",
 					["from"] = "TomTom/way",
@@ -71,6 +72,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["2022:813500000:319600000:Wild Coast (alliance)"] = {
@@ -80,7 +82,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Wild Coast (alliance)",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Wild Coast (alliance)",
 					["from"] = "TomTom/way",
@@ -92,6 +95,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["2022:762100000:354100000:Wingrest Embassy"] = {
@@ -101,7 +105,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Wingrest Embassy",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Wingrest Embassy",
 					["from"] = "TomTom/way",
@@ -113,6 +118,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["2022:580300000:673100000:Ruby Lifeshrine"] = {
@@ -122,7 +128,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Ruby Lifeshrine",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Ruby Lifeshrine",
 					["from"] = "TomTom/way",
@@ -134,6 +141,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["2022:760700000:547500000:Skytop Observatory"] = {
@@ -143,7 +151,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Skytop Observatory",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Skytop Observatory",
 					["from"] = "TomTom/way",
@@ -155,6 +164,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
