@@ -7,10 +7,10 @@ TomTomDB = {
 		["Linqpad - Azshara"] = "Default",
 		["Bblilmao - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",
-		["Dahoontar - Azshara"] = "Default",
+		["Gamwillsaveu - Azshara"] = "Default",
 		["Vladojin - Azshara"] = "Default",
 		["Lynndaw - Azshara"] = "Default",
-		["Gamwillsaveu - Azshara"] = "Default",
+		["Dahoontar - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -44,10 +44,10 @@ TomTomWaypointsM = {
 		["Linqpad - Azshara"] = "Linqpad - Azshara",
 		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
-		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 		["Vladojin - Azshara"] = "Vladojin - Azshara",
 		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
@@ -67,9 +67,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -90,32 +90,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["2022:580300000:673100000:Ruby Lifeshrine"] = {
-					2022, -- [1]
-					0.5803, -- [2]
-					0.6731, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ruby Lifeshrine",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ruby Lifeshrine",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
 						["minimap"] = {
-						},
-						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -136,9 +113,32 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
+						["world"] = {
+						},
 						["minimap"] = {
 						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["2022:580300000:673100000:Ruby Lifeshrine"] = {
+					2022, -- [1]
+					0.5803, -- [2]
+					0.6731, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Ruby Lifeshrine",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Ruby Lifeshrine",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -159,9 +159,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -179,13 +179,13 @@ TomTomWaypointsM = {
 		},
 		["Lizman - Azshara"] = {
 		},
-		["Dahoontar - Azshara"] = {
+		["Gamwillsaveu - Azshara"] = {
 		},
 		["Vladojin - Azshara"] = {
 		},
 		["Lynndaw - Azshara"] = {
 		},
-		["Gamwillsaveu - Azshara"] = {
+		["Dahoontar - Azshara"] = {
 		},
 	},
 }
