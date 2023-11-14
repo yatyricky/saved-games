@@ -1,7 +1,7 @@
 
 SellJunkDB = {
 	["char"] = {
-		["Linqpad - Azshara"] = {
+		["Ziadwan - Azshara"] = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
 		},
@@ -13,7 +13,15 @@ SellJunkDB = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
 		},
-		["Ziadwan - Azshara"] = {
+		["Zephyrbreeze - Azshara"] = {
+			["auto"] = true,
+			["ignoreSoulbound"] = true,
+		},
+		["Wnsmoldering - Azshara"] = {
+			["auto"] = true,
+			["ignoreSoulbound"] = true,
+		},
+		["Linqpad - Azshara"] = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
 		},

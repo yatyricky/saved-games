@@ -8,6 +8,7 @@ GatherMate2DB = {
 		["Gamwillsaveu - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",
 		["Zephyrbreeze - Azshara"] = "Default",
+		["Wnsmoldering - Azshara"] = "Default",
 		["Ziadwan - Azshara"] = "Default",
 	},
 	["profiles"] = {
