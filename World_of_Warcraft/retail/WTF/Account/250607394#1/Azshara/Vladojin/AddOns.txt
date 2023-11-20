@@ -1,3 +1,12 @@
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 TomTom: enabled
+Arh: enabled
+Custom_Item_Notes: enabled
+GatherMate2: enabled
+Incognito: enabled
+InstanceAchievementTracker: enabled
+RareScanner: enabled
+SellJunk: enabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
