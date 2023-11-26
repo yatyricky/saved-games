@@ -7,9 +7,10 @@ SellJunkDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Nethercents - Azshara"] = "Nethercents - Azshara",
 		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
-		["Nethercents - Azshara"] = "Nethercents - Azshara",
+		["Pilgrimud - Azshara"] = "Pilgrimud - Azshara",
 		["Wysjj - Azshara"] = "Wysjj - Azshara",
 	},
 }
