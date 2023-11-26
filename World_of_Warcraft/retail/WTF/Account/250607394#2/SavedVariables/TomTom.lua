@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Nethercents - Azshara"] = "Default",
+		["Berogue - Azshara"] = "Default",
 		["Igottwohorns - Thunderlord"] = "Default",
 		["Jarednine - Azshara"] = "Default",
 		["Pilgrimud - Azshara"] = "Default",
@@ -34,6 +35,7 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Nethercents - Azshara"] = "Nethercents - Azshara",
+		["Berogue - Azshara"] = "Berogue - Azshara",
 		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
 		["Pilgrimud - Azshara"] = "Pilgrimud - Azshara",
@@ -41,6 +43,8 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["Nethercents - Azshara"] = {
+		},
+		["Berogue - Azshara"] = {
 		},
 		["Igottwohorns - Thunderlord"] = {
 		},
