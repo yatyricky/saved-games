@@ -25689,6 +25689,42 @@ AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [25665]
 	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [25666]
 	"26/11/2023 6:18 [DEBUG] Showing Minimap Icon", -- [25667]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [25668]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.29.0", -- [25669]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [25670]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [25671]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [25672]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [25673]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [25674]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [25675]
+	"27/11/2023 8:25 [DEBUG] Showing Minimap Icon", -- [25676]
+	"27/11/2023 9:36 [DEBUG] ---IAT Runtime---", -- [25677]
+	"27/11/2023 9:36 [DEBUG] Version: 4.29.0", -- [25678]
+	"27/11/2023 9:36 [DEBUG] Attempting to load from local NPC Cache", -- [25679]
+	"27/11/2023 9:36 [DEBUG] Generating NPC Cache...", -- [25680]
+	"27/11/2023 9:36 [DEBUG] Only Tracking Missing Achievements Enabled", -- [25681]
+	"27/11/2023 9:36 [DEBUG] true", -- [25682]
+	"27/11/2023 9:36 [DEBUG] Enabling Addon", -- [25683]
+	"27/11/2023 9:36 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [25684]
+	"27/11/2023 9:37 [DEBUG] Showing Minimap Icon", -- [25685]
+	"27/11/2023 9:49 [DEBUG] ---IAT Runtime---", -- [25686]
+	"27/11/2023 9:49 [DEBUG] Version: 4.29.0", -- [25687]
+	"27/11/2023 9:49 [DEBUG] Attempting to load from local NPC Cache", -- [25688]
+	"27/11/2023 9:49 [DEBUG] Generating NPC Cache...", -- [25689]
+	"27/11/2023 9:49 [DEBUG] Only Tracking Missing Achievements Enabled", -- [25690]
+	"27/11/2023 9:49 [DEBUG] true", -- [25691]
+	"27/11/2023 9:49 [DEBUG] Enabling Addon", -- [25692]
+	"27/11/2023 9:49 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [25693]
+	"27/11/2023 9:49 [DEBUG] Showing Minimap Icon", -- [25694]
+	"27/11/2023 9:49 [DEBUG] ---IAT Runtime---", -- [25695]
+	"27/11/2023 9:49 [DEBUG] Version: 4.29.0", -- [25696]
+	"27/11/2023 9:49 [DEBUG] Attempting to load from local NPC Cache", -- [25697]
+	"27/11/2023 9:49 [DEBUG] Generating NPC Cache...", -- [25698]
+	"27/11/2023 9:49 [DEBUG] Only Tracking Missing Achievements Enabled", -- [25699]
+	"27/11/2023 9:49 [DEBUG] true", -- [25700]
+	"27/11/2023 9:49 [DEBUG] Enabling Addon", -- [25701]
+	"27/11/2023 9:49 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [25702]
+	"27/11/2023 9:50 [DEBUG] Showing Minimap Icon", -- [25703]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -26138,8 +26174,8 @@ AchievementTrackerNPCCache = {
 	[123531] = "Manifestation of Taeshalach",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
+	[139737] = "Lord Stormsong",
 	[94996] = "Fragment of the Crone",
-	[72490] = "Overseer Mojka",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
 	[166644] = "Artificer Xy'mox",
@@ -26155,16 +26191,16 @@ AchievementTrackerNPCCache = {
 	[52440] = "Gub",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
-	[81834] = "Priceless Paraphernalia",
 	[173770] = "Blazing Brazier",
+	[90018] = "Hellfire Cannon",
 	[135903] = "Manifestation of the Deep",
 	[164450] = "Dealer Xy'exa",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[50376] = "Angered Earth",
-	[52422] = "Kaulema the Mover",
-	[111941] = "Hodir",
 	[205340] = "Expired Experiment",
+	[111941] = "Hodir",
+	[52422] = "Kaulema the Mover",
+	[50376] = "Angered Earth",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
@@ -26211,7 +26247,7 @@ AchievementTrackerNPCCache = {
 	[141792] = "Liz Vilepot",
 	[115844] = "Goroth",
 	[78121] = "Gorian Warmage",
-	[71983] = "Farseer Wolf Rider",
+	[105742] = "Turbax",
 	[165408] = "Halkias",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
@@ -26242,13 +26278,13 @@ AchievementTrackerNPCCache = {
 	[205989] = "Forgotten Specimen Tank",
 	[64061] = "Mogu'shan Warden",
 	[119938] = "Reanimated Templar",
+	[105744] = "Blaze",
 	[111882] = "Sparky",
-	[28514] = "Nalorakk",
 	[146016] = "Leeroy Jenkins",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
 	[52936] = "Druid of the Flame",
-	[105744] = "Blaze",
+	[28514] = "Nalorakk",
 	[179392] = "Kin'tessa",
 	[99031] = "Artifact",
 	[86928] = "Empowered Construct",
@@ -26264,8 +26300,8 @@ AchievementTrackerNPCCache = {
 	[38135] = "Deformed Fanatic",
 	[104528] = "High Botanist Tel'arn",
 	[73265] = "Corrupted Amalgamation",
-	[105742] = "Turbax",
 	[36535] = "Corrupted Soul Fragment",
+	[71983] = "Farseer Wolf Rider",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
@@ -26285,7 +26321,7 @@ AchievementTrackerNPCCache = {
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[90018] = "Hellfire Cannon",
+	[81834] = "Priceless Paraphernalia",
 	[68599] = "Ferra Pearl",
 	[175474] = "Belligerent Waiter",
 	[55312] = "Yor'sahj the Unsleeping",
@@ -26294,7 +26330,7 @@ AchievementTrackerNPCCache = {
 	[180658] = "Focusing Prism",
 	[67779] = "Mature Saurok Egg",
 	[55308] = "Warlord Zon'ozz",
-	[139737] = "Lord Stormsong",
+	[72490] = "Overseer Mojka",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
 	[33768] = "Rubble",
