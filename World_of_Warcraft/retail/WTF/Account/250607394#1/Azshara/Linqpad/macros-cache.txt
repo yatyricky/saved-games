@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "pick" "134400"
+#showtooltip
+/cast [@mouseover,exists,nodead,harm]Pick Pocket; Pick Pocket
+END

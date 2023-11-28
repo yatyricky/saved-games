@@ -10,16 +10,16 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 175.1911547254768,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
-	["InfoFramescale"] = 1,
 	["hideCompletedAchievements"] = true,
+	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "BOTTOMRIGHT",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 145.0003662109375,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["InfoFramescale"] = 1,
 }
 AchievementTrackerDebug = {
 	"20/9/2023 23:38 [DEBUG] ---IAT Runtime---", -- [1]
@@ -25753,6 +25753,84 @@ AchievementTrackerDebug = {
 	"28/11/2023 0:8 [DEBUG] Offical Instance Name: 229 _229", -- [25729]
 	"28/11/2023 0:8 [DEBUG] DifficultyID: 1", -- [25730]
 	"28/11/2023 0:8 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25731]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [25732]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.29.0", -- [25733]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [25734]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [25735]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [25736]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [25737]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [25738]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [25739]
+	"28/11/2023 5:40 [DEBUG] Showing Minimap Icon", -- [25740]
+	"28/11/2023 5:40 [DEBUG] ---IAT Runtime---", -- [25741]
+	"28/11/2023 5:40 [DEBUG] Version: 4.29.0", -- [25742]
+	"28/11/2023 5:40 [DEBUG] Attempting to load from local NPC Cache", -- [25743]
+	"28/11/2023 5:40 [DEBUG] Generating NPC Cache...", -- [25744]
+	"28/11/2023 5:40 [DEBUG] Only Tracking Missing Achievements Enabled", -- [25745]
+	"28/11/2023 5:40 [DEBUG] true", -- [25746]
+	"28/11/2023 5:40 [DEBUG] Enabling Addon", -- [25747]
+	"28/11/2023 5:40 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [25748]
+	"28/11/2023 5:41 [DEBUG] Showing Minimap Icon", -- [25749]
+	"28/11/2023 6:0 [DEBUG] Player has entered instance", -- [25750]
+	"28/11/2023 6:0 [DEBUG] 229", -- [25751]
+	"28/11/2023 6:0 [DEBUG] Offical Instance Name: 229 _229", -- [25752]
+	"28/11/2023 6:0 [DEBUG] DifficultyID: 1", -- [25753]
+	"28/11/2023 6:0 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25754]
+	"28/11/2023 6:0 [DEBUG] Player has entered instance", -- [25755]
+	"28/11/2023 6:0 [DEBUG] 229", -- [25756]
+	"28/11/2023 6:0 [DEBUG] Offical Instance Name: 229 _229", -- [25757]
+	"28/11/2023 6:0 [DEBUG] DifficultyID: 1", -- [25758]
+	"28/11/2023 6:0 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25759]
+	"28/11/2023 6:11 [DEBUG] Player has entered instance", -- [25760]
+	"28/11/2023 6:11 [DEBUG] 229", -- [25761]
+	"28/11/2023 6:11 [DEBUG] Offical Instance Name: 229 _229", -- [25762]
+	"28/11/2023 6:11 [DEBUG] DifficultyID: 1", -- [25763]
+	"28/11/2023 6:11 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25764]
+	"28/11/2023 6:11 [DEBUG] Player has entered instance", -- [25765]
+	"28/11/2023 6:11 [DEBUG] 229", -- [25766]
+	"28/11/2023 6:11 [DEBUG] Offical Instance Name: 229 _229", -- [25767]
+	"28/11/2023 6:11 [DEBUG] DifficultyID: 1", -- [25768]
+	"28/11/2023 6:11 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25769]
+	"28/11/2023 6:35 [DEBUG] Player has entered instance", -- [25770]
+	"28/11/2023 6:35 [DEBUG] 229", -- [25771]
+	"28/11/2023 6:35 [DEBUG] Offical Instance Name: 229 _229", -- [25772]
+	"28/11/2023 6:35 [DEBUG] DifficultyID: 1", -- [25773]
+	"28/11/2023 6:35 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25774]
+	"28/11/2023 6:35 [DEBUG] Player has entered instance", -- [25775]
+	"28/11/2023 6:35 [DEBUG] 229", -- [25776]
+	"28/11/2023 6:35 [DEBUG] Offical Instance Name: 229 _229", -- [25777]
+	"28/11/2023 6:35 [DEBUG] DifficultyID: 1", -- [25778]
+	"28/11/2023 6:35 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25779]
+	"28/11/2023 6:46 [DEBUG] Player has entered instance", -- [25780]
+	"28/11/2023 6:46 [DEBUG] 229", -- [25781]
+	"28/11/2023 6:46 [DEBUG] Offical Instance Name: 229 _229", -- [25782]
+	"28/11/2023 6:46 [DEBUG] DifficultyID: 1", -- [25783]
+	"28/11/2023 6:46 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25784]
+	"28/11/2023 6:46 [DEBUG] Player has entered instance", -- [25785]
+	"28/11/2023 6:46 [DEBUG] 229", -- [25786]
+	"28/11/2023 6:46 [DEBUG] Offical Instance Name: 229 _229", -- [25787]
+	"28/11/2023 6:46 [DEBUG] DifficultyID: 1", -- [25788]
+	"28/11/2023 6:46 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25789]
+	"28/11/2023 7:13 [DEBUG] Player has entered instance", -- [25790]
+	"28/11/2023 7:13 [DEBUG] 585", -- [25791]
+	"28/11/2023 7:13 [DEBUG] Offical Instance Name: 585 _585", -- [25792]
+	"28/11/2023 7:13 [DEBUG] DifficultyID: 2", -- [25793]
+	"28/11/2023 7:13 [DEBUG] Achievements cannot be earned for the following difficulty 2", -- [25794]
+	"28/11/2023 7:13 [DEBUG] Player has entered instance", -- [25795]
+	"28/11/2023 7:13 [DEBUG] 585", -- [25796]
+	"28/11/2023 7:13 [DEBUG] Offical Instance Name: 585 _585", -- [25797]
+	"28/11/2023 7:13 [DEBUG] DifficultyID: 2", -- [25798]
+	"28/11/2023 7:13 [DEBUG] Achievements cannot be earned for the following difficulty 2", -- [25799]
+	"28/11/2023 8:32 [DEBUG] Player has entered instance", -- [25800]
+	"28/11/2023 8:32 [DEBUG] 229", -- [25801]
+	"28/11/2023 8:32 [DEBUG] Offical Instance Name: 229 _229", -- [25802]
+	"28/11/2023 8:32 [DEBUG] DifficultyID: 1", -- [25803]
+	"28/11/2023 8:32 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25804]
+	"28/11/2023 8:32 [DEBUG] Player has entered instance", -- [25805]
+	"28/11/2023 8:32 [DEBUG] 229", -- [25806]
+	"28/11/2023 8:32 [DEBUG] Offical Instance Name: 229 _229", -- [25807]
+	"28/11/2023 8:32 [DEBUG] DifficultyID: 1", -- [25808]
+	"28/11/2023 8:32 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [25809]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -26099,12 +26177,12 @@ AchievementTrackerNPCCache = {
 	[102950] = "Reaves",
 	[82074] = "Pristine True Iron Ore",
 	[156987] = "General Kaal",
-	[78430] = "Cordana Felsong",
+	[214020] = "Manifested Monarch",
 	[52418] = "Lost Offspring of Gahz'ranka",
 	[164532] = "Hakkar the Soulflayer",
 	[197396] = "Strange Chicken",
 	[152512] = "Stormwraith",
-	[214020] = "Manifested Monarch",
+	[78430] = "Cordana Felsong",
 	[143045] = "Coastal Scuttler",
 	[175616] = "Zo'phex",
 	[184915] = "Halondrus",
@@ -26163,8 +26241,8 @@ AchievementTrackerNPCCache = {
 	[169554] = "Disused Anima Container",
 	[91938] = "Haunting Soul",
 	[91349] = "Mannoroth",
-	[185128] = "Memorial Pylon",
 	[108996] = "Specter of Vengeance",
+	[185128] = "Memorial Pylon",
 	[178095] = "Eye of the Jailer",
 	[153415] = "Sha of Violence",
 	[135129] = "Projection of Yogg-Saron",
@@ -26180,8 +26258,8 @@ AchievementTrackerNPCCache = {
 	[32919] = "Storm Lasher",
 	[115902] = "Razorjaw Waverunner",
 	[34035] = "Feral Defender",
-	[138967] = "Zul",
 	[39665] = "Rom'ogg Bonecrusher",
+	[138967] = "Zul",
 	[185130] = "Memorial Pylon",
 	[43468] = "Lady Naz'jar",
 	[70251] = "Venomous Head",
@@ -26202,48 +26280,48 @@ AchievementTrackerNPCCache = {
 	[123531] = "Manifestation of Taeshalach",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
-	[94996] = "Fragment of the Crone",
 	[72490] = "Overseer Mojka",
+	[139737] = "Lord Stormsong",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
 	[166644] = "Artificer Xy'mox",
-	[56897] = "Raigonn",
 	[78948] = "Tectus",
+	[56897] = "Raigonn",
 	[33202] = "Ancient Water Spirit",
 	[34826] = "Mistress of Pain",
-	[180658] = "Focusing Prism",
-	[99664] = "Restless Soul",
+	[71979] = "Kor'kron Warbringer",
+	[49864] = "Twilight Fiend",
 	[53494] = "Baleroc",
-	[155595] = "Sacred Gear",
 	[61213] = "Krik'thik Conscript",
+	[155595] = "Sacred Gear",
 	[52440] = "Gub",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
+	[90018] = "Hellfire Cannon",
 	[81834] = "Priceless Paraphernalia",
-	[173770] = "Blazing Brazier",
 	[135903] = "Manifestation of the Deep",
 	[164450] = "Dealer Xy'exa",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[52422] = "Kaulema the Mover",
-	[205340] = "Expired Experiment",
 	[50376] = "Angered Earth",
+	[52422] = "Kaulema the Mover",
 	[111941] = "Hodir",
+	[205340] = "Expired Experiment",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
-	[33113] = "Flame Leviathan",
-	[205341] = "Stack of Scrolls",
+	[172093] = "Hearty Haunch",
+	[33241] = "Freya",
 	[68336] = "Garrosh Hellscream",
 	[138718] = "Sharkbait's Empty Dish",
-	[33241] = "Freya",
+	[205341] = "Stack of Scrolls",
 	[154741] = "Squirt Bot",
 	[67569] = "Elder Adler",
-	[150995] = "Mimiron",
+	[138719] = "Serve Sharkbait's Meal",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
 	[197298] = "Nascent Proto-Dragon",
-	[138719] = "Serve Sharkbait's Meal",
+	[150995] = "Mimiron",
 	[103758] = "Star Augur Etraeus",
 	[172386] = "Anima Conduit",
 	[164363] = "Undying Stonefiend",
@@ -26251,7 +26329,7 @@ AchievementTrackerNPCCache = {
 	[164934] = "Manastorm",
 	[93145] = "Soul of the Crone",
 	[74475] = "Magmolatus",
-	[76585] = "Ragewing the Untamed",
+	[126712] = "Training Dummy",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
 	[23574] = "Akil'zon",
@@ -26272,10 +26350,10 @@ AchievementTrackerNPCCache = {
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[86918] = "Uncharged Construct",
-	[78121] = "Gorian Warmage",
-	[115844] = "Goroth",
 	[141792] = "Liz Vilepot",
-	[71983] = "Farseer Wolf Rider",
+	[115844] = "Goroth",
+	[78121] = "Gorian Warmage",
+	[36535] = "Corrupted Soul Fragment",
 	[165408] = "Halkias",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
@@ -26284,35 +26362,35 @@ AchievementTrackerNPCCache = {
 	[80551] = "Shard of Tectus",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
-	[174018] = "Volatile Plague Bomb",
+	[172995] = "Hydra Seed",
 	[36855] = "Lady Deathwhisper",
 	[129208] = "Dread Captain Lockwood",
-	[172995] = "Hydra Seed",
-	[104528] = "High Botanist Tel'arn",
+	[174018] = "Volatile Plague Bomb",
+	[100436] = "Illysanna Ravencrest",
 	[71984] = "Siege Engineer",
 	[61567] = "Vizier Jin'bak",
-	[105743] = "Whipsnap",
+	[52392] = "Gurubashi Master Chef",
 	[33343] = "XS-013 Scrapbot",
 	[32273] = "Infinite Corruptor",
 	[86250] = "Kyrak",
 	[165066] = "Huntsman Altimor",
 	[95833] = "Hyrja",
 	[156884] = "Essence of Vita",
-	[69427] = "Dark Animus",
 	[72496] = "Overseer Thathung",
+	[69427] = "Dark Animus",
 	[27654] = "Drakos the Interrogator",
 	[164557] = "Shard of Halkias",
 	[56165] = "Crystal Conductor",
-	[119938] = "Reanimated Templar",
-	[64061] = "Mogu'shan Warden",
 	[205989] = "Forgotten Specimen Tank",
-	[111882] = "Sparky",
+	[64061] = "Mogu'shan Warden",
+	[119938] = "Reanimated Templar",
 	[28514] = "Nalorakk",
-	[52936] = "Druid of the Flame",
+	[105744] = "Blaze",
+	[146016] = "Leeroy Jenkins",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
-	[146016] = "Leeroy Jenkins",
-	[105744] = "Blaze",
+	[52936] = "Druid of the Flame",
+	[111882] = "Sparky",
 	[179392] = "Kin'tessa",
 	[99031] = "Artifact",
 	[86928] = "Empowered Construct",
@@ -26322,14 +26400,14 @@ AchievementTrackerNPCCache = {
 	[55334] = "Void of the Unmaking",
 	[59458] = "Hopling",
 	[110732] = "Creature of Madness",
-	[52392] = "Gurubashi Master Chef",
+	[105743] = "Whipsnap",
 	[154074] = "Void Orb",
 	[142949] = "Theramore Citizen",
 	[38135] = "Deformed Fanatic",
-	[100436] = "Illysanna Ravencrest",
+	[104528] = "High Botanist Tel'arn",
 	[73265] = "Corrupted Amalgamation",
+	[71983] = "Farseer Wolf Rider",
 	[105742] = "Turbax",
-	[36535] = "Corrupted Soul Fragment",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
@@ -26338,27 +26416,27 @@ AchievementTrackerNPCCache = {
 	[164218] = "Lord Chamberlain",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
-	[126712] = "Training Dummy",
+	[76585] = "Ragewing the Untamed",
 	[141800] = "Brutik Blackanvil",
 	[69086] = "Flaming Head",
 	[173769] = "Smoldering Brazier",
 	[55419] = "Captain Varo'then",
 	[165737] = "Sinstone Statue",
 	[33136] = "Guardian of Yogg-Saron",
-	[172093] = "Hearty Haunch",
+	[33113] = "Flame Leviathan",
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[90018] = "Hellfire Cannon",
+	[173770] = "Blazing Brazier",
 	[68599] = "Ferra Pearl",
 	[175474] = "Belligerent Waiter",
 	[55312] = "Yor'sahj the Unsleeping",
 	[50284] = "Twilight Zealot",
-	[49864] = "Twilight Fiend",
-	[71979] = "Kor'kron Warbringer",
+	[99664] = "Restless Soul",
+	[180658] = "Focusing Prism",
 	[67779] = "Mature Saurok Egg",
 	[55308] = "Warlord Zon'ozz",
-	[139737] = "Lord Stormsong",
+	[94996] = "Fragment of the Crone",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
 	[33768] = "Rubble",
