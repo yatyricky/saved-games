@@ -2,11 +2,11 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Nethercents - Azshara"] = "Default",
-		["Berogue - Azshara"] = "Default",
+		["Wysjj - Azshara"] = "Default",
 		["Igottwohorns - Thunderlord"] = "Default",
 		["Jarednine - Azshara"] = "Default",
 		["Pilgrimud - Azshara"] = "Default",
-		["Wysjj - Azshara"] = "Default",
+		["Berogue - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -35,16 +35,16 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Nethercents - Azshara"] = "Nethercents - Azshara",
-		["Berogue - Azshara"] = "Berogue - Azshara",
+		["Wysjj - Azshara"] = "Wysjj - Azshara",
 		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
 		["Pilgrimud - Azshara"] = "Pilgrimud - Azshara",
-		["Wysjj - Azshara"] = "Wysjj - Azshara",
+		["Berogue - Azshara"] = "Berogue - Azshara",
 	},
 	["profiles"] = {
 		["Nethercents - Azshara"] = {
 		},
-		["Berogue - Azshara"] = {
+		["Wysjj - Azshara"] = {
 		},
 		["Igottwohorns - Thunderlord"] = {
 		},
@@ -52,7 +52,7 @@ TomTomWaypointsM = {
 		},
 		["Pilgrimud - Azshara"] = {
 		},
-		["Wysjj - Azshara"] = {
+		["Berogue - Azshara"] = {
 		},
 	},
 }
