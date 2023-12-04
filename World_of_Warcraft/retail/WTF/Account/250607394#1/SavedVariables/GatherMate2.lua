@@ -1,8 +1,5 @@
 
 GatherMate2DB = {
-	["global"] = {
-		["data_version"] = 6,
-	},
 	["profileKeys"] = {
 		["Linqpad - Azshara"] = "Default",
 		["Gamwillsaveu - Azshara"] = "Default",
@@ -10,6 +7,9 @@ GatherMate2DB = {
 		["Zephyrbreeze - Azshara"] = "Default",
 		["Wnsmoldering - Azshara"] = "Default",
 		["Ziadwan - Azshara"] = "Default",
+	},
+	["global"] = {
+		["data_version"] = 6,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -30,6 +30,10 @@ GatherMate2TreasureDB = {
 	},
 }
 GatherMate2ArchaeologyDB = {
+	[17] = {
+		[6927762200] = 604,
+		[6557790900] = 604,
+	},
 }
 GatherMate2LoggingDB = {
 	[543] = {
