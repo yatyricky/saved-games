@@ -26924,6 +26924,107 @@ AchievementTrackerDebug = {
 	"4/12/2023 8:55 [DEBUG] Offical Instance Name: 229 _229", -- [26900]
 	"4/12/2023 8:55 [DEBUG] DifficultyID: 1", -- [26901]
 	"4/12/2023 8:55 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [26902]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [26903]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.29.0", -- [26904]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [26905]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [26906]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [26907]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [26908]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [26909]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [26910]
+	"5/12/2023 6:14 [DEBUG] Showing Minimap Icon", -- [26911]
+	"5/12/2023 6:14 [DEBUG] Player has entered instance", -- [26912]
+	"5/12/2023 6:14 [DEBUG] 229", -- [26913]
+	"5/12/2023 6:14 [DEBUG] Offical Instance Name: 229 _229", -- [26914]
+	"5/12/2023 6:14 [DEBUG] DifficultyID: 1", -- [26915]
+	"5/12/2023 6:14 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [26916]
+	"5/12/2023 6:14 [DEBUG] Player has entered instance", -- [26917]
+	"5/12/2023 6:14 [DEBUG] 229", -- [26918]
+	"5/12/2023 6:14 [DEBUG] Offical Instance Name: 229 _229", -- [26919]
+	"5/12/2023 6:14 [DEBUG] DifficultyID: 1", -- [26920]
+	"5/12/2023 6:14 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [26921]
+	"5/12/2023 6:45 [DEBUG] ---IAT Runtime---", -- [26922]
+	"5/12/2023 6:45 [DEBUG] Version: 4.29.0", -- [26923]
+	"5/12/2023 6:45 [DEBUG] Attempting to load from local NPC Cache", -- [26924]
+	"5/12/2023 6:45 [DEBUG] Generating NPC Cache...", -- [26925]
+	"5/12/2023 6:45 [DEBUG] Only Tracking Missing Achievements Enabled", -- [26926]
+	"5/12/2023 6:45 [DEBUG] true", -- [26927]
+	"5/12/2023 6:45 [DEBUG] Enabling Addon", -- [26928]
+	"5/12/2023 6:45 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [26929]
+	"5/12/2023 6:45 [DEBUG] Showing Minimap Icon", -- [26930]
+	"5/12/2023 6:52 [DEBUG] Player has entered instance", -- [26931]
+	"5/12/2023 6:52 [DEBUG] 229", -- [26932]
+	"5/12/2023 6:52 [DEBUG] Offical Instance Name: 229 _229", -- [26933]
+	"5/12/2023 6:52 [DEBUG] DifficultyID: 1", -- [26934]
+	"5/12/2023 6:52 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [26935]
+	"5/12/2023 6:52 [DEBUG] Player has entered instance", -- [26936]
+	"5/12/2023 6:52 [DEBUG] 229", -- [26937]
+	"5/12/2023 6:52 [DEBUG] Offical Instance Name: 229 _229", -- [26938]
+	"5/12/2023 6:52 [DEBUG] DifficultyID: 1", -- [26939]
+	"5/12/2023 6:52 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [26940]
+	"5/12/2023 7:34 [DEBUG] ---IAT Runtime---", -- [26941]
+	"5/12/2023 7:34 [DEBUG] Version: 4.29.0", -- [26942]
+	"5/12/2023 7:34 [DEBUG] Attempting to load from local NPC Cache", -- [26943]
+	"5/12/2023 7:34 [DEBUG] Generating NPC Cache...", -- [26944]
+	"5/12/2023 7:34 [DEBUG] Only Tracking Missing Achievements Enabled", -- [26945]
+	"5/12/2023 7:34 [DEBUG] true", -- [26946]
+	"5/12/2023 7:34 [DEBUG] Enabling Addon", -- [26947]
+	"5/12/2023 7:34 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [26948]
+	"5/12/2023 7:34 [DEBUG] Showing Minimap Icon", -- [26949]
+	"5/12/2023 7:34 [DEBUG] ---IAT Runtime---", -- [26950]
+	"5/12/2023 7:34 [DEBUG] Version: 4.29.0", -- [26951]
+	"5/12/2023 7:34 [DEBUG] Attempting to load from local NPC Cache", -- [26952]
+	"5/12/2023 7:34 [DEBUG] Generating NPC Cache...", -- [26953]
+	"5/12/2023 7:34 [DEBUG] Only Tracking Missing Achievements Enabled", -- [26954]
+	"5/12/2023 7:34 [DEBUG] true", -- [26955]
+	"5/12/2023 7:34 [DEBUG] Enabling Addon", -- [26956]
+	"5/12/2023 7:34 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [26957]
+	"5/12/2023 7:34 [DEBUG] Showing Minimap Icon", -- [26958]
+	"5/12/2023 7:40 [DEBUG] Player has entered instance", -- [26959]
+	"5/12/2023 7:40 [DEBUG] 229", -- [26960]
+	"5/12/2023 7:40 [DEBUG] Offical Instance Name: 229 _229", -- [26961]
+	"5/12/2023 7:40 [DEBUG] DifficultyID: 1", -- [26962]
+	"5/12/2023 7:40 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [26963]
+	"5/12/2023 7:40 [DEBUG] Player has entered instance", -- [26964]
+	"5/12/2023 7:40 [DEBUG] 229", -- [26965]
+	"5/12/2023 7:40 [DEBUG] Offical Instance Name: 229 _229", -- [26966]
+	"5/12/2023 7:40 [DEBUG] DifficultyID: 1", -- [26967]
+	"5/12/2023 7:40 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [26968]
+	"5/12/2023 8:6 [DEBUG] ---IAT Runtime---", -- [26969]
+	"5/12/2023 8:6 [DEBUG] Version: 4.29.0", -- [26970]
+	"5/12/2023 8:6 [DEBUG] Attempting to load from local NPC Cache", -- [26971]
+	"5/12/2023 8:6 [DEBUG] Generating NPC Cache...", -- [26972]
+	"5/12/2023 8:6 [DEBUG] Only Tracking Missing Achievements Enabled", -- [26973]
+	"5/12/2023 8:6 [DEBUG] true", -- [26974]
+	"5/12/2023 8:6 [DEBUG] Enabling Addon", -- [26975]
+	"5/12/2023 8:6 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [26976]
+	"5/12/2023 8:6 [DEBUG] Showing Minimap Icon", -- [26977]
+	"5/12/2023 8:7 [DEBUG] ---IAT Runtime---", -- [26978]
+	"5/12/2023 8:7 [DEBUG] Version: 4.29.0", -- [26979]
+	"5/12/2023 8:7 [DEBUG] Attempting to load from local NPC Cache", -- [26980]
+	"5/12/2023 8:7 [DEBUG] Generating NPC Cache...", -- [26981]
+	"5/12/2023 8:7 [DEBUG] Only Tracking Missing Achievements Enabled", -- [26982]
+	"5/12/2023 8:7 [DEBUG] true", -- [26983]
+	"5/12/2023 8:7 [DEBUG] Enabling Addon", -- [26984]
+	"5/12/2023 8:7 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [26985]
+	"5/12/2023 8:8 [DEBUG] Showing Minimap Icon", -- [26986]
+	"5/12/2023 8:33 [DEBUG] ---IAT Runtime---", -- [26987]
+	"5/12/2023 8:33 [DEBUG] Version: 4.29.0", -- [26988]
+	"5/12/2023 8:33 [DEBUG] Attempting to load from local NPC Cache", -- [26989]
+	"5/12/2023 8:33 [DEBUG] Generating NPC Cache...", -- [26990]
+	"5/12/2023 8:33 [DEBUG] Only Tracking Missing Achievements Enabled", -- [26991]
+	"5/12/2023 8:33 [DEBUG] true", -- [26992]
+	"5/12/2023 8:33 [DEBUG] Enabling Addon", -- [26993]
+	"5/12/2023 8:33 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [26994]
+	"5/12/2023 8:33 [DEBUG] Showing Minimap Icon", -- [26995]
+	"5/12/2023 8:59 [DEBUG] ---IAT Runtime---", -- [26996]
+	"5/12/2023 8:59 [DEBUG] Version: 4.29.0", -- [26997]
+	"5/12/2023 8:59 [DEBUG] Attempting to load from local NPC Cache", -- [26998]
+	"5/12/2023 8:59 [DEBUG] Generating NPC Cache...", -- [26999]
+	"5/12/2023 8:59 [DEBUG] Only Tracking Missing Achievements Enabled", -- [27000]
+	"5/12/2023 8:59 [DEBUG] true", -- [27001]
+	"5/12/2023 8:59 [DEBUG] Enabling Addon", -- [27002]
+	"5/12/2023 8:59 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [27003]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -27373,8 +27474,8 @@ AchievementTrackerNPCCache = {
 	[123531] = "Manifestation of Taeshalach",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
-	[72490] = "Overseer Mojka",
 	[139737] = "Lord Stormsong",
+	[94996] = "Fragment of the Crone",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
 	[166644] = "Artificer Xy'mox",
@@ -27390,8 +27491,8 @@ AchievementTrackerNPCCache = {
 	[52440] = "Gub",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
+	[173770] = "Blazing Brazier",
 	[90018] = "Hellfire Cannon",
-	[81834] = "Priceless Paraphernalia",
 	[135903] = "Manifestation of the Deep",
 	[164450] = "Dealer Xy'exa",
 	[68655] = "Mr. Bigglesworth",
@@ -27446,7 +27547,7 @@ AchievementTrackerNPCCache = {
 	[78121] = "Gorian Warmage",
 	[115844] = "Goroth",
 	[141792] = "Liz Vilepot",
-	[36535] = "Corrupted Soul Fragment",
+	[105742] = "Turbax",
 	[165408] = "Halkias",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
@@ -27477,13 +27578,13 @@ AchievementTrackerNPCCache = {
 	[119938] = "Reanimated Templar",
 	[64061] = "Mogu'shan Warden",
 	[205989] = "Forgotten Specimen Tank",
-	[28514] = "Nalorakk",
 	[105744] = "Blaze",
+	[111882] = "Sparky",
 	[52936] = "Druid of the Flame",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
 	[146016] = "Leeroy Jenkins",
-	[111882] = "Sparky",
+	[28514] = "Nalorakk",
 	[179392] = "Kin'tessa",
 	[99031] = "Artifact",
 	[86928] = "Empowered Construct",
@@ -27499,8 +27600,8 @@ AchievementTrackerNPCCache = {
 	[38135] = "Deformed Fanatic",
 	[100436] = "Illysanna Ravencrest",
 	[73265] = "Corrupted Amalgamation",
+	[36535] = "Corrupted Soul Fragment",
 	[71983] = "Farseer Wolf Rider",
-	[105742] = "Turbax",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
@@ -27520,7 +27621,7 @@ AchievementTrackerNPCCache = {
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[173770] = "Blazing Brazier",
+	[81834] = "Priceless Paraphernalia",
 	[68599] = "Ferra Pearl",
 	[175474] = "Belligerent Waiter",
 	[55312] = "Yor'sahj the Unsleeping",
@@ -27529,7 +27630,7 @@ AchievementTrackerNPCCache = {
 	[71979] = "Kor'kron Warbringer",
 	[67779] = "Mature Saurok Egg",
 	[55308] = "Warlord Zon'ozz",
-	[94996] = "Fragment of the Crone",
+	[72490] = "Overseer Mojka",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
 	[33768] = "Rubble",
