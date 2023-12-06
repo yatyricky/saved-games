@@ -24,7 +24,7 @@ END
 VER 3 0100000000000007 "regrowth" "134400"
 #showtooltip Regrowth
 /console autounshift 0
-/cast [@mouseover,@player] Regrowth
+/cast [exist,noharm]regrowth;[@mouseover,@player] Regrowth
 /console autounshift 1
 END
 VER 3 0100000000000006 "spam" "134400"
