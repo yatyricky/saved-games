@@ -2,11 +2,11 @@
 IncognitoDB = {
 	["profileKeys"] = {
 		["Nethercents - Azshara"] = "Default",
-		["Wysjj - Azshara"] = "Default",
+		["Berogue - Azshara"] = "Default",
 		["Igottwohorns - Thunderlord"] = "Default",
 		["Jarednine - Azshara"] = "Default",
 		["Pilgrimud - Azshara"] = "Default",
-		["Berogue - Azshara"] = "Default",
+		["Wysjj - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

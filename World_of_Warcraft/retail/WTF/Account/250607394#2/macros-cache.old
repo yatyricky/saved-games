@@ -1,3 +1,7 @@
+VER 3 0000000000000003 "aaa" "237561"
+/target Sara
+/kiss
+END
 VER 3 0000000000000002 "reset" "132096"
 /script ResetInstances();
 END
