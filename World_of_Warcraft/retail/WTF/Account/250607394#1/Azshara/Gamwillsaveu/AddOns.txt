@@ -5,7 +5,7 @@ Custom_Item_Notes: enabled
 GatherMate2: enabled
 Incognito: enabled
 InstanceAchievementTracker: enabled
-RareScanner: enabled
+RareScanner: disabled
 SellJunk: enabled
 TomTom: enabled
 TradeSkillMaster: enabled
