@@ -1,12 +1,12 @@
 
 GatherMate2DB = {
-	["profileKeys"] = {
-		["Pilgrimud - Azshara"] = "Default",
-		["Berogue - Azshara"] = "Default",
-		["Wysjj - Azshara"] = "Default",
-	},
 	["global"] = {
 		["data_version"] = 6,
+	},
+	["profileKeys"] = {
+		["Pilgrimud - Azshara"] = "Default",
+		["Wysjj - Azshara"] = "Default",
+		["Berogue - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

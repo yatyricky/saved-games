@@ -28592,6 +28592,173 @@ AchievementTrackerDebug = {
 	"11/12/2023 6:39 [DEBUG] Enabling Addon", -- [28568]
 	"11/12/2023 6:39 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [28569]
 	"11/12/2023 7:57 [DEBUG] Showing Minimap Icon", -- [28570]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [28571]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.29.0", -- [28572]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [28573]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [28574]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [28575]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [28576]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [28577]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [28578]
+	"13/12/2023 8:2 [DEBUG] Showing Minimap Icon", -- [28579]
+	"13/12/2023 8:6 [DEBUG] Player has entered instance", -- [28580]
+	"13/12/2023 8:6 [DEBUG] 550", -- [28581]
+	"13/12/2023 8:6 [DEBUG] Offical Instance Name: 550 _550", -- [28582]
+	"13/12/2023 8:6 [DEBUG] DifficultyID: 4", -- [28583]
+	"13/12/2023 8:6 [DEBUG] Achievements cannot be earned for the following difficulty 4", -- [28584]
+	"13/12/2023 8:6 [DEBUG] Player has entered instance", -- [28585]
+	"13/12/2023 8:6 [DEBUG] 550", -- [28586]
+	"13/12/2023 8:6 [DEBUG] Offical Instance Name: 550 _550", -- [28587]
+	"13/12/2023 8:6 [DEBUG] DifficultyID: 4", -- [28588]
+	"13/12/2023 8:6 [DEBUG] Achievements cannot be earned for the following difficulty 4", -- [28589]
+	"13/12/2023 8:18 [DEBUG] ---IAT Runtime---", -- [28590]
+	"13/12/2023 8:18 [DEBUG] Version: 4.29.0", -- [28591]
+	"13/12/2023 8:18 [DEBUG] Attempting to load from local NPC Cache", -- [28592]
+	"13/12/2023 8:18 [DEBUG] Generating NPC Cache...", -- [28593]
+	"13/12/2023 8:18 [DEBUG] Only Tracking Missing Achievements Enabled", -- [28594]
+	"13/12/2023 8:18 [DEBUG] true", -- [28595]
+	"13/12/2023 8:18 [DEBUG] Enabling Addon", -- [28596]
+	"13/12/2023 8:18 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [28597]
+	"13/12/2023 8:20 [DEBUG] Showing Minimap Icon", -- [28598]
+	"13/12/2023 8:22 [DEBUG] Player has entered instance", -- [28599]
+	"13/12/2023 8:22 [DEBUG] 550", -- [28600]
+	"13/12/2023 8:22 [DEBUG] Offical Instance Name: 550 _550", -- [28601]
+	"13/12/2023 8:22 [DEBUG] DifficultyID: 4", -- [28602]
+	"13/12/2023 8:22 [DEBUG] Achievements cannot be earned for the following difficulty 4", -- [28603]
+	"13/12/2023 8:22 [DEBUG] Player has entered instance", -- [28604]
+	"13/12/2023 8:22 [DEBUG] 550", -- [28605]
+	"13/12/2023 8:22 [DEBUG] Offical Instance Name: 550 _550", -- [28606]
+	"13/12/2023 8:22 [DEBUG] DifficultyID: 4", -- [28607]
+	"13/12/2023 8:22 [DEBUG] Achievements cannot be earned for the following difficulty 4", -- [28608]
+	"13/12/2023 8:32 [DEBUG] ---IAT Runtime---", -- [28609]
+	"13/12/2023 8:32 [DEBUG] Version: 4.29.0", -- [28610]
+	"13/12/2023 8:32 [DEBUG] Attempting to load from local NPC Cache", -- [28611]
+	"13/12/2023 8:32 [DEBUG] Generating NPC Cache...", -- [28612]
+	"13/12/2023 8:32 [DEBUG] Only Tracking Missing Achievements Enabled", -- [28613]
+	"13/12/2023 8:32 [DEBUG] true", -- [28614]
+	"13/12/2023 8:32 [DEBUG] Enabling Addon", -- [28615]
+	"13/12/2023 8:32 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [28616]
+	"13/12/2023 8:30 [DEBUG] Showing Minimap Icon", -- [28617]
+	"13/12/2023 8:32 [DEBUG] Player has entered instance", -- [28618]
+	"13/12/2023 8:32 [DEBUG] 550", -- [28619]
+	"13/12/2023 8:32 [DEBUG] Offical Instance Name: 550 _550", -- [28620]
+	"13/12/2023 8:32 [DEBUG] DifficultyID: 4", -- [28621]
+	"13/12/2023 8:32 [DEBUG] Achievements cannot be earned for the following difficulty 4", -- [28622]
+	"13/12/2023 8:32 [DEBUG] Player has entered instance", -- [28623]
+	"13/12/2023 8:32 [DEBUG] 550", -- [28624]
+	"13/12/2023 8:32 [DEBUG] Offical Instance Name: 550 _550", -- [28625]
+	"13/12/2023 8:32 [DEBUG] DifficultyID: 4", -- [28626]
+	"13/12/2023 8:32 [DEBUG] Achievements cannot be earned for the following difficulty 4", -- [28627]
+	"13/12/2023 8:47 [DEBUG] Player has entered instance", -- [28628]
+	"13/12/2023 8:47 [DEBUG] 249", -- [28629]
+	"13/12/2023 8:47 [DEBUG] Offical Instance Name: 249 _249", -- [28630]
+	"13/12/2023 8:47 [DEBUG] Detected Legacy 25 man raid", -- [28631]
+	"13/12/2023 8:47 [DEBUG] New Instance Name: 249-25", -- [28632]
+	"13/12/2023 8:47 [DEBUG] Expansion: 3", -- [28633]
+	"13/12/2023 8:47 [DEBUG] Instance Type: Raids", -- [28634]
+	"13/12/2023 8:47 [DEBUG] Instance: 249-25", -- [28635]
+	"13/12/2023 8:47 [DEBUG] DifficultyID: 4", -- [28636]
+	"13/12/2023 8:47 [DEBUG] Expansion: 3", -- [28637]
+	"13/12/2023 8:47 [DEBUG] Instance Type: Raids", -- [28638]
+	"13/12/2023 8:47 [DEBUG] Instance: 249-25", -- [28639]
+	"13/12/2023 8:47 [DEBUG] Asking user whether they want to track this instance", -- [28640]
+	"13/12/2023 8:47 [DEBUG] Creating Tracking UI", -- [28641]
+	"13/12/2023 8:47 [DEBUG] InfoFrame Setup Complete", -- [28642]
+	"13/12/2023 8:47 [DEBUG] Expansion: 3", -- [28643]
+	"13/12/2023 8:48 |cff00ccffIAT: |cffffffffStarting achievement scan for Onyxia's Lair (This may freeze your game for a few seconds!)", -- [28644]
+	"13/12/2023 8:48 [DEBUG] Group Size set to: 1", -- [28645]
+	"13/12/2023 8:48 [DEBUG] Combatlog does not need to be enabled", -- [28646]
+	"13/12/2023 8:48 [DEBUG] Starting Initial Setup If Needed...", -- [28647]
+	"13/12/2023 8:48 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:773: attempt to call method 'InitialSetup' (a nil value).", -- [28648]
+	"13/12/2023 8:48 [DEBUG] Setting Master Addon 1", -- [28649]
+	"13/12/2023 8:48 |cff00ccffIAT: |cffffffffAchievement Tracking Enabled for Onyxia's Lair", -- [28650]
+	"13/12/2023 8:48 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Linqpad", -- [28651]
+	"13/12/2023 8:48 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (1/1)", -- [28652]
+	"13/12/2023 8:48 |cff00ccffIAT: |cffffffffIncomplete achievements for this instance |cffffff00|Hachievement:4406:Player-77-0F3128C1:0:0:0:-1:0:0:0:0|h[Many Whelps! Handle It! (25 player)]|h|r", -- [28653]
+	"13/12/2023 8:48 [DEBUG] Entered Combat", -- [28654]
+	"13/12/2023 8:48 [DEBUG] Calling Detect Boss 3: 12129", -- [28655]
+	"13/12/2023 8:48 [DEBUG] Found the following boss ID: 12129", -- [28656]
+	"13/12/2023 8:48 [DEBUG] Clearing Instance Variables if exists", -- [28657]
+	"13/12/2023 8:48 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [28658]
+	"13/12/2023 8:48 [DEBUG] Clearing Instance Variables if exists", -- [28659]
+	"13/12/2023 8:48 [DEBUG] Clearing Instance Variables", -- [28660]
+	"13/12/2023 8:48 [DEBUG] Resetting Global Variables", -- [28661]
+	"13/12/2023 8:48 [DEBUG] InfoFrame does not need to be reset", -- [28662]
+	"13/12/2023 8:48 [DEBUG] Left Combat", -- [28663]
+	"13/12/2023 8:48 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4407:Player-77-0F3128C1:1:8:30:23:4294967295:4294967295:4294967295:4294967295|h[She Deep Breaths More (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [28664]
+	"13/12/2023 8:48 [DEBUG] Entered Combat", -- [28665]
+	"13/12/2023 8:48 [DEBUG] ---Encounter Started---", -- [28666]
+	"13/12/2023 8:48 [DEBUG] Encounter ID: 1084", -- [28667]
+	"13/12/2023 8:48 [DEBUG] Detected boss using ENCOUNTER ID", -- [28668]
+	"13/12/2023 8:48 [DEBUG] Found the following encounter ID: 1084", -- [28669]
+	"13/12/2023 8:48 [DEBUG] (E) Adding the following encounter ID: boss3", -- [28670]
+	"13/12/2023 8:48 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 4407", -- [28671]
+	"13/12/2023 8:48 [DEBUG] (E) Adding the following encounter ID: boss2", -- [28672]
+	"13/12/2023 8:48 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 4406", -- [28673]
+	"13/12/2023 8:48 [DEBUG] (E) Adding the following encounter ID: boss1", -- [28674]
+	"13/12/2023 8:48 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 4405", -- [28675]
+	"13/12/2023 8:48 [DEBUG] Automatic Blizzard Tracking set to: true", -- [28676]
+	"13/12/2023 8:48 [DEBUG] Length of array: 3", -- [28677]
+	"13/12/2023 8:48 [DEBUG] Achievement: 4407", -- [28678]
+	"13/12/2023 8:48 [DEBUG] User supressing addon tracking", -- [28679]
+	"13/12/2023 8:48 [DEBUG] Setting Master Addon 8", -- [28680]
+	"13/12/2023 8:48 [DEBUG] Achievement: 4406", -- [28681]
+	"13/12/2023 8:48 [DEBUG] Achievement: 4405", -- [28682]
+	"13/12/2023 8:48 [DEBUG] User supressing addon tracking", -- [28683]
+	"13/12/2023 8:49 [DEBUG] This addon is in charge of outputting messages", -- [28684]
+	"13/12/2023 8:50 [DEBUG] ---Encounter Ended---", -- [28685]
+	"13/12/2023 8:50 [DEBUG] Locking Detection for 3 seconds", -- [28686]
+	"13/12/2023 8:50 [DEBUG] Clearing Instance Variables if exists", -- [28687]
+	"13/12/2023 8:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [28688]
+	"13/12/2023 8:50 [DEBUG] Clearing Instance Variables if exists", -- [28689]
+	"13/12/2023 8:50 [DEBUG] Clearing Instance Variables", -- [28690]
+	"13/12/2023 8:50 [DEBUG] Resetting Global Variables", -- [28691]
+	"13/12/2023 8:50 [DEBUG] InfoFrame does not need to be reset", -- [28692]
+	"13/12/2023 8:50 [DEBUG] Left Combat", -- [28693]
+	"13/12/2023 8:50 [DEBUG] Detection unlocked", -- [28694]
+	"13/12/2023 8:50 [DEBUG] Clearing Instance Variables", -- [28695]
+	"13/12/2023 8:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [28696]
+	"13/12/2023 8:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [28697]
+	"13/12/2023 8:50 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [28698]
+	"13/12/2023 8:50 [DEBUG] Clearing Instance Variables if exists", -- [28699]
+	"13/12/2023 8:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [28700]
+	"13/12/2023 8:50 [DEBUG] Clearing Instance Variables if exists", -- [28701]
+	"13/12/2023 8:50 [DEBUG] Clearing Instance Variables", -- [28702]
+	"13/12/2023 8:50 [DEBUG] Resetting Global Variables", -- [28703]
+	"13/12/2023 8:50 [DEBUG] InfoFrame does not need to be reset", -- [28704]
+	"13/12/2023 8:50 [DEBUG] Resetting PlayerRank", -- [28705]
+	"13/12/2023 8:50 [DEBUG] InfoFrame was not active", -- [28706]
+	"13/12/2023 8:50 [DEBUG] 6", -- [28707]
+	"13/12/2023 8:50 [DEBUG] Hiding Tracking UI", -- [28708]
+	"13/12/2023 8:51 [DEBUG] ---IAT Runtime---", -- [28709]
+	"13/12/2023 8:51 [DEBUG] Version: 4.29.0", -- [28710]
+	"13/12/2023 8:51 [DEBUG] Attempting to load from local NPC Cache", -- [28711]
+	"13/12/2023 8:51 [DEBUG] Generating NPC Cache...", -- [28712]
+	"13/12/2023 8:51 [DEBUG] Only Tracking Missing Achievements Enabled", -- [28713]
+	"13/12/2023 8:51 [DEBUG] true", -- [28714]
+	"13/12/2023 8:51 [DEBUG] Enabling Addon", -- [28715]
+	"13/12/2023 8:51 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [28716]
+	"13/12/2023 8:52 [DEBUG] Showing Minimap Icon", -- [28717]
+	"13/12/2023 8:52 [DEBUG] Player has entered instance", -- [28718]
+	"13/12/2023 8:52 [DEBUG] 409", -- [28719]
+	"13/12/2023 8:52 [DEBUG] Offical Instance Name: 409 _409", -- [28720]
+	"13/12/2023 8:52 [DEBUG] DifficultyID: 9", -- [28721]
+	"13/12/2023 8:52 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [28722]
+	"13/12/2023 8:52 [DEBUG] Player has entered instance", -- [28723]
+	"13/12/2023 8:52 [DEBUG] 409", -- [28724]
+	"13/12/2023 8:52 [DEBUG] Offical Instance Name: 409 _409", -- [28725]
+	"13/12/2023 8:52 [DEBUG] DifficultyID: 9", -- [28726]
+	"13/12/2023 8:52 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [28727]
+	"13/12/2023 9:13 [DEBUG] Player has entered instance", -- [28728]
+	"13/12/2023 9:13 [DEBUG] 230", -- [28729]
+	"13/12/2023 9:13 [DEBUG] Offical Instance Name: 230 _230", -- [28730]
+	"13/12/2023 9:13 [DEBUG] DifficultyID: 1", -- [28731]
+	"13/12/2023 9:13 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [28732]
+	"13/12/2023 9:13 [DEBUG] Player has entered instance", -- [28733]
+	"13/12/2023 9:13 [DEBUG] 230", -- [28734]
+	"13/12/2023 9:13 [DEBUG] Offical Instance Name: 230 _230", -- [28735]
+	"13/12/2023 9:13 [DEBUG] DifficultyID: 1", -- [28736]
+	"13/12/2023 9:13 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [28737]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -29041,8 +29208,8 @@ AchievementTrackerNPCCache = {
 	[123531] = "Manifestation of Taeshalach",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
+	[139737] = "Lord Stormsong",
 	[94996] = "Fragment of the Crone",
-	[72490] = "Overseer Mojka",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
 	[166644] = "Artificer Xy'mox",
@@ -29058,16 +29225,16 @@ AchievementTrackerNPCCache = {
 	[52440] = "Gub",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
-	[81834] = "Priceless Paraphernalia",
 	[173770] = "Blazing Brazier",
+	[90018] = "Hellfire Cannon",
 	[135903] = "Manifestation of the Deep",
 	[164450] = "Dealer Xy'exa",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[52422] = "Kaulema the Mover",
-	[205340] = "Expired Experiment",
-	[50376] = "Angered Earth",
 	[111941] = "Hodir",
+	[50376] = "Angered Earth",
+	[205340] = "Expired Experiment",
+	[52422] = "Kaulema the Mover",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
@@ -29114,7 +29281,7 @@ AchievementTrackerNPCCache = {
 	[78121] = "Gorian Warmage",
 	[115844] = "Goroth",
 	[141792] = "Liz Vilepot",
-	[71983] = "Farseer Wolf Rider",
+	[105742] = "Turbax",
 	[165408] = "Halkias",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
@@ -29145,13 +29312,13 @@ AchievementTrackerNPCCache = {
 	[119938] = "Reanimated Templar",
 	[64061] = "Mogu'shan Warden",
 	[205989] = "Forgotten Specimen Tank",
+	[105744] = "Blaze",
 	[111882] = "Sparky",
-	[28514] = "Nalorakk",
 	[52936] = "Druid of the Flame",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
 	[146016] = "Leeroy Jenkins",
-	[105744] = "Blaze",
+	[28514] = "Nalorakk",
 	[179392] = "Kin'tessa",
 	[99031] = "Artifact",
 	[86928] = "Empowered Construct",
@@ -29167,8 +29334,8 @@ AchievementTrackerNPCCache = {
 	[38135] = "Deformed Fanatic",
 	[100436] = "Illysanna Ravencrest",
 	[73265] = "Corrupted Amalgamation",
-	[105742] = "Turbax",
 	[36535] = "Corrupted Soul Fragment",
+	[71983] = "Farseer Wolf Rider",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
@@ -29188,7 +29355,7 @@ AchievementTrackerNPCCache = {
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[90018] = "Hellfire Cannon",
+	[81834] = "Priceless Paraphernalia",
 	[68599] = "Ferra Pearl",
 	[175474] = "Belligerent Waiter",
 	[55312] = "Yor'sahj the Unsleeping",
@@ -29197,7 +29364,7 @@ AchievementTrackerNPCCache = {
 	[71979] = "Kor'kron Warbringer",
 	[67779] = "Mature Saurok Egg",
 	[55308] = "Warlord Zon'ozz",
-	[139737] = "Lord Stormsong",
+	[72490] = "Overseer Mojka",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
 	[33768] = "Rubble",
