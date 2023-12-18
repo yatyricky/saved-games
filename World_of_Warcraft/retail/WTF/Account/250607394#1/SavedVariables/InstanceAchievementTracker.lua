@@ -10,16 +10,16 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 175.1911547254768,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
+	["announceTrackedAchievements"] = false,
 	["InfoFramescale"] = 1,
-	["hideCompletedAchievements"] = true,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "BOTTOMRIGHT",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 145.0003662109375,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 145.0003662109375,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["hideCompletedAchievements"] = true,
 }
 AchievementTrackerDebug = {
 	"20/9/2023 23:38 [DEBUG] ---IAT Runtime---", -- [1]
@@ -29191,6 +29191,2087 @@ AchievementTrackerDebug = {
 	"17/12/2023 8:42 [DEBUG] Offical Instance Name: 564 _564", -- [29167]
 	"17/12/2023 8:42 [DEBUG] DifficultyID: 14", -- [29168]
 	"17/12/2023 8:42 [DEBUG] Achievements cannot be earned for the following difficulty 14", -- [29169]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [29170]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.29.0", -- [29171]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [29172]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [29173]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [29174]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [29175]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [29176]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [29177]
+	"18/12/2023 6:58 [DEBUG] Showing Minimap Icon", -- [29178]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29179]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29180]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29181]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29182]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29183]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29184]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29185]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29186]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29187]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29188]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29189]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29190]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29191]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29192]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29193]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29194]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29195]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29196]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29197]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29198]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29199]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29200]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29201]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29202]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29203]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29204]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29205]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29206]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29207]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29208]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29209]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29210]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29211]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29212]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29213]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29214]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29215]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29216]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29217]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29218]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29219]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29220]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29221]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29222]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29223]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29224]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29225]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29226]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29227]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29228]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29229]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29230]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29231]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29232]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29233]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29234]
+	"18/12/2023 8:1 [DEBUG] Player has entered instance", -- [29235]
+	"18/12/2023 8:1 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29236]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29237]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29238]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29239]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29240]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29241]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29242]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29243]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29244]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29245]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29246]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29247]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29248]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29249]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29250]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29251]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29252]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29253]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29254]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29255]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29256]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29257]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29258]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29259]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29260]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29261]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29262]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29263]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29264]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29265]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29266]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29267]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29268]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29269]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29270]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29271]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29272]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29273]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29274]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29275]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29276]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29277]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29278]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29279]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29280]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29281]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29282]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29283]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29284]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29285]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29286]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29287]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29288]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29289]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29290]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29291]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29292]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29293]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29294]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29295]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29296]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29297]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29298]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29299]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29300]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29301]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29302]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29303]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29304]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29305]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29306]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29307]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29308]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29309]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29310]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29311]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29312]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29313]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29314]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29315]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29316]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29317]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29318]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29319]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29320]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29321]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29322]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29323]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29324]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29325]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29326]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29327]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29328]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29329]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29330]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29331]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29332]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29333]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29334]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29335]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29336]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29337]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29338]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29339]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29340]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29341]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29342]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29343]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29344]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29345]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29346]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29347]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29348]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29349]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29350]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29351]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29352]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29353]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29354]
+	"18/12/2023 8:2 [DEBUG] Player has entered instance", -- [29355]
+	"18/12/2023 8:2 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29356]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29357]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29358]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29359]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29360]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29361]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29362]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29363]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29364]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29365]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29366]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29367]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29368]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29369]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29370]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29371]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29372]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29373]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29374]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29375]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29376]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29377]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29378]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29379]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29380]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29381]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29382]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29383]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29384]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29385]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29386]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29387]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29388]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29389]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29390]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29391]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29392]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29393]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29394]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29395]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29396]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29397]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29398]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29399]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29400]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29401]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29402]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29403]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29404]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29405]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29406]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29407]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29408]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29409]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29410]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29411]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29412]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29413]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29414]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29415]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29416]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29417]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29418]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29419]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29420]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29421]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29422]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29423]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29424]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29425]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29426]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29427]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29428]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29429]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29430]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29431]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29432]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29433]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29434]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29435]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29436]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29437]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29438]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29439]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29440]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29441]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29442]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29443]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29444]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29445]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29446]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29447]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29448]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29449]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29450]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29451]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29452]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29453]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29454]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29455]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29456]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29457]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29458]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29459]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29460]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29461]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29462]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29463]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29464]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29465]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29466]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29467]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29468]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29469]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29470]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29471]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29472]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29473]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29474]
+	"18/12/2023 8:3 [DEBUG] Player has entered instance", -- [29475]
+	"18/12/2023 8:3 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29476]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29477]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29478]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29479]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29480]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29481]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29482]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29483]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29484]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29485]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29486]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29487]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29488]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29489]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29490]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29491]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29492]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29493]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29494]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29495]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29496]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29497]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29498]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29499]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29500]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29501]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29502]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29503]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29504]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29505]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29506]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29507]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29508]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29509]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29510]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29511]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29512]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29513]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29514]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29515]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29516]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29517]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29518]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29519]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29520]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29521]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29522]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29523]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29524]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29525]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29526]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29527]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29528]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29529]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29530]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29531]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29532]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29533]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29534]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29535]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29536]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29537]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29538]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29539]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29540]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29541]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29542]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29543]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29544]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29545]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29546]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29547]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29548]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29549]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29550]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29551]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29552]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29553]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29554]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29555]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29556]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29557]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29558]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29559]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29560]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29561]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29562]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29563]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29564]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29565]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29566]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29567]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29568]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29569]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29570]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29571]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29572]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29573]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29574]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29575]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29576]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29577]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29578]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29579]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29580]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29581]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29582]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29583]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29584]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29585]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29586]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29587]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29588]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29589]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29590]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29591]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29592]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29593]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29594]
+	"18/12/2023 8:4 [DEBUG] Player has entered instance", -- [29595]
+	"18/12/2023 8:4 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29596]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29597]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29598]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29599]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29600]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29601]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29602]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29603]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29604]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29605]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29606]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29607]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29608]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29609]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29610]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29611]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29612]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29613]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29614]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29615]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29616]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29617]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29618]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29619]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29620]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29621]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29622]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29623]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29624]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29625]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29626]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29627]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29628]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29629]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29630]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29631]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29632]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29633]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29634]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29635]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29636]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29637]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29638]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29639]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29640]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29641]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29642]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29643]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29644]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29645]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29646]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29647]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29648]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29649]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29650]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29651]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29652]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29653]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29654]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29655]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29656]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29657]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29658]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29659]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29660]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29661]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29662]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29663]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29664]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29665]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29666]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29667]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29668]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29669]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29670]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29671]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29672]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29673]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29674]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29675]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29676]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29677]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29678]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29679]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29680]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29681]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29682]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29683]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29684]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29685]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29686]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29687]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29688]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29689]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29690]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29691]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29692]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29693]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29694]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29695]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29696]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29697]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29698]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29699]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29700]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29701]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29702]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29703]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29704]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29705]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29706]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29707]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29708]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29709]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29710]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29711]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29712]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29713]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29714]
+	"18/12/2023 8:5 [DEBUG] Player has entered instance", -- [29715]
+	"18/12/2023 8:5 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29716]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29717]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29718]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29719]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29720]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29721]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29722]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29723]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29724]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29725]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29726]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29727]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29728]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29729]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29730]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29731]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29732]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29733]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29734]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29735]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29736]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29737]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29738]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29739]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29740]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29741]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29742]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29743]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29744]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29745]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29746]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29747]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29748]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29749]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29750]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29751]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29752]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29753]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29754]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29755]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29756]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29757]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29758]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29759]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29760]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29761]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29762]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29763]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29764]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29765]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29766]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29767]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29768]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29769]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29770]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29771]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29772]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29773]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29774]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29775]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29776]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29777]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29778]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29779]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29780]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29781]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29782]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29783]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29784]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29785]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29786]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29787]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29788]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29789]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29790]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29791]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29792]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29793]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29794]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29795]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29796]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29797]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29798]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29799]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29800]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29801]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29802]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29803]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29804]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29805]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29806]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29807]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29808]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29809]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29810]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29811]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29812]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29813]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29814]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29815]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29816]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29817]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29818]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29819]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29820]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29821]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29822]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29823]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29824]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29825]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29826]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29827]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29828]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29829]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29830]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29831]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29832]
+	"18/12/2023 8:6 [DEBUG] Player has entered instance", -- [29833]
+	"18/12/2023 8:6 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29834]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29835]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29836]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29837]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29838]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29839]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29840]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29841]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29842]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29843]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29844]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29845]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29846]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29847]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29848]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29849]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29850]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29851]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29852]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29853]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29854]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29855]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29856]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29857]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29858]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29859]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29860]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29861]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29862]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29863]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29864]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29865]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29866]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29867]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29868]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29869]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29870]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29871]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29872]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29873]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29874]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29875]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29876]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29877]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29878]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29879]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29880]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29881]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29882]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29883]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29884]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29885]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29886]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29887]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29888]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29889]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29890]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29891]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29892]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29893]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29894]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29895]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29896]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29897]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29898]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29899]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29900]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29901]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29902]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29903]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29904]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29905]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29906]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29907]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29908]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29909]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29910]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29911]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29912]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29913]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29914]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29915]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29916]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29917]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29918]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29919]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29920]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29921]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29922]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29923]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29924]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29925]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29926]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29927]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29928]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29929]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29930]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29931]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29932]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29933]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29934]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29935]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29936]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29937]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29938]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29939]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29940]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29941]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29942]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29943]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29944]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29945]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29946]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29947]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29948]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29949]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29950]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29951]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29952]
+	"18/12/2023 8:7 [DEBUG] Player has entered instance", -- [29953]
+	"18/12/2023 8:7 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29954]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29955]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29956]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29957]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29958]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29959]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29960]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29961]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29962]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29963]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29964]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29965]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29966]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29967]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29968]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29969]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29970]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29971]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29972]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29973]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29974]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29975]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29976]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29977]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29978]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29979]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29980]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29981]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29982]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29983]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29984]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29985]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29986]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29987]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29988]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29989]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29990]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29991]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29992]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29993]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29994]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29995]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29996]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29997]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [29998]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [29999]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30000]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30001]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30002]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30003]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30004]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30005]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30006]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30007]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30008]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30009]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30010]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30011]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30012]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30013]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30014]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30015]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30016]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30017]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30018]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30019]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30020]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30021]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30022]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30023]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30024]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30025]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30026]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30027]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30028]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30029]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30030]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30031]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30032]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30033]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30034]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30035]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30036]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30037]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30038]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30039]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30040]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30041]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30042]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30043]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30044]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30045]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30046]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30047]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30048]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30049]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30050]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30051]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30052]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30053]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30054]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30055]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30056]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30057]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30058]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30059]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30060]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30061]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30062]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30063]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30064]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30065]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30066]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30067]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30068]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30069]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30070]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30071]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30072]
+	"18/12/2023 8:8 [DEBUG] Player has entered instance", -- [30073]
+	"18/12/2023 8:8 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30074]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30075]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30076]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30077]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30078]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30079]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30080]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30081]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30082]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30083]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30084]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30085]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30086]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30087]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30088]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30089]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30090]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30091]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30092]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30093]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30094]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30095]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30096]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30097]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30098]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30099]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30100]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30101]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30102]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30103]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30104]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30105]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30106]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30107]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30108]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30109]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30110]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30111]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30112]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30113]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30114]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30115]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30116]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30117]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30118]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30119]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30120]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30121]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30122]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30123]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30124]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30125]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30126]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30127]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30128]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30129]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30130]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30131]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30132]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30133]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30134]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30135]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30136]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30137]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30138]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30139]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30140]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30141]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30142]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30143]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30144]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30145]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30146]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30147]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30148]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30149]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30150]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30151]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30152]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30153]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30154]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30155]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30156]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30157]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30158]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30159]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30160]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30161]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30162]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30163]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30164]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30165]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30166]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30167]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30168]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30169]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30170]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30171]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30172]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30173]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30174]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30175]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30176]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30177]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30178]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30179]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30180]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30181]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30182]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30183]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30184]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30185]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30186]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30187]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30188]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30189]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30190]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30191]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30192]
+	"18/12/2023 8:9 [DEBUG] Player has entered instance", -- [30193]
+	"18/12/2023 8:9 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30194]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30195]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30196]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30197]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30198]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30199]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30200]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30201]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30202]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30203]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30204]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30205]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30206]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30207]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30208]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30209]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30210]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30211]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30212]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30213]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30214]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30215]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30216]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30217]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30218]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30219]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30220]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30221]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30222]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30223]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30224]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30225]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30226]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30227]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30228]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30229]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30230]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30231]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30232]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30233]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30234]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30235]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30236]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30237]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30238]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30239]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30240]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30241]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30242]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30243]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30244]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30245]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30246]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30247]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30248]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30249]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30250]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30251]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30252]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30253]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30254]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30255]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30256]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30257]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30258]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30259]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30260]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30261]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30262]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30263]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30264]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30265]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30266]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30267]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30268]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30269]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30270]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30271]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30272]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30273]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30274]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30275]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30276]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30277]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30278]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30279]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30280]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30281]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30282]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30283]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30284]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30285]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30286]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30287]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30288]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30289]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30290]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30291]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30292]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30293]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30294]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30295]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30296]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30297]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30298]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30299]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30300]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30301]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30302]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30303]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30304]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30305]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30306]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30307]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30308]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30309]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30310]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30311]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30312]
+	"18/12/2023 8:10 [DEBUG] Player has entered instance", -- [30313]
+	"18/12/2023 8:10 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30314]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30315]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30316]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30317]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30318]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30319]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30320]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30321]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30322]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30323]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30324]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30325]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30326]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30327]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30328]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30329]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30330]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30331]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30332]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30333]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30334]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30335]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30336]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30337]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30338]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30339]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30340]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30341]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30342]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30343]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30344]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30345]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30346]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30347]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30348]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30349]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30350]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30351]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30352]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30353]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30354]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30355]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30356]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30357]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30358]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30359]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30360]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30361]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30362]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30363]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30364]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30365]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30366]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30367]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30368]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30369]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30370]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30371]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30372]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30373]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30374]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30375]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30376]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30377]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30378]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30379]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30380]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30381]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30382]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30383]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30384]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30385]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30386]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30387]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30388]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30389]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30390]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30391]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30392]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30393]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30394]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30395]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30396]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30397]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30398]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30399]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30400]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30401]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30402]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30403]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30404]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30405]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30406]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30407]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30408]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30409]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30410]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30411]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30412]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30413]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30414]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30415]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30416]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30417]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30418]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30419]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30420]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30421]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30422]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30423]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30424]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30425]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30426]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30427]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30428]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30429]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30430]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30431]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30432]
+	"18/12/2023 8:11 [DEBUG] Player has entered instance", -- [30433]
+	"18/12/2023 8:11 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30434]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30435]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30436]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30437]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30438]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30439]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30440]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30441]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30442]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30443]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30444]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30445]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30446]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30447]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30448]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30449]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30450]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30451]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30452]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30453]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30454]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30455]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30456]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30457]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30458]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30459]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30460]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30461]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30462]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30463]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30464]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30465]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30466]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30467]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30468]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30469]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30470]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30471]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30472]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30473]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30474]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30475]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30476]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30477]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30478]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30479]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30480]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30481]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30482]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30483]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30484]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30485]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30486]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30487]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30488]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30489]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30490]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30491]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30492]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30493]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30494]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30495]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30496]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30497]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30498]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30499]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30500]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30501]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30502]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30503]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30504]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30505]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30506]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30507]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30508]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30509]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30510]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30511]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30512]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30513]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30514]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30515]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30516]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30517]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30518]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30519]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30520]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30521]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30522]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30523]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30524]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30525]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30526]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30527]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30528]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30529]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30530]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30531]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30532]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30533]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30534]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30535]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30536]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30537]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30538]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30539]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30540]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30541]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30542]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30543]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30544]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30545]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30546]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30547]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30548]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30549]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30550]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30551]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30552]
+	"18/12/2023 8:12 [DEBUG] Player has entered instance", -- [30553]
+	"18/12/2023 8:12 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30554]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30555]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30556]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30557]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30558]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30559]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30560]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30561]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30562]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30563]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30564]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30565]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30566]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30567]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30568]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30569]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30570]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30571]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30572]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30573]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30574]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30575]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30576]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30577]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30578]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30579]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30580]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30581]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30582]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30583]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30584]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30585]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30586]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30587]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30588]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30589]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30590]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30591]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30592]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30593]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30594]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30595]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30596]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30597]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30598]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30599]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30600]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30601]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30602]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30603]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30604]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30605]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30606]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30607]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30608]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30609]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30610]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30611]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30612]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30613]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30614]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30615]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30616]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30617]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30618]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30619]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30620]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30621]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30622]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30623]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30624]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30625]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30626]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30627]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30628]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30629]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30630]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30631]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30632]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30633]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30634]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30635]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30636]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30637]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30638]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30639]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30640]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30641]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30642]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30643]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30644]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30645]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30646]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30647]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30648]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30649]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30650]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30651]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30652]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30653]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30654]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30655]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30656]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30657]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30658]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30659]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30660]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30661]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30662]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30663]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30664]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30665]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30666]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30667]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30668]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30669]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30670]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30671]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30672]
+	"18/12/2023 8:13 [DEBUG] Player has entered instance", -- [30673]
+	"18/12/2023 8:13 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30674]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30675]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30676]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30677]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30678]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30679]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30680]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30681]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30682]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30683]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30684]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30685]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30686]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30687]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30688]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30689]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30690]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30691]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30692]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30693]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30694]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30695]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30696]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30697]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30698]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30699]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30700]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30701]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30702]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30703]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30704]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30705]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30706]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30707]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30708]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30709]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30710]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30711]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30712]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30713]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30714]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30715]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30716]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30717]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30718]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30719]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30720]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30721]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30722]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30723]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30724]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30725]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30726]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30727]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30728]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30729]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30730]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30731]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30732]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30733]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30734]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30735]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30736]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30737]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30738]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30739]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30740]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30741]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30742]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30743]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30744]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30745]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30746]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30747]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30748]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30749]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30750]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30751]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30752]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30753]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30754]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30755]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30756]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30757]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30758]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30759]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30760]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30761]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30762]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30763]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30764]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30765]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30766]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30767]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30768]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30769]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30770]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30771]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30772]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30773]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30774]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30775]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30776]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30777]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30778]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30779]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30780]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30781]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30782]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30783]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30784]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30785]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30786]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30787]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30788]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30789]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30790]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30791]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30792]
+	"18/12/2023 8:14 [DEBUG] Player has entered instance", -- [30793]
+	"18/12/2023 8:14 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30794]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30795]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30796]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30797]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30798]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30799]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30800]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30801]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30802]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30803]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30804]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30805]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30806]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30807]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30808]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30809]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30810]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30811]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30812]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30813]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30814]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30815]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30816]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30817]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30818]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30819]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30820]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30821]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30822]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30823]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30824]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30825]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30826]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30827]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30828]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30829]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30830]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30831]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30832]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30833]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30834]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30835]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30836]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30837]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30838]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30839]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30840]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30841]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30842]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30843]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30844]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30845]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30846]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30847]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30848]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30849]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30850]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30851]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30852]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30853]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30854]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30855]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30856]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30857]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30858]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30859]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30860]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30861]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30862]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30863]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30864]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30865]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30866]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30867]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30868]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30869]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30870]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30871]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30872]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30873]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30874]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30875]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30876]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30877]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30878]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30879]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30880]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30881]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30882]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30883]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30884]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30885]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30886]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30887]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30888]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30889]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30890]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30891]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30892]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30893]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30894]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30895]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30896]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30897]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30898]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30899]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30900]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30901]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30902]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30903]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30904]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30905]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30906]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30907]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30908]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30909]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30910]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30911]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30912]
+	"18/12/2023 8:15 [DEBUG] Player has entered instance", -- [30913]
+	"18/12/2023 8:15 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30914]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30915]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30916]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30917]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30918]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30919]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30920]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30921]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30922]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30923]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30924]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30925]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30926]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30927]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30928]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30929]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30930]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30931]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30932]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30933]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30934]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30935]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30936]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30937]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30938]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30939]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30940]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30941]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30942]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30943]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30944]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30945]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30946]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30947]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30948]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30949]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30950]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30951]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30952]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30953]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30954]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30955]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30956]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30957]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30958]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30959]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30960]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30961]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30962]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30963]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30964]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30965]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30966]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30967]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30968]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30969]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30970]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30971]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30972]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30973]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30974]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30975]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30976]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30977]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30978]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30979]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30980]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30981]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30982]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30983]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30984]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30985]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30986]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30987]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30988]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30989]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30990]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30991]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30992]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30993]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30994]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30995]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30996]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30997]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [30998]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [30999]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31000]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31001]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31002]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31003]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31004]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31005]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31006]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31007]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31008]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31009]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31010]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31011]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31012]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31013]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31014]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31015]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31016]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31017]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31018]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31019]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31020]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31021]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31022]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31023]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31024]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31025]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31026]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31027]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31028]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31029]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31030]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31031]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31032]
+	"18/12/2023 8:16 [DEBUG] Player has entered instance", -- [31033]
+	"18/12/2023 8:16 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31034]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31035]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31036]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31037]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31038]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31039]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31040]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31041]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31042]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31043]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31044]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31045]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31046]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31047]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31048]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31049]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31050]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31051]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31052]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31053]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31054]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31055]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31056]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31057]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31058]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31059]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31060]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31061]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31062]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31063]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31064]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31065]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31066]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31067]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31068]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31069]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31070]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31071]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31072]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31073]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31074]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31075]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31076]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31077]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31078]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31079]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31080]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31081]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31082]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31083]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31084]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31085]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31086]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31087]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31088]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31089]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31090]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31091]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31092]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31093]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31094]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31095]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31096]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31097]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31098]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31099]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31100]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31101]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31102]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31103]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31104]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31105]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31106]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31107]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31108]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31109]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31110]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31111]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31112]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31113]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31114]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31115]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31116]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31117]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31118]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31119]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31120]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31121]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31122]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31123]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31124]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31125]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31126]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31127]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31128]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31129]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31130]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31131]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31132]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31133]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31134]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31135]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31136]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31137]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31138]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31139]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31140]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31141]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31142]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31143]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31144]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31145]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31146]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31147]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31148]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31149]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31150]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31151]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31152]
+	"18/12/2023 8:17 [DEBUG] Player has entered instance", -- [31153]
+	"18/12/2023 8:17 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31154]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31155]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31156]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31157]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31158]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31159]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31160]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31161]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31162]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31163]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31164]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31165]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31166]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31167]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31168]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31169]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31170]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31171]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31172]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31173]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31174]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31175]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31176]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31177]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31178]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31179]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31180]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31181]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31182]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31183]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31184]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31185]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31186]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31187]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31188]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31189]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31190]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31191]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31192]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31193]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31194]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31195]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31196]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31197]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31198]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31199]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31200]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31201]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31202]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31203]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31204]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31205]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31206]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31207]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31208]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31209]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31210]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31211]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31212]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31213]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31214]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31215]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31216]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31217]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31218]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31219]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31220]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31221]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31222]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31223]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31224]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31225]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31226]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31227]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31228]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31229]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31230]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31231]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31232]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31233]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31234]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31235]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31236]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31237]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31238]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31239]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31240]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31241]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31242]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31243]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31244]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31245]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31246]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31247]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31248]
+	"18/12/2023 8:18 [DEBUG] Player has entered instance", -- [31249]
+	"18/12/2023 8:18 [DEBUG] Unable to fetch DifficultyID for current instance. Waiting 2 seconds then trying again", -- [31250]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -29502,61 +31583,61 @@ AchievementTrackerNPCCache = {
 	[197774] = "Toxic Swogmother",
 	[94923] = "Lord Kur'talos Ravencrest",
 	[72545] = "Mokvar the Treasurer",
-	[214211] = "Idriana",
+	[131853] = "Huntmaster Grath",
 	[115831] = "Mana Devourer",
-	[214235] = "Lariia",
-	[214236] = "Denatharion",
+	[127503] = "Overseer Korgus",
+	[107699] = "Spellblade Aluriel",
 	[77149] = "Rat",
 	[81305] = "Fleshrender Nok'gar",
-	[149995] = "High Priestess Azil",
+	[145903] = "Darkforged Crusader",
 	[144324] = "Gorak Tul",
 	[138314] = "Patches",
-	[214241] = "Dendrythis",
-	[214242] = "Fyldan",
+	[108600] = "Sister of the Moon",
+	[196845] = "Frozen Behemoth",
 	[52405] = "Mor'Lek the Dismantler",
 	[53696] = "Fandral's Flame",
 	[152253] = "The Tarragrue",
 	[137036] = "Awoken Void",
 	[59930] = "Empowered Zombie",
-	[201934] = "Shadowflame Amalgamation",
+	[60913] = "Energy Charge",
 	[111864] = "Sticky",
 	[43658] = "Frenzied Crocolisk",
 	[67879] = "Commander Tel'vrak",
-	[214240] = "Me'lynn",
+	[155144] = "Abyssal Commander Sivara",
 	[33524] = "Saronite Animus",
 	[98761] = "Soul Fragment",
 	[82457] = "Ner'zhul",
-	[51405] = "Angered Earth",
-	[74570] = "Ruination",
-	[181579] = "Lihuvim",
+	[161375] = "Promising Specimen",
+	[59080] = "Darkmaster Gandling",
+	[32927] = "Runemaster Molgeim",
 	[45992] = "Valiona",
 	[131667] = "Soulbound Goliath",
 	[178783] = "Moriaz the Red",
 	[60410] = "Elegon",
-	[88334] = "Croman",
-	[102950] = "Reaves",
+	[155056] = "Robo-Waste",
+	[185423] = "Reaving Automa: Neo",
 	[82074] = "Pristine True Iron Ore",
 	[156987] = "General Kaal",
-	[78430] = "Cordana Felsong",
+	[155760] = "Tank Buster MK2",
 	[52418] = "Lost Offspring of Gahz'ranka",
 	[164532] = "Hakkar the Soulflayer",
 	[197396] = "Strange Chicken",
 	[152512] = "Stormwraith",
-	[214020] = "Manifested Monarch",
-	[143045] = "Coastal Scuttler",
+	[78430] = "Cordana Felsong",
+	[98696] = "Illysanna Ravencrest",
 	[175616] = "Zo'phex",
 	[184915] = "Halondrus",
 	[185427] = "Unstable Progenitor Relic",
 	[165556] = "Fleeting Manifestation",
 	[154431] = "Khaz'goroth",
-	[144246] = "K.U.-J.0.",
+	[113971] = "Maiden of Virtue",
 	[64017] = "Derpa Derpa",
 	[162933] = "Thought Harvester",
-	[104217] = "Talixae Flamewreath",
+	[156575] = "Dark Inquisitor Xanesh",
 	[68904] = "Suen",
-	[189893] = "Infused Whelp",
+	[64556] = "Captain Ook",
 	[59100] = "Expired Test Subject",
-	[78736] = "Warlord Zaela",
+	[157475] = "Synthesis Growth",
 	[166246] = "Buttons",
 	[40634] = "Naz'jar Tempest Witch",
 	[95886] = "Ash'Golm",
@@ -29566,140 +31647,140 @@ AchievementTrackerNPCCache = {
 	[64471] = "Tenwu of the Red Smoke",
 	[26641] = "Drakkari Gutripper",
 	[74787] = "Slave Watcher Crushto",
-	[180690] = "Vazzaren the Seeker",
+	[53501] = "Living Meteor",
 	[154817] = "King Mechagon",
-	[68905] = "Lu'lin",
 	[138705] = "Gourmet Parrot Chow",
+	[68905] = "Lu'lin",
 	[77153] = "Iron Star",
-	[88938] = "Ragnaros",
-	[56839] = "Anduin Wrynn",
+	[59822] = "Auntie Stormstout",
+	[96223] = "Gamon",
 	[56843] = "Lorewalker Stonestep",
 	[53694] = "Riplimb",
-	[171474] = "Finger Food",
+	[102169] = "Black Bile",
 	[43404] = "Maloriak",
-	[160271] = "Forbidden Manifestation",
+	[58605] = "Scarlet Judicator",
 	[52675] = "Beth'tilac",
-	[72889] = "Superheated Crawler Mine",
+	[61431] = "Glintrok Scout",
 	[158190] = "Medivh",
-	[150081] = "Wise Mari",
-	[185439] = "Tainted Progenitor Relic",
-	[83775] = "Ogron Laborer",
-	[101823] = "Mushroom Merchant",
+	[69181] = "Saurid",
+	[67231] = "Trial of the King",
+	[67966] = "Whirl Turtle",
+	[61709] = "Spawn of Anger",
 	[67883] = "Rosey Axlerod",
 	[69820] = "Son of Animus",
-	[53695] = "Rageface",
+	[114895] = "Nightbane",
 	[132609] = "The Hivemind",
 	[200912] = "Neldris",
 	[61243] = "Gekkan",
 	[95888] = "Cordana Felsong",
 	[33686] = "Lore Keeper of Norgannon",
-	[29023] = "Jan'alai",
-	[61442] = "Kuai the Brute",
+	[52442] = "Florawing Hive Queen",
+	[62465] = "Captain Ook",
 	[73638] = "Tears of the Vale",
 	[114462] = "The Curator",
 	[39984] = "Malignant Trogg",
-	[169554] = "Disused Anima Container",
-	[91938] = "Haunting Soul",
+	[105301] = "Expedient Elemental",
+	[141805] = "Threshanator 3000",
 	[91349] = "Mannoroth",
-	[185128] = "Memorial Pylon",
-	[108996] = "Specter of Vengeance",
-	[178095] = "Eye of the Jailer",
+	[56637] = "Ook-Ook",
 	[153415] = "Sha of Violence",
 	[135129] = "Projection of Yogg-Saron",
+	[185128] = "Memorial Pylon",
+	[178095] = "Eye of the Jailer",
 	[70250] = "Frozen Head",
-	[53258] = "Lord Rhyolith",
+	[45993] = "Theralion",
 	[135513] = "Ancient Tome",
 	[177584] = "Burning Gibbet",
 	[71529] = "Thok the Bloodthirsty",
-	[41440] = "Aberration",
+	[166266] = "Spare Parts",
 	[185129] = "Memorial Pylon",
 	[169594] = "Filled Anima Container",
 	[90199] = "Gorefiend",
-	[32919] = "Storm Lasher",
+	[52438] = "Mortaxx",
 	[115902] = "Razorjaw Waverunner",
-	[34035] = "Feral Defender",
+	[33134] = "Sara",
+	[123503] = "Torment of Norgannon",
 	[138967] = "Zul",
-	[39665] = "Rom'ogg Bonecrusher",
 	[185130] = "Memorial Pylon",
 	[43468] = "Lady Naz'jar",
 	[70251] = "Venomous Head",
 	[105097] = "Glow Bug",
 	[164501] = "Mistcaller",
 	[71466] = "Iron Juggernaut",
-	[147430] = "Virmen",
-	[52414] = "Tor-Tun",
+	[102423] = "Mug of Mead",
+	[162102] = "Grand Proctor Beryllia",
 	[185131] = "Memorial Pylon",
-	[104341] = "Torment",
-	[77814] = "Teron'gor",
-	[33552] = "Yogg-Saron",
-	[72436] = "Immerseus",
-	[110758] = "High Inquisitor Whitemane",
+	[44530] = "Naz'jar Honor Guard",
+	[120564] = "Titanic Anomaly",
+	[165512] = "Cocoon of Lakali",
+	[59779] = "Thunderpaw Guardian",
+	[33768] = "Rubble",
 	[99663] = "Frustrated Soul",
 	[87451] = "Fleshrender Nok'gar",
 	[118924] = "Engine of Souls",
 	[123531] = "Manifestation of Taeshalach",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
+	[139737] = "Lord Stormsong",
 	[94996] = "Fragment of the Crone",
-	[72490] = "Overseer Mojka",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
-	[166644] = "Artificer Xy'mox",
+	[55308] = "Warlord Zon'ozz",
+	[67779] = "Mature Saurok Egg",
 	[56897] = "Raigonn",
-	[78948] = "Tectus",
-	[33202] = "Ancient Water Spirit",
-	[34826] = "Mistress of Pain",
+	[71979] = "Kor'kron Warbringer",
+	[49864] = "Twilight Fiend",
 	[180658] = "Focusing Prism",
 	[99664] = "Restless Soul",
 	[53494] = "Baleroc",
+	[55312] = "Yor'sahj the Unsleeping",
 	[155595] = "Sacred Gear",
-	[61213] = "Krik'thik Conscript",
-	[52440] = "Gub",
+	[175474] = "Belligerent Waiter",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
-	[81834] = "Priceless Paraphernalia",
 	[173770] = "Blazing Brazier",
+	[90018] = "Hellfire Cannon",
 	[135903] = "Manifestation of the Deep",
 	[164450] = "Dealer Xy'exa",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[111941] = "Hodir",
 	[50376] = "Angered Earth",
 	[205340] = "Expired Experiment",
-	[52422] = "Kaulema the Mover",
+	[172093] = "Hearty Haunch",
+	[111941] = "Hodir",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
 	[33113] = "Flame Leviathan",
-	[205341] = "Stack of Scrolls",
+	[33136] = "Guardian of Yogg-Saron",
 	[68336] = "Garrosh Hellscream",
 	[138718] = "Sharkbait's Empty Dish",
-	[33241] = "Freya",
-	[154741] = "Squirt Bot",
+	[205341] = "Stack of Scrolls",
+	[165737] = "Sinstone Statue",
 	[67569] = "Elder Adler",
-	[150995] = "Mimiron",
+	[55419] = "Captain Varo'then",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
-	[197298] = "Nascent Proto-Dragon",
-	[138719] = "Serve Sharkbait's Meal",
+	[173769] = "Smoldering Brazier",
+	[150995] = "Mimiron",
 	[103758] = "Star Augur Etraeus",
-	[172386] = "Anima Conduit",
+	[69086] = "Flaming Head",
 	[164363] = "Undying Stonefiend",
-	[117072] = "Mordrethal",
+	[126712] = "Training Dummy",
 	[164934] = "Manastorm",
-	[93145] = "Soul of the Crone",
+	[23574] = "Akil'zon",
 	[74475] = "Magmolatus",
 	[76585] = "Ragewing the Untamed",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
-	[23574] = "Akil'zon",
+	[93145] = "Soul of the Crone",
 	[39987] = "Evolved Twilight Zealot",
 	[116802] = "Rodent of Usual Size",
 	[108682] = "Amber Drake",
 	[171456] = "Shattered Devastator",
-	[122135] = "Shatug",
-	[205342] = "Neverburning Ebon Candle",
-	[173768] = "Fiery Brazier",
+	[164218] = "Lord Chamberlain",
+	[172094] = "Dissectible Dessert",
+	[71603] = "Sha Puddle",
 	[162317] = "Gorechop",
 	[172992] = "Overgrown Hydra",
 	[94808] = "Hellfire Guardian",
@@ -29709,166 +31790,166 @@ AchievementTrackerNPCCache = {
 	[153172] = "Stolen Scrapbot",
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
-	[86918] = "Uncharged Construct",
-	[78121] = "Gorian Warmage",
+	[36535] = "Corrupted Soul Fragment",
+	[105742] = "Turbax",
 	[115844] = "Goroth",
-	[141792] = "Liz Vilepot",
 	[71983] = "Farseer Wolf Rider",
-	[165408] = "Halkias",
-	[173767] = "Embered Brazier",
-	[205352] = "Nutraal",
+	[78121] = "Gorian Warmage",
+	[100436] = "Illysanna Ravencrest",
+	[38135] = "Deformed Fanatic",
+	[142949] = "Theramore Citizen",
 	[122366] = "Varimathras",
-	[136683] = "Trade Prince Gallywix",
+	[154074] = "Void Orb",
 	[80551] = "Shard of Tectus",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
-	[174018] = "Volatile Plague Bomb",
+	[52392] = "Gurubashi Master Chef",
 	[36855] = "Lady Deathwhisper",
-	[129208] = "Dread Captain Lockwood",
-	[172995] = "Hydra Seed",
-	[104528] = "High Botanist Tel'arn",
-	[71984] = "Siege Engineer",
 	[61567] = "Vizier Jin'bak",
+	[174018] = "Volatile Plague Bomb",
+	[104528] = "High Botanist Tel'arn",
 	[105743] = "Whipsnap",
+	[129208] = "Dread Captain Lockwood",
+	[71984] = "Siege Engineer",
 	[33343] = "XS-013 Scrapbot",
-	[32273] = "Infinite Corruptor",
+	[181546] = "Prototype of Renewal",
 	[86250] = "Kyrak",
-	[165066] = "Huntsman Altimor",
+	[29305] = "Moorabi",
 	[95833] = "Hyrja",
 	[156884] = "Essence of Vita",
+	[86928] = "Empowered Construct",
 	[69427] = "Dark Animus",
-	[72496] = "Overseer Thathung",
 	[27654] = "Drakos the Interrogator",
 	[164557] = "Shard of Halkias",
-	[56165] = "Crystal Conductor",
-	[119938] = "Reanimated Templar",
+	[179392] = "Kin'tessa",
+	[105744] = "Blaze",
 	[64061] = "Mogu'shan Warden",
-	[205989] = "Forgotten Specimen Tank",
+	[119938] = "Reanimated Templar",
+	[146016] = "Leeroy Jenkins",
 	[111882] = "Sparky",
-	[28514] = "Nalorakk",
 	[52936] = "Druid of the Flame",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
-	[146016] = "Leeroy Jenkins",
-	[105744] = "Blaze",
-	[179392] = "Kin'tessa",
+	[28514] = "Nalorakk",
+	[205989] = "Forgotten Specimen Tank",
+	[56165] = "Crystal Conductor",
 	[99031] = "Artifact",
-	[86928] = "Empowered Construct",
-	[29305] = "Moorabi",
+	[72496] = "Overseer Thathung",
+	[165066] = "Huntsman Altimor",
 	[26628] = "Drakkari Scytheclaw",
-	[181546] = "Prototype of Renewal",
+	[32273] = "Infinite Corruptor",
 	[55334] = "Void of the Unmaking",
 	[59458] = "Hopling",
 	[110732] = "Creature of Madness",
-	[52392] = "Gurubashi Master Chef",
-	[154074] = "Void Orb",
-	[142949] = "Theramore Citizen",
-	[38135] = "Deformed Fanatic",
-	[100436] = "Illysanna Ravencrest",
+	[172995] = "Hydra Seed",
+	[136683] = "Trade Prince Gallywix",
+	[205352] = "Nutraal",
+	[173767] = "Embered Brazier",
+	[165408] = "Halkias",
 	[73265] = "Corrupted Amalgamation",
-	[105742] = "Turbax",
-	[36535] = "Corrupted Soul Fragment",
+	[141792] = "Liz Vilepot",
+	[86918] = "Uncharged Construct",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
-	[71603] = "Sha Puddle",
-	[172094] = "Dissectible Dessert",
-	[164218] = "Lord Chamberlain",
+	[173768] = "Fiery Brazier",
+	[205342] = "Neverburning Ebon Candle",
+	[122135] = "Shatug",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
-	[126712] = "Training Dummy",
+	[117072] = "Mordrethal",
 	[141800] = "Brutik Blackanvil",
-	[69086] = "Flaming Head",
-	[173769] = "Smoldering Brazier",
-	[55419] = "Captain Varo'then",
-	[165737] = "Sinstone Statue",
-	[33136] = "Guardian of Yogg-Saron",
-	[172093] = "Hearty Haunch",
+	[172386] = "Anima Conduit",
+	[197298] = "Nascent Proto-Dragon",
+	[138719] = "Serve Sharkbait's Meal",
+	[154741] = "Squirt Bot",
+	[33241] = "Freya",
+	[52422] = "Kaulema the Mover",
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[90018] = "Hellfire Cannon",
+	[81834] = "Priceless Paraphernalia",
 	[68599] = "Ferra Pearl",
-	[175474] = "Belligerent Waiter",
-	[55312] = "Yor'sahj the Unsleeping",
+	[52440] = "Gub",
+	[61213] = "Krik'thik Conscript",
 	[50284] = "Twilight Zealot",
-	[49864] = "Twilight Fiend",
-	[71979] = "Kor'kron Warbringer",
-	[67779] = "Mature Saurok Egg",
-	[55308] = "Warlord Zon'ozz",
-	[139737] = "Lord Stormsong",
+	[34826] = "Mistress of Pain",
+	[33202] = "Ancient Water Spirit",
+	[78948] = "Tectus",
+	[166644] = "Artificer Xy'mox",
+	[72490] = "Overseer Mojka",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
-	[33768] = "Rubble",
-	[59779] = "Thunderpaw Guardian",
-	[165512] = "Cocoon of Lakali",
-	[120564] = "Titanic Anomaly",
-	[44530] = "Naz'jar Honor Guard",
-	[162102] = "Grand Proctor Beryllia",
-	[102423] = "Mug of Mead",
+	[110758] = "High Inquisitor Whitemane",
+	[72436] = "Immerseus",
+	[33552] = "Yogg-Saron",
+	[77814] = "Teron'gor",
+	[104341] = "Torment",
+	[52414] = "Tor-Tun",
+	[147430] = "Virmen",
 	[202800] = "Specimen Tank",
 	[131318] = "Elder Leaxa",
-	[123503] = "Torment of Norgannon",
-	[33134] = "Sara",
-	[52438] = "Mortaxx",
+	[39665] = "Rom'ogg Bonecrusher",
+	[34035] = "Feral Defender",
+	[32919] = "Storm Lasher",
 	[76209] = "Essence of Shadow",
-	[166266] = "Spare Parts",
-	[45993] = "Theralion",
+	[41440] = "Aberration",
+	[53258] = "Lord Rhyolith",
 	[101976] = "Millificent Manastorm",
 	[80557] = "Mote of Tectus",
-	[56637] = "Ook-Ook",
-	[141805] = "Threshanator 3000",
-	[105301] = "Expedient Elemental",
+	[108996] = "Specter of Vengeance",
+	[91938] = "Haunting Soul",
+	[169554] = "Disused Anima Container",
 	[64479] = "Gatecrusher",
-	[62465] = "Captain Ook",
-	[52442] = "Florawing Hive Queen",
+	[61442] = "Kuai the Brute",
+	[29023] = "Jan'alai",
 	[160859] = "Haunting Memory",
 	[38009] = "Reanimated Fanatic",
-	[114895] = "Nightbane",
+	[53695] = "Rageface",
 	[145898] = "Anointed Disciple",
-	[61709] = "Spawn of Anger",
-	[67966] = "Whirl Turtle",
-	[67231] = "Trial of the King",
-	[69181] = "Saurid",
+	[101823] = "Mushroom Merchant",
+	[83775] = "Ogron Laborer",
+	[185439] = "Tainted Progenitor Relic",
+	[150081] = "Wise Mari",
 	[33118] = "Ignis the Furnace Master",
-	[61431] = "Glintrok Scout",
-	[58605] = "Scarlet Judicator",
-	[102169] = "Black Bile",
+	[72889] = "Superheated Crawler Mine",
+	[160271] = "Forbidden Manifestation",
+	[171474] = "Finger Food",
 	[178763] = "Buttons",
 	[148201] = "Crawler Mine",
-	[96223] = "Gamon",
-	[59822] = "Auntie Stormstout",
+	[56839] = "Anduin Wrynn",
+	[88938] = "Ragnaros",
 	[151654] = "Deuce Mecha-Buffer",
-	[53501] = "Living Meteor",
+	[180690] = "Vazzaren the Seeker",
 	[137588] = "Gasping Flounder",
 	[124164] = "Torment of Golganneth",
-	[157475] = "Synthesis Growth",
-	[64556] = "Captain Ook",
-	[156575] = "Dark Inquisitor Xanesh",
+	[78736] = "Warlord Zaela",
+	[189893] = "Infused Whelp",
+	[104217] = "Talixae Flamewreath",
 	[99868] = "Fenryr",
 	[45906] = "Camel",
-	[113971] = "Maiden of Virtue",
+	[144246] = "K.U.-J.0.",
 	[65407] = "Shado-Pan Novice",
 	[138740] = "Musashitake",
 	[127809] = "Reorigination Module",
-	[98696] = "Illysanna Ravencrest",
-	[155760] = "Tank Buster MK2",
-	[185423] = "Reaving Automa: Neo",
-	[155056] = "Robo-Waste",
+	[143045] = "Coastal Scuttler",
+	[214020] = "Manifested Monarch",
+	[102950] = "Reaves",
+	[88334] = "Croman",
 	[38010] = "Reanimated Adherent",
-	[32927] = "Runemaster Molgeim",
-	[59080] = "Darkmaster Gandling",
-	[161375] = "Promising Specimen",
-	[155144] = "Abyssal Commander Sivara",
+	[181579] = "Lihuvim",
+	[74570] = "Ruination",
+	[51405] = "Angered Earth",
+	[214240] = "Me'lynn",
 	[61699] = "Sik'thik Amberwing",
-	[60913] = "Energy Charge",
+	[201934] = "Shadowflame Amalgamation",
 	[171094] = "Grisly Curio",
-	[196845] = "Frozen Behemoth",
-	[108600] = "Sister of the Moon",
-	[145903] = "Darkforged Crusader",
-	[107699] = "Spellblade Aluriel",
-	[127503] = "Overseer Korgus",
-	[131853] = "Huntmaster Grath",
+	[214242] = "Fyldan",
+	[214241] = "Dendrythis",
+	[149995] = "High Priestess Azil",
+	[214236] = "Denatharion",
+	[214235] = "Lariia",
+	[214211] = "Idriana",
 }
 AchievementTrackerNPCCacheClassic = {
 }
