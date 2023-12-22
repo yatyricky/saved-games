@@ -4,15 +4,15 @@ TomTomDB = {
 		["Nethercents - Azshara"] = "Default",
 		["Whodoikillfi - Azshara"] = "Default",
 		["Jarednine - Azshara"] = "Default",
-		["Taronxwemor - Azshara"] = "Default",
+		["Wysjj - Azshara"] = "Default",
 		["Icantbelieve - Azshara"] = "Default",
+		["Taronxwemor - Azshara"] = "Default",
+		["Pilgrimud - Azshara"] = "Default",
+		["Ugottabekidd - Azshara"] = "Default",
+		["Igottwohorns - Thunderlord"] = "Default",
+		["Berogue - Azshara"] = "Default",
 		["Shaamy - Azshara"] = "Default",
 		["Forevent - Azshara"] = "Default",
-		["Berogue - Azshara"] = "Default",
-		["Igottwohorns - Thunderlord"] = "Default",
-		["Ugottabekidd - Azshara"] = "Default",
-		["Pilgrimud - Azshara"] = "Default",
-		["Wysjj - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -43,15 +43,15 @@ TomTomWaypointsM = {
 		["Nethercents - Azshara"] = "Nethercents - Azshara",
 		["Whodoikillfi - Azshara"] = "Whodoikillfi - Azshara",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
-		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",
+		["Wysjj - Azshara"] = "Wysjj - Azshara",
 		["Icantbelieve - Azshara"] = "Icantbelieve - Azshara",
+		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",
+		["Pilgrimud - Azshara"] = "Pilgrimud - Azshara",
+		["Ugottabekidd - Azshara"] = "Ugottabekidd - Azshara",
+		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
+		["Berogue - Azshara"] = "Berogue - Azshara",
 		["Shaamy - Azshara"] = "Shaamy - Azshara",
 		["Forevent - Azshara"] = "Forevent - Azshara",
-		["Berogue - Azshara"] = "Berogue - Azshara",
-		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
-		["Ugottabekidd - Azshara"] = "Ugottabekidd - Azshara",
-		["Pilgrimud - Azshara"] = "Pilgrimud - Azshara",
-		["Wysjj - Azshara"] = "Wysjj - Azshara",
 	},
 	["profiles"] = {
 		["Nethercents - Azshara"] = {
@@ -60,23 +60,23 @@ TomTomWaypointsM = {
 		},
 		["Jarednine - Azshara"] = {
 		},
-		["Taronxwemor - Azshara"] = {
+		["Wysjj - Azshara"] = {
 		},
 		["Icantbelieve - Azshara"] = {
+		},
+		["Taronxwemor - Azshara"] = {
+		},
+		["Pilgrimud - Azshara"] = {
+		},
+		["Ugottabekidd - Azshara"] = {
+		},
+		["Igottwohorns - Thunderlord"] = {
+		},
+		["Berogue - Azshara"] = {
 		},
 		["Shaamy - Azshara"] = {
 		},
 		["Forevent - Azshara"] = {
-		},
-		["Berogue - Azshara"] = {
-		},
-		["Igottwohorns - Thunderlord"] = {
-		},
-		["Ugottabekidd - Azshara"] = {
-		},
-		["Pilgrimud - Azshara"] = {
-		},
-		["Wysjj - Azshara"] = {
 		},
 	},
 }
