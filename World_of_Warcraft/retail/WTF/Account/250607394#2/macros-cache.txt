@@ -5,6 +5,9 @@ END
 VER 3 0000000000000002 "reset" "132096"
 /script ResetInstances();
 END
+VER 3 0000000000000004 "rl" "132180"
+/console reloadui
+END
 VER 3 0000000000000001 "target" "132090"
 /target shaded
 /cleartarget [dead]
