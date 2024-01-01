@@ -10,16 +10,16 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 175.1911547254768,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
+	["announceTrackedAchievements"] = false,
 	["InfoFramescale"] = 1,
-	["hideCompletedAchievements"] = true,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "BOTTOMRIGHT",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 145.0003662109375,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 145.0003662109375,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["hideCompletedAchievements"] = true,
 }
 AchievementTrackerDebug = {
 	"20/9/2023 23:38 [DEBUG] ---IAT Runtime---", -- [1]
@@ -40510,6 +40510,148 @@ AchievementTrackerDebug = {
 	"31/12/2023 2:13 [DEBUG] Offical Instance Name: 230 _230", -- [40486]
 	"31/12/2023 2:13 [DEBUG] DifficultyID: 1", -- [40487]
 	"31/12/2023 2:13 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [40488]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [40489]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.29.0", -- [40490]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [40491]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [40492]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [40493]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [40494]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [40495]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [40496]
+	"1/1/2024 1:50 [DEBUG] Showing Minimap Icon", -- [40497]
+	"1/1/2024 1:52 [DEBUG] Player has entered instance", -- [40498]
+	"1/1/2024 1:52 [DEBUG] 409", -- [40499]
+	"1/1/2024 1:52 [DEBUG] Offical Instance Name: 409 _409", -- [40500]
+	"1/1/2024 1:52 [DEBUG] DifficultyID: 9", -- [40501]
+	"1/1/2024 1:52 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [40502]
+	"1/1/2024 1:52 [DEBUG] Player has entered instance", -- [40503]
+	"1/1/2024 1:52 [DEBUG] 409", -- [40504]
+	"1/1/2024 1:52 [DEBUG] Offical Instance Name: 409 _409", -- [40505]
+	"1/1/2024 1:52 [DEBUG] DifficultyID: 9", -- [40506]
+	"1/1/2024 1:52 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [40507]
+	"1/1/2024 1:57 [DEBUG] Player has entered instance", -- [40508]
+	"1/1/2024 1:57 [DEBUG] 230", -- [40509]
+	"1/1/2024 1:57 [DEBUG] Offical Instance Name: 230 _230", -- [40510]
+	"1/1/2024 1:57 [DEBUG] DifficultyID: 1", -- [40511]
+	"1/1/2024 1:57 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [40512]
+	"1/1/2024 1:57 [DEBUG] Player has entered instance", -- [40513]
+	"1/1/2024 1:57 [DEBUG] 230", -- [40514]
+	"1/1/2024 1:57 [DEBUG] Offical Instance Name: 230 _230", -- [40515]
+	"1/1/2024 1:57 [DEBUG] DifficultyID: 1", -- [40516]
+	"1/1/2024 1:57 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [40517]
+	"1/1/2024 2:21 [DEBUG] Player has entered instance", -- [40518]
+	"1/1/2024 2:21 [DEBUG] 230", -- [40519]
+	"1/1/2024 2:21 [DEBUG] Offical Instance Name: 230 _230", -- [40520]
+	"1/1/2024 2:21 [DEBUG] DifficultyID: 1", -- [40521]
+	"1/1/2024 2:21 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [40522]
+	"1/1/2024 2:21 [DEBUG] Player has entered instance", -- [40523]
+	"1/1/2024 2:21 [DEBUG] 230", -- [40524]
+	"1/1/2024 2:21 [DEBUG] Offical Instance Name: 230 _230", -- [40525]
+	"1/1/2024 2:21 [DEBUG] DifficultyID: 1", -- [40526]
+	"1/1/2024 2:21 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [40527]
+	"1/1/2024 2:32 [DEBUG] ---IAT Runtime---", -- [40528]
+	"1/1/2024 2:32 [DEBUG] Version: 4.29.0", -- [40529]
+	"1/1/2024 2:32 [DEBUG] Attempting to load from local NPC Cache", -- [40530]
+	"1/1/2024 2:32 [DEBUG] Generating NPC Cache...", -- [40531]
+	"1/1/2024 2:32 [DEBUG] Only Tracking Missing Achievements Enabled", -- [40532]
+	"1/1/2024 2:32 [DEBUG] true", -- [40533]
+	"1/1/2024 2:32 [DEBUG] Enabling Addon", -- [40534]
+	"1/1/2024 2:32 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [40535]
+	"1/1/2024 2:34 [DEBUG] Showing Minimap Icon", -- [40536]
+	"1/1/2024 2:48 [DEBUG] ---IAT Runtime---", -- [40537]
+	"1/1/2024 2:48 [DEBUG] Version: 4.29.0", -- [40538]
+	"1/1/2024 2:48 [DEBUG] Attempting to load from local NPC Cache", -- [40539]
+	"1/1/2024 2:48 [DEBUG] Generating NPC Cache...", -- [40540]
+	"1/1/2024 2:48 [DEBUG] Only Tracking Missing Achievements Enabled", -- [40541]
+	"1/1/2024 2:48 [DEBUG] true", -- [40542]
+	"1/1/2024 2:48 [DEBUG] Enabling Addon", -- [40543]
+	"1/1/2024 2:48 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [40544]
+	"1/1/2024 2:48 [DEBUG] Showing Minimap Icon", -- [40545]
+	"1/1/2024 2:49 [DEBUG] ---IAT Runtime---", -- [40546]
+	"1/1/2024 2:49 [DEBUG] Version: 4.29.0", -- [40547]
+	"1/1/2024 2:49 [DEBUG] Attempting to load from local NPC Cache", -- [40548]
+	"1/1/2024 2:49 [DEBUG] Generating NPC Cache...", -- [40549]
+	"1/1/2024 2:49 [DEBUG] Only Tracking Missing Achievements Enabled", -- [40550]
+	"1/1/2024 2:49 [DEBUG] true", -- [40551]
+	"1/1/2024 2:49 [DEBUG] Enabling Addon", -- [40552]
+	"1/1/2024 2:49 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [40553]
+	"1/1/2024 2:50 [DEBUG] Showing Minimap Icon", -- [40554]
+	"1/1/2024 2:55 [DEBUG] Player has entered instance", -- [40555]
+	"1/1/2024 2:55 [DEBUG] 409", -- [40556]
+	"1/1/2024 2:55 [DEBUG] Offical Instance Name: 409 _409", -- [40557]
+	"1/1/2024 2:55 [DEBUG] DifficultyID: 9", -- [40558]
+	"1/1/2024 2:55 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [40559]
+	"1/1/2024 2:55 [DEBUG] Player has entered instance", -- [40560]
+	"1/1/2024 2:55 [DEBUG] 409", -- [40561]
+	"1/1/2024 2:55 [DEBUG] Offical Instance Name: 409 _409", -- [40562]
+	"1/1/2024 2:55 [DEBUG] DifficultyID: 9", -- [40563]
+	"1/1/2024 2:55 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [40564]
+	"1/1/2024 3:9 [DEBUG] ---IAT Runtime---", -- [40565]
+	"1/1/2024 3:9 [DEBUG] Version: 4.29.0", -- [40566]
+	"1/1/2024 3:9 [DEBUG] Attempting to load from local NPC Cache", -- [40567]
+	"1/1/2024 3:9 [DEBUG] Generating NPC Cache...", -- [40568]
+	"1/1/2024 3:9 [DEBUG] Only Tracking Missing Achievements Enabled", -- [40569]
+	"1/1/2024 3:9 [DEBUG] true", -- [40570]
+	"1/1/2024 3:9 [DEBUG] Enabling Addon", -- [40571]
+	"1/1/2024 3:9 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [40572]
+	"1/1/2024 3:10 [DEBUG] Showing Minimap Icon", -- [40573]
+	"1/1/2024 3:10 [DEBUG] Player has entered instance", -- [40574]
+	"1/1/2024 3:10 [DEBUG] 249", -- [40575]
+	"1/1/2024 3:10 [DEBUG] Offical Instance Name: 249 _249", -- [40576]
+	"1/1/2024 3:10 [DEBUG] Detected Legacy 25 man raid", -- [40577]
+	"1/1/2024 3:10 [DEBUG] New Instance Name: 249-25", -- [40578]
+	"1/1/2024 3:10 [DEBUG] Expansion: 3", -- [40579]
+	"1/1/2024 3:10 [DEBUG] Instance Type: Raids", -- [40580]
+	"1/1/2024 3:10 [DEBUG] Instance: 249-25", -- [40581]
+	"1/1/2024 3:10 [DEBUG] DifficultyID: 4", -- [40582]
+	"1/1/2024 3:10 [DEBUG] Expansion: 3", -- [40583]
+	"1/1/2024 3:10 [DEBUG] Instance Type: Raids", -- [40584]
+	"1/1/2024 3:10 [DEBUG] Instance: 249-25", -- [40585]
+	"1/1/2024 3:10 [DEBUG] Asking user whether they want to track this instance", -- [40586]
+	"1/1/2024 3:10 [DEBUG] Creating Tracking UI", -- [40587]
+	"1/1/2024 3:10 [DEBUG] InfoFrame Setup Complete", -- [40588]
+	"1/1/2024 3:10 [DEBUG] Expansion: 3", -- [40589]
+	"1/1/2024 3:10 [DEBUG] Player has entered instance", -- [40590]
+	"1/1/2024 3:10 [DEBUG] 249", -- [40591]
+	"1/1/2024 3:10 [DEBUG] Offical Instance Name: 249 _249", -- [40592]
+	"1/1/2024 3:10 [DEBUG] Detected Legacy 25 man raid", -- [40593]
+	"1/1/2024 3:10 [DEBUG] New Instance Name: 249-25", -- [40594]
+	"1/1/2024 3:10 [DEBUG] Expansion: 3", -- [40595]
+	"1/1/2024 3:10 [DEBUG] Instance Type: Raids", -- [40596]
+	"1/1/2024 3:10 [DEBUG] Instance: 249-25", -- [40597]
+	"1/1/2024 3:10 [DEBUG] DifficultyID: 4", -- [40598]
+	"1/1/2024 3:10 [DEBUG] Expansion: 3", -- [40599]
+	"1/1/2024 3:10 [DEBUG] Instance Type: Raids", -- [40600]
+	"1/1/2024 3:10 [DEBUG] Instance: 249-25", -- [40601]
+	"1/1/2024 3:10 [DEBUG] No Achievements to track for this instance", -- [40602]
+	"1/1/2024 3:10 [DEBUG] Expansion: 3", -- [40603]
+	"1/1/2024 3:10 [DEBUG] Clearing Instance Variables", -- [40604]
+	"1/1/2024 3:10 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [40605]
+	"1/1/2024 3:10 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [40606]
+	"1/1/2024 3:10 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [40607]
+	"1/1/2024 3:10 [DEBUG] Clearing Instance Variables if exists", -- [40608]
+	"1/1/2024 3:10 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [40609]
+	"1/1/2024 3:10 [DEBUG] Clearing Instance Variables if exists", -- [40610]
+	"1/1/2024 3:10 [DEBUG] Clearing Instance Variables", -- [40611]
+	"1/1/2024 3:10 [DEBUG] Resetting Global Variables", -- [40612]
+	"1/1/2024 3:10 [DEBUG] InfoFrame does not need to be reset", -- [40613]
+	"1/1/2024 3:10 [DEBUG] Resetting PlayerRank", -- [40614]
+	"1/1/2024 3:10 [DEBUG] InfoFrame was not active", -- [40615]
+	"1/1/2024 3:10 [DEBUG] 6", -- [40616]
+	"1/1/2024 3:10 [DEBUG] Hiding Tracking UI", -- [40617]
+	"1/1/2024 3:12 [DEBUG] Hiding Tracking UI", -- [40618]
+	"1/1/2024 3:14 [DEBUG] Hiding Tracking UI", -- [40619]
+	"1/1/2024 3:31 [DEBUG] Hiding Tracking UI", -- [40620]
+	"1/1/2024 3:36 [DEBUG] Hiding Tracking UI", -- [40621]
+	"1/1/2024 3:37 [DEBUG] Hiding Tracking UI", -- [40622]
+	"1/1/2024 3:38 [DEBUG] Hiding Tracking UI", -- [40623]
+	"1/1/2024 3:39 [DEBUG] Hiding Tracking UI", -- [40624]
+	"1/1/2024 3:41 [DEBUG] Hiding Tracking UI", -- [40625]
+	"1/1/2024 3:42 [DEBUG] Hiding Tracking UI", -- [40626]
+	"1/1/2024 3:43 [DEBUG] Hiding Tracking UI", -- [40627]
+	"1/1/2024 3:43 [DEBUG] Hiding Tracking UI", -- [40628]
+	"1/1/2024 3:44 [DEBUG] Hiding Tracking UI", -- [40629]
+	"1/1/2024 3:44 [DEBUG] Hiding Tracking UI", -- [40630]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -40821,61 +40963,61 @@ AchievementTrackerNPCCache = {
 	[197774] = "Toxic Swogmother",
 	[94923] = "Lord Kur'talos Ravencrest",
 	[72545] = "Mokvar the Treasurer",
-	[214211] = "Idriana",
+	[131853] = "Huntmaster Grath",
 	[115831] = "Mana Devourer",
-	[214235] = "Lariia",
-	[214236] = "Denatharion",
+	[127503] = "Overseer Korgus",
+	[107699] = "Spellblade Aluriel",
 	[77149] = "Rat",
 	[81305] = "Fleshrender Nok'gar",
-	[149995] = "High Priestess Azil",
+	[145903] = "Darkforged Crusader",
 	[144324] = "Gorak Tul",
 	[138314] = "Patches",
-	[214241] = "Dendrythis",
-	[214242] = "Fyldan",
+	[108600] = "Sister of the Moon",
+	[196845] = "Frozen Behemoth",
 	[52405] = "Mor'Lek the Dismantler",
 	[53696] = "Fandral's Flame",
 	[152253] = "The Tarragrue",
 	[137036] = "Awoken Void",
 	[59930] = "Empowered Zombie",
-	[201934] = "Shadowflame Amalgamation",
+	[60913] = "Energy Charge",
 	[111864] = "Sticky",
 	[43658] = "Frenzied Crocolisk",
 	[67879] = "Commander Tel'vrak",
-	[214240] = "Me'lynn",
+	[155144] = "Abyssal Commander Sivara",
 	[33524] = "Saronite Animus",
 	[98761] = "Soul Fragment",
 	[82457] = "Ner'zhul",
-	[51405] = "Angered Earth",
-	[74570] = "Ruination",
-	[181579] = "Lihuvim",
+	[161375] = "Promising Specimen",
+	[59080] = "Darkmaster Gandling",
+	[32927] = "Runemaster Molgeim",
 	[45992] = "Valiona",
 	[131667] = "Soulbound Goliath",
 	[178783] = "Moriaz the Red",
 	[60410] = "Elegon",
-	[88334] = "Croman",
-	[102950] = "Reaves",
+	[155056] = "Robo-Waste",
+	[185423] = "Reaving Automa: Neo",
 	[82074] = "Pristine True Iron Ore",
 	[156987] = "General Kaal",
-	[78430] = "Cordana Felsong",
+	[155760] = "Tank Buster MK2",
 	[52418] = "Lost Offspring of Gahz'ranka",
 	[164532] = "Hakkar the Soulflayer",
 	[197396] = "Strange Chicken",
 	[152512] = "Stormwraith",
-	[214020] = "Manifested Monarch",
-	[143045] = "Coastal Scuttler",
+	[78430] = "Cordana Felsong",
+	[98696] = "Illysanna Ravencrest",
 	[175616] = "Zo'phex",
 	[184915] = "Halondrus",
 	[185427] = "Unstable Progenitor Relic",
 	[165556] = "Fleeting Manifestation",
 	[154431] = "Khaz'goroth",
-	[144246] = "K.U.-J.0.",
+	[113971] = "Maiden of Virtue",
 	[64017] = "Derpa Derpa",
 	[162933] = "Thought Harvester",
-	[104217] = "Talixae Flamewreath",
+	[156575] = "Dark Inquisitor Xanesh",
 	[68904] = "Suen",
-	[189893] = "Infused Whelp",
+	[64556] = "Captain Ook",
 	[59100] = "Expired Test Subject",
-	[78736] = "Warlord Zaela",
+	[157475] = "Synthesis Growth",
 	[166246] = "Buttons",
 	[40634] = "Naz'jar Tempest Witch",
 	[95886] = "Ash'Golm",
@@ -40885,140 +41027,140 @@ AchievementTrackerNPCCache = {
 	[64471] = "Tenwu of the Red Smoke",
 	[26641] = "Drakkari Gutripper",
 	[74787] = "Slave Watcher Crushto",
-	[180690] = "Vazzaren the Seeker",
+	[53501] = "Living Meteor",
 	[154817] = "King Mechagon",
-	[68905] = "Lu'lin",
 	[138705] = "Gourmet Parrot Chow",
+	[68905] = "Lu'lin",
 	[77153] = "Iron Star",
-	[88938] = "Ragnaros",
-	[56839] = "Anduin Wrynn",
+	[59822] = "Auntie Stormstout",
+	[96223] = "Gamon",
 	[56843] = "Lorewalker Stonestep",
 	[53694] = "Riplimb",
-	[171474] = "Finger Food",
+	[102169] = "Black Bile",
 	[43404] = "Maloriak",
-	[160271] = "Forbidden Manifestation",
+	[58605] = "Scarlet Judicator",
 	[52675] = "Beth'tilac",
-	[72889] = "Superheated Crawler Mine",
+	[61431] = "Glintrok Scout",
 	[158190] = "Medivh",
-	[150081] = "Wise Mari",
-	[185439] = "Tainted Progenitor Relic",
-	[83775] = "Ogron Laborer",
-	[101823] = "Mushroom Merchant",
+	[69181] = "Saurid",
+	[67231] = "Trial of the King",
+	[67966] = "Whirl Turtle",
+	[61709] = "Spawn of Anger",
 	[67883] = "Rosey Axlerod",
 	[69820] = "Son of Animus",
-	[53695] = "Rageface",
+	[114895] = "Nightbane",
 	[132609] = "The Hivemind",
 	[200912] = "Neldris",
 	[61243] = "Gekkan",
 	[95888] = "Cordana Felsong",
 	[33686] = "Lore Keeper of Norgannon",
-	[29023] = "Jan'alai",
-	[61442] = "Kuai the Brute",
+	[52442] = "Florawing Hive Queen",
+	[62465] = "Captain Ook",
 	[73638] = "Tears of the Vale",
 	[114462] = "The Curator",
 	[39984] = "Malignant Trogg",
-	[169554] = "Disused Anima Container",
-	[91938] = "Haunting Soul",
+	[105301] = "Expedient Elemental",
+	[141805] = "Threshanator 3000",
 	[91349] = "Mannoroth",
-	[185128] = "Memorial Pylon",
-	[108996] = "Specter of Vengeance",
-	[178095] = "Eye of the Jailer",
+	[56637] = "Ook-Ook",
 	[153415] = "Sha of Violence",
 	[135129] = "Projection of Yogg-Saron",
+	[185128] = "Memorial Pylon",
+	[178095] = "Eye of the Jailer",
 	[70250] = "Frozen Head",
-	[53258] = "Lord Rhyolith",
+	[45993] = "Theralion",
 	[135513] = "Ancient Tome",
 	[177584] = "Burning Gibbet",
 	[71529] = "Thok the Bloodthirsty",
-	[41440] = "Aberration",
+	[166266] = "Spare Parts",
 	[185129] = "Memorial Pylon",
 	[169594] = "Filled Anima Container",
 	[90199] = "Gorefiend",
-	[32919] = "Storm Lasher",
+	[52438] = "Mortaxx",
 	[115902] = "Razorjaw Waverunner",
-	[34035] = "Feral Defender",
+	[33134] = "Sara",
+	[123503] = "Torment of Norgannon",
 	[138967] = "Zul",
-	[39665] = "Rom'ogg Bonecrusher",
 	[185130] = "Memorial Pylon",
 	[43468] = "Lady Naz'jar",
 	[70251] = "Venomous Head",
 	[105097] = "Glow Bug",
 	[164501] = "Mistcaller",
 	[71466] = "Iron Juggernaut",
-	[147430] = "Virmen",
-	[52414] = "Tor-Tun",
+	[102423] = "Mug of Mead",
+	[162102] = "Grand Proctor Beryllia",
 	[185131] = "Memorial Pylon",
-	[104341] = "Torment",
-	[77814] = "Teron'gor",
-	[33552] = "Yogg-Saron",
-	[72436] = "Immerseus",
-	[110758] = "High Inquisitor Whitemane",
+	[44530] = "Naz'jar Honor Guard",
+	[120564] = "Titanic Anomaly",
+	[165512] = "Cocoon of Lakali",
+	[59779] = "Thunderpaw Guardian",
+	[33768] = "Rubble",
 	[99663] = "Frustrated Soul",
 	[87451] = "Fleshrender Nok'gar",
 	[118924] = "Engine of Souls",
 	[123531] = "Manifestation of Taeshalach",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
-	[94996] = "Fragment of the Crone",
 	[72490] = "Overseer Mojka",
+	[139737] = "Lord Stormsong",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
-	[166644] = "Artificer Xy'mox",
+	[55308] = "Warlord Zon'ozz",
+	[67779] = "Mature Saurok Egg",
 	[56897] = "Raigonn",
-	[78948] = "Tectus",
-	[33202] = "Ancient Water Spirit",
-	[34826] = "Mistress of Pain",
+	[71979] = "Kor'kron Warbringer",
+	[49864] = "Twilight Fiend",
 	[180658] = "Focusing Prism",
 	[99664] = "Restless Soul",
 	[53494] = "Baleroc",
+	[55312] = "Yor'sahj the Unsleeping",
 	[155595] = "Sacred Gear",
-	[61213] = "Krik'thik Conscript",
-	[52440] = "Gub",
+	[175474] = "Belligerent Waiter",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
+	[90018] = "Hellfire Cannon",
 	[81834] = "Priceless Paraphernalia",
-	[173770] = "Blazing Brazier",
 	[135903] = "Manifestation of the Deep",
 	[164450] = "Dealer Xy'exa",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[52422] = "Kaulema the Mover",
-	[205340] = "Expired Experiment",
 	[50376] = "Angered Earth",
+	[205340] = "Expired Experiment",
+	[172093] = "Hearty Haunch",
 	[111941] = "Hodir",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
 	[33113] = "Flame Leviathan",
-	[205341] = "Stack of Scrolls",
+	[33136] = "Guardian of Yogg-Saron",
 	[68336] = "Garrosh Hellscream",
 	[138718] = "Sharkbait's Empty Dish",
-	[33241] = "Freya",
-	[154741] = "Squirt Bot",
+	[205341] = "Stack of Scrolls",
+	[165737] = "Sinstone Statue",
 	[67569] = "Elder Adler",
-	[150995] = "Mimiron",
+	[55419] = "Captain Varo'then",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
-	[197298] = "Nascent Proto-Dragon",
-	[138719] = "Serve Sharkbait's Meal",
+	[173769] = "Smoldering Brazier",
+	[150995] = "Mimiron",
 	[103758] = "Star Augur Etraeus",
-	[172386] = "Anima Conduit",
+	[69086] = "Flaming Head",
 	[164363] = "Undying Stonefiend",
-	[117072] = "Mordrethal",
+	[126712] = "Training Dummy",
 	[164934] = "Manastorm",
-	[93145] = "Soul of the Crone",
+	[23574] = "Akil'zon",
 	[74475] = "Magmolatus",
 	[76585] = "Ragewing the Untamed",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
-	[23574] = "Akil'zon",
+	[93145] = "Soul of the Crone",
 	[39987] = "Evolved Twilight Zealot",
 	[116802] = "Rodent of Usual Size",
 	[108682] = "Amber Drake",
 	[171456] = "Shattered Devastator",
-	[122135] = "Shatug",
-	[205342] = "Neverburning Ebon Candle",
-	[173768] = "Fiery Brazier",
+	[164218] = "Lord Chamberlain",
+	[172094] = "Dissectible Dessert",
+	[71603] = "Sha Puddle",
 	[162317] = "Gorechop",
 	[172992] = "Overgrown Hydra",
 	[94808] = "Hellfire Guardian",
@@ -41028,166 +41170,166 @@ AchievementTrackerNPCCache = {
 	[153172] = "Stolen Scrapbot",
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
-	[86918] = "Uncharged Construct",
-	[78121] = "Gorian Warmage",
-	[115844] = "Goroth",
-	[141792] = "Liz Vilepot",
 	[71983] = "Farseer Wolf Rider",
-	[165408] = "Halkias",
-	[173767] = "Embered Brazier",
-	[205352] = "Nutraal",
+	[36535] = "Corrupted Soul Fragment",
+	[115844] = "Goroth",
+	[105742] = "Turbax",
+	[78121] = "Gorian Warmage",
+	[100436] = "Illysanna Ravencrest",
+	[38135] = "Deformed Fanatic",
+	[142949] = "Theramore Citizen",
 	[122366] = "Varimathras",
-	[136683] = "Trade Prince Gallywix",
+	[154074] = "Void Orb",
 	[80551] = "Shard of Tectus",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
-	[174018] = "Volatile Plague Bomb",
+	[52392] = "Gurubashi Master Chef",
 	[36855] = "Lady Deathwhisper",
-	[129208] = "Dread Captain Lockwood",
-	[172995] = "Hydra Seed",
-	[104528] = "High Botanist Tel'arn",
-	[71984] = "Siege Engineer",
 	[61567] = "Vizier Jin'bak",
+	[174018] = "Volatile Plague Bomb",
+	[104528] = "High Botanist Tel'arn",
 	[105743] = "Whipsnap",
+	[129208] = "Dread Captain Lockwood",
+	[71984] = "Siege Engineer",
 	[33343] = "XS-013 Scrapbot",
-	[32273] = "Infinite Corruptor",
+	[181546] = "Prototype of Renewal",
 	[86250] = "Kyrak",
-	[165066] = "Huntsman Altimor",
+	[29305] = "Moorabi",
 	[95833] = "Hyrja",
 	[156884] = "Essence of Vita",
+	[86928] = "Empowered Construct",
 	[69427] = "Dark Animus",
-	[72496] = "Overseer Thathung",
 	[27654] = "Drakos the Interrogator",
 	[164557] = "Shard of Halkias",
-	[56165] = "Crystal Conductor",
-	[119938] = "Reanimated Templar",
-	[64061] = "Mogu'shan Warden",
-	[205989] = "Forgotten Specimen Tank",
-	[111882] = "Sparky",
+	[179392] = "Kin'tessa",
 	[28514] = "Nalorakk",
+	[64061] = "Mogu'shan Warden",
+	[119938] = "Reanimated Templar",
+	[146016] = "Leeroy Jenkins",
+	[105744] = "Blaze",
 	[52936] = "Druid of the Flame",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
-	[146016] = "Leeroy Jenkins",
-	[105744] = "Blaze",
-	[179392] = "Kin'tessa",
+	[111882] = "Sparky",
+	[205989] = "Forgotten Specimen Tank",
+	[56165] = "Crystal Conductor",
 	[99031] = "Artifact",
-	[86928] = "Empowered Construct",
-	[29305] = "Moorabi",
+	[72496] = "Overseer Thathung",
+	[165066] = "Huntsman Altimor",
 	[26628] = "Drakkari Scytheclaw",
-	[181546] = "Prototype of Renewal",
+	[32273] = "Infinite Corruptor",
 	[55334] = "Void of the Unmaking",
 	[59458] = "Hopling",
 	[110732] = "Creature of Madness",
-	[52392] = "Gurubashi Master Chef",
-	[154074] = "Void Orb",
-	[142949] = "Theramore Citizen",
-	[38135] = "Deformed Fanatic",
-	[100436] = "Illysanna Ravencrest",
+	[172995] = "Hydra Seed",
+	[136683] = "Trade Prince Gallywix",
+	[205352] = "Nutraal",
+	[173767] = "Embered Brazier",
+	[165408] = "Halkias",
 	[73265] = "Corrupted Amalgamation",
-	[105742] = "Turbax",
-	[36535] = "Corrupted Soul Fragment",
+	[141792] = "Liz Vilepot",
+	[86918] = "Uncharged Construct",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
-	[71603] = "Sha Puddle",
-	[172094] = "Dissectible Dessert",
-	[164218] = "Lord Chamberlain",
+	[173768] = "Fiery Brazier",
+	[205342] = "Neverburning Ebon Candle",
+	[122135] = "Shatug",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
-	[126712] = "Training Dummy",
+	[117072] = "Mordrethal",
 	[141800] = "Brutik Blackanvil",
-	[69086] = "Flaming Head",
-	[173769] = "Smoldering Brazier",
-	[55419] = "Captain Varo'then",
-	[165737] = "Sinstone Statue",
-	[33136] = "Guardian of Yogg-Saron",
-	[172093] = "Hearty Haunch",
+	[172386] = "Anima Conduit",
+	[197298] = "Nascent Proto-Dragon",
+	[138719] = "Serve Sharkbait's Meal",
+	[154741] = "Squirt Bot",
+	[33241] = "Freya",
+	[52422] = "Kaulema the Mover",
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[90018] = "Hellfire Cannon",
+	[173770] = "Blazing Brazier",
 	[68599] = "Ferra Pearl",
-	[175474] = "Belligerent Waiter",
-	[55312] = "Yor'sahj the Unsleeping",
+	[52440] = "Gub",
+	[61213] = "Krik'thik Conscript",
 	[50284] = "Twilight Zealot",
-	[49864] = "Twilight Fiend",
-	[71979] = "Kor'kron Warbringer",
-	[67779] = "Mature Saurok Egg",
-	[55308] = "Warlord Zon'ozz",
-	[139737] = "Lord Stormsong",
+	[34826] = "Mistress of Pain",
+	[33202] = "Ancient Water Spirit",
+	[78948] = "Tectus",
+	[166644] = "Artificer Xy'mox",
+	[94996] = "Fragment of the Crone",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
-	[33768] = "Rubble",
-	[59779] = "Thunderpaw Guardian",
-	[165512] = "Cocoon of Lakali",
-	[120564] = "Titanic Anomaly",
-	[44530] = "Naz'jar Honor Guard",
-	[162102] = "Grand Proctor Beryllia",
-	[102423] = "Mug of Mead",
+	[110758] = "High Inquisitor Whitemane",
+	[72436] = "Immerseus",
+	[33552] = "Yogg-Saron",
+	[77814] = "Teron'gor",
+	[104341] = "Torment",
+	[52414] = "Tor-Tun",
+	[147430] = "Virmen",
 	[202800] = "Specimen Tank",
 	[131318] = "Elder Leaxa",
-	[123503] = "Torment of Norgannon",
-	[33134] = "Sara",
-	[52438] = "Mortaxx",
+	[39665] = "Rom'ogg Bonecrusher",
+	[34035] = "Feral Defender",
+	[32919] = "Storm Lasher",
 	[76209] = "Essence of Shadow",
-	[166266] = "Spare Parts",
-	[45993] = "Theralion",
+	[41440] = "Aberration",
+	[53258] = "Lord Rhyolith",
 	[101976] = "Millificent Manastorm",
 	[80557] = "Mote of Tectus",
-	[56637] = "Ook-Ook",
-	[141805] = "Threshanator 3000",
-	[105301] = "Expedient Elemental",
+	[108996] = "Specter of Vengeance",
+	[91938] = "Haunting Soul",
+	[169554] = "Disused Anima Container",
 	[64479] = "Gatecrusher",
-	[62465] = "Captain Ook",
-	[52442] = "Florawing Hive Queen",
+	[61442] = "Kuai the Brute",
+	[29023] = "Jan'alai",
 	[160859] = "Haunting Memory",
 	[38009] = "Reanimated Fanatic",
-	[114895] = "Nightbane",
+	[53695] = "Rageface",
 	[145898] = "Anointed Disciple",
-	[61709] = "Spawn of Anger",
-	[67966] = "Whirl Turtle",
-	[67231] = "Trial of the King",
-	[69181] = "Saurid",
+	[101823] = "Mushroom Merchant",
+	[83775] = "Ogron Laborer",
+	[185439] = "Tainted Progenitor Relic",
+	[150081] = "Wise Mari",
 	[33118] = "Ignis the Furnace Master",
-	[61431] = "Glintrok Scout",
-	[58605] = "Scarlet Judicator",
-	[102169] = "Black Bile",
+	[72889] = "Superheated Crawler Mine",
+	[160271] = "Forbidden Manifestation",
+	[171474] = "Finger Food",
 	[178763] = "Buttons",
 	[148201] = "Crawler Mine",
-	[96223] = "Gamon",
-	[59822] = "Auntie Stormstout",
+	[56839] = "Anduin Wrynn",
+	[88938] = "Ragnaros",
 	[151654] = "Deuce Mecha-Buffer",
-	[53501] = "Living Meteor",
+	[180690] = "Vazzaren the Seeker",
 	[137588] = "Gasping Flounder",
 	[124164] = "Torment of Golganneth",
-	[157475] = "Synthesis Growth",
-	[64556] = "Captain Ook",
-	[156575] = "Dark Inquisitor Xanesh",
+	[78736] = "Warlord Zaela",
+	[189893] = "Infused Whelp",
+	[104217] = "Talixae Flamewreath",
 	[99868] = "Fenryr",
 	[45906] = "Camel",
-	[113971] = "Maiden of Virtue",
+	[144246] = "K.U.-J.0.",
 	[65407] = "Shado-Pan Novice",
 	[138740] = "Musashitake",
 	[127809] = "Reorigination Module",
-	[98696] = "Illysanna Ravencrest",
-	[155760] = "Tank Buster MK2",
-	[185423] = "Reaving Automa: Neo",
-	[155056] = "Robo-Waste",
+	[143045] = "Coastal Scuttler",
+	[214020] = "Manifested Monarch",
+	[102950] = "Reaves",
+	[88334] = "Croman",
 	[38010] = "Reanimated Adherent",
-	[32927] = "Runemaster Molgeim",
-	[59080] = "Darkmaster Gandling",
-	[161375] = "Promising Specimen",
-	[155144] = "Abyssal Commander Sivara",
+	[181579] = "Lihuvim",
+	[74570] = "Ruination",
+	[51405] = "Angered Earth",
+	[214240] = "Me'lynn",
 	[61699] = "Sik'thik Amberwing",
-	[60913] = "Energy Charge",
+	[201934] = "Shadowflame Amalgamation",
 	[171094] = "Grisly Curio",
-	[196845] = "Frozen Behemoth",
-	[108600] = "Sister of the Moon",
-	[145903] = "Darkforged Crusader",
-	[107699] = "Spellblade Aluriel",
-	[127503] = "Overseer Korgus",
-	[131853] = "Huntmaster Grath",
+	[214242] = "Fyldan",
+	[214241] = "Dendrythis",
+	[149995] = "High Priestess Azil",
+	[214236] = "Denatharion",
+	[214235] = "Lariia",
+	[214211] = "Idriana",
 }
 AchievementTrackerNPCCacheClassic = {
 }

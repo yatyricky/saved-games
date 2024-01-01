@@ -85,6 +85,15 @@ SwatterData = {
 			["context"] = "AddOn: RareScanner",
 			["stack"] = "[string \"=[C]\"]: in function `CheckInteractDistance'\n[string \"@Interface/AddOns/RareScanner/Core/Service/RSEventHandler.lua\"]:217: in function <...e/AddOns/RareScanner/Core/Service/RSEventHandler.lua:188>\n[string \"@Interface/AddOns/RareScanner/Core/Service/RSEventHandler.lua\"]:592: in function <...e/AddOns/RareScanner/Core/Service/RSEventHandler.lua:573>\n[string \"@Interface/AddOns/RareScanner/Core/Service/RSEventHandler.lua\"]:648: in function <...e/AddOns/RareScanner/Core/Service/RSEventHandler.lua:647>\n[string \"=[C]\"]: in function `TurnOrActionStop'\n[string \"TURNORACTION\"]:4: in function <[string \"TURNORACTION\"]:1>\n",
 		}, -- [9]
+		{
+			["message"] = "Error: AddOn TradeSkillMaster attempted to call a forbidden function (UNKNOWN()) from a tainted execution path.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v9.1.BETA.5.13 (OneMawTime)\n  Arh, v2.0.4-105\n  Auctioneer, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerStatsOverTime, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilDealFinder, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilValuer, v9.1.BETA.5.13 (OneMawTime)\n  CustomItemNotes, v1.07\n  Enchantrix, v9.1.BETA.5.13 (OneMawTime)\n  GatherMate2, v1.48.8\n  Incognito, v1.4.1\n  Informant, v9.1.BETA.5.13 (OneMawTime)\n  InstanceAchievementTracker, v4.29.0\n  RareScanner, v10.1.7.9\n  SellJunk, v3.0.30 DF FanUpdate by ImJayc2/Shyde\n  SlideBar, v9.1.BETA.5.13 (OneMawTime)\n  Stubby, v9.1.BETA.5.13 (OneMawTime)\n  TomTom, vv3.5.4-release\n  TradeSkillMaster, vv4.13.17\n  TradeSkillMasterAppHelper, vv4.13\n  BlizRuntimeLib v10.2.0.52649(US) <enUS>\n  (ck=2e2)\n",
+			["locals"] = "",
+			["timestamp"] = "2024-01-01 16:49:36",
+			["context"] = "AddOn: TradeSkillMaster",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1424: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1476: in function <Interface/FrameXML/ContainerFrame.lua:1463>\n",
+		}, -- [10]
 	},
 	["autoshow"] = true,
 }
