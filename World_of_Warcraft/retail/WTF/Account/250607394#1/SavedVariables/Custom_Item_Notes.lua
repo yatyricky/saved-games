@@ -288,12 +288,11 @@ CIN_Save = {
 	["20860"] = {
 		"Vanilla", -- [1]
 	},
-	["5470"] = {
+	["20424"] = {
 		"Vanilla", -- [1]
-		"Cooking", -- [2]
 	},
-	["22449"] = {
-		"TBC", -- [1]
+	["2325"] = {
+		"Vanilla", -- [1]
 	},
 	["7974"] = {
 		"Vanilla", -- [1]
@@ -335,8 +334,9 @@ CIN_Save = {
 	["22446"] = {
 		"TBC", -- [1]
 	},
-	["20424"] = {
-		"Vanilla", -- [1]
+	["24245"] = {
+		"TBC", -- [1]
+		"sporeman rep turn in", -- [2]
 	},
 	["20872"] = {
 		"Vanilla", -- [1]
@@ -347,7 +347,7 @@ CIN_Save = {
 	["207002"] = {
 		"DF", -- [1]
 	},
-	["2325"] = {
+	["7079"] = {
 		"Vanilla", -- [1]
 	},
 	["20865"] = {
@@ -470,12 +470,12 @@ CIN_Save = {
 		"Vanilla", -- [1]
 		"LW, Cook, Engineer", -- [2]
 	},
+	["20861"] = {
+		"Vanilla", -- [1]
+	},
 	["32569"] = {
 		"TBC", -- [1]
 		"Ogrila blade's edge", -- [2]
-	},
-	["45079"] = {
-		"safe to delete after loch modan quest complete", -- [1]
 	},
 	["204985"] = {
 		"DF", -- [1]
@@ -502,8 +502,8 @@ CIN_Save = {
 		"Hand these in at /way #2024 66.93, 12.77 Sonova Snowden", -- [1]
 		"The Azure Span", -- [2]
 	},
-	["20861"] = {
-		"Vanilla", -- [1]
+	["45079"] = {
+		"safe to delete after loch modan quest complete", -- [1]
 	},
 	["35562"] = {
 		"Vanilla", -- [1]
@@ -559,12 +559,12 @@ CIN_Save = {
 	["162571"] = {
 		"BFA quest", -- [1]
 	},
-	["7079"] = {
-		"Vanilla", -- [1]
-	},
-	["24245"] = {
+	["22449"] = {
 		"TBC", -- [1]
-		"sporeman rep turn in", -- [2]
+	},
+	["5470"] = {
+		"Vanilla", -- [1]
+		"Cooking", -- [2]
 	},
 	["17203"] = {
 		"Vanilla", -- [1]

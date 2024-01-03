@@ -94,6 +94,24 @@ SwatterData = {
 			["context"] = "AddOn: TradeSkillMaster",
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1424: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1476: in function <Interface/FrameXML/ContainerFrame.lua:1463>\n",
 		}, -- [10]
+		{
+			["message"] = "Interface/FrameXML/UnitPopup.lua:50: Usage: SetLegacyRaidDifficultyID(difficultyID[, force])",
+			["count"] = 1,
+			["addons"] = "  Swatter, v9.1.BETA.5.13 (OneMawTime)\n  Arh, v2.0.4-105\n  Auctioneer, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerStatsOverTime, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilDealFinder, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilValuer, v9.1.BETA.5.13 (OneMawTime)\n  CustomItemNotes, v1.07\n  Enchantrix, v9.1.BETA.5.13 (OneMawTime)\n  GatherMate2, v1.48.8\n  Incognito, v1.4.1\n  Informant, v9.1.BETA.5.13 (OneMawTime)\n  InstanceAchievementTracker, v4.29.0\n  RareScanner, v10.1.7.9\n  SellJunk, v3.0.30 DF FanUpdate by ImJayc2/Shyde\n  SlideBar, v9.1.BETA.5.13 (OneMawTime)\n  Stubby, v9.1.BETA.5.13 (OneMawTime)\n  TomTom, vv3.5.4-release\n  TradeSkillMaster, vv4.13.17\n  TradeSkillMasterAppHelper, vv4.13\n  BlizRuntimeLib v10.2.0.52649(US) <enUS>\n  (ck=2e2)\n",
+			["locals"] = "(*temporary) = \"LeftButton\"\n(*temporary) = false\n(*temporary) = <function> defined =[C]:-1\n",
+			["timestamp"] = "2024-01-03 18:28:20",
+			["context"] = "Global",
+			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetLegacyRaidDifficultyID'\n[string \"@Interface/FrameXML/UnitPopup.lua\"]:50: in function `SetRaidDifficulties'\n[string \"@Interface/SharedXML/UnitPopupSharedButtonMixins.lua\"]:1233: in function `OnClick'\n[string \"@Interface/SharedXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/SharedXML/UIDropDownMenu.lua\"]:1009: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:131_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:131_OnClick\"]:1>\n",
+		}, -- [11]
+		{
+			["message"] = "Interface/FrameXML/UnitPopup.lua:50: Usage: SetLegacyRaidDifficultyID(difficultyID[, force])",
+			["count"] = 1,
+			["addons"] = "  Swatter, v9.1.BETA.5.13 (OneMawTime)\n  Arh, v2.0.4-105\n  Auctioneer, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerStatsOverTime, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilDealFinder, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilValuer, v9.1.BETA.5.13 (OneMawTime)\n  CustomItemNotes, v1.07\n  Enchantrix, v9.1.BETA.5.13 (OneMawTime)\n  GatherMate2, v1.48.8\n  Incognito, v1.4.1\n  Informant, v9.1.BETA.5.13 (OneMawTime)\n  InstanceAchievementTracker, v4.29.0\n  RareScanner, v10.1.7.9\n  SellJunk, v3.0.30 DF FanUpdate by ImJayc2/Shyde\n  SlideBar, v9.1.BETA.5.13 (OneMawTime)\n  Stubby, v9.1.BETA.5.13 (OneMawTime)\n  TomTom, vv3.5.4-release\n  TradeSkillMaster, vv4.13.17\n  TradeSkillMasterAppHelper, vv4.13\n  BlizRuntimeLib v10.2.0.52649(US) <enUS>\n  (ck=2e2)\n",
+			["locals"] = "(*temporary) = \"LeftButton\"\n(*temporary) = false\n(*temporary) = <function> defined =[C]:-1\n",
+			["timestamp"] = "2024-01-03 18:38:23",
+			["context"] = "Global",
+			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetLegacyRaidDifficultyID'\n[string \"@Interface/FrameXML/UnitPopup.lua\"]:50: in function `SetRaidDifficulties'\n[string \"@Interface/SharedXML/UnitPopupSharedButtonMixins.lua\"]:1233: in function `OnClick'\n[string \"@Interface/SharedXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/SharedXML/UIDropDownMenu.lua\"]:1009: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:131_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:131_OnClick\"]:1>\n",
+		}, -- [12]
 	},
 	["autoshow"] = true,
 }
