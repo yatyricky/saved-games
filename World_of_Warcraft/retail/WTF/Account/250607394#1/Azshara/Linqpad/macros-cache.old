@@ -2,3 +2,7 @@ VER 3 0100000000000001 "pick" "134400"
 #showtooltip
 /cast [@mouseover,exists,nodead,harm]Pick Pocket; Pick Pocket
 END
+VER 3 0100000000000002 "sap" "134400"
+#showtooltip
+/cast [@mouseover,exists,nodead,harm]sap;sap
+END

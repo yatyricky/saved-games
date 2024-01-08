@@ -21,6 +21,9 @@ SellJunkDB = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
 		},
+		["Rokrium - Azshara"] = {
+			["auto"] = true,
+		},
 		["Linqpad - Azshara"] = {
 			["auto"] = true,
 			["ignoreSoulbound"] = true,
@@ -28,14 +31,16 @@ SellJunkDB = {
 	},
 	["profileKeys"] = {
 		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
+		["Rokrium - Azshara"] = "Rokrium - Azshara",
 		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
 		["Wnsmoldering - Azshara"] = "Wnsmoldering - Azshara",
+		["Uniboi - Azshara"] = "Uniboi - Azshara",
 		["Linqpad - Azshara"] = "Linqpad - Azshara",
 		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
-		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 		["Vladojin - Azshara"] = "Vladojin - Azshara",
 		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 	},
 }
