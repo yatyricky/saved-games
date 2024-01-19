@@ -10,16 +10,16 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 175.1911547254768,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = true,
-	["announceTrackedAchievements"] = false,
 	["trackAchievementsAutomatically"] = false,
+	["InfoFramescale"] = 1,
+	["hideCompletedAchievements"] = true,
 	["InfoFramepoint"] = "BOTTOMRIGHT",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 145.0003662109375,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["announceTrackedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"20/9/2023 23:38 [DEBUG] ---IAT Runtime---", -- [1]
@@ -42600,6 +42600,114 @@ AchievementTrackerDebug = {
 	"10/1/2024 7:2 [DEBUG] InfoFrame was not active", -- [42576]
 	"10/1/2024 7:2 [DEBUG] 6", -- [42577]
 	"10/1/2024 7:2 [DEBUG] Hiding Tracking UI", -- [42578]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [42579]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.29.0", -- [42580]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [42581]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [42582]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [42583]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [42584]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [42585]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [42586]
+	"19/1/2024 8:53 [DEBUG] Showing Minimap Icon", -- [42587]
+	"19/1/2024 8:54 [DEBUG] Player has entered instance", -- [42588]
+	"19/1/2024 8:54 [DEBUG] 249", -- [42589]
+	"19/1/2024 8:54 [DEBUG] Offical Instance Name: 249 _249", -- [42590]
+	"19/1/2024 8:54 [DEBUG] Detected Legacy 25 man raid", -- [42591]
+	"19/1/2024 8:54 [DEBUG] New Instance Name: 249-25", -- [42592]
+	"19/1/2024 8:54 [DEBUG] Expansion: 3", -- [42593]
+	"19/1/2024 8:54 [DEBUG] Instance Type: Raids", -- [42594]
+	"19/1/2024 8:54 [DEBUG] Instance: 249-25", -- [42595]
+	"19/1/2024 8:54 [DEBUG] DifficultyID: 4", -- [42596]
+	"19/1/2024 8:54 [DEBUG] Expansion: 3", -- [42597]
+	"19/1/2024 8:54 [DEBUG] Instance Type: Raids", -- [42598]
+	"19/1/2024 8:54 [DEBUG] Instance: 249-25", -- [42599]
+	"19/1/2024 8:54 [DEBUG] Asking user whether they want to track this instance", -- [42600]
+	"19/1/2024 8:54 [DEBUG] Creating Tracking UI", -- [42601]
+	"19/1/2024 8:54 [DEBUG] InfoFrame Setup Complete", -- [42602]
+	"19/1/2024 8:54 [DEBUG] Expansion: 3", -- [42603]
+	"19/1/2024 8:54 |cff00ccffIAT: |cffffffffStarting achievement scan for Onyxia's Lair (This may freeze your game for a few seconds!)", -- [42604]
+	"19/1/2024 8:54 [DEBUG] Group Size set to: 1", -- [42605]
+	"19/1/2024 8:54 [DEBUG] Combatlog does not need to be enabled", -- [42606]
+	"19/1/2024 8:54 [DEBUG] Starting Initial Setup If Needed...", -- [42607]
+	"19/1/2024 8:54 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:773: attempt to call method 'InitialSetup' (a nil value).", -- [42608]
+	"19/1/2024 8:54 [DEBUG] Setting Master Addon 1", -- [42609]
+	"19/1/2024 8:54 |cff00ccffIAT: |cffffffffAchievement Tracking Enabled for Onyxia's Lair", -- [42610]
+	"19/1/2024 8:54 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Ziadwan", -- [42611]
+	"19/1/2024 8:54 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (1/1)", -- [42612]
+	"19/1/2024 8:54 |cff00ccffIAT: |cffffffffIncomplete achievements for this instance |cffffff00|Hachievement:4406:Player-77-0F10C113:0:0:0:-1:0:0:0:0|h[Many Whelps! Handle It! (25 player)]|h|r", -- [42613]
+	"19/1/2024 8:54 [DEBUG] Calling Detect Boss 3: 10184", -- [42614]
+	"19/1/2024 8:54 [DEBUG] Found the following boss ID: 10184", -- [42615]
+	"19/1/2024 8:54 [DEBUG] Adding the following boss: boss3", -- [42616]
+	"19/1/2024 8:54 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4407", -- [42617]
+	"19/1/2024 8:54 [DEBUG] Adding the following boss: boss1", -- [42618]
+	"19/1/2024 8:54 [DEBUG] Adding the following achievement ID beacuse it doesn't exist: 4405", -- [42619]
+	"19/1/2024 8:54 [DEBUG] ---Encounter Started---", -- [42620]
+	"19/1/2024 8:54 [DEBUG] Encounter ID: 1084", -- [42621]
+	"19/1/2024 8:54 [DEBUG] Detected boss using ENCOUNTER ID", -- [42622]
+	"19/1/2024 8:54 [DEBUG] Found the following encounter ID: 1084", -- [42623]
+	"19/1/2024 8:54 [DEBUG] (E) Adding the following encounter ID: boss2", -- [42624]
+	"19/1/2024 8:54 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 4406", -- [42625]
+	"19/1/2024 8:54 [DEBUG] (E) Adding the following encounter ID: boss1", -- [42626]
+	"19/1/2024 8:54 [DEBUG] (E) Adding the following achievement ID beacuse it doesn't exist: 4405", -- [42627]
+	"19/1/2024 8:54 [DEBUG] Automatic Blizzard Tracking set to: true", -- [42628]
+	"19/1/2024 8:54 [DEBUG] Entered Combat", -- [42629]
+	"19/1/2024 8:54 |cff00ccffIAT: |cffffffff|cffffff00|Hachievement:4407:Player-77-0F10C113:1:8:30:23:4294967295:4294967295:4294967295:4294967295|h[She Deep Breaths More (25 player)]|h|r Players who need Achievement: No players in the group need this achievement, ", -- [42630]
+	"19/1/2024 8:54 [DEBUG] Length of array: 2", -- [42631]
+	"19/1/2024 8:54 [DEBUG] Achievement: 4406", -- [42632]
+	"19/1/2024 8:54 [DEBUG] Achievement: 4405", -- [42633]
+	"19/1/2024 8:54 [DEBUG] User supressing addon tracking", -- [42634]
+	"19/1/2024 8:54 [DEBUG] Setting Master Addon 8", -- [42635]
+	"19/1/2024 8:54 [DEBUG] This addon is in charge of outputting messages", -- [42636]
+	"19/1/2024 8:55 [DEBUG] ---Encounter Ended---", -- [42637]
+	"19/1/2024 8:55 [DEBUG] Locking Detection for 3 seconds", -- [42638]
+	"19/1/2024 8:55 [DEBUG] Clearing Instance Variables if exists", -- [42639]
+	"19/1/2024 8:55 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [42640]
+	"19/1/2024 8:55 [DEBUG] Clearing Instance Variables if exists", -- [42641]
+	"19/1/2024 8:55 [DEBUG] Clearing Instance Variables", -- [42642]
+	"19/1/2024 8:55 [DEBUG] Resetting Global Variables", -- [42643]
+	"19/1/2024 8:55 [DEBUG] InfoFrame does not need to be reset", -- [42644]
+	"19/1/2024 8:55 [DEBUG] Left Combat", -- [42645]
+	"19/1/2024 8:55 [DEBUG] Detection unlocked", -- [42646]
+	"19/1/2024 8:56 [DEBUG] Clearing Instance Variables", -- [42647]
+	"19/1/2024 8:56 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [42648]
+	"19/1/2024 8:56 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [42649]
+	"19/1/2024 8:56 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [42650]
+	"19/1/2024 8:56 [DEBUG] Clearing Instance Variables if exists", -- [42651]
+	"19/1/2024 8:56 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [42652]
+	"19/1/2024 8:56 [DEBUG] Clearing Instance Variables if exists", -- [42653]
+	"19/1/2024 8:56 [DEBUG] Clearing Instance Variables", -- [42654]
+	"19/1/2024 8:56 [DEBUG] Resetting Global Variables", -- [42655]
+	"19/1/2024 8:56 [DEBUG] InfoFrame does not need to be reset", -- [42656]
+	"19/1/2024 8:56 [DEBUG] Resetting PlayerRank", -- [42657]
+	"19/1/2024 8:56 [DEBUG] InfoFrame was not active", -- [42658]
+	"19/1/2024 8:56 [DEBUG] 6", -- [42659]
+	"19/1/2024 8:56 [DEBUG] Hiding Tracking UI", -- [42660]
+	"19/1/2024 8:58 [DEBUG] Hiding Tracking UI", -- [42661]
+	"19/1/2024 8:58 [DEBUG] Hiding Tracking UI", -- [42662]
+	"19/1/2024 8:58 [DEBUG] Hiding Tracking UI", -- [42663]
+	"19/1/2024 8:58 [DEBUG] Hiding Tracking UI", -- [42664]
+	"19/1/2024 8:59 [DEBUG] Hiding Tracking UI", -- [42665]
+	"19/1/2024 8:59 [DEBUG] Player has entered instance", -- [42666]
+	"19/1/2024 8:59 [DEBUG] 409", -- [42667]
+	"19/1/2024 8:59 [DEBUG] Offical Instance Name: 409 _409", -- [42668]
+	"19/1/2024 8:59 [DEBUG] DifficultyID: 9", -- [42669]
+	"19/1/2024 8:59 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [42670]
+	"19/1/2024 8:59 [DEBUG] Player has entered instance", -- [42671]
+	"19/1/2024 8:59 [DEBUG] 409", -- [42672]
+	"19/1/2024 8:59 [DEBUG] Offical Instance Name: 409 _409", -- [42673]
+	"19/1/2024 8:59 [DEBUG] DifficultyID: 9", -- [42674]
+	"19/1/2024 8:59 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [42675]
+	"19/1/2024 9:8 [DEBUG] Hiding Tracking UI", -- [42676]
+	"19/1/2024 9:9 [DEBUG] Hiding Tracking UI", -- [42677]
+	"19/1/2024 9:9 [DEBUG] ---IAT Runtime---", -- [42678]
+	"19/1/2024 9:9 [DEBUG] Version: 4.29.0", -- [42679]
+	"19/1/2024 9:9 [DEBUG] Attempting to load from local NPC Cache", -- [42680]
+	"19/1/2024 9:9 [DEBUG] Generating NPC Cache...", -- [42681]
+	"19/1/2024 9:9 [DEBUG] Only Tracking Missing Achievements Enabled", -- [42682]
+	"19/1/2024 9:9 [DEBUG] true", -- [42683]
+	"19/1/2024 9:9 [DEBUG] Enabling Addon", -- [42684]
+	"19/1/2024 9:9 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [42685]
+	"19/1/2024 9:12 [DEBUG] Showing Minimap Icon", -- [42686]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -42946,12 +43054,12 @@ AchievementTrackerNPCCache = {
 	[102950] = "Reaves",
 	[82074] = "Pristine True Iron Ore",
 	[156987] = "General Kaal",
-	[214020] = "Manifested Monarch",
+	[78430] = "Cordana Felsong",
 	[52418] = "Lost Offspring of Gahz'ranka",
 	[164532] = "Hakkar the Soulflayer",
 	[197396] = "Strange Chicken",
 	[152512] = "Stormwraith",
-	[78430] = "Cordana Felsong",
+	[214020] = "Manifested Monarch",
 	[143045] = "Coastal Scuttler",
 	[175616] = "Zo'phex",
 	[184915] = "Halondrus",
@@ -43010,8 +43118,8 @@ AchievementTrackerNPCCache = {
 	[169554] = "Disused Anima Container",
 	[91938] = "Haunting Soul",
 	[91349] = "Mannoroth",
-	[108996] = "Specter of Vengeance",
 	[185128] = "Memorial Pylon",
+	[108996] = "Specter of Vengeance",
 	[178095] = "Eye of the Jailer",
 	[153415] = "Sha of Violence",
 	[135129] = "Projection of Yogg-Saron",
@@ -43027,8 +43135,8 @@ AchievementTrackerNPCCache = {
 	[32919] = "Storm Lasher",
 	[115902] = "Razorjaw Waverunner",
 	[34035] = "Feral Defender",
-	[39665] = "Rom'ogg Bonecrusher",
 	[138967] = "Zul",
+	[39665] = "Rom'ogg Bonecrusher",
 	[185130] = "Memorial Pylon",
 	[43468] = "Lady Naz'jar",
 	[70251] = "Venomous Head",
@@ -43049,48 +43157,48 @@ AchievementTrackerNPCCache = {
 	[123531] = "Manifestation of Taeshalach",
 	[70252] = "Arcane Head",
 	[144596] = "Chest o' Booty",
-	[94996] = "Fragment of the Crone",
 	[72490] = "Overseer Mojka",
+	[139737] = "Lord Stormsong",
 	[61884] = "Xin the Weaponmaster",
 	[185005] = "Anduin's Grief",
 	[166644] = "Artificer Xy'mox",
-	[78948] = "Tectus",
 	[56897] = "Raigonn",
+	[78948] = "Tectus",
 	[33202] = "Ancient Water Spirit",
 	[34826] = "Mistress of Pain",
-	[71979] = "Kor'kron Warbringer",
-	[49864] = "Twilight Fiend",
+	[180658] = "Focusing Prism",
+	[99664] = "Restless Soul",
 	[53494] = "Baleroc",
-	[61213] = "Krik'thik Conscript",
 	[155595] = "Sacred Gear",
+	[61213] = "Krik'thik Conscript",
 	[52440] = "Gub",
 	[64346] = "Parasitoid Sha",
 	[152910] = "Queen Azshara",
+	[90018] = "Hellfire Cannon",
 	[81834] = "Priceless Paraphernalia",
-	[173770] = "Blazing Brazier",
 	[135903] = "Manifestation of the Deep",
 	[164450] = "Dealer Xy'exa",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[205340] = "Expired Experiment",
-	[111941] = "Hodir",
 	[52422] = "Kaulema the Mover",
+	[205340] = "Expired Experiment",
 	[50376] = "Angered Earth",
+	[111941] = "Hodir",
 	[15687] = "Moroes",
 	[73195] = "Kor'kron Jailer",
 	[136160] = "King Dazar",
-	[172093] = "Hearty Haunch",
-	[33241] = "Freya",
+	[33113] = "Flame Leviathan",
+	[205341] = "Stack of Scrolls",
 	[68336] = "Garrosh Hellscream",
 	[138718] = "Sharkbait's Empty Dish",
-	[205341] = "Stack of Scrolls",
+	[33241] = "Freya",
 	[154741] = "Squirt Bot",
 	[67569] = "Elder Adler",
-	[138719] = "Serve Sharkbait's Meal",
+	[150995] = "Mimiron",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
 	[197298] = "Nascent Proto-Dragon",
-	[150995] = "Mimiron",
+	[138719] = "Serve Sharkbait's Meal",
 	[103758] = "Star Augur Etraeus",
 	[172386] = "Anima Conduit",
 	[164363] = "Undying Stonefiend",
@@ -43098,7 +43206,7 @@ AchievementTrackerNPCCache = {
 	[164934] = "Manastorm",
 	[93145] = "Soul of the Crone",
 	[74475] = "Magmolatus",
-	[126712] = "Training Dummy",
+	[76585] = "Ragewing the Untamed",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
 	[23574] = "Akil'zon",
@@ -43119,10 +43227,10 @@ AchievementTrackerNPCCache = {
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[86918] = "Uncharged Construct",
-	[141792] = "Liz Vilepot",
-	[115844] = "Goroth",
 	[78121] = "Gorian Warmage",
-	[71983] = "Farseer Wolf Rider",
+	[115844] = "Goroth",
+	[141792] = "Liz Vilepot",
+	[36535] = "Corrupted Soul Fragment",
 	[165408] = "Halkias",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
@@ -43131,35 +43239,35 @@ AchievementTrackerNPCCache = {
 	[80551] = "Shard of Tectus",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
-	[172995] = "Hydra Seed",
+	[174018] = "Volatile Plague Bomb",
 	[36855] = "Lady Deathwhisper",
 	[129208] = "Dread Captain Lockwood",
-	[174018] = "Volatile Plague Bomb",
-	[100436] = "Illysanna Ravencrest",
+	[172995] = "Hydra Seed",
+	[104528] = "High Botanist Tel'arn",
 	[71984] = "Siege Engineer",
 	[61567] = "Vizier Jin'bak",
-	[52392] = "Gurubashi Master Chef",
+	[105743] = "Whipsnap",
 	[33343] = "XS-013 Scrapbot",
 	[32273] = "Infinite Corruptor",
 	[86250] = "Kyrak",
 	[165066] = "Huntsman Altimor",
 	[95833] = "Hyrja",
 	[156884] = "Essence of Vita",
-	[72496] = "Overseer Thathung",
 	[69427] = "Dark Animus",
+	[72496] = "Overseer Thathung",
 	[27654] = "Drakos the Interrogator",
 	[164557] = "Shard of Halkias",
 	[56165] = "Crystal Conductor",
-	[205989] = "Forgotten Specimen Tank",
-	[64061] = "Mogu'shan Warden",
 	[119938] = "Reanimated Templar",
-	[111882] = "Sparky",
+	[64061] = "Mogu'shan Warden",
+	[205989] = "Forgotten Specimen Tank",
 	[28514] = "Nalorakk",
-	[146016] = "Leeroy Jenkins",
+	[105744] = "Blaze",
+	[52936] = "Druid of the Flame",
 	[164967] = "Doctor Ickus",
 	[115143] = "Snaplasher",
-	[52936] = "Druid of the Flame",
-	[105744] = "Blaze",
+	[146016] = "Leeroy Jenkins",
+	[111882] = "Sparky",
 	[179392] = "Kin'tessa",
 	[99031] = "Artifact",
 	[86928] = "Empowered Construct",
@@ -43169,14 +43277,14 @@ AchievementTrackerNPCCache = {
 	[55334] = "Void of the Unmaking",
 	[59458] = "Hopling",
 	[110732] = "Creature of Madness",
-	[105743] = "Whipsnap",
+	[52392] = "Gurubashi Master Chef",
 	[154074] = "Void Orb",
 	[142949] = "Theramore Citizen",
 	[38135] = "Deformed Fanatic",
-	[104528] = "High Botanist Tel'arn",
+	[100436] = "Illysanna Ravencrest",
 	[73265] = "Corrupted Amalgamation",
+	[71983] = "Farseer Wolf Rider",
 	[105742] = "Turbax",
-	[36535] = "Corrupted Soul Fragment",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[33244] = "Mimiron",
@@ -43185,27 +43293,27 @@ AchievementTrackerNPCCache = {
 	[164218] = "Lord Chamberlain",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
-	[76585] = "Ragewing the Untamed",
+	[126712] = "Training Dummy",
 	[141800] = "Brutik Blackanvil",
 	[69086] = "Flaming Head",
 	[173769] = "Smoldering Brazier",
 	[55419] = "Captain Varo'then",
 	[165737] = "Sinstone Statue",
 	[33136] = "Guardian of Yogg-Saron",
-	[33113] = "Flame Leviathan",
+	[172093] = "Hearty Haunch",
 	[158041] = "N'Zoth the Corruptor",
 	[176583] = "Energy Core",
 	[105299] = "Recursive Elemental",
-	[90018] = "Hellfire Cannon",
+	[173770] = "Blazing Brazier",
 	[68599] = "Ferra Pearl",
 	[175474] = "Belligerent Waiter",
 	[55312] = "Yor'sahj the Unsleeping",
 	[50284] = "Twilight Zealot",
-	[99664] = "Restless Soul",
-	[180658] = "Focusing Prism",
+	[49864] = "Twilight Fiend",
+	[71979] = "Kor'kron Warbringer",
 	[67779] = "Mature Saurok Egg",
 	[55308] = "Warlord Zon'ozz",
-	[139737] = "Lord Stormsong",
+	[94996] = "Fragment of the Crone",
 	[84520] = "Pitwarden Gwarnok",
 	[49485] = "Aberration",
 	[33768] = "Rubble",
