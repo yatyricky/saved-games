@@ -1,3 +1,7 @@
+3.0.31 DF FanUpdate by Shyde
+  - Update TOC for patch 100205 / Addon tested for 10.2.5
+  - Date: 26.01.2024
+
 3.0.30 DF FanUpdate by Shyde
   - Update TOC for patch 100200 / Addon tested for 10.2
   - Date: 10.11.2023
