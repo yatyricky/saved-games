@@ -9,10 +9,10 @@ IncognitoDB = {
 		["Linqpad - Azshara"] = "Default",
 		["Gamwillsaveu - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",
-		["Dahoontar - Azshara"] = "Default",
+		["Lynndaw - Azshara"] = "Default",
 		["Vladojin - Azshara"] = "Default",
 		["Bblilmao - Azshara"] = "Default",
-		["Lynndaw - Azshara"] = "Default",
+		["Dahoontar - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
