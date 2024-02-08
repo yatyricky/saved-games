@@ -55,18 +55,51 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
-			[249] = {
-				["249:320000000:630000000:TomTom waypoint"] = {
-					249, -- [1]
-					0.32, -- [2]
-					0.63, -- [3]
+			[85] = {
+				["85:514000000:599000000:Darkhorn"] = {
+					85, -- [1]
+					0.514, -- [2]
+					0.599, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
+					["desc"] = "Darkhorn",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
+					["title"] = "Darkhorn",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[89] = {
+				["89:388000000:323000000:Bladeswift"] = {
+					89, -- [1]
+					0.388, -- [2]
+					0.323, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bladeswift",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bladeswift",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -121,6 +154,105 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+			[249] = {
+				["249:320000000:630000000:TomTom waypoint"] = {
+					249, -- [1]
+					0.32, -- [2]
+					0.63, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[199] = {
+				["199:415000000:475000000:Mountain"] = {
+					199, -- [1]
+					0.415, -- [2]
+					0.475, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mountain",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mountain",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[88] = {
+				["88:722000000:235000000:Wheathoof"] = {
+					88, -- [1]
+					0.722, -- [2]
+					0.235, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Wheathoof",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Wheathoof",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 			[241] = {
 				["241:510000000:710000000:TomTom waypoint"] = {
 					241, -- [1]
@@ -133,6 +265,39 @@ TomTomWaypointsM = {
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[57] = {
+				["57:568000000:529000000:Bladeleaf"] = {
+					57, -- [1]
+					0.568, -- [2]
+					0.529, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bladeleaf",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bladeleaf",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {

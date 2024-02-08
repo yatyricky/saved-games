@@ -1,5 +1,7 @@
 VER 3 0000000000000008 "dist" "132181"
-/way 25.86 29.34
+/way Tanaris 51.4 28.8 Dreamseer
+/way Thousand N 77 75.6 Morningdew
+/way Thousand N 46.3 51 Skyseer
 END
 VER 3 0000000000000007 "mark vanilla" "135834"
 /cin Vanilla
