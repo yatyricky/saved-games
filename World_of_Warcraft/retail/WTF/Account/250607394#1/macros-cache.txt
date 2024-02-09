@@ -1,7 +1,10 @@
 VER 3 0000000000000008 "dist" "132181"
-/way Tanaris 51.4 28.8 Dreamseer
-/way Thousand N 77 75.6 Morningdew
-/way Thousand N 46.3 51 Skyseer
+/way Borean Tundra 57 43 Elder Arp
+/way Borean Tundra 59.1 65.6 Elder Sardis
+/way Borean Tundra 42.2 49.5 Elder Pamuya
+/way Sholazar 49 63 Elder Sandrene
+/way Sholazar 63 49 Elder Wanikaya
+/way Wintergrasp 49.0 13.9 Elder Bluewolf
 END
 VER 3 0000000000000007 "mark vanilla" "135834"
 /cin Vanilla

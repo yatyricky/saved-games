@@ -139,6 +139,15 @@ SwatterData = {
 			["context"] = "Global",
 			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetLegacyRaidDifficultyID'\n[string \"@Interface/FrameXML/UnitPopup.lua\"]:50: in function `SetRaidDifficulties'\n[string \"@Interface/SharedXML/UnitPopupSharedButtonMixins.lua\"]:1233: in function `OnClick'\n[string \"@Interface/SharedXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/SharedXML/UIDropDownMenu.lua\"]:1009: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:131_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:131_OnClick\"]:1>\n",
 		}, -- [15]
+		{
+			["message"] = "...nstanceAchievementTracker/AchievementTrackerCore.lua:347: attempt to concatenate field 'instanceNameSpaces' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v9.1.BETA.5.13 (OneMawTime)\n  Arh, v2.0.4-105\n  Auctioneer, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerStatsOverTime, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilDealFinder, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilValuer, v9.1.BETA.5.13 (OneMawTime)\n  CustomItemNotes, v1.08\n  DragonRider, v0.2.3\n  Enchantrix, v9.1.BETA.5.13 (OneMawTime)\n  GatherMate2, v1.48.8\n  Incognito, v1.4.1\n  Informant, v9.1.BETA.5.13 (OneMawTime)\n  InstanceAchievementTracker, v4.35.0\n  RareScanner, v10.1.7.9\n  SellJunk, v3.0.31 DF FanUpdate by ImJayc2/Shyde\n  SlideBar, v9.1.BETA.5.13 (OneMawTime)\n  Stubby, v9.1.BETA.5.13 (OneMawTime)\n  TomTom, vv3.5.5-release\n  TradeSkillMaster, vv4.13.18\n  TradeSkillMasterAppHelper, vv4.13.1\n  BlizRuntimeLib v10.2.5.53262(US) <enUS>\n  (ck=2fa)\n",
+			["locals"] = "(*temporary) = \"LeftButton\"\n(*temporary) = false\n(*temporary) = <function> defined =[C]:-1\n",
+			["timestamp"] = "2024-02-09 16:23:39",
+			["context"] = "Global",
+			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/InstanceAchievementTracker/AchievementTrackerCore.lua\"]:347: in function `getPlayersInGroup'\n[string \"@Interface/AddOns/InstanceAchievementTracker/AchievementTrackerCore.lua\"]:866: in function <...nstanceAchievementTracker/AchievementTrackerCore.lua:849>\n",
+		}, -- [16]
 	},
 	["autoshow"] = true,
 }

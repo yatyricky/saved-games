@@ -55,18 +55,17 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
-			[85] = {
-				["85:514000000:599000000:Darkhorn"] = {
-					85, -- [1]
-					0.514, -- [2]
-					0.599, -- [3]
+			[115] = {
+				["115:350000000:480000000:Elder Skywarden"] = {
+					115, -- [1]
+					0.35, -- [2]
+					0.48, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Darkhorn",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Darkhorn",
+					["title"] = "Elder Skywarden",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -84,22 +83,18 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
-			},
-			[89] = {
-				["89:388000000:323000000:Bladeswift"] = {
-					89, -- [1]
-					0.388, -- [2]
-					0.323, -- [3]
+				["115:299000000:561000000:Elder Morthie"] = {
+					115, -- [1]
+					0.299, -- [2]
+					0.561, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Bladeswift",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Bladeswift",
+					["title"] = "Elder Morthie",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -117,22 +112,18 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
-			},
-			[198] = {
-				["198:270000000:620000000:TomTom waypoint"] = {
-					198, -- [1]
-					0.27, -- [2]
-					0.62, -- [3]
+				["115:490000000:780000000:Elder Thorim"] = {
+					115, -- [1]
+					0.49, -- [2]
+					0.78, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
+					["title"] = "Elder Thorim",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -150,22 +141,49 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[249] = {
-				["249:320000000:630000000:TomTom waypoint"] = {
-					249, -- [1]
-					0.32, -- [2]
+			[119] = {
+				["119:630000000:490000000:Elder Wanikaya"] = {
+					119, -- [1]
+					0.63, -- [2]
+					0.49, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Elder Wanikaya",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+				["119:490000000:630000000:Elder Sandrene"] = {
+					119, -- [1]
+					0.49, -- [2]
 					0.63, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
+					["title"] = "Elder Sandrene",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -183,22 +201,20 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[199] = {
-				["199:415000000:475000000:Mountain"] = {
-					199, -- [1]
-					0.415, -- [2]
-					0.475, -- [3]
+			[123] = {
+				["123:490000000:139000000:Elder Bluewolf"] = {
+					123, -- [1]
+					0.49, -- [2]
+					0.139, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Mountain",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Mountain",
+					["title"] = "Elder Bluewolf",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -216,22 +232,20 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[88] = {
-				["88:722000000:235000000:Wheathoof"] = {
-					88, -- [1]
-					0.722, -- [2]
-					0.235, -- [3]
+			[120] = {
+				["120:640000000:510000000:Elder Muraco"] = {
+					120, -- [1]
+					0.64, -- [2]
+					0.51, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Wheathoof",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Wheathoof",
+					["title"] = "Elder Muraco",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -249,22 +263,107 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["world"] = true,
+				},
+				["120:410000000:840000000:Elder Graymane"] = {
+					120, -- [1]
+					0.41, -- [2]
+					0.84, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
 					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Elder Graymane",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+				["120:300000000:380000000:Elder Stonebeard"] = {
+					120, -- [1]
+					0.3, -- [2]
+					0.38, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Elder Stonebeard",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+				["120:289000000:737000000:Elder Fargal"] = {
+					120, -- [1]
+					0.289, -- [2]
+					0.737, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Elder Fargal",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
 					["world"] = true,
 				},
 			},
-			[241] = {
-				["241:510000000:710000000:TomTom waypoint"] = {
-					241, -- [1]
-					0.51, -- [2]
-					0.71, -- [3]
+			[114] = {
+				["114:591000000:656000000:Elder Sardis"] = {
+					114, -- [1]
+					0.591, -- [2]
+					0.6559999999999999, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
+					["title"] = "Elder Sardis",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -282,22 +381,18 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
-			},
-			[57] = {
-				["57:568000000:529000000:Bladeleaf"] = {
-					57, -- [1]
-					0.568, -- [2]
-					0.529, -- [3]
+				["114:422000000:495000000:Elder Pamuya"] = {
+					114, -- [1]
+					0.422, -- [2]
+					0.495, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Bladeleaf",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Bladeleaf",
+					["title"] = "Elder Pamuya",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -315,7 +410,64 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["world"] = true,
+				},
+				["114:330000000:340000000:Elder Nothal"] = {
+					114, -- [1]
+					0.33, -- [2]
+					0.34, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
 					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Elder Nothal",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+				["114:570000000:430000000:Elder Arp"] = {
+					114, -- [1]
+					0.57, -- [2]
+					0.43, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Elder Arp",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
 					["world"] = true,
 				},
 			},

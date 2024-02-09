@@ -281,8 +281,8 @@ DragonRider_DB = {
 				["score"] = 66.618,
 				["character"] = "Ziadwan - Azshara",
 			},
-			[2343] = {
-				["score"] = 86.786,
+			[2076] = {
+				["score"] = 58.56,
 				["character"] = "Ziadwan - Azshara",
 			},
 			[2092] = {
@@ -297,8 +297,8 @@ DragonRider_DB = {
 				["score"] = 74.876,
 				["character"] = "Ziadwan - Azshara",
 			},
-			[2076] = {
-				["score"] = 58.56,
+			[2343] = {
+				["score"] = 86.786,
 				["character"] = "Ziadwan - Azshara",
 			},
 			[2351] = {
