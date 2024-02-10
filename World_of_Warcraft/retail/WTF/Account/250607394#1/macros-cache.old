@@ -1,9 +1,10 @@
 VER 3 0000000000000008 "dist" "132181"
-/way Eastern Plaguelands 75.7 54.6 Snowcrown
-/way Northern Stranglethorn 71 34.3 Starglade
-/way Elwynn Forest 39.6 63.5 Stormbrow
-/way Eastern Plaguelands 35.6 68.8 Windrun
-/way The Cape of Stranglethorn 40 72.5 Winterhoof
+/way Borean Tundra 57 43 Elder Arp
+/way Borean Tundra 59.1 65.6 Elder Sardis
+/way Borean Tundra 42.2 49.5 Elder Pamuya
+/way Sholazar 49 63 Elder Sandrene
+/way Sholazar 63 49 Elder Wanikaya
+/way Wintergrasp 49.0 13.9 Elder Bluewolf
 END
 VER 3 0000000000000007 "mark vanilla" "135834"
 /cin Vanilla
