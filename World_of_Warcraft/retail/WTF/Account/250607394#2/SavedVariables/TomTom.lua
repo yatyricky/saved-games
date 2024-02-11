@@ -4,6 +4,7 @@ TomTomDB = {
 		["Nethercents - Azshara"] = "Default",
 		["Whodoikillfi - Azshara"] = "Default",
 		["Jarednine - Azshara"] = "Default",
+		["Forloveinthe - Azshara"] = "Default",
 		["Forevent - Azshara"] = "Default",
 		["Icantbelieve - Azshara"] = "Default",
 		["Taronxwemor - Azshara"] = "Default",
@@ -43,6 +44,7 @@ TomTomWaypointsM = {
 		["Nethercents - Azshara"] = "Nethercents - Azshara",
 		["Whodoikillfi - Azshara"] = "Whodoikillfi - Azshara",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
+		["Forloveinthe - Azshara"] = "Forloveinthe - Azshara",
 		["Forevent - Azshara"] = "Forevent - Azshara",
 		["Icantbelieve - Azshara"] = "Icantbelieve - Azshara",
 		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",
@@ -59,6 +61,8 @@ TomTomWaypointsM = {
 		["Whodoikillfi - Azshara"] = {
 		},
 		["Jarednine - Azshara"] = {
+		},
+		["Forloveinthe - Azshara"] = {
 		},
 		["Forevent - Azshara"] = {
 		},

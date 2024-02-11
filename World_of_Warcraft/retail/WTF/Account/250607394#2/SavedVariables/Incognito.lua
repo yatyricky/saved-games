@@ -4,6 +4,7 @@ IncognitoDB = {
 		["Nethercents - Azshara"] = "Default",
 		["Whodoikillfi - Azshara"] = "Default",
 		["Jarednine - Azshara"] = "Default",
+		["Forloveinthe - Azshara"] = "Default",
 		["Forevent - Azshara"] = "Default",
 		["Icantbelieve - Azshara"] = "Default",
 		["Taronxwemor - Azshara"] = "Default",

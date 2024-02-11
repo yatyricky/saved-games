@@ -10,6 +10,7 @@ SellJunkDB = {
 		["Nethercents - Azshara"] = "Nethercents - Azshara",
 		["Whodoikillfi - Azshara"] = "Whodoikillfi - Azshara",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
+		["Forloveinthe - Azshara"] = "Forloveinthe - Azshara",
 		["Forevent - Azshara"] = "Forevent - Azshara",
 		["Icantbelieve - Azshara"] = "Icantbelieve - Azshara",
 		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",

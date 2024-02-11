@@ -6,6 +6,7 @@ GatherMate2DB = {
 		["Ugottabekidd - Azshara"] = "Default",
 		["Icantbelieve - Azshara"] = "Default",
 		["Shaamy - Azshara"] = "Default",
+		["Forloveinthe - Azshara"] = "Default",
 		["Berogue - Azshara"] = "Default",
 		["Taronxwemor - Azshara"] = "Default",
 		["Forevent - Azshara"] = "Default",
