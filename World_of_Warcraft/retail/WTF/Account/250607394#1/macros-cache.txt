@@ -19,6 +19,9 @@ VER 3 0000000000000004 "pathfinder" "134333"
 /way #2022 65.22, 57.93 Life Vault Ruins
 /way #2022 81.35, 31.96 Wild Coast (alliance)
 END
+VER 3 0000000000000009 "pity" "132311"
+/pity
+END
 VER 3 0000000000000002 "quest" "135977"
 /script print(C_QuestLog.IsQuestFlaggedCompleted(16411))
 END
