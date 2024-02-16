@@ -6,3 +6,10 @@ X: 0
 Y: 128
 W: 200
 H: 50
+Frame: AuctionHouseFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 34
+Y: -116
+W: 800
+H: 538
