@@ -1,20 +1,20 @@
 
 GatherMate2DB = {
+	["global"] = {
+		["data_version"] = 6,
+	},
 	["profileKeys"] = {
 		["Nethercents - Azshara"] = "Default",
 		["Whodoikillfi - Azshara"] = "Default",
 		["Ugottabekidd - Azshara"] = "Default",
 		["Icantbelieve - Azshara"] = "Default",
 		["Shaamy - Azshara"] = "Default",
+		["Wysjj - Azshara"] = "Default",
+		["Pilgrimud - Azshara"] = "Default",
+		["Forevent - Azshara"] = "Default",
+		["Taronxwemor - Azshara"] = "Default",
 		["Forloveinthe - Azshara"] = "Default",
 		["Berogue - Azshara"] = "Default",
-		["Taronxwemor - Azshara"] = "Default",
-		["Forevent - Azshara"] = "Default",
-		["Pilgrimud - Azshara"] = "Default",
-		["Wysjj - Azshara"] = "Default",
-	},
-	["global"] = {
-		["data_version"] = 6,
 	},
 	["profiles"] = {
 		["Default"] = {

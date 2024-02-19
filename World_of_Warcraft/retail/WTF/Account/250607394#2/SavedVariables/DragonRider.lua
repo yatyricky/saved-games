@@ -13,11 +13,16 @@ DragonRider_DB = {
 	["sideArtStyle"] = 1,
 	["multiplayer"] = true,
 	["speedometerPosPoint"] = 1,
-	["sideArt"] = true,
+	["raceData"] = {
+		["Account"] = {
+		},
+		["Wysjj - Azshara"] = {
+		},
+	},
 	["barStyle"] = 1,
 	["fadeSpeed"] = true,
 	["speedometerPosY"] = 5,
-	["fadeVigor"] = true,
+	["useAccountData"] = false,
 	["tempFixes"] = {
 		["hideVigor"] = true,
 	},
@@ -26,54 +31,49 @@ DragonRider_DB = {
 		["height"] = 525,
 		["width"] = 550,
 	},
-	["glyphDetector"] = true,
+	["DynamicFOV"] = true,
 	["lightningRush"] = true,
-	["speedBarColor"] = {
+	["speedTextColor"] = {
 		["vigor"] = {
-			["a"] = 1,
-			["b"] = 0.6078431372549019,
-			["g"] = 0.5647058823529412,
-			["r"] = 0,
+			["r"] = 1,
+			["g"] = 1,
+			["b"] = 1,
 		},
 		["slow"] = {
-			["a"] = 1,
-			["b"] = 0,
-			["g"] = 0.3803921568627451,
-			["r"] = 0.7686274509803922,
+			["r"] = 1,
+			["g"] = 1,
+			["b"] = 1,
 		},
 		["over"] = {
-			["a"] = 1,
-			["b"] = 0.7647058823529411,
-			["g"] = 0.3019607843137255,
-			["r"] = 0.6588235294117647,
+			["r"] = 1,
+			["g"] = 1,
+			["b"] = 1,
 		},
 	},
 	["speedValUnits"] = 1,
-	["speedTextColor"] = {
+	["speedBarColor"] = {
 		["vigor"] = {
-			["b"] = 1,
-			["g"] = 1,
-			["r"] = 1,
+			["a"] = 1,
+			["r"] = 0,
+			["g"] = 0.5647058823529412,
+			["b"] = 0.6078431372549019,
 		},
 		["slow"] = {
-			["b"] = 1,
-			["g"] = 1,
-			["r"] = 1,
+			["a"] = 1,
+			["r"] = 0.7686274509803922,
+			["g"] = 0.3803921568627451,
+			["b"] = 0,
 		},
 		["over"] = {
-			["b"] = 1,
-			["g"] = 1,
-			["r"] = 1,
+			["a"] = 1,
+			["r"] = 0.6588235294117647,
+			["g"] = 0.3019607843137255,
+			["b"] = 0.7647058823529411,
 		},
 	},
-	["DynamicFOV"] = true,
+	["glyphDetector"] = true,
 	["statistics"] = {
 	},
-	["useAccountData"] = false,
-	["raceData"] = {
-		["Wysjj - Azshara"] = {
-		},
-		["Account"] = {
-		},
-	},
+	["fadeVigor"] = true,
+	["sideArt"] = true,
 }
