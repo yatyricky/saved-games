@@ -35,3 +35,6 @@ VER 3 0000000000000001 "target" "132090"
 /target Love Fool
 /cleartarget [dead]
 END
+VER 3 000000000000000A "ver" "132162"
+/cin VANILLA
+END

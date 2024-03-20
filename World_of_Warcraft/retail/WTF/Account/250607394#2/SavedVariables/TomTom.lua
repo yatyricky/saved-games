@@ -4,16 +4,16 @@ TomTomDB = {
 		["Nethercents - Azshara"] = "Default",
 		["Whodoikillfi - Azshara"] = "Default",
 		["Jarednine - Azshara"] = "Default",
-		["Forevent - Azshara"] = "Default",
-		["Forloveinthe - Azshara"] = "Default",
+		["Wysjj - Azshara"] = "Default",
+		["Pilgrimud - Azshara"] = "Default",
 		["Icantbelieve - Azshara"] = "Default",
-		["Taronxwemor - Azshara"] = "Default",
-		["Shaamy - Azshara"] = "Default",
+		["Forloveinthe - Azshara"] = "Default",
+		["Ugottabekidd - Azshara"] = "Default",
 		["Berogue - Azshara"] = "Default",
 		["Igottwohorns - Thunderlord"] = "Default",
-		["Ugottabekidd - Azshara"] = "Default",
-		["Pilgrimud - Azshara"] = "Default",
-		["Wysjj - Azshara"] = "Default",
+		["Shaamy - Azshara"] = "Default",
+		["Taronxwemor - Azshara"] = "Default",
+		["Forevent - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -44,16 +44,16 @@ TomTomWaypointsM = {
 		["Nethercents - Azshara"] = "Nethercents - Azshara",
 		["Whodoikillfi - Azshara"] = "Whodoikillfi - Azshara",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
-		["Forevent - Azshara"] = "Forevent - Azshara",
-		["Forloveinthe - Azshara"] = "Forloveinthe - Azshara",
+		["Wysjj - Azshara"] = "Wysjj - Azshara",
+		["Pilgrimud - Azshara"] = "Pilgrimud - Azshara",
 		["Icantbelieve - Azshara"] = "Icantbelieve - Azshara",
-		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",
-		["Shaamy - Azshara"] = "Shaamy - Azshara",
+		["Forloveinthe - Azshara"] = "Forloveinthe - Azshara",
+		["Ugottabekidd - Azshara"] = "Ugottabekidd - Azshara",
 		["Berogue - Azshara"] = "Berogue - Azshara",
 		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
-		["Ugottabekidd - Azshara"] = "Ugottabekidd - Azshara",
-		["Pilgrimud - Azshara"] = "Pilgrimud - Azshara",
-		["Wysjj - Azshara"] = "Wysjj - Azshara",
+		["Shaamy - Azshara"] = "Shaamy - Azshara",
+		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",
+		["Forevent - Azshara"] = "Forevent - Azshara",
 	},
 	["profiles"] = {
 		["Nethercents - Azshara"] = {
@@ -62,25 +62,25 @@ TomTomWaypointsM = {
 		},
 		["Jarednine - Azshara"] = {
 		},
-		["Forevent - Azshara"] = {
+		["Wysjj - Azshara"] = {
 		},
-		["Forloveinthe - Azshara"] = {
+		["Pilgrimud - Azshara"] = {
 		},
 		["Icantbelieve - Azshara"] = {
 		},
-		["Taronxwemor - Azshara"] = {
+		["Forloveinthe - Azshara"] = {
 		},
-		["Shaamy - Azshara"] = {
+		["Ugottabekidd - Azshara"] = {
 		},
 		["Berogue - Azshara"] = {
 		},
 		["Igottwohorns - Thunderlord"] = {
 		},
-		["Ugottabekidd - Azshara"] = {
+		["Shaamy - Azshara"] = {
 		},
-		["Pilgrimud - Azshara"] = {
+		["Taronxwemor - Azshara"] = {
 		},
-		["Wysjj - Azshara"] = {
+		["Forevent - Azshara"] = {
 		},
 	},
 }
