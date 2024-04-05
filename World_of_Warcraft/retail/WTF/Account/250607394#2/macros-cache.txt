@@ -12,3 +12,7 @@ VER 3 0000000000000001 "target" "132090"
 /target shaded
 /cleartarget [dead]
 END
+VER 3 0000000000000005 "use egg" "134400"
+#showtooltip Brightly Colored Egg
+/use Brightly Colored Egg
+END

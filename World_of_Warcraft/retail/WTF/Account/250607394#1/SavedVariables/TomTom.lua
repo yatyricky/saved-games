@@ -9,10 +9,10 @@ TomTomDB = {
 		["Linqpad - Azshara"] = "Default",
 		["Bblilmao - Azshara"] = "Default",
 		["Lizman - Azshara"] = "Default",
-		["Dahoontar - Azshara"] = "Default",
+		["Gamwillsaveu - Azshara"] = "Default",
 		["Vladojin - Azshara"] = "Default",
 		["Lynndaw - Azshara"] = "Default",
-		["Gamwillsaveu - Azshara"] = "Default",
+		["Dahoontar - Azshara"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -48,10 +48,10 @@ TomTomWaypointsM = {
 		["Linqpad - Azshara"] = "Linqpad - Azshara",
 		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 		["Lizman - Azshara"] = "Lizman - Azshara",
-		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 		["Vladojin - Azshara"] = "Vladojin - Azshara",
 		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 	},
 	["profiles"] = {
 		["Ziadwan - Azshara"] = {
@@ -217,17 +217,17 @@ TomTomWaypointsM = {
 				},
 			},
 			[114] = {
-				["114:591000000:656000000:Elder Sardis"] = {
+				["114:570000000:430000000:Elder Arp"] = {
 					114, -- [1]
-					0.591, -- [2]
-					0.6559999999999999, -- [3]
+					0.57, -- [2]
+					0.43, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Elder Sardis",
+					["desc"] = "Elder Arp",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Elder Sardis",
+					["title"] = "Elder Arp",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -310,17 +310,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["114:570000000:430000000:Elder Arp"] = {
+				["114:591000000:656000000:Elder Sardis"] = {
 					114, -- [1]
-					0.57, -- [2]
-					0.43, -- [3]
+					0.591, -- [2]
+					0.6559999999999999, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Elder Arp",
+					["desc"] = "Elder Sardis",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Elder Arp",
+					["title"] = "Elder Sardis",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -390,12 +390,6 @@ TomTomWaypointsM = {
 		},
 		["Lizman - Azshara"] = {
 		},
-		["Dahoontar - Azshara"] = {
-		},
-		["Vladojin - Azshara"] = {
-		},
-		["Lynndaw - Azshara"] = {
-		},
 		["Gamwillsaveu - Azshara"] = {
 			[120] = {
 				["120:410000000:840000000:Elder Graymane"] = {
@@ -413,15 +407,21 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
+		},
+		["Vladojin - Azshara"] = {
+		},
+		["Lynndaw - Azshara"] = {
+		},
+		["Dahoontar - Azshara"] = {
 		},
 	},
 }
