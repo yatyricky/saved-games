@@ -202,6 +202,15 @@ SwatterData = {
 			["context"] = "Global",
 			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/DatabaseClasses/Query.lua\"]:1118: in function <...adeSkillMaster/LibTSM/Util/DatabaseClasses/Query.lua:1117>\n[string \"@Interface/AddOns/TradeSkillMaster/External/LibTSMClass/LibTSMClass.lua\"]:332: in function `_MarkResultStale'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/DatabaseClasses/DBTable.lua\"]:995: in function <...eSkillMaster/LibTSM/Util/DatabaseClasses/DBTable.lua:986>\n[string \"@Interface/AddOns/TradeSkillMaster/External/LibTSMClass/LibTSMClass.lua\"]:332: in function `_UpdateQueries'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/DatabaseClasses/DBTable.lua\"]:244: in function <...eSkillMaster/LibTSM/Util/DatabaseClasses/DBTable.lua:240>\n[string \"@Interface/AddOns/TradeSkillMaster/External/LibTSMClass/LibTSMClass.lua\"]:332: in function `SetQueryUpdatesPaused'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua\"]:475: in function `_callback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua\"]:100: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua:93>\n[string \"@Interface/AddOns/TradeSkillMaster/External/LibTSMClass/LibTSMClass.lua\"]:332: in function `_CheckIfDone'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua\"]:123: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua:116>\n",
 		}, -- [22]
+		{
+			["message"] = "Error: AddOn TradeSkillMaster attempted to call a forbidden function (CastSpellByID()) from a tainted execution path.",
+			["count"] = 45,
+			["addons"] = "  Swatter, v9.1.BETA.5.13 (OneMawTime)\n  Arh, v2.0.4-105\n  Auctioneer, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerStatsOverTime, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilDealFinder, v9.1.BETA.5.13 (OneMawTime)\n  AuctioneerUtilValuer, v9.1.BETA.5.13 (OneMawTime)\n  CustomItemNotes, v1.11\n  DragonRider, v0.2.3\n  Enchantrix, v9.1.BETA.5.13 (OneMawTime)\n  GatherMate2, v1.48.8\n  Incognito, v1.4.1\n  Informant, v9.1.BETA.5.13 (OneMawTime)\n  InstanceAchievementTracker, v4.39.0\n  RareScanner, v10.1.7.9\n  SellJunk, v3.0.31 DF FanUpdate by ImJayc2/Shyde\n  SlideBar, v9.1.BETA.5.13 (OneMawTime)\n  Stubby, v9.1.BETA.5.13 (OneMawTime)\n  TomTom, vv3.5.5-release\n  TradeSkillMaster, vv4.13.20\n  TradeSkillMasterAppHelper, vv4.13.1\n  BlizRuntimeLib v10.2.6.53989(US) <enUS>\n  (ck=2fa)\n",
+			["locals"] = "self = Button {\n NormalTexture = Texture {\n }\n Icon = Texture {\n }\n 0 = <userdata>\n Cooldown = Cooldown {\n }\n spellID = 207583\n}\nbutton = \"LeftButton\"\n",
+			["timestamp"] = "2024-04-07 22:20:43",
+			["context"] = "AddOn: TradeSkillMaster",
+			["stack"] = "[string \"=[C]\"]: in function `CastSpellByID'\n[string \"@Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua\"]:670: in function <...jectiveTracker/Blizzard_ScenarioObjectiveTracker.lua:669>\n",
+		}, -- [23]
 	},
 	["autoshow"] = true,
 }
