@@ -5,9 +5,9 @@ TomTomDB = {
 		["Whodoikillfi - Azshara"] = "Default",
 		["Jarednine - Azshara"] = "Default",
 		["Forevent - Azshara"] = "Default",
-		["Taronxwemor - Azshara"] = "Default",
-		["Icantbelieve - Azshara"] = "Default",
 		["Forloveinthe - Azshara"] = "Default",
+		["Icantbelieve - Azshara"] = "Default",
+		["Taronxwemor - Azshara"] = "Default",
 		["Shaamy - Azshara"] = "Default",
 		["Berogue - Azshara"] = "Default",
 		["Igottwohorns - Thunderlord"] = "Default",
@@ -45,9 +45,9 @@ TomTomWaypointsM = {
 		["Whodoikillfi - Azshara"] = "Whodoikillfi - Azshara",
 		["Jarednine - Azshara"] = "Jarednine - Azshara",
 		["Forevent - Azshara"] = "Forevent - Azshara",
-		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",
-		["Icantbelieve - Azshara"] = "Icantbelieve - Azshara",
 		["Forloveinthe - Azshara"] = "Forloveinthe - Azshara",
+		["Icantbelieve - Azshara"] = "Icantbelieve - Azshara",
+		["Taronxwemor - Azshara"] = "Taronxwemor - Azshara",
 		["Shaamy - Azshara"] = "Shaamy - Azshara",
 		["Berogue - Azshara"] = "Berogue - Azshara",
 		["Igottwohorns - Thunderlord"] = "Igottwohorns - Thunderlord",
@@ -64,11 +64,11 @@ TomTomWaypointsM = {
 		},
 		["Forevent - Azshara"] = {
 		},
-		["Taronxwemor - Azshara"] = {
+		["Forloveinthe - Azshara"] = {
 		},
 		["Icantbelieve - Azshara"] = {
 		},
-		["Forloveinthe - Azshara"] = {
+		["Taronxwemor - Azshara"] = {
 		},
 		["Shaamy - Azshara"] = {
 		},
