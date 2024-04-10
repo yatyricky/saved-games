@@ -10,16 +10,16 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 175.1911547254768,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
-	["InfoFramescale"] = 1,
 	["hideCompletedAchievements"] = true,
+	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "BOTTOMRIGHT",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 145.0003662109375,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["InfoFramescale"] = 1,
 }
 AchievementTrackerDebug = {
 	nil, -- [1]
@@ -1770,168 +1770,168 @@ AchievementTrackerDebug = {
 	nil, -- [1746]
 	nil, -- [1747]
 	nil, -- [1748]
-	"27/9/2023 8:52 [DEBUG] Clearing Instance Variables if exists", -- [1749]
-	"27/9/2023 8:52 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [1750]
-	"27/9/2023 8:52 [DEBUG] Clearing Instance Variables if exists", -- [1751]
-	"27/9/2023 8:52 [DEBUG] Clearing Instance Variables", -- [1752]
-	"27/9/2023 8:52 [DEBUG] Resetting Global Variables", -- [1753]
-	"27/9/2023 8:52 [DEBUG] InfoFrame does not need to be reset", -- [1754]
-	"27/9/2023 8:52 [DEBUG] Resetting PlayerRank", -- [1755]
-	"27/9/2023 8:52 [DEBUG] InfoFrame was not active", -- [1756]
-	"27/9/2023 8:52 [DEBUG] Resetting Global Variables", -- [1757]
-	"27/9/2023 8:52 [DEBUG] InfoFrame does not need to be reset", -- [1758]
-	"27/9/2023 8:52 [DEBUG] Left Combat", -- [1759]
-	"27/9/2023 8:52 [DEBUG] 6", -- [1760]
-	"27/9/2023 8:52 [DEBUG] Hiding Tracking UI", -- [1761]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1762]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1763]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1764]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1765]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1766]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1767]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1768]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1769]
-	"27/9/2023 9:44 [DEBUG] Showing Minimap Icon", -- [1770]
-	"27/9/2023 9:48 [DEBUG] ---IAT Runtime---", -- [1771]
-	"27/9/2023 9:48 [DEBUG] Version: 4.25.0", -- [1772]
-	"27/9/2023 9:48 [DEBUG] Attempting to load from local NPC Cache", -- [1773]
-	"27/9/2023 9:48 [DEBUG] Generating NPC Cache...", -- [1774]
-	"27/9/2023 9:48 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1775]
-	"27/9/2023 9:48 [DEBUG] true", -- [1776]
-	"27/9/2023 9:48 [DEBUG] Enabling Addon", -- [1777]
-	"27/9/2023 9:48 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1778]
-	"27/9/2023 9:52 [DEBUG] Showing Minimap Icon", -- [1779]
-	"27/9/2023 9:53 [DEBUG] ---IAT Runtime---", -- [1780]
-	"27/9/2023 9:53 [DEBUG] Version: 4.25.0", -- [1781]
-	"27/9/2023 9:53 [DEBUG] Attempting to load from local NPC Cache", -- [1782]
-	"27/9/2023 9:53 [DEBUG] Generating NPC Cache...", -- [1783]
-	"27/9/2023 9:53 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1784]
-	"27/9/2023 9:53 [DEBUG] true", -- [1785]
-	"27/9/2023 9:53 [DEBUG] Enabling Addon", -- [1786]
-	"27/9/2023 9:53 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1787]
-	"27/9/2023 9:56 [DEBUG] Showing Minimap Icon", -- [1788]
-	"27/9/2023 10:8 [DEBUG] ---IAT Runtime---", -- [1789]
-	"27/9/2023 10:8 [DEBUG] Version: 4.25.0", -- [1790]
-	"27/9/2023 10:8 [DEBUG] Attempting to load from local NPC Cache", -- [1791]
-	"27/9/2023 10:8 [DEBUG] Generating NPC Cache...", -- [1792]
-	"27/9/2023 10:8 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1793]
-	"27/9/2023 10:8 [DEBUG] true", -- [1794]
-	"27/9/2023 10:8 [DEBUG] Enabling Addon", -- [1795]
-	"27/9/2023 10:8 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1796]
-	"27/9/2023 10:8 [DEBUG] Showing Minimap Icon", -- [1797]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1798]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1799]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1800]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1801]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1802]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1803]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1804]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1805]
-	"29/9/2023 2:22 [DEBUG] Showing Minimap Icon", -- [1806]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1807]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1808]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1809]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1810]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1811]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1812]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1813]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1814]
-	"1/10/2023 9:51 [DEBUG] Showing Minimap Icon", -- [1815]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1816]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1817]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1818]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1819]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1820]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1821]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1822]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1823]
-	"2/10/2023 1:34 [DEBUG] Showing Minimap Icon", -- [1824]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1825]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1826]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1827]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1828]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1829]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1830]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1831]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1832]
-	"2/10/2023 9:29 [DEBUG] Showing Minimap Icon", -- [1833]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1834]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1835]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1836]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1837]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1838]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1839]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1840]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1841]
-	"3/10/2023 10:26 [DEBUG] Showing Minimap Icon", -- [1842]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1843]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1844]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1845]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1846]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1847]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1848]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1849]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1850]
-	"3/10/2023 10:28 [DEBUG] Showing Minimap Icon", -- [1851]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1852]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1853]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1854]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1855]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1856]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1857]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1858]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1859]
-	"3/10/2023 10:42 [DEBUG] Showing Minimap Icon", -- [1860]
-	"3/10/2023 10:46 [DEBUG] Player has entered instance", -- [1861]
-	"3/10/2023 10:46 [DEBUG] 1460", -- [1862]
-	"3/10/2023 10:46 [DEBUG] Offical Instance Name: 1460 _1460", -- [1863]
-	"3/10/2023 10:46 [DEBUG] DifficultyID: 12", -- [1864]
-	"3/10/2023 10:46 [DEBUG] Achievements cannot be earned for the following difficulty 12", -- [1865]
-	"3/10/2023 10:46 [DEBUG] Player has entered instance", -- [1866]
-	"3/10/2023 10:46 [DEBUG] 1460", -- [1867]
-	"3/10/2023 10:46 [DEBUG] Offical Instance Name: 1460 _1460", -- [1868]
-	"3/10/2023 10:46 [DEBUG] DifficultyID: 12", -- [1869]
-	"3/10/2023 10:46 [DEBUG] Achievements cannot be earned for the following difficulty 12", -- [1870]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1871]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1872]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1873]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1874]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1875]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1876]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1877]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1878]
-	"4/10/2023 0:53 [DEBUG] Showing Minimap Icon", -- [1879]
-	"4/10/2023 1:21 [DEBUG] Player has entered instance", -- [1880]
-	"4/10/2023 1:21 [DEBUG] 1500", -- [1881]
-	"4/10/2023 1:21 [DEBUG] Offical Instance Name: 1500 _1500", -- [1882]
-	"4/10/2023 1:21 [DEBUG] DifficultyID: 12", -- [1883]
-	"4/10/2023 1:21 [DEBUG] Achievements cannot be earned for the following difficulty 12", -- [1884]
-	"4/10/2023 1:21 [DEBUG] Player has entered instance", -- [1885]
-	"4/10/2023 1:21 [DEBUG] 1500", -- [1886]
-	"4/10/2023 1:21 [DEBUG] Offical Instance Name: 1500 _1500", -- [1887]
-	"4/10/2023 1:21 [DEBUG] DifficultyID: 12", -- [1888]
-	"4/10/2023 1:21 [DEBUG] Achievements cannot be earned for the following difficulty 12", -- [1889]
-	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1890]
-	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [1891]
-	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [1892]
-	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [1893]
-	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [1894]
-	"0/0/1999 -1:-1 [DEBUG] true", -- [1895]
-	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [1896]
-	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [1897]
-	"5/10/2023 1:41 [DEBUG] Showing Minimap Icon", -- [1898]
-	"5/10/2023 1:41 [DEBUG] Player has entered instance", -- [1899]
-	"5/10/2023 1:41 [DEBUG] 720", -- [1900]
-	"5/10/2023 1:41 [DEBUG] Offical Instance Name: 720 _720", -- [1901]
-	"5/10/2023 1:41 [DEBUG] Expansion: 4", -- [1902]
-	"5/10/2023 1:41 [DEBUG] Instance Type: Raids", -- [1903]
-	"5/10/2023 1:41 [DEBUG] Instance: 720", -- [1904]
-	"5/10/2023 1:41 [DEBUG] DifficultyID: 14", -- [1905]
-	"5/10/2023 1:41 [DEBUG] Expansion: 4", -- [1906]
-	"5/10/2023 1:41 [DEBUG] Instance Type: Raids", -- [1907]
-	"5/10/2023 1:41 [DEBUG] Instance: 720", -- [1908]
-	"5/10/2023 1:41 [DEBUG] Asking user whether they want to track this instance", -- [1909]
-	"5/10/2023 1:41 [DEBUG] Creating Tracking UI", -- [1910]
+	nil, -- [1749]
+	nil, -- [1750]
+	nil, -- [1751]
+	nil, -- [1752]
+	nil, -- [1753]
+	nil, -- [1754]
+	nil, -- [1755]
+	nil, -- [1756]
+	nil, -- [1757]
+	nil, -- [1758]
+	nil, -- [1759]
+	nil, -- [1760]
+	nil, -- [1761]
+	nil, -- [1762]
+	nil, -- [1763]
+	nil, -- [1764]
+	nil, -- [1765]
+	nil, -- [1766]
+	nil, -- [1767]
+	nil, -- [1768]
+	nil, -- [1769]
+	nil, -- [1770]
+	nil, -- [1771]
+	nil, -- [1772]
+	nil, -- [1773]
+	nil, -- [1774]
+	nil, -- [1775]
+	nil, -- [1776]
+	nil, -- [1777]
+	nil, -- [1778]
+	nil, -- [1779]
+	nil, -- [1780]
+	nil, -- [1781]
+	nil, -- [1782]
+	nil, -- [1783]
+	nil, -- [1784]
+	nil, -- [1785]
+	nil, -- [1786]
+	nil, -- [1787]
+	nil, -- [1788]
+	nil, -- [1789]
+	nil, -- [1790]
+	nil, -- [1791]
+	nil, -- [1792]
+	nil, -- [1793]
+	nil, -- [1794]
+	nil, -- [1795]
+	nil, -- [1796]
+	nil, -- [1797]
+	nil, -- [1798]
+	nil, -- [1799]
+	nil, -- [1800]
+	nil, -- [1801]
+	nil, -- [1802]
+	nil, -- [1803]
+	nil, -- [1804]
+	nil, -- [1805]
+	nil, -- [1806]
+	nil, -- [1807]
+	nil, -- [1808]
+	nil, -- [1809]
+	nil, -- [1810]
+	nil, -- [1811]
+	nil, -- [1812]
+	nil, -- [1813]
+	nil, -- [1814]
+	nil, -- [1815]
+	nil, -- [1816]
+	nil, -- [1817]
+	nil, -- [1818]
+	nil, -- [1819]
+	nil, -- [1820]
+	nil, -- [1821]
+	nil, -- [1822]
+	nil, -- [1823]
+	nil, -- [1824]
+	nil, -- [1825]
+	nil, -- [1826]
+	nil, -- [1827]
+	nil, -- [1828]
+	nil, -- [1829]
+	nil, -- [1830]
+	nil, -- [1831]
+	nil, -- [1832]
+	nil, -- [1833]
+	nil, -- [1834]
+	nil, -- [1835]
+	nil, -- [1836]
+	nil, -- [1837]
+	nil, -- [1838]
+	nil, -- [1839]
+	nil, -- [1840]
+	nil, -- [1841]
+	nil, -- [1842]
+	nil, -- [1843]
+	nil, -- [1844]
+	nil, -- [1845]
+	nil, -- [1846]
+	nil, -- [1847]
+	nil, -- [1848]
+	nil, -- [1849]
+	nil, -- [1850]
+	nil, -- [1851]
+	nil, -- [1852]
+	nil, -- [1853]
+	nil, -- [1854]
+	nil, -- [1855]
+	nil, -- [1856]
+	nil, -- [1857]
+	nil, -- [1858]
+	nil, -- [1859]
+	nil, -- [1860]
+	nil, -- [1861]
+	nil, -- [1862]
+	nil, -- [1863]
+	nil, -- [1864]
+	nil, -- [1865]
+	nil, -- [1866]
+	nil, -- [1867]
+	nil, -- [1868]
+	nil, -- [1869]
+	nil, -- [1870]
+	nil, -- [1871]
+	nil, -- [1872]
+	nil, -- [1873]
+	nil, -- [1874]
+	nil, -- [1875]
+	nil, -- [1876]
+	nil, -- [1877]
+	nil, -- [1878]
+	nil, -- [1879]
+	nil, -- [1880]
+	nil, -- [1881]
+	nil, -- [1882]
+	nil, -- [1883]
+	nil, -- [1884]
+	nil, -- [1885]
+	nil, -- [1886]
+	nil, -- [1887]
+	nil, -- [1888]
+	nil, -- [1889]
+	nil, -- [1890]
+	nil, -- [1891]
+	nil, -- [1892]
+	nil, -- [1893]
+	nil, -- [1894]
+	nil, -- [1895]
+	nil, -- [1896]
+	nil, -- [1897]
+	nil, -- [1898]
+	nil, -- [1899]
+	nil, -- [1900]
+	nil, -- [1901]
+	nil, -- [1902]
+	nil, -- [1903]
+	nil, -- [1904]
+	nil, -- [1905]
+	nil, -- [1906]
+	nil, -- [1907]
+	nil, -- [1908]
+	nil, -- [1909]
+	nil, -- [1910]
 	"5/10/2023 1:41 [DEBUG] InfoFrame Setup Complete", -- [1911]
 	"5/10/2023 1:41 [DEBUG] Expansion: 4", -- [1912]
 	"5/10/2023 1:41 |cff00ccffIAT: |cffffffffStarting achievement scan for Firelands (This may freeze your game for a few seconds!)", -- [1913]
@@ -51797,6 +51797,141 @@ AchievementTrackerDebug = {
 	"7/4/2024 10:11 [DEBUG] Enabling Addon", -- [51773]
 	"7/4/2024 10:11 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [51774]
 	"7/4/2024 10:13 [DEBUG] Showing Minimap Icon", -- [51775]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [51776]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [51777]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [51778]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [51779]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [51780]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [51781]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [51782]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [51783]
+	"10/4/2024 5:47 [DEBUG] Showing Minimap Icon", -- [51784]
+	"10/4/2024 5:50 [DEBUG] Player has entered instance", -- [51785]
+	"10/4/2024 5:50 [DEBUG] 409", -- [51786]
+	"10/4/2024 5:50 [DEBUG] Offical Instance Name: 409 _409", -- [51787]
+	"10/4/2024 5:50 [DEBUG] DifficultyID: 9", -- [51788]
+	"10/4/2024 5:50 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [51789]
+	"10/4/2024 5:50 [DEBUG] Player has entered instance", -- [51790]
+	"10/4/2024 5:50 [DEBUG] 409", -- [51791]
+	"10/4/2024 5:50 [DEBUG] Offical Instance Name: 409 _409", -- [51792]
+	"10/4/2024 5:50 [DEBUG] DifficultyID: 9", -- [51793]
+	"10/4/2024 5:50 [DEBUG] Achievements cannot be earned for the following difficulty 9", -- [51794]
+	"10/4/2024 6:0 [DEBUG] Player has entered instance", -- [51795]
+	"10/4/2024 6:0 [DEBUG] 725", -- [51796]
+	"10/4/2024 6:0 [DEBUG] Offical Instance Name: 725 _725", -- [51797]
+	"10/4/2024 6:0 [DEBUG] Expansion: 4", -- [51798]
+	"10/4/2024 6:0 [DEBUG] Instance Type: Dungeons", -- [51799]
+	"10/4/2024 6:0 [DEBUG] Instance: 725", -- [51800]
+	"10/4/2024 6:0 [DEBUG] DifficultyID: 2", -- [51801]
+	"10/4/2024 6:0 [DEBUG] Expansion: 4", -- [51802]
+	"10/4/2024 6:0 [DEBUG] Instance Type: Dungeons", -- [51803]
+	"10/4/2024 6:0 [DEBUG] Instance: 725", -- [51804]
+	"10/4/2024 6:0 [DEBUG] Asking user whether they want to track this instance", -- [51805]
+	"10/4/2024 6:0 [DEBUG] Creating Tracking UI", -- [51806]
+	"10/4/2024 6:0 [DEBUG] InfoFrame Setup Complete", -- [51807]
+	"10/4/2024 6:0 [DEBUG] Expansion: 4", -- [51808]
+	"10/4/2024 6:0 |cff00ccffIAT: |cffffffffStarting achievement scan for The Stonecore (This may freeze your game for a few seconds!)", -- [51809]
+	"10/4/2024 6:0 [DEBUG] Group Size set to: 1", -- [51810]
+	"10/4/2024 6:0 [DEBUG] Combatlog does not need to be enabled", -- [51811]
+	"10/4/2024 6:0 [DEBUG] Starting Initial Setup If Needed...", -- [51812]
+	"10/4/2024 6:0 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:773: attempt to call method 'InitialSetup' (a nil value).", -- [51813]
+	"10/4/2024 6:0 [DEBUG] Setting Master Addon 1", -- [51814]
+	"10/4/2024 6:0 |cff00ccffIAT: |cffffffffAchievement Tracking Enabled for The Stonecore", -- [51815]
+	"10/4/2024 6:0 [DEBUG] INSPECT_ACHIEVEMENT_READY FIRED. INFORMATION FOR: Ziadwan", -- [51816]
+	"10/4/2024 6:0 |cff00ccffIAT: |cffffffffAchievement Scanning Finished (1/1)", -- [51817]
+	"10/4/2024 6:0 |cff00ccffIAT: |cffffffffIncomplete achievements for this instance |cffffff00|Hachievement:5287:Player-77-0F10C113:0:0:0:-1:0:0:0:0|h[Rotten to the Core]|h|r", -- [51818]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables if exists", -- [51819]
+	"10/4/2024 6:0 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [51820]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables if exists", -- [51821]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables", -- [51822]
+	"10/4/2024 6:0 [DEBUG] Resetting Global Variables", -- [51823]
+	"10/4/2024 6:0 [DEBUG] InfoFrame does not need to be reset", -- [51824]
+	"10/4/2024 6:0 [DEBUG] Left Combat", -- [51825]
+	"10/4/2024 6:0 [DEBUG] Calling Detect Boss 2: 43391", -- [51826]
+	"10/4/2024 6:0 [DEBUG] Found the following boss ID: 43391", -- [51827]
+	"10/4/2024 6:0 [DEBUG] Calling Detect Boss 2: 43537", -- [51828]
+	"10/4/2024 6:0 [DEBUG] Found the following boss ID: 43537", -- [51829]
+	"10/4/2024 6:0 [DEBUG] Calling Detect Boss 2: 42696", -- [51830]
+	"10/4/2024 6:0 [DEBUG] Found the following boss ID: 42696", -- [51831]
+	"10/4/2024 6:0 [DEBUG] Calling Detect Boss 3: 43662", -- [51832]
+	"10/4/2024 6:0 [DEBUG] Found the following boss ID: 43662", -- [51833]
+	"10/4/2024 6:0 [DEBUG] Calling Detect Boss 2: 43430", -- [51834]
+	"10/4/2024 6:0 [DEBUG] Found the following boss ID: 43430", -- [51835]
+	"10/4/2024 6:0 [DEBUG] Entered Combat", -- [51836]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables if exists", -- [51837]
+	"10/4/2024 6:0 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [51838]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables if exists", -- [51839]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables", -- [51840]
+	"10/4/2024 6:0 [DEBUG] Resetting Global Variables", -- [51841]
+	"10/4/2024 6:0 [DEBUG] InfoFrame does not need to be reset", -- [51842]
+	"10/4/2024 6:0 [DEBUG] Left Combat", -- [51843]
+	"10/4/2024 6:0 [DEBUG] Entered Combat", -- [51844]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables if exists", -- [51845]
+	"10/4/2024 6:0 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [51846]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables if exists", -- [51847]
+	"10/4/2024 6:0 [DEBUG] Clearing Instance Variables", -- [51848]
+	"10/4/2024 6:0 [DEBUG] Resetting Global Variables", -- [51849]
+	"10/4/2024 6:0 [DEBUG] InfoFrame does not need to be reset", -- [51850]
+	"10/4/2024 6:0 [DEBUG] Left Combat", -- [51851]
+	"10/4/2024 6:1 [DEBUG] Calling Detect Boss 3: 43438", -- [51852]
+	"10/4/2024 6:1 [DEBUG] Found the following boss ID: 43438", -- [51853]
+	"10/4/2024 6:1 [DEBUG] ---Encounter Started---", -- [51854]
+	"10/4/2024 6:1 [DEBUG] Encounter ID: 1056", -- [51855]
+	"10/4/2024 6:1 [DEBUG] Detected boss using ENCOUNTER ID", -- [51856]
+	"10/4/2024 6:1 [DEBUG] Found the following encounter ID: 1056", -- [51857]
+	"10/4/2024 6:1 [DEBUG] Entered Combat", -- [51858]
+	"10/4/2024 6:1 [DEBUG] ---Encounter Ended---", -- [51859]
+	"10/4/2024 6:1 [DEBUG] Locking Detection for 3 seconds", -- [51860]
+	"10/4/2024 6:1 [DEBUG] Clearing Instance Variables if exists", -- [51861]
+	"10/4/2024 6:1 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [51862]
+	"10/4/2024 6:1 [DEBUG] Clearing Instance Variables if exists", -- [51863]
+	"10/4/2024 6:1 [DEBUG] Clearing Instance Variables", -- [51864]
+	"10/4/2024 6:1 [DEBUG] Resetting Global Variables", -- [51865]
+	"10/4/2024 6:1 [DEBUG] InfoFrame does not need to be reset", -- [51866]
+	"10/4/2024 6:1 [DEBUG] Left Combat", -- [51867]
+	"10/4/2024 6:1 [DEBUG] Detection unlocked", -- [51868]
+	"10/4/2024 6:1 [DEBUG] Calling Detect Boss 3: 43214", -- [51869]
+	"10/4/2024 6:1 [DEBUG] Found the following boss ID: 43214", -- [51870]
+	"10/4/2024 6:1 [DEBUG] ---Encounter Started---", -- [51871]
+	"10/4/2024 6:1 [DEBUG] Encounter ID: 1059", -- [51872]
+	"10/4/2024 6:1 [DEBUG] Detected boss using ENCOUNTER ID", -- [51873]
+	"10/4/2024 6:1 [DEBUG] Found the following encounter ID: 1059", -- [51874]
+	"10/4/2024 6:1 [DEBUG] ---Encounter Ended---", -- [51875]
+	"10/4/2024 6:1 [DEBUG] Locking Detection for 3 seconds", -- [51876]
+	"10/4/2024 6:1 [DEBUG] Entered Combat", -- [51877]
+	"10/4/2024 6:1 [DEBUG] Clearing Instance Variables if exists", -- [51878]
+	"10/4/2024 6:1 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [51879]
+	"10/4/2024 6:1 [DEBUG] Clearing Instance Variables if exists", -- [51880]
+	"10/4/2024 6:1 [DEBUG] Clearing Instance Variables", -- [51881]
+	"10/4/2024 6:1 [DEBUG] Resetting Global Variables", -- [51882]
+	"10/4/2024 6:1 [DEBUG] InfoFrame does not need to be reset", -- [51883]
+	"10/4/2024 6:1 [DEBUG] Left Combat", -- [51884]
+	"10/4/2024 6:1 [DEBUG] Detection unlocked", -- [51885]
+	"10/4/2024 6:2 [DEBUG] Calling Detect Boss 2: 96955", -- [51886]
+	"10/4/2024 6:2 [DEBUG] Found the following boss ID: 96955", -- [51887]
+	"10/4/2024 6:2 [DEBUG] Clearing Instance Variables", -- [51888]
+	"10/4/2024 6:2 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [51889]
+	"10/4/2024 6:2 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [51890]
+	"10/4/2024 6:2 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [51891]
+	"10/4/2024 6:2 [DEBUG] Clearing Instance Variables if exists", -- [51892]
+	"10/4/2024 6:2 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [51893]
+	"10/4/2024 6:2 [DEBUG] Clearing Instance Variables if exists", -- [51894]
+	"10/4/2024 6:2 [DEBUG] Clearing Instance Variables", -- [51895]
+	"10/4/2024 6:2 [DEBUG] Resetting Global Variables", -- [51896]
+	"10/4/2024 6:2 [DEBUG] InfoFrame does not need to be reset", -- [51897]
+	"10/4/2024 6:2 [DEBUG] Resetting PlayerRank", -- [51898]
+	"10/4/2024 6:2 [DEBUG] InfoFrame was not active", -- [51899]
+	"10/4/2024 6:2 [DEBUG] 6", -- [51900]
+	"10/4/2024 6:2 [DEBUG] Hiding Tracking UI", -- [51901]
+	"10/4/2024 6:3 [DEBUG] ---IAT Runtime---", -- [51902]
+	"10/4/2024 6:3 [DEBUG] Version: 4.39.0", -- [51903]
+	"10/4/2024 6:3 [DEBUG] Attempting to load from local NPC Cache", -- [51904]
+	"10/4/2024 6:3 [DEBUG] Generating NPC Cache...", -- [51905]
+	"10/4/2024 6:3 [DEBUG] Only Tracking Missing Achievements Enabled", -- [51906]
+	"10/4/2024 6:3 [DEBUG] true", -- [51907]
+	"10/4/2024 6:3 [DEBUG] Enabling Addon", -- [51908]
+	"10/4/2024 6:3 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [51909]
+	"10/4/2024 6:3 [DEBUG] Showing Minimap Icon", -- [51910]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -52150,9 +52285,9 @@ AchievementTrackerNPCCache = {
 	[201320] = "Rashok",
 	[115831] = "Mana Devourer",
 	[88938] = "Ragnaros",
-	[143045] = "Coastal Scuttler",
-	[77149] = "Rat",
 	[81305] = "Fleshrender Nok'gar",
+	[77149] = "Rat",
+	[143045] = "Coastal Scuttler",
 	[56637] = "Ook-Ook",
 	[144324] = "Gorak Tul",
 	[138314] = "Patches",
@@ -52170,12 +52305,12 @@ AchievementTrackerNPCCache = {
 	[72889] = "Superheated Crawler Mine",
 	[33524] = "Saronite Animus",
 	[98761] = "Soul Fragment",
-	[202637] = "Zskarn",
+	[82457] = "Ner'zhul",
 	[184915] = "Halondrus",
 	[185427] = "Unstable Progenitor Relic",
 	[185439] = "Tainted Progenitor Relic",
 	[45992] = "Valiona",
-	[131667] = "Soulbound Goliath",
+	[150081] = "Wise Mari",
 	[83775] = "Ogron Laborer",
 	[60410] = "Elegon",
 	[101823] = "Mushroom Merchant",
@@ -52229,8 +52364,8 @@ AchievementTrackerNPCCache = {
 	[178783] = "Moriaz the Red",
 	[166644] = "Artificer Xy'mox",
 	[72436] = "Immerseus",
-	[67883] = "Rosey Axlerod",
 	[29023] = "Jan'alai",
+	[67883] = "Rosey Axlerod",
 	[33202] = "Ancient Water Spirit",
 	[34826] = "Mistress of Pain",
 	[52438] = "Mortaxx",
@@ -52244,13 +52379,13 @@ AchievementTrackerNPCCache = {
 	[162102] = "Grand Proctor Beryllia",
 	[39984] = "Malignant Trogg",
 	[154741] = "Squirt Bot",
-	[91349] = "Mannoroth",
 	[32919] = "Storm Lasher",
+	[91349] = "Mannoroth",
 	[97551] = "Wisp",
-	[108996] = "Specter of Vengeance",
-	[68599] = "Ferra Pearl",
 	[153415] = "Sha of Violence",
-	[178095] = "Eye of the Jailer",
+	[68599] = "Ferra Pearl",
+	[185128] = "Memorial Pylon",
+	[135129] = "Projection of Yogg-Saron",
 	[70250] = "Frozen Head",
 	[81834] = "Priceless Paraphernalia",
 	[135513] = "Ancient Tome",
@@ -52263,8 +52398,8 @@ AchievementTrackerNPCCache = {
 	[117072] = "Mordrethal",
 	[115902] = "Razorjaw Waverunner",
 	[122135] = "Shatug",
-	[138967] = "Zul",
 	[39665] = "Rom'ogg Bonecrusher",
+	[138967] = "Zul",
 	[185130] = "Memorial Pylon",
 	[86918] = "Uncharged Construct",
 	[70251] = "Venomous Head",
@@ -52278,16 +52413,16 @@ AchievementTrackerNPCCache = {
 	[33136] = "Guardian of Yogg-Saron",
 	[55312] = "Yor'sahj the Unsleeping",
 	[43468] = "Lady Naz'jar",
-	[72490] = "Overseer Mojka",
+	[94996] = "Fragment of the Crone",
 	[99663] = "Frustrated Soul",
 	[87451] = "Fleshrender Nok'gar",
-	[4167] = "Dendrythis",
+	[61884] = "Xin the Weaponmaster",
 	[173768] = "Fiery Brazier",
 	[70252] = "Arcane Head",
-	[4155] = "Idriana",
+	[144596] = "Chest o' Booty",
 	[4159] = "Me'lynn",
-	[94996] = "Fragment of the Crone",
-	[61884] = "Xin the Weaponmaster",
+	[139737] = "Lord Stormsong",
+	[4167] = "Dendrythis",
 	[185005] = "Anduin's Grief",
 	[33244] = "Mimiron",
 	[78948] = "Tectus",
@@ -52295,21 +52430,21 @@ AchievementTrackerNPCCache = {
 	[175474] = "Belligerent Waiter",
 	[32273] = "Infinite Corruptor",
 	[71979] = "Kor'kron Warbringer",
-	[99664] = "Restless Soul",
+	[49864] = "Twilight Fiend",
 	[55419] = "Captain Varo'then",
 	[155595] = "Sacred Gear",
 	[61213] = "Krik'thik Conscript",
-	[152910] = "Queen Azshara",
-	[64346] = "Parasitoid Sha",
 	[4223] = "Fyldan",
+	[64346] = "Parasitoid Sha",
+	[152910] = "Queen Azshara",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
 	[135903] = "Manifestation of the Deep",
 	[136683] = "Trade Prince Gallywix",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[52422] = "Kaulema the Mover",
 	[111941] = "Hodir",
+	[52422] = "Kaulema the Mover",
 	[172093] = "Hearty Haunch",
 	[50376] = "Angered Earth",
 	[15687] = "Moroes",
@@ -52325,16 +52460,16 @@ AchievementTrackerNPCCache = {
 	[172094] = "Dissectible Dessert",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
-	[150995] = "Mimiron",
 	[138719] = "Serve Sharkbait's Meal",
-	[103758] = "Star Augur Etraeus",
+	[150995] = "Mimiron",
+	[205342] = "Neverburning Ebon Candle",
 	[170851] = "Volatile Plague Bomb",
 	[164218] = "Lord Chamberlain",
 	[56165] = "Crystal Conductor",
 	[164934] = "Manastorm",
-	[126712] = "Training Dummy",
-	[74475] = "Magmolatus",
 	[171456] = "Shattered Devastator",
+	[74475] = "Magmolatus",
+	[76585] = "Ragewing the Untamed",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
 	[23574] = "Akil'zon",
@@ -52355,51 +52490,51 @@ AchievementTrackerNPCCache = {
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[86928] = "Empowered Construct",
-	[141792] = "Liz Vilepot",
-	[115844] = "Goroth",
 	[105742] = "Turbax",
+	[115844] = "Goroth",
 	[36535] = "Corrupted Soul Fragment",
+	[78121] = "Gorian Warmage",
 	[205340] = "Expired Experiment",
-	[174018] = "Volatile Plague Bomb",
+	[172995] = "Hydra Seed",
 	[72496] = "Overseer Thathung",
 	[122366] = "Varimathras",
-	[100436] = "Illysanna Ravencrest",
-	[80551] = "Shard of Tectus",
+	[104528] = "High Botanist Tel'arn",
+	[165066] = "Huntsman Altimor",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
 	[156884] = "Essence of Vita",
 	[36855] = "Lady Deathwhisper",
 	[61567] = "Vizier Jin'bak",
-	[172995] = "Hydra Seed",
-	[104528] = "High Botanist Tel'arn",
-	[52392] = "Gurubashi Master Chef",
-	[129208] = "Dread Captain Lockwood",
+	[174018] = "Volatile Plague Bomb",
+	[100436] = "Illysanna Ravencrest",
 	[71984] = "Siege Engineer",
+	[129208] = "Dread Captain Lockwood",
+	[105743] = "Whipsnap",
 	[86250] = "Kyrak",
 	[181546] = "Prototype of Renewal",
 	[33343] = "XS-013 Scrapbot",
-	[105743] = "Whipsnap",
+	[52392] = "Gurubashi Master Chef",
 	[95833] = "Hyrja",
 	[189620] = "Pip",
-	[165066] = "Huntsman Altimor",
+	[80551] = "Shard of Tectus",
 	[69427] = "Dark Animus",
 	[29305] = "Moorabi",
 	[164557] = "Shard of Halkias",
+	[141792] = "Liz Vilepot",
 	[71983] = "Farseer Wolf Rider",
-	[78121] = "Gorian Warmage",
 	[64061] = "Mogu'shan Warden",
 	[119938] = "Reanimated Templar",
 	[27654] = "Drakos the Interrogator",
-	[111882] = "Sparky",
-	[146016] = "Leeroy Jenkins",
 	[28514] = "Nalorakk",
+	[146016] = "Leeroy Jenkins",
+	[111882] = "Sparky",
 	[115143] = "Snaplasher",
 	[180658] = "Focusing Prism",
-	[76585] = "Ragewing the Untamed",
+	[126712] = "Training Dummy",
 	[179392] = "Kin'tessa",
 	[99031] = "Artifact",
 	[164363] = "Undying Stonefiend",
-	[205342] = "Neverburning Ebon Candle",
+	[103758] = "Star Augur Etraeus",
 	[26628] = "Drakkari Scytheclaw",
 	[162317] = "Gorechop",
 	[55334] = "Void of the Unmaking",
@@ -52412,13 +52547,13 @@ AchievementTrackerNPCCache = {
 	[33768] = "Rubble",
 	[73265] = "Corrupted Amalgamation",
 	[165737] = "Sinstone Statue",
-	[49864] = "Twilight Fiend",
+	[99664] = "Restless Soul",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[201261] = "Kazzara, the Hellforged",
 	[71603] = "Sha Puddle",
-	[139737] = "Lord Stormsong",
-	[144596] = "Chest o' Booty",
+	[72490] = "Overseer Mojka",
+	[4155] = "Idriana",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
 	[55308] = "Warlord Zon'ozz",
@@ -52434,8 +52569,8 @@ AchievementTrackerNPCCache = {
 	[105299] = "Recursive Elemental",
 	[173770] = "Blazing Brazier",
 	[193335] = "Scalecommander Sarkareth",
-	[135129] = "Projection of Yogg-Saron",
-	[185128] = "Memorial Pylon",
+	[178095] = "Eye of the Jailer",
+	[108996] = "Specter of Vengeance",
 	[50284] = "Twilight Zealot",
 	[33134] = "Sara",
 	[69820] = "Son of Animus",
@@ -52474,10 +52609,10 @@ AchievementTrackerNPCCache = {
 	[162933] = "Thought Harvester",
 	[64017] = "Derpa Derpa",
 	[113971] = "Maiden of Virtue",
-	[150081] = "Wise Mari",
+	[131667] = "Soulbound Goliath",
 	[33118] = "Ignis the Furnace Master",
 	[175616] = "Zo'phex",
-	[82457] = "Ner'zhul",
+	[202637] = "Zskarn",
 	[102169] = "Black Bile",
 	[178763] = "Buttons",
 	[148201] = "Crawler Mine",
