@@ -10,16 +10,16 @@ AchievementTrackerOptions = {
 	["minimapPos"] = 175.1911547254768,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
-	["InfoFramescale"] = 1,
 	["hideCompletedAchievements"] = true,
+	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "BOTTOMRIGHT",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 145.0003662109375,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["InfoFramescale"] = 1,
 }
 AchievementTrackerDebug = {
 	nil, -- [1]
@@ -1951,33 +1951,33 @@ AchievementTrackerDebug = {
 	nil, -- [1927]
 	nil, -- [1928]
 	nil, -- [1929]
-	"5/10/2023 1:41 [DEBUG] Clearing Instance Variables if exists", -- [1930]
-	"5/10/2023 1:41 [DEBUG] Clearing Instance Variables", -- [1931]
-	"5/10/2023 1:41 [DEBUG] Resetting Global Variables", -- [1932]
-	"5/10/2023 1:41 [DEBUG] InfoFrame does not need to be reset", -- [1933]
-	"5/10/2023 1:41 [DEBUG] Left Combat", -- [1934]
-	"5/10/2023 1:42 [DEBUG] Calling Detect Boss 2: 53121", -- [1935]
-	"5/10/2023 1:42 [DEBUG] Found the following boss ID: 53121", -- [1936]
-	"5/10/2023 1:42 [DEBUG] Entered Combat", -- [1937]
-	"5/10/2023 1:42 [DEBUG] Calling Detect Boss 3: 53120", -- [1938]
-	"5/10/2023 1:42 [DEBUG] Found the following boss ID: 53120", -- [1939]
-	"5/10/2023 1:42 [DEBUG] Calling Detect Boss 2: 53119", -- [1940]
-	"5/10/2023 1:42 [DEBUG] Found the following boss ID: 53119", -- [1941]
-	"5/10/2023 1:42 [DEBUG] Clearing Instance Variables if exists", -- [1942]
-	"5/10/2023 1:42 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [1943]
-	"5/10/2023 1:42 [DEBUG] Clearing Instance Variables if exists", -- [1944]
-	"5/10/2023 1:42 [DEBUG] Clearing Instance Variables", -- [1945]
-	"5/10/2023 1:42 [DEBUG] Resetting Global Variables", -- [1946]
-	"5/10/2023 1:42 [DEBUG] InfoFrame does not need to be reset", -- [1947]
-	"5/10/2023 1:42 [DEBUG] Left Combat", -- [1948]
-	"5/10/2023 1:42 [DEBUG] Calling Detect Boss 3: 53134", -- [1949]
-	"5/10/2023 1:42 [DEBUG] Found the following boss ID: 53134", -- [1950]
-	"5/10/2023 1:42 [DEBUG] Entered Combat", -- [1951]
-	"5/10/2023 1:42 [DEBUG] Clearing Instance Variables if exists", -- [1952]
-	"5/10/2023 1:42 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [1953]
-	"5/10/2023 1:42 [DEBUG] Clearing Instance Variables if exists", -- [1954]
-	"5/10/2023 1:42 [DEBUG] Clearing Instance Variables", -- [1955]
-	"5/10/2023 1:42 [DEBUG] Resetting Global Variables", -- [1956]
+	nil, -- [1930]
+	nil, -- [1931]
+	nil, -- [1932]
+	nil, -- [1933]
+	nil, -- [1934]
+	nil, -- [1935]
+	nil, -- [1936]
+	nil, -- [1937]
+	nil, -- [1938]
+	nil, -- [1939]
+	nil, -- [1940]
+	nil, -- [1941]
+	nil, -- [1942]
+	nil, -- [1943]
+	nil, -- [1944]
+	nil, -- [1945]
+	nil, -- [1946]
+	nil, -- [1947]
+	nil, -- [1948]
+	nil, -- [1949]
+	nil, -- [1950]
+	nil, -- [1951]
+	nil, -- [1952]
+	nil, -- [1953]
+	nil, -- [1954]
+	nil, -- [1955]
+	nil, -- [1956]
 	"5/10/2023 1:42 [DEBUG] InfoFrame does not need to be reset", -- [1957]
 	"5/10/2023 1:42 [DEBUG] Left Combat", -- [1958]
 	"5/10/2023 1:42 [DEBUG] Calling Detect Boss 2: 54276", -- [1959]
@@ -51960,6 +51960,24 @@ AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [51936]
 	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [51937]
 	"26/4/2024 19:36 [DEBUG] Showing Minimap Icon", -- [51938]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [51939]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [51940]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [51941]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [51942]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [51943]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [51944]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [51945]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [51946]
+	"29/4/2024 7:14 [DEBUG] Showing Minimap Icon", -- [51947]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [51948]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [51949]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [51950]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [51951]
+	"0/0/1999 -1:-1 [DEBUG] Only Tracking Missing Achievements Enabled", -- [51952]
+	"0/0/1999 -1:-1 [DEBUG] true", -- [51953]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [51954]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [51955]
+	"29/4/2024 10:3 [DEBUG] Showing Minimap Icon", -- [51956]
 }
 AchievementTrackerNPCCache = {
 	[75829] = "Nhallish",
@@ -52313,9 +52331,9 @@ AchievementTrackerNPCCache = {
 	[201320] = "Rashok",
 	[115831] = "Mana Devourer",
 	[88938] = "Ragnaros",
-	[143045] = "Coastal Scuttler",
-	[77149] = "Rat",
 	[81305] = "Fleshrender Nok'gar",
+	[77149] = "Rat",
+	[143045] = "Coastal Scuttler",
 	[56637] = "Ook-Ook",
 	[144324] = "Gorak Tul",
 	[138314] = "Patches",
@@ -52333,12 +52351,12 @@ AchievementTrackerNPCCache = {
 	[72889] = "Superheated Crawler Mine",
 	[33524] = "Saronite Animus",
 	[98761] = "Soul Fragment",
-	[202637] = "Zskarn",
+	[82457] = "Ner'zhul",
 	[184915] = "Halondrus",
 	[185427] = "Unstable Progenitor Relic",
 	[185439] = "Tainted Progenitor Relic",
 	[45992] = "Valiona",
-	[131667] = "Soulbound Goliath",
+	[150081] = "Wise Mari",
 	[83775] = "Ogron Laborer",
 	[60410] = "Elegon",
 	[101823] = "Mushroom Merchant",
@@ -52392,8 +52410,8 @@ AchievementTrackerNPCCache = {
 	[178783] = "Moriaz the Red",
 	[166644] = "Artificer Xy'mox",
 	[72436] = "Immerseus",
-	[67883] = "Rosey Axlerod",
 	[29023] = "Jan'alai",
+	[67883] = "Rosey Axlerod",
 	[33202] = "Ancient Water Spirit",
 	[34826] = "Mistress of Pain",
 	[52438] = "Mortaxx",
@@ -52407,13 +52425,13 @@ AchievementTrackerNPCCache = {
 	[162102] = "Grand Proctor Beryllia",
 	[39984] = "Malignant Trogg",
 	[154741] = "Squirt Bot",
-	[91349] = "Mannoroth",
 	[32919] = "Storm Lasher",
+	[91349] = "Mannoroth",
 	[97551] = "Wisp",
-	[185128] = "Memorial Pylon",
-	[68599] = "Ferra Pearl",
 	[108996] = "Specter of Vengeance",
-	[178095] = "Eye of the Jailer",
+	[68599] = "Ferra Pearl",
+	[153415] = "Sha of Violence",
+	[135129] = "Projection of Yogg-Saron",
 	[70250] = "Frozen Head",
 	[81834] = "Priceless Paraphernalia",
 	[135513] = "Ancient Tome",
@@ -52426,8 +52444,8 @@ AchievementTrackerNPCCache = {
 	[117072] = "Mordrethal",
 	[115902] = "Razorjaw Waverunner",
 	[122135] = "Shatug",
-	[138967] = "Zul",
 	[39665] = "Rom'ogg Bonecrusher",
+	[138967] = "Zul",
 	[185130] = "Memorial Pylon",
 	[86918] = "Uncharged Construct",
 	[70251] = "Venomous Head",
@@ -52441,16 +52459,16 @@ AchievementTrackerNPCCache = {
 	[33136] = "Guardian of Yogg-Saron",
 	[55312] = "Yor'sahj the Unsleeping",
 	[43468] = "Lady Naz'jar",
-	[139737] = "Lord Stormsong",
+	[72490] = "Overseer Mojka",
 	[99663] = "Frustrated Soul",
 	[87451] = "Fleshrender Nok'gar",
-	[4167] = "Dendrythis",
+	[61884] = "Xin the Weaponmaster",
 	[173768] = "Fiery Brazier",
 	[70252] = "Arcane Head",
-	[4155] = "Idriana",
+	[144596] = "Chest o' Booty",
 	[4159] = "Me'lynn",
-	[72490] = "Overseer Mojka",
-	[61884] = "Xin the Weaponmaster",
+	[94996] = "Fragment of the Crone",
+	[4167] = "Dendrythis",
 	[185005] = "Anduin's Grief",
 	[33244] = "Mimiron",
 	[78948] = "Tectus",
@@ -52458,21 +52476,21 @@ AchievementTrackerNPCCache = {
 	[175474] = "Belligerent Waiter",
 	[32273] = "Infinite Corruptor",
 	[71979] = "Kor'kron Warbringer",
-	[99664] = "Restless Soul",
+	[49864] = "Twilight Fiend",
 	[55419] = "Captain Varo'then",
 	[155595] = "Sacred Gear",
 	[61213] = "Krik'thik Conscript",
-	[152910] = "Queen Azshara",
-	[64346] = "Parasitoid Sha",
 	[4223] = "Fyldan",
+	[64346] = "Parasitoid Sha",
+	[152910] = "Queen Azshara",
 	[173767] = "Embered Brazier",
 	[205352] = "Nutraal",
 	[135903] = "Manifestation of the Deep",
 	[136683] = "Trade Prince Gallywix",
 	[68655] = "Mr. Bigglesworth",
 	[32857] = "Stormcaller Brundir",
-	[52422] = "Kaulema the Mover",
 	[111941] = "Hodir",
+	[52422] = "Kaulema the Mover",
 	[172093] = "Hearty Haunch",
 	[50376] = "Angered Earth",
 	[15687] = "Moroes",
@@ -52488,16 +52506,16 @@ AchievementTrackerNPCCache = {
 	[172094] = "Dissectible Dessert",
 	[77927] = "Son of the Beast",
 	[56930] = "Krik'thik Swarm Bringer",
-	[150995] = "Mimiron",
 	[138719] = "Serve Sharkbait's Meal",
-	[103758] = "Star Augur Etraeus",
+	[150995] = "Mimiron",
+	[205342] = "Neverburning Ebon Candle",
 	[170851] = "Volatile Plague Bomb",
 	[164218] = "Lord Chamberlain",
 	[56165] = "Crystal Conductor",
 	[164934] = "Manastorm",
-	[76585] = "Ragewing the Untamed",
-	[74475] = "Magmolatus",
 	[126712] = "Training Dummy",
+	[74475] = "Magmolatus",
+	[171456] = "Shattered Devastator",
 	[205343] = "\"Portable\" Ebon Anvil",
 	[26627] = "Crystal Handler",
 	[23574] = "Akil'zon",
@@ -52518,51 +52536,51 @@ AchievementTrackerNPCCache = {
 	[109450] = "Saronite Vapors",
 	[67571] = "Millhouse Manastorm",
 	[86928] = "Empowered Construct",
-	[36535] = "Corrupted Soul Fragment",
-	[115844] = "Goroth",
 	[78121] = "Gorian Warmage",
+	[115844] = "Goroth",
 	[71983] = "Farseer Wolf Rider",
+	[141792] = "Liz Vilepot",
 	[205340] = "Expired Experiment",
-	[174018] = "Volatile Plague Bomb",
+	[172995] = "Hydra Seed",
 	[72496] = "Overseer Thathung",
 	[122366] = "Varimathras",
-	[100436] = "Illysanna Ravencrest",
-	[80551] = "Shard of Tectus",
+	[104528] = "High Botanist Tel'arn",
+	[165066] = "Huntsman Altimor",
 	[153941] = "Zoatroid",
 	[184759] = "Depleted Automa",
 	[156884] = "Essence of Vita",
 	[36855] = "Lady Deathwhisper",
 	[61567] = "Vizier Jin'bak",
-	[172995] = "Hydra Seed",
-	[104528] = "High Botanist Tel'arn",
-	[105743] = "Whipsnap",
-	[129208] = "Dread Captain Lockwood",
+	[174018] = "Volatile Plague Bomb",
+	[100436] = "Illysanna Ravencrest",
 	[52392] = "Gurubashi Master Chef",
+	[129208] = "Dread Captain Lockwood",
+	[71984] = "Siege Engineer",
 	[86250] = "Kyrak",
 	[181546] = "Prototype of Renewal",
 	[33343] = "XS-013 Scrapbot",
-	[71984] = "Siege Engineer",
+	[105743] = "Whipsnap",
 	[95833] = "Hyrja",
 	[189620] = "Pip",
-	[165066] = "Huntsman Altimor",
+	[80551] = "Shard of Tectus",
 	[69427] = "Dark Animus",
 	[29305] = "Moorabi",
 	[164557] = "Shard of Halkias",
+	[36535] = "Corrupted Soul Fragment",
 	[105742] = "Turbax",
-	[141792] = "Liz Vilepot",
 	[64061] = "Mogu'shan Warden",
 	[119938] = "Reanimated Templar",
 	[27654] = "Drakos the Interrogator",
-	[111882] = "Sparky",
-	[146016] = "Leeroy Jenkins",
 	[28514] = "Nalorakk",
+	[146016] = "Leeroy Jenkins",
+	[111882] = "Sparky",
 	[115143] = "Snaplasher",
 	[180658] = "Focusing Prism",
-	[171456] = "Shattered Devastator",
+	[76585] = "Ragewing the Untamed",
 	[179392] = "Kin'tessa",
 	[99031] = "Artifact",
 	[164363] = "Undying Stonefiend",
-	[205342] = "Neverburning Ebon Candle",
+	[103758] = "Star Augur Etraeus",
 	[26628] = "Drakkari Scytheclaw",
 	[162317] = "Gorechop",
 	[55334] = "Void of the Unmaking",
@@ -52575,13 +52593,13 @@ AchievementTrackerNPCCache = {
 	[33768] = "Rubble",
 	[73265] = "Corrupted Amalgamation",
 	[165737] = "Sinstone Statue",
-	[49864] = "Twilight Fiend",
+	[99664] = "Restless Soul",
 	[129722] = "Mote of Titanic Power",
 	[58787] = "Big Bessa",
 	[201261] = "Kazzara, the Hellforged",
 	[71603] = "Sha Puddle",
-	[94996] = "Fragment of the Crone",
-	[144596] = "Chest o' Booty",
+	[139737] = "Lord Stormsong",
+	[4155] = "Idriana",
 	[201773] = "Eternal Blaze",
 	[165073] = "Forlorn Captive",
 	[55308] = "Warlord Zon'ozz",
@@ -52597,8 +52615,8 @@ AchievementTrackerNPCCache = {
 	[105299] = "Recursive Elemental",
 	[173770] = "Blazing Brazier",
 	[193335] = "Scalecommander Sarkareth",
-	[135129] = "Projection of Yogg-Saron",
-	[153415] = "Sha of Violence",
+	[178095] = "Eye of the Jailer",
+	[185128] = "Memorial Pylon",
 	[50284] = "Twilight Zealot",
 	[33134] = "Sara",
 	[69820] = "Son of Animus",
@@ -52637,10 +52655,10 @@ AchievementTrackerNPCCache = {
 	[162933] = "Thought Harvester",
 	[64017] = "Derpa Derpa",
 	[113971] = "Maiden of Virtue",
-	[150081] = "Wise Mari",
+	[131667] = "Soulbound Goliath",
 	[33118] = "Ignis the Furnace Master",
 	[175616] = "Zo'phex",
-	[82457] = "Ner'zhul",
+	[202637] = "Zskarn",
 	[102169] = "Black Bile",
 	[178763] = "Buttons",
 	[148201] = "Crawler Mine",
