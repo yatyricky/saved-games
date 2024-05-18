@@ -1,6 +1,6 @@
 
 SlideBarConfig = {
-	["locked"] = false,
-	["enabled"] = true,
-	["visibility"] = false,
+["locked"] = false,
+["enabled"] = true,
+["visibility"] = false,
 }

@@ -1,107 +1,107 @@
 
 TomTomDB = {
-	["profileKeys"] = {
-		["Ziadwan - Azshara"] = "Default",
-		["Rokrium - Azshara"] = "Default",
-		["Zephyrbreeze - Azshara"] = "Default",
-		["Wnsmoldering - Azshara"] = "Default",
-		["Uniboi - Azshara"] = "Default",
-		["Linqpad - Azshara"] = "Default",
-		["Bblilmao - Azshara"] = "Default",
-		["Lizman - Azshara"] = "Default",
-		["Gamwillsaveu - Azshara"] = "Default",
-		["Vladojin - Azshara"] = "Default",
-		["Lynndaw - Azshara"] = "Default",
-		["Dahoontar - Azshara"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["arrow"] = {
-				["position"] = {
-					"CENTER", -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
-				},
-			},
-			["block"] = {
-				["position"] = {
-					"TOPRIGHT", -- [1]
-					nil, -- [2]
-					"TOPRIGHT", -- [3]
-					-59.16798400878906, -- [4]
-					-19.99992942810059, -- [5]
-				},
-			},
-		},
-	},
+["profileKeys"] = {
+["Ziadwan - Azshara"] = "Default",
+["Rokrium - Azshara"] = "Default",
+["Zephyrbreeze - Azshara"] = "Default",
+["Wnsmoldering - Azshara"] = "Default",
+["Uniboi - Azshara"] = "Default",
+["Linqpad - Azshara"] = "Default",
+["Bblilmao - Azshara"] = "Default",
+["Lizman - Azshara"] = "Default",
+["Dahoontar - Azshara"] = "Default",
+["Vladojin - Azshara"] = "Default",
+["Lynndaw - Azshara"] = "Default",
+["Gamwillsaveu - Azshara"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+0,
+},
+},
+["block"] = {
+["position"] = {
+"TOPRIGHT",
+nil,
+"TOPRIGHT",
+-59.16798400878906,
+-19.99992942810059,
+},
+},
+},
+},
 }
 TomTomWaypoints = nil
 TomTomWaypointsM = {
-	["profileKeys"] = {
-		["Ziadwan - Azshara"] = "Ziadwan - Azshara",
-		["Rokrium - Azshara"] = "Rokrium - Azshara",
-		["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
-		["Wnsmoldering - Azshara"] = "Wnsmoldering - Azshara",
-		["Uniboi - Azshara"] = "Uniboi - Azshara",
-		["Linqpad - Azshara"] = "Linqpad - Azshara",
-		["Bblilmao - Azshara"] = "Bblilmao - Azshara",
-		["Lizman - Azshara"] = "Lizman - Azshara",
-		["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
-		["Vladojin - Azshara"] = "Vladojin - Azshara",
-		["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-		["Dahoontar - Azshara"] = "Dahoontar - Azshara",
-	},
-	["profiles"] = {
-		["Ziadwan - Azshara"] = {
-		},
-		["Rokrium - Azshara"] = {
-		},
-		["Zephyrbreeze - Azshara"] = {
-		},
-		["Wnsmoldering - Azshara"] = {
-		},
-		["Uniboi - Azshara"] = {
-		},
-		["Linqpad - Azshara"] = {
-		},
-		["Bblilmao - Azshara"] = {
-		},
-		["Lizman - Azshara"] = {
-		},
-		["Gamwillsaveu - Azshara"] = {
-			[120] = {
-				["120:410000000:840000000:Elder Graymane"] = {
-					120, -- [1]
-					0.41, -- [2]
-					0.84, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Elder Graymane",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Elder Graymane",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-		},
-		["Vladojin - Azshara"] = {
-		},
-		["Lynndaw - Azshara"] = {
-		},
-		["Dahoontar - Azshara"] = {
-		},
-	},
+["profileKeys"] = {
+["Ziadwan - Azshara"] = "Ziadwan - Azshara",
+["Rokrium - Azshara"] = "Rokrium - Azshara",
+["Zephyrbreeze - Azshara"] = "Zephyrbreeze - Azshara",
+["Wnsmoldering - Azshara"] = "Wnsmoldering - Azshara",
+["Uniboi - Azshara"] = "Uniboi - Azshara",
+["Linqpad - Azshara"] = "Linqpad - Azshara",
+["Bblilmao - Azshara"] = "Bblilmao - Azshara",
+["Lizman - Azshara"] = "Lizman - Azshara",
+["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+["Vladojin - Azshara"] = "Vladojin - Azshara",
+["Lynndaw - Azshara"] = "Lynndaw - Azshara",
+["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+},
+["profiles"] = {
+["Ziadwan - Azshara"] = {
+},
+["Rokrium - Azshara"] = {
+},
+["Zephyrbreeze - Azshara"] = {
+},
+["Wnsmoldering - Azshara"] = {
+},
+["Uniboi - Azshara"] = {
+},
+["Linqpad - Azshara"] = {
+},
+["Bblilmao - Azshara"] = {
+},
+["Lizman - Azshara"] = {
+},
+["Dahoontar - Azshara"] = {
+},
+["Vladojin - Azshara"] = {
+},
+["Lynndaw - Azshara"] = {
+},
+["Gamwillsaveu - Azshara"] = {
+[120] = {
+["120:410000000:840000000:Elder Graymane"] = {
+120,
+0.41,
+0.84,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Elder Graymane",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Elder Graymane",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["world"] = {
+},
+["minimap"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+},
+},
 }
