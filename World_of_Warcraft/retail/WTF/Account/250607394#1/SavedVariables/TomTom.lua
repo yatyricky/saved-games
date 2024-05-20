@@ -9,10 +9,10 @@ TomTomDB = {
 ["Linqpad - Azshara"] = "Default",
 ["Bblilmao - Azshara"] = "Default",
 ["Lizman - Azshara"] = "Default",
-["Dahoontar - Azshara"] = "Default",
+["Gamwillsaveu - Azshara"] = "Default",
 ["Vladojin - Azshara"] = "Default",
 ["Lynndaw - Azshara"] = "Default",
-["Gamwillsaveu - Azshara"] = "Default",
+["Dahoontar - Azshara"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -48,10 +48,10 @@ TomTomWaypointsM = {
 ["Linqpad - Azshara"] = "Linqpad - Azshara",
 ["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 ["Lizman - Azshara"] = "Lizman - Azshara",
-["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 ["Vladojin - Azshara"] = "Vladojin - Azshara",
 ["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 },
 ["profiles"] = {
 ["Ziadwan - Azshara"] = {
@@ -70,12 +70,6 @@ TomTomWaypointsM = {
 },
 ["Lizman - Azshara"] = {
 },
-["Dahoontar - Azshara"] = {
-},
-["Vladojin - Azshara"] = {
-},
-["Lynndaw - Azshara"] = {
-},
 ["Gamwillsaveu - Azshara"] = {
 [120] = {
 ["120:410000000:840000000:Elder Graymane"] = {
@@ -93,15 +87,21 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["world"] = {
-},
 ["minimap"] = {
+},
+["world"] = {
 },
 },
 ["minimap"] = true,
 ["world"] = true,
 },
 },
+},
+["Vladojin - Azshara"] = {
+},
+["Lynndaw - Azshara"] = {
+},
+["Dahoontar - Azshara"] = {
 },
 },
 }

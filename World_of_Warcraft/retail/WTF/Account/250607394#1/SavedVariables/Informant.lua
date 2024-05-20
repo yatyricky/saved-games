@@ -5,7 +5,7 @@ InformantConfig = {
 },
 ["position"] = {
 ["y"] = 600,
-["x"] = 1066.666625976563,
+["x"] = 1066.666748046875,
 },
 }
 InformantLocalUpdates = {
