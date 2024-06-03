@@ -229,6 +229,15 @@ SwatterData = {
 ["context"] = "Global",
 ["stack"] = "[string \"=[C]\"]: in function `SetJustifyV'\n[string \"@Interface/AddOns/Auctioneer/Libs/Configator/ScrollSheet.lua\"]:966: in main chunk\n",
 },
+{
+["message"] = "...ce/AddOns/Auctioneer/Libs/Configator/ScrollSheet.lua:966: bad argument #1 to 'SetJustifyV' (Usage: self:SetJustifyV(justifyV))",
+["count"] = 1,
+["addons"] = "  Swatter, v9.1.BETA.5.13 (OneMawTime)\n  Arh, v2.0.4-105\n  Auctioneer, v9.1.BETA.5.13 (OneMawTime)\n  GatherMate2, v1.48.8\n  SlideBar, v9.1.BETA.5.13 (OneMawTime)\n  Stubby, v9.1.BETA.5.13 (OneMawTime)\n  BlizRuntimeLib v10.2.7.54904(US) <enUS>\n  (ck=f2)\n",
+["locals"] = "(*temporary) = FontString {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n",
+["timestamp"] = "2024-06-04 00:13:35",
+["context"] = "Global",
+["stack"] = "[string \"=[C]\"]: in function `SetJustifyV'\n[string \"@Interface/AddOns/Auctioneer/Libs/Configator/ScrollSheet.lua\"]:966: in main chunk\n",
+},
 },
 ["autoshow"] = true,
 }
