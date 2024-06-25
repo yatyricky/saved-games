@@ -1,10 +1,10 @@
 VER 3 0000000000000008 "dist" "132181"
-/way Borean Tundra 57 43 Elder Arp
-/way Borean Tundra 59.1 65.6 Elder Sardis
-/way Borean Tundra 42.2 49.5 Elder Pamuya
-/way Sholazar 49 63 Elder Sandrene
-/way Sholazar 63 49 Elder Wanikaya
-/way Wintergrasp 49.0 13.9 Elder Bluewolf
+/way #2022 45.99 82.86 The Waking Shores
+/way #2023 63.87 34.99 Ohn'ahran Plains
+/way #2024 12.22 47.56 The Azure Span
+/way #2112 52.91 61.49 Thaldraszus (Valdrakken)
+/way #2151 34.97 60.89 The Forbidden Reach
+/way #2133 55.17 55.43 Zaralek Cavern
 END
 VER 3 000000000000000C "eat choco" "134400"
 #showtooltip Noblegarden Chocolate

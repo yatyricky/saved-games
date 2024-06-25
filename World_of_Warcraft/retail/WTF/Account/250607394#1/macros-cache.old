@@ -1,10 +1,8 @@
 VER 3 0000000000000008 "dist" "132181"
-/way Borean Tundra 57 43 Elder Arp
-/way Borean Tundra 59.1 65.6 Elder Sardis
-/way Borean Tundra 42.2 49.5 Elder Pamuya
-/way Sholazar 49 63 Elder Sandrene
-/way Sholazar 63 49 Elder Wanikaya
-/way Wintergrasp 49.0 13.9 Elder Bluewolf
+/way Terokkar Forest 51.9 42.9 Stonebreaker Hold
+/way Terokkar Forest 54.1 55.4 Allerian Stronghold
+/way Zangarmarsh 35.4 51.7 Zabra'Jin
+/way Zangarmarsh 68.7 51.9 Telredor
 END
 VER 3 000000000000000C "eat choco" "134400"
 #showtooltip Noblegarden Chocolate
@@ -44,7 +42,7 @@ VER 3 0000000000000005 "reset" "132096"
 /script ResetInstances();
 END
 VER 3 0000000000000001 "target" "132090"
-/target rune reaver
+/target trache
 /cleartarget [dead]
 END
 VER 3 000000000000000A "ver" "132162"
