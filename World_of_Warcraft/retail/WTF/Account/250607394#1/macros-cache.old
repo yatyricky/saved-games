@@ -1,8 +1,10 @@
 VER 3 0000000000000008 "dist" "132181"
-/way Terokkar Forest 51.9 42.9 Stonebreaker Hold
-/way Terokkar Forest 54.1 55.4 Allerian Stronghold
-/way Zangarmarsh 35.4 51.7 Zabra'Jin
-/way Zangarmarsh 68.7 51.9 Telredor
+/way #2022 45.99 82.86 The Waking Shores
+/way #2023 63.87 34.99 Ohn'ahran Plains
+/way #2024 12.22 47.56 The Azure Span
+/way #2112 52.91 61.49 Thaldraszus (Valdrakken)
+/way #2151 34.97 60.89 The Forbidden Reach
+/way #2133 55.17 55.43 Zaralek Cavern
 END
 VER 3 000000000000000C "eat choco" "134400"
 #showtooltip Noblegarden Chocolate
