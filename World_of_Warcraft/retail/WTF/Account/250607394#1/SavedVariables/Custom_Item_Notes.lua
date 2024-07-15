@@ -1,5 +1,8 @@
 
 CIN_Save = {
+["29539"] = {
+"TBC",
+},
 ["24291"] = {
 "TBC",
 "sporeman rep turn in",
@@ -33,6 +36,9 @@ CIN_Save = {
 },
 ["108335"] = {
 "VANILLA",
+},
+["22572"] = {
+"TBC",
 },
 ["203914"] = {
 "DF. Secrets of a lost empire. Trade old mog and stuff.",
@@ -72,6 +78,9 @@ CIN_Save = {
 ["89639"] = {
 "MOP",
 },
+["23572"] = {
+"TBC",
+},
 ["15412"] = {
 "Vanilla",
 },
@@ -109,6 +118,9 @@ CIN_Save = {
 },
 ["6303"] = {
 "Vanilla",
+},
+["22452"] = {
+"TBC",
 },
 ["2452"] = {
 "Vanilla",
@@ -168,6 +180,9 @@ CIN_Save = {
 },
 ["12205"] = {
 "Vanilla",
+},
+["49908"] = {
+"WLK",
 },
 ["6361"] = {
 "Vanilla",
@@ -243,6 +258,9 @@ CIN_Save = {
 ["33470"] = {
 "WLK",
 },
+["22451"] = {
+"TBC",
+},
 ["76077"] = {
 "MOP",
 },
@@ -251,6 +269,9 @@ CIN_Save = {
 },
 ["8171"] = {
 "Vanilla",
+},
+["22575"] = {
+"TBC",
 },
 ["12206"] = {
 "Vanilla",
@@ -267,11 +288,20 @@ CIN_Save = {
 ["72988"] = {
 "MOP",
 },
+["33568"] = {
+"WLK",
+},
+["22574"] = {
+"TBC",
+},
 ["3857"] = {
 "Vanilla",
 },
 ["14256"] = {
 "Vanilla",
+},
+["32227"] = {
+"TBC",
 },
 ["8165"] = {
 "Vanilla",
@@ -412,8 +442,14 @@ CIN_Save = {
 "Vanilla",
 "Cooking",
 },
+["23440"] = {
+"TBC",
+},
 ["12037"] = {
 "Vanilla",
+},
+["32230"] = {
+"TBC",
 },
 ["14344"] = {
 "VANILLA",
@@ -438,20 +474,53 @@ CIN_Save = {
 ["723"] = {
 "Vanilla",
 },
+["29548"] = {
+"TBC",
+},
 ["204195"] = {
 "DF. Upgrade NPC is at Zaralak Cavern or Loamm",
 },
 ["82441"] = {
 "MOP",
 },
+["44128"] = {
+"WLK",
+},
 ["190456"] = {
 "DF currency for recepies",
+},
+["20863"] = {
+"Vanilla",
 },
 ["2318"] = {
 "Vanilla",
 },
+["22449"] = {
+"TBC",
+},
+["7912"] = {
+"Vanilla",
+},
 ["13465"] = {
 "VANILLA",
+},
+["23437"] = {
+"TBC",
+},
+["76086"] = {
+"MOP",
+},
+["2842"] = {
+"Vanilla",
+},
+["30183"] = {
+"TBC",
+},
+["2770"] = {
+"Vanilla",
+},
+["38558"] = {
+"WLK",
 },
 ["6291"] = {
 "Vanilla",
@@ -459,32 +528,29 @@ CIN_Save = {
 ["13760"] = {
 "Vanilla",
 },
-["72096"] = {
-"MOP",
+["208066"] = {
+"DF",
 },
 ["7077"] = {
 "Vanilla",
 },
-["42780"] = {
-"WLK",
-"Quest: Hodir's Tribute",
-"At The Storm Peaks",
-},
-["769"] = {
+["7080"] = {
 "Vanilla",
 },
-["24245"] = {
+["2678"] = {
+"Vanilla",
+},
+["23793"] = {
 "TBC",
-"sporeman rep turn in",
 },
 ["2596"] = {
 "Vanilla",
 },
-["14047"] = {
-"Vanilla",
+["89640"] = {
+"MOP",
 },
-["2770"] = {
-"Vanilla",
+["202039"] = {
+"DF",
 },
 ["13759"] = {
 "Vanilla",
@@ -492,16 +558,16 @@ CIN_Save = {
 ["7974"] = {
 "Vanilla",
 },
-["8154"] = {
-"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread",
+["21882"] = {
+"TBC",
 },
-["10620"] = {
+["6308"] = {
 "Vanilla",
 },
 ["7068"] = {
 "Vanilla",
 },
-["6308"] = {
+["10620"] = {
 "Vanilla",
 },
 ["13158"] = {
@@ -510,14 +576,14 @@ CIN_Save = {
 ["32897"] = {
 "trash",
 },
-["20933"] = {
-"Vanilla TAQ T2.5 Armor for Priest, Mage, Warlock, Druid",
+["765"] = {
+"Vanilla",
 },
 ["3818"] = {
 "VANILLA",
 },
-["5498"] = {
-"Vanilla",
+["22450"] = {
+"TBC",
 },
 ["20520"] = {
 "Vanilla",
@@ -528,10 +594,10 @@ CIN_Save = {
 ["22446"] = {
 "TBC",
 },
-["785"] = {
-"VANILLA",
+["72092"] = {
+"MOP",
 },
-["67229"] = {
+["1080"] = {
 "Vanilla",
 },
 ["207026"] = {
@@ -543,17 +609,17 @@ CIN_Save = {
 ["7079"] = {
 "Vanilla",
 },
-["20865"] = {
+["67229"] = {
 "Vanilla",
 },
 ["20872"] = {
 "Vanilla",
 },
-["22449"] = {
-"TBC",
-},
-["818"] = {
+["20879"] = {
 "Vanilla",
+},
+["102541"] = {
+"MOP",
 },
 ["8172"] = {
 "Vanilla",
@@ -570,17 +636,19 @@ CIN_Save = {
 ["79010"] = {
 "MOP",
 },
-["8846"] = {
-"VANILLA",
+["20881"] = {
+"Vanilla",
 },
-["102541"] = {
-"MOP",
+["818"] = {
+"Vanilla",
 },
-["162571"] = {
-"BFA quest",
+["1288"] = {
+"Vanilla",
+"Alchemy",
+"trash",
 },
-["5471"] = {
-"Vanilla. Cooking",
+["52025"] = {
+"WLK T10 token",
 },
 ["29739"] = {
 "TBC",
@@ -588,8 +656,8 @@ CIN_Save = {
 ["2672"] = {
 "Vanilla",
 },
-["5503"] = {
-"Vanilla",
+["8838"] = {
+"VANILLA",
 },
 ["12811"] = {
 "Vanilla",
@@ -597,7 +665,7 @@ CIN_Save = {
 ["3357"] = {
 "VANILLA",
 },
-["22457"] = {
+["21877"] = {
 "TBC",
 },
 ["204193"] = {
@@ -609,9 +677,8 @@ CIN_Save = {
 ["12810"] = {
 "Vanilla",
 },
-["33865"] = {
-"TBC,CTM",
-"Zulaman",
+["208067"] = {
+"DF",
 },
 ["6358"] = {
 "Vanilla",
@@ -623,29 +690,30 @@ CIN_Save = {
 ["10286"] = {
 "Vanilla",
 },
-["17011"] = {
-"Vanilla",
+["22457"] = {
+"TBC",
 },
-["20863"] = {
-"Vanilla",
-},
-["52979"] = {
-"CTM",
-},
-["13463"] = {
-"VANILLA",
-},
-["3820"] = {
-"VANILLA",
+["33865"] = {
+"TBC,CTM",
+"Zulaman",
 },
 ["20884"] = {
 "Vanilla, RAQ ring for Warrior, Paladin, Shaman, Mage, Druid",
 },
+["21237"] = {
+"Vanilla TAQ weapon quest. Needs 3 Elementium Ingots.",
+},
+["3820"] = {
+"VANILLA",
+},
+["52979"] = {
+"CTM",
+},
 ["7971"] = {
 "Vanilla",
 },
-["2842"] = {
-"Vanilla",
+["25707"] = {
+"TBC",
 },
 ["128860"] = {
 "LEG",
@@ -656,36 +724,36 @@ CIN_Save = {
 ["7067"] = {
 "Vanilla",
 },
-["20424"] = {
+["2677"] = {
 "Vanilla",
 },
 ["76079"] = {
 "MOP",
 },
-["2673"] = {
+["22682"] = {
 "Vanilla",
 },
-["21071"] = {
+["16202"] = {
+"Vanilla",
+},
+["162581"] = {
+"BFA quest",
+},
+["2675"] = {
+"Vanilla",
+},
+["13755"] = {
 "Vanilla",
 },
 ["2924"] = {
 "Vanilla",
 },
-["2675"] = {
-"Vanilla",
-},
-["2886"] = {
-"Vanilla",
-},
-["2453"] = {
-"VANILLA",
-},
 ["210947"] = {
 "DF",
 "Emerald Dream",
 },
-["76087"] = {
-"MOP",
+["3404"] = {
+"Vanilla",
 },
 ["202017"] = {
 "Hand these in at /way #2024 66.93, 12.77 Sonova Snowden",
@@ -694,8 +762,8 @@ CIN_Save = {
 ["45079"] = {
 "safe to delete after loch modan quest complete",
 },
-["76086"] = {
-"MOP",
+["32228"] = {
+"TBC",
 },
 ["2319"] = {
 "Vanilla",
@@ -706,15 +774,15 @@ CIN_Save = {
 ["15416"] = {
 "Vanilla",
 },
-["76092"] = {
-"MOP",
+["4338"] = {
+"Vanilla",
 },
 ["32569"] = {
 "TBC",
 "Ogrila blade's edge",
 },
-["4338"] = {
-"Vanilla",
+["76092"] = {
+"MOP",
 },
 ["20858"] = {
 "Vanilla",
@@ -722,103 +790,104 @@ CIN_Save = {
 ["108339"] = {
 "VANILLA",
 },
-["3404"] = {
+["76087"] = {
+"MOP",
+},
+["2886"] = {
 "Vanilla",
 },
-["13755"] = {
+["2453"] = {
+"VANILLA",
+},
+["21071"] = {
 "Vanilla",
 },
-["162581"] = {
-"BFA quest",
-},
-["16202"] = {
+["2673"] = {
 "Vanilla",
 },
-["22682"] = {
-"Vanilla",
-},
-["2677"] = {
+["20424"] = {
 "Vanilla",
 },
 ["200613"] = {
 "DF, Teleport to Oharan centuar's camp",
 },
-["21237"] = {
-"Vanilla TAQ weapon quest. Needs 3 Elementium Ingots.",
+["13463"] = {
+"VANILLA",
 },
 ["20873"] = {
 "Vanilla",
 },
-["208067"] = {
-"DF",
-},
-["21877"] = {
+["21886"] = {
 "TBC",
 },
-["8838"] = {
-"VANILLA",
+["17011"] = {
+"Vanilla",
+},
+["5503"] = {
+"Vanilla",
 },
 ["20860"] = {
 "Vanilla",
 },
-["52025"] = {
-"WLK T10 token",
+["5471"] = {
+"Vanilla. Cooking",
 },
-["1288"] = {
-"Vanilla",
-"Alchemy",
-"trash",
+["162571"] = {
+"BFA quest",
 },
-["20881"] = {
-"Vanilla",
+["8846"] = {
+"VANILLA",
 },
 ["20864"] = {
 "Vanilla",
 },
-["20879"] = {
-"Vanilla",
-},
-["1080"] = {
-"Vanilla",
-},
-["72092"] = {
-"MOP",
-},
-["22450"] = {
+["22456"] = {
 "TBC",
 },
-["765"] = {
+["20865"] = {
 "Vanilla",
+},
+["785"] = {
+"VANILLA",
+},
+["5498"] = {
+"Vanilla",
+},
+["20933"] = {
+"Vanilla TAQ T2.5 Armor for Priest, Mage, Warlock, Druid",
 },
 ["22445"] = {
 "TBC",
 },
-["21882"] = {
-"TBC",
+["8154"] = {
+"Vanilla. LW Tough Scorpid set. Thick Leather + This + Silk Thread",
 },
 ["162580"] = {
 "BFA quest",
 },
-["202039"] = {
-"DF",
+["22577"] = {
+"TBC",
 },
-["89640"] = {
-"MOP",
-},
-["7912"] = {
+["14047"] = {
 "Vanilla",
 },
-["2678"] = {
+["24245"] = {
+"TBC",
+"sporeman rep turn in",
+},
+["769"] = {
 "Vanilla",
 },
-["7080"] = {
-"Vanilla",
+["42780"] = {
+"WLK",
+"Quest: Hodir's Tribute",
+"At The Storm Peaks",
 },
 ["162584"] = {
 "BFA quest",
 },
-["208066"] = {
-"DF",
+["72096"] = {
+"MOP",
 },
 ["76093"] = {
 "MOP",

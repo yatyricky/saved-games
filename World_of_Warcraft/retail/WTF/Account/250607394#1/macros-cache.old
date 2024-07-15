@@ -35,7 +35,7 @@ VER 3 0000000000000009 "pity" "132311"
 /pity
 END
 VER 3 0000000000000002 "quest" "135977"
-/script print(C_QuestLog.IsQuestFlaggedCompleted(16411))
+/script print(C_QuestLog.IsQuestFlaggedCompleted(10874))
 END
 VER 3 0000000000000006 "reloadui" "132180"
 /console reloadui
@@ -44,7 +44,7 @@ VER 3 0000000000000005 "reset" "132096"
 /script ResetInstances();
 END
 VER 3 0000000000000001 "target" "132090"
-/target trache
+/target Arvoar
 /cleartarget [dead]
 END
 VER 3 000000000000000A "ver" "132162"
