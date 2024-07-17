@@ -9,10 +9,10 @@ TomTomDB = {
 ["Linqpad - Azshara"] = "Default",
 ["Bblilmao - Azshara"] = "Default",
 ["Lizman - Azshara"] = "Default",
-["Gamwillsaveu - Azshara"] = "Default",
+["Dahoontar - Azshara"] = "Default",
 ["Vladojin - Azshara"] = "Default",
 ["Lynndaw - Azshara"] = "Default",
-["Dahoontar - Azshara"] = "Default",
+["Gamwillsaveu - Azshara"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -48,18 +48,18 @@ TomTomWaypointsM = {
 ["Linqpad - Azshara"] = "Linqpad - Azshara",
 ["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 ["Lizman - Azshara"] = "Lizman - Azshara",
-["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 ["Vladojin - Azshara"] = "Vladojin - Azshara",
 ["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 },
 ["profiles"] = {
 ["Ziadwan - Azshara"] = {
-[539] = {
-["539:420000000:350000000:TomTom waypoint"] = {
-539,
-0.42,
-0.35,
+[862] = {
+["862:533000000:480000000:TomTom waypoint"] = {
+862,
+0.5329999999999999,
+0.48,
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
@@ -88,11 +88,11 @@ TomTomWaypointsM = {
 ["world"] = true,
 },
 },
-[862] = {
-["862:533000000:480000000:TomTom waypoint"] = {
-862,
-0.5329999999999999,
-0.48,
+[539] = {
+["539:420000000:350000000:TomTom waypoint"] = {
+539,
+0.42,
+0.35,
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
@@ -169,6 +169,12 @@ TomTomWaypointsM = {
 },
 ["Lizman - Azshara"] = {
 },
+["Dahoontar - Azshara"] = {
+},
+["Vladojin - Azshara"] = {
+},
+["Lynndaw - Azshara"] = {
+},
 ["Gamwillsaveu - Azshara"] = {
 [120] = {
 ["120:410000000:840000000:Elder Graymane"] = {
@@ -186,21 +192,15 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["world"] = {
-},
 ["minimap"] = {
+},
+["world"] = {
 },
 },
 ["minimap"] = true,
 ["world"] = true,
 },
 },
-},
-["Vladojin - Azshara"] = {
-},
-["Lynndaw - Azshara"] = {
-},
-["Dahoontar - Azshara"] = {
 },
 },
 }
