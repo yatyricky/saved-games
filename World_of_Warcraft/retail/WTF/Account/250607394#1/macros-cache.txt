@@ -44,7 +44,7 @@ VER 3 0000000000000005 "reset" "132096"
 /script ResetInstances();
 END
 VER 3 0000000000000001 "target" "132090"
-/target Alurmi
+/target keeper
 /cleartarget [dead]
 END
 VER 3 000000000000000A "ver" "132162"

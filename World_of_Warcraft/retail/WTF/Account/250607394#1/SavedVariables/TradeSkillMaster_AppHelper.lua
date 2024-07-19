@@ -117,7 +117,10 @@ TradeSkillMaster_AppHelperDB = {
 "[\"AC\",\"v4.13.26\",1721192643024,1721189568,5,\"AH_API_TIME\",\"US-Azshara\",\"QueryOwnedAuctions\",295]",
 "[\"AC\",\"v4.13.26\",1721195691137,1721189568,6,\"AH_API_TIME\",\"US-Azshara\",\"QueryOwnedAuctions\",253]",
 "[\"AC\",\"v4.13.26\",1721195776611,1721189568,7,\"ADDON_DISABLE\",0]",
+"[\"AC\",\"v4.13.26\",1721397852268,1721397850,1,\"ADDON_INITIALIZE\",0]",
+"[\"AC\",\"v4.13.26\",1721397858887,1721397850,2,\"ADDON_ENABLE\",0]",
+"[\"AC\",\"v4.13.26\",1721402680233,1721397850,3,\"ADDON_DISABLE\",0]",
 },
-["updateTime"] = 1721195776,
+["updateTime"] = 1721402680,
 },
 }
