@@ -9,10 +9,10 @@ TomTomDB = {
 ["Linqpad - Azshara"] = "Default",
 ["Bblilmao - Azshara"] = "Default",
 ["Lizman - Azshara"] = "Default",
-["Gamwillsaveu - Azshara"] = "Default",
+["Dahoontar - Azshara"] = "Default",
 ["Vladojin - Azshara"] = "Default",
 ["Lynndaw - Azshara"] = "Default",
-["Dahoontar - Azshara"] = "Default",
+["Gamwillsaveu - Azshara"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -48,13 +48,44 @@ TomTomWaypointsM = {
 ["Linqpad - Azshara"] = "Linqpad - Azshara",
 ["Bblilmao - Azshara"] = "Bblilmao - Azshara",
 ["Lizman - Azshara"] = "Lizman - Azshara",
-["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
+["Dahoontar - Azshara"] = "Dahoontar - Azshara",
 ["Vladojin - Azshara"] = "Vladojin - Azshara",
 ["Lynndaw - Azshara"] = "Lynndaw - Azshara",
-["Dahoontar - Azshara"] = "Dahoontar - Azshara",
+["Gamwillsaveu - Azshara"] = "Gamwillsaveu - Azshara",
 },
 ["profiles"] = {
 ["Ziadwan - Azshara"] = {
+[2022] = {
+["2022:459900000:828600000:The Waking Shores"] = {
+2022,
+0.4599,
+0.8286,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["minimap"] = true,
+["cleardistance"] = 10,
+["title"] = "The Waking Shores",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
+},
+["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+},
+["world"] = true,
+},
+},
 [539] = {
 ["539:420000000:350000000:TomTom waypoint"] = {
 539,
@@ -85,6 +116,37 @@ TomTomWaypointsM = {
 },
 },
 ["minimap"] = true,
+["world"] = true,
+},
+},
+[2023] = {
+["2023:638700000:349900000:Ohn'ahran Plains"] = {
+2023,
+0.6386999999999999,
+0.3499,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["minimap"] = true,
+["cleardistance"] = 10,
+["title"] = "Ohn'ahran Plains",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
+},
+["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+},
 ["world"] = true,
 },
 },
@@ -121,6 +183,68 @@ TomTomWaypointsM = {
 ["world"] = true,
 },
 },
+[2024] = {
+["2024:122200000:475600000:The Azure Span"] = {
+2024,
+0.1222,
+0.4756,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["minimap"] = true,
+["cleardistance"] = 10,
+["title"] = "The Azure Span",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
+},
+["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+},
+["world"] = true,
+},
+},
+[2151] = {
+["2151:349700000:608900000:The Forbidden Reach"] = {
+2151,
+0.3497,
+0.6089,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["minimap"] = true,
+["cleardistance"] = 10,
+["title"] = "The Forbidden Reach",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
+},
+["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+},
+["world"] = true,
+},
+},
 [525] = {
 ["525:725800000:650200000:TomTom waypoint"] = {
 525,
@@ -154,6 +278,68 @@ TomTomWaypointsM = {
 ["world"] = true,
 },
 },
+[2133] = {
+["2133:551700000:554300000:Zaralek Cavern"] = {
+2133,
+0.5517,
+0.5543,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["minimap"] = true,
+["cleardistance"] = 10,
+["title"] = "Zaralek Cavern",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
+},
+["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+},
+["world"] = true,
+},
+},
+[2112] = {
+["2112:529100000:614900000:Thaldraszus (Valdrakken)"] = {
+2112,
+0.5291,
+0.6149,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["minimap"] = true,
+["cleardistance"] = 10,
+["title"] = "Thaldraszus (Valdrakken)",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
+},
+["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+},
+["world"] = true,
+},
+},
 },
 ["Rokrium - Azshara"] = {
 },
@@ -168,6 +354,12 @@ TomTomWaypointsM = {
 ["Bblilmao - Azshara"] = {
 },
 ["Lizman - Azshara"] = {
+},
+["Dahoontar - Azshara"] = {
+},
+["Vladojin - Azshara"] = {
+},
+["Lynndaw - Azshara"] = {
 },
 ["Gamwillsaveu - Azshara"] = {
 [120] = {
@@ -186,21 +378,15 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["world"] = {
-},
 ["minimap"] = {
+},
+["world"] = {
 },
 },
 ["minimap"] = true,
 ["world"] = true,
 },
 },
-},
-["Vladojin - Azshara"] = {
-},
-["Lynndaw - Azshara"] = {
-},
-["Dahoontar - Azshara"] = {
 },
 },
 }
