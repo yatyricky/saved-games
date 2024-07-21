@@ -670,10 +670,8 @@ CIN_Save = {
 ["20872"] = {
 "Vanilla",
 },
-["1288"] = {
-"Vanilla",
-"Alchemy",
-"trash",
+["79010"] = {
+"MOP",
 },
 ["13755"] = {
 "Vanilla",
@@ -687,17 +685,19 @@ CIN_Save = {
 ["8839"] = {
 "VANILLA",
 },
-["12207"] = {
-"Vanilla",
+["44128"] = {
+"WLK",
 },
-["79010"] = {
-"MOP",
+["1288"] = {
+"Vanilla",
+"Alchemy",
+"trash",
 },
 ["20424"] = {
 "Vanilla",
 },
-["102541"] = {
-"MOP",
+["818"] = {
+"Vanilla",
 },
 ["2673"] = {
 "Vanilla",
@@ -720,8 +720,8 @@ CIN_Save = {
 ["3357"] = {
 "VANILLA",
 },
-["208067"] = {
-"DF",
+["6358"] = {
+"Vanilla",
 },
 ["204193"] = {
 "DF. Upgrade NPC is at Zaralak Cavern or Loamm",
@@ -735,8 +735,8 @@ CIN_Save = {
 ["22457"] = {
 "TBC",
 },
-["6358"] = {
-"Vanilla",
+["208067"] = {
+"DF",
 },
 ["18945"] = {
 "Vanilla",
@@ -800,15 +800,15 @@ CIN_Save = {
 "TBC,CTM",
 "Zulaman",
 },
-["2453"] = {
-"VANILLA",
+["2924"] = {
+"Vanilla",
 },
 ["210947"] = {
 "DF",
 "Emerald Dream",
 },
-["2924"] = {
-"Vanilla",
+["2453"] = {
+"VANILLA",
 },
 ["202017"] = {
 "Hand these in at /way #2024 66.93, 12.77 Sonova Snowden",
@@ -845,14 +845,14 @@ CIN_Save = {
 ["108339"] = {
 "VANILLA",
 },
-["818"] = {
-"Vanilla",
+["102541"] = {
+"MOP",
 },
 ["2886"] = {
 "Vanilla",
 },
-["44128"] = {
-"WLK",
+["12207"] = {
+"Vanilla",
 },
 ["27425"] = {
 "TBC",
