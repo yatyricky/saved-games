@@ -26,7 +26,7 @@ events:RegisterEvent("PLAYER_LOGIN")							--Fired just before login has finishe
 function generateItemCache()									--The Item Cache can only be generated once the game has loaded
 	for i,v in pairs(core.ItemCache) do							--We need to first get information about the item to load into the cache
 		--If item does not return nil then add to tactics now as GET_ITEM_INFO_RECEIVED only fires if items are not in the cache
-		local itemName, itemLink = GetItemInfo(core.ItemCache[v])
+		local itemName, itemLink = C_Item.GetItemInfo(core.ItemCache[v])
 		if itemLink ~= nil then
 			for expansion, _ in pairs(core.Instances) do
 				for instanceType, _ in pairs(core.Instances[expansion]) do
@@ -68,14 +68,14 @@ function events:GET_ITEM_INFO_RECEIVED(self, arg1)
 							if type(core.Instances[expansion][instanceType][instance][boss].tactics) == "table" then
 								if UnitFactionGroup("player") == "Alliance" then
 									if string.find(core.Instances[expansion][instanceType][instance][boss].tactics[1], ("IAT_" .. arg1)) then
-										local itemName, itemLink = GetItemInfo(arg1)
+										local itemName, itemLink = C_Item.GetItemInfo(arg1)
 										if itemLink ~= nil then
 											core.Instances[expansion][instanceType][instance][boss].tactics[1] = string.gsub(core.Instances[expansion][instanceType][instance][boss].tactics[1], ("IAT_" .. arg1), itemLink)
 										end
 									end
 								else
 									if string.find(core.Instances[expansion][instanceType][instance][boss].tactics[2], ("IAT_" .. arg1)) then
-										local itemName, itemLink = GetItemInfo(arg1)
+										local itemName, itemLink = C_Item.GetItemInfo(arg1)
 										if itemLink ~= nil then
 											core.Instances[expansion][instanceType][instance][boss].tactics[2] = string.gsub(core.Instances[expansion][instanceType][instance][boss].tactics[2], ("IAT_" .. arg1), itemLink)
 										end
@@ -83,7 +83,7 @@ function events:GET_ITEM_INFO_RECEIVED(self, arg1)
 								end
 							else
 								if string.find(core.Instances[expansion][instanceType][instance][boss].tactics, ("IAT_" .. arg1)) then
-									local itemName, itemLink = GetItemInfo(arg1)
+									local itemName, itemLink = C_Item.GetItemInfo(arg1)
 									if itemLink ~= nil then
 										core.Instances[expansion][instanceType][instance][boss].tactics = string.gsub(core.Instances[expansion][instanceType][instance][boss].tactics, ("IAT_" .. arg1), itemLink)
 									end
@@ -98,7 +98,7 @@ function events:GET_ITEM_INFO_RECEIVED(self, arg1)
 end
 
 function generateNPCCache()
-	if core.gameVersionMajor > 3 then
+	if core.gameVersionMajor > 4 then
 		core:sendDebugMessage("Attempting to load from local NPC Cache")
 		GetNameFromLocalNpcIDCache()
 
@@ -144,8 +144,8 @@ function generateNPCCache()
 end
 
 function getNPCName(npcID)
-	if core.gameVersionMajor == 3 then
-		--Look in the Wrath Classic Cache
+	if core.gameVersionMajor == 4 then
+		--Look in the Classic Cache
 		if not tonumber(core.NPCCacheClassic[npcID]) then
 			return core.NPCCacheClassic[npcID]
 		else
@@ -594,8 +594,8 @@ function getInstanceInfomation()
 					end
 				end
 
-				--Wrath classic returns the old 10man and 25man ulduar not present on retail
-				if core.gameVersionMajor == 3 and core.instance == 603 then
+				--Classic returns the old 10man and 25man ulduar not present on retail
+				if core.gameVersionMajor == 4 and core.instance == 603 then
 					if core.difficultyID == 175 or core.difficultyID == 193 then
 						--10 Man
 						core:sendDebugMessage("Detected Legacy 10 man Raid (wrath classic ulduar)")
@@ -676,7 +676,7 @@ function getInstanceInfomation()
 				--When running on Classic wow
 				if core.expansion == nil then
 					instanceCompatible = false
-				elseif core.gameVersionMajor == 3 and core.expansion > 3 and instanceCompatible == true then
+				elseif core.gameVersionMajor == 4 and core.expansion > 4 and instanceCompatible == true then
 					core:sendDebugMessage("This instance is not compatible on classic")
 					instanceCompatible = false
 				end
@@ -1146,6 +1146,10 @@ function events:PLAYER_LOGIN()
 
 		--Register Minimap Icon
 		core.ATButton:Register("InstanceAchievementTracker", MiniMapLDB, AchievementTrackerOptions);
+
+		--Reigster Minimap Addon Compartment
+		local LibDBCompartment = LibStub:GetLibrary("LibDBCompartment-1.0")
+		LibDBCompartment:Register("InstanceAchievementTracker", MiniMapLDB)
 
 		--Show Minimap Icon
 		if AchievementTrackerOptions["showMinimap"] then
@@ -1679,7 +1683,7 @@ function events:ENCOUNTER_START(self, encounterID, encounterName, difficultyID, 
 	if encounterID ~= nil then
 		--Found the boss encounter ID so clear out any other bosses currently stored
 		if core.lockDetection == false then
-			if core.gameVersionMajor > 3 then
+			if core.gameVersionMajor >= 4 then
 				detectBossByEncounterID(encounterID)
 			elseif core.gameVersionMajor == 3 then
 				detectBossByEncounterIDClassic(encounterID)
@@ -1728,7 +1732,7 @@ end
 
 --Used to display current boss achievement on mouseover and playing that are currently missing the achievment
 function events:UPDATE_MOUSEOVER_UNIT()
-	if core.gameVersionMajor > 3 then
+	if core.gameVersionMajor > 4 then
 		--If not in cache
 		--Loop through each boss in db
 		--Loop through EJ_GetCreatureInfo for each boss and compare with mouseover target
@@ -1889,14 +1893,14 @@ function events:INSPECT_ACHIEVEMENT_READY(self, GUID, ...)
 									--Add to achievement tracking ui if option enabled by user
 									if trackAchievementsInUI == true then
 										local numTrackedAchievements = 0
-										if core.gameVersionMajor == 3 then
+										if core.gameVersionMajor == 3 or core.gameVersionMajor == 4 then
 											numTrackedAchievements = GetNumTrackedAchievements()
 										else
 											numTrackedAchievements = #C_ContentTracking.GetTrackedIDs(2)
 										end
 
 										if numTrackedAchievements < 10 then
-											if core.gameVersionMajor == 3 then
+											if core.gameVersionMajor == 3 or core.gameVersionMajor == 4 then
 												AddTrackedAchievement(core.Instances[core.expansion][core.instanceType][core.instance][boss].achievement)
 											else
 												C_ContentTracking.StartTracking(2, core.Instances[core.expansion][core.instanceType][core.instance][boss].achievement)
@@ -2073,7 +2077,7 @@ function checkAndClearInstanceVariables()
 
 		--Untrack achievements that we tracked
 		for k,v in pairs(trackAchievementInUiTable) do
-			if core.gameVersionMajor == 3 then
+			if core.gameVersionMajor == 3 or core.gameVersionMajor == 4 then
 				RemoveTrackedAchievement(v)
 			else
 				C_ContentTracking.StopTracking(2, v, 2)
@@ -3898,9 +3902,9 @@ function core:trackAura(auraID, maxCount, type)
 
 		local count = 0
         for i=1,40 do
-			local _, _, count2, _, _, _, _, _, _, spellId = UnitDebuff(unit, i)
-			if spellId == auraID then
-				count = count2
+			local auraData = C_UnitAuras.GetDebuffDataByIndex(unit, i)
+			if auraData ~= nil and auraData.spellId == auraID then
+				count = auraData.applications
             end
         end
 
@@ -4355,8 +4359,8 @@ end
 function core:hasDebuff(player,spellId)
 	local found = false
 	for i=1,40 do
-		local _, _, _, _, _, _, _, _, _, spellIdFound = UnitDebuff(player, i)
-		if spellIdFound == spellId then
+		local auraData = C_UnitAuras.GetDebuffDataByIndex(player, i)
+		if auraData ~= nil and auraData.spellIdFound == spellId then
 			found = true
 		end
 	end

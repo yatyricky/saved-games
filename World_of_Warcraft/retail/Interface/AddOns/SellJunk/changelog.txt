@@ -1,27 +1,36 @@
+3.0.33 TWW FanUpdate by Shyde
+  - Fix issue #61 - Lua error on command /sj to open Addon settings
+  - Date: 31.07.2024
+  
+3.0.32 TWW FanUpdate by Shyde
+  - Update TOC for patch 110000
+  - Addon tested for 11.0.0 - The War Within Pre-Patch
+  - Date: 25.07.2024
+  
 3.0.31 DF FanUpdate by Shyde
   - Update TOC for patch 100205 / Addon tested for 10.2.5
   - Date: 26.01.2024
-
+  
 3.0.30 DF FanUpdate by Shyde
   - Update TOC for patch 100200 / Addon tested for 10.2
   - Date: 10.11.2023
-
+  
 3.0.29 DF FanUpdate by Shyde
   - Update TOC for patch 100107 / Addon tested for 10.1.7
   - Date: 05.09.2023
-
+  
 3.0.28 DF FanUpdate by Shyde
   - Added setting to ignore soulbound and sell/destroy items marked as BoE
   - Date: 19.07.2023
-
+  
 3.0.27 DF FanUpdate by Shyde
   - Reagent bag included on items scan
   - Date: 13.07.2023
-
+  
 3.0.26 DF FanUpdate by Shyde
   - Update TOC for patch 100105
   - Date: 11.07.2023
-
+  
 3.0.25 DF FanUpdate by ImJayc2
   - Update TOC for patch 100100
   - Added IconTexture
@@ -31,11 +40,11 @@
 3.0.24 DF FanUpdate by Shyde
   - Update: patch 10.0.7 / the addon will sell grey armor and weapon that are soulbound
   - Date: 21.03.2023
-
+  
 3.0.23 DF FanUpdate by Shyde
   - Update: the addon will not sell grey items that are of type armor and weapon
   - Date: 21.02.2023
-
+  
 3.0.22 DF FanUpdate by ImJayc2
 	- update: Updated for DragonFlight pre-patch 100002
 	- Updated libs

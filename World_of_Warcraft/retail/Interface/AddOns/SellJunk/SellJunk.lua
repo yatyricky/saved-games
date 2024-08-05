@@ -326,7 +326,10 @@ function addon:HandleSlashCommands(input)
       self:Rem(arg2, true)
     end
   else
-    InterfaceOptionsFrame_OpenToCategory(addon.optionsFrame)
+    -- function InterfaceOptionsFrame_OpenToCategory deprecated
+    -- InterfaceOptionsFrame_OpenToCategory(addon.optionsFrame)
+
+    Settings.OpenToCategory("SellJunk")
   end
 end
 

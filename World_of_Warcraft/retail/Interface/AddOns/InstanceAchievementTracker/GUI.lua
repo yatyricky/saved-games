@@ -47,11 +47,11 @@ AchievementTrackerNPCCache = {}
 AchievementTrackerNPCCacheClassic = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
-Config.majorVersion = 4						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 39    				--Addon with a minor version change have prioirty over a lower minor version
+Config.majorVersion = 5						--Addon with a higher major version change have priority over a lower major version
+Config.minorVersion = 3    				    --Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
-Config.classicPhase = 4                     --What phase classic realms are currently running
+Config.classicPhase = 6                     --What phase classic realms are currently running
 
 ------------------------------------------------------
 ---- Game Versions
@@ -1292,17 +1292,28 @@ function Config:CreateGUI()
         for instance,v in pairs(core.Instances[i].Raids) do
             local instanceName
 
-            if (core.gameVersionMajor > 3 and core.Instances[i].Raids[instance].classicOnly ~= true) or (core.gameVersionMajor == 3 and core.Instances[i].Raids[instance].retailOnly ~= true) then
+            if (core.gameVersionMajor > 4 and core.Instances[i].Raids[instance].classicOnly ~= true) or (core.gameVersionMajor == 4 and core.Instances[i].Raids[instance].retailOnly ~= true) then
                 --Do not load classic only instance on retail and visa versa
 
-                if core.gameVersionMajor == 3 and i == 3 then
+                if (core.gameVersionMajor == 3 and i == 3) or (core.gameVersionMajor == 4 and i == 3) then
                     --For wrath we must fetch the localisaed names as the encounter journal is not avaliable
                     if core.Instances[i].Raids[instance].classicPhase <= Config.classicPhase then
                         instanceName = core.Instances[i].Raids[instance].nameLocalised
                     end
                 else
                     --All other expansions have the encounter journal so pass the ID to fetch from API
-                    instanceName = Config:getLocalisedInstanceName(core.Instances[i].Raids[instance].name)
+                    --In classic cata only cata is in encounter journal
+                    if core.gameVersionMajor == 4 then
+                        if i == 4 then
+                            if core.Instances[i].Raids[instance].classicPhase <= Config.classicPhase then
+                                instanceName = Config:getLocalisedInstanceName(core.Instances[i].Raids[instance].name)
+                            end
+                        else
+                            instanceName = ""
+                        end
+                    else
+                        instanceName = Config:getLocalisedInstanceName(core.Instances[i].Raids[instance].name)
+                    end
                 end
 
                 if instanceName ~= nil then
@@ -1310,17 +1321,28 @@ function Config:CreateGUI()
                 end
             end
         end
+
         for instance,v in pairs(core.Instances[i].Dungeons) do
             local instanceName
 
-            if core.gameVersionMajor == 3 and i == 3 then
+            if (core.gameVersionMajor == 3 and i == 3) or (core.gameVersionMajor == 4 and i == 3) then
                 --For wrath we must fetch the localisaed names as the encounter journal is not avaliable
                 if core.Instances[i].Dungeons[instance].classicPhase <= Config.classicPhase then
                     instanceName = core.Instances[i].Dungeons[instance].nameLocalised
                 end
             else
                 --All other expansions have the encounter journal so pass the ID to fetch from API
-                instanceName = Config:getLocalisedInstanceName(core.Instances[i].Dungeons[instance].name)
+                if core.gameVersionMajor == 4 then
+                    if i == 4 then
+                        if core.Instances[i].Dungeons[instance].classicPhase <= Config.classicPhase then
+                            instanceName = Config:getLocalisedInstanceName(core.Instances[i].Dungeons[instance].name)
+                        end
+                    else
+                        instanceName = ""
+                    end
+                else
+                    instanceName = Config:getLocalisedInstanceName(core.Instances[i].Dungeons[instance].name)
+                end
             end
 
             if instanceName ~= nil then
@@ -1858,11 +1880,19 @@ function Instance_OnClick(self)
                         end
                     end
 
-                    if core.gameVersionMajor == 3 and Config.currentTab == 3 then
+                    if (core.gameVersionMajor == 3 and Config.currentTab == 3) or (core.gameVersionMajor == 4 and Config.currentTab == 3) then
                         --Wrath classic requires us to use localised names as the encounter journal is not avaliable
                         button.headerText:SetText(instanceLocation["boss" .. counter2].nameWrath)
                     else
-                        button.headerText:SetText(Config:getLocalisedEncouterName(instanceLocation["boss" .. counter2].name,instanceType))
+                        if core.gameVersionMajor == 4 then
+                            if Config.currentTab == 4 then
+                                button.headerText:SetText(Config:getLocalisedEncouterName(instanceLocation["boss" .. counter2].name,instanceType))
+                            else
+                                button.headerText:SetText("")
+                            end
+                        else
+                            button.headerText:SetText(Config:getLocalisedEncouterName(instanceLocation["boss" .. counter2].name,instanceType))
+                        end
                     end
 
                     button.contentText:SetID(instanceLocation["boss" .. counter2].achievement)
@@ -1933,20 +1963,20 @@ function Instance_OnClick(self)
                     local tactics
                     if type(instanceLocation["boss" .. counter2].tactics) == "table" then
                         if UnitFactionGroup("player") == "Alliance" then
-                            if core.gameVersionMajor > 3 then
+                            if core.gameVersionMajor > 4 then
                                 tactics = instanceLocation["boss" .. counter2].tactics[1]
                             else
                                 tactics = instanceLocation["boss" .. counter2].tacticsClassic[1]
                             end
                         else
-                            if core.gameVersionMajor > 3 then
+                            if core.gameVersionMajor > 4 then
                                 tactics = instanceLocation["boss" .. counter2].tactics[2]
                             else
                                 tactics = instanceLocation["boss" .. counter2].tacticsClassic[2]
                             end
                         end
                     else
-                        if core.gameVersionMajor > 3 then
+                        if core.gameVersionMajor > 4 then
                             tactics = instanceLocation["boss" .. counter2].tactics
                         else
                             tactics = instanceLocation["boss" .. counter2].tacticsClassic
@@ -2226,7 +2256,7 @@ function Tactics_OnClick(self)
                 for boss,_ in pairs(core.Instances[expansion][instanceType][instance]) do
                     if string.match(boss, "boss") then
                         if core.Instances[expansion][instanceType][instance][boss].generatedID == self:GetID() then
-                            if core.gameVersionMajor > 3 then
+                            if core.gameVersionMajor > 4 then
                                 if type(core.Instances[expansion][instanceType][instance][boss].tactics) == "table" then
                                     if UnitFactionGroup("player") == "Alliance" then
                                         core:sendMessageSafe(GetAchievementLink(core.Instances[expansion][instanceType][instance][boss].achievement) .. " " .. core.Instances[expansion][instanceType][instance][boss].tactics[1])
@@ -2500,7 +2530,7 @@ function GetNameFromNpcIDCache(npcID)
     if tip:NumLines()>0 then
         local name = myTooltipFromTemplateTextLeft1:GetText()
         tip:Hide()
-        if core.gameVersionMajor > 3 then
+        if core.gameVersionMajor > 4 then
             core.NPCCache[npcID] = name
         else
             core.NPCCacheClassic[npcID] = name
@@ -2534,7 +2564,7 @@ function GetNameFromNpcIDCache(npcID)
         end
 
         --Add NPC to NPCCache
-        if core.gameVersionMajor > 3 then
+        if core.gameVersionMajor > 4 then
             AchievementTrackerNPCCache[npcID] = name
         else
             AchievementTrackerNPCCacheClassic[npcID] = name
@@ -2544,7 +2574,7 @@ function GetNameFromNpcIDCache(npcID)
             if tip:NumLines()>0 then
                 local name = myTooltipFromTemplateTextLeft1:GetText()
                 tip:Hide()
-                if core.gameVersionMajor > 3 then
+                if core.gameVersionMajor > 4 then
                     core.NPCCache[npcID] = name
                 else
                     core.NPCCacheClassic[npcID] = name
@@ -2564,7 +2594,7 @@ function GetNameFromNpcIDCache(npcID)
                 end
 
                 --Add NPC to NPCCache
-                if core.gameVersionMajor > 3 then
+                if core.gameVersionMajor > 4 then
                     AchievementTrackerNPCCache[npcID] = name
                 else
                     AchievementTrackerNPCCacheClassic[npcID] = name
@@ -2578,7 +2608,7 @@ end
 
 function GetNameFromLocalNpcIDCache()
     --Attempt to fetch NPC name from local cache if it exists
-    if core.gameVersionMajor > 3 then
+    if core.gameVersionMajor > 4 then
         if AchievementTrackerNPCCache ~= nil then
             tmpSortedTable = {}
             for k in pairs(AchievementTrackerNPCCache) do table.insert(tmpSortedTable, k) end
