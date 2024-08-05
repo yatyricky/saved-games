@@ -1,5 +1,5 @@
 
 AuctioneerLocal = {
-	["SeenMailSigs"] = {
-	},
+["SeenMailSigs"] = {
+},
 }
