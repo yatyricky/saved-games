@@ -689,7 +689,7 @@ do
 			label:SetPoint("TOPLEFT", button, "TOPLEFT", 0,0)
 			label:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", 0,0)
 			label:SetJustifyH("CENTER")
-			label:SetJustifyV("CENTER")
+			label:SetJustifyV("MIDDLE")
 			label:SetTextColor(0.8,0.8,0.8)
 
 			label.button = button
@@ -963,7 +963,7 @@ fakeButton.texture = texture
 fakeButton.Text = fakeButton:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 fakeButton.Text:SetPoint("BOTTOMRIGHT", fakeButton, "BOTTOMRIGHT", 0,0)
 fakeButton.Text:SetJustifyH("CENTER")
-fakeButton.Text:SetJustifyV("CENTER")
+fakeButton.Text:SetJustifyV("MIDDLE")
 fakeButton.Text:SetTextColor(0.8,0.8,0.8)
 fakeButton.Text:SetText("")
 

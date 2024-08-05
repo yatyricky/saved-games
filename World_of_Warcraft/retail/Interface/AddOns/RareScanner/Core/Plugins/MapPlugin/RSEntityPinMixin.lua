@@ -60,7 +60,7 @@ function RSEntityPinMixin:OnMouseLeave()
 end
 
 function RSEntityPinMixin:OnMouseDown(button)
-	if (button == "LeftButton") then
+	if (button == "LeftButton") then		
 		--Toggle state
 		if (IsShiftKeyDown() and IsAltKeyDown()) then
 			if (self.POI.isNpc) then
@@ -88,7 +88,7 @@ function RSEntityPinMixin:OnMouseDown(button)
 			self:GetMap():RefreshAllDataProviders();
 			RSMinimap.RefreshEntityState(self.POI.entityID)
 		-- Toggle overlay
-		elseif (not IsShiftKeyDown() and not IsAltKeyDown()) then
+		elseif (not IsShiftKeyDown() and not IsAltKeyDown() and not IsControlKeyDown()) then
 			-- If overlay showing then hide it
 			local overlayInfo = RSGeneralDB.GetOverlayActive(self.POI.entityID)
 			if (overlayInfo) then
@@ -113,7 +113,7 @@ function RSEntityPinMixin:OnMouseDown(button)
 				RSWaypoints.AddWorldMapWaypoint(self.POI.mapID, self.POI.x, self.POI.y)
 			end
 		-- Toggle guide
-		else
+		elseif (not IsShiftKeyDown() and not IsAltKeyDown() and not IsControlKeyDown()) then
 			-- If guide showing then hide it
 			local guideEntityID = RSGeneralDB.GetGuideActive()
 			if (guideEntityID) then
@@ -143,6 +143,8 @@ function RSEntityPinMixin:ShowOverlay()
 		overlay = RSNpcDB.GetInternalNpcOverlay(self.POI.entityID, self.POI.mapID)
 	elseif (self.POI.isContainer) then
 		overlay = RSContainerDB.GetInternalContainerOverlay(self.POI.entityID, self.POI.mapID)
+	elseif (self.POI.isEvent) then
+		overlay = RSEventDB.GetInternalEventOverlay(self.POI.entityID, self.POI.mapID)
 	end
 
 	if (overlay) then

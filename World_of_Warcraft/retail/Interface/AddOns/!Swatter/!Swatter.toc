@@ -3,17 +3,16 @@
 ##
 ## IconTexture: Interface/Addons/!Swatter/Textures/SwatterIcon.blp
 ##
-## Interface: 100107
+## Interface: 110000
 ## SavedVariables: SwatterData
 ##
-## Version: 9.1.BETA.5.13 (OneMawTime)
+## Version: <%version%> (<%codename%>)
 ## Revision: $Id$
 ## Author: Norganna's AddOns
 ## X-Part-Of: Libraries
 ## X-Category: Library
-## X-Max-Interface: 80100
-## X-URL: http://zip.norganna.org/libs/!Swatter/
-## X-Feedback: http://forums.norganna.org
+## X-URL: http://auctioneeraddon.com/
+## X-Feedback: https://auctioneeraddon.com/slack
 ##
 Support\Load.xml
 Swatter.lua

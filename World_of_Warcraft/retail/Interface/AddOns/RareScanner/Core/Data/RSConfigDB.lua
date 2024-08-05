@@ -57,6 +57,10 @@ function RSConfigDB.GetMarkerOnTarget()
 	return private.db.general.marker
 end
 
+function RSConfigDB.SetMarkerOnTarget(value)
+	private.db.general.marker = value
+end
+
 function RSConfigDB.IsLockingPosition()
 	return private.db.display.lockPosition
 end
@@ -111,23 +115,6 @@ function RSConfigDB.DeleteCustomSound(name)
 			RSConfigDB.SetSoundPlayedWithNpcs("Horn")
 		end
 	end
-end
-
-function RSConfigDB.GetSoundList()
-	local defaultList = {} 
-	
-	-- Add internal sounds
-	for name, file in pairs (RSConstants.DEFAULT_SOUNDS) do
-		defaultList[name] = file
-	end
-	
-	-- Add custom sounds
-	if (RSConfigDB.GetCustomSounds()) then
-		for name, file in pairs (RSConfigDB.GetCustomSounds()) do
-			defaultList[name] = string.format(RSConstants.EXTERNAL_SOUND_FOLDER, RSConfigDB.GetCustomSoundsFolder(), file)
-		end
-	end
-	return defaultList;
 end
 
 function RSConfigDB.IsPlayingSound()
@@ -544,28 +531,18 @@ function RSConfigDB.SetShowingProfessionRareNPCs(value)
 	private.db.map.displayProfessionRaresNpcIcons = value
 end
 
-function RSConfigDB.IsShowingHuntingPartyRareNPCs()
-	return private.db.map.displayHuntingPartyRaresNpcIcons
+function RSConfigDB.IsMinieventFiltered(minieventID)
+	if (minieventID and private.db.map.displayMinieventsNpcIcons[minieventID]) then
+		return private.db.map.displayMinieventsNpcIcons[minieventID]
+	end
+	
+	return false
 end
 
-function RSConfigDB.SetShowingHuntingPartyRareNPCs(value)
-	private.db.map.displayHuntingPartyRaresNpcIcons = value
-end
-
-function RSConfigDB.IsShowingPrimalStormRareNPCs()
-	return private.db.map.displayPrimalStormRaresNpcIcons
-end
-
-function RSConfigDB.SetShowingPrimalStormNPCs(value)
-	private.db.map.displayPrimalStormRaresNpcIcons = value
-end
-
-function RSConfigDB.IsShowingDreamsurgeRareNPCs()
-	return private.db.map.displayDreamsurgeRaresNpcIcons
-end
-
-function RSConfigDB.SetShowingDreamsurgeNPCs(value)
-	private.db.map.displayDreamsurgeRaresNpcIcons = value
+function RSConfigDB.SetMinieventFiltered(minieventID, filtered)
+	if (minieventID) then
+		private.db.map.displayMinieventsNpcIcons[minieventID] = filtered
+	end
 end
 
 function RSConfigDB.IsShowingOtherRareNPCs()
@@ -574,6 +551,20 @@ end
 
 function RSConfigDB.SetShowingOtherRareNPCs(value)
 	private.db.map.displayOtherRaresNpcIcons = value
+end
+
+function RSConfigDB.IsCustomNpcGroupFiltered(group)
+	if (group and private.db.map.displayCustomGroupNpcIcons[group]) then
+		return private.db.map.displayCustomGroupNpcIcons[group]
+	end
+	
+	return false
+end
+
+function RSConfigDB.SetCustomNpcGroupFiltered(group, filtered)
+	if (group) then
+		private.db.map.displayCustomGroupNpcIcons[group] = filtered
+	end
 end
 
 ---============================================================================
@@ -938,20 +929,20 @@ function RSConfigDB.IsZoneFilteredOnlyAlerts(zoneID)
 	return false
 end
 
-function RSConfigDB.IsEntityZoneFilteredOnlyAlerts(entityID, atlasName)
+function RSConfigDB.IsEntityZoneFilteredOnlyAlerts(entityID, atlasName, mapID)
 	if (entityID and atlasName) then
 		-- If npc
 		if (RSConstants.IsNpcAtlas(atlasName)) then
 			local npcInfo = RSNpcDB.GetInternalNpcInfo(entityID)
 			if (npcInfo) then
 				if (RSNpcDB.IsInternalNpcMultiZone(entityID)) then
-					for mapID, _ in pairs (npcInfo.zoneID) do
-						if (RSConfigDB.GetZoneFiltered(mapID)) then
+					for zoneMapID, _ in pairs (npcInfo.zoneID) do
+						if (mapID == zoneMapID and RSConfigDB.GetZoneFiltered(mapID)) then
 							return RSConfigDB.IsZoneFilteredOnlyAlerts(mapID)
 						end
 					end
 				elseif (RSNpcDB.IsInternalNpcMonoZone(entityID)) then
-					return RSConfigDB.IsZoneFilteredOnlyAlerts(npcInfo.zoneID)
+					return RSConfigDB.IsZoneFilteredOnlyAlerts(mapID)
 				end
 			end
 		-- If container
@@ -959,20 +950,28 @@ function RSConfigDB.IsEntityZoneFilteredOnlyAlerts(entityID, atlasName)
 			local containerInfo = RSContainerDB.GetInternalContainerInfo(entityID)
 			if (containerInfo) then
 				if (RSContainerDB.IsInternalContainerMultiZone(entityID)) then
-					for mapID, _ in pairs (containerInfo.zoneID) do
-						if (RSConfigDB.GetZoneFiltered(mapID)) then
+					for zoneMapID, _ in pairs (containerInfo.zoneID) do
+						if (mapID == zoneMapID and RSConfigDB.GetZoneFiltered(mapID)) then
 							return RSConfigDB.IsZoneFilteredOnlyAlerts(mapID)
 						end
 					end
 				elseif (RSContainerDB.IsInternalContainerMonoZone(entityID)) then
-					return RSConfigDB.IsZoneFilteredOnlyAlerts(containerInfo.zoneID)
+					return RSConfigDB.IsZoneFilteredOnlyAlerts(mapID)
 				end
 			end
 		-- If event
 		elseif (RSConstants.IsEventAtlas(atlasName)) then
 			local eventInfo = RSEventDB.GetInternalEventInfo(entityID)
 			if (eventInfo) then
-				return RSConfigDB.IsZoneFilteredOnlyAlerts(eventInfo.zoneID)
+				if (RSEventDB.IsInternalEventMultiZone(entityID)) then
+					for zoneMapID, _ in pairs (eventInfo.zoneID) do
+						if (mapID == zoneMapID and RSConfigDB.GetZoneFiltered(mapID)) then
+							return RSConfigDB.IsZoneFilteredOnlyAlerts(mapID)
+						end
+					end
+				elseif (RSEventDB.IsInternalEventMonoZone(entityID)) then
+					return RSConfigDB.IsZoneFilteredOnlyAlerts(mapID)
+				end
 			end
 		end
 	end
@@ -1104,14 +1103,6 @@ end
 -- Loot filters
 ---============================================================================
 
-function RSConfigDB.IsItemFiltered(itemID)
-	if (itemID) then
-		return private.db.loot.filteredItems[itemID] == true
-	end
-
-	return false
-end
-
 function RSConfigDB.GetItemFiltered(itemID)
 	if (itemID) then
 		return private.db.loot.filteredItems[itemID]
@@ -1160,6 +1151,14 @@ end
 
 function RSConfigDB.SetFilteringLootByCompletedQuest(value)
 	private.db.loot.filterItemsCompletedQuest = value
+end
+
+function RSConfigDB.IsFilteringLootByNotEquipableItems()
+	return private.db.loot.filterNotEquipableItems
+end
+
+function RSConfigDB.SetFilteringLootByNotEquipableItems(value)
+	private.db.loot.filterNotEquipableItems = value
 end
 
 function RSConfigDB.IsFilteringLootByNotMatchingClass()
@@ -1242,6 +1241,24 @@ function RSConfigDB.SetShowingMissingDrakewatcher(value)
 	private.db.loot.showingMissingDrakewatcher = value
 end
 
+function RSConfigDB.IsShowingCustomItems(group)
+	if (group and private.db.loot.showMissingCustomItems) then
+		return private.db.loot.showMissingCustomItems[group]
+	end
+	
+	return false
+end
+
+function RSConfigDB.SetShowingCustomItems(group, value)
+	if (group) then
+		if (not private.db.loot.showMissingCustomItems) then
+			private.db.loot.showMissingCustomItems = {}
+		end
+		
+		private.db.loot.showMissingCustomItems[group] = value
+	end
+end
+
 ---============================================================================
 -- Collection filters
 ---============================================================================
@@ -1316,6 +1333,22 @@ end
 
 function RSConfigDB.IsShowWithoutCollectibles()
 	return private.db.collections.showWithoutCollectibles
+end
+
+function RSConfigDB.SetSearchingCustom(groupKey, value)
+	if (not private.db.collections.showCustom) then
+		private.db.collections.showCustom = {}
+	end
+	
+	private.db.collections.showCustom[groupKey] = value
+end
+
+function RSConfigDB.IsSearchingCustom(groupKey)
+	if (private.db.collections.showCustom and private.db.collections.showCustom[groupKey]) then
+		return true
+	end
+	
+	return false
 end
 
 function RSConfigDB.SetShowDead(value)
@@ -1572,6 +1605,14 @@ function RSConfigDB.SetShowingTooltipsCommands(value)
 	private.db.map.tooltipsCommands = value
 end
 
+function RSConfigDB.IsShowingTooltipsFilterState()
+	return private.db.map.tooltipsFilterState
+end
+
+function RSConfigDB.SetShowingTooltipsFilterState(value)
+	private.db.map.tooltipsFilterState = value
+end
+
 ---============================================================================
 -- Worldmap loot tooltips
 ---============================================================================
@@ -1685,4 +1726,16 @@ end
 
 function RSConfigDB.SetHighlightingReputation(value)
 	private.db.map.highlightReputation = value
+end
+
+---============================================================================
+-- Worldmap guidance icons
+---============================================================================
+
+function RSConfigDB.IsShowingAutoGuidanceIcons()
+	return private.db.map.autoGuidanceIcons
+end
+
+function RSConfigDB.SetShowingAutoGuidanceIcons(value)
+	private.db.map.autoGuidanceIcons = value
 end

@@ -1,10 +1,10 @@
 ## Title: Configator |cff224477(lib)
 ## Notes: Configator allows authors to easily construct a graphical user configuration interface.
 ##
-## Interface: 100107
+## Interface: 80205
 ## LoadOnDemand: 0
 ##
-## Version: 9.1.BETA.5.13 (OneMawTime)
+## Version: <%version%> (<%codename%>)
 ## Revision: $Id$
 ## Author: Norganna's AddOns
 ## X-Part-Of: Libraries

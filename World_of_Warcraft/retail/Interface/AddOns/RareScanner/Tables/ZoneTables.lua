@@ -1,3 +1,4 @@
+
 -------------------------------------------------------------------------------
 -- AddOn namespace.
 -------------------------------------------------------------------------------
@@ -5,10 +6,10 @@ local FOLDER_NAME, private = ...
 
 private.CONTINENT_ZONE_IDS = {
 	[905] = { zonefilter = true, npcfilter = true, id = 9, zones = {830,882,885} }; --Argus
-	[619] = { zonefilter = true, npcfilter = true, id = 8, zones = {630,646,790,650,634,680,641,649,652} }; --Broken Isles
+	[619] = { zonefilter = true, npcfilter = true, id = 8, zones = {627,630,646,790,650,634,680,641,649,652} }; --Broken Isles
 	[572] = { zonefilter = true, npcfilter = true, id = 7, zones = {525,534,535,539,542,543,550,582,588,590} }; --Draenor
-	[13] = { zonefilter = true, npcfilter = true, id = 2, zones = {14,15,17,18,21,22,23,25,26,27,32,36,37,47,48,49,50,51,52,56,76,84,94,95,201,203,204,205,210,241,425,465,469,943,1470} }; --Eastern Kingdoms
-	[12] = { zonefilter = true, npcfilter = true, id = 1, zones = {1,7,10,57,62,63,64,65,66,69,70,71,76,77,78,80,81,83,97,103,106,198,199,249,327,338,1332,1469,1527,1571} }; --Kalimdor
+	[13] = { zonefilter = true, npcfilter = true, id = 2, zones = {14,15,17,18,21,22,23,25,26,27,32,36,37,47,48,49,50,51,52,56,76,84,87,90,94,95,201,203,204,205,210,217,241,425,465,469,943,1470} }; --Eastern Kingdoms
+	[12] = { zonefilter = true, npcfilter = true, id = 1, zones = {1,7,10,57,62,63,64,65,66,69,70,71,76,77,78,80,81,83,85,88,97,103,106,198,199,249,327,338,1332,1469,1527,1571} }; --Kalimdor
 	[113] = { zonefilter = true, npcfilter = true, id = 4, zones = {114,115,116,117,118,119,120,121,126} }; --Northrend
 	[424] = { zonefilter = true, npcfilter = true, id = 6, zones = {371,376,379,388,390,418,422,433,507,504,554,1530,1570} }; --Pandaria
 	[101] = { zonefilter = true, npcfilter = true, id = 3, zones = {100,102,104,105,107,108,109} }; --Outland
@@ -17,13 +18,15 @@ private.CONTINENT_ZONE_IDS = {
 	[875] = { zonefilter = true, npcfilter = true, id = 11, zones = {862,863,864,1165} }; --Zandalar
 	[1355] = { zonefilter = true, npcfilter = true, id = 12, zones = {1355} }; --Nazjatar
 	[1550] = { zonefilter = true, npcfilter = true, id = 13, zones = {1409,1525,1533,1536,1543,1565,1618,1961,1970,2030} }; --Shadowlands
-	[1978] = { zonefilter = true, npcfilter = true, id = 14, zones = {2112,2118,2022,2023,2024,2025,2085,2107,2133,2151,2199}, current = { "all" } }; --Dragon Isles
+	[1978] = { zonefilter = true, npcfilter = true, id = 14, zones = {2112,2118,2022,2023,2024,2025,2085,2107,2133,2151,2199,2200,2239} }; --Dragon Isles
+	[2274] = { zonefilter = true, npcfilter = true, id = 15, zones = {2213,2216,2248,2215,2216,2214,2255,2339}, current = { "all" } }; --Khaz Algar
 	[9999] = { zonefilter = true, npcfilter = true, zones = {276,378,628,629,672,734,702,695,747,739} }; --Class Halls
 	[9998] = { zonefilter = true, npcfilter = true, zones = {407}, current = { "all" } }; --Darkmoon Island
 	[9997] = { zonefilter = true, npcfilter = true, zones = {35,219,229,237,243,251,274,279,280,301,306,316,317,318,616,677,703,706,713,731,733,749,845,897,903,974,1004,1015,1041,1663,1666,1675,1669,1674,1677,1683,1692,2093} }; --Dungeons or scenarios
 	[9996] = { zonefilter = true, npcfilter = true, zones = {366,508,764,850,909,2047,2166} }; --Raids
 	[9995] = { zonefilter = false, npcfilter = true, zones = {0} }; --Unknown
 	[9994] = { zonefilter = true, npcfilter = false, zones = {981,1022,1032,1033,1034,1035,1036,1037,1336,1337,1501,1502} }; --Expedition islands
+	[9993] = { zonefilter = true, npcfilter = false, zones = {2302,2310,2312,2347,2250} }; --Delves
 }
 
 private.SUBZONES_IDS = {
@@ -60,6 +63,7 @@ private.SUBZONES_IDS = {
 	[32] = {33,35}; --Searing Gorge minimaps
 	[543] = {549}; --Gorgrond minimaps
 	[535] = {537}; --Talador minimaps
+	[627] = {626,628,629}; --Dalaran Legion
 	[830] = {833}; --Krokuun minimap
 	[942] = {1183}; --Stormsong Valley minimap
 	[1015] = {1016,1017,1018,1019}; --Waycrest manor
@@ -82,6 +86,8 @@ private.SUBZONES_IDS = {
 	[2133] = {2184,2165}; --Zaralek Cavern minimaps (10.1.0) (Dragonflight)
 	[2166] = {2167,2168,2169,2170}; --Aberrus, the Shadowed Crucible
 	[2025] = {2199}; --Thaldraszus minimaps
+	[2200] = {2254}; --Emerald Dream minimaps
+	[2256] = {2256}; --Azj-Kahet lower
 }
 
 private.ZONES_WITHOUT_VIGNETTE = {
@@ -189,6 +195,20 @@ private.ZONES_WITHOUT_VIGNETTE = {
 	[274] = { 285 }; --Old hillsbrad foothills
 	[462] = { 474 }; --Camp Narache
 	[425] = { 437 }; --Northshire
+	--[2112]  = { 1748 }; --Valdrakken
+	[2022] = { 1706 }; --The walking shores
+	[2023] = { 1705 }; --Ohn'ahran plains
+	[2024] = { 1707 }; --The Azure span
+	[2025] = { 1708 }; --Thaldraszus
+	--[2085]  = { 1736 }; --The primalist future
+	--[2133]  = { 1775 }; --Zaralek cavern
+	--[2151]  = { 1781 }; --The forbidden reach
+	--[2199]  = { 1805 }; --Tyrhold reservoir
+	--[2200]  = { 1806 }; --Emerald dream
+	[2310] = { 1881 }; --Skittering Breach (delve)
+	[2312] = { 1882 }; --Mycomancer Cavern (delve)
+	[2302] = { 1874 }; --The Dead Pit (delve)
+	[2250] = { 1836 }; --Kriegval's Rest (delve)
 }
 
 private.RESETABLE_KILLS_ZONE_IDS = {
@@ -203,6 +223,7 @@ private.RESETABLE_KILLS_ZONE_IDS = {
 	[830] = { "all" }; --Krokun (Legion)
 	[882] = { "all" }; --Mac-Aree (Legion)
 	[885] = { "all" }; --Antoran wastes (Legion)
+	[646] = { "all" }; --The broken shore (Legion)
 	[81] = { 962 }; --Silithus (Legion, BFA)
 	[1355] = { "all" }; --Nazjatar (BFA)
 	[1462] = { "all" }; --Mechagon (BFA)
@@ -210,6 +231,8 @@ private.RESETABLE_KILLS_ZONE_IDS = {
 	[1527] = { "all" }; --Uldum 8.3.0 invassion (BFA)
 	[1570] = { "all" }; --Valley of eternal blossoms 8.3.0 horror vision (BFA)
 	[1571] = { "all" }; --Uldum 8.3.0 horror vision (BFA)
+	[14] = { 1137 }; --Warfront Arathi (BFA)
+	[62] = { 1176 }; --Warfront Darkshore (BFA)
 	[1533] = { "all" }; --Bastion (Shadowlands)
 	[1536] = { "all" }; --Maldraxxus (Shadowlands)
 	[1565] = { "all" }; --Ardenweald (Shadowlands)
@@ -226,11 +249,12 @@ private.RESETABLE_KILLS_ZONE_IDS = {
 	[2026] = { "all" }; --The Forbidden Reach (Dragonflight)
 	[2151] = { "all" }; --The Forbidden Reach (10.0.7) (Dragonflight)
 	[2133] = { "all" }; --Zaralek Cavern (10.1.0) (Dragonflight)
-}
-
-private.RESETABLE_WARFRONT_KILLS_ZONE_IDS = {
-	[14] = { 1137 }; --Arathi Highlands
-	[62] = { 1176 }; --Darkshore
+	[2200] = { "all" }; --Emerald Dream (10.2.0) (Dragonflight)
+	[2248] = { "all" }; --Isle of Dorn (The War Within)
+	[2215] = { "all" }; --Hallowfall (The War Within)
+	[2214] = { "all" }; --The Ringing Deeps (The War Within)
+	[2255] = { "all" }; --Azj-Kahet (The War Within)
+	[2213] = { "all" }; --Nerub'ar (The War Within)
 }
 
 private.PERMANENT_KILLS_ZONE_IDS = {
@@ -241,7 +265,6 @@ private.PERMANENT_KILLS_ZONE_IDS = {
 	[550] = { "all" };
 	[535] = { "all" };
 	[630] = { "all" };
-	[646] = { "all" };
 	[625] = { "all" };
 	[790] = { "all" };
 	[650] = { "all" };

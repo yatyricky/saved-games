@@ -1,7 +1,7 @@
 ﻿--[[
 	DebugLib - An embedded library which works as a higher layer for nLog,
 	by providing easier usage of debugging features.
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: 9.1.BETA.5.15 (OneMawTime)
 	Revision: $Id$
 	URL: http://auctioneeraddon.com/dl/
 

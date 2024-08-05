@@ -1,6 +1,6 @@
 --[[
 	Babylonian - A sub-addon that manages the locales for other addons.
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: 9.1.BETA.5.15 (OneMawTime)
 	Revision: $Id$
 	URL: http://auctioneeraddon.com/dl/
 

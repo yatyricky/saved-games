@@ -1,6 +1,6 @@
 --[[
 	SelectBox
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: <%version%> (<%codename%>)
 	Revision: $Id$
 	URL: http://auctioneeraddon.com/dl/
 
@@ -299,7 +299,7 @@ if not lib.menu then
 	menu:SetScript("OnMouseDown", lib.DoHide)
 	menu:SetScript("OnUpdate", lib.OnUpdate)
 
-	menu.back = CreateFrame("Frame", "", lib.menu, BackdropTemplateMixin and "BackdropTemplate")
+	menu.back = CreateFrame("Frame", "", lib.menu, "BackdropTemplate")
 	menu.back:SetPoint("TOPLEFT", lib.menu, "TOPLEFT", 15, -20)
 	menu.back:SetPoint("BOTTOMRIGHT", lib.menu, "BOTTOMRIGHT", -15, 10)
 	menu.back:SetBackdrop({

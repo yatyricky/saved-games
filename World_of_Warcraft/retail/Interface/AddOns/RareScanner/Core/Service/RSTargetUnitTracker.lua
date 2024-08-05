@@ -56,7 +56,7 @@ local function GetMapNpcs()
 	previousMapID = mapID
 	
 	-- Gets NPCs in the map
-	RSLogger:PrintDebugMessage("TargetUnit refrescando lista")
+	RSLogger:PrintDebugMessage(string.format("TargetUnit refrescando lista para mapa [%s]", mapID))
 	if (RSMapDB.IsZoneWithoutVignette(mapID)) then
 		cachedNpcIDs = RSNpcDB.GetNpcIDsByMapID(mapID, false)
 	else
@@ -73,7 +73,7 @@ end
 
 local npcFound = false
 local function OnAddonActionForbidden(addonName, functionName)
-	if (addonName == 'RareScanner' and functionName == 'TargetUnit()') then
+	if (addonName == 'RareScanner') then
 		npcFound = true
 	end
 end
@@ -86,21 +86,17 @@ local checkUnitsRoutine
 local unitTargetFrame = CreateFrame("FRAME");
 
 local function CloseErrorPopUp()
-	for _, frame in pairs(StaticPopup_DisplayedFrames) do
-		if (frame:IsShown()) then
-			local standardDialog = StaticPopupDialogs[frame.which];
-			if (standardDialog) then
-				local OnCancel = standardDialog.OnCancel;
-				local noCancelOnEscape = standardDialog.noCancelOnEscape;
-				if ( OnCancel and not noCancelOnEscape) then
-					OnCancel(frame, frame.data, "clicked");
-				end
-				frame:Hide();
-			else
-				StaticPopupSpecial_Hide(frame);
+	if (StaticPopup_HasDisplayedFrames()) then
+        for idx = STATICPOPUP_NUMDIALOGS,1,-1 do
+            local dialog = _G["StaticPopup"..idx]
+            local OnCancel = dialog.OnCancel;
+			local noCancelOnEscape = dialog.noCancelOnEscape;
+			if ( OnCancel and not noCancelOnEscape) then
+				OnCancel(dialog);
 			end
-		end
-	end
+			StaticPopupSpecial_Hide(dialog)
+        end
+    end
 end
 
 local function KeepRunningRoutine(rareScannerButton, npcIDs, mapID)
@@ -109,13 +105,13 @@ local function KeepRunningRoutine(rareScannerButton, npcIDs, mapID)
 		
 		-- If NPC is filtered
 		if (RSConfigDB.IsNpcFiltered(npcID)) then
-			RSLogger:PrintDebugMessage(string.format("Desactivado TargetUnit para este NPC [%s] por estar filtrando (completo)", npcID))
+			--RSLogger:PrintDebugMessage(string.format("Desactivado TargetUnit para este NPC [%s] por estar filtrando (completo)", npcID))
 		-- If NPC zone is filtered
-		elseif (RSConfigDB.IsEntityZoneFilteredOnlyAlerts(npcID, RSConstants.NPC_VIGNETTE)) then
-			RSLogger:PrintDebugMessage(string.format("Desactivado TargetUnit para este NPC [%s] por estar filtrando su zona [%s]", npcID, mapID))
+		elseif (RSConfigDB.IsEntityZoneFilteredOnlyAlerts(npcID, RSConstants.NPC_VIGNETTE, mapID)) then
+			--RSLogger:PrintDebugMessage(string.format("Desactivado TargetUnit para este NPC [%s] por estar filtrando su zona [%s]", npcID, mapID))
 		-- If NPC is recently seen
 		elseif (recentlySeen[npcID]) then
-			RSLogger:PrintDebugMessage(string.format("Desactivado TargetUnit para este NPC [%s] por haberse encontrado recientemente", npcID))
+			--RSLogger:PrintDebugMessage(string.format("Desactivado TargetUnit para este NPC [%s] por haberse encontrado recientemente", npcID))
 		-- Otherwise try to find it
 		else
 			local npcName = RSNpcDB.GetNpcName(npcIDs[index])
@@ -145,21 +141,21 @@ local function CheckUnits(rareScannerButton)
 	-- Gets NPCs in the current map
 	local npcIDs, mapID, newMap = GetMapNpcs()
 	if (not npcIDs) then
+		RSLogger:PrintDebugMessage("Desactivado TargetUnit por no haberse obtenido NPCs para este mapa")
 		return
 	end
 	
-	if (checkUnitsRoutine and checkUnitsRoutine:IsRunning()) then
-		KeepRunningRoutine(rareScannerButton, npcIDs, mapID)
-		return
-	end
-	
-	-- Gets MAPID from players position
-	-- Launches new routine
+	-- Reset routine for new map
 	if (newMap) then
 		if (not checkUnitsRoutine) then
 			checkUnitsRoutine = RSRoutines.LoopIndexRoutineNew()
 		end
-		checkUnitsRoutine:Init(function() return npcIDs end, 10)
+		checkUnitsRoutine:Init(function() return npcIDs end, 30)
+		checkUnitsRoutine:Reset()
+	-- Keep reusing the same routine
+	elseif (checkUnitsRoutine:IsRunning()) then
+		KeepRunningRoutine(rareScannerButton, npcIDs, mapID)
+		return
 	end
 	
 	checkUnitsRoutine:Reset()

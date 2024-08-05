@@ -1,7 +1,7 @@
 --[[
 	Informant - An addon for World of Warcraft that shows pertinent information about
 	an item in a tooltip when you hover over the item in the game.
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: 9.1.BETA.5.15 (OneMawTime)
 	Revision: $Id$
 	URL: http://auctioneeraddon.com/dl/Informant/
 
@@ -34,7 +34,7 @@ if not Informant then return end
 
 Informant_RegisterRevision("$URL$","$Rev$")
 
-local VERSION = "9.1.BETA.5.13"
+local VERSION = "9.1.BETA.5.15"
 if VERSION:byte(1) == 60 then -- '<' character
 	VERSION = "6.1.DEV"
 end

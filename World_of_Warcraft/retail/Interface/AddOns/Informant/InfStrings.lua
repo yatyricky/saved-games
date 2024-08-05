@@ -5,7 +5,7 @@
 
 	AddOn: Informant
 	Revision: $Id$
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: 9.1.BETA.5.15 (OneMawTime)
 
 	License:
 		This program is free software; you can redistribute it and/or

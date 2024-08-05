@@ -8,7 +8,7 @@ if not LibStub then
 	error("Auctioneer requires LibStub")
 end
 
-local AUC_VERSION = "9.1.BETA.5.13"
+local AUC_VERSION = "9.1.BETA.5.15"
 if AUC_VERSION:byte(1) == 60 then -- 60 = '<'
 	AUC_VERSION = "8.3.DEV"
 end

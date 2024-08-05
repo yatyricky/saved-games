@@ -1,6 +1,6 @@
 --[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: <%version%> (<%codename%>)
 	Revision: $Id: EnxConstants.lua 4632 2010-01-24 02:33:54Z ccox $
 	URL: http://enchantrix.org/
 
@@ -296,16 +296,16 @@ elseif const.Classic >= 2 then
         [COBALT_ORE] = 350,
         [SARONITE_ORE] = 400,
         [TITANIUM_ORE] = 450,
---[[
+-- Cata
         [OBSIDIUM_ORE] = 425,
         [ELEMENTIUM_ORE] = 475,
         [PYRITE_ORE] = 500,
-
+-- Panda
         [GHOST_IRON_ORE] = 500,
         [KYPARITE_ORE] = 550,
         [WHITE_TRILLIUM_ORE] = 600,
         [BLACK_TRILLIUM_ORE] = 600,
-]]--
+
 
     }
 

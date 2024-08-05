@@ -10,13 +10,13 @@ SellJunk: enabled
 TomTom: enabled
 TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
-Auctioneer: disabled
+Auctioneer: enabled
 Auctioneer_Stats_OverTime: enabled
 Auctioneer_Util_Valuer: enabled
 Auctioneer_Util_DealFinder: enabled
 DragonRider: enabled
-Enchantrix: disabled
-Informant: disabled
+Enchantrix: enabled
+Informant: enabled
 SlideBar: enabled
 Stubby: enabled
 !Swatter: enabled

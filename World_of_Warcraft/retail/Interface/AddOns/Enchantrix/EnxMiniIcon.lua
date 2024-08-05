@@ -1,6 +1,6 @@
 --[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: 9.1.BETA.5.15 (OneMawTime)
 	Revision: $Id$
 	URL: http://enchantrix.org/
 

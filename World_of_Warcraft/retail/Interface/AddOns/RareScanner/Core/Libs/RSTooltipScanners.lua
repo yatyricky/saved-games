@@ -11,18 +11,23 @@ local RSUtils = private.ImportLib("RareScannerUtils")
 ---============================================================================
 -- NPCs tooltip scanner
 ---============================================================================
-
-function RSTooltipScanners.ScanNpcName(npcID)
+	
+function RSTooltipScanners.ScanNpcName(npcID, callback, secondTry)
 	local tooltipData = C_TooltipInfo.GetHyperlink('unit:Creature-0-0-0-0-' .. npcID .. '-0')
 	if (tooltipData) then
-		TooltipUtil.SurfaceArgs(tooltipData)
-		for _, line in ipairs(tooltipData.lines) do
-			TooltipUtil.SurfaceArgs(line)
-		end
-		
 		if (tooltipData.lines and tooltipData.lines[1] and tooltipData.lines[1].leftText) then
-			private.dbglobal.rare_names[GetLocale()][npcID] = tooltipData.lines[1].leftText
+			local name = tooltipData.lines[1].leftText
+			private.dbglobal.rare_names[GetLocale()][tonumber(npcID)] = name
+			if (callback) then
+				callback(name)
+			end
 		end
+	elseif (not secondTry) then
+		C_Timer.After(1, function()
+			RSTooltipScanners.ScanNpcName(npcID, callback, true)
+		end)
+	elseif (callback) then
+		callback()
 	end
 end
 
@@ -33,20 +38,13 @@ end
 local function ScanItem(tooltipData, value)
 	local foundText = false
 	
-	if (tooltipData) then
-		TooltipUtil.SurfaceArgs(tooltipData)
-		for _, line in ipairs(tooltipData.lines) do
-			TooltipUtil.SurfaceArgs(line)
-		end
-		
-		if (tooltipData.lines) then
-			for i=1, #tooltipData.lines do
-				if (tooltipData.lines[i]) then	
-					local toolTipText = tooltipData.lines[i].leftText
-					if (toolTipText and RSUtils.Contains(toolTipText, value)) then
-						foundText = true
-						break
-					end
+	if (tooltipData and tooltipData.lines) then
+		for i=1, #tooltipData.lines do
+			if (tooltipData.lines[i]) then	
+				local toolTipText = tooltipData.lines[i].leftText
+				if (toolTipText and RSUtils.Contains(toolTipText, value)) then
+					foundText = true
+					break
 				end
 			end
 		end

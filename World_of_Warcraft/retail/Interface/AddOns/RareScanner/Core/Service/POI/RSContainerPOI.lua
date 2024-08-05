@@ -58,12 +58,6 @@ function RSContainerPOI.GetContainerPOI(containerID, mapID, containerInfo, alrea
 	POI.grouping = true
 	POI.name = RSContainerDB.GetContainerName(containerID) or AL["CONTAINER"]
 	POI.mapID = mapID
-	if (alreadyFoundInfo and alreadyFoundInfo.mapID == mapID) then
-		POI.x = alreadyFoundInfo.coordX
-		POI.y = alreadyFoundInfo.coordY
-	else
-		POI.x, POI.y = RSContainerDB.GetInternalContainerCoordinates(containerID, mapID)
-	end
 	POI.foundTime = alreadyFoundInfo and alreadyFoundInfo.foundTime
 	POI.isOpened = RSContainerDB.IsContainerOpened(containerID)
 	POI.isDiscovered = POI.isOpened or alreadyFoundInfo ~= nil
@@ -72,6 +66,15 @@ function RSContainerPOI.GetContainerPOI(containerID, mapID, containerInfo, alrea
 	if (containerInfo) then
 		POI.worldmap = containerInfo.worldmap
 		POI.factionID = containerInfo.factionID
+		POI.minieventID = containerInfo.minieventID
+	end
+	
+	-- Coordinates
+	if (alreadyFoundInfo and alreadyFoundInfo.mapID == mapID) then
+		POI.x = alreadyFoundInfo.coordX
+		POI.y = alreadyFoundInfo.coordY
+	else
+		POI.x, POI.y = RSContainerDB.GetInternalContainerCoordinates(containerID, mapID)
 	end
 
 	-- Textures
@@ -88,16 +91,18 @@ function RSContainerPOI.GetContainerPOI(containerID, mapID, containerInfo, alrea
 	-- Mini icons
 	if (containerInfo and containerInfo.prof) then
 		POI.iconAtlas = RSConstants.PROFFESION_ICON_ATLAS
-	elseif (RSUtils.GetTableLength(POI.achievementIDs) > 0) then
-		POI.iconAtlas = RSConstants.ACHIEVEMENT_ICON_ATLAS
 	elseif (RSUtils.Contains(RSConstants.CONTAINERS_WITHOUT_VIGNETTE, containerID)) then
 		POI.iconAtlas = RSConstants.NOT_TRACKABLE_ICON_ATLAS
+	elseif (POI.minieventID and RSConstants.MINIEVENTS_WORLDMAP_FILTERS[POI.minieventID] and RSConstants.MINIEVENTS_WORLDMAP_FILTERS[POI.minieventID].atlas) then
+		POI.iconAtlas = RSConstants.MINIEVENTS_WORLDMAP_FILTERS[POI.minieventID].atlas
+	elseif (RSUtils.GetTableLength(POI.achievementIDs) > 0) then
+		POI.iconAtlas = RSConstants.ACHIEVEMENT_ICON_ATLAS
 	end
 
 	return POI
 end
 
-local function IsContainerPOIFiltered(containerID, mapID, zoneQuestID, prof, vignetteGUIDs, onWorldMap, onMinimap)
+local function IsContainerPOIFiltered(containerID, mapID, zoneQuestID, prof, minieventID, vignetteGUIDs, onWorldMap, onMinimap)
 	local name = RSContainerDB.GetContainerName(containerID) or AL["CONTAINER"]
 	
 	-- Skip if part of a disabled event
@@ -126,9 +131,21 @@ local function IsContainerPOIFiltered(containerID, mapID, zoneQuestID, prof, vig
 		return true
 	end
 	
-	-- Skip if achievement and is filtered
-	local isAchievement = RSUtils.GetTableLength(RSAchievementDB.GetNotCompletedAchievementIDsByMap(containerID, mapID, true)) > 0;
-	if (not RSConfigDB.IsShowingAchievementContainers() and isAchievement) then
+	-- Skip if rare part of a filtered minievent
+	local isMinieventWithFilter = false;
+	if (minieventID) then
+		isMinieventWithFilter = RSConstants.MINIEVENTS_WORLDMAP_FILTERS[minieventID].active
+		
+		-- Skip if minievent is filtered
+		if (RSConfigDB.IsMinieventFiltered(minieventID)) then
+			RSLogger:PrintDebugMessageEntityID(containerID, string.format("Saltado Contenedor [%s]: Filtrado minievento [%s].", containerID, minieventID))
+			return true
+		end
+	end
+	
+	-- Skip if not completed achievement and is filtered
+	local isNotCompletedAchievement = RSUtils.GetTableLength(RSAchievementDB.GetNotCompletedAchievementIDsByMap(containerID, mapID, true)) > 0;
+	if (not RSConfigDB.IsShowingAchievementContainers() and isNotCompletedAchievement) then
 		RSLogger:PrintDebugMessageEntityID(containerID, string.format("Saltado Contenedor [%s]: Filtrado contenedor con logro.", containerID))
 		return true
 	end
@@ -147,7 +164,7 @@ local function IsContainerPOIFiltered(containerID, mapID, zoneQuestID, prof, vig
 	
 	-- Skip if other (trackeable and not prof) filtered
 	local isNotTrackable = RSUtils.Contains(RSConstants.CONTAINERS_WITHOUT_VIGNETTE, containerID)
-	if (not RSConfigDB.IsShowingOtherContainers() and not isAchievement and not prof and not isNotTrackable) then
+	if (not RSConfigDB.IsShowingOtherContainers() and not isAchievement and not prof and not isMinieventWithFilter and not isNotTrackable) then
 		RSLogger:PrintDebugMessageEntityID(containerID, string.format("Saltado Contenedor [%s]: Filtrado otro contenedor.", containerID))
 		return true
 	end
@@ -203,7 +220,7 @@ local function IsContainerPOIFiltered(containerID, mapID, zoneQuestID, prof, vig
 			local vignetteInfo = C_VignetteInfo.GetVignetteInfo(vignetteGUID);
 			if (vignetteInfo and vignetteInfo.objectGUID) then
 				local _, _, _, _, _, vignetteNPCID, _ = strsplit("-", vignetteInfo.objectGUID);
-				if (tonumber(vignetteNPCID) == containerID and onWorldMap and vignetteInfo.onWorldMap) then
+				if (onWorldMap and vignetteInfo.onWorldMap and (tonumber(vignetteNPCID) == containerID or RSContainerDB.GetFinalContainerID(vignetteNPCID) == containerID)) then
 					RSLogger:PrintDebugMessageEntityID(containerID, string.format("Saltado Contenedor [%s]: Hay un vignette del juego mostrándolo (Vignette onWorldmap).", containerID))
 					return true
 				end
@@ -235,7 +252,7 @@ function RSContainerPOI.GetMapNotDiscoveredContainerPOIs(mapID, vignetteGUIDs, o
 		local containerInfo = RSContainerDB.GetInternalContainerInfo(containerID)
 
 		-- Skip if it was discovered in this session
-		if (RSGeneralDB.GetAlreadyFoundEntity(containerID)) then
+		if (not filtered and RSGeneralDB.GetAlreadyFoundEntity(containerID)) then
 			RemoveNotDiscoveredContainer(containerID)
 			RSLogger:PrintDebugMessageEntityID(containerID, string.format("Saltado Contenedor N/D [%s]: Ya no es 'no descubierto'.", containerID))
 			filtered = true
@@ -248,7 +265,7 @@ function RSContainerPOI.GetMapNotDiscoveredContainerPOIs(mapID, vignetteGUIDs, o
 		end
 
 		-- Skip if common filters
-		if (not filtered and not IsContainerPOIFiltered(containerID, mapID, containerInfo.zoneQuestId, containerInfo.prof, vignetteGUIDs, onWorldMap, onMinimap)) then
+		if (not filtered and not IsContainerPOIFiltered(containerID, mapID, containerInfo.zoneQuestId, containerInfo.prof, containerInfo.minieventID, vignetteGUIDs, onWorldMap, onMinimap)) then
 			tinsert(POIs, RSContainerPOI.GetContainerPOI(containerID, mapID, containerInfo))
 		end
 	end
@@ -290,12 +307,14 @@ function RSContainerPOI.GetMapAlreadyFoundContainerPOI(containerID, alreadyFound
 	-- Skip if common filters
 	local zoneQuestID
 	local prof
+	local minieventID
 	if (containerInfo) then
 		zoneQuestID = containerInfo.zoneQuestId
 		prof = containerInfo.prof
+		minieventID = containerInfo.minieventID
 	end
 
-	if (not IsContainerPOIFiltered(containerID, mapID, zoneQuestID, prof, vignetteGUIDs, onWorldMap, onMinimap)) then
+	if (not IsContainerPOIFiltered(containerID, mapID, zoneQuestID, prof, minieventID, vignetteGUIDs, onWorldMap, onMinimap)) then
 		return RSContainerPOI.GetContainerPOI(containerID, mapID, containerInfo, alreadyFoundInfo)
 	end
 end

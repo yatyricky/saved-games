@@ -1,6 +1,6 @@
 ﻿--[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: 9.1.BETA.5.15 (OneMawTime)
 	Revision: $Id$
 	URL: http://enchantrix.org/
 
@@ -54,7 +54,7 @@ local GetContainerItemLink = C_Container and C_Container.GetContainerItemLink or
 
 
 
-Enchantrix.Version = "9.1.BETA.5.13"
+Enchantrix.Version = "9.1.BETA.5.15"
 if (Enchantrix.Version == "<".."%version%>") then
 	Enchantrix.Version = "4.0.DEV"
 end

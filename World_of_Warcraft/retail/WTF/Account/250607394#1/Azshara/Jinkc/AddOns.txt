@@ -1,14 +1,14 @@
 Arh: enabled
-Auctioneer: disabled
+Auctioneer: enabled
 Auctioneer_Stats_OverTime: enabled
 Auctioneer_Util_Valuer: enabled
 Auctioneer_Util_DealFinder: enabled
 Custom_Item_Notes: enabled
 DragonRider: enabled
-Enchantrix: disabled
+Enchantrix: enabled
 GatherMate2: enabled
 Incognito: enabled
-Informant: disabled
+Informant: enabled
 InstanceAchievementTracker: enabled
 RareScanner: enabled
 SellJunk: enabled

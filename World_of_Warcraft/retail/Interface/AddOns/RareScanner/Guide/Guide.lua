@@ -410,7 +410,7 @@ private.NPC_GUIDE = {
 		[RSConstants.ENTRANCE] = { x = 0.792, y = 0.3655 };
 	}; --Irontree
 	["1932252024"] = { 
-		[RSConstants.ENTRANCE] = { x = 0.2065, y = 0.4972 };
+		[RSConstants.ENTRANCE] = { x = 0.2062, y = 0.4979 };
 	}; --Notfar the Unbearable
 	["1931422023"] = { 
 		[RSConstants.ENTRANCE] = { x = 0.5636, y = 0.8168 };
@@ -671,6 +671,89 @@ private.NPC_GUIDE = {
 		[RSConstants.STEP1] = { x = 0.5214, y = 0.8140, comment = AL["NOTE_201664_1"] };
 		[RSConstants.STEP2] = { x = 0.5220, y = 0.8160, comment = AL["NOTE_201664_2"] };
 	}; --Temporal Investi-gator
+	["2120092200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6345, y = 0.7156 };
+	}; --Fruitface
+	["2101612200"] = {
+		[RSConstants.ENTRANCE..1] = { x = 0.4502, y = 0.3684 };
+		[RSConstants.ENTRANCE..2] = { x = 0.4425, y = 0.3606 };
+		[RSConstants.ENTRANCE..3] = { x = 0.4319, y = 0.3648 };
+	}; --Ristar, the Rabid
+	["2099192200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3830, y = 0.3225 };
+	}; --Isaqa <The Shatterer>
+	["2105082200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3810, y = 0.6145 };
+	}; --Voracious Mikanji
+	["2100512200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4174, y = 0.7310 };
+	}; --Matriarch Keevah
+	["2100452200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3875, y = 0.7162 };
+	}; --Moragh the Slothful
+	["2105592200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.2354, y = 0.3239 };
+	}; --Balboan
+	["2100752200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4757, y = 0.3048 };
+	}; --Henri Snufftail
+	["2100702200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5424, y = 0.3708 };
+	}; --Mosa Umbramane
+	["2099132200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6345, y = 0.7156 };
+		[RSConstants.FLAG] = { x = 0.6016, y = 6875, comment = AL["NOTE_209913_1"] };
+	}; --Fruitface
+	["2099132254"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6525, y = 0.4875 };
+		[RSConstants.FLAG] = { x = 0.6016, y = 0.6875, comment = AL["NOTE_209913_1"] };
+	}; --Fruitface
+	["2160422255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.7011, y = 0.2200 };
+	}; --Cha'tak
+	["2160342255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.7756, y = 0.5907 };
+	}; --The XT-Minecrusher 8700
+	["2160492255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6346, y = 0.8975 };
+	}; --Black Blood Slime
+	["2160492256"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6346, y = 0.8975 };
+	}; --Black Blood Slime
+	["2160472255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6530, y = 0.9335 };
+	}; --The Disgraced
+	["2160472256"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6530, y = 0.9335 };
+	}; --The Disgraced
+	["2202682214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.7285, y = 0.4433 };
+	}; --Trungal <Whose Roots Run Deep>
+	["4337332214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5205, y = 0.5312 };
+	}; --Forgotten Treasure
+	["2202722214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6706, y = 0.6793 };
+	}; --Deathbound Husk <Machine Speaker Loyalist>
+	["2192652248"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4736, y = 0.6163 };
+	}; --Emperor Pitfang
+	["2160412255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6151, y = 0.2802 };
+	}; --Webspeaker Grik'ik
+	["2217532215"] = {
+		[RSConstants.STEP1..1] = { x = 0.2892, y = 0.5120, comment = AL["NOTE_221753_1"] };
+		[RSConstants.STEP1..2] = { x = 0.3418, y = 0.5782, comment = AL["NOTE_221753_1"] };
+		[RSConstants.STEP1..3] = { x = 0.3436, y = 0.5357, comment = AL["NOTE_221753_1"] };
+		[RSConstants.STEP1..4] = { x = 0.4345, y = 0.1413, comment = AL["NOTE_221753_1"] };
+		[RSConstants.STEP1..5] = { x = 0.5009, y = 0.4966, comment = AL["NOTE_221753_1"] };
+		[RSConstants.STEP1..6] = { x = 0.5377, y = 0.1913, comment = AL["NOTE_221753_1"] };
+		[RSConstants.STEP1..7] = { x = 0.5514, y = 0.2344, comment = AL["NOTE_221753_1"] };
+		[RSConstants.STEP2] = { x = 0.4800, y = 0.1668, comment = AL["NOTE_221753_2"] };
+	}; --Deathtide <The Viscous Swell>
+	["2202732214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5745, y = 0.5478 };
+	}; --Rampaging Skardyn <Evolved Monstrosity>
 }
 
 ---============================================================================
@@ -1326,6 +1409,247 @@ private.CONTAINER_GUIDE = {
 	["3988102133"] = { 
 		[RSConstants.FLAG] = { x = 0.4357, y = 0.2302, comment = AL["NOTE_398810_1"] };
 	}; --Fealty's Reward
+	["4110652200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6345, y = 0.7156 };
+	}; --Reliquary of Ashamane
+	["4110652254"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6525, y = 0.4875 };
+		[RSConstants.FLAG] = { x = 0.6248, y = 0.6004, comment = AL["NOTE_411065_1"] };
+	}; --Reliquary of Ashamane
+	["4114652200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5476, y = 0.4441 };
+	}; --Unwaking Echo
+	["4092222200"] = {
+		[RSConstants.FLAG] = { x = 0.4788, y = 0.5430, comment = AL["NOTE_409222_1"] };
+	}; --Reliquary of Ursol
+	["4110672200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3310, y = 0.8242 };
+		[RSConstants.FLAG] = { x = 0.3082, y = 0.8069, comment = AL["NOTE_411067_1"] };
+	}; --Reliquary of Goldrinn
+	["4110662200"] = {
+		[RSConstants.FLAG] = { x = 0.6212, y = 0.2351, comment = AL["NOTE_411066_1"] };
+	}; --Reliquary of Aviana
+	["4077392200"] = {
+		[RSConstants.STEP1] = { x = 0.3971, y = 0.5215, comment = AL["NOTE_407739_1"] };
+		[RSConstants.STEP2] = { x = 0.4222, y = 0.5630, comment = AL["NOTE_407739_2"] };
+		[RSConstants.STEP3] = { x = 0.4175, y = 0.6256, comment = AL["NOTE_407739_3"] };
+		[RSConstants.STEP4] = { x = 0.3409, y = 0.5634, comment = AL["NOTE_407739_4"] };
+	}; --Triflesnatch's Roving Trove
+	["4104342200"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6345, y = 0.7156 };
+	}; --Splash Potion of Narcolepsy
+	["4464192255"] = {
+		[RSConstants.PATH_START] = { x = 0.3469, y = 0.5941 };
+		[RSConstants.DOT..1] = { x = 0.3395, y = 0.5987 };
+		[RSConstants.DOT..2] = { x = 0.3376, y = 0.6044 };
+	}; --Concealed contraband
+	["4462992255"] = {
+		[RSConstants.ENTRANCE..1] = { x = 0.6460, y = 0.2962 };
+		[RSConstants.ENTRANCE..2] = { x = 0.6544, y = 0.2764 };
+	}; --Silk-spun Supplies
+	["4448442255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.7756, y = 0.5907 };
+	}; --Stashed Loot
+	["4453602255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.7756, y = 0.5907 };
+	}; --Stashed Loot
+	["4461012213"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3125, y = 0.1959 };
+	}; --Nerubian Offerings
+	["4461012255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4222, y = 0.7168 };
+	}; --Nerubian Offerings
+	["4532742215"] = {
+		[RSConstants.FLAG] = { x = 0.5543, y = 0.5166, comment = AL["NOTE_453274_1"] };
+	}; --Smuggler's Treasure
+	["4533742215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5966, y = 0.6068 };
+	}; --Shadowed Essence
+	["4196952215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.7604, y = 0.5364 };
+	}; --Spore-Covered Coffer
+	["4372112215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5755, y = 0.2744 };
+	}; --Illuminated Footlocker
+	["4440872214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5468, y = 0.1421 };
+	}; --Munderut's Forgotten Stash
+	["4200532214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6870, y = 0.4070 };
+	}; --Webbed Knapsack
+	["4463412214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4770, y = 0.3217 };
+		[RSConstants.DOT..1] = { x = 0.5743, y = 0.4944, itemID = 223878 };
+		[RSConstants.DOT..2] = { x = 0.6819, y = 0.5321, itemID = 223882 };
+		[RSConstants.DOT..3] = { x = 0.5904, y = 0.3809, itemID = 223881 };
+		[RSConstants.DOT..4] = { x = 0.5727, y = 0.2187, itemID = 223880 };
+		[RSConstants.DOT..5] = { x = 0.6255, y = 0.6311, itemID = 223879 };
+	}; --Dusty Prospector's Chest
+	["4442562214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5882, y = 0.6423 };
+	}; --Kaja'Cola Machine
+	["4448942248"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4736, y = 0.6163 };
+	}; --Opal Lily
+	["4442332248"] = {
+		[RSConstants.FLAG] = { x = 0.5284, y = 0.6602, comment = AL["NOTE_444233_1"] };
+	}; --Mushroom Cap
+	["4442152248"] = {
+		[RSConstants.FLAG] = { x = 0.5308, y = 0.1854, comment = AL["NOTE_444215_1"] };
+	}; --Weary Water Elemental
+	["4436382248"] = {
+		[RSConstants.FLAG] = { x = 0.5960, y = 0.2454, comment = AL["NOTE_443638_1"] };
+	}; --Elemental Geode
+	["4560162339"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5148, y = 0.6402 };
+	}; --Dornogal Hammer
+	["4443542248"] = {
+		[RSConstants.FLAG..1] = { x = 0.5158, y = 0.3982, comment = AL["NOTE_444354_1"] };
+	}; --Turtle's Thanks
+	["4443542339"] = {
+		[RSConstants.FLAG] = { x = 0.5831, y = 0.3031, comment = AL["NOTE_444354_1"] };
+	}; --Turtle's Thanks
+	["4433182248"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4865, y = 0.3125 };
+		[RSConstants.DOT..1] = { x = 0.5071, y = 0.7058, comment = AL["NOTE_443318_1"], questID = 82751 };
+		[RSConstants.DOT..2] = { x = 0.7077, y = 0.1999, comment = AL["NOTE_443318_3"], questID = 82753 };
+		[RSConstants.DOT..3] = { x = 0.4185, y = 0.2701, comment = AL["NOTE_443318_1"], questID = 82754 };
+		[RSConstants.DOT..4] = { x = 0.1973, y = 0.5843, comment = AL["NOTE_443318_1"] };
+		[RSConstants.DOT..5] = { x = 0.3827, y = 0.4202, comment = AL["NOTE_443318_2"] };
+	}; --Tree's Treasure
+	["4337332214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5203, y = 0.5311 };
+	}; --Forgotten Treasure
+	["4537552215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4838, y = 0.3982 };
+	}; --The Big Book of Arathi Idioms
+	["4416372215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.7920, y = 0.4110 };
+	}; --A Weathered Tome
+	["4531672215"] = {
+		[RSConstants.FLAG] = { x = 0.6920, y = 0.4400, comment = AL["NOTE_453167_1"] };
+	}; --Caesper
+	["4415552214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5067, y = 0.5751 };
+	}; --Wax-Drenched Sign
+	["4543362255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3990, y = 0.3988 };
+	}; --Entomological Essay on Grubs, Volume 2
+	["4543382255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3990, y = 0.3988 };
+	}; --Entomological Essay on Grubs, Volume 3
+	["4464202255"] = {
+		[RSConstants.DOT..1] = { x = 0.7479, y = 0.4285, comment = AL["NOTE_446420_1"] };
+		[RSConstants.DOT..2] = { x = 0.7267, y = 0.3967, comment = AL["NOTE_446420_2"] };
+		[RSConstants.DOT..3] = { x = 0.7392, y = 0.3763, comment = AL["NOTE_446420_3"] };
+	}; --"Weaving Supplies"
+	["4464042256"] = {
+		[RSConstants.FLAG] = { x = 0.6346, y = 0.8589, comment = AL["NOTE_446404_1"] };
+	}; --Memory Cache
+	["4559772248"] = {
+		[RSConstants.ENTRANCE..1] = { x = 0.6323, y = 0.6730 };
+		[RSConstants.ENTRANCE..2] = { x = 0.6312, y = 0.6716 };
+	}; --Gentle Jewel Hammer
+	["4559752214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4816, y = 0.3477 };
+	}; --Carved Stone File
+	["4559742214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5745, y = 0.5478 };
+	}; --Jeweler's Delicate Drill
+	["4560052215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4013, y = 0.7009 };
+	}; --Essence of Holy Fire
+	["4559722215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4439, y = 0.5099 };
+	}; --Librarian's Magnifiers
+	["4559702255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5566, y = 0.5875 };
+	}; --Nerubian Bench Blocks
+	["4559452339"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6046, y = 0.2061 };
+	}; --Dornogal Seam Ripper
+	["4559432214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4770, y = 0.3216 };
+	}; --Runed Earthen Pins
+	["4560222214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6470, y = 0.6161 };
+	}; --Engraved Stirring Rod
+	["4560202215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4185, y = 0.5534 };
+	}; --Sanctified Mortar and Pestle
+	["4560182255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4331, y = 0.5652 };
+	}; --Dark Apothecary's Vial
+	["4559392255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5355, y = 0.5253 };
+	}; --Nerubian Quilt
+	["4560192213"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4616, y = 0.1403 };
+	}; --Nerubian Mixing Salts
+	["4559852339"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5567, y = 0.4884 };
+	}; --Dornogal Scribe's Quill
+	["4559842248"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5609, y = 0.6030 };
+	}; --Historian's Dip Pen
+	["4559832214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4832, y = 0.3420 };
+	}; --Runic Scroll
+	["4559912214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4816, y = 0.3475 };
+	}; --Earthen Digging Fork
+	["4559822214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6251, y = 0.5875 };
+	}; --Blue Earthen Pigment
+	["4559802215"] = {
+		[RSConstants.ENTRANCE..1] = { x = 0.4272, y = 0.4889 };
+		[RSConstants.ENTRANCE..2] = { x = 0.4334, y = 0.4982 };
+	}; --Calligrapher's Chiselled Marker
+	["4559782213"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4873, y = 0.3175 };
+	}; --Venomancer's Ink Well
+	["4559692339"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6772, y = 0.2440 };
+	}; --Earthen Lacing Tools
+	["4559532339"] = {
+		[RSConstants.ENTRANCE] = { x = 0.3038, y = 0.5609 };
+	}; --Dornogal Carving Knife
+	["4559672214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4711, y = 0.3387 };
+	}; --Underground Stropping Compound
+	["4559482215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4235, y = 0.5362 };
+	}; --Arathi Craftsman's Spokeshave
+	["4559492215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4924, y = 0.6206 };
+	}; --Arathi Tanning Agent
+	["4559652215"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4735, y = 0.6494 };
+	}; --Arathi Beveler Set
+	["4559632213"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5548, y = 0.2778 };
+	}; --Nerubian Tanning Mallet
+	["4559472216"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4677, y = 0.4912 };
+	}; --Nerubian's Slicking Iron
+	["4559472213"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4677, y = 0.4912 };
+	}; --Nerubian's Slicking Iron
+	["4543502255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4392, y = 0.2559 };
+	}; --Ethos of War, Part 4
+	["4543482255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.4857, y = 0.2383 };
+	}; --Ethos of War, Part 3
+	["4560002339"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6424, y = 0.5182 };
+	}; --Dornogal Spectacles
+	["4559982214"] = {
+		[RSConstants.ENTRANCE] = { x = 0.6457, y = 0.5907 };
+	}; --Earthen Construct Blueprints
+	["4559952255"] = {
+		[RSConstants.ENTRANCE] = { x = 0.5652, y = 0.4057 };
+	}; --Puppeted Mechanical Spider
 }
 
 ---============================================================================
@@ -1333,5 +1657,4 @@ private.CONTAINER_GUIDE = {
 ---============================================================================
 
 private.EVENT_GUIDE = {
-	
 }

@@ -1,6 +1,6 @@
 --[[
 	Slidebar AddOn for World of Warcraft (tm)
-	Version: 9.1.BETA.5.13 (OneMawTime)
+	Version: <%version%> (<%codename%>)
 	Revision: $Id$
 	URL: http://auctioneeraddon.com/dl/
 
@@ -28,7 +28,7 @@
 ]]
 
 local LIBRARY_VERSION_MAJOR = "SlideBar"
-local LIBRARY_VERSION_MINOR = 19
+local LIBRARY_VERSION_MINOR = 20
 local lib = LibStub:NewLibrary(LIBRARY_VERSION_MAJOR, LIBRARY_VERSION_MINOR)
 if not lib then return end
 
@@ -344,7 +344,7 @@ end
 if lib.frame then
 	frame = lib.frame
 else
-	frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate")
+	frame = CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
 	frame:SetToplevel(true)
 	--frame:SetClampedToScreen(true)
 	frame:SetFrameStrata("TOOLTIP")
@@ -806,6 +806,30 @@ function private.GUI()
 
 		return button
 	end
+
+	--Current TWW workaround for deprecated InterfaceOptions function. Entire base panel may require recode in the future.
+	local InterfaceOptions_AddCategory = InterfaceOptions_AddCategory
+	if not InterfaceOptions_AddCategory then
+		InterfaceOptions_AddCategory = function(frame, addOn, position)
+			-- cancel is no longer a default option. May add menu extension for this.
+			frame.OnCommit = frame.okay;
+			frame.OnDefault = frame.default;
+			frame.OnRefresh = frame.refresh;
+
+			if frame.parent then
+				local category = Settings.GetCategory(frame.parent);
+				local subcategory, layout = Settings.RegisterCanvasLayoutSubcategory(category, frame, frame.name, frame.name);
+				subcategory.ID = frame.name;
+				return subcategory, category;
+			else
+				local category, layout = Settings.RegisterCanvasLayoutCategory(frame, frame.name, frame.name);
+				category.ID = frame.name;
+				Settings.RegisterAddOnCategory(category);
+				return category;
+			end
+		end
+	end
+	--End of current TWW workaround
 
 	--Set up the controls
 

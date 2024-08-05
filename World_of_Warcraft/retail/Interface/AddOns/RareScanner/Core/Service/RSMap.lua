@@ -250,22 +250,31 @@ function RSMap.GetWorldMapPOI(objectGUID, vignetteInfo, mapID)
 		return nil
 	end
 	
+	local _, _, _, _, _, vignetteObjectID = strsplit("-", objectGUID)
+		
 	if (vignetteInfo.type == Enum.VignetteType.Treasure or RSConstants.IsContainerAtlas(vignetteInfo.atlasName)) then
-		local _, _, _, _, _, vignetteObjectID = strsplit("-", objectGUID)
 		local containerID = tonumber(vignetteObjectID)
+		
+		-- If pre-event, sets the container ID
+		if (RSConstants.CONTAINERS_WITH_PRE_EVENT[containerID]) then
+			containerID = RSContainerDB.GetFinalContainerID(containerID)
+		end
+		
 		local containerInfo = RSContainerDB.GetInternalContainerInfo(containerID)
 		local alreadyFoundInfo = RSGeneralDB.GetAlreadyFoundEntity(containerID)
 		
 		if (containerInfo or alreadyFoundInfo) then
 			return RSContainerPOI.GetContainerPOI(containerID, mapID, containerInfo, alreadyFoundInfo)
 		end
-	elseif (vignetteInfo.type == Enum.VignetteType.Torghast or RSConstants.IsNpcAtlas(vignetteInfo.atlasName)) then
-		local _, _, _, _, _, vignetteObjectID = strsplit("-", objectGUID)
+	elseif (vignetteInfo.type == Enum.VignetteType.Torghast or RSConstants.IsNpcAtlas(vignetteInfo.atlasName) or (RSConstants.IsEventAtlas(vignetteInfo.atlasName) and RSConstants.NPCS_WITH_PRE_EVENT[tonumber(vignetteObjectID)])) then
 		local npcID = tonumber(vignetteObjectID)
 		
 		-- If Ancestral Spirit in Forbidden Reach or Loam Scoat in Zaralek Cavern, locate real NPC
 		if ((npcID == RSConstants.FORBIDDEN_REACH_ANCESTRAL_SPIRIT or npcID == RSConstants.ZARALEK_CAVERN_LOAM_SCOUT) and RSNpcDB.GetNpcId(vignetteInfo.name, mapID)) then
 			npcID = RSNpcDB.GetNpcId(vignetteInfo.name, mapID)
+		-- If pre-event, sets the NPC ID
+		elseif (RSConstants.NPCS_WITH_PRE_EVENT[npcID]) then
+			npcID = RSNpcDB.GetFinalNpcID(npcID)
 		end
 		
 		local npcInfo = RSNpcDB.GetInternalNpcInfo(npcID)
@@ -275,7 +284,6 @@ function RSMap.GetWorldMapPOI(objectGUID, vignetteInfo, mapID)
 			return RSNpcPOI.GetNpcPOI(npcID, mapID, npcInfo, alreadyFoundInfo)
 		end
 	elseif (RSConstants.IsEventAtlas(vignetteInfo.atlasName)) then
-		local _, _, _, _, _, vignetteObjectID = strsplit("-", objectGUID)
 		local eventID = tonumber(vignetteObjectID)
 		
 		local eventInfo = RSEventDB.GetInternalEventInfo(eventID)

@@ -204,6 +204,23 @@ function RSGeneralDB.GetBestMapForUnit(entityID, atlasName)
 end
 
 ---============================================================================
+-- Entities with pre-events
+----- Obtains the latest entityID in a chain of pre-events
+---============================================================================
+
+function RSGeneralDB.GetFinalEntityID(entityPreEventID)
+	local entityID = tonumber(entityPreEventID)
+	
+	-- NPC with pre-event
+	entityID = RSNpcDB.GetFinalNpcID(entityID)
+	
+	-- Container with pre-event
+	entityID = RSContainerDB.GetFinalContainerID(entityID)
+	
+	return entityID
+end
+
+---============================================================================
 -- Loot info cache database
 ----- Stores information of items to avoid requesting the server too often
 ---============================================================================
@@ -220,7 +237,7 @@ function RSGeneralDB.GetItemName(itemID)
 	end
 
 	-- The first time request the server for the information
-	local retOk, itemName, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _ = pcall(GetItemInfo, itemID)
+	local retOk, itemName, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _ = pcall(C_Item.GetItemInfo, itemID)
 	return itemName
 end
 
@@ -231,7 +248,7 @@ function RSGeneralDB.GetItemInfo(itemID)
 
 	-- The first time request the server for the information
 	if (not private.dbglobal.loot_info[itemID]) then
-		local retOk, _, itemLink, itemRarity, _, _, _, _, _, itemEquipLoc, iconFileDataID, _, itemClassID, itemSubClassID, _, _, _, _ = pcall(GetItemInfo, itemID)
+		local retOk, _, itemLink, itemRarity, _, _, _, _, _, itemEquipLoc, iconFileDataID, _, itemClassID, itemSubClassID, _, _, _, _ = pcall(C_Item.GetItemInfo, itemID)
 		if (itemLink and itemRarity and itemEquipLoc and iconFileDataID and itemClassID and itemSubClassID) then
 			RSGeneralDB.SetItemInfo(itemID, itemLink, itemRarity, itemEquipLoc, iconFileDataID, itemClassID, itemSubClassID)
 		end

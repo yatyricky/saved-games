@@ -36,6 +36,8 @@ for addon, name in pairs(otherdebug) do
 	end
 end
 
+local GetAddOnMetadata = C_AddOns.GetAddOnMetadata
+
 Swatter = {
 	nilFrame = {
 		GetName = function() return "Global" end
@@ -47,7 +49,7 @@ Swatter = {
 
 Swatter.Version="<%version%>"
 if (Swatter.Version == "<%".."version%>") then
-	Swatter.Version = "10.0.DEV"
+	Swatter.Version = "10.1.DEV"
 end
 SWATTER_VERSION = Swatter.Version
 
@@ -134,34 +136,61 @@ function Swatter.IsEnabled()
 	return SwatterData.enabled
 end
 
-local function HookChatLinkCatcher()
-	-- only run once, we don't want to install duplicate hooks
-	HookChatLinkCatcher = nil
-
-	-- hook to display our error frame when user clicks on a swatter link in chat
-	local orig = SetItemRef
-	_G["SetItemRef"] = function(...)
-		local link = ...
-		local id = link:match("^swatter:(%d+)")
-		if id then -- it's a swatter link
-			id = tonumber(id)
-			for pos, errid in ipairs(Swatter.errorOrder) do
-				if (errid == id) then
-					Swatter.ErrorShow(pos)
-					return
+local _,_,_,TOCVERSION = GetBuildInfo()
+if TOCVERSION >= 100100 then
+	-- For Clients supporting new 'addon' links
+	-- Currently only Retail 10.1.0 or later {23/05/23}
+	-- Blizzard's SetItemRef will ignore 'addon' links, and the chat system should not permit them to be sent in a chat message
+	hooksecurefunc("SetItemRef", function(link)
+		local linkType, addon, param1 = strsplit(":", link)
+		if linkType == "addon" and addon == "!Swatter" then
+			local id = tonumber(param1)
+			if id then
+				for pos, errid in ipairs(Swatter.errorOrder) do
+					if (errid == id) then
+						Swatter.ErrorShow(pos)
+						return
+					end
 				end
 			end
-		else -- some other type of link
-			return orig(...)
+		end
+	end)
+	function Swatter.SwatterLink(id, context, hex)
+		return format("|c%s|Haddon:!Swatter:%d|h[%s]|h|r", hex or "ffff3311", id, context)
+	end
+else
+	-- For Clients not supporting 'addon' links
+	-- We need to pre-hook SetItemRef to prevent our links from reaching Blizzard's SetItemRef (which would throw an error)
+	-- We delay installing the hook until it is actually needed, to reduce chance of taint
+	local function HookChatLinkCatcher()
+		-- only run once, we don't want to install duplicate hooks
+		HookChatLinkCatcher = nil
+
+		-- hook to display our error frame when user clicks on a swatter link in chat
+		local orig = SetItemRef
+		_G["SetItemRef"] = function(...)
+			local link = ...
+			local id = link:match("^swatter:(%d+)")
+			if id then -- it's a swatter link
+				id = tonumber(id)
+				for pos, errid in ipairs(Swatter.errorOrder) do
+					if (errid == id) then
+						Swatter.ErrorShow(pos)
+						return
+					end
+				end
+			else -- some other type of link
+				return orig(...)
+			end
 		end
 	end
-end
-local function SwatterLink(id, context, hex)
-	if HookChatLinkCatcher then HookChatLinkCatcher() end
-	return format("|Hswatter:%d|h|c%s[%s]|r|h", id, hex or "ffff3311", context)
-	-- Note the colour escape code is _inside_ the hyperlink escape codes
-	-- If the user inadvertantly manages to relink it, this will trigger an error
-	-- Otherwise it would cause a disconnect {SWAT-12}
+	function Swatter.SwatterLink(id, context, hex)
+		if HookChatLinkCatcher then HookChatLinkCatcher() end
+		return format("|Hswatter:%d|h|c%s[%s]|r|h", id, hex or "ffff3311", context)
+		-- Note the colour escape code is _inside_ the hyperlink escape codes
+		-- If the user inadvertantly manages to relink it, this will trigger an error
+		-- Otherwise it would cause a disconnect {SWAT-12}
+	end
 end
 
 local flagBlockReentry -- Prevent re-entering OnError if an error occurs within it
@@ -224,7 +253,7 @@ local function OnError(msg, frame, stack, etype, ...)
 	if count == 0 and SwatterData.enabled then
 		if etype == "ADDON_ACTION_BLOCKED" then
 			if SwatterData.warning and not Swatter.blockWarn then
-				chat("|cffffaa11Warning only: Swatter found blocked actions:|r "..SwatterLink(id, context))
+				chat("|cffffaa11Warning only: Swatter found blocked actions:|r "..Swatter.SwatterLink(id, context))
 				chat("|cffffaa11Note: Swatter will continue to catch blocked actions but this is the last time this session that we'll tell you about it.|r")
 				Swatter.blockWarn = true
 			end
@@ -232,7 +261,7 @@ local function OnError(msg, frame, stack, etype, ...)
 			Swatter.ErrorUpdate()
 			Swatter.Error:Show()
 		else
-			chat("|cffffaa11Swatter caught error:|r "..SwatterLink(id, context))
+			chat("|cffffaa11Swatter caught error:|r "..Swatter.SwatterLink(id, context))
 		end
 	end
 	flagBlockReentry = nil
@@ -566,7 +595,7 @@ function Swatter.ErrorClicked()
 end
 
 -- Create our error message frame
-Swatter.Error = CreateFrame("Frame", "SwatterErrorFrame", UIParent, BackdropTemplateMixin and "BackdropTemplate")
+Swatter.Error = CreateFrame("Frame", "SwatterErrorFrame", UIParent, "BackdropTemplate")
 Swatter.Error:Hide()
 Swatter.Error:SetPoint("CENTER", "UIParent", "CENTER")
 Swatter.Error:SetFrameStrata("TOOLTIP")

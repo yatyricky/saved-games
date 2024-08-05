@@ -62,6 +62,12 @@ end
 
 function RSDragonGlyphDB.GetChildDragonGlyphID(parentGlyphID, description)
 	if (parentGlyphID) then
+		-- Fix description for Azj-Kahet, Hallowfall, The Ringing Deeps, Isle of Dorn
+		if (parentGlyphID == 40705 or parentGlyphID == 40704 or parentGlyphID == 40703 or parentGlyphID == 40166) then
+			local desc, _ = strsplit(",", description, 2)
+			description = desc
+		end
+	
 		for glyphID, info in pairs (private.DRAGON_GLYPHS) do
 			if (info.parent and info.parent == parentGlyphID) then
 				local name = RSDragonGlyphDB.GetDragonGlyphName(glyphID)

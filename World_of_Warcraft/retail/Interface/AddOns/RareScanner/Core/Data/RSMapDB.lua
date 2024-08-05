@@ -125,26 +125,6 @@ function RSMapDB.IsMapInParentMap(parentMapID, subzoneMapID)
 end
 
 ---============================================================================
--- Warfronts state areas database
----============================================================================
-
-function RSMapDB.GetWarfrontKillZoneIDs()
-	return private.RESETABLE_WARFRONT_KILLS_ZONE_IDS
-end
-
-function RSMapDB.GeWarfrontKillZoneArtID(mapID)
-	if (mapID) then
-		return private.RESETABLE_WARFRONT_KILLS_ZONE_IDS[mapID]
-	end
-
-	return nil
-end
-
-function RSMapDB.IsEntityInWarfrontZone(entityID, mapID, infoAlreadyFound, alreadyChecked)
-	return BelongsToZone(entityID, mapID, RSMapDB.GetWarfrontKillZoneIDs(), infoAlreadyFound, alreadyChecked)
-end
-
----============================================================================
 -- Permanent state areas database
 ---============================================================================
 

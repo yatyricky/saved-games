@@ -83,13 +83,16 @@ end
 
 function RSUtils.GetSortedKeysByValue(tbl, sortFunction)
 	local keys = {}
-	for key in pairs(tbl) do
-    	table.insert(keys, key)
- 	end
-
-  	table.sort(keys, function(a, b)
-    	return sortFunction(tbl[a], tbl[b])
-  	end)
+	
+	if (tbl) then
+		for key in pairs(tbl) do
+	    	table.insert(keys, key)
+	 	end
+	
+	  	table.sort(keys, function(a, b)
+	    	return sortFunction(tbl[a], tbl[b])
+	  	end)
+	end
 
   	return keys
 end
@@ -104,7 +107,7 @@ function RSUtils.Contains(cTable, item)
 	end
 
 	if (type(cTable) == "table") then
-		for k, v in pairs(cTable) do
+		for _, v in pairs(cTable) do
 			if (type(v) == "table") then
 				return RSUtils.Contains(v, item)
 			elseif (type(item) == "table") then
@@ -128,6 +131,34 @@ function RSUtils.Contains(cTable, item)
 	return false;
 end
 
+function RSUtils.ContainsKeyValue(table, keyTable, value)
+	if (not table or not keyTable or not value) then
+		return false
+	end
+	
+	if (type(table) ~= "table") then
+		return false
+	elseif (type(keyTable) ~= "table") then
+		return false
+	else
+		for k, _ in pairs (table) do
+			local currentKey = nil
+			for _, key in ipairs (keyTable) do
+				if (k == key) then
+					currentKey = k;
+					break
+				end
+			end
+			
+			if (currentKey and table[currentKey][value]) then
+				return true
+			end
+		end
+		
+		return false
+	end
+end
+
 ---============================================================================
 -- String utils
 ---============================================================================
@@ -143,6 +174,19 @@ function RSUtils.Lpad(s, l, c)
 	
 	local res = string.rep(c or ' ', l - #s) .. s
 	return res, res ~= s
+end
+
+function RSUtils.Rpad(s, l, c)
+	if (type(s) ~= "string") then
+		s = tostring(s)
+	end
+	
+	if (l - #s > 0) then
+		local res = s.. string.rep(c or ' ', l - #s)
+		return res, res ~= s
+	end
+
+	return s
 end
 
 function RSUtils.tostring(s)
@@ -194,9 +238,17 @@ end
 ---============================================================================
 
 function RSUtils.FixCoord(coord)
-	if (tonumber(coord) <= 1) then
-		return tonumber(coord)
+	if (RSUtils.Contains(tostring(coord), "0.")) then
+		coord = RSUtils.Rpad(tostring(coord):gsub('(0%.)',''), 4, '0')
 	else
-		return tonumber("0."..coord);
+		coord = RSUtils.Lpad(coord, 4, '0')
+	end
+	
+	if (tonumber(strsub(coord, 1, 3)) == 0) then
+		return tonumber(string.format("0.00%s", strsub(coord, 3)));
+	elseif (tonumber(strsub(coord, 1, 2)) == 0) then
+		return tonumber(string.format("0.0%s", strsub(coord, 2)));
+	else
+		return tonumber(string.format("0.%s", coord));
 	end
 end
