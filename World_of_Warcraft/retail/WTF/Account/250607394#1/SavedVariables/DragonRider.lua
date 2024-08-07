@@ -14,64 +14,6 @@ DragonRider_DB = {
 ["multiplayer"] = true,
 ["speedometerPosPoint"] = 1,
 ["themeSpeed"] = 1,
-["sideArt"] = true,
-["fadeVigor"] = true,
-["barStyle"] = 1,
-["fadeSpeed"] = true,
-["speedometerPosY"] = 5,
-["useAccountData"] = false,
-["tempFixes"] = {
-["hideVigor"] = true,
-},
-["vigorProgressStyle"] = 1,
-["muteVigorSound"] = false,
-["glyphDetector"] = true,
-["lightningRush"] = true,
-["speedBarColor"] = {
-["vigor"] = {
-["a"] = 1,
-["b"] = 0.6078431372549019,
-["g"] = 0.5647058823529412,
-["r"] = 0,
-},
-["slow"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 0.3803921568627451,
-["r"] = 0.7686274509803922,
-},
-["over"] = {
-["a"] = 1,
-["b"] = 0.7647058823529411,
-["g"] = 0.3019607843137255,
-["r"] = 0.6588235294117647,
-},
-},
-["speedValUnits"] = 5,
-["speedTextColor"] = {
-["vigor"] = {
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-["slow"] = {
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-["over"] = {
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-},
-["DynamicFOV"] = true,
-["statistics"] = {
-},
-["mainFrameSize"] = {
-["height"] = 525,
-["width"] = 550,
-},
 ["raceData"] = {
 ["Ziadwan - Azshara"] = {
 },
@@ -308,94 +250,152 @@ DragonRider_DB = {
 ["score"] = 79.956,
 ["character"] = "Ziadwan - Azshara",
 },
-[2058] = {
-["score"] = 77.819,
-["character"] = "Ziadwan - Azshara",
-},
-[2318] = {
-["score"] = 80.623,
-["character"] = "Ziadwan - Azshara",
-},
-[2063] = {
-["score"] = 50.935,
-["character"] = "Ziadwan - Azshara",
-},
-[2327] = {
-["score"] = 92.6,
-["character"] = "Ziadwan - Azshara",
-},
-[2373] = {
-["score"] = 82.833,
-["character"] = "Ziadwan - Azshara",
-},
-[2062] = {
-["score"] = 50.943,
-["character"] = "Ziadwan - Azshara",
-},
-[2350] = {
-["score"] = 78.6,
-["character"] = "Ziadwan - Azshara",
-},
-[2074] = {
-["score"] = 66.618,
-["character"] = "Ziadwan - Azshara",
-},
-[2203] = {
-["score"] = 47.276,
-["character"] = "Ziadwan - Azshara",
-},
-[2092] = {
-["score"] = 98.002,
-["character"] = "Ziadwan - Azshara",
-},
-[2351] = {
-["score"] = 49.781,
-["character"] = "Ziadwan - Azshara",
-},
-[2343] = {
-["score"] = 86.786,
-["character"] = "Ziadwan - Azshara",
-},
-[2320] = {
-["score"] = 74.876,
-["character"] = "Ziadwan - Azshara",
-},
-[2060] = {
-["score"] = 47.748,
-["character"] = "Ziadwan - Azshara",
-},
-[2046] = {
-["score"] = 63.238,
-["character"] = "Ziadwan - Azshara",
-},
-[2076] = {
-["score"] = 58.56,
-["character"] = "Ziadwan - Azshara",
-},
-[2067] = {
-["score"] = 64.304,
-["character"] = "Ziadwan - Azshara",
-},
-[2098] = {
-["score"] = 94.901,
-["character"] = "Ziadwan - Azshara",
-},
-[2323] = {
-["score"] = 81.316,
-["character"] = "Ziadwan - Azshara",
-},
-[2355] = {
-["score"] = 80.985,
+[2357] = {
+["score"] = 121.74,
 ["character"] = "Ziadwan - Azshara",
 },
 [2324] = {
 ["score"] = 87.037,
 ["character"] = "Ziadwan - Azshara",
 },
-[2357] = {
-["score"] = 121.74,
+[2355] = {
+["score"] = 80.985,
+["character"] = "Ziadwan - Azshara",
+},
+[2327] = {
+["score"] = 92.6,
+["character"] = "Ziadwan - Azshara",
+},
+[2323] = {
+["score"] = 81.316,
+["character"] = "Ziadwan - Azshara",
+},
+[2098] = {
+["score"] = 94.901,
+["character"] = "Ziadwan - Azshara",
+},
+[2067] = {
+["score"] = 64.304,
+["character"] = "Ziadwan - Azshara",
+},
+[2074] = {
+["score"] = 66.618,
+["character"] = "Ziadwan - Azshara",
+},
+[2076] = {
+["score"] = 58.56,
+["character"] = "Ziadwan - Azshara",
+},
+[2092] = {
+["score"] = 98.002,
+["character"] = "Ziadwan - Azshara",
+},
+[2060] = {
+["score"] = 47.748,
+["character"] = "Ziadwan - Azshara",
+},
+[2320] = {
+["score"] = 74.876,
+["character"] = "Ziadwan - Azshara",
+},
+[2343] = {
+["score"] = 86.786,
+["character"] = "Ziadwan - Azshara",
+},
+[2351] = {
+["score"] = 49.781,
+["character"] = "Ziadwan - Azshara",
+},
+[2046] = {
+["score"] = 63.238,
+["character"] = "Ziadwan - Azshara",
+},
+[2203] = {
+["score"] = 47.276,
+["character"] = "Ziadwan - Azshara",
+},
+[2350] = {
+["score"] = 78.6,
+["character"] = "Ziadwan - Azshara",
+},
+[2062] = {
+["score"] = 50.943,
+["character"] = "Ziadwan - Azshara",
+},
+[2373] = {
+["score"] = 82.833,
+["character"] = "Ziadwan - Azshara",
+},
+[2063] = {
+["score"] = 50.935,
+["character"] = "Ziadwan - Azshara",
+},
+[2318] = {
+["score"] = 80.623,
+["character"] = "Ziadwan - Azshara",
+},
+[2058] = {
+["score"] = 77.819,
 ["character"] = "Ziadwan - Azshara",
 },
 },
 },
+["mainFrameSize"] = {
+["height"] = 525,
+["width"] = 550,
+},
+["barStyle"] = 1,
+["fadeSpeed"] = true,
+["speedometerPosY"] = 5,
+["useAccountData"] = false,
+["tempFixes"] = {
+["hideVigor"] = true,
+},
+["vigorProgressStyle"] = 1,
+["muteVigorSound"] = false,
+["DynamicFOV"] = true,
+["lightningRush"] = true,
+["speedTextColor"] = {
+["vigor"] = {
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+["slow"] = {
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+["over"] = {
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["speedValUnits"] = 5,
+["speedBarColor"] = {
+["vigor"] = {
+["a"] = 1,
+["r"] = 0,
+["g"] = 0.5647058823529412,
+["b"] = 0.6078431372549019,
+},
+["slow"] = {
+["a"] = 1,
+["r"] = 0.7686274509803922,
+["g"] = 0.3803921568627451,
+["b"] = 0,
+},
+["over"] = {
+["a"] = 1,
+["r"] = 0.6588235294117647,
+["g"] = 0.3019607843137255,
+["b"] = 0.7647058823529411,
+},
+},
+["glyphDetector"] = true,
+["statistics"] = {
+},
+["fadeVigor"] = true,
+["sideArt"] = true,
 }
