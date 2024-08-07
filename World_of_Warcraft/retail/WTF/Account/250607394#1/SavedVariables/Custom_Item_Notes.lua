@@ -258,9 +258,9 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 7081,
 },
-["Tough Condor Meat"] = {
+["Thorium Ore"] = {
 "Vanilla",
-["itemID"] = 1080,
+["itemID"] = 10620,
 },
 ["Coal"] = {
 "Vanilla",
@@ -338,13 +338,13 @@ CIN_Save = {
 "CTM",
 ["itemID"] = 52979,
 },
-["Mote of Fire"] = {
-"TBC",
-["itemID"] = 22574,
-},
 ["Drakkari Offerings"] = {
 "WLK",
 ["itemID"] = 38551,
+},
+["Dreamsurge Coalescence"] = {
+"DF",
+["itemID"] = 207026,
 },
 ["Raw Slitherskin Mackerel"] = {
 "Vanilla",
@@ -370,13 +370,13 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 723,
 },
-["Mote of Life"] = {
-"TBC",
-["itemID"] = 22575,
-},
 ["Aylaag Windstone Fragment"] = {
 "DF, Teleport to Oharan centuar's camp",
 ["itemID"] = 200613,
+},
+["Mote of Life"] = {
+"TBC",
+["itemID"] = 22575,
 },
 ["Crawler Claw"] = {
 "Vanilla",
@@ -473,9 +473,9 @@ CIN_Save = {
 "TBC",
 ["itemID"] = 21887,
 },
-["Tigerseye"] = {
+["Alabaster Idol"] = {
 "Vanilla",
-["itemID"] = 818,
+["itemID"] = 20873,
 },
 ["Golden Darter"] = {
 "TBC",
@@ -513,13 +513,15 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 2842,
 },
-["Alabaster Idol"] = {
+["Large Venom Sac"] = {
 "Vanilla",
-["itemID"] = 20873,
+"Alchemy",
+"trash",
+["itemID"] = 1288,
 },
-["Essence of Water"] = {
-"Vanilla",
-["itemID"] = 7080,
+["Mark of the Illidari"] = {
+"trash",
+["itemID"] = 32897,
 },
 ["Tender Crocolisk Meat"] = {
 "Vanilla",
@@ -530,50 +532,50 @@ CIN_Save = {
 "Ogrila blade's edge",
 ["itemID"] = 32569,
 },
-["Dark Rune"] = {
-"Vanilla",
-["itemID"] = 20520,
-},
-["Mark of the Illidari"] = {
-"trash",
-["itemID"] = 32897,
+["Small Dreamseed"] = {
+"DF",
+["itemID"] = 208066,
 },
 ["Soggy Treasure Map"] = {
 "BFA quest",
 ["itemID"] = 162571,
 },
-["Imperial Qiraji Armaments"] = {
-"Vanilla TAQ weapon quest. Needs 3 elementium ingots",
-["itemID"] = 21232,
+["Idol of Rebirth"] = {
+"Vanilla",
+["itemID"] = 20878,
+},
+["Fel Hide"] = {
+"TBC",
+["itemID"] = 25707,
 },
 ["Drake's Shadowflame Crest"] = {
 "DF. Upgrade NPC is at Zaralak Cavern or Loamm",
 ["itemID"] = 204195,
 },
-["Artisan's Mettle"] = {
-"DF currency for recepies",
-["itemID"] = 190456,
+["Coin of Ancestry"] = {
+"Luna Festival",
+["itemID"] = 21100,
 },
 ["Dawnstone"] = {
 "TBC",
 ["itemID"] = 23440,
 },
-["Wool Cloth"] = {
-"Vanilla",
-["itemID"] = 2592,
+["Shatterspear Torturer's Cage Key"] = {
+"Darkshore Shatterspear War Camp quest, bugged. Kill Rit'ko to regain this item.",
+["itemID"] = 45040,
 },
-["Idol of Rebirth"] = {
+["Turtle Meat"] = {
 "Vanilla",
-["itemID"] = 20878,
+["itemID"] = 3712,
 },
 ["Intact Scribe Stick"] = {
 "Hand these in at /way #2024 66.93, 12.77 Sonova Snowden",
 "The Azure Span",
 ["itemID"] = 202018,
 },
-["Qiraji Bindings of Dominance"] = {
-"VANILLA. TAQ T2.5 Shoulder & Boots for Paladin, Shaman, Mage, Warlock, Druid",
-["itemID"] = 20932,
+["Whelpling's Shadowflame Crest"] = {
+"DF. Upgrade NPC is at Zaralak Cavern or Loamm",
+["itemID"] = 204193,
 },
 ["Tender Wolf Meat"] = {
 "Vanilla",
@@ -583,53 +585,37 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 7974,
 },
-["Coin of Ancestry"] = {
-"Luna Festival",
-["itemID"] = 21100,
-},
-["Linen Cloth"] = {
+["Small Egg"] = {
 "Vanilla",
-["itemID"] = 2589,
-},
-["Shatterspear Torturer's Cage Key"] = {
-"Darkshore Shatterspear War Camp quest, bugged. Kill Rit'ko to regain this item.",
-["itemID"] = 45040,
-},
-["Rugged Hide"] = {
-"Vanilla",
-["itemID"] = 8171,
-},
-["Whelpling's Shadowflame Crest"] = {
-"DF. Upgrade NPC is at Zaralak Cavern or Loamm",
-["itemID"] = 204193,
-},
-["Apexis Crystal"] = {
-"TBC",
-["itemID"] = 32572,
+["itemID"] = 6889,
 },
 ["Mark of Sargha"] = {
 "DF",
 ["itemID"] = 200224,
 },
+["Artisan's Mettle"] = {
+"DF currency for recepies",
+["itemID"] = 190456,
+},
+["Rugged Hide"] = {
+"Vanilla",
+["itemID"] = 8171,
+},
+["Netherwing Crystal"] = {
+"TBC",
+["itemID"] = 32427,
+},
+["Apexis Crystal"] = {
+"TBC",
+["itemID"] = 32572,
+},
+["Mogu Pumpkin"] = {
+"MOP",
+["itemID"] = 74842,
+},
 ["Crag Boar Rib"] = {
 "Vanilla",
 ["itemID"] = 2886,
-},
-["Heavy Kodo Meat"] = {
-"Vanilla",
-["itemID"] = 12204,
-},
-["Buzzard Wing"] = {
-"Vanilla",
-["itemID"] = 3404,
-},
-["Sharp Claw"] = {
-"Vanilla",
-["itemID"] = 5635,
-},
-["Bear Flank"] = {
-"Vanilla",
-["itemID"] = 35562,
 },
 ["Gorick's Stash List"] = {
 "safe to delete after loch modan quest complete",
@@ -642,6 +628,22 @@ CIN_Save = {
 ["Nethermine Flayer Hide"] = {
 "TBC",
 ["itemID"] = 32470,
+},
+["Bear Flank"] = {
+"Vanilla",
+["itemID"] = 35562,
+},
+["Ice Cold Milk"] = {
+"Vanilla",
+["itemID"] = 1179,
+},
+["Heavy Kodo Meat"] = {
+"Vanilla",
+["itemID"] = 12204,
+},
+["Buzzard Wing"] = {
+"Vanilla",
+["itemID"] = 3404,
 },
 ["Bone Dust"] = {
 "trash item",
@@ -656,17 +658,17 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 22682,
 },
-["Jasper Idol"] = {
-"Vanilla",
-["itemID"] = 20870,
+["Titan Relic"] = {
+"DF Turned in at Sorotis (in Valdrakken - 26,40)",
+["itemID"] = 199906,
 },
 ["Dilated Time Capsule"] = {
 "DF. Thaldraszus /way #2025 51.0 56.6 Shi Everbreeze",
 ["itemID"] = 207030,
 },
-["Titan Relic"] = {
-"DF Turned in at Sorotis (in Valdrakken - 26,40)",
-["itemID"] = 199906,
+["Jasper Idol"] = {
+"Vanilla",
+["itemID"] = 20870,
 },
 ["19 Pound Catfish"] = {
 "Vanilla",
@@ -725,17 +727,17 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 8165,
 },
+["Essence of Water"] = {
+"Vanilla",
+["itemID"] = 7080,
+},
+["Sharp Claw"] = {
+"Vanilla",
+["itemID"] = 5635,
+},
 ["Soft Frenzy Flesh"] = {
 "Vanilla",
 ["itemID"] = 5468,
-},
-["Ice Cold Milk"] = {
-"Vanilla",
-["itemID"] = 1179,
-},
-["Mogu Pumpkin"] = {
-"MOP",
-["itemID"] = 74842,
 },
 ["Nether Dragonscales"] = {
 "TBC",
@@ -746,18 +748,18 @@ CIN_Save = {
 "Safe to delete.  way 77.32 74.29 Entrance to Razzeric to get a replacement",
 ["itemID"] = 55121,
 },
-["Ogmot's Dream Journal"] = {
-"LEG",
-"lore",
-["itemID"] = 156852,
+["Qiraji Bindings of Dominance"] = {
+"VANILLA. TAQ T2.5 Shoulder & Boots for Paladin, Shaman, Mage, Warlock, Druid",
+["itemID"] = 20932,
 },
 ["Heavy Leather"] = {
 "Vanilla",
 ["itemID"] = 4234,
 },
-["Netherwing Crystal"] = {
-"TBC",
-["itemID"] = 32427,
+["Ogmot's Dream Journal"] = {
+"LEG",
+"lore",
+["itemID"] = 156852,
 },
 ["Murloc Fin"] = {
 "Vanilla",
@@ -767,29 +769,29 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 3173,
 },
-["Small Egg"] = {
+["Linen Cloth"] = {
 "Vanilla",
-["itemID"] = 6889,
+["itemID"] = 2589,
 },
-["Elemental Air"] = {
-"Vanilla",
-["itemID"] = 7069,
+["Imperial Qiraji Armaments"] = {
+"Vanilla TAQ weapon quest. Needs 3 elementium ingots",
+["itemID"] = 21232,
 },
 ["Imperial Qiraji Regalia"] = {
 "Vanilla TAQ weapon quest. Needs 3 Elementium Ingots.",
 ["itemID"] = 21237,
 },
-["Turtle Meat"] = {
+["Wool Cloth"] = {
 "Vanilla",
-["itemID"] = 3712,
+["itemID"] = 2592,
 },
-["Idol of Life"] = {
+["Dark Rune"] = {
 "Vanilla",
-["itemID"] = 20879,
+["itemID"] = 20520,
 },
-["Fel Hide"] = {
-"TBC",
-["itemID"] = 25707,
+["Elemental Air"] = {
+"Vanilla",
+["itemID"] = 7069,
 },
 ["Ghost Iron Bar"] = {
 "MOP",
@@ -800,15 +802,13 @@ CIN_Save = {
 "sporeman rep turn in",
 ["itemID"] = 24245,
 },
-["Small Dreamseed"] = {
-"DF",
-["itemID"] = 208066,
-},
-["Large Venom Sac"] = {
+["Idol of Life"] = {
 "Vanilla",
-"Alchemy",
-"trash",
-["itemID"] = 1288,
+["itemID"] = 20879,
+},
+["Tigerseye"] = {
+"Vanilla",
+["itemID"] = 818,
 },
 ["Idol of Strife"] = {
 "Vanilla",
@@ -856,13 +856,13 @@ CIN_Save = {
 "Vanilla, RAQ ring for Warrior, Paladin, Shaman, Mage, Druid",
 ["itemID"] = 20884,
 },
+["Mote of Fire"] = {
+"TBC",
+["itemID"] = 22574,
+},
 ["Mote of Shadow"] = {
 "TBC",
 ["itemID"] = 22577,
-},
-["Dreamsurge Coalescence"] = {
-"DF",
-["itemID"] = 207026,
 },
 ["Liberated Furbolg Artifacts"] = {
 "Hand these in at /way #2024 66.93, 12.77 Sonova Snowden",
@@ -873,9 +873,9 @@ CIN_Save = {
 "Vanilla RAQ weapon for Priest, Mage, Warlock, Druid",
 ["itemID"] = 20890,
 },
-["Thorium Ore"] = {
-"Vanilla",
-["itemID"] = 10620,
+["Fading Treasure Map"] = {
+"BFA quest",
+["itemID"] = 162580,
 },
 ["Small Spider Leg"] = {
 "Vanilla",
@@ -885,14 +885,14 @@ CIN_Save = {
 "Vanilla T2.5 pants for Paladin, Hunter, Shaman, Warlock, Druid",
 ["itemID"] = 20931,
 },
+["Tough Condor Meat"] = {
+"Vanilla",
+["itemID"] = 1080,
+},
 ["Amani Hex Stick"] = {
 "TBC,CTM",
 "Zulaman",
 ["itemID"] = 33865,
-},
-["Fading Treasure Map"] = {
-"BFA quest",
-["itemID"] = 162580,
 },
 ["Cured Rugged Hide"] = {
 "Vanilla",
