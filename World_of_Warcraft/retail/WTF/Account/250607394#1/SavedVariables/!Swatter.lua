@@ -427,6 +427,15 @@ SwatterData = {
 ["context"] = "Global",
 ["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `format'\n[string \"@Interface/AddOns/InstanceAchievementTracker/MobCounter.lua\"]:61: in function <...ace/AddOns/InstanceAchievementTracker/MobCounter.lua:55>\n",
 },
+{
+["message"] = "...ace/AddOns/Blizzard_UnitPopup/Mainline/UnitPopup.lua:51: bad argument #1 to 'SetLegacyRaidDifficultyID' (Usage: SetLegacyRaidDifficultyID(difficultyID [, force]))",
+["count"] = 1,
+["addons"] = "  Swatter, v<%version%> (<%codename%>)\n  Arh, v2.0.4-105\n  Auctioneer, v9.1.BETA.5.17 (OneMawTime)\n  AuctioneerStatsOverTime, v9.1.BETA.5.17 (OneMawTime)\n  AuctioneerUtilDealFinder, v9.1.BETA.5.17 (OneMawTime)\n  AuctioneerUtilValuer, v9.1.BETA.5.17 (OneMawTime)\n  CustomItemNotes, v1.16\n  DragonRider, v0.3.9\n  Enchantrix, v9.1.BETA.5.17 (OneMawTime)\n  GatherMate2, v1.49.1\n  Incognito, v1.4.1\n  Informant, v9.1.BETA.5.17 (OneMawTime)\n  InstanceAchievementTracker, v5.3.0\n  RareScanner, v11.0.0.1\n  SellJunk, v3.0.33 TWW FanUpdate by Shyde\n  SlideBar, v<%version%> (<%codename%>)\n  Stubby, v9.1.BETA.5.17 (OneMawTime)\n  TomTom, vv4.0.1-release\n  TradeSkillMaster, vv4.14.7\n  TradeSkillMasterAppHelper, vv4.14\n  BlizRuntimeLib v11.0.0.55960(US) <enUS>\n  (ck=2ef)\n",
+["locals"] = "(*temporary) = \"LeftButton\"\n(*temporary) = false\n",
+["timestamp"] = "2024-08-08 13:46:27",
+["context"] = "Global",
+["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetLegacyRaidDifficultyID'\n[string \"@Interface/AddOns/Blizzard_UnitPopup/Mainline/UnitPopup.lua\"]:51: in function `SetRaidDifficulties'\n[string \"@Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua\"]:1441: in function <...zard_UnitPopupShared/UnitPopupSharedButtonMixins.lua:1440>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `securecallfunction'\n[string \"@Interface/AddOns/Blizzard_Menu/Menu.lua\"]:854: in function `Pick'\n[string \"@Interface/AddOns/Blizzard_Menu/MenuTemplates.lua\"]:64: in function <Interface/AddOns/Blizzard_Menu/MenuTemplates.lua:58>\n",
+},
 },
 ["autoshow"] = true,
 }
