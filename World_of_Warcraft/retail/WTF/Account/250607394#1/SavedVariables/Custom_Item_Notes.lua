@@ -471,9 +471,9 @@ CIN_Save = {
 "Ogrila blade's edge",
 ["itemID"] = 32569,
 },
-["Small Dreamseed"] = {
-"DF",
-["itemID"] = 208066,
+["Dark Rune"] = {
+"Vanilla",
+["itemID"] = 20520,
 },
 ["Winter Squid"] = {
 "Vanilla",
@@ -499,22 +499,22 @@ CIN_Save = {
 "TBC",
 ["itemID"] = 23440,
 },
-["Idol of Rebirth"] = {
-"Vanilla",
-["itemID"] = 20878,
-},
 ["Turtle Meat"] = {
 "Vanilla",
 ["itemID"] = 3712,
+},
+["Idol of Rebirth"] = {
+"Vanilla",
+["itemID"] = 20878,
 },
 ["Intact Scribe Stick"] = {
 "Hand these in at /way #2024 66.93, 12.77 Sonova Snowden",
 "The Azure Span",
 ["itemID"] = 202018,
 },
-["Coin of Ancestry"] = {
-"Luna Festival",
-["itemID"] = 21100,
+["Small Egg"] = {
+"Vanilla",
+["itemID"] = 6889,
 },
 ["Tender Wolf Meat"] = {
 "Vanilla",
@@ -524,9 +524,9 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 7974,
 },
-["Small Egg"] = {
-"Vanilla",
-["itemID"] = 6889,
+["Coin of Ancestry"] = {
+"Luna Festival",
+["itemID"] = 21100,
 },
 ["Imperial Qiraji Regalia"] = {
 "Vanilla TAQ weapon quest. Needs 3 Elementium Ingots.",
@@ -576,9 +576,9 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 5635,
 },
-["Heavy Kodo Meat"] = {
+["Essence of Water"] = {
 "Vanilla",
-["itemID"] = 12204,
+["itemID"] = 7080,
 },
 ["Nethermine Flayer Hide"] = {
 "TBC",
@@ -649,10 +649,6 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 5503,
 },
-["Rune Thread"] = {
-"Vanilla",
-["itemID"] = 14341,
-},
 ["Jasper Idol"] = {
 "Vanilla",
 ["itemID"] = 20870,
@@ -695,9 +691,9 @@ CIN_Save = {
 "Vanilla",
 ["itemID"] = 4234,
 },
-["Essence of Water"] = {
+["Heavy Kodo Meat"] = {
 "Vanilla",
-["itemID"] = 7080,
+["itemID"] = 12204,
 },
 ["Murloc Fin"] = {
 "Vanilla",
@@ -742,9 +738,9 @@ CIN_Save = {
 "sporeman rep turn in",
 ["itemID"] = 24245,
 },
-["Dark Rune"] = {
-"Vanilla",
-["itemID"] = 20520,
+["Small Dreamseed"] = {
+"DF",
+["itemID"] = 208066,
 },
 ["Eternal Ember"] = {
 "Time cavern. Firelands quest item",

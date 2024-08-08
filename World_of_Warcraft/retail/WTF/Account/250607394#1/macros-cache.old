@@ -17,6 +17,9 @@ VER 3 000000000000000B "eggs" "134400"
 #showtooltip Brightly Colored Egg
 /use Brightly Colored Egg
 END
+VER 3 000000000000000F "kiss" "136209"
+/kiss
+END
 VER 3 000000000000000D "lucky" "134400"
 #showtooltip Lucky Red Envelope
 /use Lucky Red Envelope
