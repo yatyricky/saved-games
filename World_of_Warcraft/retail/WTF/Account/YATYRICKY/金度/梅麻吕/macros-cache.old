@@ -33,6 +33,10 @@ END
 VER 3 0100000000000039 "LootResto" "133653"
 /script SetLootSpecialization(105);
 END
+VER 3 010000000000003E "s-cf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player]concentrated flame
+END
 VER 3 010000000000003D "Self Innervate" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@player]Innervate

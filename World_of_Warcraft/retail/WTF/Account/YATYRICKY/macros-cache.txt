@@ -1,47 +1,50 @@
-MACRO64 0000000000000004 "BF_Mount" "Ability_Mount_CelestialHorse"
-/cancelform
-/bfmount
+VER 3 000000000000000B "kiss" "Ability_Creature_Poison_01"
+/kiss
 END
-MACRO64 000000000000000A "Camera" "INV_Misc_QuestionMark"
-/script CameraZoomOut(2000);
-END
-MACRO64 0000000000000009 "Decursive" "INV_Misc_QuestionMark"
-/stopcasting
-/cast [target=mouseover,nomod,exists] 解除腐蝕;  [target=mouseover,exists,mod:ctrl] 颶風術; [target=mouseover,exists,mod:shift] 解除腐蝕
-END
-MACRO64 000000000000000F "大笑" "Spell_Holy_HolyGuidance"
-/大笑
-END
-MACRO64 0000000000000001 "愛" "Spell_Magic_PolymorphChicken"
+VER 3 0000000000000001 "love" "Ability_Creature_Cursed_03"
 /love
+/cast 月火术
 END
-MACRO64 0000000000000007 "感謝" "Ability_Mount_Raptor"
-/p 謝謝大家,拜拜.
+VER 3 0000000000000007 "pity" "Ability_Creature_Cursed_05"
+/focus
 END
-MACRO64 0000000000000002 "找人" "Ability_CheapShot"
-/target 火蠅
+VER 3 0000000000000025 "quest?" "INV_MISC_QUESTIONMARK"
+/script print(C_QuestLog.IsQuestFlaggedCompleted(37329))
 END
-MACRO64 000000000000000D "換武器" "INV_SWORD_27"
-/script A=PickupContainerItem;B=PickupInventoryItem; if (GetInventoryItemID("player", 17)) then B(17);A(4,16);B(16);A(4,15); else B(16);A(4,15);A(4,16);B(17); end;
-END
-MACRO64 000000000000000C "換裝" "INV_CHEST_PLATE04"
-/script A=PickupContainerItem;B=PickupInventoryItem;A(4,1);B(1);A(4,2);B(2);A(4,3);B(3);A(4,4);B(15);A(4,5);B(5);A(4,6);B(9);A(4,7);B(10);A(4,8);B(6);A(4,9);B(7);A(4,10);B(8);A(4,11);B(11);A(4,12);B(12);A(4,13);B(13);A(4,14);B(14);
-END
-MACRO64 0000000000000008 "聲明" "Ability_Creature_Cursed_05"
-/p 大家好,我裝備不好,如果有朋友不願意或者怕我扛不住的話,儘管T我;如果怕我拉不住的話,我會盡力的,謝謝.
-END
-MACRO64 0000000000000006 "跟隨" "Ability_Hunter_Pet_Boar"
-/follow
-END
-MACRO64 000000000000000E "退隊" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
-/script LeaveParty();
-END
-MACRO64 0000000000000003 "逃跑" "Ability_Hunter_HuntingParty"
-/EM 充滿恐懼地想要轉身逃跑!
-END
-MACRO64 0000000000000005 "重載" "Ability_Creature_Cursed_04"
+VER 3 0000000000000005 "Reloadui" "Ability_Creature_Cursed_04"
 /console reloadui
 END
-MACRO64 000000000000000B "開啟宏" "Spell_Holy_HealingFocus"
-/macro
+VER 3 000000000000000E "Reset" "Ability_Mage_NetherWindPresence"
+/script ResetInstances();
+END
+VER 3 0000000000000024 "Shutup!" "136164"
+/script hooksecurefunc("TalkingHeadFrame_PlayCurrent", function() TalkingHeadFrame:Show() end)
+END
+VER 3 0000000000000023 "sit" "136072"
+/sit
+END
+VER 3 0000000000000009 "Target" "Ability_BackStab"
+/cleartarget
+/target ravenous swarm
+END
+VER 3 0000000000000010 "剑盾" "INV_MISC_QUESTIONMARK"
+#showtooltip 4 15
+/equipslot [noequipped:off-hand]16 4 15
+/equipslot [noequipped:off-hand]17 4 16
+/equipslot [equipped:off-hand]16 4 15
+END
+VER 3 0000000000000015 "双手" "INV_MISC_QUESTIONMARK"
+#showtooltip 4 15
+/equipslot 16 4 15
+END
+VER 3 0000000000000012 "双挥" "INV_MISC_QUESTIONMARK"
+#showtooltip 4 15
+/equipslot 16 4 15
+/equipslot 17 4 16
+END
+VER 3 0000000000000013 "嘲讽" "SPELL_NATURE_REINCARNATION"
+/大笑
+END
+VER 3 0000000000000016 "尾行" "SPELL_SHADOW_CHARM"
+/follow
 END

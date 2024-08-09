@@ -1,0 +1,4 @@
+
+SlideBarConfig = {
+["enabled"] = true,
+}
