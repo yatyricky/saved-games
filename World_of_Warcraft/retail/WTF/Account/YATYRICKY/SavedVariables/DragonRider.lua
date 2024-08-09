@@ -9,18 +9,13 @@ DragonRider_DB = {
 ["showtooltip"] = true,
 ["speedometerScale"] = 1,
 ["speedTextScale"] = 12,
-["raceData"] = {
-["Account"] = {
-},
-["梅麻吕 - 金度"] = {
-},
-},
+["sideArt"] = true,
 ["speedometerPosX"] = 0,
 ["sideArtStyle"] = 1,
 ["multiplayer"] = true,
 ["speedometerPosPoint"] = 1,
 ["themeSpeed"] = 1,
-["useAccountData"] = false,
+["fadeSpeed"] = true,
 ["mainFrameSize"] = {
 ["height"] = 525,
 ["width"] = 550,
@@ -29,54 +24,59 @@ DragonRider_DB = {
 ["speedBarColor"] = {
 ["vigor"] = {
 ["a"] = 1,
-["r"] = 0,
-["g"] = 0.5647058823529412,
 ["b"] = 0.6078431372549019,
+["g"] = 0.5647058823529412,
+["r"] = 0,
 },
 ["slow"] = {
 ["a"] = 1,
-["r"] = 0.7686274509803922,
-["g"] = 0.3803921568627451,
 ["b"] = 0,
+["g"] = 0.3803921568627451,
+["r"] = 0.7686274509803922,
 },
 ["over"] = {
 ["a"] = 1,
-["r"] = 0.6588235294117647,
-["g"] = 0.3019607843137255,
 ["b"] = 0.7647058823529411,
+["g"] = 0.3019607843137255,
+["r"] = 0.6588235294117647,
 },
 },
 ["speedometerPosY"] = 5,
-["DynamicFOV"] = true,
+["themeVigor"] = 1,
 ["tempFixes"] = {
 ["hideVigor"] = true,
 },
 ["vigorProgressStyle"] = 1,
 ["muteVigorSound"] = false,
+["glyphDetector"] = true,
+["lightningRush"] = true,
+["fadeVigor"] = true,
+["speedValUnits"] = 1,
 ["speedTextColor"] = {
 ["vigor"] = {
-["r"] = 1,
-["g"] = 1,
 ["b"] = 1,
+["g"] = 1,
+["r"] = 1,
 },
 ["slow"] = {
-["r"] = 1,
-["g"] = 1,
 ["b"] = 1,
+["g"] = 1,
+["r"] = 1,
 },
 ["over"] = {
-["r"] = 1,
-["g"] = 1,
 ["b"] = 1,
+["g"] = 1,
+["r"] = 1,
 },
 },
-["lightningRush"] = true,
-["speedValUnits"] = 1,
-["fadeVigor"] = true,
-["glyphDetector"] = true,
-["themeVigor"] = 1,
+["DynamicFOV"] = true,
 ["statistics"] = {
 },
-["fadeSpeed"] = true,
-["sideArt"] = true,
+["useAccountData"] = false,
+["raceData"] = {
+["梅麻吕 - 金度"] = {
+},
+["Account"] = {
+},
+},
 }

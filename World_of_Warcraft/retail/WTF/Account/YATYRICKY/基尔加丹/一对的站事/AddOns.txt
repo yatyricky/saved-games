@@ -18,3 +18,5 @@ Stubby: enabled
 TomTom: enabled
 TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled

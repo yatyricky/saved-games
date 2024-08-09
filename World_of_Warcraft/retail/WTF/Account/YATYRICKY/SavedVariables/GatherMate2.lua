@@ -1,10 +1,11 @@
 
 GatherMate2DB = {
+["profileKeys"] = {
+["这有好凹揍闷 - 基尔加丹"] = "Default",
+["梅麻吕 - 金度"] = "Default",
+},
 ["global"] = {
 ["data_version"] = 6,
-},
-["profileKeys"] = {
-["梅麻吕 - 金度"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
